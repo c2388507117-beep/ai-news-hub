@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import Footer from '../components/Footer.astro';
+import type { NewsItem } from '../lib/types';
+import allNewsData from '../data/news.json';
+
+const query = Astro.url.searchParams.get('q') || '';
+const locale = 'zh-CN';
+
+const allNews = allNewsData as NewsItem[];
+
+const results = query
+  ? allNews.filter(
+      (item) =>
+        item.title.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale)) ||
+        item.summary.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale)) ||
+        item.source.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale))
+    )
+  : [];
+---
+
+<BaseLayout title={query ? `搜索: ${query} - AI News Hub` : 'AI News Hub - 搜索'}>
+  <main class="max-w-4xl mx-auto px-4 py-6">
+    <form action="/search" method="get" class="mb-6">
+      <div class="relative">
+        <input
+          type="search"
+          name="q"
+          value={query}
+          aria-label="搜索"
+          placeholder="搜索 AI 新闻..."
+          class="w-full px-4 py-2.5 pl-10 rounded-xl border border-gray-300 dark:border-gray-700
+                 bg-white dark:bg-gray-900 text-sm
+                 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </div>
+    </form>
+
+    {query ? (
+      <>
+        <p class="text-sm text-gray-500 mb-4">找到 {results.length} 条关于 "{query}" 的结果</p>
+        <div class="space-y-3">
+          {results.map((item) => <NewsCard item={item} />)}
+        </div>
+      </>
+    ) : (
+      <p class="text-center text-gray-400 py-12">输入关键词搜索 AI 新闻</p>
+    )}
+  </main>
+  <Fragment slot="footer">
+    <Footer />
+  </Fragment>
+</BaseLayout>

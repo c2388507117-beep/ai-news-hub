@@ -1,0 +1,39 @@
+name: Fetch News and Deploy
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 00:00 UTC = 08:00 CST
+    - cron: '0 10 * * *'  # 10:00 UTC = 18:00 CST
+  workflow_dispatch:       # Manual trigger
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch RSS news
+        run: node scripts/fetch-news.mjs
+
+      - name: Fetch GitHub trending
+        run: node scripts/fetch-trending.mjs
+
+      - name: Build site
+        run: npx astro build
+
+      - name: Build search index
+        run: npx pagefind --site dist
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages deploy dist --project-name=ai-news-hub

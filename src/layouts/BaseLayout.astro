@@ -1,0 +1,36 @@
+---
+export interface Props {
+  title?: string;
+  currentCategory?: string;
+}
+
+const { title = 'AI News Hub', currentCategory = '' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI News Hub - 每日 AI 新闻聚合" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="AI News Hub RSS" href="/rss.xml" />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100
+               font-sans antialiased">
+    <header class="sticky top-0 z-10 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm
+                   border-b border-gray-200 dark:border-gray-800">
+      <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          AI News Hub
+        </a>
+        <div class="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
+          <a href="/rss.xml" class="hover:text-orange-500 transition-colors">RSS</a>
+        </div>
+      </div>
+    </header>
+    <slot />
+    <slot name="footer" />
+  </body>
+</html>

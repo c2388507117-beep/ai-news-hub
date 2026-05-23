@@ -1,0 +1,38 @@
+---
+import { CATEGORY_LABELS, CATEGORY_EMOJIS } from '../lib/types';
+import type { Category } from '../lib/types';
+
+export interface Props {
+  current: string;
+}
+
+const { current } = Astro.props;
+
+const allCategories: Array<{ key: string; label: string; emoji: string }> = [
+  { key: '', label: '全部', emoji: '📰' },
+  ...(Object.keys(CATEGORY_LABELS) as Category[]).map((key) => ({
+    key,
+    label: CATEGORY_LABELS[key],
+    emoji: CATEGORY_EMOJIS[key],
+  })),
+];
+---
+
+<nav class="max-w-4xl mx-auto px-4 py-3 overflow-x-auto">
+  <div class="flex gap-2 min-w-max">
+    {allCategories.map((cat) => (
+      <a
+        href={cat.key ? `/?cat=${cat.key}` : '/'}
+        class={`
+          px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap
+          transition-colors
+          ${current === cat.key
+            ? 'bg-blue-600 text-white'
+            : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'}
+        `}
+      >
+        {cat.emoji} {cat.label}
+      </a>
+    ))}
+  </div>
+</nav>
