@@ -21,6 +21,9 @@ const SOURCES = [
   { name: 'Meta AI', url: 'https://ai.meta.com/blog/feed.xml', category: 'research' },
   { name: 'MIT Tech Review', url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed/', category: 'research' },
   { name: 'OpenAI', url: 'https://openai.com/blog/rss.xml', category: 'industry' },
+  // Chinese AI sources
+  { name: '36氪', url: 'https://36kr.com/feed', category: 'industry' },
+  { name: '爱范儿', url: 'https://www.ifanr.com/feed', category: 'industry' },
 ];
 
 function slugify(text) {
