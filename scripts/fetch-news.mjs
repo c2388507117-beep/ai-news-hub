@@ -122,6 +122,7 @@ async function fetchSource(source) {
       title: item.title || 'Untitled',
       url: item.link || '',
       summary: (item.contentSnippet || item.content || '').slice(0, 500),
+      fullContent: (item.contentSnippet || item.content || '').slice(0, 3000),
       source: source.name,
       category: source.category,
       publishedAt: parseDate(item),

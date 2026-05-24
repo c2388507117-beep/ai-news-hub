@@ -48,23 +48,31 @@ function renderCard(item) {
   const d = new Date(item.publishedAt);
   const dateStr = d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
   const imageHtml = item.imageUrl
-    ? `<img src="${escapeHtml(item.imageUrl)}" alt="" class="w-20 h-14 object-cover rounded-lg flex-shrink-0" />`
+    ? `<img src="${escapeHtml(item.imageUrl)}" alt="" class="w-16 h-16 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-800" />`
     : '';
+  const hasContent = item.fullContent && item.fullContent.length > item.summary.length;
+  const fullContent = hasContent ? escapeHtml(item.fullContent) : '';
 
-  return `<div class="p-4 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-    <div class="flex gap-4">
-      ${imageHtml ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">${imageHtml}</a>` : ''}
-      <div class="min-w-0 flex-1">
-        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="block group">
-          <h2 class="text-base font-semibold leading-snug mb-1.5 text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">${escapeHtml(item.title)}</h2>
-        </a>
+  return `<div class="news-card bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all duration-200 cursor-pointer" data-expandable>
+    <div class="flex items-start gap-3">
+      ${imageHtml}
+      <div class="flex-1 min-w-0">
+        <h2 class="text-base font-semibold leading-snug mb-1 line-clamp-2">${escapeHtml(item.title)}</h2>
         ${item.summary ? `<p class="text-sm text-gray-500 dark:text-gray-400 line-clamp-2 mb-2">${escapeHtml(item.summary)}</p>` : ''}
-        <div class="flex items-center gap-3 text-xs text-gray-400 dark:text-gray-500">
+        <div class="flex items-center gap-2 text-xs text-gray-400 dark:text-gray-500 flex-wrap">
           <span>${escapeHtml(item.source)}</span>
+          <span>·</span>
           <span>${dateStr}</span>
         </div>
       </div>
     </div>
+    ${fullContent ? `<div class="expanded-content mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 hidden">
+      <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-4 whitespace-pre-wrap">${fullContent}</div>
+      <div class="flex items-center justify-between text-xs text-gray-400 dark:text-gray-500 pt-3 border-t border-gray-100 dark:border-gray-800">
+        <span>📎 出处: ${escapeHtml(item.source)}</span>
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600 hover:underline">查看原文 →</a>
+      </div>
+    </div>` : ''}
   </div>`;
 }
 

@@ -19,15 +19,13 @@ function formatDate(dateStr: string): string {
   }
   return d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' });
 }
+
+const hasContent = !!(item.fullContent && item.fullContent.length > item.summary.length);
 ---
 
-<a
-  href={item.url}
-  target="_blank"
-  rel="noopener noreferrer"
-  class="block bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800
-         p-4 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md
-         transition-all duration-200"
+<div
+  class="news-card bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all duration-200 cursor-pointer"
+  data-expandable
 >
   <div class="flex items-start gap-3">
     {item.imageUrl && (
@@ -68,4 +66,26 @@ function formatDate(dateStr: string): string {
       </div>
     </div>
   </div>
-</a>
+
+  <!-- Expanded content -->
+  <div class="expanded-content mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 hidden">
+    {item.imageUrl && (
+      <img
+        src={item.imageUrl}
+        alt=""
+        class="w-full max-h-64 object-cover rounded-lg mb-4 bg-gray-100 dark:bg-gray-800"
+        loading="lazy"
+        onerror="this.style.display='none'"
+      />
+    )}
+    <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-4 whitespace-pre-wrap">
+      {hasContent ? item.fullContent : item.summary}
+    </div>
+    <div class="flex items-center justify-between text-xs text-gray-400 dark:text-gray-500 pt-3 border-t border-gray-100 dark:border-gray-800">
+      <span>📎 出处: {item.source}</span>
+      <a href={item.url} target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600 hover:underline">
+        查看原文 →
+      </a>
+    </div>
+  </div>
+</div>
