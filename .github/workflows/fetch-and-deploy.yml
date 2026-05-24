@@ -1,7 +1,9 @@
 name: Fetch News and Deploy
 
 on:
-  workflow_dispatch:       # Manual trigger only
+  workflow_dispatch:       # Manual trigger
+  schedule:                # Weekly auto-update (Monday 8:00 UTC = 16:00 CST)
+    - cron: '0 8 * * 1'
 
 jobs:
   build-and-deploy:
