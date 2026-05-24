@@ -1,17 +1,19 @@
-export type Category = 'research' | 'industry' | 'trending' | 'gaming';
+export type Category = 'ai' | 'tech' | 'business' | 'gaming' | 'trending';
 
 export const CATEGORY_LABELS: Record<Category, string> = {
-  research: '研究突破',
-  industry: '行业动态',
-  trending: '热门项目',
+  ai: 'AI 前沿',
+  tech: '科技动态',
+  business: '商业财经',
   gaming: '游戏资讯',
+  trending: '热门项目',
 };
 
 export const CATEGORY_EMOJIS: Record<Category, string> = {
-  research: '🔬',
-  industry: '🏢',
-  trending: '📦',
+  ai: '🤖',
+  tech: '💻',
+  business: '📈',
   gaming: '🎮',
+  trending: '📦',
 };
 
 export interface NewsItem {
@@ -29,7 +31,7 @@ export interface NewsItem {
   language?: string;
 }
 
-export const ALL_CATEGORIES: Category[] = ['research', 'industry', 'trending', 'gaming'];
+export const ALL_CATEGORIES: Category[] = ['ai', 'tech', 'business', 'gaming', 'trending'];
 
 // --- Hot Topic types ---
 

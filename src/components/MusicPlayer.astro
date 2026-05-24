@@ -7,6 +7,7 @@ export interface Props {
 
 const { songs } = Astro.props;
 const todaySong = songs.length > 0 ? songs[new Date().getDate() % songs.length] : null;
+const songsJson = JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, artist: s.artist })));
 ---
 
 {todaySong && (
@@ -17,22 +18,11 @@ const todaySong = songs.length > 0 ? songs[new Date().getDate() % songs.length] 
       title="每日音乐"
       aria-label="播放音乐"
     >
-      <span class="text-lg">🎵</span>
+      <span id="music-icon" class="text-lg">🎵</span>
     </button>
 
     <div id="music-embed" class="hidden mt-2">
-      <div class="relative">
-        <iframe
-          id="music-iframe"
-          frameborder="no"
-          border="0"
-          marginwidth="0"
-          marginheight="0"
-          width="280"
-          height="86"
-          src="about:blank"
-          class="rounded-lg shadow-lg"
-        ></iframe>
+      <div class="relative bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-3 w-64">
         <button
           id="music-close"
           class="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-gray-700 text-white text-xs flex items-center justify-center hover:bg-gray-600 transition-colors"
@@ -40,54 +30,77 @@ const todaySong = songs.length > 0 ? songs[new Date().getDate() % songs.length] 
         >
           ✕
         </button>
+        <p class="text-sm font-medium mb-1 pr-4 truncate" id="song-title">{todaySong.title}</p>
+        <p class="text-xs text-gray-400 mb-2" id="song-artist">{todaySong.artist}</p>
+        <audio id="audio-player" class="w-full h-10" controls preload="none">
+          <source id="audio-source" src={`https://music.163.com/song/media/outer/url?id=${todaySong.id}.mp3`} type="audio/mpeg" />
+        </audio>
+        <p id="music-error" class="text-xs text-red-400 mt-1 hidden">播放失败，请尝试其他歌曲</p>
       </div>
     </div>
   </div>
 )}
 
 <script>
+  var songs = JSON.parse('{songsJson}');
+
   const toggle = document.getElementById('music-toggle');
   const embed = document.getElementById('music-embed');
-  const iframe = document.getElementById('music-iframe');
   const closeBtn = document.getElementById('music-close');
+  const audio = document.getElementById('audio-player');
+  const audioSource = document.getElementById('audio-source');
+  const songTitle = document.getElementById('song-title');
+  const songArtist = document.getElementById('song-artist');
+  const musicIcon = document.getElementById('music-icon');
+  const musicError = document.getElementById('music-error');
   let isOpen = false;
-  let isPlaying = false;
 
-  // Get today's song
-  var songs = JSON.parse('{JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, artist: s.artist })))}');
-  var todayIdx = new Date().getDate() % songs.length;
-  var currentSong = songs[todayIdx];
+  // Today's song index
+  const todayIdx = new Date().getDate() % songs.length;
+  let currentSongIdx = todayIdx;
 
-  toggle.addEventListener('click', () => {
-    if (isOpen && isPlaying) {
-      // Close player
-      embed.classList.add('hidden');
-      isOpen = false;
-      isPlaying = false;
-      iframe.src = 'about:blank';
+  function loadSong(index) {
+    const song = songs[index];
+    if (!song) return;
+    currentSongIdx = index;
+    songTitle.textContent = song.title;
+    songArtist.textContent = song.artist;
+    audioSource.src = `https://music.163.com/song/media/outer/url?id=${song.id}.mp3`;
+    audio.load();
+    musicError.classList.add('hidden');
+  }
+
+  // Try next song on error
+  audio.addEventListener('error', () => {
+    const nextIdx = (currentSongIdx + 1) % songs.length;
+    if (nextIdx === todayIdx) {
+      musicError.classList.remove('hidden');
       return;
     }
+    loadSong(nextIdx);
+    audio.play().catch(() => {});
+  });
 
-    if (!isOpen) {
-      // Open and play
-      iframe.src = 'https://music.163.com/outchain/player?type=2&id=' + currentSong.id + '&auto=1&height=66';
-      embed.classList.remove('hidden');
-      isOpen = true;
-      isPlaying = true;
-    } else {
-      // Resume playing (iframe already loaded)
+  toggle.addEventListener('click', () => {
+    if (isOpen) {
       embed.classList.add('hidden');
+      audio.pause();
+      musicIcon.textContent = '🎵';
       isOpen = false;
-      isPlaying = false;
-      iframe.src = 'about:blank';
+    } else {
+      embed.classList.remove('hidden');
+      musicIcon.textContent = '🎶';
+      isOpen = true;
+      loadSong(currentSongIdx);
+      audio.play().catch(() => {});
     }
   });
 
   closeBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     embed.classList.add('hidden');
+    audio.pause();
+    musicIcon.textContent = '🎵';
     isOpen = false;
-    isPlaying = false;
-    iframe.src = 'about:blank';
   });
 </script>

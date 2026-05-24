@@ -19,24 +19,68 @@ const parser = new Parser({
 
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
 
+// Only Chinese domestic news sources
 const SOURCES = [
-  // International AI sources
-  { name: 'TechCrunch', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', category: 'industry' },
-  { name: 'The Verge', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', category: 'industry' },
-  { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/index', category: 'research' },
-  { name: 'Hugging Face', url: 'https://huggingface.co/blog/feed.xml', category: 'research' },
-  { name: 'Google AI', url: 'https://blog.research.google/atom.xml', category: 'research' },
-  { name: 'Meta AI', url: 'https://ai.meta.com/blog/feed.xml', category: 'research' },
-  { name: 'MIT Tech Review', url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed/', category: 'research' },
-  { name: 'OpenAI', url: 'https://openai.com/blog/rss.xml', category: 'industry' },
-  // Chinese AI & tech sources
-  { name: '36氪', url: 'https://36kr.com/feed', category: 'industry' },
-  { name: '爱范儿', url: 'https://www.ifanr.com/feed', category: 'industry' },
-  { name: '钛媒体', url: 'https://www.tmtpost.com/rss.xml', category: 'industry' },
-  { name: 'IT之家', url: 'https://www.ithome.com/rss', category: 'industry' },
-  // Chinese gaming sources
+  { name: '36氪', url: 'https://36kr.com/feed', category: 'business' },
+  { name: '爱范儿', url: 'https://www.ifanr.com/feed', category: 'tech' },
+  { name: '钛媒体', url: 'https://www.tmtpost.com/rss.xml', category: 'business' },
+  { name: 'IT之家', url: 'https://www.ithome.com/rss', category: 'tech' },
   { name: '机核网', url: 'https://www.gcores.com/rss', category: 'gaming' },
 ];
+
+// Keyword rules for auto-categorization (overrides source default)
+const CATEGORY_RULES = [
+  {
+    category: 'ai',
+    keywords: [
+      'ai', '人工智能', '大模型', 'gpt', 'llm', 'openai', 'chatgpt', 'claude',
+      'gemini', 'llama', 'deepseek', 'qwen', '通义', '文心', '星火', '混元',
+      'neural', '深度学习', '机器学习', 'pytorch', 'tensorflow', 'hugging face',
+      'copilot', 'agi', 'transformer', 'diffusion', 'stable diffusion',
+      'computer vision', '计算机视觉', 'nlp', '自然语言处理',
+      '强化学习', 'reinforcement learning', '多模态', 'multimodal',
+      '向量', 'embedding', 'ai agent', 'ai agent', '智能体',
+      '推理', 'inference', '模型', 'model', '训练', 'training',
+    ],
+  },
+  {
+    category: 'tech',
+    keywords: [
+      'iphone', 'android', '芯片', '处理器', '手机', '电脑', '笔记本',
+      '华为', '小米', 'apple', 'samsung', '5g', '6g', '操作系统',
+      '软件', 'app', 'ios', 'mac', 'windows', 'linux', '智能',
+      '可穿戴', 'vr', 'ar', '自动驾驶', '电动汽车', '机器人',
+      'iot', '传感器', '显卡', 'gpu', 'cpu', '固态', 'ssd', '内存',
+      '屏幕', '显示器', '电池', '充电', '数码', '科技',
+    ],
+  },
+  {
+    category: 'business',
+    keywords: [
+      '融资', '上市', '收购', '投资', '财报', '营收', '利润', '市值',
+      '创业', '独角兽', 'ipo', '估值', '股票', '股东', '股市',
+      '监管', '反垄断', '合规', '裁员', '招聘', '比特币', '加密货币',
+      '区块链', 'web3', '元宇宙', '量化', '基金', '金融',
+    ],
+  },
+];
+
+function autoCategorize(title, summary, defaultCategory) {
+  const text = (title + ' ' + summary).toLowerCase();
+  const scores = {};
+  for (const rule of CATEGORY_RULES) {
+    let score = 0;
+    for (const kw of rule.keywords) {
+      if (text.includes(kw.toLowerCase())) {
+        score++;
+      }
+    }
+    if (score > 0) scores[rule.category] = score;
+  }
+  if (Object.keys(scores).length === 0) return defaultCategory;
+  // Return the category with the highest keyword match count
+  return Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+}
 
 function slugify(text) {
   const slug = text
@@ -110,7 +154,6 @@ function extractImage(item) {
     if (url) {
       if (type?.startsWith('image/')) return url;
       if (medium === 'image') return url;
-      // Skip video URLs — they won't render as <img>
       if (!type?.startsWith('video/') && medium !== 'video') {
         return url;
       }
@@ -165,14 +208,18 @@ async function fetchSource(source) {
     const feed = await parser.parseURL(source.url);
     const items = (feed.items || []).slice(0, 15).map((item) => {
       const rawContent = item.contentSnippet || item.content || '';
+      const title = item.title || 'Untitled';
+      const summary = generateSummary(rawContent, 400);
+      // Auto-categorize based on title + summary keywords
+      const category = autoCategorize(title, summary, source.category);
       return {
-        id: slugify(item.title || '') + '-' + Date.now(),
-        title: item.title || 'Untitled',
+        id: slugify(title) + '-' + Date.now(),
+        title,
         url: item.link || '',
-        summary: generateSummary(rawContent, 400),
+        summary,
         fullContent: cleanContent(rawContent).slice(0, 3000),
         source: source.name,
-        category: source.category,
+        category,
         publishedAt: parseDate(item),
         imageUrl: extractImage(item),
         type: 'article',
@@ -213,7 +260,7 @@ function readExistingData(dataPath) {
 }
 
 async function main() {
-  console.log('Fetching RSS feeds...');
+  console.log('Fetching RSS feeds from Chinese sources...');
 
   const results = await Promise.allSettled(SOURCES.map(fetchSource));
   const allItems = results.flatMap((r) => (r.status === 'fulfilled' ? r.value : []));
@@ -230,10 +277,21 @@ async function main() {
 
   const dataPath = path.join(__dirname, '..', 'src', 'data', 'news.json');
   const existing = readExistingData(dataPath);
-  const merged = mergeNews(existing, fresh);
 
-  const removed = existing.length - removeOldNews(existing).length;
-  if (removed > 0) console.log(`  🗑 Cleaned ${removed} items older than 7 days`);
+  // Re-categorize existing items too (in case category rules changed)
+  const recategorized = existing.map((item) => {
+    if (item.category === 'research' || item.category === 'industry') {
+      // Map old categories to new ones
+      const newCat = autoCategorize(item.title, item.summary || '', 'tech');
+      return { ...item, category: newCat };
+    }
+    return item;
+  });
+
+  const merged = mergeNews(recategorized, fresh);
+
+  const removed = recategorized.length - removeOldNews(recategorized).length;
+  if (removed > 0) console.log(`  \u{1F5D1} Cleaned ${removed} items older than 7 days`);
 
   fs.writeFileSync(dataPath, JSON.stringify(merged, null, 2), 'utf-8');
   console.log(`\nDone: ${fresh.length} new items, ${merged.length} total after cleanup`);

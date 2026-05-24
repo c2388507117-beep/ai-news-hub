@@ -6,15 +6,20 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Multiple broad queries to cover more AI/ML topics
+const TWO_YEARS_AGO = new Date();
+TWO_YEARS_AGO.setFullYear(TWO_YEARS_AGO.getFullYear() - 2);
+const DATE_FILTER = 'created:>=' + TWO_YEARS_AGO.toISOString().slice(0, 10);
+
+// Search queries that return popular AI/ML repos
 const SEARCH_QUERIES = [
-  'topic:ai OR topic:artificial-intelligence OR topic:machine-learning',
-  'topic:deep-learning OR topic:llm OR topic:large-language-model OR topic:generative-ai',
-  'topic:computer-vision OR topic:nlp OR topic:natural-language-processing',
-  'topic:reinforcement-learning OR topic:robotics OR topic:ai-agents OR topic:mlops',
+  `ai OR artificial-intelligence OR machine-learning ${DATE_FILTER} stars:>500`,
+  `llm OR large-language-model OR gpt ${DATE_FILTER} stars:>500`,
+  `deep-learning OR neural-network OR pytorch ${DATE_FILTER} stars:>500`,
+  `computer-vision OR nlp OR recommender-system ${DATE_FILTER} stars:>300`,
+  `ai-agents OR autonomous-ai OR rag ${DATE_FILTER} stars:>300`,
 ];
 
-const PER_PAGE = 50;
+const PER_PAGE = 30;
 const MAX_REPOS = 40;
 
 function readExistingData(dataPath) {
@@ -25,7 +30,7 @@ function readExistingData(dataPath) {
   }
 }
 
-async function fetchRepos(query) {
+async function fetchFromGitHub(query) {
   const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${PER_PAGE}`;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30000);
@@ -37,16 +42,53 @@ async function fetchRepos(query) {
     });
     if (!res.ok) {
       console.error(`  ✗ GitHub API (${res.status}): ${res.statusText}`);
-      return [];
+      return null;
     }
     const data = await res.json();
     return data.items || [];
   } catch (err) {
     console.error(`  ✗ GitHub API: ${err.message}`);
-    return [];
+    return null;
   } finally {
     clearTimeout(timeout);
   }
+}
+
+async function fetchFromMirror(query) {
+  // Fallback: use GitHub API via ghproxy (accessible from China)
+  const url = `https://ghproxy.net/https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${PER_PAGE}`;
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'AI-News-Hub/1.0' },
+      signal: AbortSignal.timeout(30000),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.items || [];
+  } catch {
+    return null;
+  }
+}
+
+async function fetchRepos(query) {
+  // Try direct GitHub API first, then mirror
+  let repos = await fetchFromGitHub(query);
+  if (repos === null) {
+    console.log('  Trying mirror fallback...');
+    repos = await fetchFromMirror(query);
+  }
+  if (repos === null) {
+    console.error(`  ✗ All sources failed for query`);
+    return [];
+  }
+  // Filter to ensure only recent repos
+  const cutoff = TWO_YEARS_AGO.getTime();
+  repos = repos.filter((repo) => {
+    const created = new Date(repo.created_at).getTime();
+    return !isNaN(created) && created >= cutoff;
+  });
+  console.log(`  ✓ ${repos.length} repos (query: ${query.slice(0, 60)}...)`);
+  return repos;
 }
 
 function repoToNewsItem(repo) {
@@ -70,7 +112,7 @@ function repoToNewsItem(repo) {
 }
 
 async function main() {
-  console.log('Fetching GitHub trending AI repos...');
+  console.log('Fetching GitHub trending AI repos (last 2 years)...');
 
   // Fetch all queries in parallel
   const results = await Promise.allSettled(SEARCH_QUERIES.map(fetchRepos));
@@ -98,8 +140,16 @@ async function main() {
   const dataPath = path.join(__dirname, '..', 'src', 'data', 'news.json');
   const existing = readExistingData(dataPath);
 
+  // Re-categorize existing items
+  const migrated = existing.map((item) => {
+    if (item.category === 'research' || item.category === 'industry') {
+      return { ...item, category: 'tech' };
+    }
+    return item;
+  });
+
   // Merge: replace all existing trending repos with fresh ones, keep other categories
-  const nonTrending = existing.filter((item) => item.category !== 'trending');
+  const nonTrending = migrated.filter((item) => item.category !== 'trending');
   const trendingItems = top.map(repoToNewsItem);
   const merged = [...nonTrending, ...trendingItems]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())

@@ -14,9 +14,9 @@ const recentItems = items.filter((item) => {
   return age < 2 * oneDayMs; // last 48 hours
 });
 
-// Prefer research and industry articles, then pick top 4
+// Prefer AI and tech articles, then pick top 4
 const prioritized = [...recentItems].sort((a, b) => {
-  const catOrder = { research: 0, industry: 1, trending: 2, gaming: 3 };
+  const catOrder = { ai: 0, tech: 1, business: 2, gaming: 3, trending: 4 };
   const aOrder = catOrder[a.category] ?? 99;
   const bOrder = catOrder[b.category] ?? 99;
   if (aOrder !== bOrder) return aOrder - bOrder;

@@ -33,8 +33,6 @@ type PreparedCategory = {
   name: string;
   displayName: string;
   models: PreparedModel[];
-  modelCount: number;
-  hasMore: boolean;
   isActive: boolean;
 };
 
@@ -44,7 +42,7 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
   const catData = data.categories[cat.name];
   const rawModels = catData?.models || [];
   const maxScore = getMaxScore(rawModels);
-  const models = rawModels.map((m) => {
+  const models = rawModels.slice(0, 10).map((m) => {
     const isTop3 = m.rank <= 3;
     const top3Emoji = ['🥇', '🥈', '🥉'];
     return {
@@ -61,8 +59,6 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
     name: cat.name,
     displayName: cat.displayName,
     models,
-    modelCount: models.length,
-    hasMore: models.length > 10,
     isActive: ci === 0,
   };
 });
@@ -98,9 +94,9 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
           data-lb-content={cat.name}
           class={'lb-content' + (cat.isActive ? '' : ' hidden')}
         >
-          {cat.modelCount > 0 ? (
+          {cat.models.length > 0 ? (
             <div class="divide-y divide-gray-100 dark:divide-gray-800">
-              {cat.models.slice(0, 10).map((model) => (
+              {cat.models.map((model) => (
                 <div class={model.rowClass}>
                   <span class={model.rankClass}>{model.rankDisplay}</span>
                   <span class="lb-model text-sm font-semibold truncate" title={model.model}>
@@ -125,13 +121,6 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
             <p class="text-center text-gray-400 py-8 text-sm">暂无数据</p>
           )}
 
-          {cat.hasMore && (
-            <div class="border-t border-gray-100 dark:border-gray-800">
-              <button class="lb-show-more w-full py-2.5 text-sm text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors font-medium">
-                查看全部 {cat.modelCount} 个模型 ↓
-              </button>
-            </div>
-          )}
         </div>
       ))}
     </div>
@@ -161,25 +150,4 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
     });
   });
 
-  // Show more / show less
-  document.querySelectorAll('.lb-show-more').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const content = btn.closest('.lb-content');
-      const rows = content.querySelectorAll('.lb-row');
-      const total = rows.length;
-      const hidden = content.querySelectorAll('.lb-row.hidden');
-
-      if (hidden.length === 0) {
-        rows.forEach((row, i) => { if (i >= 10) row.classList.add('hidden'); });
-        btn.textContent = '查看全部 ' + total + ' 个模型 ↓';
-      } else {
-        rows.forEach((row) => row.classList.remove('hidden'));
-        btn.textContent = '收起 ↑';
-      }
-    });
-
-    // Initialize: hide rows beyond 10
-    const rows = btn.closest('.lb-content').querySelectorAll('.lb-row');
-    rows.forEach((row, i) => { if (i >= 10) row.classList.add('hidden'); });
-  });
 </script>
