@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ToolCard from '../components/ToolCard.astro';
+import Footer from '../components/Footer.astro';
+import type { Tool } from '../lib/types';
+import { TOOL_CATEGORIES } from '../lib/types';
+import allTools from '../data/tools.json';
+
+const tools = allTools as Tool[];
+---
+
+<BaseLayout title="AI News Hub - AI 工具导航">
+  <main class="max-w-4xl mx-auto px-4 py-6">
+    <!-- Header -->
+    <div class="mb-6">
+      <h1 class="text-2xl font-bold mb-2">🧰 AI 工具导航</h1>
+      <p class="text-sm text-gray-500 dark:text-gray-400">精选国内外热门 AI 工具，按类别分类展示</p>
+    </div>
+
+    <!-- Category Filter -->
+    <div class="flex flex-wrap gap-2 mb-6" id="tool-category-nav">
+      <button data-tool-cat="" class="tool-cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-blue-600 text-white transition-colors">
+        📋 全部
+      </button>
+      {TOOL_CATEGORIES.map((cat) => (
+        <button
+          data-tool-cat={cat.key}
+          class="tool-cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+        >
+          {cat.emoji} {cat.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Section: 热门精选 -->
+    <section class="mb-8">
+      <h2 class="text-lg font-semibold mb-3 text-gray-700 dark:text-gray-300">🔥 热门精选</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {tools.filter((t) => t.popular).map((tool) => (
+          <ToolCard tool={tool} />
+        ))}
+      </div>
+    </section>
+
+    <!-- Sections by category -->
+    {TOOL_CATEGORIES.map((cat) => {
+      const catTools = tools.filter((t) => t.category === cat.key);
+      if (catTools.length === 0) return null;
+      return (
+        <section class="mb-8 tool-section" data-tool-section={cat.key}>
+          <h2 class="text-lg font-semibold mb-3 text-gray-700 dark:text-gray-300">{cat.emoji} {cat.label}</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {catTools.map((tool) => (
+              <ToolCard tool={tool} />
+            ))}
+          </div>
+        </section>
+      );
+    })}
+  </main>
+  <Fragment slot="footer">
+    <Footer />
+  </Fragment>
+</BaseLayout>
+
+<script>
+  // Category filtering
+  const catBtns = document.querySelectorAll('.tool-cat-btn');
+  const sections = document.querySelectorAll('.tool-section');
+  const popularSection = document.querySelector('section.mb-8');
+
+  catBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.toolCat || '';
+
+      catBtns.forEach((b) => {
+        b.classList.remove('bg-blue-600', 'text-white');
+        b.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
+      });
+      btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
+      btn.classList.add('bg-blue-600', 'text-white');
+
+      // Show/hide sections
+      sections.forEach((section) => {
+        const sectionCat = section.dataset.toolSection;
+        section.style.display = !cat || sectionCat === cat ? '' : 'none';
+      });
+
+      // Show/hide popular section (show when "all" or any matching)
+      if (popularSection) {
+        const popularTools = popularSection.querySelectorAll('.tool-card');
+        let hasVisible = false;
+        popularTools.forEach((card) => {
+          // Get the parent tool-section-like context for each card
+          // Actually for popular section, show when showing all OR when the category matches
+          const toolCard = card.closest('[data-tool-section]');
+          // Popular cards don't have data-tool-section, so always check
+          // We need a different approach: popular cards are in the popular section which has no data-tool-section
+        });
+        // Simple: show popular section when viewing "all"
+        popularSection.style.display = !cat ? '' : 'none';
+      }
+    });
+  });
+</script>

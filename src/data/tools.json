@@ -1,0 +1,218 @@
+[
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "description": "OpenAI 推出的对话式 AI 助手，支持文本生成、代码编写、图像分析等多模态交互",
+    "category": "chat",
+    "icon": "💬",
+    "tags": ["OpenAI", "多模态", "代码"],
+    "popular": true
+  },
+  {
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "description": "Anthropic 推出的 AI 助手，擅长长文本理解、深度分析和代码编写",
+    "category": "chat",
+    "icon": "🧠",
+    "tags": ["Anthropic", "长文本", "分析"],
+    "popular": true
+  },
+  {
+    "name": "Gemini",
+    "url": "https://gemini.google.com",
+    "description": "Google 的多模态 AI 助手，支持文本、图像、音频、视频理解",
+    "category": "chat",
+    "icon": "✨",
+    "tags": ["Google", "多模态", "搜索"],
+    "popular": true
+  },
+  {
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "description": "深度求索推出的开源大模型对话助手，数学和编程能力出色，性价比极高",
+    "category": "chat",
+    "icon": "🔍",
+    "tags": ["国产", "开源", "编程"],
+    "popular": true
+  },
+  {
+    "name": "通义千问",
+    "url": "https://tongyi.aliyun.com",
+    "description": "阿里云推出的 AI 助手，集成于阿里生态，支持文档处理、创作等",
+    "category": "chat",
+    "icon": "🌈",
+    "tags": ["国产", "阿里", "文档"],
+    "popular": true
+  },
+  {
+    "name": "文心一言",
+    "url": "https://yiyan.baidu.com",
+    "description": "百度推出的知识增强大语言模型，中文理解能力强，集成百度搜索生态",
+    "category": "chat",
+    "icon": "📚",
+    "tags": ["国产", "百度", "中文"],
+    "popular": true
+  },
+  {
+    "name": "Kimi",
+    "url": "https://kimi.moonshot.cn",
+    "description": "月之暗面推出的 AI 助手，以超长上下文处理能力著称",
+    "category": "chat",
+    "icon": "🌙",
+    "tags": ["国产", "长上下文", "阅读"],
+    "popular": true
+  },
+  {
+    "name": "Grok",
+    "url": "https://grok.com",
+    "description": "xAI 推出的 AI 助手，实时访问 X 平台数据，风格幽默直接",
+    "category": "chat",
+    "icon": "🤖",
+    "tags": ["xAI", "实时", "社交"],
+    "popular": true
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "AI 编程助手，集成 VS Code 等 IDE，支持代码补全、对话调试",
+    "category": "code",
+    "icon": "👩‍💻",
+    "tags": ["GitHub", "IDE", "补全"],
+    "popular": true
+  },
+  {
+    "name": "Cursor",
+    "url": "https://cursor.sh",
+    "description": "AI-first 代码编辑器，内置强大的 AI 对话和代码生成能力",
+    "category": "code",
+    "icon": "🖥️",
+    "tags": ["编辑器", "AI-first", "对话"],
+    "popular": true
+  },
+  {
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "description": "Codeium 推出的 AI 编程 IDE，支持多文件编辑和智能代理模式",
+    "category": "code",
+    "icon": "🏄",
+    "tags": ["IDE", "代理", "多文件"],
+    "popular": true
+  },
+  {
+    "name": "Replit Agent",
+    "url": "https://replit.com",
+    "description": "在线 IDE 与 AI 代理结合，通过自然语言描述直接生成完整应用",
+    "category": "code",
+    "icon": "🔄",
+    "tags": ["在线 IDE", "代理", "部署"],
+    "popular": false
+  },
+  {
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "description": "领先的 AI 图像生成工具，以艺术质量和风格多样性著称",
+    "category": "image",
+    "icon": "🎨",
+    "tags": ["图像", "艺术", "高质量"],
+    "popular": true
+  },
+  {
+    "name": "DALL·E 3",
+    "url": "https://openai.com/dall-e-3",
+    "description": "OpenAI 推出的文本到图像生成模型，集成于 ChatGPT 和 GPT API",
+    "category": "image",
+    "icon": "🖼️",
+    "tags": ["OpenAI", "文本生图", "多模态"],
+    "popular": true
+  },
+  {
+    "name": "Stable Diffusion",
+    "url": "https://stability.ai",
+    "description": "开源图像生成模型，支持本地部署和精细控制（ControlNet、LoRA）",
+    "category": "image",
+    "icon": "🌄",
+    "tags": ["开源", "本地部署", "可定制"],
+    "popular": true
+  },
+  {
+    "name": "Adobe Firefly",
+    "url": "https://firefly.adobe.com",
+    "description": "Adobe 推出的生成式 AI 工具，集成于 Photoshop 等创意云套件",
+    "category": "image",
+    "icon": "🔥",
+    "tags": ["Adobe", "设计", "商用"],
+    "popular": false
+  },
+  {
+    "name": "可灵 AI",
+    "url": "https://kling.kuaishou.com",
+    "description": "快手推出的 AI 视频生成工具，支持文生视频和图生视频",
+    "category": "video",
+    "icon": "🎬",
+    "tags": ["国产", "视频生成", "快手"],
+    "popular": true
+  },
+  {
+    "name": "Sora",
+    "url": "https://openai.com/sora",
+    "description": "OpenAI 推出的文本到视频生成模型，能生成长达 1 分钟的高质量视频",
+    "category": "video",
+    "icon": "📹",
+    "tags": ["OpenAI", "视频生成", "高保真"],
+    "popular": true
+  },
+  {
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "description": "AI 视频创作平台，提供视频生成、编辑、特效等多种工具",
+    "category": "video",
+    "icon": "🎥",
+    "tags": ["视频编辑", "生成", "特效"],
+    "popular": false
+  },
+  {
+    "name": "Pika",
+    "url": "https://pika.art",
+    "description": "易用的 AI 视频生成平台，支持文本和图像生成视频",
+    "category": "video",
+    "icon": "🎞️",
+    "tags": ["视频生成", "易用", "创意"],
+    "popular": false
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "description": "领先的 AI 语音合成平台，支持多语言、声音克隆和语音转语音",
+    "category": "audio",
+    "icon": "🎙️",
+    "tags": ["语音合成", "声音克隆", "多语言"],
+    "popular": true
+  },
+  {
+    "name": "Suno AI",
+    "url": "https://suno.ai",
+    "description": "AI 音乐生成工具，通过文本提示生成完整歌曲（含人声和乐器）",
+    "category": "audio",
+    "icon": "🎵",
+    "tags": ["音乐生成", "创作", "AI 音乐"],
+    "popular": true
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://perplexity.ai",
+    "description": "AI 搜索引擎，整合实时网络搜索与答案生成，附带来源引用",
+    "category": "search",
+    "icon": "🔎",
+    "tags": ["搜索", "实时", "引用"],
+    "popular": true
+  },
+  {
+    "name": "秘塔 AI",
+    "url": "https://metaso.cn",
+    "description": "国产 AI 搜索引擎，专注中文搜索，无广告干扰",
+    "category": "search",
+    "icon": "🗿",
+    "tags": ["国产", "搜索", "无广告"],
+    "popular": true
+  }
+]

@@ -60,6 +60,27 @@ export interface LeaderboardData {
   categories: Record<string, LeaderboardCategoryData>;
 }
 
+// --- Tool types ---
+
+export interface Tool {
+  name: string;
+  url: string;
+  description: string;
+  category: string;
+  icon: string;
+  tags: string[];
+  popular: boolean;
+}
+
+export const TOOL_CATEGORIES: { key: string; label: string; emoji: string }[] = [
+  { key: 'chat', label: '对话助手', emoji: '💬' },
+  { key: 'code', label: '代码开发', emoji: '👩‍💻' },
+  { key: 'image', label: '图像生成', emoji: '🎨' },
+  { key: 'video', label: '视频生成', emoji: '🎬' },
+  { key: 'audio', label: '音频音乐', emoji: '🎵' },
+  { key: 'search', label: 'AI 搜索', emoji: '🔎' },
+];
+
 export const LEADERBOARD_CATEGORIES: { name: string; displayName: string }[] = [
   { name: 'text', displayName: '文本对话' },
   { name: 'code', displayName: '代码生成' },
