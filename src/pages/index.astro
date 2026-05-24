@@ -1,16 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsCard from '../components/NewsCard.astro';
+import Leaderboard from '../components/Leaderboard.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category } from '../lib/types';
+import type { NewsItem, Category, LeaderboardData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
+import leaderboardData from '../data/leaderboard.json';
 
 const allNews = allNewsData as NewsItem[];
+const lbData = leaderboardData as LeaderboardData;
 ---
 
 <BaseLayout title="AI News Hub - AI/科技/游戏新闻聚合">
   <main class="max-w-4xl mx-auto px-4 py-6">
+    <!-- AI Model Leaderboard -->
+    <Leaderboard data={lbData} />
+
     <!-- Category Nav (client-side filtering) -->
     <nav class="mb-4 overflow-x-auto">
       <div class="flex gap-2 min-w-max" id="category-nav">

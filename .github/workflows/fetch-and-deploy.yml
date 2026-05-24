@@ -27,15 +27,18 @@ jobs:
       - name: Fetch GitHub trending
         run: node scripts/fetch-trending.mjs
 
+      - name: Fetch AI leaderboard
+        run: node scripts/fetch-leaderboard.mjs
+
       - name: Commit and push updated news data
         run: |
           git config user.name "ai-news-hub-bot"
           git config user.email "bot@ai-news-hub.local"
-          git add src/data/news.json
+          git add src/data/news.json src/data/leaderboard.json
           if git diff --cached --quiet; then
-            echo "No changes to news data"
+            echo "No changes to data files"
           else
-            git commit -m "chore: auto-update news data"
+            git commit -m "chore: auto-update news and leaderboard data"
             git push
           fi
 

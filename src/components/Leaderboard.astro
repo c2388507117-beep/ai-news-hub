@@ -1,0 +1,185 @@
+---
+import type { LeaderboardData, LeaderboardModel } from '../lib/types';
+import { LEADERBOARD_CATEGORIES } from '../lib/types';
+
+export interface Props {
+  data: LeaderboardData;
+}
+
+const { data } = Astro.props;
+const hasData = data?.fetchedAt && Object.keys(data.categories).length > 0;
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+}
+
+function getMaxScore(models: LeaderboardModel[]): number {
+  if (!models || models.length === 0) return 1500;
+  return Math.max(...models.map((m) => m.score), 1500);
+}
+
+// Pre-compute all category data for the template
+type PreparedModel = LeaderboardModel & {
+  barPct: number;
+  isTop3: boolean;
+  barColor: string;
+  rankDisplay: string;
+  rowClass: string;
+  rankClass: string;
+};
+
+type PreparedCategory = {
+  name: string;
+  displayName: string;
+  models: PreparedModel[];
+  modelCount: number;
+  hasMore: boolean;
+  isActive: boolean;
+};
+
+const barColors = ['bg-yellow-500', 'bg-gray-300 dark:bg-gray-400', 'bg-amber-600'];
+
+const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
+  const catData = data.categories[cat.name];
+  const rawModels = catData?.models || [];
+  const maxScore = getMaxScore(rawModels);
+  const models = rawModels.map((m) => {
+    const isTop3 = m.rank <= 3;
+    const top3Emoji = ['🥇', '🥈', '🥉'];
+    return {
+      ...m,
+      barPct: Math.max((m.score / maxScore) * 100, 10),
+      isTop3,
+      barColor: isTop3 ? barColors[m.rank - 1] : 'bg-blue-500',
+      rankDisplay: isTop3 ? top3Emoji[m.rank - 1] : '#' + String(m.rank),
+      rowClass: 'grid grid-cols-[2rem_1fr_auto_5rem] sm:grid-cols-[2rem_1.5fr_1fr_1fr_4.5rem] gap-x-2 gap-y-0.5 items-center px-4 py-2.5 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors',
+      rankClass: isTop3 ? 'text-center text-lg leading-none' : 'text-center text-sm font-bold text-gray-400 dark:text-gray-500',
+    };
+  });
+  return {
+    name: cat.name,
+    displayName: cat.displayName,
+    models,
+    modelCount: models.length,
+    hasMore: models.length > 10,
+    isActive: ci === 0,
+  };
+});
+---
+
+<div id="leaderboard" class="mb-6 rounded-xl border border-blue-200 dark:border-blue-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <!-- Header -->
+  <div class="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+    <div class="flex items-center gap-2">
+      <span class="text-xl leading-none">🤖</span>
+      <h2 class="text-base font-bold text-white">AI 模型排行榜</h2>
+      {data?.fetchedAt && (
+        <span class="text-xs text-blue-200 ml-2">更新于 {formatDate(data.fetchedAt)}</span>
+      )}
+    </div>
+    <div class="flex gap-1 overflow-x-auto" id="lb-tabs">
+      {prepared.map((cat) => (
+        <button
+          data-lb-tab={cat.name}
+          class={'lb-tab px-3 py-1 rounded-md text-xs font-medium transition-colors whitespace-nowrap ' + (cat.isActive ? 'bg-white/20 text-white' : 'text-blue-100 hover:bg-white/10')}
+        >
+          {cat.displayName}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <!-- Body -->
+  {hasData ? (
+    <div class="overflow-x-auto">
+      {prepared.map((cat) => (
+        <div
+          data-lb-content={cat.name}
+          class={'lb-content' + (cat.isActive ? '' : ' hidden')}
+        >
+          {cat.modelCount > 0 ? (
+            <div class="divide-y divide-gray-100 dark:divide-gray-800">
+              {cat.models.slice(0, 10).map((model) => (
+                <div class={model.rowClass}>
+                  <span class={model.rankClass}>{model.rankDisplay}</span>
+                  <span class="lb-model text-sm font-semibold truncate" title={model.model}>
+                    {model.model}
+                  </span>
+                  <span class="lb-vendor text-xs text-gray-400 dark:text-gray-500 truncate hidden sm:block">
+                    {model.vendor || '-'}
+                  </span>
+                  <div class="lb-bar-container h-5 flex items-center">
+                    <div
+                      class={'lb-bar h-2.5 rounded-full ' + model.barColor + ' opacity-70 min-w-[8px] transition-all'}
+                      style={'width: ' + model.barPct + '%'}
+                    ></div>
+                  </div>
+                  <span class="lb-score text-sm font-mono font-semibold text-right tabular-nums text-gray-700 dark:text-gray-300">
+                    {model.score}
+                  </span>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p class="text-center text-gray-400 py-8 text-sm">暂无数据</p>
+          )}
+
+          {cat.hasMore && (
+            <div class="border-t border-gray-100 dark:border-gray-800">
+              <button class="lb-show-more w-full py-2.5 text-sm text-blue-600 dark:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors font-medium">
+                查看全部 {cat.modelCount} 个模型 ↓
+              </button>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  ) : (
+    <p class="text-center text-gray-400 py-8 text-sm">
+      排行榜数据尚未获取
+    </p>
+  )}
+</div>
+
+<script>
+  // Tab switching
+  document.querySelectorAll('.lb-tab').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.lbTab;
+
+      document.querySelectorAll('.lb-tab').forEach((t) => {
+        t.classList.remove('bg-white/20', 'text-white');
+        t.classList.add('text-blue-100', 'hover:bg-white/10');
+      });
+      tab.classList.remove('text-blue-100', 'hover:bg-white/10');
+      tab.classList.add('bg-white/20', 'text-white');
+
+      document.querySelectorAll('.lb-content').forEach((c) => {
+        c.classList.toggle('hidden', c.dataset.lbContent !== target);
+      });
+    });
+  });
+
+  // Show more / show less
+  document.querySelectorAll('.lb-show-more').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const content = btn.closest('.lb-content');
+      const rows = content.querySelectorAll('.lb-row');
+      const total = rows.length;
+      const hidden = content.querySelectorAll('.lb-row.hidden');
+
+      if (hidden.length === 0) {
+        rows.forEach((row, i) => { if (i >= 10) row.classList.add('hidden'); });
+        btn.textContent = '查看全部 ' + total + ' 个模型 ↓';
+      } else {
+        rows.forEach((row) => row.classList.remove('hidden'));
+        btn.textContent = '收起 ↑';
+      }
+    });
+
+    // Initialize: hide rows beyond 10
+    const rows = btn.closest('.lb-content').querySelectorAll('.lb-row');
+    rows.forEach((row, i) => { if (i >= 10) row.classList.add('hidden'); });
+  });
+</script>
