@@ -12,7 +12,10 @@ const parser = new Parser({
   headers: { 'User-Agent': 'AI-News-Hub/1.0' },
 });
 
+const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
+
 const SOURCES = [
+  // International AI sources
   { name: 'TechCrunch', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', category: 'industry' },
   { name: 'The Verge', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', category: 'industry' },
   { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/index', category: 'research' },
@@ -21,9 +24,13 @@ const SOURCES = [
   { name: 'Meta AI', url: 'https://ai.meta.com/blog/feed.xml', category: 'research' },
   { name: 'MIT Tech Review', url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed/', category: 'research' },
   { name: 'OpenAI', url: 'https://openai.com/blog/rss.xml', category: 'industry' },
-  // Chinese AI sources
+  // Chinese AI & tech sources
   { name: '36氪', url: 'https://36kr.com/feed', category: 'industry' },
   { name: '爱范儿', url: 'https://www.ifanr.com/feed', category: 'industry' },
+  { name: '钛媒体', url: 'https://www.tmtpost.com/rss.xml', category: 'industry' },
+  { name: 'IT之家', url: 'https://www.ithome.com/rss', category: 'industry' },
+  // Chinese gaming sources
+  { name: '机核网', url: 'https://www.gcores.com/rss', category: 'gaming' },
 ];
 
 function slugify(text) {
@@ -75,13 +82,22 @@ async function fetchSource(source) {
   }
 }
 
+function removeOldNews(items) {
+  const cutoff = Date.now() - SEVEN_DAYS_MS;
+  return items.filter((item) => {
+    const time = new Date(item.publishedAt).getTime();
+    return !isNaN(time) && time >= cutoff;
+  });
+}
+
 function mergeNews(existing, incoming) {
   const map = new Map();
   for (const item of existing) map.set(item.url, item);
   for (const item of incoming) map.set(item.url, item);
-  return [...map.values()].sort(
+  const merged = [...map.values()].sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
+  return removeOldNews(merged);
 }
 
 function readExistingData(dataPath) {
@@ -106,14 +122,17 @@ async function main() {
   });
 
   deduped.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-  const final = deduped.slice(0, 100);
+  const fresh = deduped.slice(0, 100);
 
   const dataPath = path.join(__dirname, '..', 'src', 'data', 'news.json');
   const existing = readExistingData(dataPath);
-  const merged = mergeNews(existing, final).slice(0, 200);
+  const merged = mergeNews(existing, fresh);
+
+  const removed = existing.length - removeOldNews(existing).length;
+  if (removed > 0) console.log(`  🗑 Cleaned ${removed} items older than 7 days`);
 
   fs.writeFileSync(dataPath, JSON.stringify(merged, null, 2), 'utf-8');
-  console.log(`\nDone: ${final.length} new items, ${merged.length} total in database`);
+  console.log(`\nDone: ${fresh.length} new items, ${merged.length} total after cleanup`);
 }
 
 main().catch(console.error);

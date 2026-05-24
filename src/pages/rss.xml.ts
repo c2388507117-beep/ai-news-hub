@@ -64,7 +64,7 @@ export const GET: APIRoute = async () => {
   <channel>
     <title>AI News Hub</title>
     <link>${escapeXml(siteUrl)}</link>
-    <description>每日 AI 新闻聚合 - 研究突破、行业动态、开源工具、热门项目、政策监管</description>
+    <description>每日 AI 新闻聚合 - 研究突破、行业动态、开源工具、热门项目、政策监管、游戏资讯</description>
     <language>zh-CN</language>
     <atom:link href="${escapeXml(siteUrl)}/rss.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>

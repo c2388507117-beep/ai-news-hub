@@ -1,10 +1,7 @@
 name: Fetch News and Deploy
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # 00:00 UTC = 08:00 CST
-    - cron: '0 10 * * *'  # 10:00 UTC = 18:00 CST
-  workflow_dispatch:       # Manual trigger
+  workflow_dispatch:       # Manual trigger only
 
 jobs:
   build-and-deploy:
