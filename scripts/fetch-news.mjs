@@ -10,6 +10,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const parser = new Parser({
   timeout: 15000,
   headers: { 'User-Agent': 'AI-News-Hub/1.0' },
+  customFields: {
+    item: [
+      ['media:thumbnail', 'mediaThumbnail'],
+    ],
+  },
 });
 
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
@@ -43,12 +48,61 @@ function slugify(text) {
 }
 
 function extractImage(item) {
-  if (item.enclosure?.url) return item.enclosure.url;
-  const mediaContent = item['media:content']?.$.url;
-  if (mediaContent) return mediaContent;
+  // 1. media:thumbnail — most reliable for video thumbnails
+  const thumb = item.mediaThumbnail;
+  if (thumb) {
+    if (typeof thumb === 'string') return thumb;
+    if (thumb?.$?.url) return thumb.$.url;
+    if (thumb?.url) return thumb.url;
+    if (Array.isArray(thumb) && thumb[0]?.$?.url) return thumb[0].$.url;
+  }
+
+  // 2. Check media:content — only return image types, skip video
+  const mediaContent = item['media:content'];
+  if (mediaContent?.$) {
+    const { url, type, medium } = mediaContent.$;
+    if (url) {
+      if (type?.startsWith('image/')) return url;
+      if (medium === 'image') return url;
+      // Skip video URLs — they won't render as <img>
+      if (!type?.startsWith('video/') && medium !== 'video') {
+        return url;
+      }
+    }
+  }
+
+  // 3. Check enclosure — skip video types
+  if (item.enclosure?.url) {
+    const type = item.enclosure.type;
+    if (!type || !type.startsWith('video/')) {
+      return item.enclosure.url;
+    }
+  }
+
+  // 4. Try to extract YouTube thumbnail from article URL
+  if (item.link) {
+    const match = item.link.match(
+      /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/
+    );
+    if (match) return `https://img.youtube.com/vi/${match[1]}/hqdefault.jpg`;
+  }
+
+  // 5. Parse HTML content for <img> tags
   const content = item['content:encoded'] || item.content || '';
-  const match = content.match(/<img[^>]+src=["']([^"']+)["']/);
-  return match ? match[1] : undefined;
+  const imgMatch = content.match(/<img[^>]+src=["']([^"']+)["']/);
+  if (imgMatch) return imgMatch[1];
+
+  // 6. Check for YouTube embed iframe in content
+  const ytMatch = content.match(
+    /(?:youtube\.com\/embed\/|youtu\.be\/)([a-zA-Z0-9_-]{11})/
+  );
+  if (ytMatch) return `https://img.youtube.com/vi/${ytMatch[1]}/hqdefault.jpg`;
+
+  // 7. Raw media:thumbnail in content (fallback)
+  const rawMatch = content.match(/media:thumbnail\s+[^>]*?url="([^"]+)"/);
+  if (rawMatch) return rawMatch[1];
+
+  return undefined;
 }
 
 function parseDate(item) {
