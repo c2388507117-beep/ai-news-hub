@@ -23,6 +23,18 @@ jobs:
       - name: Fetch GitHub trending
         run: node scripts/fetch-trending.mjs
 
+      - name: Commit and push updated news data
+        run: |
+          git config user.name "ai-news-hub-bot"
+          git config user.email "bot@ai-news-hub.local"
+          git add src/data/news.json
+          if git diff --cached --quiet; then
+            echo "No changes to news data"
+          else
+            git commit -m "chore: auto-update news data"
+            git push
+          fi
+
       - name: Build site
         run: npx astro build
 

@@ -24,7 +24,7 @@ const SOURCES = [
   { name: 'TechCrunch', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', category: 'industry' },
   { name: 'The Verge', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', category: 'industry' },
   { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/index', category: 'research' },
-  { name: 'Hugging Face', url: 'https://huggingface.co/blog/feed.xml', category: 'opensource' },
+  { name: 'Hugging Face', url: 'https://huggingface.co/blog/feed.xml', category: 'research' },
   { name: 'Google AI', url: 'https://blog.research.google/atom.xml', category: 'research' },
   { name: 'Meta AI', url: 'https://ai.meta.com/blog/feed.xml', category: 'research' },
   { name: 'MIT Tech Review', url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed/', category: 'research' },
