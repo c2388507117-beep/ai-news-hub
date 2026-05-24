@@ -1,0 +1,42 @@
+---
+import type { HotTopic } from '../lib/types';
+
+export interface Props {
+  topics: HotTopic[];
+}
+
+const { topics } = Astro.props;
+---
+
+{topics.length > 0 && (
+  <div class="rounded-xl border border-orange-200 dark:border-orange-800 bg-white dark:bg-gray-900 overflow-hidden">
+    <div class="px-3 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-sm font-semibold flex items-center gap-1.5">
+      <span>🔥</span>
+      <span>热点话题</span>
+    </div>
+    <div class="divide-y divide-gray-100 dark:divide-gray-800">
+      {topics.map((topic) => (
+        <a
+          href={topic.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block px-3 py-2.5 hover:bg-orange-50 dark:hover:bg-orange-900/10 transition-colors"
+        >
+          <div class="flex items-start gap-2">
+            {topic.hot && (
+              <span class="text-[10px] px-1 py-0.5 rounded bg-red-100 dark:bg-red-900/40 text-red-600 dark:text-red-400 font-medium mt-0.5 flex-shrink-0">
+                热议
+              </span>
+            )}
+            <div class="min-w-0">
+              <p class="text-sm font-medium leading-snug line-clamp-2">{topic.title}</p>
+              {topic.brief && (
+                <p class="text-xs text-gray-400 dark:text-gray-500 mt-0.5 line-clamp-1">{topic.brief}</p>
+              )}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+)}

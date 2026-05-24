@@ -1,0 +1,48 @@
+---
+import type { NewsItem } from '../lib/types';
+
+export interface Props {
+  items: NewsItem[];
+}
+
+// Get today's and yesterday's top articles
+const { items } = Astro.props;
+const now = new Date();
+const oneDayMs = 24 * 60 * 60 * 1000;
+const recentItems = items.filter((item) => {
+  const age = now.getTime() - new Date(item.publishedAt).getTime();
+  return age < 2 * oneDayMs; // last 48 hours
+});
+
+// Prefer research and industry articles, then pick top 4
+const prioritized = [...recentItems].sort((a, b) => {
+  const catOrder = { research: 0, industry: 1, trending: 2, gaming: 3 };
+  const aOrder = catOrder[a.category] ?? 99;
+  const bOrder = catOrder[b.category] ?? 99;
+  if (aOrder !== bOrder) return aOrder - bOrder;
+  return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+});
+
+const topPicks = prioritized.slice(0, 4);
+---
+
+{topPicks.length > 0 && (
+  <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden">
+    <div class="px-3 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-semibold flex items-center gap-1.5">
+      <span>📋</span>
+      <span>今日摘要</span>
+    </div>
+    <div class="divide-y divide-gray-100 dark:divide-gray-800">
+      {topPicks.map((item) => (
+        <div class="px-3 py-2.5 cursor-pointer" data-digest-item>
+          <p class="text-sm font-medium leading-snug line-clamp-2">{item.title}</p>
+          <div class="flex items-center gap-1.5 mt-1 text-xs text-gray-400 dark:text-gray-500">
+            <span>{item.source}</span>
+            <span>·</span>
+            <span>{(() => { const d = new Date(item.publishedAt); return (d.getMonth()+1)+'/'+d.getDate(); })()}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+)}

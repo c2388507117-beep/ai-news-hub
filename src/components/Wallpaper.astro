@@ -1,0 +1,44 @@
+---
+import type { WallpaperData } from '../lib/types';
+
+export interface Props {
+  data: WallpaperData;
+}
+
+const { data } = Astro.props;
+const hasWallpapers = data?.urls && data.urls.length > 0;
+---
+
+{hasWallpapers && (
+  <script>
+    const wallpapers = JSON.parse('{JSON.stringify(data.urls.map((u) => (typeof u === "string" ? u : u.url)))}');
+    if (wallpapers.length > 0) {
+      // Pick wallpaper by day of year
+      const now = new Date();
+      const start = new Date(now.getFullYear(), 0, 0);
+      const diff = now - start;
+      const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const idx = dayOfYear % wallpapers.length;
+      const imgUrl = wallpapers[idx];
+
+      // Preload image then set background
+      const img = new Image();
+      img.onload = () => {
+        document.body.style.backgroundImage = 'url(' + JSON.stringify(imgUrl) + ')';
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundAttachment = 'fixed';
+        document.body.style.backgroundRepeat = 'no-repeat';
+      };
+      img.onerror = () => {
+        // Fallback: try next wallpaper
+        const fallbackIdx = (idx + 1) % wallpapers.length;
+        document.body.style.backgroundImage = 'url(' + JSON.stringify(wallpapers[fallbackIdx]) + ')';
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundAttachment = 'fixed';
+      };
+      img.src = imgUrl;
+    }
+  </script>
+)}

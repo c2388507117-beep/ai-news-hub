@@ -1,0 +1,93 @@
+---
+import type { MusicSong } from '../lib/types';
+
+export interface Props {
+  songs: MusicSong[];
+}
+
+const { songs } = Astro.props;
+const todaySong = songs.length > 0 ? songs[new Date().getDate() % songs.length] : null;
+---
+
+{todaySong && (
+  <div id="music-player" class="fixed top-20 right-4 z-50">
+    <button
+      id="music-toggle"
+      class="w-10 h-10 rounded-full bg-white dark:bg-gray-800 shadow-lg border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:shadow-xl transition-all hover:scale-105"
+      title="每日音乐"
+      aria-label="播放音乐"
+    >
+      <span class="text-lg">🎵</span>
+    </button>
+
+    <div id="music-embed" class="hidden mt-2">
+      <div class="relative">
+        <iframe
+          id="music-iframe"
+          frameborder="no"
+          border="0"
+          marginwidth="0"
+          marginheight="0"
+          width="280"
+          height="86"
+          src="about:blank"
+          class="rounded-lg shadow-lg"
+        ></iframe>
+        <button
+          id="music-close"
+          class="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-gray-700 text-white text-xs flex items-center justify-center hover:bg-gray-600 transition-colors"
+          aria-label="关闭音乐"
+        >
+          ✕
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
+<script>
+  const toggle = document.getElementById('music-toggle');
+  const embed = document.getElementById('music-embed');
+  const iframe = document.getElementById('music-iframe');
+  const closeBtn = document.getElementById('music-close');
+  let isOpen = false;
+  let isPlaying = false;
+
+  // Get today's song
+  var songs = JSON.parse('{JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, artist: s.artist })))}');
+  var todayIdx = new Date().getDate() % songs.length;
+  var currentSong = songs[todayIdx];
+
+  toggle.addEventListener('click', () => {
+    if (isOpen && isPlaying) {
+      // Close player
+      embed.classList.add('hidden');
+      isOpen = false;
+      isPlaying = false;
+      iframe.src = 'about:blank';
+      return;
+    }
+
+    if (!isOpen) {
+      // Open and play
+      iframe.src = 'https://music.163.com/outchain/player?type=2&id=' + currentSong.id + '&auto=1&height=66';
+      embed.classList.remove('hidden');
+      isOpen = true;
+      isPlaying = true;
+    } else {
+      // Resume playing (iframe already loaded)
+      embed.classList.add('hidden');
+      isOpen = false;
+      isPlaying = false;
+      iframe.src = 'about:blank';
+    }
+  });
+
+  closeBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    embed.classList.add('hidden');
+    isOpen = false;
+    isPlaying = false;
+    iframe.src = 'about:blank';
+  });
+</script>

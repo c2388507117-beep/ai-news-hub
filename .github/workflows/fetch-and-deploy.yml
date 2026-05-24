@@ -30,11 +30,14 @@ jobs:
       - name: Fetch AI leaderboard
         run: node scripts/fetch-leaderboard.mjs
 
+      - name: Fetch wallpapers
+        run: node scripts/fetch-wallpapers.mjs
+
       - name: Commit and push updated news data
         run: |
           git config user.name "ai-news-hub-bot"
           git config user.email "bot@ai-news-hub.local"
-          git add src/data/news.json src/data/leaderboard.json
+          git add src/data/news.json src/data/leaderboard.json src/data/wallpapers.json
           if git diff --cached --quiet; then
             echo "No changes to data files"
           else

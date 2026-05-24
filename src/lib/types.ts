@@ -31,6 +31,39 @@ export interface NewsItem {
 
 export const ALL_CATEGORIES: Category[] = ['research', 'industry', 'trending', 'gaming'];
 
+// --- Hot Topic types ---
+
+export interface HotTopic {
+  title: string;
+  url: string;
+  brief: string;
+  date: string;
+  source: string;
+  hot: boolean;
+}
+
+// --- Music types ---
+
+export interface MusicSong {
+  id: string;
+  title: string;
+  artist: string;
+}
+
+// --- Wallpaper types ---
+
+export interface WallpaperItem {
+  url: string;
+  title?: string;
+  copyright?: string;
+  date?: string;
+}
+
+export interface WallpaperData {
+  fetchedAt: string | null;
+  urls: (string | WallpaperItem)[];
+}
+
 // --- Leaderboard types ---
 
 export interface LeaderboardModel {

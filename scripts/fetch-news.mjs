@@ -47,6 +47,52 @@ function slugify(text) {
   return slug || 'untitled';
 }
 
+// Patterns to strip from content — login prompts, ads, lottery, boilerplate
+const JUNK_PATTERNS = [
+  /登录\s*(注册)?\s*(免费)?\s*(订阅)?\s*(阅读)?\s*(全文)?\s*(查看)?\s*(更多)?/gi,
+  /免费\s*(订阅|注册)/gi,
+  /点击\s*(阅读|查看|下载|订阅|关注)/gi,
+  /本文\s*(来自|来源于|转载|出处)/gi,
+  /扫描\s*二维码/gi,
+  /关注\s*(我们|公众号)/gi,
+  /微信\s*(搜索|扫码)/gi,
+  /投稿|商务合作|广告|推广/gi,
+  /免责声明|版权声明|免责条款/gi,
+  /Copyright\s+\d+/gi,
+  /All\s+[Rr]ights\s+[Rr]eserved/gi,
+  /未经.*(许可|授权|允许).*不得/gi,
+  /\[领取.*\]|抽奖|奖品|抽送|红包|福利/gi,
+  /分享到|转发|点赞|在看/gi,
+  /阅读原文|了解更多/gi,
+  /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g,
+];
+
+function cleanContent(text) {
+  if (!text) return '';
+  let cleaned = text;
+  for (const pattern of JUNK_PATTERNS) {
+    cleaned = cleaned.replace(pattern, '');
+  }
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
+  cleaned = cleaned.replace(/^\s*[\r\n]/gm, '\n');
+  return cleaned.trim();
+}
+
+function generateSummary(text, maxLen = 400) {
+  if (!text) return '';
+  const cleaned = cleanContent(text);
+  const sentences = cleaned.split(/(?<=[。！？.!?\n])\s*/).filter((s) => s.trim().length > 10);
+  let summary = '';
+  for (const sentence of sentences) {
+    if ((summary + sentence).length > maxLen) {
+      if (!summary) return sentence.slice(0, maxLen) + '…';
+      break;
+    }
+    summary += sentence;
+  }
+  return summary || cleaned.slice(0, maxLen).trim();
+}
+
 function extractImage(item) {
   // 1. media:thumbnail — most reliable for video thumbnails
   const thumb = item.mediaThumbnail;
@@ -117,18 +163,21 @@ function parseDate(item) {
 async function fetchSource(source) {
   try {
     const feed = await parser.parseURL(source.url);
-    const items = (feed.items || []).slice(0, 15).map((item) => ({
-      id: slugify(item.title || '') + '-' + Date.now(),
-      title: item.title || 'Untitled',
-      url: item.link || '',
-      summary: (item.contentSnippet || item.content || '').slice(0, 500),
-      fullContent: (item.contentSnippet || item.content || '').slice(0, 3000),
-      source: source.name,
-      category: source.category,
-      publishedAt: parseDate(item),
-      imageUrl: extractImage(item),
-      type: 'article',
-    }));
+    const items = (feed.items || []).slice(0, 15).map((item) => {
+      const rawContent = item.contentSnippet || item.content || '';
+      return {
+        id: slugify(item.title || '') + '-' + Date.now(),
+        title: item.title || 'Untitled',
+        url: item.link || '',
+        summary: generateSummary(rawContent, 400),
+        fullContent: cleanContent(rawContent).slice(0, 3000),
+        source: source.name,
+        category: source.category,
+        publishedAt: parseDate(item),
+        imageUrl: extractImage(item),
+        type: 'article',
+      };
+    });
     console.log(`  ✓ ${source.name}: ${items.length} items`);
     return items;
   } catch (err) {
