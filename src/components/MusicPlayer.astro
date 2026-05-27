@@ -32,7 +32,7 @@ const songsJson = JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, a
         </button>
         <p class="text-sm font-medium mb-1 pr-4 truncate" id="song-title">{todaySong.title}</p>
         <p class="text-xs text-gray-400 mb-2" id="song-artist">{todaySong.artist}</p>
-        <audio id="audio-player" class="w-full h-10" controls preload="none">
+        <audio id="audio-player" class="w-full h-10" controls preload="auto">
           <source id="audio-source" src={`https://music.163.com/song/media/outer/url?id=${todaySong.id}.mp3`} type="audio/mpeg" />
         </audio>
         <p id="music-error" class="text-xs text-red-400 mt-1 hidden">播放失败，请尝试其他歌曲</p>
@@ -59,7 +59,7 @@ const songsJson = JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, a
   const todayIdx = new Date().getDate() % songs.length;
   let currentSongIdx = todayIdx;
 
-  function loadSong(index) {
+  function loadSong(index, autoplay = false) {
     const song = songs[index];
     if (!song) return;
     currentSongIdx = index;
@@ -68,17 +68,37 @@ const songsJson = JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, a
     audioSource.src = `https://music.163.com/song/media/outer/url?id=${song.id}.mp3`;
     audio.load();
     musicError.classList.add('hidden');
+
+    if (autoplay) {
+      const startPlay = () => {
+        audio.play().catch(() => {
+          // Try next song
+          const nextIdx = (currentSongIdx + 1) % songs.length;
+          if (nextIdx !== todayIdx) {
+            setTimeout(() => loadSong(nextIdx, true), 500);
+          } else {
+            musicError.classList.remove('hidden');
+          }
+        });
+        audio.removeEventListener('canplay', startPlay);
+      };
+      audio.addEventListener('canplay', startPlay);
+      // Fallback: try after 2s even if canplay didn't fire
+      setTimeout(() => {
+        audio.play().catch(() => {});
+      }, 2000);
+    }
   }
 
-  // Try next song on error
+  // Try next song on load error
   audio.addEventListener('error', () => {
+    if (!audio.paused) return;
     const nextIdx = (currentSongIdx + 1) % songs.length;
     if (nextIdx === todayIdx) {
       musicError.classList.remove('hidden');
       return;
     }
-    loadSong(nextIdx);
-    audio.play().catch(() => {});
+    loadSong(nextIdx, true);
   });
 
   toggle.addEventListener('click', () => {
@@ -91,8 +111,7 @@ const songsJson = JSON.stringify(songs.map((s) => ({ id: s.id, title: s.title, a
       embed.classList.remove('hidden');
       musicIcon.textContent = '🎶';
       isOpen = true;
-      loadSong(currentSongIdx);
-      audio.play().catch(() => {});
+      loadSong(currentSongIdx, true);
     }
   });
 
