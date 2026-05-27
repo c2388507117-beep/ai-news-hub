@@ -36,6 +36,9 @@ const topPicks = prioritized.slice(0, 4);
       {topPicks.map((item) => (
         <div class="px-3 py-2.5 cursor-pointer" data-digest-item>
           <p class="text-sm font-medium leading-snug line-clamp-2">{item.title}</p>
+          {item.summary && (
+            <p class="text-xs text-gray-400 dark:text-gray-500 mt-1 line-clamp-3 leading-relaxed">{item.summary}</p>
+          )}
           <div class="flex items-center gap-1.5 mt-1 text-xs text-gray-400 dark:text-gray-500">
             <span>{item.source}</span>
             <span>·</span>

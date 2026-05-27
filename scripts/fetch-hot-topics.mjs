@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, '..', 'src', 'data', 'hot-topics.json');
 
-const MAX_TOPICS = 10;
+const MAX_TOPICS = 3;
 const CACHE_DAYS = 5;
 
 function formatDate(d) {

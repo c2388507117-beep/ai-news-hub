@@ -6,10 +6,43 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+const MAX_WALLPAPERS = 60;
+
 // Bing daily wallpaper archive (Chinese endpoint — accessible from China)
 // idx=0 today, idx=1 yesterday ... up to idx=7 last 8 days
 // n=8 fetches 8 at once
 const BING_API = 'https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8&mkt=zh-CN';
+
+// Picsum (Unsplash) — diverse photos including people, architecture, cityscapes
+// No API key required. Fetches random photos from Unsplash via picsum.photos
+const PICSUM_PAGES = 3;
+
+async function fetchPicsumWallpapers() {
+  const results = [];
+  for (let page = 1; page <= PICSUM_PAGES; page++) {
+    const url = `https://picsum.photos/v2/list?page=${page}&limit=30`;
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'AI-News-Hub/1.0' },
+        signal: AbortSignal.timeout(20000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const images = await res.json();
+      for (const img of images) {
+        results.push({
+          url: `https://picsum.photos/id/${img.id}/1920/1080`,
+          title: img.author ? `Photo by ${img.author}` : '',
+          copyright: 'picsum.photos / Unsplash',
+          source: 'picsum',
+        });
+      }
+      console.log(`  ✓ Picsum page ${page}: ${images.length} images`);
+    } catch (err) {
+      console.error(`  ✗ Picsum page ${page}: ${err.message}`);
+    }
+  }
+  return results;
+}
 
 async function fetchBingWallpapers() {
   const controller = new AbortController();
@@ -52,32 +85,44 @@ async function main() {
   }
 
   const newWallpapers = await fetchBingWallpapers();
-  if (newWallpapers.length === 0) {
+  const picsumWallpapers = await fetchPicsumWallpapers();
+  const allNewWallpapers = [...newWallpapers, ...picsumWallpapers];
+  if (allNewWallpapers.length === 0) {
     console.log('No wallpapers fetched, keeping existing data.');
     return;
   }
 
   // Merge: keep existing URLs, add new ones, deduplicate by URL
   const existingUrls = new Set(existing.urls.map((u) => (typeof u === 'string' ? u : u.url)));
-  const allUrls = [...(existing.urls || [])];
+  let allUrls = [...(existing.urls || [])];
 
-  for (const wp of newWallpapers) {
+  for (const wp of allNewWallpapers) {
     if (!existingUrls.has(wp.url)) {
       allUrls.push(wp);
       existingUrls.add(wp.url);
     }
   }
 
-  // Keep max 30 wallpapers to avoid bloat
-  const trimmed = allUrls.slice(-30);
+  // Keep max wallpapers — preserve at least some from each source
+  if (allUrls.length > MAX_WALLPAPERS) {
+    // Separate Bing (keep all) and picsum (fill remaining)
+    const bingUrls = allUrls.filter((u) => (u.source || '').toLowerCase() !== 'picsum');
+    const picsumUrls = allUrls.filter((u) => (u.source || '').toLowerCase() === 'picsum');
+    const remaining = MAX_WALLPAPERS - bingUrls.length;
+    if (remaining > 0) {
+      allUrls = [...bingUrls, ...picsumUrls.slice(-remaining)];
+    } else {
+      allUrls = bingUrls.slice(-MAX_WALLPAPERS);
+    }
+  }
 
   const output = {
     fetchedAt: new Date().toISOString(),
-    urls: trimmed,
+    urls: allUrls,
   };
 
   fs.writeFileSync(dataPath, JSON.stringify(output, null, 2), 'utf-8');
-  console.log(`  ✓ ${newWallpapers.length} new, ${trimmed.length} total wallpapers`);
+  console.log(`  ✓ ${newWallpapers.length} Bing + ${picsumWallpapers.length} Picsum new, ${allUrls.length} total wallpapers`);
 }
 
 main().catch(console.error);
