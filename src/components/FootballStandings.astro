@@ -1,0 +1,131 @@
+---
+import type { FootballStanding, FootballMatch } from '../lib/types';
+
+export interface Props {
+  standings: FootballStanding[];
+  lastMatch: FootballMatch | null;
+  nextMatch: FootballMatch | null;
+}
+
+const { standings, lastMatch, nextMatch } = Astro.props;
+
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  const month = d.getMonth() + 1;
+  const day = d.getDate();
+  const hours = d.getHours().toString().padStart(2, '0');
+  const mins = d.getMinutes().toString().padStart(2, '0');
+  return `${month}/${day} ${hours}:${mins}`;
+}
+
+const isManUnited = (name: string) => name === 'Manchester United' || name === 'Man United';
+const MAX_TEAMS = 20;
+
+const topStandings = standings.slice(0, MAX_TEAMS);
+const noteColors = {
+  'Champions League': { bg: 'bg-green-100 dark:bg-green-900/30', text: 'text-green-700 dark:text-green-400', dot: 'bg-green-500' },
+  'Europa League': { bg: 'bg-blue-100 dark:bg-blue-900/30', text: 'text-blue-700 dark:text-blue-400', dot: 'bg-blue-500' },
+  'Relegation': { bg: 'bg-red-100 dark:bg-red-900/30', text: 'text-red-700 dark:text-red-400', dot: 'bg-red-500' },
+};
+---
+
+<div class="mb-6 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <!-- Header -->
+  <div class="bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-2 min-w-0">
+      <span class="text-xl leading-none flex-shrink-0">🏆</span>
+      <h2 class="text-base font-bold text-white truncate">英超 2025-26 积分榜</h2>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="border-b border-gray-100 dark:border-gray-800 text-xs text-gray-400 dark:text-gray-500">
+          <th class="px-3 py-2 text-left w-8">#</th>
+          <th class="px-3 py-2 text-left">球队</th>
+          <th class="px-3 py-2 text-center w-8">赛</th>
+          <th class="px-3 py-2 text-center w-8 hidden sm:table-cell">胜</th>
+          <th class="px-3 py-2 text-center w-8 hidden sm:table-cell">平</th>
+          <th class="px-3 py-2 text-center w-8 hidden sm:table-cell">负</th>
+          <th class="px-3 py-2 text-center w-10 hidden md:table-cell">净胜</th>
+          <th class="px-3 py-2 text-center w-10 font-bold text-gray-600 dark:text-gray-300">积分</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100 dark:divide-gray-800">
+        {topStandings.map((team) => {
+          const isUnited = isManUnited(team.teamName);
+          return (
+            <tr class={`${isUnited ? 'bg-red-50 dark:bg-red-900/15' : ''} hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors`}>
+              <td class="px-3 py-2 align-middle">
+                <div class="flex items-center gap-1">
+                  <span class={`text-sm font-bold ${isUnited ? 'text-red-600 dark:text-red-400' : 'text-gray-500 dark:text-gray-400'}`}>
+                    {team.position}
+                  </span>
+                  {team.note && (
+                    <span
+                      class={`inline-block w-1.5 h-1.5 rounded-full flex-shrink-0 ${noteColors[team.note]?.dot || 'bg-gray-300'}`}
+                      title={team.note}
+                    ></span>
+                  )}
+                </div>
+              </td>
+              <td class="px-3 py-2 align-middle">
+                <div class="flex items-center gap-2 min-w-0">
+                  <span class={`text-sm font-semibold truncate ${isUnited ? 'text-red-600 dark:text-red-400' : 'text-gray-800 dark:text-gray-200'}`}>
+                    {team.teamName}
+                  </span>
+                  {isUnited && (
+                    <span class="text-[10px] px-1 py-0.5 rounded bg-red-600 text-white font-bold flex-shrink-0">🔴</span>
+                  )}
+                </div>
+              </td>
+              <td class="px-3 py-2 text-center align-middle text-sm text-gray-600 dark:text-gray-400">{team.gamesPlayed}</td>
+              <td class="px-3 py-2 text-center align-middle text-sm text-gray-600 dark:text-gray-400 hidden sm:table-cell">{team.wins}</td>
+              <td class="px-3 py-2 text-center align-middle text-sm text-gray-600 dark:text-gray-400 hidden sm:table-cell">{team.draws}</td>
+              <td class="px-3 py-2 text-center align-middle text-sm text-gray-600 dark:text-gray-400 hidden sm:table-cell">{team.losses}</td>
+              <td class="px-3 py-2 text-center align-middle text-sm font-mono hidden md:table-cell">
+                <span class={team.goalDifference >= 0 ? 'text-green-600 dark:text-green-400' : 'text-red-500 dark:text-red-400'}>
+                  {team.goalDifference >= 0 ? '+' : ''}{team.goalDifference}
+                </span>
+              </td>
+              <td class="px-3 py-2 text-center align-middle">
+                <span class={`text-sm font-bold font-mono ${isUnited ? 'text-red-600 dark:text-red-400' : 'text-gray-800 dark:text-gray-200'}`}>
+                  {team.points}
+                </span>
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Match info footer -->
+  {(lastMatch || nextMatch) && (
+    <div class="border-t border-gray-100 dark:border-gray-800 px-4 py-2.5 bg-gray-50/50 dark:bg-gray-800/30">
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs">
+        {lastMatch && (
+          <span class="text-gray-500 dark:text-gray-400">
+            最近：{lastMatch.isHome ? lastMatch.homeTeam : lastMatch.awayTeam}
+            <span class="font-semibold text-gray-700 dark:text-gray-300">
+              {' '}{lastMatch.homeScore} - {lastMatch.awayScore}{' '}
+            </span>
+            {lastMatch.isHome ? lastMatch.awayTeam : lastMatch.homeTeam}
+            <span class="text-gray-400 ml-1">({formatDate(lastMatch.date)})</span>
+          </span>
+        )}
+        {nextMatch && (
+          <span class="text-gray-500 dark:text-gray-400">
+            下一场：{nextMatch.isHome ? nextMatch.homeTeam : nextMatch.awayTeam}
+            <span class="text-gray-400 ml-1">({formatDate(nextMatch.date)})</span>
+          </span>
+        )}
+        {!nextMatch && !lastMatch?.status?.includes('Full') && (
+          <span class="text-gray-400 dark:text-gray-500">赛季已结束，等待新赛季</span>
+        )}
+      </div>
+    </div>
+  )}
+</div>

@@ -95,6 +95,42 @@ export interface LeaderboardData {
   categories: Record<string, LeaderboardCategoryData>;
 }
 
+// --- Football types ---
+
+export interface FootballStanding {
+  position: number;
+  teamId: string;
+  teamName: string;
+  teamAbbrev: string;
+  gamesPlayed: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  goalDifference: number;
+  points: number;
+  note: string;
+  noteColor: string;
+}
+
+export interface FootballMatch {
+  date: string;
+  homeTeam: string;
+  awayTeam: string;
+  homeScore?: number;
+  awayScore?: number;
+  status: string;
+  isHome: boolean;
+}
+
+export interface FootballData {
+  fetchedAt: string;
+  standings: FootballStanding[];
+  lastMatch: FootballMatch | null;
+  nextMatch: FootballMatch | null;
+}
+
 // --- Tool types ---
 
 export interface Tool {

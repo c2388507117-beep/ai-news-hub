@@ -6,20 +6,23 @@ import DailyDigest from '../components/DailyDigest.astro';
 import HotTopics from '../components/HotTopics.astro';
 import MusicPlayer from '../components/MusicPlayer.astro';
 import Wallpaper from '../components/Wallpaper.astro';
+import FootballStandings from '../components/FootballStandings.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category, LeaderboardData, HotTopic, MusicSong, WallpaperData } from '../lib/types';
+import type { NewsItem, Category, LeaderboardData, HotTopic, MusicSong, WallpaperData, FootballData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import leaderboardData from '../data/leaderboard.json';
 import hotTopicsData from '../data/hot-topics.json';
 import musicData from '../data/music.json';
 import wallpaperData from '../data/wallpapers.json';
+import footballData from '../data/football.json';
 
 const allNews = allNewsData as NewsItem[];
 const lbData = leaderboardData as LeaderboardData;
 const hotTopics = hotTopicsData as HotTopic[];
 const songs = musicData as MusicSong[];
 const wallpapers = wallpaperData as WallpaperData;
+const football = footballData as FootballData;
 
 // --- Compute Related Articles ---
 const commonWords = new Set([
@@ -74,7 +77,14 @@ allNews.forEach((item) => {
   <MusicPlayer songs={songs} />
 
   <main class="max-w-5xl mx-auto px-4 py-6">
-    <!-- AI Model Leaderboard (full width) -->
+    <!-- Football Standings (full width) -->
+    <FootballStandings
+      standings={football.standings}
+      lastMatch={football.lastMatch}
+      nextMatch={football.nextMatch}
+    />
+
+    <!-- AI Model Leaderboard (full width, collapsed by default) -->
     <Leaderboard data={lbData} />
 
     <!-- Category Nav (full width) -->

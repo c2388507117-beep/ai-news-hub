@@ -65,8 +65,13 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
 ---
 
 <div id="leaderboard" class="mb-6 rounded-xl border border-blue-200 dark:border-blue-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
-  <!-- Header -->
-  <div class="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+  <!-- Header (clickable toggle) -->
+  <button
+    id="lb-toggle"
+    class="w-full bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 cursor-pointer hover:from-blue-500 hover:to-blue-600 transition-all text-left"
+    aria-expanded="false"
+    aria-controls="lb-body"
+  >
     <div class="flex items-center gap-2">
       <span class="text-xl leading-none">🤖</span>
       <h2 class="text-base font-bold text-white">AI 模型排行榜</h2>
@@ -74,64 +79,85 @@ const prepared: PreparedCategory[] = LEADERBOARD_CATEGORIES.map((cat, ci) => {
         <span class="text-xs text-blue-200 ml-2">更新于 {formatDate(data.fetchedAt)}</span>
       )}
     </div>
-    <div class="flex gap-1 overflow-x-auto" id="lb-tabs">
-      {prepared.map((cat) => (
-        <button
-          data-lb-tab={cat.name}
-          class={'lb-tab px-3 py-1 rounded-md text-xs font-medium transition-colors whitespace-nowrap ' + (cat.isActive ? 'bg-white/20 text-white' : 'text-blue-100 hover:bg-white/10')}
-        >
-          {cat.displayName}
-        </button>
-      ))}
+    <div class="flex items-center gap-2">
+      <div class="flex gap-1 overflow-x-auto" id="lb-tabs" onclick="event.stopPropagation()">
+        {prepared.map((cat) => (
+          <button
+            data-lb-tab={cat.name}
+            class={'lb-tab px-3 py-1 rounded-md text-xs font-medium transition-colors whitespace-nowrap pointer-events-auto ' + (cat.isActive ? 'bg-white/20 text-white' : 'text-blue-100 hover:bg-white/10')}
+          >
+            {cat.displayName}
+          </button>
+        ))}
+      </div>
+      <span id="lb-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
     </div>
-  </div>
+  </button>
 
-  <!-- Body -->
-  {hasData ? (
-    <div class="overflow-x-auto">
-      {prepared.map((cat) => (
-        <div
-          data-lb-content={cat.name}
-          class={'lb-content' + (cat.isActive ? '' : ' hidden')}
-        >
-          {cat.models.length > 0 ? (
-            <div class="divide-y divide-gray-100 dark:divide-gray-800">
-              {cat.models.map((model) => (
-                <div class={model.rowClass}>
-                  <span class={model.rankClass}>{model.rankDisplay}</span>
-                  <span class="lb-model text-sm font-semibold truncate" title={model.model}>
-                    {model.model}
-                  </span>
-                  <span class="lb-vendor text-xs text-gray-400 dark:text-gray-500 truncate hidden sm:block">
-                    {model.vendor || '-'}
-                  </span>
-                  <div class="lb-bar-container h-5 flex items-center">
-                    <div
-                      class={'lb-bar h-2.5 rounded-full ' + model.barColor + ' opacity-70 min-w-[8px] transition-all'}
-                      style={'width: ' + model.barPct + '%'}
-                    ></div>
+  <!-- Body (collapsible) -->
+  <div id="lb-body" class="hidden">
+    {hasData ? (
+      <div class="overflow-x-auto">
+        {prepared.map((cat) => (
+          <div
+            data-lb-content={cat.name}
+            class={'lb-content' + (cat.isActive ? '' : ' hidden')}
+          >
+            {cat.models.length > 0 ? (
+              <div class="divide-y divide-gray-100 dark:divide-gray-800">
+                {cat.models.map((model) => (
+                  <div class={model.rowClass}>
+                    <span class={model.rankClass}>{model.rankDisplay}</span>
+                    <span class="lb-model text-sm font-semibold truncate" title={model.model}>
+                      {model.model}
+                    </span>
+                    <span class="lb-vendor text-xs text-gray-400 dark:text-gray-500 truncate hidden sm:block">
+                      {model.vendor || '-'}
+                    </span>
+                    <div class="lb-bar-container h-5 flex items-center">
+                      <div
+                        class={'lb-bar h-2.5 rounded-full ' + model.barColor + ' opacity-70 min-w-[8px] transition-all'}
+                        style={'width: ' + model.barPct + '%'}
+                      ></div>
+                    </div>
+                    <span class="lb-score text-sm font-mono font-semibold text-right tabular-nums text-gray-700 dark:text-gray-300">
+                      {model.score}
+                    </span>
                   </div>
-                  <span class="lb-score text-sm font-mono font-semibold text-right tabular-nums text-gray-700 dark:text-gray-300">
-                    {model.score}
-                  </span>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p class="text-center text-gray-400 py-8 text-sm">暂无数据</p>
-          )}
+                ))}
+              </div>
+            ) : (
+              <p class="text-center text-gray-400 py-8 text-sm">暂无数据</p>
+            )}
 
-        </div>
-      ))}
-    </div>
-  ) : (
-    <p class="text-center text-gray-400 py-8 text-sm">
-      排行榜数据尚未获取
-    </p>
-  )}
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="text-center text-gray-400 py-8 text-sm">
+        排行榜数据尚未获取
+      </p>
+    )}
+  </div>
 </div>
 
 <script>
+  // Collapse toggle
+  const toggle = document.getElementById('lb-toggle');
+  const body = document.getElementById('lb-body');
+  const chevron = document.getElementById('lb-chevron');
+
+  if (toggle && body && chevron) {
+    // Default collapsed; hidden class already applied
+    toggle.addEventListener('click', (e) => {
+      if (e.target.closest('#lb-tabs')) return; // Don't toggle when clicking tabs
+      const isOpen = !body.classList.contains('hidden');
+      body.classList.toggle('hidden');
+      chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+  }
+
   // Tab switching
   document.querySelectorAll('.lb-tab').forEach((tab) => {
     tab.addEventListener('click', () => {
