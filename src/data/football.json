@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T00:17:07.066Z",
+  "fetchedAt": "2026-05-28T04:47:49.181Z",
   "standings": [
     {
       "position": 1,
@@ -238,8 +238,8 @@
       "goalsAgainst": 51,
       "goalDifference": -10,
       "points": 45,
-      "note": "",
-      "noteColor": ""
+      "note": "Europa League",
+      "noteColor": "#B5E7CE"
     },
     {
       "position": 16,
