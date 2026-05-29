@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T16:55:21.643Z",
+  "fetchedAt": "2026-05-29T19:43:23.170Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -18,20 +18,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
-      "name": "Mina the Hollower",
-      "appid": 1875580,
-      "price": 1999,
-      "finalPrice": 1999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
-    },
-    {
       "name": "007 First Light - Standard Edition",
       "appid": 1488462,
       "price": 6999,
       "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+    },
+    {
+      "name": "Mina the Hollower",
+      "appid": 1875580,
+      "price": 1999,
+      "finalPrice": 1999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
     },
     {
       "name": "Forza Horizon 6",
@@ -66,12 +66,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
     },
     {
-      "name": "Call of Duty®: Modern Warfare® 4",
-      "appid": 4435490,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
+      "name": "Hell Let Loose: Vietnam - Deluxe Edition",
+      "appid": 1641346,
+      "price": 5999,
+      "finalPrice": 5399,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1641346/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
