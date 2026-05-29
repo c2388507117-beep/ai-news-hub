@@ -1,35 +1,11 @@
 {
-  "fetchedAt": "2026-05-29T08:53:52.642Z",
+  "fetchedAt": "2026-05-29T12:30:00.786Z",
   "topSellers": [
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Mina the Hollower",
-      "appid": 1875580,
-      "price": 1999,
-      "finalPrice": 1999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
-    },
     {
       "name": "Paralives",
       "appid": 1118520,
-      "price": 3999,
-      "finalPrice": 3599,
+      "price": 3899,
+      "finalPrice": 3509,
       "discount": 10,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
@@ -42,6 +18,22 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 41900,
+      "finalPrice": 41900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "007 First Light - Standard Edition",
+      "appid": 1488462,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+    },
+    {
       "name": "Subnautica 2",
       "appid": 1962700,
       "price": 2999,
@@ -50,12 +42,28 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Fallout 1st",
-      "appid": 1202520,
-      "price": 1299,
-      "finalPrice": 1299,
+      "name": "Mina the Hollower",
+      "appid": 1875580,
+      "price": 2049,
+      "finalPrice": 2049,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
+    },
+    {
+      "name": "Gothic 1 Remake",
+      "appid": 1579999,
+      "price": 4999,
+      "finalPrice": 4999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1579999/capsule_184x69.jpg"
+    },
+    {
+      "name": "Planet Zoo 2",
+      "appid": 3219030,
+      "price": 4999,
+      "finalPrice": 4999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light",
