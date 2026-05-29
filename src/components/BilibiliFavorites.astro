@@ -1,0 +1,129 @@
+---
+import type { BilibiliData } from '../lib/types';
+
+export interface Props {
+  data: BilibiliData;
+}
+
+const { data } = Astro.props;
+const hasData = data?.videos?.length > 0;
+const unwatched = data?.videos?.filter(v => !v.isWatched) || [];
+const totalDuration = data?.videos?.reduce((s, v) => s + v.duration, 0) || 0;
+const totalRemaining = data?.videos?.reduce((s, v) => s + v.remaining, 0) || 0;
+
+function fmtTime(sec: number): string {
+  if (!sec || sec <= 0) return '0:00';
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = Math.floor(sec % 60);
+  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
+
+function watchPct(progress: number, duration: number): number {
+  if (!duration) return 0;
+  return Math.min(Math.round((progress / duration) * 100), 100);
+}
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <!-- Header -->
+  <button
+    id="bili-toggle"
+    class="w-full bg-gradient-to-r from-pink-600 to-purple-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-pink-500 hover:to-purple-600 transition-all text-left"
+    aria-expanded="true"
+    aria-controls="bili-body"
+  >
+    <div class="flex items-center gap-2 min-w-0">
+      <span class="text-xl leading-none flex-shrink-0">📺</span>
+      <h2 class="text-sm font-bold text-white truncate">B站收藏</h2>
+    </div>
+    <span id="bili-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0 rotate-90">▶</span>
+  </button>
+
+  <!-- Body -->
+  <div id="bili-body">
+    {hasData ? (
+      <div class="p-3 space-y-2">
+        <!-- Summary -->
+        <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 px-1">
+          <span>共 {data.videos.length} 个视频</span>
+          <span>未看 {unwatched.length} · 剩余 {fmtTime(totalRemaining)}</span>
+        </div>
+
+        <!-- Folder tags -->
+        {data.folders?.length > 0 && (
+          <div class="flex flex-wrap gap-1">
+            {data.folders.map(f => (
+              <span class="text-[10px] px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 truncate max-w-[120px]">
+                {f.title} ({f.mediaCount})
+              </span>
+            ))}
+          </div>
+        )}
+
+        <!-- Video list -->
+        <div class="space-y-2 max-h-[400px] overflow-y-auto">
+          {data.videos.slice(0, 30).map(v => {
+            const pct = watchPct(v.progress, v.duration);
+            return (
+              <a
+                href={v.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group"
+              >
+                <div class="relative w-16 h-9 flex-shrink-0 rounded overflow-hidden bg-gray-200 dark:bg-gray-700">
+                  {v.cover && (
+                    <img src={v.cover} alt="" class="w-full h-full object-cover" loading="lazy" />
+                  )}
+                  <span class="absolute bottom-0.5 right-0.5 text-[9px] text-white bg-black/70 px-0.5 rounded">
+                    {fmtTime(v.duration)}
+                  </span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="text-xs font-medium text-gray-700 dark:text-gray-300 line-clamp-2 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
+                    {v.title}
+                  </span>
+                  <span class="text-[10px] text-gray-400 dark:text-gray-500">{v.author}</span>
+                  {!v.isWatched && (
+                    <div class="mt-1 h-1 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                      <div
+                        class="h-full bg-gradient-to-r from-pink-500 to-purple-500 rounded-full transition-all"
+                        style={`width: ${pct}%`}
+                      ></div>
+                    </div>
+                  )}
+                  {v.isWatched && (
+                    <span class="text-[10px] text-gray-400 dark:text-gray-500">✓ 已看完</span>
+                  )}
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    ) : (
+      <div class="text-center text-gray-400 py-6 text-xs">
+        <p>暂无收藏数据</p>
+        <p class="mt-1">请在 B站 配置收藏夹后刷新</p>
+      </div>
+    )}
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('bili-toggle');
+  const body = document.getElementById('bili-body');
+  const chevron = document.getElementById('bili-chevron');
+
+  if (toggle && body && chevron) {
+    // Default: expanded (aria-expanded="true")
+    toggle.addEventListener('click', () => {
+      const isOpen = !body.classList.contains('hidden');
+      body.classList.toggle('hidden');
+      chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+  }
+</script>

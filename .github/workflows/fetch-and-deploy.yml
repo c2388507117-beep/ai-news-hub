@@ -24,26 +24,26 @@ jobs:
       - name: Fetch RSS news
         run: node scripts/fetch-news.mjs
 
-      - name: Fetch GitHub trending
-        run: node scripts/fetch-trending.mjs
-
-      - name: Fetch AI leaderboard
-        run: node scripts/fetch-leaderboard.mjs
-
       - name: Fetch wallpapers
         run: node scripts/fetch-wallpapers.mjs
-
-      - name: Fetch hot topics
-        run: node scripts/fetch-hot-topics.mjs
 
       - name: Fetch football data
         run: node scripts/fetch-football.mjs
 
-      - name: Commit and push updated news data
+      - name: Fetch Steam charts
+        run: node scripts/fetch-steam.mjs
+
+      - name: Fetch Bilibili favorites
+        run: node scripts/fetch-bilibili.mjs
+
+      - name: Fetch daily knowledge
+        run: node scripts/fetch-knowledge.mjs
+
+      - name: Commit and push updated data
         run: |
           git config user.name "ai-news-hub-bot"
           git config user.email "bot@ai-news-hub.local"
-          git add src/data/news.json src/data/leaderboard.json src/data/wallpapers.json src/data/hot-topics.json src/data/football.json
+          git add src/data/news.json src/data/wallpapers.json src/data/football.json src/data/steam.json src/data/bilibili.json src/data/knowledge.json
           if git diff --cached --quiet; then
             echo "No changes to data files"
           else

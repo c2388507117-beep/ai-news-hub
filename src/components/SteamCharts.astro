@@ -1,0 +1,109 @@
+---
+import type { SteamData } from '../lib/types';
+
+export interface Props {
+  data: SteamData;
+}
+
+const { data } = Astro.props;
+const hasData = data?.topSellers?.length > 0 || data?.mostPlayed?.length > 0;
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <!-- Header -->
+  <button
+    id="steam-toggle"
+    class="w-full bg-gradient-to-r from-indigo-600 to-indigo-700 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-indigo-500 hover:to-indigo-600 transition-all text-left"
+    aria-expanded="false"
+    aria-controls="steam-body"
+  >
+    <div class="flex items-center gap-2 min-w-0">
+      <span class="text-xl leading-none flex-shrink-0">🎮</span>
+      <h2 class="text-sm font-bold text-white truncate">Steam 热销榜</h2>
+    </div>
+    <span id="steam-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
+  </button>
+
+  <!-- Body (collapsible) -->
+  <div id="steam-body" class="hidden">
+    {hasData ? (
+      <div class="divide-y divide-gray-100 dark:divide-gray-800">
+        <!-- Top Sellers -->
+        {data.topSellers?.length > 0 && (
+          <div class="p-3">
+            <h3 class="text-xs font-semibold text-gray-500 dark:text-gray-400 mb-2 uppercase tracking-wider">热销商品</h3>
+            <div class="space-y-1.5">
+              {data.topSellers.slice(0, 15).map((item, i) => (
+                <a
+                  href={`https://store.steampowered.com/app/${item.appid}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group"
+                >
+                  <span class="text-xs font-bold text-gray-400 dark:text-gray-500 w-4 flex-shrink-0">{i + 1}</span>
+                  <div class="flex-1 min-w-0">
+                    <span class="text-xs font-medium text-gray-700 dark:text-gray-300 truncate block group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                      {item.name}
+                    </span>
+                  </div>
+                  {item.discount > 0 && (
+                    <span class="text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-100 dark:bg-green-900/30 px-1 rounded flex-shrink-0">
+                      -{item.discount}%
+                    </span>
+                  )}
+                  <span class="text-xs font-mono text-gray-500 dark:text-gray-400 flex-shrink-0">
+                    {item.finalPrice > 0 ? `$${(item.finalPrice / 100).toFixed(2)}` : '免费'}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Most Played -->
+        {data.mostPlayed?.length > 0 && (
+          <div class="p-3">
+            <h3 class="text-xs font-semibold text-gray-500 dark:text-gray-400 mb-2 uppercase tracking-wider">热玩游戏</h3>
+            <div class="space-y-1.5">
+              {data.mostPlayed.slice(0, 15).map((item) => (
+                <a
+                  href={`https://store.steampowered.com/app/${item.appid}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group"
+                >
+                  <span class="text-xs font-bold text-gray-400 dark:text-gray-500 w-4 flex-shrink-0">{item.rank}</span>
+                  <div class="flex-1 min-w-0">
+                    <span class="text-xs font-medium text-gray-700 dark:text-gray-300 truncate block group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                      {item.name}
+                    </span>
+                  </div>
+                  <span class="text-[10px] text-gray-400 dark:text-gray-500 flex-shrink-0 tabular-nums">
+                    {(item.concurrentPlayers / 1000).toFixed(1)}k
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    ) : (
+      <p class="text-center text-gray-400 py-6 text-xs">暂无 Steam 数据</p>
+    )}
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('steam-toggle');
+  const body = document.getElementById('steam-body');
+  const chevron = document.getElementById('steam-chevron');
+
+  if (toggle && body && chevron) {
+    toggle.addEventListener('click', () => {
+      const isOpen = !body.classList.contains('hidden');
+      body.classList.toggle('hidden');
+      chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+  }
+</script>

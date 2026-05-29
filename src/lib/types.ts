@@ -1,11 +1,10 @@
-export type Category = 'ai' | 'tech' | 'business' | 'gaming' | 'trending';
+export type Category = 'ai' | 'tech' | 'business' | 'gaming';
 
 export const CATEGORY_LABELS: Record<Category, string> = {
   ai: 'AI 前沿',
   tech: '科技动态',
   business: '商业财经',
   gaming: '游戏资讯',
-  trending: '热门项目',
 };
 
 export const CATEGORY_EMOJIS: Record<Category, string> = {
@@ -13,7 +12,6 @@ export const CATEGORY_EMOJIS: Record<Category, string> = {
   tech: '💻',
   business: '📈',
   gaming: '🎮',
-  trending: '📦',
 };
 
 export interface NewsItem {
@@ -31,7 +29,7 @@ export interface NewsItem {
   language?: string;
 }
 
-export const ALL_CATEGORIES: Category[] = ['ai', 'tech', 'business', 'gaming', 'trending'];
+export const ALL_CATEGORIES: Category[] = ['ai', 'tech', 'business', 'gaming'];
 
 // --- Hot Topic types ---
 
@@ -157,3 +155,64 @@ export const LEADERBOARD_CATEGORIES: { name: string; displayName: string }[] = [
   { name: 'code', displayName: '代码生成' },
   { name: 'vision', displayName: '多模态' },
 ];
+
+// --- Steam types ---
+
+export interface SteamItem {
+  name: string;
+  appid: number;
+  price: number;
+  finalPrice: number;
+  discount: number;
+  imageUrl: string;
+}
+
+export interface SteamMostPlayedItem {
+  rank: number;
+  appid: number;
+  name: string;
+  concurrentPlayers: number;
+}
+
+export interface SteamData {
+  fetchedAt: string;
+  topSellers: SteamItem[];
+  mostPlayed: SteamMostPlayedItem[];
+}
+
+// --- Bilibili types ---
+
+export interface BilibiliFolder {
+  id: number;
+  title: string;
+  mediaCount: number;
+}
+
+export interface BilibiliVideo {
+  bvid: string;
+  title: string;
+  cover: string;
+  link: string;
+  author: string;
+  duration: number;
+  progress: number;
+  remaining: number;
+  isWatched: boolean;
+}
+
+export interface BilibiliData {
+  fetchedAt: string;
+  folders: BilibiliFolder[];
+  videos: BilibiliVideo[];
+}
+
+// --- Knowledge types ---
+
+export interface KnowledgeItem {
+  fetchedAt: string;
+  title: string;
+  extract: string;
+  url: string;
+  imageUrl: string | null;
+  source: string;
+}

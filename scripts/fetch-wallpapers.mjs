@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const MAX_WALLPAPERS = 60;
+const MAX_WALLPAPERS = 80;
 
 // Bing daily wallpaper archive (Chinese endpoint — accessible from China)
 // idx=0 today, idx=1 yesterday ... up to idx=7 last 8 days
@@ -71,6 +71,34 @@ async function fetchBingWallpapers() {
   }
 }
 
+async function fetchGirldir() {
+  try {
+    const res = await fetch('https://www.girldir.com/en/', {
+      headers: { 'User-Agent': 'Mozilla/5.0' },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const regex = /src="(https:\/\/img\.girldir\.com\/upload\/[^"]+)"/g;
+    const matches = new Set();
+    let match;
+    while ((match = regex.exec(html)) !== null) {
+      matches.add(match[1]);
+    }
+    const urls = Array.from(matches).slice(0, 30).map((url) => ({
+      url,
+      source: 'girldir',
+      title: 'girldir.com',
+      copyright: 'girldir.com',
+    }));
+    console.log(`  ✓ Girldir: ${urls.length} images`);
+    return urls;
+  } catch (err) {
+    console.error(`  ✗ Girldir: ${err.message}`);
+    return [];
+  }
+}
+
 async function main() {
   console.log('Fetching wallpapers from Bing...');
 
@@ -86,7 +114,8 @@ async function main() {
 
   const newWallpapers = await fetchBingWallpapers();
   const picsumWallpapers = await fetchPicsumWallpapers();
-  const allNewWallpapers = [...newWallpapers, ...picsumWallpapers];
+  const girldirWallpapers = await fetchGirldir();
+  const allNewWallpapers = [...newWallpapers, ...picsumWallpapers, ...girldirWallpapers];
   if (allNewWallpapers.length === 0) {
     console.log('No wallpapers fetched, keeping existing data.');
     return;
@@ -105,7 +134,7 @@ async function main() {
 
   // Keep max wallpapers — preserve at least some from each source
   if (allUrls.length > MAX_WALLPAPERS) {
-    // Separate Bing (keep all) and picsum (fill remaining)
+    // Keep non-picsum sources (Bing, Girldir, etc.) and fill remaining with picsum
     const bingUrls = allUrls.filter((u) => (u.source || '').toLowerCase() !== 'picsum');
     const picsumUrls = allUrls.filter((u) => (u.source || '').toLowerCase() === 'picsum');
     const remaining = MAX_WALLPAPERS - bingUrls.length;
@@ -122,7 +151,7 @@ async function main() {
   };
 
   fs.writeFileSync(dataPath, JSON.stringify(output, null, 2), 'utf-8');
-  console.log(`  ✓ ${newWallpapers.length} Bing + ${picsumWallpapers.length} Picsum new, ${allUrls.length} total wallpapers`);
+  console.log(`  ✓ ${newWallpapers.length} Bing + ${picsumWallpapers.length} Picsum + ${girldirWallpapers.length} Girldir new, ${allUrls.length} total wallpapers`);
 }
 
 main().catch(console.error);
