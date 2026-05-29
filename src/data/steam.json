@@ -1,85 +1,77 @@
 {
-  "fetchedAt": "2026-05-29T22:08:13.089Z",
+  "fetchedAt": "2026-05-29T23:44:04.487Z",
   "topSellers": [
-    {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 159900,
-      "finalPrice": 159900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
-    },
     {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 229900,
-      "finalPrice": 229900,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 41900,
+      "finalPrice": 41900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
       "name": "Paralives",
       "appid": 1118520,
-      "price": 74000,
-      "finalPrice": 66600,
+      "price": 3899,
+      "finalPrice": 3509,
       "discount": 10,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
+      "name": "007 First Light - Standard Edition",
+      "appid": 1488462,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+    },
+    {
       "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
       "appid": 1588213,
-      "price": 60000,
-      "finalPrice": 30000,
+      "price": 2775,
+      "finalPrice": 1387,
       "discount": 50,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
     },
     {
-      "name": "Mina the Hollower",
-      "appid": 1875580,
-      "price": 43000,
-      "finalPrice": 43000,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
-    },
-    {
       "name": "Subnautica 2",
       "appid": 1962700,
-      "price": 89900,
-      "finalPrice": 89900,
+      "price": 2999,
+      "finalPrice": 2999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
+      "name": "Gothic 1 Remake",
+      "appid": 1579999,
+      "price": 4999,
+      "finalPrice": 4999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1579999/capsule_184x69.jpg"
+    },
+    {
+      "name": "Mina the Hollower",
+      "appid": 1875580,
+      "price": 2049,
+      "finalPrice": 2049,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
+    },
+    {
       "name": "007 First Light",
       "appid": 3768760,
-      "price": 159900,
-      "finalPrice": 159900,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
-    },
-    {
-      "name": "LEGO® Batman™: Legacy of the Dark Knight",
-      "appid": 2215200,
-      "price": 189900,
-      "finalPrice": 189900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Call of Duty®: Modern Warfare® 4",
-      "appid": 4435490,
-      "price": 244900,
-      "finalPrice": 244900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
-    },
-    {
-      "name": "Prime Status Upgrade",
-      "appid": 54029,
-      "price": 65000,
-      "finalPrice": 65000,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
