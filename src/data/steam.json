@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T04:57:01.476Z",
+  "fetchedAt": "2026-05-29T08:53:52.642Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -50,28 +50,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
+      "name": "Fallout 1st",
+      "appid": 1202520,
+      "price": 1299,
+      "finalPrice": 1299,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_184x69.jpg"
+    },
+    {
       "name": "007 First Light",
       "appid": 3768760,
       "price": 6999,
       "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
-    },
-    {
-      "name": "LEGO® Batman™: Legacy of the Dark Knight",
-      "appid": 2215200,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Gamble With Your Friends",
-      "appid": 3892270,
-      "price": 799,
-      "finalPrice": 799,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
