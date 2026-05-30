@@ -1,77 +1,77 @@
 {
-  "fetchedAt": "2026-05-30T10:19:32.752Z",
+  "fetchedAt": "2026-05-30T12:18:19.804Z",
   "topSellers": [
+    {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 49900,
+      "finalPrice": 49900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
     {
       "name": "007 First Light - Standard Edition",
       "appid": 1488462,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 8999,
+      "finalPrice": 8999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 4999,
+      "finalPrice": 4499,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+    },
+    {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 8999,
+      "finalPrice": 8999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Microsoft Flight Simulator 2024",
-      "appid": 2537590,
-      "price": 34800,
-      "finalPrice": 34800,
+      "name": "Mina the Hollower",
+      "appid": 1875580,
+      "price": 2399,
+      "finalPrice": 2399,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
     },
     {
-      "name": "Romestead",
-      "appid": 1805320,
-      "price": 4800,
-      "finalPrice": 4320,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 First Light",
-      "appid": 3768760,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
-    },
-    {
-      "name": "Call of Duty®: Modern Warfare® 4",
-      "appid": 4435490,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
-    },
-    {
-      "name": "Grand Theft Auto V Enhanced",
-      "appid": 3240220,
-      "price": 14900,
-      "finalPrice": 7450,
+      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
+      "appid": 1588213,
+      "price": 4192,
+      "finalPrice": 2096,
       "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
     },
     {
       "name": "Subnautica 2",
       "appid": 1962700,
-      "price": 10800,
-      "finalPrice": 10800,
+      "price": 3999,
+      "finalPrice": 3999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "EA SPORTS FC™ 25 & EA SPORTS FC™ 26 ICONS Edition Bundle",
-      "appid": 70424,
-      "price": 51600,
-      "finalPrice": 12900,
+      "name": "007 First Light",
+      "appid": 3768760,
+      "price": 8999,
+      "finalPrice": 8999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70424/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
+    },
+    {
+      "name": "LEGO® Batman™: Legacy of the Dark Knight",
+      "appid": 2215200,
+      "price": 8999,
+      "finalPrice": 8999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
