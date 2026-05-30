@@ -8,10 +8,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, '..', 'src', 'data', 'bilibili.json');
 
 const UID = 38795510;
+const MEDIA_ID = 3716645510; // "游戏与视频" collection
 
 const BASE_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Referer': `https://space.bilibili.com/${UID}/favlist`,
+  'Referer': 'https://space.bilibili.com/38795510/favlist',
 };
 
 function delay(ms) {
@@ -23,7 +24,7 @@ function delay(ms) {
  */
 async function apiGet(rawUrl, params = {}) {
   const queryString = Object.keys(params).length
-    ? '?' + Object.keys(params).map((k) => `${k}=${params[k]}`).join('&')
+    ? '?' + Object.keys(params).map((k) => `${k}=${encodeURIComponent(params[k])}`).join('&')
     : '';
   const url = rawUrl + queryString;
 
@@ -36,45 +37,43 @@ async function apiGet(rawUrl, params = {}) {
 }
 
 /**
- * Step 1: Fetch favorited videos from the public v2 endpoint (no WBI auth needed).
- * Returns archives array.
+ * Step 1: Fetch favorited videos from v3 resource list API.
+ * This API works without WBI signing for public collections.
+ * Returns { info, medias[], count }.
  */
 async function fetchFavoriteVideos() {
-  const allArchives = [];
+  const allMedias = [];
   let pn = 1;
   let total = 0;
-  const ps = 30;
+  const ps = 20;
+  let folderTitle = '游戏与视频';
 
   do {
-    const data = await apiGet('https://api.bilibili.com/x/v2/fav/video', {
-      vmid: UID,
+    const data = await apiGet('https://api.bilibili.com/x/v3/fav/resource/list', {
+      media_id: MEDIA_ID,
       pn,
       ps,
     });
 
-    if (data.code !== 0) throw new Error(`Fav video API error: ${data.code} ${data.message}`);
+    if (data.code !== 0) throw new Error(`Fav list API error: ${data.code} ${data.message}`);
 
-    const archives = data?.data?.archives || [];
-    total = data?.data?.total || 0;
-    allArchives.push(...archives);
-    console.log(`  Page ${pn}: ${archives.length} videos (total ${total})`);
+    const info = data?.data?.info || {};
+    const medias = data?.data?.medias || [];
+    const pageCount = data?.data?.count || medias.length;
+
+    folderTitle = info.title || folderTitle;
+    if (pn === 1) total = pageCount;
+
+    allMedias.push(...medias);
+    console.log(`  Page ${pn}: ${medias.length} videos (total ${total})`);
 
     pn++;
-    if (pn > (data?.data?.pagecount || 1)) break;
+    if (medias.length < ps) break;
     await delay(300);
-  } while (allArchives.length < total);
+  } while (allMedias.length < total);
 
-  console.log(`  ✓ ${allArchives.length} favorited videos fetched`);
-  return allArchives;
-}
-
-/**
- * Step 2: Fetch video detail (duration) from the view endpoint.
- */
-async function fetchVideoDetail(aid) {
-  const data = await apiGet('https://api.bilibili.com/x/web-interface/view', { aid });
-  if (data.code !== 0) throw new Error(`View API error: ${data.code} ${data.message}`);
-  return data?.data || null;
+  console.log(`  ✓ ${allMedias.length} videos fetched from "${folderTitle}"`);
+  return { medias: allMedias, folderTitle };
 }
 
 /**
@@ -91,10 +90,13 @@ function readExistingData() {
 async function main() {
   console.log('Fetching Bilibili favorites...');
 
-  /* ---- Step 1: Fetch favorited videos ---- */
-  let archives;
+  /* ---- Step 1: Fetch videos from the collection ---- */
+  let medias;
+  let folderTitle = '游戏与视频';
   try {
-    archives = await fetchFavoriteVideos();
+    const result = await fetchFavoriteVideos();
+    medias = result.medias;
+    folderTitle = result.folderTitle;
   } catch (err) {
     console.error('  ✗ Failed to fetch favorites:', err.message);
     const existing = readExistingData();
@@ -106,69 +108,32 @@ async function main() {
     return;
   }
 
-  if (!archives || archives.length === 0) {
+  if (!medias || medias.length === 0) {
     console.log('  No favorited videos found.');
     return;
   }
 
   /* Filter out invalid videos */
-  const validVideos = archives.filter((a) => a.aid && a.title && a.title !== '已失效视频');
-  console.log(`  Valid videos: ${validVideos.length}/${archives.length}`);
+  const validMedias = medias.filter((m) => m.id && m.title && m.title !== '已失效视频');
+  console.log(`  Valid videos: ${validMedias.length}/${medias.length}`);
 
-  /* ---- Step 2: Fetch video details for duration ---- */
-  const videos = [];
-  for (const archive of validVideos) {
-    await delay(200);
-    try {
-      const detail = await fetchVideoDetail(archive.aid);
-      if (!detail) {
-        console.error(`    ✗ No detail for aid=${archive.aid}, using archive data`);
-        videos.push({
-          aid: archive.aid,
-          bvid: archive.bvid || '',
-          title: archive.title || '',
-          cover: archive.pic ? archive.pic.replace(/^http:/, 'https:') : '',
-          link: `https://www.bilibili.com/video/${archive.bvid || ''}`,
-          author: archive.owner?.name || '',
-          duration: archive.duration || 0,
-          // Progress not available without auth
-          progress: 0,
-          remaining: archive.duration || 0,
-          isWatched: false,
-        });
-        continue;
-      }
-      const duration = detail.duration || archive.duration || 0;
-      videos.push({
-        aid: archive.aid,
-        bvid: archive.bvid || detail.bvid || '',
-        title: archive.title || '',
-        cover: archive.pic ? archive.pic.replace(/^http:/, 'https:') : '',
-        link: `https://www.bilibili.com/video/${archive.bvid || detail.bvid || ''}`,
-        author: archive.owner?.name || '',
-        duration,
-        // Progress unavailable without login; show as unwatched
-        progress: 0,
-        remaining: duration,
-        isWatched: false,
-      });
-    } catch (err) {
-      // On error, use archive data as-is
-      console.error(`    ✗ Failed to fetch detail for aid=${archive.aid}: ${err.message}`);
-      videos.push({
-        aid: archive.aid,
-        bvid: archive.bvid || '',
-        title: archive.title || '',
-        cover: archive.pic ? archive.pic.replace(/^http:/, 'https:') : '',
-        link: `https://www.bilibili.com/video/${archive.bvid || ''}`,
-        author: archive.owner?.name || '',
-        duration: archive.duration || 0,
-        progress: 0,
-        remaining: archive.duration || 0,
-        isWatched: false,
-      });
-    }
-  }
+  /* ---- Step 2: Transform to our video format ---- */
+  const videos = validMedias.map((m) => {
+    const duration = m.duration || 0;
+    return {
+      aid: m.id,
+      bvid: m.bvid || '',
+      title: m.title || '',
+      cover: m.cover ? m.cover.replace(/^http:/, 'https:') : '',
+      link: `https://www.bilibili.com/video/${m.bvid || ''}`,
+      author: m.upper?.name || '',
+      duration,
+      // Progress not available without auth
+      progress: 0,
+      remaining: duration,
+      isWatched: false,
+    };
+  });
 
   /* Limit to max 50 videos */
   const finalVideos = videos.slice(0, 50);
@@ -176,7 +141,7 @@ async function main() {
   /* ---- Step 3: Write output ---- */
   const output = {
     fetchedAt: new Date().toISOString(),
-    folders: [{ id: 0, title: '默认收藏夹', mediaCount: finalVideos.length }],
+    folders: [{ id: MEDIA_ID, title: folderTitle, mediaCount: finalVideos.length }],
     videos: finalVideos,
   };
 

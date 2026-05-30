@@ -102,9 +102,8 @@ allNews.forEach((item) => {
 
     <!-- Three-Column Layout: Left Sidebar | Main | Right Sidebar -->
     <div class="grid grid-cols-1 lg:grid-cols-[240px_1fr_240px] gap-4">
-      <!-- Left Sidebar: Wallpaper Gallery + Steam Charts -->
+      <!-- Left Sidebar: Steam Charts -->
       <aside class="hidden lg:block space-y-4">
-        <WallpaperGallery data={wallpapers} />
         <SteamCharts data={steam} />
       </aside>
 
@@ -168,14 +167,16 @@ allNews.forEach((item) => {
         </div>
       </div>
 
-      <!-- Right Sidebar: Bilibili Favorites -->
+      <!-- Right Sidebar: Wallpaper Gallery + Bilibili Favorites -->
       <aside class="hidden lg:block space-y-4">
+        <WallpaperGallery data={wallpapers} />
         <BilibiliFavorites data={bilibili} />
       </aside>
     </div>
 
-    <!-- Mobile: Steam & Bilibili below main content -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:hidden">
+    <!-- Mobile: Gallery, Steam & Bilibili below main content -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 lg:hidden">
+      <WallpaperGallery data={wallpapers} />
       <SteamCharts data={steam} />
       <BilibiliFavorites data={bilibili} />
     </div>

@@ -17,6 +17,10 @@ const BING_API = 'https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8&mk
 // No API key required. Fetches random photos from Unsplash via picsum.photos
 const PICSUM_PAGES = 3;
 
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function fetchPicsumWallpapers() {
   const results = [];
   for (let page = 1; page <= PICSUM_PAGES; page++) {
@@ -72,31 +76,50 @@ async function fetchBingWallpapers() {
 }
 
 async function fetchGirldir() {
-  try {
-    const res = await fetch('https://www.girldir.com/en/', {
-      headers: { 'User-Agent': 'Mozilla/5.0' },
-      signal: AbortSignal.timeout(20000),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const html = await res.text();
-    const regex = /src="(https:\/\/img\.girldir\.com\/upload\/[^"]+)"/g;
-    const matches = new Set();
-    let match;
-    while ((match = regex.exec(html)) !== null) {
-      matches.add(match[1]);
+  const totalPages = 6; // Fetch 6 pages × 20 items = up to 120 images
+  const seen = new Set();
+  const results = [];
+
+  for (let page = 1; page <= totalPages; page++) {
+    try {
+      const url = `https://www.girldir.com/en/?ajax=1&page=${page}`;
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          'X-Requested-With': 'XMLHttpRequest',
+          Referer: 'https://www.girldir.com/en/',
+        },
+        signal: AbortSignal.timeout(20000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+      const items = json?.msg?.list || [];
+      if (items.length === 0) break;
+
+      for (const item of items) {
+        let imgUrl = item.imgUrl || '';
+        if (!imgUrl) continue;
+        // Deduplicate by URL
+        if (seen.has(imgUrl)) continue;
+        seen.add(imgUrl);
+        results.push({
+          url: imgUrl,
+          title: item.imgTitle || item.bookName || '',
+          copyright: 'girldir.com',
+          source: 'girldir',
+        });
+      }
+      console.log(`  ✓ Girldir page ${page}: ${items.length} items`);
+      if (page < totalPages) {
+        await delay(500);
+      }
+    } catch (err) {
+      console.error(`  ✗ Girldir page ${page}: ${err.message}`);
     }
-    const urls = Array.from(matches).slice(0, 30).map((url) => ({
-      url,
-      source: 'girldir',
-      title: 'girldir.com',
-      copyright: 'girldir.com',
-    }));
-    console.log(`  ✓ Girldir: ${urls.length} images`);
-    return urls;
-  } catch (err) {
-    console.error(`  ✗ Girldir: ${err.message}`);
-    return [];
   }
+
+  console.log(`  ✓ Girldir total: ${results.length} images`);
+  return results;
 }
 
 async function main() {
