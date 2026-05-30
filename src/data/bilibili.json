@@ -1,1 +1,120 @@
-{"fetchedAt":null,"folders":[],"videos":[]}
+{
+  "fetchedAt": "2026-05-30T12:59:59.557Z",
+  "folders": [
+    {
+      "id": 0,
+      "title": "默认收藏夹",
+      "mediaCount": 9
+    }
+  ],
+  "videos": [
+    {
+      "aid": 33516501,
+      "bvid": "BV18W41117xF",
+      "title": "冷冷vs菠萝 二女争风吃醋 NPC得宠（pc冷冷视角10.9）",
+      "cover": "http://i1.hdslb.com/bfs/archive/949e393ffa7d59926f63968b94392067a74954ca.png",
+      "link": "https://www.bilibili.com/video/BV18W41117xF",
+      "author": "账号已注销",
+      "duration": 4723,
+      "progress": 0,
+      "remaining": 4723,
+      "isWatched": false
+    },
+    {
+      "aid": 1455382048,
+      "bvid": "BV1pi421U7Z3",
+      "title": "为什么说打怪猎的男人不能要？（危险度评分版 下集）",
+      "cover": "http://i2.hdslb.com/bfs/archive/4a18a380fa966d2a488907272e62db876475dbf4.jpg",
+      "link": "https://www.bilibili.com/video/BV1pi421U7Z3",
+      "author": "高寒时薪十块",
+      "duration": 303,
+      "progress": 0,
+      "remaining": 303,
+      "isWatched": false
+    },
+    {
+      "aid": 1755342754,
+      "bvid": "BV1M4421X71k",
+      "title": "为什么说打怪猎的男人不能要？（危险度评分版 上集）",
+      "cover": "http://i2.hdslb.com/bfs/archive/0a6f57a78e30edcd57a7dcfa8d5a217a0b08b710.jpg",
+      "link": "https://www.bilibili.com/video/BV1M4421X71k",
+      "author": "高寒时薪十块",
+      "duration": 230,
+      "progress": 0,
+      "remaining": 230,
+      "isWatched": false
+    },
+    {
+      "aid": 768611576,
+      "bvid": "BV1rr4y1b7cu",
+      "title": "谈恋爱不如搞数学 - Robin Gan",
+      "cover": "http://i1.hdslb.com/bfs/archive/8c58b5e13cb816c3dd212a5374d9dff8ce19507d.jpg",
+      "link": "https://www.bilibili.com/video/BV1rr4y1b7cu",
+      "author": "Robin_Gan",
+      "duration": 138,
+      "progress": 0,
+      "remaining": 138,
+      "isWatched": false
+    },
+    {
+      "aid": 663890355,
+      "bvid": "BV1oa4y1Z7TK",
+      "title": "“相恋五年的女友在我眼前离世，纯爱至死不渝”",
+      "cover": "http://i1.hdslb.com/bfs/archive/dbf7b4b6cd099a4099224e67259baca29c0dd75c.jpg",
+      "link": "https://www.bilibili.com/video/BV1oa4y1Z7TK",
+      "author": "冲男阿凉",
+      "duration": 1001,
+      "progress": 0,
+      "remaining": 1001,
+      "isWatched": false
+    },
+    {
+      "aid": 934978627,
+      "bvid": "BV1XM4y1c7Jp",
+      "title": "【考试周破防】4K高清重制版",
+      "cover": "http://i0.hdslb.com/bfs/archive/249bdefc29a5dc611e68bca87578418254c46f8b.jpg",
+      "link": "https://www.bilibili.com/video/BV1XM4y1c7Jp",
+      "author": "CZY足球",
+      "duration": 448,
+      "progress": 0,
+      "remaining": 448,
+      "isWatched": false
+    },
+    {
+      "aid": 938990456,
+      "bvid": "BV1oT4y1671T",
+      "title": "“历史书太小 装不下一个人波澜壮阔的一生   历史书又太大 装下了华夏上下五千年 ”",
+      "cover": "http://i0.hdslb.com/bfs/archive/a29d0b8b081b1ffe90aca727543b528c5cdb4f9d.jpg",
+      "link": "https://www.bilibili.com/video/BV1oT4y1671T",
+      "author": "海棠家的大肥鱼",
+      "duration": 303,
+      "progress": 0,
+      "remaining": 303,
+      "isWatched": false
+    },
+    {
+      "aid": 980620885,
+      "bvid": "BV1P44y157AY",
+      "title": "伤心的人别玩治疗【魔兽世界】",
+      "cover": "http://i2.hdslb.com/bfs/archive/f3ae926552327e0cfd928ca27683d5c465888d7e.jpg",
+      "link": "https://www.bilibili.com/video/BV1P44y157AY",
+      "author": "小砍神-摆烂王",
+      "duration": 215,
+      "progress": 0,
+      "remaining": 215,
+      "isWatched": false
+    },
+    {
+      "aid": 669036260,
+      "bvid": "BV1Ua4y1E7kf",
+      "title": "“生而为👴，我很抱歉！”",
+      "cover": "http://i1.hdslb.com/bfs/archive/b816bb4346e8f477dc29cf7b8faaff648e87f6eb.jpg",
+      "link": "https://www.bilibili.com/video/BV1Ua4y1E7kf",
+      "author": "纽毕斯",
+      "duration": 138,
+      "progress": 0,
+      "remaining": 138,
+      "isWatched": false
+    }
+  ]
+}
