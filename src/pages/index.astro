@@ -12,6 +12,7 @@ import type { NewsItem, Category, WallpaperData, FootballData, SteamData, Bilibi
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
+import wallpaperGirlData from '../data/wallpapers-girl.json';
 import footballData from '../data/football.json';
 import steamData from '../data/steam.json';
 import bilibiliData from '../data/bilibili.json';
@@ -19,6 +20,7 @@ import knowledgeData from '../data/knowledge.json';
 
 const allNews = allNewsData as NewsItem[];
 const wallpapers = wallpaperData as WallpaperData;
+const wallpapersGirl = wallpaperGirlData as WallpaperData;
 const football = footballData as FootballData;
 const steam = steamData as SteamData;
 const bilibili = bilibiliData as BilibiliData;
@@ -102,8 +104,9 @@ allNews.forEach((item) => {
 
     <!-- Three-Column Layout: Left Sidebar | Main | Right Sidebar -->
     <div class="grid grid-cols-1 lg:grid-cols-[240px_1fr_240px] gap-4">
-      <!-- Left Sidebar: Steam Charts -->
+      <!-- Left Sidebar: Normal Wallpapers + Steam Charts -->
       <aside class="hidden lg:block space-y-4">
+        <WallpaperGallery data={wallpapers} />
         <SteamCharts data={steam} />
       </aside>
 
@@ -167,16 +170,17 @@ allNews.forEach((item) => {
         </div>
       </div>
 
-      <!-- Right Sidebar: Wallpaper Gallery + Bilibili Favorites -->
+      <!-- Right Sidebar: Girl Wallpapers + Bilibili Favorites -->
       <aside class="hidden lg:block space-y-4">
-        <WallpaperGallery data={wallpapers} />
+        <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
         <BilibiliFavorites data={bilibili} />
       </aside>
     </div>
 
-    <!-- Mobile: Gallery, Steam & Bilibili below main content -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 lg:hidden">
+    <!-- Mobile: Wallpapers, Steam & Bilibili below main content -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:hidden">
       <WallpaperGallery data={wallpapers} />
+      <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
       <SteamCharts data={steam} />
       <BilibiliFavorites data={bilibili} />
     </div>

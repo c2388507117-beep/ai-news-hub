@@ -3,6 +3,8 @@ import type { WallpaperData } from '../lib/types';
 
 export interface Props {
   data: WallpaperData;
+  title?: string;
+  emoji?: string;
 }
 
 const { data } = Astro.props;
@@ -30,7 +32,7 @@ function getUrl(u: any): string {
 <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
   <div class="bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-2">
     <h3 class="text-xs font-bold text-white truncate flex items-center gap-1">
-      <span>🖼️</span> 每日壁纸
+      <span>{Astro.props.emoji || '🖼️'}</span> {Astro.props.title || '每日壁纸'}
     </h3>
   </div>
   {hasUrls ? (

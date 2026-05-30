@@ -122,59 +122,62 @@ async function fetchGirldir() {
   return results;
 }
 
-async function main() {
-  console.log('Fetching wallpapers from Bing...');
-
-  const dataPath = path.join(__dirname, '..', 'src', 'data', 'wallpapers.json');
-
-  // Read existing wallpapers
-  let existing = { fetchedAt: null, urls: [] };
-  try {
-    existing = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-  } catch {
-    // file doesn't exist yet
-  }
-
-  const newWallpapers = await fetchBingWallpapers();
-  const picsumWallpapers = await fetchPicsumWallpapers();
-  const girldirWallpapers = await fetchGirldir();
-  const allNewWallpapers = [...newWallpapers, ...picsumWallpapers, ...girldirWallpapers];
-  if (allNewWallpapers.length === 0) {
-    console.log('No wallpapers fetched, keeping existing data.');
-    return;
-  }
-
-  // Merge: keep existing URLs, add new ones, deduplicate by URL
+function mergeWallpapers(existing, newWallpapers, maxCount) {
   const existingUrls = new Set(existing.urls.map((u) => (typeof u === 'string' ? u : u.url)));
   let allUrls = [...(existing.urls || [])];
 
-  for (const wp of allNewWallpapers) {
+  for (const wp of newWallpapers) {
     if (!existingUrls.has(wp.url)) {
       allUrls.push(wp);
       existingUrls.add(wp.url);
     }
   }
 
-  // Keep max wallpapers — preserve at least some from each source
-  if (allUrls.length > MAX_WALLPAPERS) {
-    // Keep non-picsum sources (Bing, Girldir, etc.) and fill remaining with picsum
-    const bingUrls = allUrls.filter((u) => (u.source || '').toLowerCase() !== 'picsum');
-    const picsumUrls = allUrls.filter((u) => (u.source || '').toLowerCase() === 'picsum');
-    const remaining = MAX_WALLPAPERS - bingUrls.length;
-    if (remaining > 0) {
-      allUrls = [...bingUrls, ...picsumUrls.slice(-remaining)];
-    } else {
-      allUrls = bingUrls.slice(-MAX_WALLPAPERS);
-    }
+  if (allUrls.length > maxCount) {
+    allUrls = allUrls.slice(-maxCount);
   }
 
-  const output = {
+  return {
     fetchedAt: new Date().toISOString(),
     urls: allUrls,
   };
+}
 
-  fs.writeFileSync(dataPath, JSON.stringify(output, null, 2), 'utf-8');
-  console.log(`  ✓ ${newWallpapers.length} Bing + ${picsumWallpapers.length} Picsum + ${girldirWallpapers.length} Girldir new, ${allUrls.length} total wallpapers`);
+async function main() {
+  console.log('Fetching wallpapers...');
+
+  const dataPath = path.join(__dirname, '..', 'src', 'data', 'wallpapers.json');
+  const girlDataPath = path.join(__dirname, '..', 'src', 'data', 'wallpapers-girl.json');
+
+  // Read existing data files
+  let existing = { fetchedAt: null, urls: [] };
+  let existingGirl = { fetchedAt: null, urls: [] };
+  try { existing = JSON.parse(fs.readFileSync(dataPath, 'utf-8')); } catch {}
+  try { existingGirl = JSON.parse(fs.readFileSync(girlDataPath, 'utf-8')); } catch {}
+
+  // Fetch all sources
+  const bingWallpapers = await fetchBingWallpapers();
+  const picsumWallpapers = await fetchPicsumWallpapers();
+  const girldirWallpapers = await fetchGirldir();
+
+  // Normal wallpapers: Bing + Picsum (nature, scenery, diverse)
+  const normalWallpapers = [...bingWallpapers, ...picsumWallpapers];
+  if (normalWallpapers.length > 0) {
+    const output = mergeWallpapers(existing, normalWallpapers, MAX_WALLPAPERS);
+    fs.writeFileSync(dataPath, JSON.stringify(output, null, 2), 'utf-8');
+    console.log(`  ✓ Normal wallpapers: ${bingWallpapers.length} Bing + ${picsumWallpapers.length} Picsum = ${output.urls.length} total`);
+  } else {
+    console.log('  No normal wallpapers fetched, keeping existing.');
+  }
+
+  // Girl wallpapers: Girldir only
+  if (girldirWallpapers.length > 0) {
+    const girlOutput = mergeWallpapers(existingGirl, girldirWallpapers, MAX_WALLPAPERS);
+    fs.writeFileSync(girlDataPath, JSON.stringify(girlOutput, null, 2), 'utf-8');
+    console.log(`  ✓ Girl wallpapers: ${girldirWallpapers.length} Girldir = ${girlOutput.urls.length} total`);
+  } else {
+    console.log('  No girl wallpapers fetched, keeping existing.');
+  }
 }
 
 main().catch(console.error);
