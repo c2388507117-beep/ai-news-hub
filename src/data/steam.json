@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-30T07:59:34.459Z",
+  "fetchedAt": "2026-05-30T10:19:32.752Z",
   "topSellers": [
     {
       "name": "007 First Light - Standard Edition",
@@ -18,28 +18,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
+      "name": "Microsoft Flight Simulator 2024",
+      "appid": 2537590,
+      "price": 34800,
+      "finalPrice": 34800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/capsule_184x69.jpg"
+    },
+    {
       "name": "Romestead",
       "appid": 1805320,
       "price": 4800,
       "finalPrice": 4320,
       "discount": 10,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/capsule_184x69.jpg"
-    },
-    {
-      "name": "Grand Theft Auto V Enhanced",
-      "appid": 3240220,
-      "price": 14900,
-      "finalPrice": 7450,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
-    },
-    {
-      "name": "Call of Duty®: Modern Warfare® 4",
-      "appid": 4435490,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light",
@@ -50,6 +42,22 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     },
     {
+      "name": "Call of Duty®: Modern Warfare® 4",
+      "appid": 4435490,
+      "price": 29800,
+      "finalPrice": 29800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
+    },
+    {
+      "name": "Grand Theft Auto V Enhanced",
+      "appid": 3240220,
+      "price": 14900,
+      "finalPrice": 7450,
+      "discount": 50,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
+    },
+    {
       "name": "Subnautica 2",
       "appid": 1962700,
       "price": 10800,
@@ -58,20 +66,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Realm of Ink",
-      "appid": 2597080,
-      "price": 7200,
-      "finalPrice": 6480,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597080/capsule_184x69.jpg"
-    },
-    {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 13600,
-      "finalPrice": 12240,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "name": "EA SPORTS FC™ 25 & EA SPORTS FC™ 26 ICONS Edition Bundle",
+      "appid": 70424,
+      "price": 51600,
+      "finalPrice": 12900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70424/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
