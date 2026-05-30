@@ -1,0 +1,61 @@
+---
+import type { WallpaperData } from '../lib/types';
+
+export interface Props {
+  data: WallpaperData;
+}
+
+const { data } = Astro.props;
+const hasUrls = data?.urls?.length > 0;
+
+// Pick several wallpapers to show as a mini gallery
+const count = Math.min(data?.urls?.length || 0, 9);
+const indices: number[] = [];
+if (count > 0) {
+  // Use day of year to pick deterministic samples
+  const now = new Date();
+  const startOfYear = new Date(now.getFullYear(), 0, 0);
+  const diff = now.getTime() - startOfYear.getTime();
+  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
+  for (let i = 0; i < Math.min(count, 9); i++) {
+    indices.push((dayOfYear + i * 7) % count);
+  }
+}
+
+function getUrl(u: any): string {
+  return typeof u === 'string' ? u : (u?.url || '');
+}
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-2">
+    <h3 class="text-xs font-bold text-white truncate flex items-center gap-1">
+      <span>🖼️</span> 每日壁纸
+    </h3>
+  </div>
+  {hasUrls ? (
+    <div class="grid grid-cols-3 gap-1 p-2">
+      {indices.map(i => {
+        const u = data.urls[i];
+        const url = getUrl(u);
+        return (
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block aspect-[16/9] rounded overflow-hidden bg-gray-100 dark:bg-gray-800 hover:opacity-90 transition-opacity"
+          >
+            <img
+              src={url}
+              alt=""
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </a>
+        );
+      })}
+    </div>
+  ) : (
+    <p class="text-center text-gray-400 py-4 text-xs">暂无壁纸</p>
+  )}
+</div>
