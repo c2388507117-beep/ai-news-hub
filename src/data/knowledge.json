@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T04:39:32.127Z",
+  "fetchedAt": "2026-05-31T04:55:48.995Z",
   "items": [
+    {
+      "title": "美洲通讯社",
+      "extract": "美洲通讯社 为阿根廷政府运营的國家新闻通訊社，于1945年埃德尔米罗·胡利安·法雷利任期内由时任劳工部长的胡安·裴隆建立，是拉丁美洲最大的新闻机构。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%B4%B2%E9%80%9A%E8%AE%AF%E7%A4%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sede_T%C3%A9lam_02.jpg/330px-Sede_T%C3%A9lam_02.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "克罗伊特",
       "extract": "克罗伊特 是德国巴伐利亚州上巴伐利亚行政区米斯巴赫县的市镇，面积122.26平方千米，2023年12月31日人口为3,517人。\n",
@@ -27,13 +34,6 @@
       "extract": "特雷莫拉 是法国多尔多涅省的一个市镇，属于贝尔热拉克区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E9%9B%B7%E8%8E%AB%E6%8B%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Tr%C3%A9molat_village_%281%29.jpg/330px-Tr%C3%A9molat_village_%281%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "加勒特縣",
-      "extract": "加勒特縣 是美国马里兰州最西部的一個縣，東 (部分)、南、西鄰西維吉尼亞州，北鄰宾夕法尼亚州，面積1,699平方公里。根據2020年美國人口普查，共有人口28,806人。縣治奧克蘭（Oakland）。該縣成立於1872年，是該州最近成立的縣；縣名紀念巴爾的摩與俄亥俄鐵路主席約翰·沃克·加勒特。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%8B%92%E7%89%B9%E7%B8%A3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Garrett_County_Courthouse%2C_Maryland.JPG/330px-Garrett_County_Courthouse%2C_Maryland.JPG",
       "source": "wikipedia"
     }
   ]
