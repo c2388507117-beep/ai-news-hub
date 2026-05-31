@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-31T05:11:49.940Z",
+  "fetchedAt": "2026-05-31T05:22:47.500Z",
   "topSellers": [
     {
       "name": "007 First Light - Standard Edition",
@@ -26,20 +26,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/capsule_184x69.jpg"
     },
     {
-      "name": "Call of Duty®: Modern Warfare® 4",
-      "appid": 4435490,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
-    },
-    {
       "name": "Grand Theft Auto V Enhanced",
       "appid": 3240220,
       "price": 14900,
       "finalPrice": 7450,
       "discount": 50,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
+    },
+    {
+      "name": "Call of Duty®: Modern Warfare® 4",
+      "appid": 4435490,
+      "price": 29800,
+      "finalPrice": 29800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light",

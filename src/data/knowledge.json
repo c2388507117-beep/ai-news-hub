@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T05:11:50.898Z",
+  "fetchedAt": "2026-05-31T05:22:48.282Z",
   "items": [
+    {
+      "title": "尾關露絲",
+      "extract": "尾關露絲（1956年3月12日—），加拿大－美國小說家，電影導演。她曾在商業電視媒體十多年，轉向小說家之前，執導過獨立電影。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BE%E9%97%9C%E9%9C%B2%E7%B5%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ruth-Ozeki-signing-books-130321.jpg/330px-Ruth-Ozeki-signing-books-130321.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "卡梅爾 (緬因州)",
       "extract": "卡梅爾 是一個位於美國緬因州佩諾布斯科特縣的鎮。\n",
@@ -27,13 +34,6 @@
       "extract": "阿图罗·乌斯拉尔·彼特里 是委内瑞拉政治人物、外交官、作家。拉丁美洲魔幻现实主义文学的首倡者，著有《红色长矛》、《黄金国之路》、《死者的葬礼》、《胜者》等作品。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%9B%BE%E7%BD%97%C2%B7%E4%B9%8C%E6%96%AF%E6%8B%89%E5%B0%94%C2%B7%E5%BD%BC%E7%89%B9%E9%87%8C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Uslar_Pietri.jpg/330px-Uslar_Pietri.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "元江路站",
-      "extract": "元江路站位於中華人民共和國上海市閔行區蓮花南路，是上海地铁15号线的地铁车站，車站以南是北潮浜和元江路，共有3個出入口，於2021年1月23日正式啟用。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B1%9F%E8%B7%AF%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Platform_of_Yuanjiang_Rd._Station_of_Shanghai_Metro_Line_15_20250130.jpg/330px-Platform_of_Yuanjiang_Rd._Station_of_Shanghai_Metro_Line_15_20250130.jpg",
       "source": "wikipedia"
     }
   ]
