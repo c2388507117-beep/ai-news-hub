@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsCard from '../components/NewsCard.astro';
 import Wallpaper from '../components/Wallpaper.astro';
-import SpotifyPlayer from '../components/SpotifyPlayer.astro';
+import NetEaseMusic from '../components/NetEaseMusic.astro';
 import FootballStandings from '../components/FootballStandings.astro';
 import SteamCharts from '../components/SteamCharts.astro';
 import BilibiliFavorites from '../components/BilibiliFavorites.astro';
@@ -100,7 +100,7 @@ allNews.forEach((item) => {
     />
 
     <!-- Two-Column Layout: Main Dashboard + Right Sidebar -->
-    <div class="grid grid-cols-1 lg:grid-cols-[1fr_240px] gap-4">
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-4">
       <!-- Left: Personal Dashboard -->
       <div class="space-y-4">
         <!-- Personal tools row 1: DailyDigest + SalaryCountdown -->
@@ -110,17 +110,11 @@ allNews.forEach((item) => {
           <SalaryCountdown />
         </div>
 
-        <!-- Private Douban (替换汇率位置) -->
+        <!-- Private Douban -->
         <PrivateDouban />
 
-        <!-- Currency Exchange (折叠，从上方移到这里) -->
-        <CurrencyExchange />
-
-        <!-- Personal tools row 2: Wallpapers + RandomPicker -->
-        <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
-          <WallpaperGallery data={wallpapers} />
-          <RandomPicker />
-        </div>
+        <!-- Wallpapers -->
+        <WallpaperGallery data={wallpapers} />
 
         <!-- Category Nav (full width) -->
         <nav class="mb-2 overflow-x-auto">
@@ -207,6 +201,9 @@ allNews.forEach((item) => {
 
       <!-- Right: Sidebar -->
       <aside class="hidden lg:block space-y-4">
+        <NetEaseMusic />
+        <DailyKnowledge data={knowledge} />
+        <DutyRoster />
         <HotTopics topics={hotTopics} />
         <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
         <BilibiliFavorites data={bilibili} />
@@ -215,21 +212,19 @@ allNews.forEach((item) => {
 
     <!-- Mobile: Sidebar content (hidden on desktop) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:hidden">
+      <NetEaseMusic />
+      <DailyKnowledge data={knowledge} />
+      <DutyRoster />
       <HotTopics topics={hotTopics} />
       <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
       <BilibiliFavorites data={bilibili} />
     </div>
 
-<!-- Bottom: Utility Tools (2 columns) -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+<!-- Bottom: ShoppingCompare + CurrencyExchange + RandomPicker -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
       <ShoppingCompare />
-      <SpotifyPlayer />
-    </div>
-
-    <!-- DailyKnowledge + DutyRoster -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-      <DailyKnowledge data={knowledge} />
-      <DutyRoster />
+      <CurrencyExchange />
+      <RandomPicker />
     </div>
 
     <!-- ChinaMap full width -->
