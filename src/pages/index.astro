@@ -14,6 +14,7 @@ import RandomPicker from '../components/RandomPicker.astro';
 import CurrencyExchange from '../components/CurrencyExchange.astro';
 import ShoppingCompare from '../components/ShoppingCompare.astro';
 import ElectricalCalc from '../components/ElectricalCalc.astro';
+import CoverArt from '../components/CoverArt.astro';
 import StockMarket from '../components/StockMarket.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import Footer from '../components/Footer.astro';
@@ -220,7 +221,7 @@ allNews.forEach((item) => {
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
       <ElectricalCalc />
       <SteamCharts data={steam} />
-      <!-- CoverArt will go here in Task F -->
+      <CoverArt />
     </div>
   </main>
   <Fragment slot="footer">
