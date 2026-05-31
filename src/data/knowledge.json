@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T04:21:27.227Z",
+  "fetchedAt": "2026-05-31T04:24:27.853Z",
   "items": [
+    {
+      "title": "阿图罗·乌斯拉尔·彼特里",
+      "extract": "阿图罗·乌斯拉尔·彼特里 是委内瑞拉政治人物、外交官、作家。拉丁美洲魔幻现实主义文学的首倡者，著有《红色长矛》、《黄金国之路》、《死者的葬礼》、《胜者》等作品。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%9B%BE%E7%BD%97%C2%B7%E4%B9%8C%E6%96%AF%E6%8B%89%E5%B0%94%C2%B7%E5%BD%BC%E7%89%B9%E9%87%8C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Uslar_Pietri.jpg/330px-Uslar_Pietri.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "元江路站",
       "extract": "元江路站位於中華人民共和國上海市閔行區蓮花南路，是上海地铁15号线的地铁车站，車站以南是北潮浜和元江路，共有3個出入口，於2021年1月23日正式啟用。\n",
@@ -21,13 +28,6 @@
       "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%8B%92%E7%89%B9%E7%B8%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Garrett_County_Courthouse%2C_Maryland.JPG/330px-Garrett_County_Courthouse%2C_Maryland.JPG",
       "source": "wikipedia"
-    },
-    {
-      "title": "互联网的起源",
-      "extract": "互联网的前身是1969年美国国防部高级研究计划局（ARPA）建立的阿帕网（ARPANET），最初仅连接了4所大学的计算机。1989年，蒂姆·伯纳斯-李提出了万维网的概念，发明了HTTP协议和HTML语言，为现代互联网奠定了基础。",
-      "url": "",
-      "imageUrl": null,
-      "source": "curated"
     },
     {
       "title": "互联网的起源",
