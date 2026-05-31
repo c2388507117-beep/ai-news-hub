@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T08:33:54.785Z",
+  "fetchedAt": "2026-05-31T09:26:11.430Z",
   "items": [
+    {
+      "title": "北宜公路",
+      "extract": "北宜公路是一條位於台灣北部，連接台北與宜蘭的公路，全長58公里，在公路系統上屬於省道台九線的一部分。在宜蘭縣頭城鎮大金面山下山之後抵達蘭陽平原，與頭城鎮青雲路（台二庚線）叉路為終點（台九線70K處），途經新北市新店區、石碇區、坪林區與宜蘭縣頭城鎮。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%AE%9C%E5%85%AC%E8%B7%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%8C%97%E5%AE%9C%E5%85%AC%E8%B7%AF%E3%80%8C%E4%B9%9D%E5%BD%8E%E5%8D%81%E5%85%AB%E6%8B%90%E3%80%8D.jpg/330px-%E5%8C%97%E5%AE%9C%E5%85%AC%E8%B7%AF%E3%80%8C%E4%B9%9D%E5%BD%8E%E5%8D%81%E5%85%AB%E6%8B%90%E3%80%8D.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "维尔纳·克罗利科夫斯基",
       "extract": "维尔纳·克罗利科夫斯基，德国统一社会党政治局委员，中央委员会书记，东德部长会议第一副主席。\n",
@@ -27,13 +34,6 @@
       "extract": "大稻埕，雅稱稻江、稻津，是臺北市大同區西南部的一個傳統地域名稱，因具有大片曬稻穀的空地（稻埕）而得名。咸豐元年（1851年）泉州府同安縣人林藍田為躲避海盜洗劫，自雞籠（今基隆）遷至大稻埕經商並開設店鋪，開始大稻埕的商業活動。咸豐三年（1853年）三邑人與同安人為艋舺碼頭的泊船權利，發生頂下郊拚分類械鬥事件，下郊的同安人無力抵抗，於是帶著自身信仰的霞海城隍敗逃至大稻埕，大稻埕旁淡水河的碼頭交易逐漸興起。咸豐十年（1860年）淡水開港後，大稻埕成為臺北最繁華的物資集散中心，以茶葉與布料的貿易為主。大稻埕的茶葉貿易在洋行的帶領下，不僅市場擴大，更造就驚人的財富與繁榮。進入日治時期後日商抵制洋行勢力，轉而以日本與東南亞為主要市場。戰後大稻埕因淡水河淤淺逐漸失去河港功能，且臺產茶葉不敵錫蘭紅茶的競爭而逐漸沒落。之後臺北市區向東發展、人口大量外移，大稻埕成為臺北市外圍的老舊市區。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%A8%BB%E5%9F%95",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/%E5%A4%A7%E7%A8%BB%E5%9F%95%E6%B0%B8%E6%A8%82%E7%AC%AC.jpg/330px-%E5%A4%A7%E7%A8%BB%E5%9F%95%E6%B0%B8%E6%A8%82%E7%AC%AC.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "尾關露絲",
-      "extract": "尾關露絲（1956年3月12日—），加拿大－美國小說家，電影導演。她曾在商業電視媒體十多年，轉向小說家之前，執導過獨立電影。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BE%E9%97%9C%E9%9C%B2%E7%B5%B2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ruth-Ozeki-signing-books-130321.jpg/330px-Ruth-Ozeki-signing-books-130321.jpg",
       "source": "wikipedia"
     }
   ]
