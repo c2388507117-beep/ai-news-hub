@@ -1,6 +1,8 @@
 name: Fetch News and Deploy
 
 on:
+  push:
+    branches: [main]       # Push to main triggers deploy
   workflow_dispatch:       # Manual trigger
   schedule:                # Hourly auto-update
     - cron: '17 * * * *'
