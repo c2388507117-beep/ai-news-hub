@@ -12,10 +12,10 @@ const item = data?.items?.[0] ?? null;
 <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
   <div class="bg-gradient-to-r from-emerald-600 to-teal-600 px-4 py-3">
     <h3 class="text-sm font-bold text-white flex items-center gap-2">
-      <span>📖</span> 每日文摘
+      <span aria-hidden="true">📖</span> 每日文摘
     </h3>
   </div>
-  {item ? (
+  {item && item.quote ? (
     <div class="p-4">
       <blockquote class="relative">
         <span class="absolute -top-2 -left-1 text-3xl text-emerald-200 dark:text-emerald-800 opacity-60 select-none" aria-hidden="true">"</span>
@@ -24,7 +24,8 @@ const item = data?.items?.[0] ?? null;
         </p>
       </blockquote>
       <p class="mt-3 text-xs text-gray-500 dark:text-gray-400 text-right">
-        —— 《{item.book}》{item.author && ` ${item.author}`}
+        —— 《{item.book}》
+        {item.author && <span>{item.author}</span>}
       </p>
     </div>
   ) : (
