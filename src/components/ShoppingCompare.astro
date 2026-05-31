@@ -69,6 +69,17 @@
             <span class="text-base" aria-hidden="true">📦</span>
             <span>京东</span>
           </a>
+          <!-- 天猫 -->
+          <a
+            id="shop-tmall"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-pink-50 dark:bg-pink-900/10 text-pink-700 dark:text-pink-300 hover:bg-pink-100 dark:hover:bg-pink-900/20 transition-colors text-sm font-medium"
+          >
+            <span class="text-base" aria-hidden="true">🏪</span>
+            <span>天猫</span>
+          </a>
           <!-- 拼多多 -->
           <a
             id="shop-pdd"
@@ -91,6 +102,17 @@
             <span class="text-base" aria-hidden="true">🏷️</span>
             <span>什么值得买</span>
           </a>
+          <!-- 抖音电商 -->
+          <a
+            id="shop-douyin"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-cyan-50 dark:bg-cyan-900/10 text-cyan-700 dark:text-cyan-300 hover:bg-cyan-100 dark:hover:bg-cyan-900/20 transition-colors text-sm font-medium"
+          >
+            <span class="text-base" aria-hidden="true">🎵</span>
+            <span>抖音电商</span>
+          </a>
         </div>
       </div>
     </div>
@@ -110,10 +132,12 @@
     const queryDisplay = document.getElementById('shop-query-display');
     const taobao = document.getElementById('shop-taobao');
     const jd = document.getElementById('shop-jd');
+    const tmall = document.getElementById('shop-tmall');
     const pdd = document.getElementById('shop-pdd');
     const smzdm = document.getElementById('shop-smzdm');
+    const douyin = document.getElementById('shop-douyin');
 
-    if (!toggle || !body || !chevron || !summary || !input || !searchBtn || !defaultEl || !platformsEl || !queryDisplay || !taobao || !jd || !pdd || !smzdm) {
+    if (!toggle || !body || !chevron || !summary || !input || !searchBtn || !defaultEl || !platformsEl || !queryDisplay || !taobao || !jd || !tmall || !pdd || !smzdm || !douyin) {
       throw new Error('ShoppingCompare: missing DOM elements');
     }
 
@@ -121,8 +145,10 @@
     const PLATFORMS = {
       taobao: 'https://s.taobao.com/search?q={keyword}',
       jd: 'https://search.jd.com/Search?keyword={keyword}',
-      pdd: 'https://mobile.yangkeduo.com/search_result.html?search_key={keyword}',
+      tmall: 'https://list.tmall.com/search_product.htm?q={keyword}',
+      pdd: 'https://search.pinduoduo.com/search?keyword={keyword}',
       smzdm: 'https://www.smzdm.com/s/{keyword}',
+      douyin: 'https://www.douyin.com/search/{keyword}?type=general',
     };
 
     // Encode keyword for URL
@@ -143,8 +169,10 @@
       // Update platform links
       taobao.href = PLATFORMS.taobao.replace('{keyword}', encoded);
       jd.href = PLATFORMS.jd.replace('{keyword}', encoded);
+      tmall.href = PLATFORMS.tmall.replace('{keyword}', encoded);
       pdd.href = PLATFORMS.pdd.replace('{keyword}', encoded);
       smzdm.href = PLATFORMS.smzdm.replace('{keyword}', encoded);
+      douyin.href = PLATFORMS.douyin.replace('{keyword}', encoded);
 
       // Update display
       queryDisplay.textContent = '🔎 "' + keyword + '" 的搜索结果';

@@ -10,26 +10,26 @@
     </h3>
   </div>
   <div class="relative" id="china-map">
-    <!-- Loading overlay -->
-    <div id="map-loading" class="flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm" style="height:400px">
+    <!-- Map container (always visible, underlying) -->
+    <div id="map-container" style="height:400px;width:100%;z-index:1"></div>
+
+    <!-- Loading overlay (sits on top of map container) -->
+    <div id="map-loading" class="absolute inset-0 z-10 flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm" style="height:400px">
       <div class="text-center">
         <div class="animate-spin text-2xl mb-2">🌍</div>
         <p>地图加载中...</p>
       </div>
     </div>
 
-    <!-- Error state -->
-    <div id="map-error" class="flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-red-500 text-sm hidden" style="height:400px">
+    <!-- Error state (sits on top of map container) -->
+    <div id="map-error" class="absolute inset-0 z-10 flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-red-500 text-sm hidden" style="height:400px">
       <div class="text-center">
         <p>❌ 地图加载失败</p>
         <button id="map-retry" class="mt-2 px-3 py-1 text-xs rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">重试</button>
       </div>
     </div>
 
-    <!-- Map container (visible after init) -->
-    <div id="map-container" class="hidden" style="height:400px"></div>
-
-    <!-- Controls overlay -->
+    <!-- Controls overlay (hidden until map init) -->
     <div id="map-controls" class="hidden">
       <!-- City search -->
       <div class="absolute top-2 left-2 z-[1000]">
@@ -119,12 +119,21 @@
       return;
     }
 
+    // Map container is always visible — no hidden toggle needed
+    // Just hide the loading overlay and show controls
     loadingEl.classList.add('hidden');
-    mapContainer.classList.remove('hidden');
     mapControls.classList.remove('hidden');
 
-    // Small delay to ensure container is rendered before Leaflet measures it
-    setTimeout(function () {
+    // Wait for the next animation frame to ensure the browser has committed layout
+    requestAnimationFrame(function () {
+      // Double-check the container has actual dimensions
+      var containerStyle = window.getComputedStyle(mapContainer);
+      var containerHeight = parseInt(containerStyle.height, 10);
+      if (containerHeight < 100) {
+        // Fallback: enforce minimum height
+        mapContainer.style.minHeight = '400px';
+      }
+
       map = L.map('map-container', {
         center: [37.07, 114.50],
         zoom: 5,
@@ -132,13 +141,27 @@
         zoomControl: true,
       });
 
-      // Fix map size after creation (handles hidden->visible transition)
-      map.invalidateSize();
+      // Force Leaflet to recalculate its size (critical for correct rendering)
+      map.invalidateSize(true);
 
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      // Primary tile layer: OpenStreetMap
+      var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         maxZoom: 18,
       }).addTo(map);
+
+      // Fallback tile layer if OSM tiles fail to load
+      var tileFallbackLoaded = false;
+      tileLayer.on('tileerror', function () {
+        if (tileFallbackLoaded) return;
+        tileFallbackLoaded = true;
+        // Switch to a different tile source that may work better in China
+        map.removeLayer(tileLayer);
+        L.tileLayer('https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png', {
+          attribution: '&copy; OpenStreetMap',
+          maxZoom: 18,
+        }).addTo(map);
+      });
 
       // Layers for markers
       markerLayer = L.layerGroup().addTo(map);
@@ -163,8 +186,18 @@
           map.setView([35.86, 104.19], 5); // fallback: center of China
         }
       }
-    }, 50);
+
+      // Re-invalidate after markers render to fix any remaining sizing issues
+      setTimeout(function () { map.invalidateSize(true); }, 100);
+    });
   }
+
+  // Re-invalidate map size on window resize
+  window.addEventListener('resize', function () {
+    if (map) {
+      map.invalidateSize(true);
+    }
+  });
 
   // --- City dropdown ---
   function populateCitySelect() {

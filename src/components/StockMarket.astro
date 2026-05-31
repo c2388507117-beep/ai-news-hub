@@ -146,68 +146,15 @@
   }
 
   /**
-   * Fetch stock data for a single symbol with multiple CORS proxy fallbacks
+   * Fetch all stock data via server-side proxy (no CORS issues)
    */
-  var CORS_PROXIES = [
-    null, // try direct first
-    'https://api.allorigins.win/raw?url=',
-    'https://corsproxy.io/?url=',
-    'https://corsproxy.erambert.me/?url=',
-    'https://proxy.cors.sh/' + encodeURIComponent('https://query1.finance.yahoo.com') + '?url=',
-  ];
-
-  async function fetchStock(symbol) {
-    var baseUrl = 'https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(symbol) + '?interval=1d&range=5d';
-
-    var errors = [];
-    for (var p = 0; p < CORS_PROXIES.length; p++) {
-      try {
-        var url = CORS_PROXIES[p] ? CORS_PROXIES[p] + encodeURIComponent(baseUrl) : baseUrl;
-        var res = await fetch(url, {
-          headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' }
-        });
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        return await res.json();
-      } catch (e) {
-        errors.push('[' + p + '] ' + e.message);
-      }
-    }
-    throw new Error('All proxies failed: ' + errors.join('; '));
-  }
-
-  /**
-   * Extract stock data from Yahoo Finance API response
-   */
-  function extractData(symbol, symbolName, json) {
-    try {
-      var result = json && json.chart && json.chart.result && json.chart.result[0];
-      if (!result) return null;
-
-      var meta = result.meta;
-      if (!meta) return null;
-
-      var currentPrice = meta.regularMarketPrice;
-      var prevClose = meta.previousClose;
-      var currency = meta.currency || '';
-      var marketTime = meta.regularMarketTime;
-
-      if (currentPrice == null || prevClose == null) return null;
-
-      var change = currentPrice - prevClose;
-      var changePct = prevClose !== 0 ? (change / prevClose) * 100 : 0;
-
-      return {
-        symbol: symbol,
-        name: symbolName,
-        currentPrice: currentPrice,
-        change: change,
-        changePct: changePct,
-        currency: currency,
-        marketTime: marketTime ? new Date(marketTime * 1000) : null,
-      };
-    } catch (_) {
-      return null;
-    }
+  async function fetchAllStocks() {
+    var symbols = INDICES.map(function(item) { return item.symbol; }).join(',');
+    var res = await fetch('/api/stock?symbols=' + encodeURIComponent(symbols), {
+      headers: { 'Accept': 'application/json' }
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return await res.json();
   }
 
   /**
@@ -245,45 +192,17 @@
       return cached;
     }
 
-    var results = [];
+    var results;
+    try {
+      results = await fetchAllStocks();
+    } catch (err) {
+      console.error('Stock fetch error:', err);
+      throw err;
+    }
 
-    // Fetch all in parallel
-    var promises = INDICES.map(function(item) {
-      return fetchStock(item.symbol)
-        .then(function(json) {
-          var data = extractData(item.symbol, item.name, json);
-          if (data) {
-            results.push(data);
-          } else {
-            results.push({
-              symbol: item.symbol,
-              name: item.name,
-              market: item.market,
-              currentPrice: null,
-              change: null,
-              changePct: null,
-              currency: null,
-              marketTime: null,
-              error: '暂无数据',
-            });
-          }
-        })
-        .catch(function() {
-          results.push({
-            symbol: item.symbol,
-            name: item.name,
-            market: item.market,
-            currentPrice: null,
-            change: null,
-            changePct: null,
-            currency: null,
-            marketTime: null,
-            error: '暂无数据',
-          });
-        });
-    });
-
-    await Promise.all(promises);
+    if (!results || results.length === 0) {
+      throw new Error('No data returned');
+    }
 
     // Add market info to each result
     var marketMap = {};

@@ -222,19 +222,21 @@ allNews.forEach((item) => {
       <BilibiliFavorites data={bilibili} />
     </div>
 
-<!-- Bottom: Utility Tools (3 columns) -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+<!-- Bottom: Utility Tools (2 columns) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
       <ShoppingCompare />
       <StockMarket />
-      <DailyKnowledge data={knowledge} />
     </div>
 
-    <!-- Bottom Row 3: ChinaMap + DutyRoster -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-      <div class="md:col-span-2">
-        <ChinaMap />
-      </div>
+    <!-- DailyKnowledge + DutyRoster -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+      <DailyKnowledge data={knowledge} />
       <DutyRoster />
+    </div>
+
+    <!-- ChinaMap full width -->
+    <div class="mt-4">
+      <ChinaMap />
     </div>
   </main>
   <Fragment slot="footer">
