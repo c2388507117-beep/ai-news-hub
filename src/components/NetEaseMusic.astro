@@ -114,12 +114,38 @@ const defaultPlaylistName = '热歌榜';
     iframe.src = buildIframeUrl(playlistId);
   }
 
-  /* ---------- init ---------- */
+  /* ---------- init (lazy: use saved data immediately, defer iframe load) ---------- */
   var savedId = getPlaylistId();
   var savedName = getPlaylistName();
   playlistInput.value = savedId;
   nameEl.textContent = '🎶 ' + savedName;
-  loadPlayer(savedId);
+
+  // Lazy-load iframe via IntersectionObserver
+  var iframeLoaded = false;
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      for (var i = 0; i < entries.length; i++) {
+        if (entries[i].isIntersecting && !iframeLoaded) {
+          iframeLoaded = true;
+          observer.disconnect();
+          loadPlayer(savedId);
+        }
+      }
+    }, { rootMargin: '200px' });
+    observer.observe(iframe);
+
+    // Fallback: load after 3s even if not visible
+    setTimeout(function () {
+      if (!iframeLoaded) {
+        iframeLoaded = true;
+        if (observer) observer.disconnect();
+        loadPlayer(savedId);
+      }
+    }, 3000);
+  } else {
+    // No IntersectionObserver support — load immediately
+    loadPlayer(savedId);
+  }
 
   /* ---------- settings toggle ---------- */
   settingsBtn.addEventListener('click', function () {
