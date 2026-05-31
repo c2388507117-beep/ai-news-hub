@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T21:17:19.666Z",
+  "fetchedAt": "2026-05-31T22:31:00.127Z",
   "items": [
+    {
+      "title": "阿兰 (哲学家)",
+      "extract": "阿兰，原名埃米尔-奥古斯特·沙尔捷，法国哲学家，他是忠实的人道主义者。他告诫人们警惕潜伏在社会中的专制主义；拥护个人权力与自由；认为具备激情和道德责任感的真诚之人，才会厌恶战争等。在教育领域中他提倡文艺的作用，并主张提高人们的艺术修养与创造力。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%B0_(%E5%93%B2%E5%AD%A6%E5%AE%B6)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%C3%89mile_Chartier_portrait.jpg/330px-%C3%89mile_Chartier_portrait.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "杰米·李·拉特雷",
       "extract": "杰米·李·拉特雷，加拿大女子冰球运动员，场上位置是前锋。她曾代表加拿大国家队参加2022年冬季奥林匹克运动会冰球比赛，获得一枚金牌。\n",
@@ -27,13 +34,6 @@
       "extract": "足立夢實，日本女子花樣游泳运动员。埼玉縣出生，畢業於越谷市立南中学校及浦和東高校，曾就讀於國士館大學。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B6%B3%E7%AB%8B%E5%A4%A2%E5%AF%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Open_Make_Up_For_Ever_2013_-_Yumi_Adachi_-_Yukiko_Inui_-_09.jpg/330px-Open_Make_Up_For_Ever_2013_-_Yumi_Adachi_-_Yukiko_Inui_-_09.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "比唐河畔贝尔蒙",
-      "extract": "比唐河畔贝尔蒙 是法国大東部大區孚日省的一个市镇，属于孚日圣迪耶区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%94%90%E6%B2%B3%E7%95%94%E8%B4%9D%E5%B0%94%E8%92%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Belmont-sur-Buttant_%2888%29_croix.jpg/330px-Belmont-sur-Buttant_%2888%29_croix.jpg",
       "source": "wikipedia"
     }
   ]
