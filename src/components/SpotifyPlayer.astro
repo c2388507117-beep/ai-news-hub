@@ -2,97 +2,88 @@
 const defaultPlaylistId = '37i9dQZF1DXcBWIGoYBM5M';
 ---
 
-<div id="spotify-player" class="fixed top-20 right-4 z-50">
-  <!-- Round toggle button (same pattern as MusicPlayer) -->
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <!-- Toggle header -->
   <button
     id="spotify-toggle"
-    class="w-10 h-10 rounded-full bg-white dark:bg-gray-800 shadow-lg border border-gray-200 dark:border-gray-700 flex items-center justify-center hover:shadow-xl transition-all hover:scale-105"
-    title="Spotify Player"
-    aria-label="打开 Spotify 播放器"
+    class="w-full bg-gradient-to-r from-green-600 to-emerald-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-green-500 hover:to-emerald-500 transition-all text-left"
+    aria-expanded="true"
+    aria-controls="spotify-body"
   >
-    <span id="spotify-icon" class="text-lg">🎵</span>
+    <div class="flex items-center gap-2 min-w-0">
+      <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">🎧</span>
+      <h2 class="text-sm font-bold text-white truncate">Spotify 播放器</h2>
+    </div>
+    <div class="flex items-center gap-2 flex-shrink-0">
+      <button
+        id="spotify-settings-btn"
+        class="text-xs px-2 py-1 rounded bg-white/15 text-white hover:bg-white/25 transition-colors"
+        title="设置歌单"
+      >⚙️</button>
+      <span id="spotify-chevron" class="text-white/80 text-lg transition-transform duration-200 rotate-90">▶</span>
+    </div>
   </button>
 
-  <!-- Expanded panel (hidden by default) -->
-  <div id="spotify-panel" class="hidden mt-2">
-    <div
-      class="relative bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-3"
-      style="width: 300px;"
-    >
-      <!-- Close button -->
-      <button
-        id="spotify-close"
-        class="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-gray-700 text-white text-xs flex items-center justify-center hover:bg-gray-600 transition-colors"
-        aria-label="关闭 Spotify"
-      >
-        ✕
-      </button>
-
-      <!-- Header row: title + settings gear -->
-      <div class="flex items-center justify-between mb-2">
-        <span class="text-sm font-medium text-gray-800 dark:text-gray-200">🎧 Spotify</span>
-        <button
-          id="spotify-settings-btn"
-          class="w-6 h-6 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-300 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors text-sm"
-          aria-label="设置歌单"
-          title="设置歌单 ID"
-        >
-          ⚙️
-        </button>
-      </div>
-
-      <!-- Settings panel (hidden by default) -->
-      <div id="spotify-settings" class="hidden mb-2">
+  <!-- Body -->
+  <div id="spotify-body">
+    <div class="p-4">
+      <!-- Settings (hidden by default) -->
+      <div id="spotify-settings" class="hidden mb-3">
         <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">歌单 ID:</label>
         <div class="flex gap-1">
           <input
             id="spotify-playlist-input"
             type="text"
-            class="flex-1 px-2 py-1 text-xs rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            class="flex-1 px-2 py-1 text-xs rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-1 focus:ring-green-500"
             placeholder="Playlist ID..."
             value={defaultPlaylistId}
           />
           <button
             id="spotify-save-btn"
-            class="px-2 py-1 text-xs rounded bg-blue-600 text-white hover:bg-blue-700 transition-colors"
-          >
-            保存
-          </button>
+            class="px-2 py-1 text-xs rounded bg-green-600 text-white hover:bg-green-700 transition-colors"
+          >保存</button>
         </div>
       </div>
 
       <!-- Spotify iframe embed -->
-      <iframe
-        id="spotify-iframe"
-        src=""
-        width="300"
-        height="380"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-        title="Spotify"
-        loading="lazy"
-      ></iframe>
+      <div class="relative" style="padding-bottom: 80%">
+        <iframe
+          id="spotify-iframe"
+          src=""
+          style="position:absolute;top:0;left:0;width:100%;height:100%"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+          title="Spotify"
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
   </div>
 </div>
 
 <script>
-  const defaultPlaylistId = '37i9dQZF1DXcBWIGoYBM5M';
+(function () {
+  'use strict';
 
-  const toggle = document.getElementById('spotify-toggle');
-  const panel = document.getElementById('spotify-panel');
-  const closeBtn = document.getElementById('spotify-close');
-  const iframe = document.getElementById('spotify-iframe');
-  const settingsBtn = document.getElementById('spotify-settings-btn');
-  const settingsEl = document.getElementById('spotify-settings');
-  const playlistInput = document.getElementById('spotify-playlist-input');
-  const saveBtn = document.getElementById('spotify-save-btn');
-  const spotifyIcon = document.getElementById('spotify-icon');
-  let isOpen = false;
-  let isSettingsOpen = false;
+  var defaultPlaylistId = '37i9dQZF1DXcBWIGoYBM5M';
 
-  /* ---------- localStorage helpers (guarded with try/catch) ---------- */
+  var toggle = document.getElementById('spotify-toggle');
+  var body = document.getElementById('spotify-body');
+  var chevron = document.getElementById('spotify-chevron');
+  var settingsBtn = document.getElementById('spotify-settings-btn');
+  var settingsEl = document.getElementById('spotify-settings');
+  var iframe = document.getElementById('spotify-iframe');
+  var playlistInput = document.getElementById('spotify-playlist-input');
+  var saveBtn = document.getElementById('spotify-save-btn');
+
+  if (!toggle || !body || !chevron || !settingsBtn || !settingsEl || !iframe || !playlistInput || !saveBtn) {
+    throw new Error('SpotifyPlayer: missing DOM elements');
+  }
+
+  var isSettingsOpen = false;
+
+  /* ---------- localStorage helpers ---------- */
   function getPlaylistId() {
     try {
       return localStorage.getItem('spotify-playlist-id') || defaultPlaylistId;
@@ -104,14 +95,12 @@ const defaultPlaylistId = '37i9dQZF1DXcBWIGoYBM5M';
   function setPlaylistId(id) {
     try {
       localStorage.setItem('spotify-playlist-id', id);
-    } catch {
-      // localStorage unavailable (private browsing, etc.)
-    }
+    } catch { /* localStorage unavailable */ }
   }
 
   /* ---------- iframe control ---------- */
   function buildIframeUrl(playlistId) {
-    return 'https://open.spotify.com/embed/playlist/' + playlistId + '?utm_source=generator&theme=0';
+    return 'https://open.spotify.com/embed/playlist/' + encodeURIComponent(playlistId) + '?utm_source=generator&theme=0';
   }
 
   function loadIframe(playlistId) {
@@ -119,70 +108,40 @@ const defaultPlaylistId = '37i9dQZF1DXcBWIGoYBM5M';
   }
 
   function unloadIframe() {
-    // Setting src to empty stops the iframe from loading / playing
     iframe.src = '';
   }
 
-  /* ---------- open / close ---------- */
-  function openPlayer() {
-    const playlistId = getPlaylistId();
-    playlistInput.value = playlistId;
-    loadIframe(playlistId);
-    panel.classList.remove('hidden');
-    spotifyIcon.textContent = '🎶';
-    isOpen = true;
-  }
-
-  function closePlayer() {
-    panel.classList.add('hidden');
-    unloadIframe();
-    spotifyIcon.textContent = '🎵';
-    isOpen = false;
-    // Also close settings sub-panel if it was open
-    if (isSettingsOpen) {
-      settingsEl.classList.add('hidden');
-      isSettingsOpen = false;
-    }
-  }
-
-  /* ---------- event listeners ---------- */
-  toggle.addEventListener('click', function () {
-    if (isOpen) {
-      closePlayer();
-    } else {
-      openPlayer();
-    }
+  /* ---------- collapsible toggle ---------- */
+  toggle.addEventListener('click', function (e) {
+    if (e.target && (e.target.id === 'spotify-settings-btn' || e.target.closest('#spotify-settings-btn'))) return;
+    var isOpen = !body.classList.contains('hidden');
+    body.classList.toggle('hidden');
+    chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
   });
 
-  closeBtn.addEventListener('click', function (e) {
-    e.stopPropagation();
-    closePlayer();
-  });
-
+  /* ---------- settings toggle ---------- */
   settingsBtn.addEventListener('click', function (e) {
     e.stopPropagation();
     if (isSettingsOpen) {
       settingsEl.classList.add('hidden');
       isSettingsOpen = false;
     } else {
-      const playlistId = getPlaylistId();
-      playlistInput.value = playlistId;
+      playlistInput.value = getPlaylistId();
       settingsEl.classList.remove('hidden');
       isSettingsOpen = true;
       playlistInput.focus();
     }
   });
 
+  /* ---------- save playlist ID ---------- */
   saveBtn.addEventListener('click', function (e) {
     e.stopPropagation();
     var newId = playlistInput.value.trim();
     if (newId) {
       setPlaylistId(newId);
-      // Unload then reload with new playlist ID
       unloadIframe();
-      setTimeout(function () {
-        loadIframe(newId);
-      }, 100);
+      setTimeout(function () { loadIframe(newId); }, 100);
     }
     settingsEl.classList.add('hidden');
     isSettingsOpen = false;
@@ -194,4 +153,10 @@ const defaultPlaylistId = '37i9dQZF1DXcBWIGoYBM5M';
       saveBtn.click();
     }
   });
+
+  /* ---------- initial load ---------- */
+  var playlistId = getPlaylistId();
+  playlistInput.value = playlistId;
+  loadIframe(playlistId);
+})();
 </script>
