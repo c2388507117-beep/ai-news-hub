@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T05:22:48.282Z",
+  "fetchedAt": "2026-05-31T05:27:16.544Z",
   "items": [
+    {
+      "title": "大稻埕",
+      "extract": "大稻埕，雅稱稻江、稻津，是臺北市大同區西南部的一個傳統地域名稱，因具有大片曬稻穀的空地（稻埕）而得名。咸豐元年（1851年）泉州府同安縣人林藍田為躲避海盜洗劫，自雞籠（今基隆）遷至大稻埕經商並開設店鋪，開始大稻埕的商業活動。咸豐三年（1853年）三邑人與同安人為艋舺碼頭的泊船權利，發生頂下郊拚分類械鬥事件，下郊的同安人無力抵抗，於是帶著自身信仰的霞海城隍敗逃至大稻埕，大稻埕旁淡水河的碼頭交易逐漸興起。咸豐十年（1860年）淡水開港後，大稻埕成為臺北最繁華的物資集散中心，以茶葉與布料的貿易為主。大稻埕的茶葉貿易在洋行的帶領下，不僅市場擴大，更造就驚人的財富與繁榮。進入日治時期後日商抵制洋行勢力，轉而以日本與東南亞為主要市場。戰後大稻埕因淡水河淤淺逐漸失去河港功能，且臺產茶葉不敵錫蘭紅茶的競爭而逐漸沒落。之後臺北市區向東發展、人口大量外移，大稻埕成為臺北市外圍的老舊市區。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%A8%BB%E5%9F%95",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/%E5%A4%A7%E7%A8%BB%E5%9F%95%E6%B0%B8%E6%A8%82%E7%AC%AC.jpg/330px-%E5%A4%A7%E7%A8%BB%E5%9F%95%E6%B0%B8%E6%A8%82%E7%AC%AC.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "尾關露絲",
       "extract": "尾關露絲（1956年3月12日—），加拿大－美國小說家，電影導演。她曾在商業電視媒體十多年，轉向小說家之前，執導過獨立電影。\n",
@@ -27,13 +34,6 @@
       "extract": "克罗伊特 是德国巴伐利亚州上巴伐利亚行政区米斯巴赫县的市镇，面积122.26平方千米，2023年12月31日人口为3,517人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E7%BD%97%E4%BC%8A%E7%89%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kreuth_StLeonhard.jpg/330px-Kreuth_StLeonhard.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿图罗·乌斯拉尔·彼特里",
-      "extract": "阿图罗·乌斯拉尔·彼特里 是委内瑞拉政治人物、外交官、作家。拉丁美洲魔幻现实主义文学的首倡者，著有《红色长矛》、《黄金国之路》、《死者的葬礼》、《胜者》等作品。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%9B%BE%E7%BD%97%C2%B7%E4%B9%8C%E6%96%AF%E6%8B%89%E5%B0%94%C2%B7%E5%BD%BC%E7%89%B9%E9%87%8C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Uslar_Pietri.jpg/330px-Uslar_Pietri.jpg",
       "source": "wikipedia"
     }
   ]
