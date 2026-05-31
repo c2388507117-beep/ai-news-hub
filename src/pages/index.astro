@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsCard from '../components/NewsCard.astro';
 import Wallpaper from '../components/Wallpaper.astro';
+import SpotifyPlayer from '../components/SpotifyPlayer.astro';
 import FootballStandings from '../components/FootballStandings.astro';
 import SteamCharts from '../components/SteamCharts.astro';
 import BilibiliFavorites from '../components/BilibiliFavorites.astro';
@@ -83,6 +84,7 @@ allNews.forEach((item) => {
 
 <BaseLayout title="AI News Hub - 个人仪表盘">
   <Wallpaper data={wallpapers} />
+  <SpotifyPlayer />
 
   <main class="max-w-6xl mx-auto px-4 py-6">
     <!-- Football Standings (full width, collapsed by default) -->
