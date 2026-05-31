@@ -1,15 +1,15 @@
 ---
-import type { KnowledgeItem } from '../lib/types';
+import type { KnowledgeItem, KnowledgeList } from '../lib/types';
 
 export interface Props {
-  data: KnowledgeItem | null;
+  data: KnowledgeItem | KnowledgeList | null;
 }
 
 const { data } = Astro.props;
+const items = data && 'items' in data ? data.items : (data ? [data] : []);
 ---
 
 <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
-  <!-- Header -->
   <button
     id="kn-toggle"
     class="w-full bg-gradient-to-r from-amber-600 to-orange-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-amber-500 hover:to-orange-600 transition-all text-left"
@@ -17,37 +17,40 @@ const { data } = Astro.props;
     aria-controls="kn-body"
   >
     <div class="flex items-center gap-2 min-w-0">
-      <span class="text-xl leading-none flex-shrink-0">📖</span>
+      <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">📖</span>
       <h2 class="text-sm font-bold text-white truncate">每日科普</h2>
     </div>
     <span id="kn-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0 rotate-90">▶</span>
   </button>
 
-  <!-- Body -->
   <div id="kn-body">
-    {data && data.title ? (
-      <div class="p-4">
-        <h3 class="text-base font-bold text-gray-800 dark:text-gray-200 mb-2">
-          {data.source === 'curated' ? '📌 ' : ''}{data.title}
-        </h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-          {data.extract}
-        </p>
-        {data.url && (
-          <a
-            href={data.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-block mt-2 text-xs text-amber-600 dark:text-amber-400 hover:underline"
-          >
-            阅读更多 →
-          </a>
-        )}
-        {data.source && (
-          <span class="block mt-2 text-[10px] text-gray-400 dark:text-gray-500">
-            来源：{data.source === 'wikipedia' ? '维基百科' : data.source === 'baike' ? '百度百科' : '每日精选'}
-          </span>
-        )}
+    {items.length > 0 ? (
+      <div class="divide-y divide-gray-100 dark:divide-gray-800">
+        {items.slice(0, 3).map((item) => (
+          <div class="p-4">
+            <h3 class="text-sm font-bold text-gray-800 dark:text-gray-200 mb-1.5">
+              {item.source === 'curated' ? '📌 ' : ''}{item.title}
+            </h3>
+            <p class="text-xs text-gray-600 dark:text-gray-400 leading-relaxed line-clamp-4">
+              {item.extract}
+            </p>
+            <div class="flex items-center justify-between mt-2">
+              {item.url && (
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[11px] text-amber-600 dark:text-amber-400 hover:underline"
+                >
+                  阅读更多 →
+                </a>
+              )}
+              <span class="text-[10px] text-gray-400">
+                {item.source === 'wikipedia' ? '维基百科' : item.source === 'baike' ? '百度百科' : '每日精选'}
+              </span>
+            </div>
+          </div>
+        ))}
       </div>
     ) : (
       <p class="text-center text-gray-400 py-6 text-xs">暂无科普内容</p>

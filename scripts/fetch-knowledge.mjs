@@ -306,18 +306,37 @@ async function main() {
     console.log(`  ✓ Curated fact: ${result.title}`);
   }
 
-  const output = {
-    fetchedAt: now.toISOString(),
-    ...result,
-  };
-
   // Ensure extract is at most 500 chars
-  if (output.extract && output.extract.length > 500) {
-    output.extract = output.extract.slice(0, 500);
+  if (result && result.extract && result.extract.length > 500) {
+    result.extract = result.extract.slice(0, 500);
   }
 
+  // Read existing items and prepend new one
+  let existingItems = [];
+  try {
+    const existing = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+    if (existing.items && Array.isArray(existing.items)) {
+      existingItems = existing.items;
+    }
+  } catch {}
+
+  // Prepend new item
+  if (result) {
+    existingItems.unshift(result);
+  }
+
+  // Keep max 5 items
+  if (existingItems.length > 5) {
+    existingItems = existingItems.slice(0, 5);
+  }
+
+  const output = {
+    fetchedAt: now.toISOString(),
+    items: existingItems,
+  };
+
   fs.writeFileSync(dataPath, JSON.stringify(output, null, 2), 'utf-8');
-  console.log(`  ✓ Written to ${dataPath}`);
+  console.log(`  ✓ Written ${existingItems.length} items to knowledge.json`);
 
   // Graceful degradation: if all sources failed, try to keep existing data
   if (!result) {
