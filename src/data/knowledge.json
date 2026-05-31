@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T09:26:11.430Z",
+  "fetchedAt": "2026-05-31T11:52:28.784Z",
   "items": [
+    {
+      "title": "鸟吻类",
+      "extract": "鸟吻类 是一个包含有着上颌骨窗孔的兽脚亚目恐龙的一个演化支，即在上颌骨的前外侧有构成上颌骨一个额外的开口。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%B8%9F%E5%90%BB%E7%B1%BB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Ceratosaurus_mounted.jpg/330px-Ceratosaurus_mounted.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "北宜公路",
       "extract": "北宜公路是一條位於台灣北部，連接台北與宜蘭的公路，全長58公里，在公路系統上屬於省道台九線的一部分。在宜蘭縣頭城鎮大金面山下山之後抵達蘭陽平原，與頭城鎮青雲路（台二庚線）叉路為終點（台九線70K處），途經新北市新店區、石碇區、坪林區與宜蘭縣頭城鎮。\n",
@@ -27,13 +34,6 @@
       "extract": "鈍獸科 為長鼻目下已滅絕的一個早期演化支，生存於始新世晚期至漸新世早期的北非及阿曼。鈍獸科為化石紀錄上最早發現的大型長鼻目物種，且具有明顯的兩性異型。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%88%8D%E7%8D%B8%E7%A7%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Barytherium_molar.jpg/330px-Barytherium_molar.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "大稻埕",
-      "extract": "大稻埕，雅稱稻江、稻津，是臺北市大同區西南部的一個傳統地域名稱，因具有大片曬稻穀的空地（稻埕）而得名。咸豐元年（1851年）泉州府同安縣人林藍田為躲避海盜洗劫，自雞籠（今基隆）遷至大稻埕經商並開設店鋪，開始大稻埕的商業活動。咸豐三年（1853年）三邑人與同安人為艋舺碼頭的泊船權利，發生頂下郊拚分類械鬥事件，下郊的同安人無力抵抗，於是帶著自身信仰的霞海城隍敗逃至大稻埕，大稻埕旁淡水河的碼頭交易逐漸興起。咸豐十年（1860年）淡水開港後，大稻埕成為臺北最繁華的物資集散中心，以茶葉與布料的貿易為主。大稻埕的茶葉貿易在洋行的帶領下，不僅市場擴大，更造就驚人的財富與繁榮。進入日治時期後日商抵制洋行勢力，轉而以日本與東南亞為主要市場。戰後大稻埕因淡水河淤淺逐漸失去河港功能，且臺產茶葉不敵錫蘭紅茶的競爭而逐漸沒落。之後臺北市區向東發展、人口大量外移，大稻埕成為臺北市外圍的老舊市區。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%A8%BB%E5%9F%95",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/%E5%A4%A7%E7%A8%BB%E5%9F%95%E6%B0%B8%E6%A8%82%E7%AC%AC.jpg/330px-%E5%A4%A7%E7%A8%BB%E5%9F%95%E6%B0%B8%E6%A8%82%E7%AC%AC.jpg",
       "source": "wikipedia"
     }
   ]

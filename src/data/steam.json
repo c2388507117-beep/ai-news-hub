@@ -1,22 +1,6 @@
 {
-  "fetchedAt": "2026-05-31T09:26:10.549Z",
+  "fetchedAt": "2026-05-31T11:52:28.115Z",
   "topSellers": [
-    {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
-    },
-    {
-      "name": "Forza Horizon 6",
-      "appid": 2483190,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
-    },
     {
       "name": "Steam Deck",
       "appid": 1675200,
@@ -24,6 +8,14 @@
       "finalPrice": 39900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "007 First Light - Standard Edition",
+      "appid": 1488462,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
       "name": "Paralives",
@@ -34,6 +26,14 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
+    },
+    {
       "name": "Subnautica 2",
       "appid": 1962700,
       "price": 2999,
@@ -42,12 +42,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Fallout 1st",
-      "appid": 1202520,
-      "price": 1299,
-      "finalPrice": 1299,
+      "name": "Mina the Hollower",
+      "appid": 1875580,
+      "price": 1999,
+      "finalPrice": 1999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light",
@@ -58,12 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     },
     {
-      "name": "Mina the Hollower",
-      "appid": 1875580,
-      "price": 1999,
-      "finalPrice": 1999,
+      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
+      "appid": 1588213,
+      "price": 2999,
+      "finalPrice": 1499,
+      "discount": 50,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
+    },
+    {
+      "name": "Prime Status Upgrade",
+      "appid": 54029,
+      "price": 1499,
+      "finalPrice": 1499,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
