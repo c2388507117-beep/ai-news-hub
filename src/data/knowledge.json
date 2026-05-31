@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T19:43:25.361Z",
+  "fetchedAt": "2026-05-31T21:17:19.666Z",
   "items": [
+    {
+      "title": "杰米·李·拉特雷",
+      "extract": "杰米·李·拉特雷，加拿大女子冰球运动员，场上位置是前锋。她曾代表加拿大国家队参加2022年冬季奥林匹克运动会冰球比赛，获得一枚金牌。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E7%B1%B3%C2%B7%E6%9D%8E%C2%B7%E6%8B%89%E7%89%B9%E9%9B%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jamie_Lee_Rattray.jpg/330px-Jamie_Lee_Rattray.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "持續性正壓呼吸器",
       "extract": "持續性正壓呼吸器，是一種通過持續將加壓空氣輸送入呼吸道，以防止睡眠期間氣道塌陷的呼吸輔助儀器。俗稱「睡眠呼吸機」，名稱中的「持續」亦可作「連續」，「正壓」亦可作「陽壓」，「器」亦可作「機」，因此常見名稱有持續陽壓呼吸機、連續陽壓呼吸器、持續正壓呼吸機等多種組合。\n",
@@ -27,13 +34,6 @@
       "extract": "比唐河畔贝尔蒙 是法国大東部大區孚日省的一个市镇，属于孚日圣迪耶区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%94%90%E6%B2%B3%E7%95%94%E8%B4%9D%E5%B0%94%E8%92%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Belmont-sur-Buttant_%2888%29_croix.jpg/330px-Belmont-sur-Buttant_%2888%29_croix.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鸟吻类",
-      "extract": "鸟吻类 是一个包含有着上颌骨窗孔的兽脚亚目恐龙的一个演化支，即在上颌骨的前外侧有构成上颌骨一个额外的开口。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%B8%9F%E5%90%BB%E7%B1%BB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Ceratosaurus_mounted.jpg/330px-Ceratosaurus_mounted.jpg",
       "source": "wikipedia"
     }
   ]

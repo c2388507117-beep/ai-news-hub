@@ -1,77 +1,85 @@
 {
-  "fetchedAt": "2026-05-31T19:43:24.657Z",
+  "fetchedAt": "2026-05-31T21:17:18.852Z",
   "topSellers": [
     {
-      "name": "Forza Horizon 6",
+      "name": "优先状态升级",
+      "appid": 54029,
+      "price": 11600,
+      "finalPrice": 11600,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+    },
+    {
+      "name": "极限竞速：地平线 6",
       "appid": 2483190,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 49800,
+      "finalPrice": 49800,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light - Standard Edition",
       "appid": 1488462,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 46800,
+      "finalPrice": 46800,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
-      "name": "Grand Theft Auto V Enhanced",
-      "appid": 3240220,
-      "price": 14900,
-      "finalPrice": 7450,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
-    },
-    {
-      "name": "Romestead",
-      "appid": 1805320,
-      "price": 4800,
-      "finalPrice": 4320,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/capsule_184x69.jpg"
-    },
-    {
-      "name": "Call of Duty®: Modern Warfare® 4",
-      "appid": 4435490,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
-    },
-    {
-      "name": "Dancing Line",
-      "appid": 4395300,
-      "price": 3000,
-      "finalPrice": 3000,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4395300/capsule_184x69.jpg"
-    },
-    {
-      "name": "Subnautica 2",
-      "appid": 1962700,
-      "price": 10800,
-      "finalPrice": 10800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 First Light",
+      "name": "007 初露锋芒",
       "appid": 3768760,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 46800,
+      "finalPrice": 46800,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     },
     {
-      "name": "Wallpaper Engine",
+      "name": "Heatwave: Sam's Stay",
+      "appid": 4103530,
+      "price": 7200,
+      "finalPrice": 5976,
+      "discount": 17,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4103530/capsule_184x69.jpg"
+    },
+    {
+      "name": "SPITE：拿下老板的妻子、妹妹和母亲",
+      "appid": 4242290,
+      "price": 4500,
+      "finalPrice": 2790,
+      "discount": 38,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4242290/capsule_184x69.jpg"
+    },
+    {
+      "name": "罗马拓荒录",
+      "appid": 1805320,
+      "price": 7800,
+      "finalPrice": 7020,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/capsule_184x69.jpg"
+    },
+    {
+      "name": "Wallpaper Engine：壁纸引擎",
       "appid": 431960,
-      "price": 2290,
-      "finalPrice": 2290,
+      "price": 3500,
+      "finalPrice": 3500,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
+    },
+    {
+      "name": "幸福岛幻想",
+      "appid": 3668560,
+      "price": 9500,
+      "finalPrice": 7980,
+      "discount": 16,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3668560/capsule_184x69.jpg"
+    },
+    {
+      "name": "三周年纪念代币包B",
+      "appid": 4629520,
+      "price": 71900,
+      "finalPrice": 71900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4629520/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
