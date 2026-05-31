@@ -1,6 +1,6 @@
 ---
 // 世界景点地图 — Leaflet + OSM with global attractions and check-in system
-// Performance: IntersectionObserver lazy-load, marker clustering, client-side caching
+// Performance: IntersectionObserver lazy-load, jsDelivr CDN, combined API, marker clustering
 ---
 
 <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
@@ -10,14 +10,13 @@
     </h3>
   </div>
   <div class="relative" id="world-map">
-    <!-- Map container -->
     <div id="map-container" style="height:460px;width:100%;z-index:1;min-height:400px"></div>
 
-    <!-- Loading overlay -->
+    <!-- Loading overlay with step indicator -->
     <div id="map-loading" class="absolute inset-0 z-10 flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm" style="height:460px">
-      <div class="text-center">
+      <div class="text-center max-w-[200px]">
         <div class="animate-spin text-2xl mb-2">🌍</div>
-        <p>地图加载中...</p>
+        <p id="map-loading-text">地图加载中...</p>
       </div>
     </div>
 
@@ -29,9 +28,8 @@
       </div>
     </div>
 
-    <!-- Controls (hidden until init)  -->
+    <!-- Controls (hidden until init) -->
     <div id="map-controls" class="hidden">
-      <!-- Country / City filter -->
       <div class="absolute top-2 left-2 z-[1000] flex gap-1">
         <select id="map-country-select" class="px-2 py-1.5 text-xs rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 shadow-sm max-w-[100px] focus:outline-none focus:ring-2 focus:ring-teal-500">
           <option value="">🌏 全部</option>
@@ -41,7 +39,6 @@
         </select>
       </div>
 
-      <!-- Category filter -->
       <div class="absolute top-2 right-2 z-[1000] flex gap-1 flex-wrap justify-end max-w-[220px]">
         <button data-cat="" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-teal-500 text-white shadow-sm transition-colors">全部</button>
         <button data-cat="自然风光" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🏔️ 自然</button>
@@ -50,7 +47,6 @@
         <button data-cat="美食街区" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🍜 美食</button>
       </div>
 
-      <!-- Stats -->
       <div class="absolute bottom-2 left-2 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800 px-3 py-2 text-xs text-gray-600 dark:text-gray-300">
         <span id="map-stats">📍 已打卡 0 / 0</span>
       </div>
@@ -63,6 +59,7 @@
   'use strict';
 
   var loadingEl = document.getElementById('map-loading');
+  var loadingText = document.getElementById('map-loading-text');
   var errorEl = document.getElementById('map-error');
   var mapContainer = document.getElementById('map-container');
   var mapControls = document.getElementById('map-controls');
@@ -72,7 +69,7 @@
   var statsEl = document.getElementById('map-stats');
   var catBtns = document.querySelectorAll('.map-cat-btn');
 
-  if (!loadingEl || !errorEl || !mapContainer || !mapControls || !retryBtn || !countrySelect || !citySelect || !statsEl || catBtns.length === 0) {
+  if (!loadingEl || !loadingText || !errorEl || !mapContainer || !mapControls || !retryBtn || !countrySelect || !citySelect || !statsEl || catBtns.length === 0) {
     throw new Error('WorldMap: missing DOM elements');
   }
 
@@ -89,14 +86,20 @@
   var currentCountry = '';
   var currentCity = '';
   var mapInitialized = false;
+  var loadAttempts = 0;
 
-  // --- Simple cache (sessionStorage with TTL of 5 minutes) ---
+  // --- Loading steps for UX feedback ---
+  function setLoadingStep(text) {
+    if (loadingText) loadingText.textContent = text;
+  }
+
+  // --- Simple cache ---
   function cacheGet(key) {
     try {
       var raw = sessionStorage.getItem('wm_' + key);
       if (!raw) return null;
       var entry = JSON.parse(raw);
-      if (Date.now() - entry.ts > 300000) { // 5 min TTL
+      if (Date.now() - entry.ts > 300000) {
         sessionStorage.removeItem('wm_' + key);
         return null;
       }
@@ -106,133 +109,146 @@
   function cacheSet(key, data) {
     try {
       sessionStorage.setItem('wm_' + key, JSON.stringify({ ts: Date.now(), data: data }));
-    } catch (_) { /* quota exceeded */ }
+    } catch (_) { /* skip */ }
   }
 
-  // --- Load data (with cache) ---
-  async function loadAll() {
+  // --- Single combined fetch ---
+  async function fetchMapData() {
+    setLoadingStep('加载景点数据中...');
+
+    var cacheKey = 'mapData_v2';
+    var cached = cacheGet(cacheKey);
+    if (cached) {
+      setLoadingStep('读取缓存数据...');
+      attractions = cached.attractions;
+      countries = cached.countries;
+      citiesByCountry = cached.citiesByCountry;
+      visitLogs = cached.visitLogs;
+      customMarkers = cached.customMarkers || [];
+      // Quick delay so the user sees the step change
+      await new Promise(function (r) { return setTimeout(r, 50); });
+      return true;
+    }
+
     try {
-      var cacheKey = 'mapData';
-      var cached = cacheGet(cacheKey);
-      if (cached) {
-        attractions = cached.attractions;
-        countries = cached.countries;
-        citiesByCountry = cached.citiesByCountry;
-        visitLogs = cached.visitLogs;
-        customMarkers = cached.customMarkers || [];
-        initMap();
-        return;
+      var resp = await fetch('/api/map-data');
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      var data = await resp.json();
+
+      attractions = data.attractions || [];
+      visitLogs = data.visitLogs || [];
+      customMarkers = data.markers || [];
+
+      // Build country/city index
+      var cityMap = {};
+      for (var i = 0; i < attractions.length; i++) {
+        var a = attractions[i];
+        var country = a.country || '其他';
+        if (!cityMap[country]) cityMap[country] = {};
+        var city = a.city || '';
+        if (!cityMap[country][city]) cityMap[country][city] = 0;
+        cityMap[country][city]++;
       }
+      countries = Object.keys(cityMap).sort();
+      citiesByCountry = cityMap;
 
-      var [attractionsRes, logsRes, markersRes] = await Promise.all([
-        fetch('/api/attractions'),
-        fetch('/api/visit-logs'),
-        fetch('/api/markers'),
-      ]);
+      cacheSet(cacheKey, {
+        attractions: attractions,
+        countries: countries,
+        citiesByCountry: citiesByCountry,
+        visitLogs: visitLogs,
+        customMarkers: customMarkers,
+      });
 
-      if (!attractionsRes.ok || !logsRes.ok || !markersRes.ok) {
-        throw new Error('Failed to load map data');
-      }
-
-      attractions = await attractionsRes.json();
-      visitLogs = await logsRes.json();
-      customMarkers = await markersRes.json();
-
-      // Build country / city index
-      buildCountryIndex();
-
-      cacheSet(cacheKey, { attractions: attractions, countries: countries, citiesByCountry: citiesByCountry, visitLogs: visitLogs, customMarkers: customMarkers });
-
-      initMap();
+      return true;
     } catch (err) {
-      console.error('Map data load error:', err);
-      loadingEl.classList.add('hidden');
-      errorEl.classList.remove('hidden');
+      console.error('Map data fetch error:', err);
+      return false;
     }
   }
 
-  function buildCountryIndex() {
-    var map = {};
-    for (var i = 0; i < attractions.length; i++) {
-      var a = attractions[i];
-      var country = a.country || '其他';
-      if (!map[country]) {
-        map[country] = {};
-      }
-      var city = a.city || '';
-      if (!map[country][city]) {
-        map[country][city] = 0;
-      }
-      map[country][city]++;
+  // --- Main load sequence ---
+  async function loadAll() {
+    setLoadingStep('加载地图资源中...');
+
+    // Check if Leaflet is already loaded (unlikely, but handle it)
+    if (typeof L !== 'undefined' && typeof L.markerClusterGroup !== 'undefined') {
+      var ok = await fetchMapData();
+      if (ok) { initMap(); }
+      else { showError(); }
+      return;
     }
-    countries = Object.keys(map).sort();
-    citiesByCountry = map;
+
+    // Load CSS
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css';
+    document.head.appendChild(link);
+
+    var mcCss = document.createElement('link');
+    mcCss.rel = 'stylesheet';
+    mcCss.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css';
+    document.head.appendChild(mcCss);
+
+    var mcDCss = document.createElement('link');
+    mcDCss.rel = 'stylesheet';
+    mcDCss.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css';
+    document.head.appendChild(mcDCss);
+
+    // Load JS — sequential: leaflet → markercluster → fetch data → init
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js', function () {
+      setLoadingStep('加载聚类插件中...');
+      loadScript('https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js', async function () {
+        var ok = await fetchMapData();
+        if (ok) {
+          initMap();
+        } else {
+          showError();
+        }
+      }, function () {
+        // MarkerCluster failed — fall back
+        fetchMapData().then(function (ok) {
+          if (ok) initMap();
+          else showError();
+        });
+      });
+    }, function () {
+      showError();
+    });
   }
 
-  // --- Lazy init via IntersectionObserver ---
+  function loadScript(src, onSuccess, onFail) {
+    var script = document.createElement('script');
+    script.src = src;
+    script.onload = onSuccess;
+    script.onerror = (onFail || onSuccess);
+    document.body.appendChild(script);
+  }
+
+  // --- IntersectionObserver lazy init ---
   var observer = new IntersectionObserver(function (entries) {
     for (var i = 0; i < entries.length; i++) {
       if (entries[i].isIntersecting && !mapInitialized) {
         mapInitialized = true;
         observer.disconnect();
-        loadLeaflet();
+        loadAll();
       }
     }
-  }, { rootMargin: '200px' });
+  }, { rootMargin: '300px' });
   observer.observe(mapContainer);
 
-  // --- Init Leaflet ---
-  function loadLeaflet() {
-    if (typeof L !== 'undefined') {
+  // Fallback: load after 5s even if not scrolled to
+  setTimeout(function () {
+    if (!mapInitialized) {
+      mapInitialized = true;
+      if (observer) observer.disconnect();
       loadAll();
-      return;
     }
-
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
-    document.head.appendChild(link);
-
-    // MarkerCluster CSS
-    var mcCss = document.createElement('link');
-    mcCss.rel = 'stylesheet';
-    mcCss.href = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css';
-    document.head.appendChild(mcCss);
-
-    var mcDefaultCss = document.createElement('link');
-    mcDefaultCss.rel = 'stylesheet';
-    mcDefaultCss.href = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css';
-    document.head.appendChild(mcDefaultCss);
-
-    // Leaflet JS
-    var script = document.createElement('script');
-    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-    script.onload = function () {
-      // Now load MarkerCluster
-      var mcScript = document.createElement('script');
-      mcScript.src = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js';
-      mcScript.onload = loadAll;
-      mcScript.onerror = function () {
-        // MarkerCluster failed — fall back to no clustering
-        console.warn('MarkerCluster failed to load, proceeding without');
-        loadAll();
-      };
-      document.body.appendChild(mcScript);
-    };
-    script.onerror = function () {
-      loadingEl.classList.add('hidden');
-      errorEl.classList.remove('hidden');
-    };
-    document.body.appendChild(script);
-  }
+  }, 5000);
 
   // --- Init map ---
   function initMap() {
-    if (typeof L === 'undefined') {
-      setTimeout(initMap, 500);
-      return;
-    }
-
+    setLoadingStep('渲染地图中...');
     loadingEl.classList.add('hidden');
     mapControls.classList.remove('hidden');
 
@@ -247,24 +263,13 @@
 
       map.invalidateSize(true);
 
-      var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      // Primary tiles
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         maxZoom: 18,
       }).addTo(map);
 
-      // Fallback tile
-      var tileFallbackLoaded = false;
-      tileLayer.on('tileerror', function () {
-        if (tileFallbackLoaded) return;
-        tileFallbackLoaded = true;
-        map.removeLayer(tileLayer);
-        L.tileLayer('https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png', {
-          attribution: '&copy; OpenStreetMap',
-          maxZoom: 18,
-        }).addTo(map);
-      });
-
-      // Marker clustering if available
+      // Marker clustering
       if (typeof L.markerClusterGroup !== 'undefined') {
         markerClusterGroup = L.markerClusterGroup({
           maxClusterRadius: 50,
@@ -280,20 +285,15 @@
 
       customMarkerLayer = L.layerGroup().addTo(map);
 
-      // Populate filters
       populateCountrySelect();
-
-      // Render
       renderAll();
+      window.addEventListener('resize', function () {
+        if (map) map.invalidateSize(true);
+      });
     });
   }
 
-  // --- Re-invalidate on resize ---
-  window.addEventListener('resize', function () {
-    if (map) map.invalidateSize(true);
-  });
-
-  // --- Country / City dropdowns ---
+  // --- Filters ---
   function populateCountrySelect() {
     countrySelect.innerHTML = '<option value="">🌏 全部</option>';
     for (var i = 0; i < countries.length; i++) {
@@ -302,7 +302,6 @@
       opt.textContent = countries[i];
       countrySelect.appendChild(opt);
     }
-
     countrySelect.addEventListener('change', function () {
       currentCountry = countrySelect.value;
       buildCitySelect();
@@ -312,7 +311,6 @@
   function buildCitySelect() {
     citySelect.innerHTML = '<option value="">🏙️ 城市</option>';
     citySelect.disabled = false;
-
     if (!currentCountry) {
       citySelect.disabled = true;
       citySelect.innerHTML = '<option value="">🏙️ 城市</option>';
@@ -320,7 +318,6 @@
       renderAll();
       return;
     }
-
     var cities = Object.keys(citiesByCountry[currentCountry] || {}).sort();
     for (var i = 0; i < cities.length; i++) {
       var opt = document.createElement('option');
@@ -328,28 +325,22 @@
       opt.textContent = cities[i] + ' (' + citiesByCountry[currentCountry][cities[i]] + ')';
       citySelect.appendChild(opt);
     }
-
     citySelect.addEventListener('change', function () {
       currentCity = citySelect.value;
       renderAll();
     });
-
-    // If no city selected, still render with just country filter
     currentCity = '';
     renderAll();
   }
 
-  // --- Render all markers ---
   function renderAll() {
     if (!markerClusterGroup || !map) return;
-
     renderAttractions();
     renderCustomMarkers();
   }
 
   function renderAttractions() {
     markerClusterGroup.clearLayers();
-
     if (!attractions || attractions.length === 0) return;
 
     var visitedIds = {};
@@ -377,10 +368,8 @@
       if (isVisited) visitedCount++;
 
       var color = isVisited ? '#22c55e' : '#3b82f6';
-      var iconHtml = '<div style="background:' + color + ';width:12px;height:12px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"></div>';
-
       var icon = L.divIcon({
-        html: iconHtml,
+        html: '<div style="background:' + color + ';width:12px;height:12px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"></div>',
         className: 'custom-marker',
         iconSize: [12, 12],
         iconAnchor: [6, 6],
@@ -389,19 +378,19 @@
       var marker = L.marker([a.lat, a.lng], { icon: icon });
       markers.push(marker);
 
-      var countryTag = a.country && a.country !== '中国' ? '<div class="text-gray-400 mb-0.5">' + escapeHtml(a.country) + '</div>' : '';
-      var logNote = visitMap[a.id] && visitMap[a.id].note ? '<p class="text-xs text-gray-400 mt-1">📝 ' + escapeHtml(visitMap[a.id].note) + '</p>' : '';
+      var countryTag = a.country && a.country !== '中国' ? '<div class="text-gray-400 mb-0.5">' + esc(a.country) + '</div>' : '';
+      var logNote = visitMap[a.id] && visitMap[a.id].note ? '<p class="text-xs text-gray-400 mt-1">📝 ' + esc(visitMap[a.id].note) + '</p>' : '';
       var checkBtn = isVisited
         ? '<button class="checkin-btn px-2 py-1 text-xs rounded bg-gray-100 dark:bg-gray-700 text-gray-500 cursor-default" disabled>✅ 已打卡</button>'
         : '<button data-attraction="' + a.id + '" class="checkin-btn px-2 py-1 text-xs rounded bg-teal-500 hover:bg-teal-600 text-white transition-colors">📍 打卡</button>';
 
       marker.bindPopup(
         '<div class="text-xs" style="min-width:140px">' +
-          '<div class="font-bold text-sm mb-1">' + escapeHtml(a.name) + '</div>' +
-          '<div class="text-gray-500 mb-0.5">' + escapeHtml(a.city) + '</div>' +
+          '<div class="font-bold text-sm mb-1">' + esc(a.name) + '</div>' +
+          '<div class="text-gray-500 mb-0.5">' + esc(a.city) + '</div>' +
           countryTag +
-          '<div class="text-gray-400 mb-1">' + escapeHtml(a.description || '') + '</div>' +
-          '<span class="inline-block px-1.5 py-0.5 rounded text-xs bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 mb-1">' + escapeHtml(a.category || '') + '</span>' +
+          '<div class="text-gray-400 mb-1">' + esc(a.description || '') + '</div>' +
+          '<span class="inline-block px-1.5 py-0.5 rounded text-xs bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 mb-1">' + esc(a.category || '') + '</span>' +
           logNote +
           '<div class="mt-2">' + checkBtn + '</div>' +
         '</div>',
@@ -412,80 +401,59 @@
         var btn = document.querySelector('.checkin-btn[data-attraction]');
         if (btn) {
           btn.addEventListener('click', function (e) {
-            var attId = Number(e.currentTarget.dataset.attraction);
-            checkin(attId);
-            // Prevent popup from closing
+            checkin(Number(e.currentTarget.dataset.attraction));
             e.stopPropagation();
           });
         }
       });
     }
 
-    // Add markers to cluster group (efficient batch add)
     if (markers.length > 0) {
       markerClusterGroup.addLayers(markers);
     }
-
-    updateStats(visitedCount, visibleCount, attractions.length);
+    statsEl.textContent = '📍 已打卡 ' + visitedCount + ' / ' + visibleCount + ' (共' + attractions.length + '个景点)';
   }
 
   function renderCustomMarkers() {
     customMarkerLayer.clearLayers();
     if (!customMarkers || customMarkers.length === 0) return;
-
     if (currentCategory && currentCategory !== '自定义') return;
     if (currentCountry) return;
     if (currentCity) return;
 
     for (var i = 0; i < customMarkers.length; i++) {
       var m = customMarkers[i];
-      var iconHtml = '<div style="background:#ef4444;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"><span style="position:absolute;top:-2px;left:3px;font-size:10px;line-height:1">📍</span></div>';
-
       var icon = L.divIcon({
-        html: iconHtml,
+        html: '<div style="background:#ef4444;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"><span style="position:absolute;top:-2px;left:3px;font-size:10px;line-height:1">📍</span></div>',
         className: 'custom-marker',
         iconSize: [14, 14],
         iconAnchor: [7, 7],
       });
-
       var marker = L.marker([m.lat, m.lng], { icon: icon }).addTo(customMarkerLayer);
       marker.bindPopup(
         '<div class="text-xs" style="min-width:120px">' +
-          '<div class="font-medium text-sm mb-1">🔴 ' + escapeHtml(m.name) + '</div>' +
-          (m.description ? '<div class="text-gray-500 mb-1">' + escapeHtml(m.description) + '</div>' : '') +
-          '<div class="text-gray-400">' + escapeHtml(m.category || '') + '</div>' +
+          '<div class="font-medium text-sm mb-1">🔴 ' + esc(m.name) + '</div>' +
+          (m.description ? '<div class="text-gray-500 mb-1">' + esc(m.description) + '</div>' : '') +
+          '<div class="text-gray-400">' + esc(m.category || '') + '</div>' +
         '</div>',
         { closeButton: true, maxWidth: 200 }
       );
     }
   }
 
-  // --- Check-in ---
   async function checkin(attractionId) {
     try {
-      var body = {
-        attraction_id: attractionId,
-        visited: 1,
-        visited_at: new Date().toISOString().split('T')[0],
-      };
       var res = await fetch('/api/visit-logs', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
+        body: JSON.stringify({ attraction_id: attractionId, visited: 1, visited_at: new Date().toISOString().split('T')[0] }),
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
-
-      // Reload visit logs
       var logsRes = await fetch('/api/visit-logs');
       if (logsRes.ok) {
         visitLogs = await logsRes.json();
-        // Update cache
-        var cacheKey = 'mapData';
-        var cached = cacheGet(cacheKey);
-        if (cached) {
-          cached.visitLogs = visitLogs;
-          cacheSet(cacheKey, cached);
-        }
+        var cached = cacheGet('mapData_v2');
+        if (cached) { cached.visitLogs = visitLogs; cacheSet('mapData_v2', cached); }
       }
       renderAttractions();
     } catch (err) {
@@ -494,37 +462,36 @@
     }
   }
 
-  // --- Stats ---
-  function updateStats(visibleVisited, visibleTotal, total) {
-    statsEl.textContent = '📍 已打卡 ' + visibleVisited + ' / ' + visibleTotal + ' (共' + total + '个景点)';
-  }
-
   // --- Category filter ---
   catBtns.forEach(function (btn) {
     btn.addEventListener('click', function () {
       var cat = btn.dataset.cat || '';
       currentCategory = cat;
-
       catBtns.forEach(function (b) {
         b.classList.remove('bg-teal-500', 'text-white');
         b.classList.add('bg-white', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
       });
       btn.classList.remove('bg-white', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
       btn.classList.add('bg-teal-500', 'text-white');
-
       renderAll();
     });
   });
 
   // --- Retry ---
   retryBtn.addEventListener('click', function () {
+    loadAttempts++;
     errorEl.classList.add('hidden');
     loadingEl.classList.remove('hidden');
+    setLoadingStep('重试中 (' + loadAttempts + ')');
     loadAll();
   });
 
-  // --- Helpers ---
-  function escapeHtml(str) {
+  function showError() {
+    loadingEl.classList.add('hidden');
+    errorEl.classList.remove('hidden');
+  }
+
+  function esc(str) {
     if (!str) return '';
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
