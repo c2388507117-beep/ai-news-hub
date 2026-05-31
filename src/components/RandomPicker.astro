@@ -1,0 +1,163 @@
+---
+const PRESET_TOPICS = [
+  { label: '今天吃什么', icon: '🍽️', options: ['火锅', '麻辣烫', '烤鱼', '兰州拉面', '饺子', '牛肉饭', '炸鸡', '披萨', '寿司', '麻辣香锅', '桂林米粉', '煲仔饭', '砂锅粥', '手抓饭', '黄焖鸡'] },
+  { label: '去哪玩', icon: '🎯', options: ['看电影', '逛商场', '公园散步', '图书馆', '爬山', '骑行', '游泳', '打篮球', '密室逃脱', 'KTV', '博物馆', '咖啡馆', '棋盘游戏'] },
+  { label: '看什么', icon: '📺', options: ['科幻片', '喜剧片', '纪录片', '动漫', '悬疑剧', '古装剧', '综艺', '动作片', '恐怖片', '爱情片', '战争片'] },
+];
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-purple-500 to-violet-600 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">🎲</span> 随机决策
+    </h3>
+  </div>
+  <div class="p-4">
+    <!-- Preset topics -->
+    <div class="flex flex-wrap gap-1.5 mb-3">
+      {PRESET_TOPICS.map((topic, i) => (
+        <button
+          class="topic-btn text-xs px-2.5 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-purple-100 dark:hover:bg-purple-900/30 transition-colors"
+          data-topic-index={i}
+        >
+          {topic.icon} {topic.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Custom input -->
+    <div class="flex gap-2 mb-3">
+      <input
+        id="rp-custom-input"
+        type="text"
+        placeholder="自定义选项，逗号分隔..."
+        class="flex-1 text-xs px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-purple-500"
+      />
+      <button
+        id="rp-custom-add"
+        class="text-xs px-3 py-1.5 rounded-lg bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-200 dark:hover:bg-purple-900/50 transition-colors whitespace-nowrap"
+      >
+        设置
+      </button>
+    </div>
+
+    <!-- Result display -->
+    <div class="text-center py-4">
+      <div id="rp-result-text" class="text-lg font-bold text-gray-800 dark:text-gray-200 min-h-[2rem]">
+        点击开始
+      </div>
+      <button
+        id="rp-roll-btn"
+        class="mt-3 px-6 py-2 rounded-full bg-gradient-to-r from-purple-500 to-violet-600 text-white text-sm font-medium hover:from-purple-400 hover:to-violet-500 transition-all active:scale-95"
+      >
+        🎲 随机！
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const PRESET_TOPICS = [
+    { label: '今天吃什么', icon: '🍽️', options: ['火锅', '麻辣烫', '烤鱼', '兰州拉面', '饺子', '牛肉饭', '炸鸡', '披萨', '寿司', '麻辣香锅', '桂林米粉', '煲仔饭', '砂锅粥', '手抓饭', '黄焖鸡'] },
+    { label: '去哪玩', icon: '🎯', options: ['看电影', '逛商场', '公园散步', '图书馆', '爬山', '骑行', '游泳', '打篮球', '密室逃脱', 'KTV', '博物馆', '咖啡馆', '棋盘游戏'] },
+    { label: '看什么', icon: '📺', options: ['科幻片', '喜剧片', '纪录片', '动漫', '悬疑剧', '古装剧', '综艺', '动作片', '恐怖片', '爱情片', '战争片'] },
+  ];
+
+  const resultEl = document.getElementById('rp-result-text');
+  const rollBtn = document.getElementById('rp-roll-btn');
+  const customInput = document.getElementById('rp-custom-input');
+  const customAddBtn = document.getElementById('rp-custom-add');
+  const topicBtns = document.querySelectorAll('.topic-btn');
+
+  if (!resultEl || !rollBtn || !customInput || !customAddBtn) throw new Error('RandomPicker: missing DOM elements');
+
+  let currentOptions = PRESET_TOPICS[0].options;
+  let currentLabel = PRESET_TOPICS[0].label;
+  let isRolling = false;
+
+  // Highlight first topic by default
+  topicBtns[0]?.classList.add('bg-purple-100', 'dark:bg-purple-900/30', 'text-purple-600', 'dark:text-purple-400');
+  topicBtns[0]?.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+
+  // Load custom options from localStorage
+  const savedCustom = localStorage.getItem('rp-custom-options');
+  if (savedCustom) {
+    try {
+      const parsed = JSON.parse(savedCustom);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        currentOptions = parsed;
+        currentLabel = '自定义';
+      }
+    } catch {}
+  }
+
+  topicBtns.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      currentOptions = PRESET_TOPICS[i].options;
+      currentLabel = PRESET_TOPICS[i].label;
+      resultEl.textContent = '点击开始';
+
+      topicBtns.forEach(b => {
+        b.classList.remove('bg-purple-100', 'dark:bg-purple-900/30', 'text-purple-600', 'dark:text-purple-400');
+        b.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+      });
+      btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+      btn.classList.add('bg-purple-100', 'dark:bg-purple-900/30', 'text-purple-600', 'dark:text-purple-400');
+    });
+  });
+
+  customAddBtn.addEventListener('click', () => {
+    const val = customInput.value.trim();
+    if (!val) return;
+    const options = val.split(/[,，、\s]+/).filter(Boolean);
+    if (options.length < 2) {
+      resultEl.textContent = '至少输入2个选项';
+      return;
+    }
+    currentOptions = options;
+    currentLabel = '自定义';
+    localStorage.setItem('rp-custom-options', JSON.stringify(options));
+    resultEl.textContent = `已设置 ${options.length} 个选项`;
+
+    topicBtns.forEach(b => {
+      b.classList.remove('bg-purple-100', 'dark:bg-purple-900/30', 'text-purple-600', 'dark:text-purple-400');
+      b.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+    });
+  });
+
+  // Also support Enter key
+  customInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') customAddBtn.click();
+  });
+
+  rollBtn.addEventListener('click', () => {
+    if (isRolling || currentOptions.length < 2) return;
+    isRolling = true;
+    rollBtn.disabled = true;
+    rollBtn.textContent = '🎲 随机中...';
+
+    // Rolling animation
+    const duration = 1500;
+    const start = Date.now();
+    let animId;
+
+    function animate() {
+      const elapsed = Date.now() - start;
+      const pick = currentOptions[Math.floor(Math.random() * currentOptions.length)];
+      resultEl.textContent = pick;
+
+      if (elapsed < duration) {
+        animId = requestAnimationFrame(animate);
+      } else {
+        // Final pick
+        const finalPick = currentOptions[Math.floor(Math.random() * currentOptions.length)];
+        resultEl.textContent = `✨ ${finalPick}`;
+        isRolling = false;
+        rollBtn.disabled = false;
+        rollBtn.textContent = '🎲 随机！';
+      }
+    }
+
+    animate();
+  });
+</script>
