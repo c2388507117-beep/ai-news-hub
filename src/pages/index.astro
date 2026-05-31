@@ -10,6 +10,7 @@ import DailyKnowledge from '../components/DailyKnowledge.astro';
 import DailyDigest from '../components/DailyDigest.astro';
 import SalaryCountdown from '../components/SalaryCountdown.astro';
 import RandomPicker from '../components/RandomPicker.astro';
+import CurrencyExchange from '../components/CurrencyExchange.astro';
 import ElectricalCalc from '../components/ElectricalCalc.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import Footer from '../components/Footer.astro';
@@ -100,6 +101,9 @@ allNews.forEach((item) => {
           <XingtaiWeather />
           <SalaryCountdown />
         </div>
+
+        <!-- Currency Exchange (full width, between SalaryCountdown and RandomPicker) -->
+        <CurrencyExchange />
 
         <!-- Personal tools row 2: Wallpapers + RandomPicker -->
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">

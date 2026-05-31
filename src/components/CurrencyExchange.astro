@@ -1,0 +1,238 @@
+---
+const CURRENCIES = [
+  { code: 'USD', name: '美元' },
+  { code: 'EUR', name: '欧元' },
+  { code: 'JPY', name: '日元' },
+  { code: 'GBP', name: '英镑' },
+  { code: 'CNY', name: '人民币' },
+  { code: 'HKD', name: '港币' },
+  { code: 'KRW', name: '韩元' },
+  { code: 'AUD', name: '澳元' },
+  { code: 'CAD', name: '加元' },
+  { code: 'CHF', name: '瑞士法郎' },
+  { code: 'SGD', name: '新加坡元' },
+  { code: 'THB', name: '泰铢' },
+];
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <!-- Toggle button (always visible) -->
+  <button
+    id="fx-toggle"
+    class="w-full bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-indigo-400 hover:to-purple-500 transition-all text-left"
+    aria-expanded="false"
+    aria-controls="fx-body"
+  >
+    <div class="flex items-center gap-2 min-w-0">
+      <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">💱</span>
+      <h2 class="text-sm font-bold text-white flex-shrink-0">货币汇率</h2>
+      <span id="fx-summary" class="text-xs text-white/70 truncate hidden">--</span>
+    </div>
+    <span id="fx-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
+  </button>
+
+  <!-- Body (collapsed by default) -->
+  <div id="fx-body" class="hidden">
+    <div class="p-4">
+      <div class="space-y-3">
+        <!-- Amount input -->
+        <div>
+          <label for="fx-amount" class="text-xs text-gray-500 dark:text-gray-400 block mb-1">金额</label>
+          <input
+            type="number"
+            id="fx-amount"
+            value="100"
+            min="0"
+            class="w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+          />
+        </div>
+
+        <!-- Currency selects -->
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <label for="fx-from" class="text-xs text-gray-500 dark:text-gray-400 block mb-1">从</label>
+            <select
+              id="fx-from"
+              class="w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+            >
+              {CURRENCIES.map((c) => (
+                <option value={c.code} selected={c.code === 'USD'}>{c.code} - {c.name}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label for="fx-to" class="text-xs text-gray-500 dark:text-gray-400 block mb-1">到</label>
+            <select
+              id="fx-to"
+              class="w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+            >
+              {CURRENCIES.map((c) => (
+                <option value={c.code} selected={c.code === 'CNY'}>{c.code} - {c.name}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        <!-- Conversion result -->
+        <div id="fx-result" class="text-center py-4" role="status">
+          <div id="fx-conversion" class="text-2xl font-bold text-gray-800 dark:text-gray-200 tabular-nums">100 USD = --</div>
+          <div id="fx-rate" class="text-sm text-gray-500 dark:text-gray-400 mt-1">加载中...</div>
+          <div id="fx-updated" class="text-[10px] text-gray-400 dark:text-gray-500 mt-1"></div>
+        </div>
+
+        <!-- Error message -->
+        <div id="fx-error" class="hidden text-center text-sm text-red-500 dark:text-red-400 py-2" role="alert"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const CURRENCIES = [
+    { code: 'USD', name: '美元' },
+    { code: 'EUR', name: '欧元' },
+    { code: 'JPY', name: '日元' },
+    { code: 'GBP', name: '英镑' },
+    { code: 'CNY', name: '人民币' },
+    { code: 'HKD', name: '港币' },
+    { code: 'KRW', name: '韩元' },
+    { code: 'AUD', name: '澳元' },
+    { code: 'CAD', name: '加元' },
+    { code: 'CHF', name: '瑞士法郎' },
+    { code: 'SGD', name: '新加坡元' },
+    { code: 'THB', name: '泰铢' },
+  ];
+
+  const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+
+  // --- DOM element references ---
+  const toggle = document.getElementById('fx-toggle');
+  const body = document.getElementById('fx-body');
+  const chevron = document.getElementById('fx-chevron');
+  const summary = document.getElementById('fx-summary');
+  const amountInput = document.getElementById('fx-amount');
+  const fromSelect = document.getElementById('fx-from');
+  const toSelect = document.getElementById('fx-to');
+  const conversionEl = document.getElementById('fx-conversion');
+  const rateEl = document.getElementById('fx-rate');
+  const updatedEl = document.getElementById('fx-updated');
+  const errorEl = document.getElementById('fx-error');
+
+  if (!toggle || !body || !chevron || !summary || !amountInput || !fromSelect || !toSelect || !conversionEl || !rateEl || !updatedEl || !errorEl) {
+    throw new Error('CurrencyExchange: missing DOM elements');
+  }
+
+  // --- Collapsible toggle ---
+  toggle.addEventListener('click', () => {
+    const isOpen = !body.classList.contains('hidden');
+    body.classList.toggle('hidden');
+    chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+    if (!isOpen) {
+      fetchRate();
+    }
+  });
+
+  // --- Helpers ---
+  function getCurrencyName(code) {
+    const c = CURRENCIES.find(function (x) { return x.code === code; });
+    return c ? c.name : code;
+  }
+
+  // --- sessionStorage cache with TTL ---
+  function getCacheKey(from, to) {
+    return 'fx_rate_' + from + '_' + to;
+  }
+
+  function getCachedRate(from, to) {
+    try {
+      const key = getCacheKey(from, to);
+      const cached = sessionStorage.getItem(key);
+      if (!cached) return null;
+      const parsed = JSON.parse(cached);
+      if (Date.now() - parsed.timestamp > CACHE_TTL) {
+        sessionStorage.removeItem(key);
+        return null;
+      }
+      return parsed;
+    } catch {
+      return null;
+    }
+  }
+
+  function setCachedRate(from, to, rate, date) {
+    try {
+      const key = getCacheKey(from, to);
+      sessionStorage.setItem(key, JSON.stringify({ rate: rate, date: date, timestamp: Date.now() }));
+    } catch {
+      // sessionStorage not available
+    }
+  }
+
+  // --- Display result ---
+  function displayResult(amount, from, to, rate, date) {
+    const result = amount * rate;
+    const fromName = getCurrencyName(from);
+    const toName = getCurrencyName(to);
+
+    conversionEl.textContent = amount + ' ' + from + ' = ' + result.toFixed(2) + ' ' + to;
+    rateEl.textContent = '1 ' + from + ' = ' + rate.toFixed(4) + ' ' + to;
+    updatedEl.textContent = '更新于 ' + date;
+
+    // Update summary line (shown when collapsed)
+    summary.textContent = '1 ' + from + ' = ' + rate.toFixed(4) + ' ' + to;
+    summary.classList.remove('hidden');
+
+    errorEl.classList.add('hidden');
+  }
+
+  // --- Fetch rate from API ---
+  async function fetchRate() {
+    const from = fromSelect.value;
+    const to = toSelect.value;
+    const amount = parseFloat(amountInput.value) || 0;
+
+    // Check cache first
+    const cached = getCachedRate(from, to);
+    if (cached) {
+      displayResult(amount, from, to, cached.rate, cached.date);
+      return;
+    }
+
+    // Set loading state
+    rateEl.textContent = '加载中...';
+    errorEl.classList.add('hidden');
+
+    try {
+      const res = await fetch('https://api.frankfurter.app/latest?from=' + from + '&to=' + to);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      const rate = data.rates[to];
+      const date = data.date;
+
+      setCachedRate(from, to, rate, date);
+      displayResult(amount, from, to, rate, date);
+    } catch (err) {
+      conversionEl.textContent = amount + ' ' + from + ' = --';
+      rateEl.textContent = '';
+      updatedEl.textContent = '';
+      summary.textContent = '--';
+      errorEl.textContent = '获取汇率失败：' + err.message;
+      errorEl.classList.remove('hidden');
+    }
+  }
+
+  // --- Debounced amount change ---
+  var debounceTimer = null;
+  amountInput.addEventListener('input', function () {
+    if (debounceTimer) clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(fetchRate, 500);
+  });
+
+  // --- Currency pair change (immediate) ---
+  fromSelect.addEventListener('change', fetchRate);
+  toSelect.addEventListener('change', fetchRate);
+
+  // --- Initial fetch (to populate summary even when collapsed) ---
+  fetchRate();
+</script>
