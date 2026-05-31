@@ -12,6 +12,9 @@ import DailyDigest from '../components/DailyDigest.astro';
 import SalaryCountdown from '../components/SalaryCountdown.astro';
 import RandomPicker from '../components/RandomPicker.astro';
 import CurrencyExchange from '../components/CurrencyExchange.astro';
+import PrivateDouban from '../components/PrivateDouban.astro';
+import DutyRoster from '../components/DutyRoster.astro';
+import ChinaMap from '../components/ChinaMap.astro';
 import ShoppingCompare from '../components/ShoppingCompare.astro';
 import ElectricalCalc from '../components/ElectricalCalc.astro';
 import CoverArt from '../components/CoverArt.astro';
@@ -110,7 +113,10 @@ allNews.forEach((item) => {
           <SalaryCountdown />
         </div>
 
-        <!-- Currency Exchange (full width, between SalaryCountdown and RandomPicker) -->
+        <!-- Private Douban (替换汇率位置) -->
+        <PrivateDouban />
+
+        <!-- Currency Exchange (折叠，从上方移到这里) -->
         <CurrencyExchange />
 
         <!-- Personal tools row 2: Wallpapers + RandomPicker -->
@@ -227,6 +233,14 @@ allNews.forEach((item) => {
       <ElectricalCalc />
       <SteamCharts data={steam} />
       <CoverArt />
+    </div>
+
+    <!-- Bottom Row 3: ChinaMap + DutyRoster -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+      <div class="md:col-span-2">
+        <ChinaMap />
+      </div>
+      <DutyRoster />
     </div>
   </main>
   <Fragment slot="footer">

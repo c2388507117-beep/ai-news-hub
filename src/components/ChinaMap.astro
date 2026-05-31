@@ -1,0 +1,372 @@
+---
+// 中国地图 — Leaflet + OSM with preset attractions and custom markers
+// Features: check-in system, city filter, category filter, stats panel
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-teal-500 to-emerald-600 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">🗺️</span> 中国地图
+    </h3>
+  </div>
+  <div class="relative" id="china-map">
+    <!-- Loading overlay -->
+    <div id="map-loading" class="flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm" style="height:400px">
+      <div class="text-center">
+        <div class="animate-spin text-2xl mb-2">🌍</div>
+        <p>地图加载中...</p>
+      </div>
+    </div>
+
+    <!-- Error state -->
+    <div id="map-error" class="flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-red-500 text-sm hidden" style="height:400px">
+      <div class="text-center">
+        <p>❌ 地图加载失败</p>
+        <button id="map-retry" class="mt-2 px-3 py-1 text-xs rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">重试</button>
+      </div>
+    </div>
+
+    <!-- Map container (visible after init) -->
+    <div id="map-container" class="hidden" style="height:400px"></div>
+
+    <!-- Controls overlay -->
+    <div id="map-controls" class="hidden">
+      <!-- City search -->
+      <div class="absolute top-2 left-2 z-[1000]">
+        <select id="map-city-select" class="px-2 py-1.5 text-xs rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 shadow-sm max-w-[140px] focus:outline-none focus:ring-2 focus:ring-teal-500">
+          <option value="">🏙️ 选择城市</option>
+        </select>
+      </div>
+
+      <!-- Category filter -->
+      <div class="absolute top-2 right-2 z-[1000] flex gap-1 flex-wrap justify-end max-w-[200px]">
+        <button data-cat="" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-teal-500 text-white shadow-sm transition-colors">全部</button>
+        <button data-cat="自然风光" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🏔️ 自然</button>
+        <button data-cat="历史古迹" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🏛️ 古迹</button>
+        <button data-cat="人文艺术" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🎨 人文</button>
+        <button data-cat="美食街区" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🍜 美食</button>
+      </div>
+
+      <!-- Stats panel -->
+      <div class="absolute bottom-2 left-2 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800 px-3 py-2 text-xs text-gray-600 dark:text-gray-300">
+        <span id="map-stats">📍 已打卡 0 / 0</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // Wait for Leaflet to load from CDN
+  var loadingEl = document.getElementById('map-loading');
+  var errorEl = document.getElementById('map-error');
+  var mapContainer = document.getElementById('map-container');
+  var mapControls = document.getElementById('map-controls');
+  var retryBtn = document.getElementById('map-retry');
+  var citySelect = document.getElementById('map-city-select');
+  var statsEl = document.getElementById('map-stats');
+  var catBtns = document.querySelectorAll('.map-cat-btn');
+
+  if (!loadingEl || !errorEl || !mapContainer || !mapControls || !retryBtn || !citySelect || !statsEl || catBtns.length === 0) {
+    throw new Error('ChinaMap: missing DOM elements');
+  }
+
+  // --- State ---
+  var map = null;
+  var attractions = [];
+  var cities = [];
+  var visitLogs = [];
+  var markers = [];
+  var customMarkers = [];
+  var markerLayer = null;
+  var customMarkerLayer = null;
+  var currentCategory = '';
+
+  // --- Load data ---
+  async function loadAll() {
+    try {
+      var [attractionsRes, citiesRes, logsRes, markersRes] = await Promise.all([
+        fetch('/api/attractions'),
+        fetch('/api/attractions/cities'),
+        fetch('/api/visit-logs'),
+        fetch('/api/markers'),
+      ]);
+
+      if (!attractionsRes.ok || !citiesRes.ok || !logsRes.ok || !markersRes.ok) {
+        throw new Error('Failed to load map data');
+      }
+
+      attractions = await attractionsRes.json();
+      cities = await citiesRes.json();
+      visitLogs = await logsRes.json();
+      customMarkers = await markersRes.json();
+
+      initMap();
+    } catch (err) {
+      console.error('Map data load error:', err);
+      loadingEl.classList.add('hidden');
+      errorEl.classList.remove('hidden');
+    }
+  }
+
+  // --- Init Leaflet map ---
+  function initMap() {
+    if (typeof L === 'undefined') {
+      // Leaflet not loaded yet — wait
+      setTimeout(initMap, 500);
+      return;
+    }
+
+    loadingEl.classList.add('hidden');
+    mapContainer.classList.remove('hidden');
+    mapControls.classList.remove('hidden');
+
+    map = L.map('map-container', {
+      center: [37.07, 114.50],
+      zoom: 5,
+      scrollWheelZoom: true,
+      zoomControl: true,
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 18,
+    }).addTo(map);
+
+    // Layers for markers
+    markerLayer = L.layerGroup().addTo(map);
+    customMarkerLayer = L.layerGroup().addTo(map);
+
+    // Populate city select
+    populateCitySelect();
+
+    // Render markers
+    renderAttractions();
+    renderCustomMarkers();
+
+    // Fit bounds to show all markers
+    var allPoints = attractions.map(function (a) { return [a.lat, a.lng]; });
+    if (customMarkers.length > 0) {
+      allPoints = allPoints.concat(customMarkers.map(function (m) { return [m.lat, m.lng]; }));
+    }
+    if (allPoints.length > 0) {
+      try {
+        map.fitBounds(allPoints, { padding: [30, 30], maxZoom: 8 });
+      } catch (_) {
+        // ignore fitBounds errors
+      }
+    }
+  }
+
+  // --- City dropdown ---
+  function populateCitySelect() {
+    citySelect.innerHTML = '<option value="">🏙️ 选择城市</option>';
+    for (var i = 0; i < cities.length; i++) {
+      var opt = document.createElement('option');
+      opt.value = cities[i].city;
+      opt.textContent = cities[i].city + ' (' + cities[i].count + ')';
+      citySelect.appendChild(opt);
+    }
+
+    citySelect.addEventListener('change', function () {
+      var city = citySelect.value;
+      if (!city || !citySelect.value) return;
+      var cityData = attractions.filter(function (a) { return a.city === city; });
+      if (cityData.length > 0) {
+        var lats = cityData.map(function (a) { return a.lat; });
+        var lngs = cityData.map(function (a) { return a.lng; });
+        var centerLat = (Math.min.apply(null, lats) + Math.max.apply(null, lats)) / 2;
+        var centerLng = (Math.min.apply(null, lngs) + Math.max.apply(null, lngs)) / 2;
+        map.setView([centerLat, centerLng], 10);
+      }
+    });
+  }
+
+  // --- Render attraction markers ---
+  function renderAttractions() {
+    markerLayer.clearLayers();
+    if (!attractions || attractions.length === 0) return;
+
+    var visitedIds = {};
+    var visitMap = {};
+    for (var i = 0; i < visitLogs.length; i++) {
+      var log = visitLogs[i];
+      if (log.visited) {
+        visitedIds[log.attraction_id] = true;
+        visitMap[log.attraction_id] = log;
+      }
+    }
+
+    var visitedCount = 0;
+
+    for (var j = 0; j < attractions.length; j++) {
+      var a = attractions[j];
+      if (currentCategory && a.category !== currentCategory) continue;
+
+      var isVisited = !!visitedIds[a.id];
+      if (isVisited) visitedCount++;
+
+      var color = isVisited ? '#22c55e' : '#3b82f6'; // green or blue
+      var iconHtml = '<div style="background:' + color + ';width:12px;height:12px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"></div>';
+
+      var icon = L.divIcon({
+        html: iconHtml,
+        className: 'custom-marker',
+        iconSize: [12, 12],
+        iconAnchor: [6, 6],
+      });
+
+      var marker = L.marker([a.lat, a.lng], { icon: icon }).addTo(markerLayer);
+
+      var logNote = visitMap[a.id] && visitMap[a.id].note ? '<p class="text-xs text-gray-400 mt-1">📝 ' + escapeHtml(visitMap[a.id].note) + '</p>' : '';
+      var checkBtn = isVisited
+        ? '<button class="checkin-btn px-2 py-1 text-xs rounded bg-gray-100 dark:bg-gray-700 text-gray-500 cursor-default" disabled>✅ 已打卡</button>'
+        : '<button data-attraction="' + a.id + '" class="checkin-btn px-2 py-1 text-xs rounded bg-teal-500 hover:bg-teal-600 text-white transition-colors">📍 打卡</button>';
+
+      marker.bindPopup(
+        '<div class="text-xs" style="min-width:140px">' +
+          '<div class="font-bold text-sm mb-1">' + escapeHtml(a.name) + '</div>' +
+          '<div class="text-gray-500 mb-0.5">' + escapeHtml(a.city) + '</div>' +
+          '<div class="text-gray-400 mb-1">' + escapeHtml(a.description || '') + '</div>' +
+          '<span class="inline-block px-1.5 py-0.5 rounded text-xs bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 mb-1">' + escapeHtml(a.category || '') + '</span>' +
+          logNote +
+          '<div class="mt-2">' + checkBtn + '</div>' +
+        '</div>',
+        { closeButton: true, maxWidth: 220 }
+      );
+
+      marker.on('popupopen', function () {
+        // Attach check-in handler after popup opens
+        var btn = document.querySelector('.checkin-btn[data-attraction]');
+        if (btn) {
+          btn.addEventListener('click', function (e) {
+            var attId = Number(e.currentTarget.dataset.attraction);
+            checkin(attId);
+          });
+        }
+      });
+    }
+
+    updateStats(visitedCount, attractions.length);
+  }
+
+  // --- Render custom markers ---
+  function renderCustomMarkers() {
+    customMarkerLayer.clearLayers();
+    if (!customMarkers || customMarkers.length === 0) return;
+
+    if (currentCategory && currentCategory !== '自定义') return;
+
+    for (var i = 0; i < customMarkers.length; i++) {
+      var m = customMarkers[i];
+      var iconHtml = '<div style="background:#ef4444;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.3)"><span style="position:absolute;top:-2px;left:3px;font-size:10px;line-height:1">📍</span></div>';
+
+      var icon = L.divIcon({
+        html: iconHtml,
+        className: 'custom-marker',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+      });
+
+      var marker = L.marker([m.lat, m.lng], { icon: icon }).addTo(customMarkerLayer);
+      marker.bindPopup(
+        '<div class="text-xs" style="min-width:120px">' +
+          '<div class="font-medium text-sm mb-1">🔴 ' + escapeHtml(m.name) + '</div>' +
+          (m.description ? '<div class="text-gray-500 mb-1">' + escapeHtml(m.description) + '</div>' : '') +
+          '<div class="text-gray-400">' + escapeHtml(m.category || '') + '</div>' +
+        '</div>',
+        { closeButton: true, maxWidth: 200 }
+      );
+    }
+  }
+
+  // --- Check-in ---
+  async function checkin(attractionId) {
+    try {
+      var body = {
+        attraction_id: attractionId,
+        visited: 1,
+        visited_at: new Date().toISOString().split('T')[0],
+      };
+      var res = await fetch('/api/visit-logs', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+
+      // Reload visit logs and re-render
+      var logsRes = await fetch('/api/visit-logs');
+      if (logsRes.ok) {
+        visitLogs = await logsRes.json();
+      }
+      renderAttractions();
+    } catch (err) {
+      console.error('Check-in error:', err);
+      alert('打卡失败，请重试');
+    }
+  }
+
+  // --- Update stats ---
+  function updateStats(visited, total) {
+    statsEl.textContent = '📍 已打卡 ' + visited + ' / ' + total;
+  }
+
+  // --- Category filter ---
+  catBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var cat = btn.dataset.cat || '';
+      currentCategory = cat;
+
+      catBtns.forEach(function (b) {
+        b.classList.remove('bg-teal-500', 'text-white');
+        b.classList.add('bg-white', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+      });
+      btn.classList.remove('bg-white', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+      btn.classList.add('bg-teal-500', 'text-white');
+
+      renderAttractions();
+      renderCustomMarkers();
+    });
+  });
+
+  // --- Retry ---
+  retryBtn.addEventListener('click', function () {
+    errorEl.classList.add('hidden');
+    loadingEl.classList.remove('hidden');
+    loadAll();
+  });
+
+  // --- Helpers ---
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // --- Load Leaflet from CDN then init ---
+  function loadLeaflet() {
+    if (typeof L !== 'undefined') {
+      loadAll();
+      return;
+    }
+
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    document.head.appendChild(link);
+
+    var script = document.createElement('script');
+    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    script.onload = loadAll;
+    script.onerror = function () {
+      loadingEl.classList.add('hidden');
+      errorEl.classList.remove('hidden');
+    };
+    document.body.appendChild(script);
+  }
+
+  loadLeaflet();
+})();
+</script>

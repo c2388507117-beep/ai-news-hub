@@ -1,0 +1,285 @@
+---
+// 值班表 — Monthly duty roster calendar with D1 persistence
+// Shows month calendar grid, click to add/edit/delete duty entries
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <details class="group">
+    <summary class="bg-gradient-to-r from-violet-500 to-purple-600 px-4 py-3 cursor-pointer text-sm font-bold text-white hover:from-violet-400 hover:to-purple-500 transition-all list-none flex items-center gap-2 [&::-webkit-details-marker]:hidden">
+      <span aria-hidden="true">📋</span> 值班表
+      <span class="ml-auto text-xs text-white/70 group-open:rotate-180 transition-transform">▼</span>
+    </summary>
+    <div class="p-4" id="duty-roster">
+      <!-- Loading state -->
+      <div id="duty-loading" class="text-center text-gray-500 dark:text-gray-400 text-sm py-6 hidden">
+        <div class="animate-pulse space-y-2">
+          <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-1/2 mx-auto"></div>
+          <div class="h-20 bg-gray-200 dark:bg-gray-700 rounded w-full"></div>
+        </div>
+      </div>
+
+      <!-- Error state -->
+      <div id="duty-error" class="text-center text-red-500 text-sm py-6 hidden">
+        <p>❌ 加载失败</p>
+        <button id="duty-retry" class="mt-2 px-3 py-1 text-xs rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">重试</button>
+      </div>
+
+      <!-- Content -->
+      <div id="duty-content" class="hidden">
+        <!-- Navigation -->
+        <div class="flex items-center justify-between mb-3">
+          <button id="duty-prev" class="px-2 py-1 text-xs rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">← 上月</button>
+          <h4 id="duty-month" class="text-sm font-bold text-gray-800 dark:text-gray-200"></h4>
+          <button id="duty-next" class="px-2 py-1 text-xs rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">下月 →</button>
+        </div>
+
+        <!-- Calendar grid -->
+        <div class="grid grid-cols-7 gap-px bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+          <!-- Weekday headers -->
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-gray-500 dark:text-gray-400">一</div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-gray-500 dark:text-gray-400">二</div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-gray-500 dark:text-gray-400">三</div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-gray-500 dark:text-gray-400">四</div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-gray-500 dark:text-gray-400">五</div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-gray-500 dark:text-gray-400">六</div>
+          <div class="bg-gray-50 dark:bg-gray-800/50 px-1.5 py-1.5 text-center text-xs font-medium text-red-500">日</div>
+        </div>
+        <div id="duty-calendar" class="grid grid-cols-7 gap-px bg-gray-200 dark:bg-gray-700">
+          <!-- Filled by JS -->
+        </div>
+
+        <!-- Empty month message -->
+        <p id="duty-empty-month" class="text-center text-gray-400 dark:text-gray-500 text-xs py-4 hidden">本月暂无值班安排，点击日期添加</p>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- Edit popup -->
+<div id="duty-popup" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+  <div class="bg-white dark:bg-gray-900 rounded-xl shadow-xl w-72 p-4">
+    <h4 class="text-sm font-bold text-gray-800 dark:text-gray-200 mb-3">
+      <span id="duty-popup-date-label"></span> 值班
+    </h4>
+    <div class="space-y-2">
+      <input id="duty-popup-person" type="text" class="w-full px-3 py-2 text-sm rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-violet-500" placeholder="值班人姓名" maxlength="10">
+      <input id="duty-popup-note" type="text" class="w-full px-3 py-2 text-sm rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-violet-500" placeholder="备注（可选）" maxlength="50">
+    </div>
+    <div class="flex gap-2 mt-3">
+      <button id="duty-popup-save" class="flex-1 px-3 py-1.5 text-sm font-medium rounded-lg bg-violet-500 hover:bg-violet-600 text-white transition-colors">保存</button>
+      <button id="duty-popup-delete" class="px-3 py-1.5 text-sm font-medium rounded-lg bg-red-100 dark:bg-red-900/30 text-red-500 hover:bg-red-200 dark:hover:bg-red-900/50 transition-colors hidden">删除</button>
+      <button id="duty-popup-cancel" class="px-3 py-1.5 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">取消</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var loadingEl = document.getElementById('duty-loading');
+  var errorEl = document.getElementById('duty-error');
+  var contentEl = document.getElementById('duty-content');
+  var retryBtn = document.getElementById('duty-retry');
+  var calendarEl = document.getElementById('duty-calendar');
+  var monthEl = document.getElementById('duty-month');
+  var prevBtn = document.getElementById('duty-prev');
+  var nextBtn = document.getElementById('duty-next');
+  var emptyMonth = document.getElementById('duty-empty-month');
+  var popup = document.getElementById('duty-popup');
+  var popupDateLabel = document.getElementById('duty-popup-date-label');
+  var popupPerson = document.getElementById('duty-popup-person');
+  var popupNote = document.getElementById('duty-popup-note');
+  var popupSave = document.getElementById('duty-popup-save');
+  var popupDelete = document.getElementById('duty-popup-delete');
+  var popupCancel = document.getElementById('duty-popup-cancel');
+
+  if (!loadingEl || !errorEl || !contentEl || !retryBtn || !calendarEl || !monthEl || !prevBtn || !nextBtn || !emptyMonth || !popup || !popupDateLabel || !popupPerson || !popupNote || !popupSave || !popupDelete || !popupCancel) {
+    throw new Error('DutyRoster: missing DOM elements');
+  }
+
+  var now = new Date();
+  var currentYear = now.getFullYear();
+  var currentMonth = now.getMonth(); // 0-indexed
+  var duties = [];
+
+  // --- Load duties for current month ---
+  async function loadDuties() {
+    try {
+      loadingEl.classList.remove('hidden');
+      contentEl.classList.add('hidden');
+      errorEl.classList.add('hidden');
+
+      var monthStr = currentYear + '-' + String(currentMonth + 1).padStart(2, '0');
+      var res = await fetch('/api/duty?month=' + monthStr);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      duties = await res.json();
+
+      loadingEl.classList.add('hidden');
+      contentEl.classList.remove('hidden');
+      renderCalendar();
+    } catch (err) {
+      console.error('Duty load error:', err);
+      loadingEl.classList.add('hidden');
+      errorEl.classList.remove('hidden');
+    }
+  }
+
+  // --- Render calendar grid ---
+  function renderCalendar() {
+    monthEl.textContent = currentYear + '年' + (currentMonth + 1) + '月';
+
+    var firstDay = new Date(currentYear, currentMonth, 1);
+    var lastDay = new Date(currentYear, currentMonth + 1, 0);
+    var daysInMonth = lastDay.getDate();
+
+    // Weekday of first day (0=Sun, 1=Mon, ... 6=Sat) → convert to Mon=0
+    var startOffset = (firstDay.getDay() + 6) % 7;
+
+    var todayStr = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+
+    // Build duty lookup map: date → duty
+    var dutyMap = {};
+    for (var i = 0; i < duties.length; i++) {
+      dutyMap[duties[i].date] = duties[i];
+    }
+
+    var cells = [];
+    // Empty cells before first day
+    for (var e = 0; e < startOffset; e++) {
+      cells.push('<div class="bg-white dark:bg-gray-900 p-1 min-h-[48px]"></div>');
+    }
+
+    for (var d = 1; d <= daysInMonth; d++) {
+      var dateStr = currentYear + '-' + String(currentMonth + 1).padStart(2, '0') + '-' + String(d).padStart(2, '0');
+      var isToday = dateStr === todayStr;
+      var duty = dutyMap[dateStr];
+      var personHtml = duty ? '<span class="text-xs font-medium text-violet-600 dark:text-violet-400 truncate block leading-tight">' + escapeHtml(duty.person) + '</span>' : '';
+
+      cells.push(
+        '<div class="bg-white dark:bg-gray-900 p-1 min-h-[48px] cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors relative" data-date="' + dateStr + '" data-duty-id="' + (duty ? duty.id : '') + '">' +
+          '<span class="text-xs ' + (isToday ? 'text-blue-600 font-bold' : (d % 7 === 0 ? 'text-red-500' : 'text-gray-700 dark:text-gray-300')) + '">' + d + '</span>' +
+          personHtml +
+        '</div>'
+      );
+    }
+
+    calendarEl.innerHTML = cells.join('');
+
+    // Attach click handlers
+    calendarEl.querySelectorAll('[data-date]').forEach(function (el) {
+      el.addEventListener('click', function () {
+        openPopup(el.dataset.date, el.dataset.dutyId ? Number(el.dataset.dutyId) : null);
+      });
+    });
+
+    // Check if empty
+    emptyMonth.classList.toggle('hidden', duties.length > 0);
+  }
+
+  // --- Popup ---
+  var activeDate = '';
+  var activeDutyId = null;
+
+  function openPopup(dateStr, dutyId) {
+    activeDate = dateStr;
+    activeDutyId = dutyId;
+    popupDateLabel.textContent = dateStr;
+
+    if (dutyId) {
+      var duty = duties.find(function (d) { return d.id === dutyId; });
+      if (duty) {
+        popupPerson.value = duty.person || '';
+        popupNote.value = duty.note || '';
+        popupDelete.classList.remove('hidden');
+      }
+    } else {
+      popupPerson.value = '';
+      popupNote.value = '';
+      popupDelete.classList.add('hidden');
+    }
+
+    popup.classList.remove('hidden');
+    popupPerson.focus();
+  }
+
+  popupCancel.addEventListener('click', function () { popup.classList.add('hidden'); });
+  popup.addEventListener('click', function (e) { if (e.target === popup) popup.classList.add('hidden'); });
+
+  popupSave.addEventListener('click', async function () {
+    var person = popupPerson.value.trim();
+    if (!person) { alert('请输入值班人姓名'); return; }
+    var note = popupNote.value.trim();
+
+    popupSave.disabled = true;
+    popupSave.textContent = '保存中...';
+    try {
+      var url, method, body;
+      if (activeDutyId) {
+        url = '/api/duty/' + activeDutyId;
+        method = 'PUT';
+        body = JSON.stringify({ person: person, note: note });
+      } else {
+        url = '/api/duty';
+        method = 'POST';
+        body = JSON.stringify({ date: activeDate, person: person, note: note });
+      }
+      var res = await fetch(url, {
+        method: method,
+        headers: { 'Content-Type': 'application/json' },
+        body: body,
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      popup.classList.add('hidden');
+      await loadDuties();
+    } catch (err) {
+      console.error('Duty save error:', err);
+      alert('保存失败');
+    } finally {
+      popupSave.disabled = false;
+      popupSave.textContent = '保存';
+    }
+  });
+
+  popupDelete.addEventListener('click', async function () {
+    if (!activeDutyId || !confirm('确定删除这条值班记录？')) return;
+    popupDelete.disabled = true;
+    try {
+      var res = await fetch('/api/duty/' + activeDutyId, { method: 'DELETE' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      popup.classList.add('hidden');
+      await loadDuties();
+    } catch (err) {
+      console.error('Duty delete error:', err);
+      alert('删除失败');
+    } finally {
+      popupDelete.disabled = false;
+    }
+  });
+
+  // --- Navigation ---
+  prevBtn.addEventListener('click', function () {
+    currentMonth--;
+    if (currentMonth < 0) { currentMonth = 11; currentYear--; }
+    loadDuties();
+  });
+
+  nextBtn.addEventListener('click', function () {
+    currentMonth++;
+    if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+    loadDuties();
+  });
+
+  // --- Retry ---
+  retryBtn.addEventListener('click', loadDuties);
+
+  // --- Helpers ---
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // --- Init ---
+  loadDuties();
+})();
+</script>

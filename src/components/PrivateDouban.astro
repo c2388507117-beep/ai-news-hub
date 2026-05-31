@@ -1,0 +1,433 @@
+---
+// 私人豆瓣 — Rate & review books, music, movies, TV shows
+// Data persisted via D1 database through Pages Functions
+// Cover images auto-fetched from Douban suggest API (server-side proxy)
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-rose-500 to-pink-600 px-4 py-3 flex items-center justify-between">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">📚</span> 私人豆瓣
+    </h3>
+    <button id="douban-add-btn" class="text-white/90 hover:text-white text-lg leading-none w-6 h-6 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" title="添加收藏">＋</button>
+  </div>
+
+  <div class="p-4" id="private-douban">
+    <!-- Loading state -->
+    <div id="douban-loading" class="text-center text-gray-500 dark:text-gray-400 text-sm py-8">
+      <div class="animate-pulse space-y-3">
+        <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4 mx-auto"></div>
+        <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-1/2 mx-auto"></div>
+      </div>
+    </div>
+
+    <!-- Error state -->
+    <div id="douban-error" class="text-center text-red-500 text-sm py-8 hidden">
+      <p>❌ 加载失败</p>
+      <button id="douban-retry" class="mt-2 px-3 py-1 text-xs rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">重试</button>
+    </div>
+
+    <!-- Content -->
+    <div id="douban-content" class="hidden">
+      <!-- Tab bar -->
+      <div class="flex gap-1 mb-3 overflow-x-auto" id="douban-tabs">
+        <button data-type="" class="douban-tab px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-rose-500 text-white">📋 全部</button>
+        <button data-type="book" class="douban-tab px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">📚 书籍</button>
+        <button data-type="music" class="douban-tab px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">🎵 音乐</button>
+        <button data-type="movie" class="douban-tab px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">🎬 电影</button>
+        <button data-type="tv" class="douban-tab px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">📺 剧集</button>
+      </div>
+
+      <!-- List -->
+      <div id="douban-list" class="space-y-2">
+        <!-- Items rendered by JS -->
+      </div>
+
+      <!-- Empty state -->
+      <div id="douban-empty" class="text-center text-gray-400 dark:text-gray-500 py-8 hidden">
+        <p class="text-3xl mb-2">📖</p>
+        <p class="text-sm">还没有收藏，点击右上角 ＋ 添加第一条</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add/Edit modal overlay -->
+<div id="douban-modal" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+  <div class="bg-white dark:bg-gray-900 rounded-xl shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto">
+    <div class="px-4 py-3 border-b border-gray-200 dark:border-gray-800 flex items-center justify-between sticky top-0 bg-white dark:bg-gray-900">
+      <h4 id="douban-modal-title" class="text-sm font-bold text-gray-800 dark:text-gray-200">添加收藏</h4>
+      <button id="douban-modal-close" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 text-lg leading-none">&times;</button>
+    </div>
+    <form id="douban-form" class="p-4 space-y-3">
+      <input type="hidden" id="douban-form-id" value="">
+      <input type="hidden" id="douban-form-cover-url" value="">
+
+      <!-- Type selector (inline in form) -->
+      <div>
+        <label class="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">类型</label>
+        <div class="flex gap-2" id="douban-form-type">
+          <label class="flex items-center gap-1 text-xs cursor-pointer"><input type="radio" name="type" value="book" checked> 📚 书籍</label>
+          <label class="flex items-center gap-1 text-xs cursor-pointer"><input type="radio" name="type" value="music"> 🎵 音乐</label>
+          <label class="flex items-center gap-1 text-xs cursor-pointer"><input type="radio" name="type" value="movie"> 🎬 电影</label>
+          <label class="flex items-center gap-1 text-xs cursor-pointer"><input type="radio" name="type" value="tv"> 📺 剧集</label>
+        </div>
+      </div>
+
+      <!-- Title + search -->
+      <div>
+        <label class="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">标题</label>
+        <div class="flex gap-2">
+          <input id="douban-form-title" type="text" class="flex-1 px-3 py-2 text-sm rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-rose-500" placeholder="输入标题搜索封面" required>
+          <button id="douban-form-search" type="button" class="px-3 py-2 text-xs font-medium rounded-lg bg-rose-500 hover:bg-rose-600 text-white transition-colors whitespace-nowrap disabled:opacity-50">搜索封面</button>
+        </div>
+        <!-- Search results -->
+        <div id="douban-search-results" class="mt-2 grid grid-cols-2 gap-2 hidden"></div>
+      </div>
+
+      <!-- Creator -->
+      <div>
+        <label class="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">作者/创作者</label>
+        <input id="douban-form-creator" type="text" class="w-full px-3 py-2 text-sm rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-rose-500" placeholder="可选">
+      </div>
+
+      <!-- Rating -->
+      <div>
+        <label class="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">评分</label>
+        <div class="flex gap-1 text-xl" id="douban-form-rating">
+          <button type="button" data-star="1" class="star-btn text-gray-300 dark:text-gray-600 hover:text-amber-400 transition-colors">★</button>
+          <button type="button" data-star="2" class="star-btn text-gray-300 dark:text-gray-600 hover:text-amber-400 transition-colors">★</button>
+          <button type="button" data-star="3" class="star-btn text-gray-300 dark:text-gray-600 hover:text-amber-400 transition-colors">★</button>
+          <button type="button" data-star="4" class="star-btn text-gray-300 dark:text-gray-600 hover:text-amber-400 transition-colors">★</button>
+          <button type="button" data-star="5" class="star-btn text-gray-300 dark:text-gray-600 hover:text-amber-400 transition-colors">★</button>
+        </div>
+        <input type="hidden" id="douban-form-rating-value" value="0">
+      </div>
+
+      <!-- Status -->
+      <div>
+        <label class="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">状态</label>
+        <select id="douban-form-status" class="w-full px-3 py-2 text-sm rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-rose-500">
+          <option value="done">✅ 已完成</option>
+          <option value="doing">🔄 进行中</option>
+          <option value="want">📌 想读/想看</option>
+        </select>
+      </div>
+
+      <!-- Review -->
+      <div>
+        <label class="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">短评</label>
+        <textarea id="douban-form-review" rows="2" class="w-full px-3 py-2 text-sm rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-rose-500 resize-none" placeholder="写点感想..."></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="flex gap-2 pt-1">
+        <button type="submit" id="douban-form-submit" class="flex-1 px-4 py-2 text-sm font-medium rounded-lg bg-rose-500 hover:bg-rose-600 text-white transition-colors disabled:opacity-50">保存</button>
+        <button type="button" id="douban-form-cancel" class="px-4 py-2 text-sm font-medium rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">取消</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // --- DOM refs ---
+  var container = document.getElementById('private-douban');
+  var loadingEl = document.getElementById('douban-loading');
+  var errorEl = document.getElementById('douban-error');
+  var contentEl = document.getElementById('douban-content');
+  var listEl = document.getElementById('douban-list');
+  var emptyEl = document.getElementById('douban-empty');
+  var retryBtn = document.getElementById('douban-retry');
+  var tabs = document.querySelectorAll('.douban-tab');
+  var addBtn = document.getElementById('douban-add-btn');
+  var modal = document.getElementById('douban-modal');
+  var modalTitle = document.getElementById('douban-modal-title');
+  var modalClose = document.getElementById('douban-modal-close');
+  var form = document.getElementById('douban-form');
+  var formId = document.getElementById('douban-form-id');
+  var formCoverUrl = document.getElementById('douban-form-cover-url');
+  var formTitle = document.getElementById('douban-form-title');
+  var formCreator = document.getElementById('douban-form-creator');
+  var formRating = document.getElementById('douban-form-rating-value');
+  var formStatus = document.getElementById('douban-form-status');
+  var formReview = document.getElementById('douban-form-review');
+  var formSubmit = document.getElementById('douban-form-submit');
+  var formCancel = document.getElementById('douban-form-cancel');
+  var formSearch = document.getElementById('douban-form-search');
+  var searchResults = document.getElementById('douban-search-results');
+  var starBtns = document.querySelectorAll('.star-btn');
+  var formTypeRadios = document.querySelectorAll('input[name="type"]');
+
+  if (!container || !loadingEl || !errorEl || !contentEl || !listEl || !emptyEl || !retryBtn || !addBtn || !modal || !modalTitle || !modalClose || !form || !formId || !formCoverUrl || !formTitle || !formCreator || !formRating || !formStatus || !formReview || !formSubmit || !formCancel || !formSearch || !searchResults || starBtns.length === 0) {
+    throw new Error('PrivateDouban: missing DOM elements');
+  }
+
+  var currentType = '';
+  var collections = [];
+  var editingId = null;
+
+  // --- Fetch collections ---
+  async function loadCollections() {
+    try {
+      loadingEl.classList.remove('hidden');
+      contentEl.classList.add('hidden');
+      errorEl.classList.add('hidden');
+
+      var url = '/api/collections';
+      if (currentType) url += '?type=' + encodeURIComponent(currentType);
+      var res = await fetch(url);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      collections = await res.json();
+
+      loadingEl.classList.add('hidden');
+      contentEl.classList.remove('hidden');
+      renderList();
+    } catch (err) {
+      console.error('PrivateDouban load error:', err);
+      loadingEl.classList.add('hidden');
+      errorEl.classList.remove('hidden');
+    }
+  }
+
+  // --- Render list ---
+  function renderList() {
+    if (!collections || collections.length === 0) {
+      listEl.innerHTML = '';
+      emptyEl.classList.remove('hidden');
+      return;
+    }
+    emptyEl.classList.add('hidden');
+
+    listEl.innerHTML = collections.map(function (item) {
+      var starsHtml = renderStars(item.rating);
+      var statusLabel = { want: '📌 想读/想看', doing: '🔄 进行中', done: '✅ 已完成' }[item.status] || item.status;
+      var coverHtml = item.cover_url
+        ? '<img src="' + escapeHtml(item.cover_url) + '" alt="" class="w-10 h-14 object-cover rounded flex-shrink-0" loading="lazy">'
+        : '<div class="w-10 h-14 bg-gray-100 dark:bg-gray-800 rounded flex-shrink-0 flex items-center justify-center text-gray-400 text-xs">无图</div>';
+
+      return '<div class="flex gap-3 p-3 rounded-lg bg-gray-50 dark:bg-gray-800/50">' +
+        coverHtml +
+        '<div class="flex-1 min-w-0">' +
+          '<div class="flex items-center gap-2">' +
+            '<span class="text-xs font-medium text-gray-800 dark:text-gray-200 truncate">' + escapeHtml(item.title) + '</span>' +
+            '<span class="text-xs text-gray-400">' + escapeHtml(item.creator || '') + '</span>' +
+          '</div>' +
+          '<div class="flex items-center gap-2 mt-0.5">' +
+            '<span class="text-sm">' + starsHtml + '</span>' +
+            '<span class="text-xs text-gray-400">' + statusLabel + '</span>' +
+          '</div>' +
+          (item.review ? '<p class="text-xs text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">' + escapeHtml(item.review) + '</p>' : '') +
+          '<div class="flex gap-2 mt-1.5">' +
+            '<button data-edit="' + item.id + '" class="text-xs text-rose-500 hover:text-rose-600 font-medium">编辑</button>' +
+            '<button data-delete="' + item.id + '" class="text-xs text-red-400 hover:text-red-500 font-medium">删除</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    // Attach event listeners
+    listEl.querySelectorAll('[data-edit]').forEach(function (btn) {
+      btn.addEventListener('click', function () { openEdit(Number(btn.dataset.edit)); });
+    });
+    listEl.querySelectorAll('[data-delete]').forEach(function (btn) {
+      btn.addEventListener('click', function () { deleteItem(Number(btn.dataset.delete)); });
+    });
+  }
+
+  function renderStars(rating) {
+    if (!rating) return '<span class="text-gray-300">☆☆☆☆☆</span>';
+    var full = '';
+    var empty = '';
+    for (var i = 0; i < rating; i++) full += '★';
+    for (var j = rating; j < 5; j++) empty += '☆';
+    return '<span class="text-amber-400">' + full + '</span><span class="text-gray-300">' + empty + '</span>';
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // --- Delete ---
+  async function deleteItem(id) {
+    if (!confirm('确定删除这条收藏吗？')) return;
+    try {
+      var res = await fetch('/api/collections/' + id, { method: 'DELETE' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      await loadCollections();
+    } catch (err) {
+      console.error('Delete error:', err);
+      alert('删除失败');
+    }
+  }
+
+  // --- Open modal for add/edit ---
+  function openAdd() {
+    editingId = null;
+    modalTitle.textContent = '添加收藏';
+    form.reset();
+    formId.value = '';
+    formCoverUrl.value = '';
+    formRating.value = '0';
+    updateStarUI(0);
+    searchResults.classList.add('hidden');
+    searchResults.innerHTML = '';
+    formSubmit.textContent = '保存';
+    modal.classList.remove('hidden');
+    formTitle.focus();
+  }
+
+  function openEdit(id) {
+    var item = collections.find(function (c) { return c.id === id; });
+    if (!item) return;
+    editingId = id;
+    modalTitle.textContent = '编辑收藏';
+    formId.value = item.id;
+
+    // Set type radio
+    formTypeRadios.forEach(function (r) { if (r.value === item.type) r.checked = true; });
+    formTitle.value = item.title || '';
+    formCreator.value = item.creator || '';
+    formCoverUrl.value = item.cover_url || '';
+    formRating.value = item.rating || '0';
+    updateStarUI(item.rating || 0);
+    formStatus.value = item.status || 'done';
+    formReview.value = item.review || '';
+    searchResults.classList.add('hidden');
+    searchResults.innerHTML = '';
+    formSubmit.textContent = '更新';
+    modal.classList.remove('hidden');
+  }
+
+  // --- Star rating UI ---
+  function updateStarUI(val) {
+    starBtns.forEach(function (btn) {
+      var star = Number(btn.dataset.star);
+      btn.classList.toggle('text-amber-400', star <= val);
+      btn.classList.toggle('text-gray-300', star > val);
+      btn.classList.toggle('dark:text-gray-600', star > val);
+    });
+  }
+
+  starBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var val = Number(btn.dataset.star);
+      formRating.value = String(val);
+      updateStarUI(val);
+    });
+  });
+
+  // --- Search cover ---
+  formSearch.addEventListener('click', async function () {
+    var type = document.querySelector('input[name="type"]:checked');
+    var q = formTitle.value.trim();
+    if (!q || !type) return;
+    formSearch.disabled = true;
+    formSearch.textContent = '搜索中...';
+    try {
+      var res = await fetch('/api/collections/search', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: type.value, q: q }),
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+      var results = data.results || [];
+      if (results.length === 0) {
+        searchResults.innerHTML = '<p class="col-span-2 text-center text-xs text-gray-400 py-2">未找到匹配结果</p>';
+        searchResults.classList.remove('hidden');
+        return;
+      }
+      searchResults.innerHTML = results.map(function (r) {
+        return '<button type="button" class="douban-search-item flex gap-2 p-2 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-left" data-cover="' + escapeHtml(r.cover_url) + '" data-title="' + escapeHtml(r.title) + '" data-creator="' + escapeHtml(r.creator) + '">' +
+          (r.cover_url ? '<img src="' + escapeHtml(r.cover_url) + '" class="w-8 h-11 object-cover rounded flex-shrink-0" loading="lazy">' : '<div class="w-8 h-11 bg-gray-200 dark:bg-gray-700 rounded flex-shrink-0"></div>') +
+          '<div class="min-w-0"><div class="text-xs font-medium text-gray-800 dark:text-gray-200 truncate">' + escapeHtml(r.title) + '</div><div class="text-xs text-gray-400 truncate">' + escapeHtml(r.creator) + '</div></div>' +
+        '</button>';
+      }).join('');
+      searchResults.classList.remove('hidden');
+
+      searchResults.querySelectorAll('.douban-search-item').forEach(function (el) {
+        el.addEventListener('click', function () {
+          formTitle.value = el.dataset.title;
+          formCreator.value = el.dataset.creator;
+          formCoverUrl.value = el.dataset.cover;
+          searchResults.classList.add('hidden');
+        });
+      });
+    } catch (err) {
+      console.error('Search error:', err);
+    } finally {
+      formSearch.disabled = false;
+      formSearch.textContent = '搜索封面';
+    }
+  });
+
+  // --- Form submit ---
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    var type = document.querySelector('input[name="type"]:checked');
+    var payload = {
+      type: type ? type.value : 'book',
+      title: formTitle.value.trim(),
+      creator: formCreator.value.trim(),
+      cover_url: formCoverUrl.value.trim(),
+      rating: Number(formRating.value) || null,
+      status: formStatus.value,
+      review: formReview.value.trim(),
+    };
+    if (!payload.title) { alert('请输入标题'); return; }
+
+    formSubmit.disabled = true;
+    formSubmit.textContent = editingId ? '更新中...' : '保存中...';
+    try {
+      var url = '/api/collections' + (editingId ? '/' + editingId : '');
+      var method = editingId ? 'PUT' : 'POST';
+      var res = await fetch(url, {
+        method: method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      modal.classList.add('hidden');
+      await loadCollections();
+    } catch (err) {
+      console.error('Save error:', err);
+      alert('保存失败');
+    } finally {
+      formSubmit.disabled = false;
+      formSubmit.textContent = editingId ? '更新' : '保存';
+    }
+  });
+
+  // --- Modal controls ---
+  modalClose.addEventListener('click', function () { modal.classList.add('hidden'); });
+  formCancel.addEventListener('click', function () { modal.classList.add('hidden'); });
+  modal.addEventListener('click', function (e) { if (e.target === modal) modal.classList.add('hidden'); });
+
+  // --- Tab switching ---
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      currentType = tab.dataset.type || '';
+      tabs.forEach(function (t) {
+        t.classList.remove('bg-rose-500', 'text-white');
+        t.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+      });
+      tab.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
+      tab.classList.add('bg-rose-500', 'text-white');
+      loadCollections();
+    });
+  });
+
+  // --- Add button ---
+  addBtn.addEventListener('click', openAdd);
+
+  // --- Retry ---
+  retryBtn.addEventListener('click', loadCollections);
+
+  // --- Init ---
+  loadCollections();
+})();
+</script>
