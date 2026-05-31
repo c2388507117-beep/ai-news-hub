@@ -20,19 +20,19 @@ const CURRENCIES = [
   <button
     id="fx-toggle"
     class="w-full bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-indigo-400 hover:to-purple-500 transition-all text-left"
-    aria-expanded="false"
+    aria-expanded="true"
     aria-controls="fx-body"
   >
     <div class="flex items-center gap-2 min-w-0">
       <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">💱</span>
       <h2 class="text-sm font-bold text-white flex-shrink-0">货币汇率</h2>
-      <span id="fx-summary" class="text-xs text-white/70 truncate hidden">--</span>
+      <span id="fx-summary" class="text-xs text-white/70 truncate">--</span>
     </div>
-    <span id="fx-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
+    <span id="fx-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0 rotate-90">▶</span>
   </button>
 
-  <!-- Body (collapsed by default) -->
-  <div id="fx-body" class="hidden">
+  <!-- Body (expanded by default) -->
+  <div id="fx-body">
     <div class="p-4">
       <div class="space-y-3">
         <!-- Amount input -->
@@ -186,7 +186,38 @@ const CURRENCIES = [
     errorEl.classList.add('hidden');
   }
 
-  // --- Fetch rate from API ---
+  // --- Fetch rate from API with multiple fallbacks ---
+  const FX_APIS = [
+    // Primary: frankfurter.app (European Central Bank data)
+    function(from, to) {
+      return fetch('https://api.frankfurter.app/latest?from=' + from + '&to=' + to, {
+        headers: { 'Accept': 'application/json' },
+      }).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+       .then(function(d) { return { rate: d.rates[to], date: d.date }; });
+    },
+    // Fallback 1: frankfurter.dev (new domain)
+    function(from, to) {
+      return fetch('https://api.frankfurter.dev/latest?from=' + from + '&to=' + to, {
+        headers: { 'Accept': 'application/json' },
+      }).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+       .then(function(d) { return { rate: d.rates[to], date: d.date }; });
+    },
+    // Fallback 2: exchangerate-api.com (free, no key)
+    function(from, to) {
+      return fetch('https://api.exchangerate-api.com/v4/latest/' + from, {
+        headers: { 'Accept': 'application/json' },
+      }).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+       .then(function(d) { return { rate: d.rates[to], date: d.date }; });
+    },
+    // Fallback 3: via CORS proxy
+    function(from, to) {
+      var proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent('https://api.frankfurter.app/latest?from=' + from + '&to=' + to);
+      return fetch(proxyUrl)
+        .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function(d) { return { rate: d.rates[to], date: d.date }; });
+    },
+  ];
+
   async function fetchRate() {
     const from = fromSelect.value;
     const to = toSelect.value;
@@ -203,23 +234,26 @@ const CURRENCIES = [
     rateEl.textContent = '加载中...';
     errorEl.classList.add('hidden');
 
-    try {
-      const res = await fetch('https://api.frankfurter.app/latest?from=' + from + '&to=' + to);
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const data = await res.json();
-      const rate = data.rates[to];
-      const date = data.date;
-
-      setCachedRate(from, to, rate, date);
-      displayResult(amount, from, to, rate, date);
-    } catch (err) {
-      conversionEl.textContent = amount + ' ' + from + ' = --';
-      rateEl.textContent = '';
-      updatedEl.textContent = '';
-      summary.textContent = '--';
-      errorEl.textContent = '获取汇率失败：' + err.message;
-      errorEl.classList.remove('hidden');
+    for (var i = 0; i < FX_APIS.length; i++) {
+      try {
+        const result = await FX_APIS[i](from, to);
+        if (result && result.rate) {
+          setCachedRate(from, to, result.rate, result.date);
+          displayResult(amount, from, to, result.rate, result.date);
+          return;
+        }
+      } catch (err) {
+        console.warn('FX API [' + i + '] failed:', err.message);
+      }
     }
+
+    // All APIs failed
+    conversionEl.textContent = amount + ' ' + from + ' = --';
+    rateEl.textContent = '';
+    updatedEl.textContent = '';
+    summary.textContent = '--';
+    errorEl.textContent = '获取汇率失败，请稍后重试';
+    errorEl.classList.remove('hidden');
   }
 
   // --- Debounced amount change ---

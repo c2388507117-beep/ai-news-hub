@@ -7,23 +7,26 @@
   <button
     id="elec-toggle"
     class="w-full bg-gradient-to-r from-yellow-600 to-amber-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-yellow-500 hover:to-amber-600 transition-all text-left"
-    aria-expanded="false"
+    aria-expanded="true"
     aria-controls="elec-body"
   >
     <div class="flex items-center gap-2 min-w-0">
       <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">⚡</span>
       <h2 class="text-sm font-bold text-white truncate">电力计算</h2>
     </div>
-    <span id="elec-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
+    <span id="elec-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0 rotate-90">▶</span>
   </button>
 
   <!-- Body -->
-  <div id="elec-body" class="hidden">
+  <div id="elec-body">
     <!-- Tab navigation -->
-    <div class="flex border-b border-gray-200 dark:border-gray-700">
+    <div class="flex border-b border-gray-200 dark:border-gray-700 overflow-x-auto">
       <button class="elec-tab flex-1 text-xs py-2.5 font-medium text-center border-b-2 border-yellow-500 text-yellow-600 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/10" data-tab="cable">电缆截面</button>
       <button class="elec-tab flex-1 text-xs py-2.5 font-medium text-center text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" data-tab="ohm">欧姆定律</button>
       <button class="elec-tab flex-1 text-xs py-2.5 font-medium text-center text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" data-tab="power">功率计算</button>
+      <button class="elec-tab flex-1 text-xs py-2.5 font-medium text-center text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" data-tab="energy">电能费用</button>
+      <button class="elec-tab flex-1 text-xs py-2.5 font-medium text-center text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" data-tab="series">串并联</button>
+      <button class="elec-tab flex-1 text-xs py-2.5 font-medium text-center text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" data-tab="three">三相电</button>
     </div>
 
     <!-- Cable calculator -->
@@ -91,6 +94,65 @@
         </div>
         <button id="power-calc-btn" class="w-full py-2 rounded-lg bg-yellow-500 hover:bg-yellow-400 text-white text-sm font-medium transition-colors">计算</button>
         <div id="power-result" class="text-center text-sm font-medium text-gray-700 dark:text-gray-300 min-h-[2rem] py-2" role="status"></div>
+      </div>
+    </div>
+
+    <!-- Energy cost calculator -->
+    <div class="p-4 elec-panel hidden" id="elec-panel-energy">
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">功率 (W)</label>
+          <input type="number" id="energy-power" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 1000" value="1000" />
+        </div>
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">使用时间 (小时)</label>
+          <input type="number" id="energy-hours" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 24" value="24" />
+        </div>
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">电价 (元/kWh)</label>
+          <input type="number" id="energy-price" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 0.5" value="0.5" step="0.01" />
+        </div>
+        <button id="energy-calc-btn" class="w-full py-2 rounded-lg bg-yellow-500 hover:bg-yellow-400 text-white text-sm font-medium transition-colors">计算</button>
+        <div id="energy-result" class="text-center text-sm font-medium text-gray-700 dark:text-gray-300 min-h-[2rem] py-2" role="status"></div>
+      </div>
+    </div>
+
+    <!-- Series/Parallel resistance calculator -->
+    <div class="p-4 elec-panel hidden" id="elec-panel-series">
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">连接方式</label>
+          <select id="series-mode" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500">
+            <option value="series">串联</option>
+            <option value="parallel">并联</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">电阻值 (Ω)，多个用逗号分隔</label>
+          <input type="text" id="series-values" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 100, 200, 300" value="100, 200, 300" />
+        </div>
+        <button id="series-calc-btn" class="w-full py-2 rounded-lg bg-yellow-500 hover:bg-yellow-400 text-white text-sm font-medium transition-colors">计算</button>
+        <div id="series-result" class="text-center text-sm font-medium text-gray-700 dark:text-gray-300 min-h-[2rem] py-2" role="status"></div>
+      </div>
+    </div>
+
+    <!-- Three-phase power calculator -->
+    <div class="p-4 elec-panel hidden" id="elec-panel-three">
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">线电压 (V)</label>
+          <input type="number" id="three-voltage" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 380" value="380" />
+        </div>
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">线电流 (A)</label>
+          <input type="number" id="three-current" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 100" value="100" />
+        </div>
+        <div>
+          <label class="text-xs text-gray-500 dark:text-gray-400 block mb-1">功率因数 (cosφ)</label>
+          <input type="number" id="three-pf" class="elec-input w-full text-sm px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-1 focus:ring-yellow-500" placeholder="例如 0.85" value="0.85" step="0.01" />
+        </div>
+        <button id="three-calc-btn" class="w-full py-2 rounded-lg bg-yellow-500 hover:bg-yellow-400 text-white text-sm font-medium transition-colors">计算</button>
+        <div id="three-result" class="text-center text-sm font-medium text-gray-700 dark:text-gray-300 min-h-[2rem] py-2" role="status"></div>
       </div>
     </div>
   </div>
@@ -203,5 +265,56 @@
     resultEl.innerHTML = `
       功率 P = <strong class="text-yellow-600 dark:text-yellow-400 text-base">${P.toFixed(1)} W</strong>
       <span class="block text-[10px] text-gray-400 mt-1">= ${(P / 1000).toFixed(3)} kW</span>`;
+  });
+
+  // --- Energy Cost Calculator ---
+  document.getElementById('energy-calc-btn')?.addEventListener('click', () => {
+    const P = parseFloat(document.getElementById('energy-power').value);
+    const h = parseFloat(document.getElementById('energy-hours').value);
+    const price = parseFloat(document.getElementById('energy-price').value);
+    const r = document.getElementById('energy-result');
+    if (isNaN(P) || P <= 0 || isNaN(h) || h <= 0 || isNaN(price) || price <= 0) {
+      r.textContent = '请填写所有有效值'; return;
+    }
+    const kWh = P * h / 1000;
+    const cost = kWh * price;
+    r.innerHTML = `
+      用电量：<strong class="text-yellow-600 dark:text-yellow-400">${kWh.toFixed(2)} kWh</strong>
+      <span class="block">电费：<strong class="text-yellow-600 dark:text-yellow-400">¥${cost.toFixed(2)}</strong></span>
+      <span class="block text-[10px] text-gray-400 mt-1">${P}W × ${h}h / 1000 × ¥${price}/kWh</span>`;
+  });
+
+  // --- Series/Parallel Calculator ---
+  document.getElementById('series-calc-btn')?.addEventListener('click', () => {
+    const mode = document.getElementById('series-mode').value;
+    const vals = document.getElementById('series-values').value.split(/[,，\s]+/).map(Number).filter(v => !isNaN(v) && v > 0);
+    const r = document.getElementById('series-result');
+    if (vals.length < 1) { r.textContent = '请至少输入一个有效电阻值'; return; }
+    let result;
+    if (mode === 'series') {
+      result = vals.reduce((a, b) => a + b, 0);
+      r.innerHTML = `总电阻（串联）：<strong class="text-yellow-600 dark:text-yellow-400 text-base">${result.toFixed(2)} Ω</strong>`;
+    } else {
+      result = 1 / vals.reduce((a, b) => a + 1 / b, 0);
+      r.innerHTML = `总电阻（并联）：<strong class="text-yellow-600 dark:text-yellow-400 text-base">${result.toFixed(2)} Ω</strong>`;
+    }
+  });
+
+  // --- Three-phase Power Calculator ---
+  document.getElementById('three-calc-btn')?.addEventListener('click', () => {
+    const U = parseFloat(document.getElementById('three-voltage').value);
+    const I = parseFloat(document.getElementById('three-current').value);
+    const pf = parseFloat(document.getElementById('three-pf').value);
+    const r = document.getElementById('three-result');
+    if (isNaN(U) || U <= 0 || isNaN(I) || I <= 0 || isNaN(pf) || pf <= 0) {
+      r.textContent = '请填写所有有效值'; return;
+    }
+    const P = Math.sqrt(3) * U * I * pf;
+    const S = Math.sqrt(3) * U * I;
+    const Q = Math.sqrt(S * S - P * P);
+    r.innerHTML = `
+      有功功率：<strong class="text-yellow-600 dark:text-yellow-400 text-base">${(P / 1000).toFixed(2)} kW</strong>
+      <span class="block text-[10px] text-gray-400 mt-1">视在功率 ${(S / 1000).toFixed(2)} kVA | 无功功率 ${(Q / 1000).toFixed(2)} kvar</span>
+      <span class="block text-[10px] text-gray-400">√3 × ${U}V × ${I}A × ${pf} = ${(P / 1000).toFixed(2)} kW</span>`;
   });
 </script>

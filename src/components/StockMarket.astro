@@ -9,13 +9,13 @@
   <button
     id="stock-toggle"
     class="w-full bg-gradient-to-r from-green-600 to-emerald-600 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-green-500 hover:to-emerald-500 transition-all text-left"
-    aria-expanded="false"
+    aria-expanded="true"
     aria-controls="stock-body"
   >
     <div class="flex items-center gap-2 min-w-0">
       <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">📈</span>
       <h2 class="text-sm font-bold text-white truncate">全球股指</h2>
-      <span id="stock-last-update" class="text-xs text-white/60 truncate hidden"></span>
+      <span id="stock-last-update" class="text-xs text-white/60 truncate"></span>
     </div>
     <div class="flex items-center gap-2 flex-shrink-0">
       <button
@@ -23,12 +23,12 @@
         class="text-xs px-2 py-1 rounded bg-white/15 text-white hover:bg-white/25 transition-colors"
         title="刷新数据"
       >🔄</button>
-      <span id="stock-chevron" class="text-white/80 text-lg transition-transform duration-200">▶</span>
+      <span id="stock-chevron" class="text-white/80 text-lg transition-transform duration-200 rotate-90">▶</span>
     </div>
   </button>
 
-  <!-- Body (collapsible) -->
-  <div id="stock-body" class="hidden">
+  <!-- Body (expanded by default) -->
+  <div id="stock-body">
     <div class="p-4" id="stock-content">
       <!-- Loading state -->
       <div id="stock-loading" class="space-y-3">
@@ -146,29 +146,33 @@
   }
 
   /**
-   * Fetch stock data for a single symbol with CORS proxy fallback
+   * Fetch stock data for a single symbol with multiple CORS proxy fallbacks
    */
-  async function fetchStock(symbol) {
-    var url = 'https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(symbol) + '?interval=1d&range=5d';
+  var CORS_PROXIES = [
+    null, // try direct first
+    'https://api.allorigins.win/raw?url=',
+    'https://corsproxy.io/?url=',
+    'https://corsproxy.erambert.me/?url=',
+    'https://proxy.cors.sh/' + encodeURIComponent('https://query1.finance.yahoo.com') + '?url=',
+  ];
 
-    // Try direct fetch first
-    try {
-      var res = await fetch(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' }
-      });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      return await res.json();
-    } catch (e) {
-      // Fallback: try CORS proxy
+  async function fetchStock(symbol) {
+    var baseUrl = 'https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(symbol) + '?interval=1d&range=5d';
+
+    var errors = [];
+    for (var p = 0; p < CORS_PROXIES.length; p++) {
       try {
-        var proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url);
-        var proxyRes = await fetch(proxyUrl);
-        if (!proxyRes.ok) throw new Error('Proxy HTTP ' + proxyRes.status);
-        return await proxyRes.json();
-      } catch (e2) {
-        throw new Error('Direct and proxy both failed: ' + e.message + ' / ' + e2.message);
+        var url = CORS_PROXIES[p] ? CORS_PROXIES[p] + encodeURIComponent(baseUrl) : baseUrl;
+        var res = await fetch(url, {
+          headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' }
+        });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return await res.json();
+      } catch (e) {
+        errors.push('[' + p + '] ' + e.message);
       }
     }
+    throw new Error('All proxies failed: ' + errors.join('; '));
   }
 
   /**

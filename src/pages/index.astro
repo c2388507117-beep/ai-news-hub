@@ -17,7 +17,6 @@ import DutyRoster from '../components/DutyRoster.astro';
 import ChinaMap from '../components/ChinaMap.astro';
 import ShoppingCompare from '../components/ShoppingCompare.astro';
 import ElectricalCalc from '../components/ElectricalCalc.astro';
-import CoverArt from '../components/CoverArt.astro';
 import StockMarket from '../components/StockMarket.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import HotTopics from '../components/HotTopics.astro';
@@ -142,8 +141,8 @@ allNews.forEach((item) => {
           </div>
         </nav>
 
-        <!-- News (collapsible, default folded) -->
-        <details class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+        <!-- News (collapsible, default expanded) -->
+        <details class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm" open>
           <summary class="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 cursor-pointer text-sm font-bold text-white hover:from-blue-500 hover:to-blue-600 transition-all list-none flex items-center gap-2 [&::-webkit-details-marker]:hidden">
             <span aria-hidden="true">🗞️</span> 新闻资讯
           </summary>
@@ -223,16 +222,11 @@ allNews.forEach((item) => {
       <BilibiliFavorites data={bilibili} />
     </div>
 
-    <!-- Bottom: Utility Tools (3 columns, 2 rows) -->
+<!-- Bottom: Utility Tools (3 columns) -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
       <ShoppingCompare />
       <StockMarket />
       <DailyKnowledge data={knowledge} />
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-      <ElectricalCalc />
-      <SteamCharts data={steam} />
-      <CoverArt />
     </div>
 
     <!-- Bottom Row 3: ChinaMap + DutyRoster -->

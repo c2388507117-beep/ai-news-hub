@@ -7,19 +7,19 @@
   <button
     id="shop-toggle"
     class="w-full bg-gradient-to-r from-red-500 to-pink-500 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-red-400 hover:to-pink-400 transition-all text-left"
-    aria-expanded="false"
+    aria-expanded="true"
     aria-controls="shop-body"
   >
     <div class="flex items-center gap-2 min-w-0">
       <span class="text-xl leading-none flex-shrink-0" aria-hidden="true">🛍️</span>
       <h2 class="text-sm font-bold text-white truncate">购物比价</h2>
-      <span id="shop-summary" class="text-xs text-white/70 truncate hidden"></span>
+      <span id="shop-summary" class="text-xs text-white/70 truncate"></span>
     </div>
-    <span id="shop-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
+    <span id="shop-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0 rotate-90">▶</span>
   </button>
 
-  <!-- Body (collapsed by default) -->
-  <div id="shop-body" class="hidden">
+  <!-- Body (expanded by default) -->
+  <div id="shop-body">
     <div class="p-4">
       <!-- Search input -->
       <div class="flex gap-2 mb-3">

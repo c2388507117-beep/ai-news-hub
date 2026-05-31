@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, '..', 'src', 'data', 'hot-topics.json');
 
-const MAX_TOPICS = 3;
+const MAX_TOPICS = 5;
 const CACHE_DAYS = 5;
 
 function formatDate(d) {
@@ -22,69 +22,60 @@ function readExisting() {
   }
 }
 
-// Source 1: Weibo hot search (mobile API)
-async function fetchWeiboHot() {
-  const url = 'https://m.weibo.cn/api/container/getIndex?containerid=106003&type=wb';
-  try {
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36',
-        Referer: 'https://m.weibo.cn/',
-      },
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!res.ok) return null;
-    const data = await res.json();
-    if (!data?.data?.cards) return null;
-
-    const topics = [];
-    for (const card of data.data.cards) {
-      if (card.card_group) {
-        for (const group of card.card_group) {
-          if (group.desc && group.scheme) {
-            topics.push({
-              title: group.desc,
-              url: group.scheme.startsWith('http') ? group.scheme : 'https://m.weibo.cn' + group.scheme,
-              hot: (parseInt(group.desc_extr) || 0) > 1000000,
-            });
-          }
-        }
+// Source 1: Douyin (抖音) hot search list
+async function fetchDouyinHot() {
+  const urls = [
+    // Method 1: Official Douyin API (may need cookies)
+    {
+      url: 'https://www.douyin.com/aweme/v1/web/hot/search/list/',
+      parse: (json) => {
+        if (!json?.data?.word_list) return null;
+        return json.data.word_list.map((item) => ({
+          title: item.word || '',
+          url: `https://www.douyin.com/search/${encodeURIComponent(item.word || '')}`,
+          hot: (item.hot_value || 0) > 1000000,
+        })).filter((t) => t.title);
       }
+    },
+    // Method 2: Third-party aggregation API
+    {
+      url: 'https://tenapi.cn/v2/hotlist?source=douyin',
+      parse: (json) => {
+        if (!json?.data?.list) return null;
+        return json.data.list.map((item) => ({
+          title: item.name || item.title || '',
+          url: item.url || `https://www.douyin.com/search/${encodeURIComponent(item.name || '')}`,
+          hot: (item.hot || 0) > 1000000,
+        })).filter((t) => t.title);
+      }
+    },
+  ];
+
+  for (const source of urls) {
+    try {
+      const res = await fetch(source.url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+          'Referer': 'https://www.douyin.com/',
+          'Accept': 'application/json, text/plain, */*',
+        },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!res.ok) continue;
+      const json = await res.json();
+      const topics = source.parse(json);
+      if (topics && topics.length > 0) {
+        console.log(`  ✓ Douyin: ${topics.length} topics`);
+        return topics;
+      }
+    } catch (err) {
+      console.error(`  Douyin API error (${source.url}):`, err.message);
     }
-    return topics.length > 0 ? topics : null;
-  } catch (err) {
-    console.error('  Weibo API error:', err.message);
-    return null;
   }
+  return null;
 }
 
-// Source 2: Zhihu hot list
-async function fetchZhihuHot() {
-  const url = 'https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total?limit=20';
-  try {
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)',
-        Accept: 'application/json',
-      },
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!res.ok) return null;
-    const data = await res.json();
-    if (!data?.data) return null;
-
-    return data.data.map((item) => ({
-      title: item.target?.title || item.target?.question?.name || '',
-      url: item.target?.url || `https://www.zhihu.com/question/${item.target?.id}`,
-      hot: (item.detail_text || '').includes('万') || (item.detail_text || '').includes('亿'),
-    })).filter((t) => t.title);
-  } catch (err) {
-    console.error('  Zhihu API error:', err.message);
-    return null;
-  }
-}
-
-// Source 3: BackUp - keep existing data if available
+// Source 2: BackUp - keep existing data if available
 function keepExisting(existing) {
   const fresh = existing.filter((t) => {
     const age = (Date.now() - new Date(t.date).getTime()) / (1000 * 60 * 60 * 24);
@@ -94,7 +85,6 @@ function keepExisting(existing) {
 }
 
 function toTopicEntry(item, source, existing) {
-  // Generate a brief from existing data if available, or use title as brief
   const existingTopic = existing.find((t) => t.title === item.title);
   return {
     title: item.title,
@@ -107,37 +97,29 @@ function toTopicEntry(item, source, existing) {
 }
 
 async function main() {
-  console.log('Fetching hot topics...');
+  console.log('Fetching hot topics from Douyin...');
 
   const existing = readExisting();
 
-  // Try Weibo first, then Zhihu, then keep existing
+  // Try Douyin first
   let topics;
   let source;
 
-  console.log('  Trying Weibo hot search...');
-  const weiboData = await fetchWeiboHot();
-  if (weiboData) {
-    topics = weiboData.slice(0, MAX_TOPICS).map((t) => toTopicEntry(t, '微博', existing));
-    source = '微博';
-    console.log(`  ✓ Weibo: ${topics.length} topics`);
+  console.log('  Trying Douyin hot search...');
+  const douyinData = await fetchDouyinHot();
+  if (douyinData) {
+    topics = douyinData.slice(0, MAX_TOPICS).map((t) => toTopicEntry(t, '抖音', existing));
+    source = '抖音';
+    console.log(`  ✓ Douyin: ${topics.length} topics`);
   } else {
-    console.log('  Trying Zhihu hot list...');
-    const zhihuData = await fetchZhihuHot();
-    if (zhihuData) {
-      topics = zhihuData.slice(0, MAX_TOPICS).map((t) => toTopicEntry(t, '知乎', existing));
-      source = '知乎';
-      console.log(`  ✓ Zhihu: ${topics.length} topics`);
+    const cached = keepExisting(existing);
+    if (cached) {
+      topics = cached;
+      source = '缓存';
+      console.log(`  ✓ Using cached data: ${topics.length} topics`);
     } else {
-      const cached = keepExisting(existing);
-      if (cached) {
-        topics = cached;
-        source = '缓存';
-        console.log(`  ✓ Using cached data: ${topics.length} topics`);
-      } else {
-        console.log('  No data available, keeping empty.');
-        return;
-      }
+      console.log('  No data available, keeping empty.');
+      return;
     }
   }
 

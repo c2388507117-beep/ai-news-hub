@@ -14,18 +14,18 @@ const hasData = data?.topSellers?.length > 0 || data?.mostPlayed?.length > 0;
   <button
     id="steam-toggle"
     class="w-full bg-gradient-to-r from-indigo-600 to-indigo-700 px-4 py-3 flex items-center justify-between cursor-pointer hover:from-indigo-500 hover:to-indigo-600 transition-all text-left"
-    aria-expanded="false"
+    aria-expanded="true"
     aria-controls="steam-body"
   >
     <div class="flex items-center gap-2 min-w-0">
       <span class="text-xl leading-none flex-shrink-0">🎮</span>
       <h2 class="text-sm font-bold text-white truncate">Steam 热销榜</h2>
     </div>
-    <span id="steam-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0">▶</span>
+    <span id="steam-chevron" class="text-white/80 text-lg transition-transform duration-200 flex-shrink-0 rotate-90">▶</span>
   </button>
 
-  <!-- Body (collapsible) -->
-  <div id="steam-body" class="hidden">
+  <!-- Body (expanded by default) -->
+  <div id="steam-body">
     {hasData ? (
       <div class="divide-y divide-gray-100 dark:divide-gray-800">
         <!-- Top Sellers -->

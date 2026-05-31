@@ -75,7 +75,7 @@ function watchPct(progress: number, duration: number): number {
               >
                 <div class="relative w-16 h-9 flex-shrink-0 rounded overflow-hidden bg-gray-200 dark:bg-gray-700">
                   {v.cover && (
-                    <img src={v.cover} alt="" class="w-full h-full object-cover" loading="lazy" />
+                    <img src={v.cover} alt="" class="w-full h-full object-cover" loading="lazy" referrerpolicy="no-referrer" />
                   )}
                   <span class="absolute bottom-0.5 right-0.5 text-[9px] text-white bg-black/70 px-0.5 rounded">
                     {fmtTime(v.duration)}

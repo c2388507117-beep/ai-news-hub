@@ -123,41 +123,47 @@
     mapContainer.classList.remove('hidden');
     mapControls.classList.remove('hidden');
 
-    map = L.map('map-container', {
-      center: [37.07, 114.50],
-      zoom: 5,
-      scrollWheelZoom: true,
-      zoomControl: true,
-    });
+    // Small delay to ensure container is rendered before Leaflet measures it
+    setTimeout(function () {
+      map = L.map('map-container', {
+        center: [37.07, 114.50],
+        zoom: 5,
+        scrollWheelZoom: true,
+        zoomControl: true,
+      });
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 18,
-    }).addTo(map);
+      // Fix map size after creation (handles hidden->visible transition)
+      map.invalidateSize();
 
-    // Layers for markers
-    markerLayer = L.layerGroup().addTo(map);
-    customMarkerLayer = L.layerGroup().addTo(map);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 18,
+      }).addTo(map);
 
-    // Populate city select
-    populateCitySelect();
+      // Layers for markers
+      markerLayer = L.layerGroup().addTo(map);
+      customMarkerLayer = L.layerGroup().addTo(map);
 
-    // Render markers
-    renderAttractions();
-    renderCustomMarkers();
+      // Populate city select
+      populateCitySelect();
 
-    // Fit bounds to show all markers
-    var allPoints = attractions.map(function (a) { return [a.lat, a.lng]; });
-    if (customMarkers.length > 0) {
-      allPoints = allPoints.concat(customMarkers.map(function (m) { return [m.lat, m.lng]; }));
-    }
-    if (allPoints.length > 0) {
-      try {
-        map.fitBounds(allPoints, { padding: [30, 30], maxZoom: 8 });
-      } catch (_) {
-        // ignore fitBounds errors
+      // Render markers
+      renderAttractions();
+      renderCustomMarkers();
+
+      // Fit bounds to show all markers
+      var allPoints = attractions.map(function (a) { return [a.lat, a.lng]; });
+      if (customMarkers.length > 0) {
+        allPoints = allPoints.concat(customMarkers.map(function (m) { return [m.lat, m.lng]; }));
       }
-    }
+      if (allPoints.length > 0) {
+        try {
+          map.fitBounds(allPoints, { padding: [30, 30], maxZoom: 8 });
+        } catch (_) {
+          map.setView([35.86, 104.19], 5); // fallback: center of China
+        }
+      }
+    }, 50);
   }
 
   // --- City dropdown ---
