@@ -1,0 +1,168 @@
+---
+// Chinese national holidays that shift payday
+type Holiday = [number, number, string]; // [month, day, name]
+
+const HOLIDAYS_2025: Holiday[] = [
+  [4, 4, '清明节'], [4, 5, '清明节'], [4, 6, '清明节'],
+  [5, 1, '劳动节'], [5, 2, '劳动节'], [5, 3, '劳动节'], [5, 4, '劳动节'], [5, 5, '劳动节'],
+  [10, 1, '国庆节'], [10, 2, '国庆节'], [10, 3, '国庆节'], [10, 4, '国庆节'], [10, 5, '国庆节'], [10, 6, '国庆节'], [10, 7, '国庆节'],
+  [10, 8, '国庆节'],
+];
+const HOLIDAYS_2026: Holiday[] = [
+  [1, 1, '元旦'], [1, 2, '元旦'], [1, 3, '元旦'],
+  [4, 4, '清明节'], [4, 5, '清明节'], [4, 6, '清明节'],
+  [5, 1, '劳动节'], [5, 2, '劳动节'], [5, 3, '劳动节'], [5, 4, '劳动节'], [5, 5, '劳动节'],
+  [10, 1, '国庆节'], [10, 2, '国庆节'], [10, 3, '国庆节'], [10, 4, '国庆节'], [10, 5, '国庆节'], [10, 6, '国庆节'], [10, 7, '国庆节'],
+];
+
+const HOLIDAYS = new Map<number, Holiday[]>();
+HOLIDAYS.set(2025, HOLIDAYS_2025);
+HOLIDAYS.set(2026, HOLIDAYS_2026);
+
+function isHoliday(year: number, month: number, day: number): string | null {
+  const holidays = HOLIDAYS.get(year);
+  if (!holidays) return null;
+  for (const [hMonth, hDay, hName] of holidays) {
+    if (hMonth === month && hDay === day) return hName;
+  }
+  return null;
+}
+
+function isWeekend(year: number, month: number, day: number): boolean {
+  const d = new Date(year, month - 1, day);
+  const dow = d.getDay();
+  return dow === 0 || dow === 6;
+}
+
+function findPayDate(year: number, month: number): { day: number; reason: string | null } {
+  let payDay = 20;
+  let reason: string | null = null;
+
+  // Walk backward from 20th for holidays/weekends
+  while (payDay >= 15) {
+    const holiday = isHoliday(year, month, payDay);
+    if (holiday) {
+      reason = `因${holiday}提前`;
+      payDay--;
+      continue;
+    }
+    if (isWeekend(year, month, payDay)) {
+      reason = '因周末提前';
+      payDay--;
+      continue;
+    }
+    break;
+  }
+
+  return { day: payDay, reason };
+}
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">&#9200;</span> 发薪倒计时
+    </h3>
+  </div>
+  <div class="p-4 text-center" id="salary-countdown">
+    <div class="text-3xl font-bold text-gray-800 dark:text-gray-200 tabular-nums" id="salary-days">--</div>
+    <div class="text-xs text-gray-500 dark:text-gray-400 mt-1" id="salary-label">加载中...</div>
+    <div class="mt-2 text-[11px] text-gray-400 dark:text-gray-500" id="salary-note">每月20日发薪</div>
+  </div>
+</div>
+
+<script>
+  const PAY_DAY = 20;
+
+  const HOLIDAYS = new Map();
+  HOLIDAYS.set(2025, [
+    [4, 4, '清明节'],[4, 5, '清明节'],[4, 6, '清明节'],
+    [5, 1, '劳动节'],[5, 2, '劳动节'],[5, 3, '劳动节'],[5, 4, '劳动节'],[5, 5, '劳动节'],
+    [10, 1, '国庆节'],[10, 2, '国庆节'],[10, 3, '国庆节'],[10, 4, '国庆节'],[10, 5, '国庆节'],[10, 6, '国庆节'],[10, 7, '国庆节'],
+  ]);
+  HOLIDAYS.set(2026, [
+    [1, 1, '元旦'],[1, 2, '元旦'],[1, 3, '元旦'],
+    [4, 4, '清明节'],[4, 5, '清明节'],[4, 6, '清明节'],
+    [5, 1, '劳动节'],[5, 2, '劳动节'],[5, 3, '劳动节'],[5, 4, '劳动节'],[5, 5, '劳动节'],
+    [10, 1, '国庆节'],[10, 2, '国庆节'],[10, 3, '国庆节'],[10, 4, '国庆节'],[10, 5, '国庆节'],[10, 6, '国庆节'],[10, 7, '国庆节'],
+  ]);
+
+  const daysEl = document.getElementById('salary-days');
+  const labelEl = document.getElementById('salary-label');
+  const noteEl = document.getElementById('salary-note');
+
+  function isHoliday(year, month, day) {
+    const holidays = HOLIDAYS.get(year);
+    if (!holidays) return null;
+    for (const [hMonth, hDay, hName] of holidays) {
+      if (hMonth === month && hDay === day) return hName;
+    }
+    return null;
+  }
+
+  function isWeekend(year, month, day) {
+    const d = new Date(year, month - 1, day);
+    const dow = d.getDay();
+    return dow === 0 || dow === 6;
+  }
+
+  function findPayDate(year, month) {
+    let payDay = PAY_DAY;
+    let reason = null;
+    while (payDay >= 15) {
+      const holiday = isHoliday(year, month, payDay);
+      if (holiday) { reason = `因${holiday}提前`; payDay--; continue; }
+      if (isWeekend(year, month, payDay)) { reason = '因周末提前'; payDay--; continue; }
+      break;
+    }
+    return { day: payDay, reason };
+  }
+
+  function update() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth() + 1; // 1-12
+    const day = now.getDate();
+
+    // Determine if we're looking at this month's pay or next month's
+    let targetYear = year;
+    let targetMonth = month;
+
+    const payInfo = findPayDate(year, month);
+    if (day > payInfo.day) {
+      // Past this month's payday, look at next month
+      targetMonth = month + 1;
+      if (targetMonth > 12) { targetMonth = 1; targetYear = year + 1; }
+    }
+
+    const nextPay = findPayDate(targetYear, targetMonth);
+    const payDate = new Date(targetYear, targetMonth - 1, nextPay.day, 9, 0, 0);
+    const diff = payDate.getTime() - now.getTime();
+
+    if (diff <= 0 && Math.abs(diff) < 86400000) {
+      // Payday!
+      daysEl.textContent = '🎉';
+      labelEl.textContent = '今天发工资！';
+      noteEl.textContent = `本月${nextPay.day}日${nextPay.reason ? '(' + nextPay.reason + ')' : ''}`;
+      return;
+    }
+
+    if (diff <= 0) {
+      daysEl.textContent = '🎉';
+      labelEl.textContent = '本月已发薪';
+      return;
+    }
+
+    const totalHours = diff / (1000 * 60 * 60);
+    const totalDays = Math.floor(totalHours / 24);
+    const hours = Math.floor(totalHours % 24);
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+    daysEl.textContent = totalDays.toString();
+    labelEl.textContent = `${hours}小时 ${minutes}分钟`;
+    noteEl.textContent = `下次发薪：${targetYear}年${targetMonth}月${nextPay.day}日${nextPay.reason ? '（' + nextPay.reason + '）' : ''}`;
+  }
+
+  update();
+  setInterval(update, 60000); // Update every minute
+</script>
