@@ -12,7 +12,7 @@ import SalaryCountdown from '../components/SalaryCountdown.astro';
 import RandomPicker from '../components/RandomPicker.astro';
 import ElectricalCalc from '../components/ElectricalCalc.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, DigestData } from '../lib/types';
+import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
@@ -29,7 +29,7 @@ const wallpapersGirl = wallpaperGirlData as WallpaperData;
 const football = footballData as FootballData;
 const steam = steamData as SteamData;
 const bilibili = bilibiliData as BilibiliData;
-const knowledge = knowledgeData as KnowledgeItem | null;
+const knowledge = knowledgeData as KnowledgeList | null;
 const digest = digestData as DigestData;
 
 // --- Compute Related Articles (same as before) ---
@@ -195,11 +195,9 @@ allNews.forEach((item) => {
       </aside>
     </div>
 
-    <!-- Mobile: Wallpapers & Bilibili below main content -->
+    <!-- Mobile: Sidebar content (hidden on desktop) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:hidden">
-      <WallpaperGallery data={wallpapers} />
       <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
-      <SteamCharts data={steam} />
       <BilibiliFavorites data={bilibili} />
     </div>
 
