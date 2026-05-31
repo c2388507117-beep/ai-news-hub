@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T17:33:01.579Z",
+  "fetchedAt": "2026-05-31T19:43:25.361Z",
   "items": [
+    {
+      "title": "持續性正壓呼吸器",
+      "extract": "持續性正壓呼吸器，是一種通過持續將加壓空氣輸送入呼吸道，以防止睡眠期間氣道塌陷的呼吸輔助儀器。俗稱「睡眠呼吸機」，名稱中的「持續」亦可作「連續」，「正壓」亦可作「陽壓」，「器」亦可作「機」，因此常見名稱有持續陽壓呼吸機、連續陽壓呼吸器、持續正壓呼吸機等多種組合。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%80%A7%E6%AD%A3%E5%A3%93%E5%91%BC%E5%90%B8%E5%99%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CPAP.png/330px-CPAP.png",
+      "source": "wikipedia"
+    },
     {
       "title": "庞斯陨石坑",
       "extract": "庞斯陨石坑（Pons）是位于月球正面南半球一座古老的大撞击坑，约形成于酒海纪，其名称取自法国天文学家让-路易·蓬斯，1935年被国际天文学联合会批准接受。\n",
@@ -27,13 +34,6 @@
       "extract": "鸟吻类 是一个包含有着上颌骨窗孔的兽脚亚目恐龙的一个演化支，即在上颌骨的前外侧有构成上颌骨一个额外的开口。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%B8%9F%E5%90%BB%E7%B1%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Ceratosaurus_mounted.jpg/330px-Ceratosaurus_mounted.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "北宜公路",
-      "extract": "北宜公路是一條位於台灣北部，連接台北與宜蘭的公路，全長58公里，在公路系統上屬於省道台九線的一部分。在宜蘭縣頭城鎮大金面山下山之後抵達蘭陽平原，與頭城鎮青雲路（台二庚線）叉路為終點（台九線70K處），途經新北市新店區、石碇區、坪林區與宜蘭縣頭城鎮。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%AE%9C%E5%85%AC%E8%B7%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/%E5%8C%97%E5%AE%9C%E5%85%AC%E8%B7%AF%E3%80%8C%E4%B9%9D%E5%BD%8E%E5%8D%81%E5%85%AB%E6%8B%90%E3%80%8D.jpg/330px-%E5%8C%97%E5%AE%9C%E5%85%AC%E8%B7%AF%E3%80%8C%E4%B9%9D%E5%BD%8E%E5%8D%81%E5%85%AB%E6%8B%90%E3%80%8D.jpg",
       "source": "wikipedia"
     }
   ]
