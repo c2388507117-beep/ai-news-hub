@@ -43,7 +43,7 @@ const PRESET_TOPICS = [
 
     <!-- Result display -->
     <div class="text-center py-4">
-      <div id="rp-result-text" class="text-lg font-bold text-gray-800 dark:text-gray-200 min-h-[2rem]">
+      <div id="rp-result-text" role="status" class="text-lg font-bold text-gray-800 dark:text-gray-200 min-h-[2rem]">
         点击开始
       </div>
       <button
@@ -80,15 +80,21 @@ const PRESET_TOPICS = [
   topicBtns[0]?.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300');
 
   // Load custom options from localStorage
-  const savedCustom = localStorage.getItem('rp-custom-options');
-  if (savedCustom) {
-    try {
-      const parsed = JSON.parse(savedCustom);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        currentOptions = parsed;
-        currentLabel = '自定义';
+  try {
+    const savedCustom = localStorage.getItem('rp-custom-options');
+    if (savedCustom) {
+      try {
+        const parsed = JSON.parse(savedCustom);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          currentOptions = parsed;
+          currentLabel = '自定义';
+        }
+      } catch {
+        console.warn('RandomPicker: failed to parse saved options');
       }
-    } catch {}
+    }
+  } catch {
+    console.warn('RandomPicker: localStorage not available');
   }
 
   topicBtns.forEach((btn, i) => {
@@ -116,7 +122,11 @@ const PRESET_TOPICS = [
     }
     currentOptions = options;
     currentLabel = '自定义';
-    localStorage.setItem('rp-custom-options', JSON.stringify(options));
+    try {
+      localStorage.setItem('rp-custom-options', JSON.stringify(options));
+    } catch {
+      console.warn('RandomPicker: failed to save to localStorage');
+    }
     resultEl.textContent = `已设置 ${options.length} 个选项`;
 
     topicBtns.forEach(b => {
