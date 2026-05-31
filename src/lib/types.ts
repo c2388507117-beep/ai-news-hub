@@ -227,9 +227,7 @@ export interface DigestItem {
 
 export interface DigestData {
   fetchedAt: string;
-  quote: string;
-  book: string;
-  author: string;
+  items: DigestItem[];
 }
 
 export interface KnowledgeList {
