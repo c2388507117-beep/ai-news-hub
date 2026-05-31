@@ -122,6 +122,8 @@ const QUOTES = [
   { quote: '天下难事必作于易，天下大事必作于细。', book: '道德经', author: '老子' },
 ];
 
+console.log('Fetching daily digest...');
+
 const now = new Date();
 const startOfYear = new Date(now.getFullYear(), 0, 0);
 const diff = now - startOfYear;
@@ -130,6 +132,11 @@ const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
 function main() {
   const index = dayOfYear % QUOTES.length;
   const selected = QUOTES[index];
+
+  // Validate quote data
+  if (!selected.quote || !selected.book) {
+    throw new Error(`Invalid quote at index ${index}: missing required fields`);
+  }
 
   const output = {
     fetchedAt: now.toISOString(),
@@ -144,8 +151,5 @@ try {
   main();
 } catch (err) {
   console.error('  ✗ Digest fetch failed:', err.message);
-  // Keep existing data if fetch fails
-  if (fs.existsSync(dataPath)) {
-    console.log('  Keeping existing digest data.');
-  }
+  // Existing data on disk is preserved since no write occurred
 }
