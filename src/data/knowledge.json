@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T05:38:36.208Z",
+  "fetchedAt": "2026-05-31T05:47:07.255Z",
   "items": [
+    {
+      "title": "厄瓜多尔签证政策",
+      "extract": "厄瓜多尔是世界上签证政策最寬鬆的國家之一。截至到2011年1月，世界上絕大多數國家的公民均可免签证入境厄瓜多，並停留最多90天。部分南美洲國家公民無需护照，僅憑身分證即可入境。來自其餘國家或地區的入境者均須持有效期6個月以上的护照。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E7%93%9C%E5%A4%9A%E5%B0%94%E7%AD%BE%E8%AF%81%E6%94%BF%E7%AD%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Visa_policy_of_Ecuador.svg/langzh-330px-Visa_policy_of_Ecuador.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "鈍獸科",
       "extract": "鈍獸科 為長鼻目下已滅絕的一個早期演化支，生存於始新世晚期至漸新世早期的北非及阿曼。鈍獸科為化石紀錄上最早發現的大型長鼻目物種，且具有明顯的兩性異型。\n",
@@ -27,13 +34,6 @@
       "extract": "卡梅爾 是一個位於美國緬因州佩諾布斯科特縣的鎮。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%A2%85%E7%88%BE_(%E7%B7%AC%E5%9B%A0%E5%B7%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Auto_Rest_Park%2C_Carmel%2C_Maine%2C_eleven_miles_west_of_Bangor_%2866697%29.jpg/330px-Auto_Rest_Park%2C_Carmel%2C_Maine%2C_eleven_miles_west_of_Bangor_%2866697%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "美洲通讯社",
-      "extract": "美洲通讯社 为阿根廷政府运营的國家新闻通訊社，于1945年埃德尔米罗·胡利安·法雷利任期内由时任劳工部长的胡安·裴隆建立，是拉丁美洲最大的新闻机构。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%B4%B2%E9%80%9A%E8%AE%AF%E7%A4%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sede_T%C3%A9lam_02.jpg/330px-Sede_T%C3%A9lam_02.jpg",
       "source": "wikipedia"
     }
   ]
