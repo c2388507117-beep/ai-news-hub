@@ -1,0 +1,248 @@
+---
+// XingtaiWeather - self-contained weather widget for Xingtai (邢台)
+// Uses wttr.in free API (no API key required)
+// API: https://wttr.in/Xingtai?format=j1
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-amber-500 to-orange-500 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">🌤️</span> 邢台天气
+    </h3>
+  </div>
+  <div class="p-4" id="xingtai-weather">
+    <!-- Loading state -->
+    <div id="xingtai-loading" class="text-center text-gray-500 dark:text-gray-400 text-sm py-4">
+      🌤️ 加载邢台天气...
+    </div>
+
+    <!-- Error state (hidden by default) -->
+    <div id="xingtai-error" class="text-center text-red-500 text-sm py-4 hidden">
+      ❌ 天气加载失败
+    </div>
+
+    <!-- Weather content (hidden by default, shown after successful fetch) -->
+    <div id="xingtai-content" class="hidden">
+      <!-- Current weather -->
+      <div class="text-center mb-4">
+        <div class="text-4xl font-bold text-gray-800 dark:text-gray-200 tabular-nums" id="xingtai-temp">--</div>
+        <div class="text-sm text-gray-500 dark:text-gray-400 mt-1" id="xingtai-desc">--</div>
+        <div class="flex justify-center gap-4 mt-2 text-xs text-gray-500 dark:text-gray-400">
+          <span id="xingtai-humidity">💧 --</span>
+          <span id="xingtai-wind">💨 --</span>
+        </div>
+      </div>
+
+      <!-- 3-day forecast (collapsible, default folded) -->
+      <details class="text-xs">
+        <summary class="font-medium text-gray-600 dark:text-gray-300 cursor-pointer hover:text-gray-800 dark:hover:text-gray-100 list-none flex items-center gap-1 [&::-webkit-details-marker]:hidden">
+          📅 未来3天预报
+        </summary>
+        <div class="mt-2 space-y-2" id="xingtai-forecast">
+          <!-- Filled by JS -->
+        </div>
+      </details>
+
+      <!-- 24h forecast (horizontal scroll) -->
+      <div class="mt-3">
+        <div class="text-xs font-medium text-gray-600 dark:text-gray-300 mb-2">🕐 逐时预报</div>
+        <div class="flex gap-2 overflow-x-auto pb-2" id="xingtai-hourly">
+          <!-- Filled by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  var CACHE_KEY = 'xingtai-weather-cache';
+  var CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+
+  // DOM refs with null guards
+  var loadingEl = document.getElementById('xingtai-loading');
+  var errorEl = document.getElementById('xingtai-error');
+  var contentEl = document.getElementById('xingtai-content');
+  var tempEl = document.getElementById('xingtai-temp');
+  var descEl = document.getElementById('xingtai-desc');
+  var humidityEl = document.getElementById('xingtai-humidity');
+  var windEl = document.getElementById('xingtai-wind');
+  var forecastEl = document.getElementById('xingtai-forecast');
+  var hourlyEl = document.getElementById('xingtai-hourly');
+
+  if (!loadingEl || !errorEl || !contentEl || !tempEl || !descEl || !humidityEl || !windEl || !forecastEl || !hourlyEl) {
+    throw new Error('XingtaiWeather: missing DOM elements');
+  }
+
+  /**
+   * Map wttr.in weatherCode to weather emoji
+   * @param {number|string} code - wttr.in weather code
+   * @returns {string} emoji
+   */
+  function getWeatherEmoji(code) {
+    var c = Number(code);
+    if (c === 113) return '☀️'; // Sunny
+    if (c === 116) return '⛅';        // Partly cloudy
+    if (c >= 119 && c <= 122) return '☁️'; // Cloudy
+    if (c >= 176 && c <= 200) return '🌧️'; // Rain
+    if (c >= 227 && c <= 230) return '❄️'; // Snow
+    if (c >= 248 && c <= 260) return '🌫️'; // Fog/mist (precise)
+    if (c >= 143 && c <= 248) return '🌫️'; // Fog/mist
+    if (c >= 263 && c <= 389) return '🌧️'; // Rain/drizzle
+    return '🌤️'; // Default sunny-cloudy
+  }
+
+  /**
+   * Format wttr.in time string (e.g. "300", "1200") to "HH:MM"
+   * @param {string|number} time
+   * @returns {string}
+   */
+  function fmtTime(time) {
+    var s = String(time).padStart(4, '0');
+    return s.slice(0, 2) + ':' + s.slice(2);
+  }
+
+  /**
+   * Format date string (e.g. "2024-01-15") to "M/D 周X"
+   * @param {string} dateStr
+   * @returns {string}
+   */
+  function fmtDate(dateStr) {
+    var d = new Date(dateStr + 'T00:00:00');
+    if (isNaN(d.getTime())) return dateStr;
+    var month = d.getMonth() + 1;
+    var day = d.getDate();
+    var weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+    return month + '/' + day + ' ' + (weekdays[d.getDay()] || '');
+  }
+
+  /**
+   * Fetch weather data from wttr.in with sessionStorage cache
+   * @returns {Promise<Object>}
+   */
+  async function loadWeather() {
+    // Check sessionStorage cache
+    try {
+      var cached = sessionStorage.getItem(CACHE_KEY);
+      if (cached) {
+        var parsed = JSON.parse(cached);
+        if (parsed && parsed.timestamp && parsed.data && Date.now() - parsed.timestamp < CACHE_TTL) {
+          return parsed.data;
+        }
+      }
+    } catch (_) {
+      // sessionStorage unavailable or corrupted — ignore
+    }
+
+    var res = await fetch('https://wttr.in/Xingtai?format=j1');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+
+    // Cache the response
+    try {
+      sessionStorage.setItem(CACHE_KEY, JSON.stringify({ timestamp: Date.now(), data: data }));
+    } catch (_) {
+      // sessionStorage quota exceeded — ignore
+    }
+
+    return data;
+  }
+
+  /**
+   * Render weather data into DOM
+   * @param {Object} data - wttr.in API response
+   */
+  function render(data) {
+    // --- Current conditions ---
+    var current = data.current_condition && data.current_condition[0];
+    if (!current) throw new Error('No current_condition in API response');
+
+    tempEl.textContent = (current.temp_C || '--') + '°C';
+
+    var desc = (current.weatherDesc && current.weatherDesc[0] && current.weatherDesc[0].value) || '--';
+    descEl.textContent = getWeatherEmoji(current.weatherCode) + ' ' + desc;
+
+    humidityEl.textContent = '💧 ' + (current.humidity || '--') + '%';
+    windEl.textContent = '💨 ' + (current.windSpeedKmph || '--') + ' km/h';
+
+    // --- 3-day forecast ---
+    if (data.weather && data.weather.length > 0) {
+      forecastEl.innerHTML = '';
+      var days = data.weather.slice(0, 3);
+      for (var i = 0; i < days.length; i++) {
+        var day = days[i];
+        if (!day) continue;
+
+        // Pick a representative weather code from near-noon hourly entry
+        var dayEmoji = '🌤️';
+        if (day.hourly && day.hourly.length > 0) {
+          var noonIdx = Math.min(day.hourly.length - 1, 4);
+          if (day.hourly[noonIdx] && day.hourly[noonIdx].weatherCode != null) {
+            dayEmoji = getWeatherEmoji(day.hourly[noonIdx].weatherCode);
+          }
+        }
+
+        var el = document.createElement('div');
+        el.className = 'flex items-center justify-between text-gray-600 dark:text-gray-300';
+        el.innerHTML = '<span>' + fmtDate(day.date) + '</span><span>' + dayEmoji + '</span><span class="tabular-nums">' + (day.tempMinC ?? '--') + '° / ' + (day.tempMaxC ?? '--') + '°C</span>';
+        forecastEl.appendChild(el);
+      }
+    }
+
+    // --- 24h hourly forecast (next 6 slots) ---
+    if (data.weather && data.weather[0] && data.weather[0].hourly) {
+      hourlyEl.innerHTML = '';
+      var hourly = data.weather[0].hourly;
+      var now = new Date();
+      var currentH = now.getHours();
+
+      // Filter to upcoming time slots from today
+      var slots = [];
+      for (var k = 0; k < hourly.length; k++) {
+        var h = hourly[k];
+        if (!h) continue;
+        var hourNum = parseInt(h.time, 10) / 100;
+        if (!isNaN(hourNum) && hourNum >= currentH) {
+          slots.push(h);
+        }
+      }
+
+      // If fewer than 6, borrow from tomorrow's hourly
+      if (slots.length < 6 && data.weather[1] && data.weather[1].hourly) {
+        for (var m = 0; m < data.weather[1].hourly.length && slots.length < 6; m++) {
+          var tomorrowH = data.weather[1].hourly[m];
+          if (tomorrowH) slots.push(tomorrowH);
+        }
+      }
+
+      slots = slots.slice(0, 6);
+
+      for (var n = 0; n < slots.length; n++) {
+        var slot = slots[n];
+        var el = document.createElement('div');
+        el.className = 'flex flex-col items-center gap-1 min-w-[60px] p-2 rounded-lg bg-gray-50 dark:bg-gray-800/50 text-xs text-gray-600 dark:text-gray-300 flex-shrink-0';
+        el.innerHTML = '<span class="font-medium">' + fmtTime(slot.time) + '</span><span class="text-lg leading-none">' + getWeatherEmoji(slot.weatherCode) + '</span><span class="tabular-nums">' + (slot.tempC ?? '--') + '°</span>';
+        hourlyEl.appendChild(el);
+      }
+    }
+  }
+
+  // --- Init ---
+  async function init() {
+    try {
+      var data = await loadWeather();
+      render(data);
+      loadingEl.classList.add('hidden');
+      contentEl.classList.remove('hidden');
+    } catch (err) {
+      console.error('XingtaiWeather error:', err);
+      loadingEl.classList.add('hidden');
+      errorEl.classList.remove('hidden');
+    }
+  }
+
+  init();
+})();
+</script>

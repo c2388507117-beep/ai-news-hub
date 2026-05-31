@@ -11,6 +11,7 @@ import DailyDigest from '../components/DailyDigest.astro';
 import SalaryCountdown from '../components/SalaryCountdown.astro';
 import RandomPicker from '../components/RandomPicker.astro';
 import ElectricalCalc from '../components/ElectricalCalc.astro';
+import XingtaiWeather from '../components/XingtaiWeather.astro';
 import Footer from '../components/Footer.astro';
 import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
@@ -94,8 +95,9 @@ allNews.forEach((item) => {
       <!-- Left: Personal Dashboard -->
       <div class="space-y-4">
         <!-- Personal tools row 1: DailyDigest + SalaryCountdown -->
-        <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-4">
           <DailyDigest data={digest} />
+          <XingtaiWeather />
           <SalaryCountdown />
         </div>
 
