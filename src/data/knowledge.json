@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T02:42:19.232Z",
+  "fetchedAt": "2026-05-31T04:05:51.398Z",
   "items": [
+    {
+      "title": "加勒特縣",
+      "extract": "加勒特縣 是美国马里兰州最西部的一個縣，東 (部分)、南、西鄰西維吉尼亞州，北鄰宾夕法尼亚州，面積1,699平方公里。根據2020年美國人口普查，共有人口28,806人。縣治奧克蘭（Oakland）。該縣成立於1872年，是該州最近成立的縣；縣名紀念巴爾的摩與俄亥俄鐵路主席約翰·沃克·加勒特。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%8B%92%E7%89%B9%E7%B8%A3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Garrett_County_Courthouse%2C_Maryland.JPG/330px-Garrett_County_Courthouse%2C_Maryland.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "互联网的起源",
       "extract": "互联网的前身是1969年美国国防部高级研究计划局（ARPA）建立的阿帕网（ARPANET），最初仅连接了4所大学的计算机。1989年，蒂姆·伯纳斯-李提出了万维网的概念，发明了HTTP协议和HTML语言，为现代互联网奠定了基础。",

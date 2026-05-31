@@ -1,77 +1,85 @@
 {
-  "fetchedAt": "2026-05-31T00:17:34.089Z",
+  "fetchedAt": "2026-05-31T04:05:50.358Z",
   "topSellers": [
     {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 6999,
-      "finalPrice": 6999,
+      "price": 980000,
+      "finalPrice": 980000,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 41900,
-      "finalPrice": 41900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 3899,
-      "finalPrice": 3509,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "name": "DRAGON QUEST VII Reimagined",
+      "appid": 2499860,
+      "price": 877800,
+      "finalPrice": 658300,
+      "discount": 25,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2499860/capsule_184x69.jpg"
     },
     {
       "name": "Subnautica 2",
       "appid": 1962700,
-      "price": 2999,
-      "finalPrice": 2999,
+      "price": 337000,
+      "finalPrice": 337000,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
+      "name": "007 First Light - Standard Edition",
+      "appid": 1488462,
+      "price": 891000,
+      "finalPrice": 891000,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+    },
+    {
+      "name": "DRAGON QUEST MONSTERS: The Dark Prince",
+      "appid": 2175540,
+      "price": 498000,
+      "finalPrice": 124500,
+      "discount": 75,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_184x69.jpg"
+    },
+    {
+      "name": "TBH : Task Bar Hero - Supporter Pack",
+      "appid": 4427390,
+      "price": 53000,
+      "finalPrice": 42400,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4427390/capsule_184x69.jpg"
+    },
+    {
+      "name": "TBH - Full Package Bundle",
+      "appid": 73382,
+      "price": 276500,
+      "finalPrice": 176900,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/73382/capsule_184x69.jpg"
+    },
+    {
+      "name": "DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition",
+      "appid": 1295510,
+      "price": 547800,
+      "finalPrice": 273900,
+      "discount": 50,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295510/capsule_184x69.jpg"
+    },
+    {
       "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
       "appid": 1588213,
-      "price": 2775,
-      "finalPrice": 1387,
+      "price": 464200,
+      "finalPrice": 232100,
       "discount": 50,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
     },
     {
-      "name": "Mina the Hollower",
-      "appid": 1875580,
-      "price": 2049,
-      "finalPrice": 2049,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
-    },
-    {
-      "name": "Gamble With Your Friends",
-      "appid": 3892270,
-      "price": 779,
-      "finalPrice": 779,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 First Light",
-      "appid": 3768760,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
+      "name": "TBH : Task Bar Hero - Hunter (Class)",
+      "appid": 4427420,
+      "price": 65500,
+      "finalPrice": 52400,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4427420/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
