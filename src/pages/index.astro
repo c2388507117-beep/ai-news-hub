@@ -7,8 +7,12 @@ import SteamCharts from '../components/SteamCharts.astro';
 import BilibiliFavorites from '../components/BilibiliFavorites.astro';
 import WallpaperGallery from '../components/WallpaperGallery.astro';
 import DailyKnowledge from '../components/DailyKnowledge.astro';
+import DailyDigest from '../components/DailyDigest.astro';
+import SalaryCountdown from '../components/SalaryCountdown.astro';
+import RandomPicker from '../components/RandomPicker.astro';
+import ElectricalCalc from '../components/ElectricalCalc.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem } from '../lib/types';
+import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, DigestData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
@@ -17,6 +21,7 @@ import footballData from '../data/football.json';
 import steamData from '../data/steam.json';
 import bilibiliData from '../data/bilibili.json';
 import knowledgeData from '../data/knowledge.json';
+import digestData from '../data/digest.json';
 
 const allNews = allNewsData as NewsItem[];
 const wallpapers = wallpaperData as WallpaperData;
@@ -25,8 +30,9 @@ const football = footballData as FootballData;
 const steam = steamData as SteamData;
 const bilibili = bilibiliData as BilibiliData;
 const knowledge = knowledgeData as KnowledgeItem | null;
+const digest = digestData as DigestData;
 
-// --- Compute Related Articles ---
+// --- Compute Related Articles (same as before) ---
 const commonWords = new Set([
   'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of',
   'with', 'by', 'from', 'is', 'are', 'was', 'were', 'be', 'been', 'has', 'have',
@@ -41,10 +47,9 @@ function extractKeywords(title) {
   for (const word of cleaned.split(/\s+/)) {
     if (word.length >= 3 && !commonWords.has(word)) tokens.push(word);
   }
-  // Also extract individual Chinese characters (as features)
   const chineseChars = title.match(/[一-鿿]/g) || [];
   for (let i = 0; i < chineseChars.length - 1; i++) {
-    tokens.push(chineseChars[i] + chineseChars[i + 1]); // bigrams
+    tokens.push(chineseChars[i] + chineseChars[i + 1]);
   }
   return [...new Set(tokens)];
 }
@@ -67,14 +72,13 @@ function getRelated(item, all, max = 3) {
   return scored.slice(0, max).map((s) => s.item);
 }
 
-// Build lookup for related articles
 const relatedMap = new Map<string, NewsItem[]>();
 allNews.forEach((item) => {
   relatedMap.set(item.id, getRelated(item, allNews));
 });
 ---
 
-<BaseLayout title="AI News Hub - AI/科技/游戏新闻聚合">
+<BaseLayout title="AI News Hub - 个人仪表盘">
   <Wallpaper data={wallpapers} />
 
   <main class="max-w-6xl mx-auto px-4 py-6">
@@ -85,99 +89,113 @@ allNews.forEach((item) => {
       nextMatch={football.nextMatch}
     />
 
-    <!-- Category Nav (full width) -->
-    <nav class="mb-4 overflow-x-auto">
-      <div class="flex gap-2 min-w-max" id="category-nav">
-        <button data-cat="" class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-blue-600 text-white transition-colors">
-          📰 全部
-        </button>
-        {ALL_CATEGORIES.map((key) => (
-          <button
-            data-cat={key}
-            class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-          >
-            {CATEGORY_EMOJIS[key]} {CATEGORY_LABELS[key]}
-          </button>
-        ))}
-      </div>
-    </nav>
+    <!-- Two-Column Layout: Main Dashboard + Right Sidebar -->
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_240px] gap-4">
+      <!-- Left: Personal Dashboard -->
+      <div class="space-y-4">
+        <!-- Personal tools row 1: DailyDigest + SalaryCountdown -->
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+          <DailyDigest data={digest} />
+          <SalaryCountdown />
+        </div>
 
-    <!-- Three-Column Layout: Left Sidebar | Main | Right Sidebar -->
-    <div class="grid grid-cols-1 lg:grid-cols-[240px_1fr_240px] gap-4">
-      <!-- Left Sidebar: Normal Wallpapers + Steam Charts -->
-      <aside class="hidden lg:block space-y-4">
-        <WallpaperGallery data={wallpapers} />
-        <SteamCharts data={steam} />
-      </aside>
+        <!-- Personal tools row 2: Wallpapers + RandomPicker -->
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+          <WallpaperGallery data={wallpapers} />
+          <RandomPicker />
+        </div>
 
-      <!-- Center: Main Content -->
-      <div>
-        <!-- Search -->
-        <form action="/search" method="get" class="mb-3">
-          <div class="relative">
-            <input
-              type="search"
-              name="q"
-              aria-label="搜索"
-              placeholder="搜索新闻..."
-              class="w-full px-4 py-2.5 pl-10 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow"
-            />
-            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
+        <!-- Category Nav (full width) -->
+        <nav class="mb-2 overflow-x-auto">
+          <div class="flex gap-2 min-w-max" id="category-nav">
+            <button data-cat="" class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-blue-600 text-white transition-colors">
+              📰 全部
+            </button>
+            {ALL_CATEGORIES.map((key) => (
+              <button
+                data-cat={key}
+                class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              >
+                {CATEGORY_EMOJIS[key]} {CATEGORY_LABELS[key]}
+              </button>
+            ))}
           </div>
-        </form>
+        </nav>
 
-        <!-- Update Button -->
-        <div class="flex justify-end mb-3">
-          <button
-            id="update-btn"
-            class="px-4 py-2 text-sm font-medium rounded-lg bg-green-600 hover:bg-green-700 text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            🔄 更新新闻
-          </button>
-        </div>
+        <!-- News (collapsible, default folded) -->
+        <details class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+          <summary class="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 cursor-pointer text-sm font-bold text-white hover:from-blue-500 hover:to-blue-600 transition-all list-none flex items-center gap-2 [&::-webkit-details-marker]:hidden">
+            <span aria-hidden="true">🗞️</span> 新闻资讯
+          </summary>
+          <div class="p-4">
+            <!-- Search -->
+            <form action="/search" method="get" class="mb-3">
+              <div class="relative">
+                <input
+                  type="search"
+                  name="q"
+                  aria-label="搜索"
+                  placeholder="搜索新闻..."
+                  class="w-full px-4 py-2.5 pl-10 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow"
+                />
+                <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+            </form>
 
-        <!-- News Cards -->
-        <div id="news-list" class="space-y-3 pb-4">
-          {allNews.map((item) => (
-            <div class="news-item" data-category={item.category}>
-              <NewsCard item={item} relatedItems={relatedMap.get(item.id) || []} />
+            <!-- Update Button -->
+            <div class="flex justify-end mb-3">
+              <button
+                id="update-btn"
+                class="px-4 py-2 text-sm font-medium rounded-lg bg-green-600 hover:bg-green-700 text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                🔄 更新新闻
+              </button>
             </div>
-          ))}
-          {allNews.length === 0 && (
-            <p class="text-center text-gray-400 py-12">暂无新闻，点击「更新新闻」获取</p>
-          )}
-        </div>
 
-        <!-- Pagination -->
-        <div id="pagination" class="flex items-center justify-center gap-2 pb-8 text-sm">
-          <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-            首页
-          </button>
-          <button id="pg-prev" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-            ← 上一页
-          </button>
-          <span id="pg-info" class="px-3 py-1.5 text-xs text-gray-500 dark:text-gray-400 tabular-nums">
-            1 / 1
-          </span>
-          <button id="pg-next" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-            下一页 →
-          </button>
-          <button id="pg-last" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-            尾页
-          </button>
-        </div>
+            <!-- News Cards -->
+            <div id="news-list" class="space-y-3 pb-4">
+              {allNews.map((item) => (
+                <div class="news-item" data-category={item.category}>
+                  <NewsCard item={item} relatedItems={relatedMap.get(item.id) || []} />
+                </div>
+              ))}
+              {allNews.length === 0 && (
+                <p class="text-center text-gray-400 py-12">暂无新闻，点击「更新新闻」获取</p>
+              )}
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="flex items-center justify-center gap-2 pb-8 text-sm">
+              <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
+                首页
+              </button>
+              <button id="pg-prev" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
+                ← 上一页
+              </button>
+              <span id="pg-info" class="px-3 py-1.5 text-xs text-gray-500 dark:text-gray-400 tabular-nums">
+                1 / 1
+              </span>
+              <button id="pg-next" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
+                下一页 →
+              </button>
+              <button id="pg-last" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
+                尾页
+              </button>
+            </div>
+          </div>
+        </details>
       </div>
 
-      <!-- Right Sidebar: Girl Wallpapers + Bilibili Favorites -->
+      <!-- Right: Sidebar -->
       <aside class="hidden lg:block space-y-4">
         <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
         <BilibiliFavorites data={bilibili} />
       </aside>
     </div>
 
-    <!-- Mobile: Wallpapers, Steam & Bilibili below main content -->
+    <!-- Mobile: Wallpapers & Bilibili below main content -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:hidden">
       <WallpaperGallery data={wallpapers} />
       <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
@@ -185,8 +203,10 @@ allNews.forEach((item) => {
       <BilibiliFavorites data={bilibili} />
     </div>
 
-    <!-- Daily Knowledge (full width) -->
-    <div class="mt-4">
+    <!-- Bottom: Utility Tools (3 columns) -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+      <ElectricalCalc />
+      <SteamCharts data={steam} />
       <DailyKnowledge data={knowledge} />
     </div>
   </main>
@@ -196,13 +216,13 @@ allNews.forEach((item) => {
 </BaseLayout>
 
 <script>
+  // Keep the EXISTING client JS for category filtering, pagination, and update button
   const PER_PAGE = 10;
   const newsItems = document.querySelectorAll('.news-item');
   const catBtns = document.querySelectorAll('.cat-btn');
   let currentCat = '';
   let currentPage = 1;
 
-  // Pagination elements
   const pgFirst = document.getElementById('pg-first');
   const pgPrev = document.getElementById('pg-prev');
   const pgNext = document.getElementById('pg-next');
@@ -222,20 +242,12 @@ allNews.forEach((item) => {
   function renderPage() {
     const visible = getVisibleItems();
     const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
-
     if (currentPage > totalPages) currentPage = totalPages;
     if (currentPage < 1) currentPage = 1;
-
     const start = (currentPage - 1) * PER_PAGE;
     const end = start + PER_PAGE;
-
-    // Hide all, show only current page items
     newsItems.forEach((item) => (item.style.display = 'none'));
-    visible.slice(start, end).forEach(({ el }) => {
-      el.style.display = '';
-    });
-
-    // Update pagination UI
+    visible.slice(start, end).forEach(({ el }) => { el.style.display = ''; });
     pgInfo.textContent = `${currentPage} / ${totalPages}`;
     pgFirst.disabled = currentPage <= 1;
     pgPrev.disabled = currentPage <= 1;
@@ -248,31 +260,24 @@ allNews.forEach((item) => {
     const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
     currentPage = Math.max(1, Math.min(page, totalPages));
     renderPage();
-    // Scroll to top of news list
     document.getElementById('news-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // Category filtering
   catBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
       const cat = btn.dataset.cat || '';
       currentCat = cat;
-
       catBtns.forEach((b) => {
         b.classList.remove('bg-blue-600', 'text-white');
         b.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       });
-
       btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       btn.classList.add('bg-blue-600', 'text-white');
-
-      // Reset to page 1 when filtering
       currentPage = 1;
       renderPage();
     });
   });
 
-  // Pagination buttons
   pgFirst.addEventListener('click', () => goToPage(1));
   pgPrev.addEventListener('click', () => goToPage(currentPage - 1));
   pgNext.addEventListener('click', () => goToPage(currentPage + 1));
@@ -282,10 +287,8 @@ allNews.forEach((item) => {
     goToPage(totalPages);
   });
 
-  // Initial render
   renderPage();
 
-  // Manual update button
   const updateBtn = document.getElementById('update-btn');
   if (updateBtn) {
     updateBtn.addEventListener('click', async () => {
