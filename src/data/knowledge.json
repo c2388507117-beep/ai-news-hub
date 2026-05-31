@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T04:24:27.853Z",
+  "fetchedAt": "2026-05-31T04:39:32.127Z",
   "items": [
+    {
+      "title": "克罗伊特",
+      "extract": "克罗伊特 是德国巴伐利亚州上巴伐利亚行政区米斯巴赫县的市镇，面积122.26平方千米，2023年12月31日人口为3,517人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E7%BD%97%E4%BC%8A%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kreuth_StLeonhard.jpg/330px-Kreuth_StLeonhard.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "阿图罗·乌斯拉尔·彼特里",
       "extract": "阿图罗·乌斯拉尔·彼特里 是委内瑞拉政治人物、外交官、作家。拉丁美洲魔幻现实主义文学的首倡者，著有《红色长矛》、《黄金国之路》、《死者的葬礼》、《胜者》等作品。\n",
@@ -28,13 +35,6 @@
       "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%8B%92%E7%89%B9%E7%B8%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Garrett_County_Courthouse%2C_Maryland.JPG/330px-Garrett_County_Courthouse%2C_Maryland.JPG",
       "source": "wikipedia"
-    },
-    {
-      "title": "互联网的起源",
-      "extract": "互联网的前身是1969年美国国防部高级研究计划局（ARPA）建立的阿帕网（ARPANET），最初仅连接了4所大学的计算机。1989年，蒂姆·伯纳斯-李提出了万维网的概念，发明了HTTP协议和HTML语言，为现代互联网奠定了基础。",
-      "url": "",
-      "imageUrl": null,
-      "source": "curated"
     }
   ]
 }
