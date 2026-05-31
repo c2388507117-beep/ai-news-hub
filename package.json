@@ -8,7 +8,8 @@
     "build": "astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "fetch:news": "node scripts/fetch-news.mjs",
-    "fetch:trending": "node scripts/fetch-trending.mjs"
+    "fetch:trending": "node scripts/fetch-trending.mjs",
+    "digest": "node scripts/fetch-digest.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0",

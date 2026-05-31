@@ -39,11 +39,14 @@ jobs:
       - name: Fetch daily knowledge
         run: node scripts/fetch-knowledge.mjs
 
+      - name: Fetch daily digest
+        run: node scripts/fetch-digest.mjs
+
       - name: Commit and push updated data
         run: |
           git config user.name "ai-news-hub-bot"
           git config user.email "bot@ai-news-hub.local"
-          git add src/data/news.json src/data/wallpapers.json src/data/wallpapers-girl.json src/data/football.json src/data/steam.json src/data/bilibili.json src/data/knowledge.json
+          git add src/data/news.json src/data/wallpapers.json src/data/wallpapers-girl.json src/data/football.json src/data/steam.json src/data/bilibili.json src/data/knowledge.json src/data/digest.json
           if git diff --cached --quiet; then
             echo "No changes to data files"
           else
