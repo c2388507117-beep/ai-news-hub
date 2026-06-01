@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-01T00:17:35.482Z",
+  "fetchedAt": "2026-06-01T06:20:12.845Z",
   "items": [
+    {
+      "title": "P-47戰鬥機",
+      "extract": "P-47雷霆式戰鬥機（Thunderbolt）由共和飛機公司製造，是美國陸軍航空軍（美國空軍前身）在二次大戰中後期的主力戰鬥機之一，也是當時最大型的單引擎戰鬥機，其後期的M / N型更排得進二戰時盟軍最快的螺旋槳戰鬥機之前列。除了空戰方面在中低空略显机动力不足，P-47超出同期战斗机功率近一倍的巨大引擎和直径达3.65米的螺旋桨使其可搭载更强的对空火力、更厚重的装甲，且適合於搭载更多小型炸弹執行對地攻擊任務；虽然巨大的油耗使其滞空时间和航程缩短，但15,686架的總產量使P-47位居美國戰機產量的第一位，其中D型機的12602架，更是世界軍機單一機型生產量第一位。除了美國陸軍航空軍外，也有其他盟軍空軍部隊使用P-47戰鬥機。由於其機身明顯較其他型戰機壯碩許多，故當時被空勤人員暱稱為「水罐」（Jug）。\n",
+      "url": "https://zh.wikipedia.org/wiki/P-47%E6%88%B0%E9%AC%A5%E6%A9%9F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/P-47D-40_Thunderbolt_44-95471_side.jpg/330px-P-47D-40_Thunderbolt_44-95471_side.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "詹妮弗·安妮斯顿",
       "extract": "珍妮佛·祖安娜·安妮斯顿，美國女演员、导演、制片人及慈善家，曾在好莱坞星光大道留名。\n",
@@ -27,13 +34,6 @@
       "extract": "持續性正壓呼吸器，是一種通過持續將加壓空氣輸送入呼吸道，以防止睡眠期間氣道塌陷的呼吸輔助儀器。俗稱「睡眠呼吸機」，名稱中的「持續」亦可作「連續」，「正壓」亦可作「陽壓」，「器」亦可作「機」，因此常見名稱有持續陽壓呼吸機、連續陽壓呼吸器、持續正壓呼吸機等多種組合。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%80%A7%E6%AD%A3%E5%A3%93%E5%91%BC%E5%90%B8%E5%99%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CPAP.png/330px-CPAP.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "庞斯陨石坑",
-      "extract": "庞斯陨石坑（Pons）是位于月球正面南半球一座古老的大撞击坑，约形成于酒海纪，其名称取自法国天文学家让-路易·蓬斯，1935年被国际天文学联合会批准接受。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BA%9E%E6%96%AF%E9%99%A8%E7%9F%B3%E5%9D%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Normal_Pons_LO_iv_084_h1.jpg",
       "source": "wikipedia"
     }
   ]
