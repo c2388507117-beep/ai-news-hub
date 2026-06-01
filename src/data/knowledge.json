@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-01T19:03:07.247Z",
+  "fetchedAt": "2026-06-01T19:04:41.796Z",
   "items": [
+    {
+      "title": "雕塑家",
+      "extract": "雕塑家，一種視覺藝術家，指專以雕塑為主要創作手法的藝術家，這些雕塑家有些是為了賺取錢財，有些是因自己個人喜好，但雕刻技術卓越的人，也一律統稱為雕塑家。於古希臘羅馬時代，就有相當多製作人像、建築外部浮雕的雕塑家。而在中國，青銅器的製造者，也可算一種雕塑家，並不僅限於泥塑，木雕等題材。大部分的雕塑家創作浮雕、泥塑、木雕、石雕、青銅雕塑，甚至是臺灣的麵雕等雕刻。但現代藝術家中的雕塑家，使用的媒材更為豐富，也因此往往與裝置藝術有重疊的題材或認知。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%95%E5%A1%91%E5%AE%B6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/KnutSteen.1.jpg/330px-KnutSteen.1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "王之平",
       "extract": "王之平（1902年—1965年），原名王如松，字茂臣，河北省满城县人，中国人民解放军将领、中国人民解放军开国少将。\n",
@@ -27,13 +34,6 @@
       "extract": "珍妮佛·祖安娜·安妮斯顿，美國女演员、导演、制片人及慈善家，曾在好莱坞星光大道留名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A6%AE%E5%BC%97%C2%B7%E5%AE%89%E5%A6%AE%E6%96%AF%E9%A1%BF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/JenniferAnistonHWoFFeb2012.jpg/330px-JenniferAnistonHWoFFeb2012.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿兰 (哲学家)",
-      "extract": "阿兰，原名埃米尔-奥古斯特·沙尔捷，法国哲学家，他是忠实的人道主义者。他告诫人们警惕潜伏在社会中的专制主义；拥护个人权力与自由；认为具备激情和道德责任感的真诚之人，才会厌恶战争等。在教育领域中他提倡文艺的作用，并主张提高人们的艺术修养与创造力。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%B0_(%E5%93%B2%E5%AD%A6%E5%AE%B6)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%C3%89mile_Chartier_portrait.jpg/330px-%C3%89mile_Chartier_portrait.jpg",
       "source": "wikipedia"
     }
   ]
