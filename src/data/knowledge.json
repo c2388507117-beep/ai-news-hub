@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-01T19:04:41.796Z",
+  "fetchedAt": "2026-06-01T22:18:36.596Z",
   "items": [
+    {
+      "title": "2C-C",
+      "extract": "2C-C（2,5-二甲氧基-4-氯苯乙胺，2,5-dimethoxy-4-chlorophenethylamine）是一种含氯有机化合物，化学式为C10H14ClNO2，被用作宗教致幻劑，最早由亚历山大·舒尔金合成。\n",
+      "url": "https://zh.wikipedia.org/wiki/2C-C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2C-C.svg/langzh-330px-2C-C.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "雕塑家",
       "extract": "雕塑家，一種視覺藝術家，指專以雕塑為主要創作手法的藝術家，這些雕塑家有些是為了賺取錢財，有些是因自己個人喜好，但雕刻技術卓越的人，也一律統稱為雕塑家。於古希臘羅馬時代，就有相當多製作人像、建築外部浮雕的雕塑家。而在中國，青銅器的製造者，也可算一種雕塑家，並不僅限於泥塑，木雕等題材。大部分的雕塑家創作浮雕、泥塑、木雕、石雕、青銅雕塑，甚至是臺灣的麵雕等雕刻。但現代藝術家中的雕塑家，使用的媒材更為豐富，也因此往往與裝置藝術有重疊的題材或認知。\n",
@@ -27,13 +34,6 @@
       "extract": "P-47雷霆式戰鬥機（Thunderbolt）由共和飛機公司製造，是美國陸軍航空軍（美國空軍前身）在二次大戰中後期的主力戰鬥機之一，也是當時最大型的單引擎戰鬥機，其後期的M / N型更排得進二戰時盟軍最快的螺旋槳戰鬥機之前列。除了空戰方面在中低空略显机动力不足，P-47超出同期战斗机功率近一倍的巨大引擎和直径达3.65米的螺旋桨使其可搭载更强的对空火力、更厚重的装甲，且適合於搭载更多小型炸弹執行對地攻擊任務；虽然巨大的油耗使其滞空时间和航程缩短，但15,686架的總產量使P-47位居美國戰機產量的第一位，其中D型機的12602架，更是世界軍機單一機型生產量第一位。除了美國陸軍航空軍外，也有其他盟軍空軍部隊使用P-47戰鬥機。由於其機身明顯較其他型戰機壯碩許多，故當時被空勤人員暱稱為「水罐」（Jug）。\n",
       "url": "https://zh.wikipedia.org/wiki/P-47%E6%88%B0%E9%AC%A5%E6%A9%9F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/P-47D-40_Thunderbolt_44-95471_side.jpg/330px-P-47D-40_Thunderbolt_44-95471_side.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "詹妮弗·安妮斯顿",
-      "extract": "珍妮佛·祖安娜·安妮斯顿，美國女演员、导演、制片人及慈善家，曾在好莱坞星光大道留名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A6%AE%E5%BC%97%C2%B7%E5%AE%89%E5%A6%AE%E6%96%AF%E9%A1%BF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/JenniferAnistonHWoFFeb2012.jpg/330px-JenniferAnistonHWoFFeb2012.jpg",
       "source": "wikipedia"
     }
   ]
