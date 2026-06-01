@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T13:02:48.889Z",
+  "fetchedAt": "2026-06-01T19:03:06.472Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -13,8 +13,8 @@
       "name": "Paralives",
       "appid": 1118520,
       "price": 3999,
-      "finalPrice": 3599,
-      "discount": 10,
+      "finalPrice": 3999,
+      "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
@@ -66,12 +66,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     },
     {
-      "name": "Prime Status Upgrade",
-      "appid": 54029,
-      "price": 1499,
-      "finalPrice": 1499,
+      "name": "LEGO® Batman™: Legacy of the Dark Knight",
+      "appid": 2215200,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

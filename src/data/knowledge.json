@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-01T13:02:49.794Z",
+  "fetchedAt": "2026-06-01T19:03:07.247Z",
   "items": [
+    {
+      "title": "王之平",
+      "extract": "王之平（1902年—1965年），原名王如松，字茂臣，河北省满城县人，中国人民解放军将领、中国人民解放军开国少将。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E5%B9%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%B2%B3%E5%8C%97%E7%9C%81%E7%AB%8B%E7%AC%AC%E4%BA%8C%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_-_%E9%9B%95%E5%A1%91_-_%E7%8E%8B%E4%B9%8B%E5%B9%B3_-_2025-10-24.jpg/330px-%E6%B2%B3%E5%8C%97%E7%9C%81%E7%AB%8B%E7%AC%AC%E4%BA%8C%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_-_%E9%9B%95%E5%A1%91_-_%E7%8E%8B%E4%B9%8B%E5%B9%B3_-_2025-10-24.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "東方果實蠅",
       "extract": "東方果實蠅，又名橘小實蠅，俗稱蜂仔，原產於印度及馬來半島等地，為太平洋地區果樹的重大害蟲。为害250多种水果及蔬菜、繁殖力強，雌蠅產卵於果皮下，幼蟲孵化後鑽入果肉中蛀食，造成水果腐爛失去商品價值，如果吃水果時發現內部長蟲，大半都是東方果實蠅的幼蟲。由於台灣氣候及環境適合牠生存，目前已遍布全台，終年均有果實蠅發生。\n",
@@ -27,13 +34,6 @@
       "extract": "阿兰，原名埃米尔-奥古斯特·沙尔捷，法国哲学家，他是忠实的人道主义者。他告诫人们警惕潜伏在社会中的专制主义；拥护个人权力与自由；认为具备激情和道德责任感的真诚之人，才会厌恶战争等。在教育领域中他提倡文艺的作用，并主张提高人们的艺术修养与创造力。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%B0_(%E5%93%B2%E5%AD%A6%E5%AE%B6)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%C3%89mile_Chartier_portrait.jpg/330px-%C3%89mile_Chartier_portrait.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "杰米·李·拉特雷",
-      "extract": "杰米·李·拉特雷，加拿大女子冰球运动员，场上位置是前锋。她曾代表加拿大国家队参加2022年冬季奥林匹克运动会冰球比赛，获得一枚金牌。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E7%B1%B3%C2%B7%E6%9D%8E%C2%B7%E6%8B%89%E7%89%B9%E9%9B%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jamie_Lee_Rattray.jpg/330px-Jamie_Lee_Rattray.jpg",
       "source": "wikipedia"
     }
   ]
