@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T22:31:00.127Z",
+  "fetchedAt": "2026-06-01T00:17:35.482Z",
   "items": [
+    {
+      "title": "詹妮弗·安妮斯顿",
+      "extract": "珍妮佛·祖安娜·安妮斯顿，美國女演员、导演、制片人及慈善家，曾在好莱坞星光大道留名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E5%A6%AE%E5%BC%97%C2%B7%E5%AE%89%E5%A6%AE%E6%96%AF%E9%A1%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/JenniferAnistonHWoFFeb2012.jpg/330px-JenniferAnistonHWoFFeb2012.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "阿兰 (哲学家)",
       "extract": "阿兰，原名埃米尔-奥古斯特·沙尔捷，法国哲学家，他是忠实的人道主义者。他告诫人们警惕潜伏在社会中的专制主义；拥护个人权力与自由；认为具备激情和道德责任感的真诚之人，才会厌恶战争等。在教育领域中他提倡文艺的作用，并主张提高人们的艺术修养与创造力。\n",
@@ -27,13 +34,6 @@
       "extract": "庞斯陨石坑（Pons）是位于月球正面南半球一座古老的大撞击坑，约形成于酒海纪，其名称取自法国天文学家让-路易·蓬斯，1935年被国际天文学联合会批准接受。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BA%9E%E6%96%AF%E9%99%A8%E7%9F%B3%E5%9D%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Normal_Pons_LO_iv_084_h1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "足立夢實",
-      "extract": "足立夢實，日本女子花樣游泳运动员。埼玉縣出生，畢業於越谷市立南中学校及浦和東高校，曾就讀於國士館大學。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B6%B3%E7%AB%8B%E5%A4%A2%E5%AF%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Open_Make_Up_For_Ever_2013_-_Yumi_Adachi_-_Yukiko_Inui_-_09.jpg/330px-Open_Make_Up_For_Ever_2013_-_Yumi_Adachi_-_Yukiko_Inui_-_09.jpg",
       "source": "wikipedia"
     }
   ]
