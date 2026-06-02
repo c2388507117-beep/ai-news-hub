@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-02T20:22:08.335Z",
+  "fetchedAt": "2026-06-02T23:11:57.502Z",
   "items": [
+    {
+      "title": "奥夫特施旺",
+      "extract": "奥夫特施旺 是德国巴伐利亚州施瓦本行政区上阿尔高县的市镇，面积19.56平方千米，2023年12月31日人口为2,092人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%A4%AB%E7%89%B9%E6%96%BD%E6%97%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ofterschwang_v_NW.jpg/330px-Ofterschwang_v_NW.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "瓦倫施塔特",
       "extract": "瓦倫施塔特（Walenstadt）是瑞士的城鎮，位於該國東部，由聖加侖州負責管轄，面積45.68平方公里，海拔高度425米，2011年人口5,428，其中六成居民信奉羅馬天主教。\n",
@@ -27,13 +34,6 @@
       "extract": "绍德奈堡 是法国科多尔省的一个市镇，属于博讷区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BB%8D%E5%BE%B7%E5%A5%88%E5%A0%A1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Chaudenay_004.JPG/330px-Chaudenay_004.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Eric Nam",
-      "extract": "Eric Nam，本名南允道，美国男歌手。出道前曾擔任記者，曾參與MBC《偉大的誕生2》，在2013年以首張迷你專輯《Heaven's Door》正式出道。\n",
-      "url": "https://zh.wikipedia.org/wiki/Eric_Nam",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/160526_Eric_Nam_%EC%88%98%EC%9B%90_%EA%B2%BD%ED%9D%AC%EB%8C%80_%EA%B5%AD%EC%A0%9C%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%B6%95%EC%A0%9C_05.jpg/330px-160526_Eric_Nam_%EC%88%98%EC%9B%90_%EA%B2%BD%ED%9D%AC%EB%8C%80_%EA%B5%AD%EC%A0%9C%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%B6%95%EC%A0%9C_05.jpg",
       "source": "wikipedia"
     }
   ]
