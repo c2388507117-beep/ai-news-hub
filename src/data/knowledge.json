@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-02T07:00:55.292Z",
+  "fetchedAt": "2026-06-02T11:45:09.748Z",
   "items": [
+    {
+      "title": "斯塔舒夫縣",
+      "extract": "斯塔舒夫縣，是波蘭的縣份，位於該國中部，由聖十字省負責管轄，首府設於斯塔舒夫，面積925平方公里，2010年人口73,125，人口密度每平方公里79人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%A1%94%E8%88%92%E5%A4%AB%E7%B8%A3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Powiat_staszow.svg/langzh-330px-Powiat_staszow.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "绍德奈堡",
       "extract": "绍德奈堡 是法国科多尔省的一个市镇，属于博讷区。\n",
@@ -27,13 +34,6 @@
       "extract": "雕塑家，一種視覺藝術家，指專以雕塑為主要創作手法的藝術家，這些雕塑家有些是為了賺取錢財，有些是因自己個人喜好，但雕刻技術卓越的人，也一律統稱為雕塑家。於古希臘羅馬時代，就有相當多製作人像、建築外部浮雕的雕塑家。而在中國，青銅器的製造者，也可算一種雕塑家，並不僅限於泥塑，木雕等題材。大部分的雕塑家創作浮雕、泥塑、木雕、石雕、青銅雕塑，甚至是臺灣的麵雕等雕刻。但現代藝術家中的雕塑家，使用的媒材更為豐富，也因此往往與裝置藝術有重疊的題材或認知。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%95%E5%A1%91%E5%AE%B6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/KnutSteen.1.jpg/330px-KnutSteen.1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "王之平",
-      "extract": "王之平（1902年—1965年），原名王如松，字茂臣，河北省满城县人，中国人民解放军将领、中国人民解放军开国少将。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E5%B9%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%B2%B3%E5%8C%97%E7%9C%81%E7%AB%8B%E7%AC%AC%E4%BA%8C%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_-_%E9%9B%95%E5%A1%91_-_%E7%8E%8B%E4%B9%8B%E5%B9%B3_-_2025-10-24.jpg/330px-%E6%B2%B3%E5%8C%97%E7%9C%81%E7%AB%8B%E7%AC%AC%E4%BA%8C%E5%B8%88%E8%8C%83%E5%AD%A6%E6%A0%A1_-_%E9%9B%95%E5%A1%91_-_%E7%8E%8B%E4%B9%8B%E5%B9%B3_-_2025-10-24.jpg",
       "source": "wikipedia"
     }
   ]

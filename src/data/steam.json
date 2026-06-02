@@ -1,21 +1,13 @@
 {
-  "fetchedAt": "2026-06-02T07:00:54.689Z",
+  "fetchedAt": "2026-06-02T11:45:09.220Z",
   "topSellers": [
     {
-      "name": "Forza Horizon 6",
-      "appid": 2483190,
-      "price": 6999,
-      "finalPrice": 6999,
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 41900,
+      "finalPrice": 41900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "Paralives",
@@ -26,12 +18,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
-      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
-      "appid": 1588213,
-      "price": 2775,
-      "finalPrice": 1387,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
+      "name": "007 First Light - Standard Edition",
+      "appid": 1488462,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+    },
+    {
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
       "name": "Subnautica 2",
@@ -42,20 +42,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 41900,
-      "finalPrice": 41900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Grand Theft Auto V Enhanced",
-      "appid": 3240220,
-      "price": 2999,
-      "finalPrice": 1499,
+      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
+      "appid": 1588213,
+      "price": 2775,
+      "finalPrice": 1387,
       "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light",
@@ -66,12 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     },
     {
-      "name": "LEGO® Batman™: Legacy of the Dark Knight",
-      "appid": 2215200,
-      "price": 6999,
-      "finalPrice": 6999,
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "Master of Command - The Lion & Eagle",
+      "appid": 4764930,
+      "price": 1499,
+      "finalPrice": 1499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764930/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
