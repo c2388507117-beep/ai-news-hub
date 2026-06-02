@@ -1,5 +1,184 @@
 [
   {
+    "id": "ai-fairwater-1780431718230",
+    "title": "从端侧到云端统一加速：英伟达、微软展示 AI 智能体完整部署栈，Fairwater 工厂提前上线",
+    "url": "https://www.ithome.com/0/959/026.htm",
+    "summary": "IT之家 6 月 3 日消息，在今日开幕的 Build 2026 开发者大会上，身处台北的英伟达 CEO 黄仁勋以线上连线的形式出席，并参与了微软 CEO 萨提亚 · 纳德拉的主题演讲。双方围绕 RTX Spark、DGX Station for Windows、Foundry 平台上的 NVIDIA 开放模型、GitHub Copilot 中的 OpenShell 安全运行时以及下一代 AI 工厂等多项合作展开讨论。微软、英伟达还宣布达成一系列深度合作，并在 Build 大会上展示了横跨 Windows 设备、Azure 云与本地部署的统一加速计算栈，为开发者构建、运行和扩展 AI 智能体与物理 AI 提供端到端支撑。在 Windows 设备端，英伟达与微软将重新定义面向 AI 智能体时代的 PC。",
+    "fullContent": "IT之家 6 月 3 日消息，在今日开幕的 Build 2026 开发者大会上，身处台北的英伟达 CEO 黄仁勋以线上连线的形式出席，并参与了微软 CEO 萨提亚 · 纳德拉的主题演讲。\n双方围绕 RTX Spark、DGX Station for Windows、Foundry 平台上的 NVIDIA 开放模型、GitHub Copilot 中的 OpenShell 安全运行时以及下一代 AI 工厂等多项合作展开讨论。\n微软、英伟达还宣布达成一系列深度合作，并在 Build 大会上展示了横跨 Windows 设备、Azure 云与本地部署的统一加速计算栈，为开发者构建、运行和扩展 AI 智能体与物理 AI 提供端到端支撑。\n\n在 Windows 设备端，英伟达与微软将重新定义面向 AI 智能体时代的 PC。RTX Spark 是首批专为个人智能体打造的 Windows PC 平台，提供 1 petaflop 的 AI 算力、最高 128GB 统一内存、一整天的续航时间，以及无衰减的离电 AI 与图形性能。\n该平台集成 CUDA、RTX、DLSS 和 TensorRT 等 NVIDIA 三十余年技术积累，搭载 RTX Spark 的笔记本和小型台式机将于今秋由微软 Surface、华硕、戴尔、惠普、联想和微星等厂商推出。\n据介绍，DGX Station for Windows 则是目前性能最强的桌面级 AI 超级计算机，搭载 NVIDIA GB300 Grace Blackwell Ultra 桌面超级芯片，配备最高 748GB 统一内存和 20 petaflops FP4 性能，可在本地运行最高 1 万亿参数的先进模型。该系统预计于第四季度由华硕、戴尔、技嘉、惠普、微星和超微等厂商推出。两款产品均运行 NVIDIA OpenShell—— 一个面向自主智能体的安全设计运行时。\n\n在模型与平台层面，NVIDIA 的开放模型组合已正式登陆微软 Foundry。Nemotron 3 Ultra 作为一款面向编码、科研和企业工作流中长期运行智能体的新型开放前沿推理模型，将于本月在 Foundry 托管计算上可用，同时上线的还有用于语音识别的 Nemotron 3.5 ASR 和 Nemotron 3.5 内容安全模型。\n另外，Anthropic 的 Claude 模型现已在 Azure 上的 NVIDIA GB300 Blackwell Ultra 系统中原生运行，未来数周内向客户开放。\nNVIDIA Agent Toolkit 和 NVIDIA NemoClaw 蓝图则为开发者提供了在 Foundry 上打造生产级智能体的开源平台，CUDA-X 库（包括 cuDF、cuOpt、AI-Q 和 NeMo）现已作为领域专用技能对智能体可用。\n\n数据层方面，NVIDIA 加速计算现已内置到微软 Fabric Data Warehouse 中。微软内部基准测试显示，SQL 执行速度达到 CPU 基线的最高 6 倍，在高并发负载下相比其他三家主流云数据仓库提供商最高可达 7 倍。两家公司表示，这是从研究到生产的多年深度工程协作成果，使企业数据层能够跟上 AI 智能体持续查询与推理的速度。\n在物理 AI 领域，微软正在将 NVIDIA 的开源物理 AI 技能和工具与 Azure 及物理 AI 工具链进行整合，为开发者提供基于 Cosmos 3 混合 Transformer 架构的统一平台，用于仿真、训练和部署机器人、自动驾驶车辆及工业系统等自主系统。Cosmos 3 在视觉推理、世界生成和动作生成等关键基准测试中位列开放模型第一位。针对本地部署场景，微软将 Azure Local 上的 Foundry Local 引入 NVIDIA RTX PRO 6000 Blackwell Server Edition 平台，配合 Nemotron 开放模型家族，企业可在本地、混合或主权环境中运行高性能 AI 负载。Foundry Local on Azure Local 现支持多节点部署和 vLLM 运行时。\n\n在安全开发方面，NVIDIA OpenShell 已集成至 GitHub Copilot。每个智能体在其独立的沙箱容器中运行，每一次对外调用在触及文件、网络或凭证之前都会根据策略进行评估，策略以代码形式编写并在仓库中版本化管理，可即时更新。OpenShell 基于 Apache 2.0 开源协议，与模型无关，覆盖本地、混合和云环境。\nAI 基础设施方面，微软位于威斯康星州费尔沃特的 AI 工厂已提前上线，运行数十万套 NVIDIA Grace Blackwell 系统，并与佐治亚州的一座同类 AI 工厂互联，构成可扩展的分布式 AI 系统。黄仁勋还亲口承认：微软部署了最多的 Blackwell 芯片。\n微软已对 NVIDIA Vera Rubin 平台完成验证，该平台现已全面投产，将部署至 Azure 数据中心。Vera Rubin 无需改造即可与 Blackwell 并行部署，每兆瓦推理吞吐量提升最高 10 倍，每个智能体 token 成本降低一个数量级，并内置 NVIDIA 机密计算以保护模型和数据安全。\n\n参考资料：\n\n《Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4) | AKS Engineering Blog》",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T19:24:56.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/0170324e-f66b-40b6-80cc-319614c0caeb.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "ai-1780431718230",
+    "title": "共同开发、部署 AI 医疗模型，微软与梅奥诊所达成合作",
+    "url": "https://www.ithome.com/0/959/025.htm",
+    "summary": "IT之家 6 月 3 日消息，微软今天在 Build 2026 大会宣布与梅奥诊所达成战略合作，共同开发部署医疗保健领域的前沿 AI 模型，让更多人在需要时获得梅奥诊所的医疗知识、服务模式。IT之家在此援引官方新闻稿，本次合作将整合梅奥诊所的全球医疗专业能力、去标识化临床健康数据，以及微软的先进 AI、云计算及超级智能能力，为临床推理、医疗应用场景打造前沿 AI 模型。同时，该模型将由梅奥诊所持有，以延续其长期以来的患者信任、临床严谨性、安全性口碑。微软计划通过 Azure Foundry API 提供该模型，使全球各地的机构都能够获得先进的医疗 AI 能力，更好地服务患者、临床医生以及普通消费者。IT之家注：梅奥诊所是一家成立于 1864 年的医疗机构，在美国佛罗里达州的杰克逊维尔及亚利桑那州的斯科茨代尔设有分院，常年在各大权威报道中位列世界排名第一的最佳医院。",
+    "fullContent": "IT之家 6 月 3 日消息，微软今天在 Build 2026 大会宣布与梅奥诊所达成战略合作，共同开发部署医疗保健领域的前沿 AI 模型，让更多人在需要时获得梅奥诊所的医疗知识、服务模式。\n\nIT之家在此援引官方新闻稿，本次合作将整合梅奥诊所的全球医疗专业能力、去标识化临床健康数据，以及微软的先进 AI、云计算及超级智能能力，为临床推理、医疗应用场景打造前沿 AI 模型。\n同时，该模型将由梅奥诊所持有，以延续其长期以来的患者信任、临床严谨性、安全性口碑。微软计划通过 Azure Foundry API 提供该模型，使全球各地的机构都能够获得先进的医疗 AI 能力，更好地服务患者、临床医生以及普通消费者。\nIT之家注：梅奥诊所是一家成立于 1864 年的医疗机构，在美国佛罗里达州的杰克逊维尔及亚利桑那州的斯科茨代尔设有分院，常年在各大权威报道中位列世界排名第一的最佳医院。",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T19:17:48.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/75137313-3ee6-4884-9612-d782c63231cd.jpg?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "assert-ai-1780431718230",
+    "title": "微软发布 ASSERT 开源框架：让开发者更高效地评测 AI 智能体和应用行为",
+    "url": "https://www.ithome.com/0/959/024.htm",
+    "summary": "IT之家 6 月 3 日消息，微软今日宣布推出开源框架 ASSERT（Adaptive Spec-driven Scoring for Evaluation and Regression Testing，自适应规范驱动评分），旨在将自然语言写成的行为规范直接转换为可执行的评估流程。据介绍，ASSERT 能够从产品需求、政策文件或系统提示等文本出发，自动生成测试场景、数据集、评估指标和计分卡，并针对目标模型、应用或智能体运行测试。该框架建立在这样一个前提之上：行为规范本身应当成为评估的核心输入，而非仅仅作为背景参考。ASSERT 将这一过程系统化为四个阶段：\n首先，将宽泛的行为描述细化为明确的概念规范，进而转换为可编辑的许可与不许可行为分类体系；\n随后，基于开发者指定的维度（如任务类型、角色、工具可用性等）生成分层测试用例，涵盖单轮提示、多轮场景以及善意交互和对抗性探测；\n",
+    "fullContent": "IT之家 6 月 3 日消息，微软今日宣布推出开源框架 ASSERT（Adaptive Spec-driven Scoring for Evaluation and Regression Testing，自适应规范驱动评分），旨在将自然语言写成的行为规范直接转换为可执行的评估流程。\n据介绍，ASSERT 能够从产品需求、政策文件或系统提示等文本出发，自动生成测试场景、数据集、评估指标和计分卡，并针对目标模型、应用或智能体运行测试。\n\n该框架建立在这样一个前提之上：行为规范本身应当成为评估的核心输入，而非仅仅作为背景参考。ASSERT 将这一过程系统化为四个阶段：\n\n首先，将宽泛的行为描述细化为明确的概念规范，进而转换为可编辑的许可与不许可行为分类体系；\n\n随后，基于开发者指定的维度（如任务类型、角色、工具可用性等）生成分层测试用例，涵盖单轮提示、多轮场景以及善意交互和对抗性探测；\n\n接着，对目标系统运行这些用例并记录完整轨迹，包括工具调用、中间决策等；\n\n最后，对照行为分类和策略立场对每个轨迹进行评分，输出通过与否标签、判断理由、策略引用以及作出该裁决的具体回合或动作。\n\n为了验证 ASSERT 的有效性，微软团队开展了两项覆盖率研究和人工评审对比。\n第一项覆盖率研究显示，相比直接从意图生成的评估集，ASSERT 在多项行为（IT之家注：如社会评分、拍马屁行为、任务遵循、工具使用规范、不安全健康建议）上生成的测试集覆盖更广，暴露出更多值得检查的案例，区分强弱系统的能力更强，同时显现出更多独特的失败模式。\n第二项验证通过对比 LLM 判定器与人工审核，显示两者一致率通常在 80%–90%，而人工标注者之间一致率约为 90%，表明 LLM 判定器能够捕捉大部分目标信号，但在策略细微差别或高度专业领域仍需谨慎。\n\n微软指出，ASSERT 最适用于行为定义明确、约束清晰的场景。丰富的工具、政策和边界描述有助于生成更精确的测试用例。开发者不应将汇总评分视为最终结论，更多情况下，收集的失败案例和操作轨迹对改进系统和评估方法更有价值。ASSERT 并不能替代人工判断、遥测数据或领域专家评审，而应将其作为使评估更快速、更明确和更易于迭代的一种方式。\n参考资料：\n\n代码库：https://github.com/responsibleai/ASSERT\n\n项目网站：aka.ms/ASSERT\n\n实例：travel-planning agent",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T19:10:43.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/24d9dc2e-349f-40db-9e98-4324248b013c.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "win11-tls-adcs-ml-dsa-1780431718230",
+    "title": "微软宣布为 Win11 引入后量子密码能力：TLS 预览版上线，ADCS 签发 ML-DSA 证书",
+    "url": "https://www.ithome.com/0/959/023.htm",
+    "summary": "IT之家 6 月 3 日消息，微软宣布为 Windows 11 和 Windows Server 2025 推出新一轮后量子密码学（PQC）能力，帮助组织降低“先窃取后解密”（HNDL）风险。此次更新将量子安全防护从算法与 API 层面延伸至协议和平台组件，包括在 Windows TLS 协议栈中加入 PQ TLS 混合密钥交换、在 Windows 密码学 API 中支持复合 PQC 算法，以及通过 Active Directory 证书服务（ADCS）签发后量子证书。其中 ADCS 的 ML-DSA 证书签发功能已于 2026 年 5 月正式上线，TLS 混合密钥交换和复合算法目前处于预览阶段，预计在未来几个月内普遍可用。PQ TLS 混合密钥交换让传输中的数据直接获得量子安全保护。",
+    "fullContent": "IT之家 6 月 3 日消息，微软宣布为 Windows 11 和 Windows Server 2025 推出新一轮后量子密码学（PQC）能力，帮助组织降低“先窃取后解密”（HNDL）风险。\n此次更新将量子安全防护从算法与 API 层面延伸至协议和平台组件，包括在 Windows TLS 协议栈中加入 PQ TLS 混合密钥交换、在 Windows 密码学 API 中支持复合 PQC 算法，以及通过 Active Directory 证书服务（ADCS）签发后量子证书。\n其中 ADCS 的 ML-DSA 证书签发功能已于 2026 年 5 月正式上线，TLS 混合密钥交换和复合算法目前处于预览阶段，预计在未来几个月内普遍可用。\n\nPQ TLS 混合密钥交换让传输中的数据直接获得量子安全保护。微软在 Windows TLS 堆栈中引入了三种混合组合，每种都将一种经典算法与 NIST 标准后量子算法 ML-KEM 配对，分别为 X25519_MLKEM768、SecP256r1_MLKEM768 和 SecP384r1_MLKEM1024。IT 管理员可通过多种工具启用这些选项，包括组策略、移动设备管理（MDM，如 Intune）或 TLS PowerShell cmdlets。\n该功能已在 Windows Insider 预览频道中提供，适用于评估真实 Windows 原生环境下的部署，为量子安全迁移策略做准备。\n在密码学 API 方面，Windows Cryptography API Next Generation 和证书功能正在加入对复合 ML-KEM 及复合 ML-DSA 的支持，遵循 IETF 对应草案，将传统 ECDSA 数字签名算法与 ML-DSA、传统 ECDHE 密钥交换算法与 ML-KEM 相结合。复合算法要求攻击者必须攻破所有组件才能威胁受保护数据，内置组合方式可降低集成不当带来的风险。\n这些能力同样通过 Windows Insider 预览版提供，未来几个月随 Windows 11 和 Windows Server 2025 正式发布，使开发者和安全架构师能够在实际证书与签名模式中开展原型设计与验证。\n另外，ADCS 签发后量子证书的功能已在 Windows Server 2025 中正式可用。ADCS 支持 ML-DSA-44、ML-DSA-65、ML-DSA-87 三种参数集，可用于代码签名和 TLS 证书等场景。由于现有证书颁发机构（CA）无法直接升级，需部署新的并行 CA 层级以测试和验证后量子证书颁发与信任校验流程。\n微软还计划在今年晚些时候加入 ML-KEM 和复合算法支持，将量子安全能力从签名场景扩展到更广泛的证书互操作领域。\nIT之家从官方获悉，上述进展建立在微软此前工作的基础之上。去年 11 月，PQC 算法已在 Windows 11 和 Windows Server 2025 上全面可用，此次则是将量子安全能力进一步引入实际使用的协议与证书场景。\n微软指出，对于许多组织而言，这些功能提供了采用量子安全加密的明确起点。安全团队可着手盘点公钥加密的使用位置，优先处理涉及长期保密数据的系统，例如文档库、邮件归档、数据库和备份存储，并针对依赖 TLS 及证书信任的资产进行测试；开发人员可在受控环境中测试新算法支持；IT 管理员则可提前准备证书策略、设备策略和加密清单管理等运营变更。\n据微软介绍，未来路线图还将覆盖 IPsec、Wi-Fi 网络保护、TLS 与 Kerberos 认证、Windows Hello 与通行密钥等无密码体验，以及 BitLocker、软件签名和固件签名等平台保护领域，部分能力将在今年落地，更多进展计划于 2027 年推出。",
+    "source": "IT之家",
+    "category": "tech",
+    "publishedAt": "2026-06-02T18:57:03.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/d2bd9b23-13a6-4512-80a6-c2efe53f6dee.jpg?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "acs-ai-1780431718230",
+    "title": "微软发布 ACS 开源标准，让开发者精细化控制 AI 智能体行为",
+    "url": "https://www.ithome.com/0/959/022.htm",
+    "summary": "IT之家 6 月 3 日消息，随着 AI 智能体（Agent）能力不断提升，越来越多企业开始将其部署到应用程序、业务流程和产品之中。但与此同时，如何确保 AI 智能体在不同环境下始终按照预期执行任务，也成为企业面临的新挑战。在今天开幕的 Build 2026 大会上，微软宣布推出一项名为 Agent Control Specification（ACS，智能体控制规范）的开源标准，希望为开发者提供更加统一且细粒度的 AI 智能体行为控制方式。微软表示，ACS 允许开发团队、合规团队以及安全团队共同制定智能体需要遵循的策略规则。这些规则可以明确规定智能体允许执行哪些操作、禁止执行哪些操作、哪些行为必须经过人工审批，以及需要记录哪些证据以供后续审计。据介绍，当 AI 智能体执行任务时，ACS 会在多个“拦截点”检查这些策略文件，以确保智能体始终处于既定约束范围内运行。",
+    "fullContent": "IT之家 6 月 3 日消息，随着 AI 智能体（Agent）能力不断提升，越来越多企业开始将其部署到应用程序、业务流程和产品之中。但与此同时，如何确保 AI 智能体在不同环境下始终按照预期执行任务，也成为企业面临的新挑战。\n在今天开幕的 Build 2026 大会上，微软宣布推出一项名为 Agent Control Specification（ACS，智能体控制规范）的开源标准，希望为开发者提供更加统一且细粒度的 AI 智能体行为控制方式。\n\n微软表示，ACS 允许开发团队、合规团队以及安全团队共同制定智能体需要遵循的策略规则。这些规则可以明确规定智能体允许执行哪些操作、禁止执行哪些操作、哪些行为必须经过人工审批，以及需要记录哪些证据以供后续审计。\n据介绍，当 AI 智能体执行任务时，ACS 会在多个“拦截点”检查这些策略文件，以确保智能体始终处于既定约束范围内运行。\n微软指出，目前开发者控制 AI 智能体行为的方式较为分散。随着越来越多关于 AI 工作流因工具误用或意外操作导致连锁故障的案例出现，开发者通常会通过系统提示词、应用程序中的自定义检查逻辑，或利用分类模型筛查输入与输出内容来限制智能体行为。IT之家注意到，虽然这些方法也有用，但往往会导致控制机制分散在不同组件中，既不利于审计，也难以在不同框架、接口和系统之间复用。\n\nACS 的目标是将这些控制能力整合统一。微软表示，该规范能够在 AI 智能体工作流的多个阶段执行策略检查，包括接收输入之前、调用工具之前、工具返回结果之后以及向用户发送最终回复之前。\n根据策略设置，系统可以允许某项操作执行、直接阻止操作、对敏感信息进行脱敏处理，或者要求人工审批后才能继续执行。\n\n除了基础策略控制之外，开发者还可以在 ACS 中集成分类器，对输入和输出内容进行分类、预测结果或决定智能体应采取的响应方式；也可以接入大语言模型（LLM），通过提示词让模型充当策略“裁判”；同时还能增加针对工具调用、工具选择、输入准确性、输出使用方式以及最终响应内容的检查逻辑。\n微软表示，由于这些策略能够以单一文件形式进行定义，因此可以与 AI 智能体一同打包部署。这意味着一套安全策略可以随着智能体在不同框架和运行环境之间迁移，而无需重复配置，从而提高治理能力的一致性。\nACS 目前以 SDK 形式发布，并提供对多个主流 AI 智能体开发框架和工具的支持，包括 LangChain、OpenAI Agents SDK、Anthropic Agents SDK、AutoGen、CrewAI、Semantic Kernel、Microsoft.Extensions.AI 以及 MCP 工具生态等。",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T18:46:54.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/aaa7bd17-d0ef-4cc9-a559-389f238ea0a4.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "majorana-2-2029-1780431718230",
+    "title": "微软推出量子芯片 Majorana 2，剑指 2029 年打造实用机器",
+    "url": "https://www.ithome.com/0/959/021.htm",
+    "summary": "IT之家 6 月 3 日消息，微软现已推出新一代量子芯片 Majorana 2，新品采用全新材料栈和新一代量子比特，可靠性相比上一代产品提升 1000 倍。据介绍，Majorana 2 使用的量子比特（Qubit）相比上一代产品，可靠性提升 1000 倍。这一里程碑式进展得益于全新材料栈设计，以及 Discovery 智能体 AI 的协助。微软技术院士 Chetan Nayak 透露，Majorana 2 相比 Majorana 1 拥有更加稳定的拓扑相（topological phase），使用铅材料取代铝超导体，并将半导体活性区域更新为砷化铟（IT之家注：Indium Arsenide）+ 砷化铟锑（Indium Arsenide Antimonide）组合，显著提升量子比特性能。",
+    "fullContent": "IT之家 6 月 3 日消息，微软现已推出新一代量子芯片 Majorana 2，新品采用全新材料栈和新一代量子比特，可靠性相比上一代产品提升 1000 倍。\n据介绍，Majorana 2 使用的量子比特（Qubit）相比上一代产品，可靠性提升 1000 倍。这一里程碑式进展得益于全新材料栈设计，以及 Discovery 智能体 AI 的协助。\n\n微软技术院士 Chetan Nayak 透露，Majorana 2 相比 Majorana 1 拥有更加稳定的拓扑相（topological phase），使用铅材料取代铝超导体，并将半导体活性区域更新为砷化铟（IT之家注：Indium Arsenide）+ 砷化铟锑（Indium Arsenide Antimonide）组合，显著提升量子比特性能。\n他解释道：“使用铝材料的 Majorana 1 拥有 1 毫秒到 12 毫秒之间的量子比特寿命；而在 Majorana 2 中，我们将寿命提升到 20 秒以上，稳定性提升超 1000 倍，部分比特甚至能达到分钟级寿命”。\n由于这一进展足够重大，微软决定将实用量子计算机原型的目标推出时间缩短一半，剑指 2029 年发布。",
+    "source": "IT之家",
+    "category": "tech",
+    "publishedAt": "2026-06-02T18:46:25.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/34ff0081-ed86-4b96-bb8e-e9764a8568b0.jpg?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "android-ai-1780431718230",
+    "title": "谷歌宣布 Android 行业首创虚假来电检测功能，防范 AI 克隆语音冒充熟人诈骗",
+    "url": "https://www.ithome.com/0/959/020.htm",
+    "summary": "IT之家 6 月 3 日消息，谷歌今日发布公告，宣布为 Android 推出一项名为“虚假来电检测”（Fake Call Detection）的新功能，以应对日益增长的电诈威胁。该功能被谷歌称为行业首创，当用户与通讯录联系人双方均使用 Phone by Google 时，系统能够检测并标记疑似伪造的联系人来电。此前，谷歌已经推出经过验证的金融机构来电功能，用于提醒用户防范假冒银行等金融机构的诈骗电话。谷歌表示，随着人工智能语音克隆技术的发展，诈骗分子如今不仅能够伪造电话号码，还能利用深度伪造（Deepfake）技术模仿亲友、老板或其他权威人士的声音实施诈骗。例如，来电显示可能显示为“妈妈”，而电话另一端的声音也与真实联系人极为相似，但实际上却是利用 AI 伪造的语音，试图以紧急情况为由进行诈骗。",
+    "fullContent": "IT之家 6 月 3 日消息，谷歌今日发布公告，宣布为 Android 推出一项名为“虚假来电检测”（Fake Call Detection）的新功能，以应对日益增长的电诈威胁。\n该功能被谷歌称为行业首创，当用户与通讯录联系人双方均使用 Phone by Google 时，系统能够检测并标记疑似伪造的联系人来电。此前，谷歌已经推出经过验证的金融机构来电功能，用于提醒用户防范假冒银行等金融机构的诈骗电话。\n\n谷歌表示，随着人工智能语音克隆技术的发展，诈骗分子如今不仅能够伪造电话号码，还能利用深度伪造（Deepfake）技术模仿亲友、老板或其他权威人士的声音实施诈骗。例如，来电显示可能显示为“妈妈”，而电话另一端的声音也与真实联系人极为相似，但实际上却是利用 AI 伪造的语音，试图以紧急情况为由进行诈骗。\n\n根据国际刑警组织（INTERPOL）今年 3 月发布的最新《全球金融欺诈威胁评估》数据，假冒身份类型的诈骗案已成为造成全球超过 4000 亿美元（IT之家注：现汇率约合 2.71 万亿元人民币）损失的主要因素之一。与此同时，这类诈骗也是美国 FTC 收到举报数量最多的欺诈类型之一，仅 2024 年相关损失金额就达到 29.5 亿美元（现汇率约合 200.04 亿元人民币）。\n谷歌指出，随着越来越多用户拒绝接听陌生来电，骗子正将策略转向冒充熟人号码。专家指出，目前的 AI 音频深度伪造技术已逼真到多数人难以仅凭听觉辨别真伪的程度。\n为应对这一问题，谷歌在 Android 中引入了新的验证机制。该功能默认开启并在后台自动运行。当通讯录中的联系人打来电话且双方均使用 Google Phone 时，对方的设备会实时向用户的设备发送静默确认信号，以证明来电确实来自该联系人的真实设备。这一数字握手过程基于端到端加密的 RCS 技术，保障隐私安全。\n如果诈骗分子伪造联系人号码拨打电话，由于无法发送这一验证信号，接收方设备会立即发现异常，并向联系人的真实设备发起二次确认。\n如果对方设备反馈“当前未在拨打电话”，用户这边的手机屏幕将出现弹窗警告，建议立即挂断。谷歌表示，这种主动提醒机制能够帮助用户在诈骗过程中实时识别深度伪造语音和号码伪装攻击。用户也可以随时在 Phone by Google 设置中关闭该功能。\n\n谷歌表示，虚假来电检测功能将于本月开始面向全球市场推送，首批支持搭载 Android 12 及以上版本系统的设备，并率先登陆 Google Pixel 系列产品。由于 Phone by Google 已是大多数 Android 设备的默认电话应用，因此大部分用户可直接获得支持。\n谷歌表示，该功能基于开放标准 RCS 构建，不局限于单一设备或应用生态，其他应用开发商和设备制造商未来也能够采用这项技术，以提升整个行业对电话诈骗的防护能力。\n相关阅读：\n\n《打击诈骗，曝谷歌将为 Android 系统电话应用开发伪造号码识别功能》",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T18:36:54.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/580f40e5-9b83-4686-af7c-da98a83a67d7.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "scout-outlook-onedrive-365-1780431718231",
+    "title": "微软版“龙虾”Scout 发布，深度整合 Outlook、OneDrive 等 365 生态",
+    "url": "https://www.ithome.com/0/959/019.htm",
+    "summary": "IT之家 6 月 3 日消息，微软今天在 Build 2026 开发者大会期间推出自家“龙虾（OpenClaw）”产品 Microsoft Scout，该产品定位全天候 AI 助理，与 Outlook、OneDrive 和 Teams 等 365 生态深度整合。据微软所述，Scout 是公司首款“真正意义的个人助理”。它可以监测本地交通状况及用户日程安排，推荐出行、接孩子放学或赴约的最佳出发时间。其工作方式更加接近真人，能够通过读取 Teams 聊天记录、会议记录和电子邮件内容，逐渐了解用户最看重哪些事情，并主动呈现相应信息。IT之家注意到，Scout 还能够帮助用户处理日程安排、费用报销，还能够给邮件打草稿，甚至还能够主动给用户打电话，号称是“与聊天机器人完全不同的 AI”。目前已有 3000 名微软员工正在使用 Scout，工程师利用它安排会议、处理文字工作、预定差旅行程。",
+    "fullContent": "IT之家 6 月 3 日消息，微软今天在 Build 2026 开发者大会期间推出自家“龙虾（OpenClaw）”产品 Microsoft Scout，该产品定位全天候 AI 助理，与 Outlook、OneDrive 和 Teams 等 365 生态深度整合。\n据微软所述，Scout 是公司首款“真正意义的个人助理”。它可以监测本地交通状况及用户日程安排，推荐出行、接孩子放学或赴约的最佳出发时间。其工作方式更加接近真人，能够通过读取 Teams 聊天记录、会议记录和电子邮件内容，逐渐了解用户最看重哪些事情，并主动呈现相应信息。\n\nIT之家注意到，Scout 还能够帮助用户处理日程安排、费用报销，还能够给邮件打草稿，甚至还能够主动给用户打电话，号称是“与聊天机器人完全不同的 AI”。\n目前已有 3000 名微软员工正在使用 Scout，工程师利用它安排会议、处理文字工作、预定差旅行程。微软发现，许多人使用 Scout 的主要目的是更好地管理自身，并处理好工作、个人生活。\n值得注意的是，微软目前对 Scout 采取相对谨慎的策略。本周仅向美国 Frontier 客户开放桌面预览版，未来几个月内向少量客户开放功能受限的预览版本，公司最终会将 Scout 变成完全上云的软件。\n至于如何处理安全问题，微软副总裁 Omar Shahine 在接受媒体采访时表示：“我们针对 OpenClaw 打造了一套专属接入流程，防范供应链风险及兼容性破坏等问题。我们在云端沙箱环境中运行 OpenClaw，并且将 OpenClaw 视为不受信任组件，因此它不会持有任何机密信息，也无法直接访问你的 365 数据”。",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T18:28:39.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/9d60238e-8b71-40f6-b22e-058e1d69cbf3.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "mai-thinking-1-ai-1780431718231",
+    "title": "微软发布其首款高级推理模型 MAI-Thinking-1：承诺未蒸馏第三方模型，自研 AI 模型阵容进一步扩充",
+    "url": "https://www.ithome.com/0/959/018.htm",
+    "summary": "IT之家 6 月 3 日消息，在 Build 2026 开发者大会上，微软发布了一系列自研 AI 模型，其中包括旗下首款高级推理模型 MAI-Thinking-1。这也是微软在模型研发领域迈出的重要一步。微软介绍称，MAI-Thinking-1 是一款“中等规模模型”，拥有 350 亿活跃参数，在关键软件工程基准测试中能够达到业界领先模型的水平。微软表示，该模型“完全基于干净数据从零开始训练，未使用来自第三方模型的蒸馏数据”。除 MAI-Thinking-1 外，微软还公布了多款面向不同应用场景的新模型，覆盖图像生成、语音转写、语音合成以及编程辅助等领域。在图像领域，微软发布了 MAI-Image 2.5 及其 Flash 版本，两者均支持文生图和图像编辑功能。语音转写方面，微软推出 MAI-Transcribe-1.5，并表示该模型“速度可达竞争对手模型的五倍”。",
+    "fullContent": "IT之家 6 月 3 日消息，在 Build 2026 开发者大会上，微软发布了一系列自研 AI 模型，其中包括旗下首款高级推理模型 MAI-Thinking-1。这也是微软在模型研发领域迈出的重要一步。\n微软介绍称，MAI-Thinking-1 是一款“中等规模模型”，拥有 350 亿活跃参数，在关键软件工程基准测试中能够达到业界领先模型的水平。微软表示，该模型“完全基于干净数据从零开始训练，未使用来自第三方模型的蒸馏数据”。\n除 MAI-Thinking-1 外，微软还公布了多款面向不同应用场景的新模型，覆盖图像生成、语音转写、语音合成以及编程辅助等领域。IT之家汇总如下：\n\n在图像领域，微软发布了 MAI-Image 2.5 及其 Flash 版本，两者均支持文生图和图像编辑功能。\n\n语音转写方面，微软推出 MAI-Transcribe-1.5，并表示该模型“速度可达竞争对手模型的五倍”。\n\n语音能力方面，微软发布了 MAI-Voice-2，同时预告其 Flash 版本即将推出。微软称，新模型新增了对 15 种语言的支持，并提供更多语音选项。\n\n针对编码场景，微软推出了 MAI-Code-1。微软表示，该模型具备“推理效率优化”特性，并已集成到 GitHub Copilot 和 Visual Studio Code 中。\n\n通过此次发布，微软进一步扩展了自研 MAI 模型家族，覆盖推理、图像、语音和编程等多个 AI 应用方向。\n相关阅读：\n\n《微软首个自研推理 AI 模型 MAI-Thinking-1、新 Copilot 超级应用曝光》",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T18:22:47.000Z",
+    "type": "article"
+  },
+  {
+    "id": "windows-365-ai-32-vcpu-gpu-1780431718231",
+    "title": "微软升级 Windows 365：支持开发者预配置环境、企业级 AI 智能体，新增 32 vCPU 与 GPU 型云电脑",
+    "url": "https://www.ithome.com/0/959/017.htm",
+    "summary": "IT之家 6 月 3 日消息，在 Build 2026 大会上，微软宣布迄今为止规模最大的一次 Windows 365 开发者与 AI 智能体（Agent）能力更新。此次更新引入预配置开发环境的 Cloud PC、更丰富的配置选择、面向企业 AI 智能体的新平台，以及进一步增强的安全与连接能力，旨在帮助用户在任意设备上进行开发、部署和扩展。微软表示，过去一年持续收集了大规模使用 Cloud PC 的开发团队和 IT 部门反馈。用户希望新开发者能够更快完成环境准备，在首次后即可开始写代码，而不是花费数小时进行配置；同时，不同开发场景对计算资源的需求差异明显，从 Web 应用到 AI / 机器学习工作负载都需要更灵活的硬件选择。此外，越来越多企业开始部署 AI 智能体，这些智能体需要运行在具备安全、身份管理和策略控制能力的实际环境中。",
+    "fullContent": "IT之家 6 月 3 日消息，在 Build 2026 大会上，微软宣布迄今为止规模最大的一次 Windows 365 开发者与 AI 智能体（Agent）能力更新。\n此次更新引入预配置开发环境的 Cloud PC、更丰富的配置选择、面向企业 AI 智能体的新平台，以及进一步增强的安全与连接能力，旨在帮助用户在任意设备上进行开发、部署和扩展。\n\n微软表示，过去一年持续收集了大规模使用 Cloud PC 的开发团队和 IT 部门反馈。用户希望新开发者能够更快完成环境准备，在首次后即可开始写代码，而不是花费数小时进行配置；同时，不同开发场景对计算资源的需求差异明显，从 Web 应用到 AI / 机器学习工作负载都需要更灵活的硬件选择。此外，越来越多企业开始部署 AI 智能体，这些智能体需要运行在具备安全、身份管理和策略控制能力的实际环境中。\n\n针对开发者环境部署问题，微软宣布 Windows 365 现已支持 Windows 11 Developer Configuration Image（公开预览版）。\n该镜像预装了一系列开发者常用工具，包括 Visual Studio Code、Git、GitHub CLI、Python、Node.js 以及 WSL，开发者上线即可开始工作。\n微软表示，这一环境支持开发者在 Windows 与 Linux（IT之家注：通过 WSL）、本地与云端，以及 AI 工作负载之间切换。\n\n与此同时，Windows 365 现已支持 Windows Autopilot Device Preparation。该功能可通过 Microsoft Intune 在用户首次前自动完成应用和脚本部署，帮助企业提前准备符合规范且可直接投入使用的 Cloud PC 环境。\n微软还宣布，将在未来预览版中推出更丰富的自定义能力，允许团队配置项目所需的 SDK、CLI、软件包、构建工具、代码仓库以及入职流程，同时保持企业既有管理策略。\n另一方面，Azure Compute Gallery 支持已正式可用，组织可在 Azure Compute Gallery 中存储和管理自定义镜像，并将其导入 Windows 365 创建 Cloud PC。\n\n针对 AI 应用开发场景，微软表示，部分语言模型现已能够直接运行在 Windows 365 Cloud PC 上，使开发者能够利用 Cloud PC 的计算资源构建和迭代基于语言模型的应用程序。\n微软还公布了 Windows 365 产品组合更新。其中，Windows 365 Frontline 已更名为 Windows 365 Flex，支持共享访问模式以及更具成本效益的专用使用模式。\n\n在硬件配置方面，微软宣布 32 vCPU Windows 365 Cloud PC 已在 Windows 365 Enterprise 和 Windows 365 Flex 中推出，可用于软件开发、数据建模、仿真以及 AI / 机器学习等计算密集型任务。\n同时，全新的 Windows 365 GPU Select 套餐正式上线，进一步扩展 GPU 云电脑产品线，为开发者提供 Standard、Super 和 Max 方案之外的新选择。\n微软表示，新方案针对应用、多媒体以及硬件加速图形工作流进行了优化，可提供低延迟视觉体验，帮助开发者加快构建与测试流程。所有 GPU 云电脑方案均支持 Windows 365 Enterprise 和 Windows 365 Flex（共享或专用模式）。\n\n随着 AI 智能体逐渐从问答扩展到执行实际任务，微软认为企业面临的关键挑战之一，是让智能体能够在 API 之外操作浏览器、桌面应用和传统系统。为此，微软宣布 Windows 365 for Agents 正式可用。开发者可通过 Agent 365 工具集或预览版 Microsoft Copilot Studio 使用该服务。\n\n微软表示，Windows 365 for Agents 为 AI 智能体提供受保护、可管理且持续可用的 Cloud PC，使智能体能够直接与应用程序和浏览器交互、执行多步骤工作流，并在现代和传统系统之间运行。\n每台 Cloud PC 均支持 Entra 身份集成、Intune 管理以及策略控制，帮助 IT 部门以统一的安全、治理和合规方式大规模部署智能体。微软指出，Agent 365 负责智能体本身的安全与治理，而 Windows 365 for Agents 则提供满足性能与安全需求的专属运行环境。\nWindows 365 for Agents 同时支持低代码和专业代码方式构建的智能体。微软表示，该平台已经被应用于公司内部多个智能体场景，包括 Microsoft Copilot Studio 中的 Project Opal 以及 Researcher 的计算机使用能力。\n此外，该平台还支持第三方智能体，例如合作伙伴 Simular 提供的 Sai。微软称，该智能体能够通过鼠标和键盘操作方式控制 Windows Cloud PC 上的应用程序，其交互方式与人类用户类似。\n安全与连接方面，微软宣布 Context-Based Redirection（基于上下文的重定向）功能将于 6 月进入公开预览阶段。组织可根据设备管理状态、用户网络环境以及位置等上下文信息，制定更细粒度的重定向策略，以控制内容访问与数据流向。\n连接可靠性方面，适用于 Windows 365 和 Azure Virtual Desktop 的 RDP Multipath with Redundant TCP 已正式可用。该功能通过在客户端与会话主机之间同时维护 UDP 和 TCP 多条传输路径，动态选择最可靠连接方式，从而提升会话稳定性并减少连接中断。\n此外，Windows App 中的 Health Checks 功能现已在主权云环境正式推出，可对设备准备状态、网络连接以及特定主权云终端可达性进行轻量级诊断，帮助用户更快定位问题并提高连接可靠性。\n针对共享使用场景，Windows 365 Flex（共享模式）新增基于快照的重置功能，目前处于公开预览阶段。该功能会在用户退出后自动将 Cloud PC 恢复到预设状态，使下一位用户能够直接从干净环境开始使用，同时简化共享设备管理。\n微软还宣布，在 Azure Virtual Desktop 中使用 Azure Files 与 FSLogix 管理外部身份用户配置文件的方案已正式可用，可为合作伙伴和供应商等外部用户提供安全访问能力。\n微软表示，通过此次更新，Windows 365 正进入新的发展阶段，进一步减少开发环境准备时间，帮助开发者保持工作连续性，并支持团队在不同环境中构建、运行和扩展应用。\nWindows 365 Enterprise 和 Windows 365 Flex 已开始提供新的开发者功能；32 vCPU 云电脑和 GPU 云电脑方案现已开放企业咨询；Windows 365 for Agents 则提供通过 Microsoft Copilot Studio 体验 50 小时免费 Cloud PC 的试用机会。",
+    "source": "IT之家",
+    "category": "tech",
+    "publishedAt": "2026-06-02T18:15:23.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/0cd5c065-8681-49ba-bb53-b64ed7cf99aa.jpg?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "project-solara-1780431718231",
+    "title": "微软推出基于安卓的“Project Solara”智能体操作系统，同步展示桌面终端、智能胸牌概念设备",
+    "url": "https://www.ithome.com/0/959/016.htm",
+    "summary": "IT之家 6 月 3 日消息，微软今天在 Build 2026 开发者大会发布专为 AI 智能体打造的“Project Solara”操作系统，并同步展示两款概念设备。据介绍，“Project Solara”并非基于 Windows，而是建立在 Android 之上。微软还在大会中展示了两款概念设备，分别是桌面终端（IT之家注：Desk Concept）和智能胸牌（Badge Concept）。前者外观类似亚马逊 Echo Show、谷歌 Nest Hub 等带屏智能音箱，用户可通过人脸识别解锁设备，并直接访问各类 AI 智能体。而 Badge Concept 则是一款可穿戴设备，其外观类似工牌、胸牌等。机身配备摄像头和指纹识别传感器，支持 5G 连接，用户只需要按一下设备，就能启动 AI 智能体。",
+    "fullContent": "IT之家 6 月 3 日消息，微软今天在 Build 2026 开发者大会发布专为 AI 智能体打造的“Project Solara”操作系统，并同步展示两款概念设备。\n\n据介绍，“Project Solara”并非基于 Windows，而是建立在 Android 之上。\n微软还在大会中展示了两款概念设备，分别是桌面终端（IT之家注：Desk Concept）和智能胸牌（Badge Concept）。前者外观类似亚马逊 Echo Show、谷歌 Nest Hub 等带屏智能音箱，用户可通过人脸识别解锁设备，并直接访问各类 AI 智能体。\n\n而 Badge Concept 则是一款可穿戴设备，其外观类似工牌、胸牌等。机身配备摄像头和指纹识别传感器，支持 5G 连接，用户只需要按一下设备，就能启动 AI 智能体。\n微软在现场演绎了 Badge Concept 的使用场景：用户点击设备的按钮后开始记录对话，系统立刻生成语音转写稿。机身摄像头还能够让 AI 智能体看见用户眼前的事物，从而更好地结合环境提供帮助。\n\n微软目前没有亲自发布这两款设备的计划。这两款概念产品将作为“参考设计”存在，让其他硬件厂商基于此设计真正的商业产品。\n\n至于为何要采用 Android？微软表示，“Project Solara”使用了自家定制的 Android—— 微软设备生态平台（Microsoft Device Ecosystem Platform）。这种系统能够运行在尺寸较小、功耗较低的设备上，同时保留企业 IT 部门所需的安全、管理功能。\n\n微软透露，该计划仍处于早期状态，目前已有百思买、AccuWeather、CVS Health、Target 等厂商启动相关硬件试点项目。",
+    "source": "IT之家",
+    "category": "tech",
+    "publishedAt": "2026-06-02T17:49:50.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/66abb85a-64f1-4f5e-a56f-bf6c25d50c4e.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "0-1-shell-1780431718231",
+    "title": "微软发布智能终端 0.1 版本：自动检测 Shell 命令错误，现已开放下载",
+    "url": "https://www.ithome.com/0/959/015.htm",
+    "summary": "IT之家 6 月 3 日消息，微软在 Build 2026 开发者大会上宣布推出全新的智能终端（Intelligent Terminal）。这是一款基于 Windows Terminal 的开源实验性分支，现已通过微软商店和 WinGet 开放下载。该终端将 AI 编程能力直接集成到命令行环境中（默认使用 GitHub Copilot CLI），同时也支持所有遵循 Agent Client Protocol（ACP）协议的 AI 智能体。其核心交互界面是一个可停靠的 Agent 窗格。该窗格能够感知当前 Shell 的输出上下文。当用户输入的命令执行失败时，终端会自动检测错误，并在状态栏上显示一个指示图标。用户点击该图标或按下 Ctrl+Alt+.即可打开已加载错误上下文的 Agent 窗格。微软官方描述道：“智能体可以为你解释发生了什么，并建议或运行最佳修复方案。",
+    "fullContent": "IT之家 6 月 3 日消息，微软在 Build 2026 开发者大会上宣布推出全新的智能终端（Intelligent Terminal）。\n这是一款基于 Windows Terminal 的开源实验性分支，现已通过微软商店和 WinGet 开放下载。\n\n该终端将 AI 编程能力直接集成到命令行环境中（默认使用 GitHub Copilot CLI），同时也支持所有遵循 Agent Client Protocol（ACP）协议的 AI 智能体。\n其核心交互界面是一个可停靠的 Agent 窗格。该窗格能够感知当前 Shell 的输出上下文。当用户输入的命令执行失败时，终端会自动检测错误，并在状态栏上显示一个指示图标。用户点击该图标或按下 Ctrl+Alt+.即可打开已加载错误上下文的 Agent 窗格。\n微软官方描述道：“智能体可以为你解释发生了什么，并建议或运行最佳修复方案。你可以在设置中配置 Intelligent Terminal 仅自动检测错误，或同时自动建议修复。”\n\n如图所示，智能体状态栏默认位于窗口底部，左侧包含显示 / 隐藏智能体窗格的切换按钮以及错误检测图标，右侧则是智能体管理图标。通过智能体管理面板（可随时按 Ctrl+Shift+/打开），用户可以查看所有活跃智能体及其当前状态，以及可回溯的历史会话。\n此外，命令面板也提供了另一种快速启动智能体任务的入口：输入? 后跟提示或任务，终端会将当前窗格的上下文注入并在后台标签页中启动智能体，从而不阻塞当前 Shell 操作。\n\nIntelligent Terminal 版本 0.1 目前已在微软商店上架，用户也可通过执行 winget install Microsoft.IntelligentTerminal 进行安装。该应用可与现有 Windows Terminal 并存安装，不会影响主线 Terminal 的体验。\n\n微软同时宣布，在此版本发布后，将弃用 Canary 通道中的 Terminal Chat 功能。所有配置均通过 Terminal 设置中的“Agent”部分完成，包括选择智能体和模型、调整窗格位置（上、下、左、右）以及设定自动错误检测的行为。\nIT之家附微软商店官方地址：\nhttps://apps.microsoft.com/detail/9nmqc2ssjx24?hl=zh-CN&gl=CN",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T17:36:48.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/76e948f9-35d7-4e21-8903-bb4e56d7cc33.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "web-iq-ai-api-token-1780431718231",
+    "title": "微软发布 Web IQ：专为 AI 智能体打造的搜索 API，减少 Token 消耗并提升响应速度",
+    "url": "https://www.ithome.com/0/959/014.htm",
+    "summary": "IT之家 6 月 3 日消息，微软现已推出 Microsoft Web IQ 服务，本质上是一套专门为 AI 智能体打造的搜索 API。微软在 Microsoft Build 2026 大会中表示，Web IQ 能够帮助 AI 工具连接到互联网，获取各类信息资源。但具体工作方式与传统的、面向人类的搜索引擎有所不同。微软搜索与 AI 部门总裁 Jordi Ribas 在接受外媒 CNET 采访时表示，Web IQ 是针对 AI 智能体提供的解决方案，可提供上下文信息、网页文档、新闻、图片和视频等内容，让 AI 智能体建立语义标定（IT之家注：grounding）。尽管 AI 与人类搜索信息的方式不同，但微软还是依靠必应（Bing）多年来积攒的经验构建 Web IQ。",
+    "fullContent": "IT之家 6 月 3 日消息，微软现已推出 Microsoft Web IQ 服务，本质上是一套专门为 AI 智能体打造的搜索 API。\n\n微软在 Microsoft Build 2026 大会中表示，Web IQ 能够帮助 AI 工具连接到互联网，获取各类信息资源。但具体工作方式与传统的、面向人类的搜索引擎有所不同。\n微软搜索与 AI 部门总裁 Jordi Ribas 在接受外媒 CNET 采访时表示，Web IQ 是针对 AI 智能体提供的解决方案，可提供上下文信息、网页文档、新闻、图片和视频等内容，让 AI 智能体建立语义标定（IT之家注：grounding）。\n尽管 AI 与人类搜索信息的方式不同，但微软还是依靠必应（Bing）多年来积攒的经验构建 Web IQ。\nRibas 表示：“我们充分利用了必应过去二十年的一切能力，同时从底层开始重新构建整套架构，确保这套工具能为 AI 智能提供量体裁衣的搜索结果”。\n人类搜索与 AI 智能体搜索之间的最大差别在于信息呈现方式。对于人类而言，搜索引擎需要根据用户意图，对搜索结果进行最佳排序；而对 AI 智能体来说，它只需要一个内容全面、高度浓缩的信息页面，以便在不消耗过多 Token 的情况下进行解析。\n因此，Web IQ 必须能够快速提供高质量的搜索结果，并以紧凑形式返回信息。\nRibas 透露，Web IQ 拥有业界领先的搜索结果质量、Token 效率及响应延迟。其中 95% 的请求能够在 165 毫秒内得到响应，同时在 Token 利用效率方面也表现突出。微软声称，其速度大约是市场上其他同类产品的 2.5 倍。\n目前，Web IQ API 已被用于微软自家 AI 产品 Copilot，以及 OpenAI 旗下 ChatGPT。未来还会有其他公司利用这套系统，但 Ribas 目前无法透露具体名单。",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T17:26:40.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/df95b245-ac7a-42a4-9b1a-4ca8ed1852b0.png?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "ai-win11-mxc-sdk-1780431718231",
+    "title": "微软为 AI 智能体划清安全边界，为 Win11 发布 MXC SDK",
+    "url": "https://www.ithome.com/0/959/013.htm",
+    "summary": "IT之家 6 月 3 日消息，微软在今日开幕的 Build 2026 大会上介绍了 Windows 平台针对 AI 智能体的安全方案，并正式推出了 Microsoft Execution Containers（MXC）SDK 的早期预览版。该 SDK 旨在为 Windows 及 WSL（适用于 Linux 的 Windows 子系统）上的 AI 智能体提供一个跨平台、策略驱动的执行层。随着 AI 智能体从简单的问答转向自主跨系统操作，这也对计算环境的控制与信任机制提出了新挑战。微软指出，开发者正在打造能够读取文件、调用服务、修改环境并高速串联操作的智能体，这引发了一个关键问题：当这些系统在真实数据上大规模自主运行时，如何确保其可信赖性。",
+    "fullContent": "IT之家 6 月 3 日消息，微软在今日开幕的 Build 2026 大会上介绍了 Windows 平台针对 AI 智能体的安全方案，并正式推出了 Microsoft Execution Containers（MXC）SDK 的早期预览版。\n该 SDK 旨在为 Windows 及 WSL（适用于 Linux 的 Windows 子系统）上的 AI 智能体提供一个跨平台、策略驱动的执行层。\n\n随着 AI 智能体从简单的问答转向自主跨系统操作，这也对计算环境的控制与信任机制提出了新挑战。微软指出，开发者正在打造能够读取文件、调用服务、修改环境并高速串联操作的智能体，这引发了一个关键问题：当这些系统在真实数据上大规模自主运行时，如何确保其可信赖性。\n对此，微软将隔离性（Containment）、身份识别（Identity）与可管理性（Manageability）作为 Windows 的基础安全基元，将安全边界从应用和模型层扩展至操作系统。\n微软此前已分享了其在 Windows 上保护智能体工作流的原则，并在今年 5 月宣布 Microsoft Agent 365 将扩展能力，包括发现和管理 Windows 上的本地智能体（IT之家注：初期支持 OpenClaw 智能体，后续将扩展至 GitHub Copilot CLI 和 Claude Code 等更广泛的智能体）。在 Build 2026 上，微软宣布 Agent 365 与 Windows 正通过引入 MXC SDK 来协同提供上述能力。\n据介绍，MXC SDK 为开发者提供了一个抽象层，封装了底层的隔离基元，使开发者无需处理低层级的隔离细节。通过该 SDK，开发者可以在其应用和智能体中定义需要约束的内容，而 Windows 则通过 MXC 在运行时强制执行这些策略。这种可组合的沙箱机制让同一套策略模型和 SDK 能够根据不同工作负载和隔离需求，映射到不同的隔离结构。\n\nWindows 支持多种隔离选项，以满足智能体生态系统的多样化需求。在 Build 大会后不久即将发布的早期预览版中，将包含以下两种核心隔离方式：\n\n进程隔离（Process Isolation）：为用户环境中的智能体提供快速、轻量级的隔离。它可将模型生成的代码限制在专用进程边界内运行，仅允许访问策略允许的文件和网络域。这一方式非常适合对响应速度要求高的编码类智能体。据介绍，GitHub Copilot CLI 已采用 MXC 的进程隔离来约束其动态生成和执行代码的行为。\n\n会话隔离（Session Isolation）：适用于涉及大量长期运行进程或需要独立资源（如用于运行自动化的桌面）的工作负载。Windows 中的会话将智能体的执行环境与人类用户的交互桌面、剪贴板、UI、输入设备等隔离开来，可有效缓解 UI 欺骗、提示注入和跨会话数据泄露等风险。每个会话使用独立的用户账户运行，Windows 将会为容器分配一个本地 ID 或由 Entra 支持的云端预配身份，并将容器的所有活动归因于此身份，从而清晰区分人类与智能体的操作。\n\n除上述已发布的功能外，微软还公布了 MXC 未来在安全隔离能力上的发展路线图，包括：\n\nMicro-VM：针对高风险工作负载，利用虚拟机监控程序提供基于硬件的隔离，使用轻量级镜像，在提升隔离强度的同时实现比完整虚拟机更高的密度。这对于处理敏感数据或运行不可信外部代码的智能体尤为适用。\n\nLinux 容器：通过 WSL 将隔离模型引入以 Linux 为核心的智能体工具链，实现与 Linux ML 框架及软件包生态的兼容，并具备操作系统级别的边界强制执行能力。\n\nWindows 365 for Agents：该服务现已正式可用。它将隔离范围从本地设备扩展到云 PC。智能体运行在由 Intune 管理的云 PC 上，与用户设备完全隔离。未来，Windows 365 for Agents 将集成 MXC，可通过统一的 SDK 和策略模型，从轻量级本地隔离扩展至更强的硬件级隔离边界。\n\n此外，微软正与生态系统中的合作伙伴紧密合作，以确保其隔离方案满足开发者的实际需求。\nOpenClaw 现已可在 Windows 上利用 MXC 安全运行其节点和网关；NVIDIA 基于 MXC 构建的 OpenShell 已登陆 Windows；Hermes Agent 也将在其新的 Windows 应用中集成 OpenShell 和 MXC。\nNous Research 首席执行官 Dillon Rolnick 表示：“持续运行的本地智能体需要明确的隔离，开发者需要控制智能体能访问什么，并相信这些控制是有效的。与 MXC 集成的 OpenShell 为 Windows 上的私有设备端智能体提供了策略驱动的基础。”\nOpenAI 技术团队成员 David Wiesen 表示：“通过与微软合作开发 MXC，我们得以探索 AI 智能体安全高效生成和执行代码的新模式。将 Codex 的能力与 MXC 的执行环境相结合，旨在帮助开发者更快地从意图走向可靠执行，同时维护企业所需的安全与控制。”\nManus 首席产品官张涛表示：“借助 MXC，Windows 为开发者提供了一种策略驱动的方式，来定义智能体可以访问的内容并在运行时强制执行这些边界，从而使更自主的智能体能够在企业环境中安全运行。”\n在安全基础方面，Windows 通过默认减少攻击面并提高安全基线，使智能体无需额外工作即可继承这些保护，主要体现在无密码、无需重启的热补丁更新、用 Rust 编写驱动程序以减少内存安全漏洞以及 Insider 版本中的后量子密码学等方面。\n微软还宣布其多模型智能体扫描工具 MDASH 现已集成至 Microsoft Defender，并向符合条件的组织开放扩展预览。\nMDASH 于数周前首次亮相，旨在调度数十个专门化的 AI 智能体来发现代码库中的漏洞，与 OpenAI 的 Daybreak、Anthropic 的 Claude Security、Project Glasswing 及 Mythos 等工具形成竞争。\n微软表示，MDASH 通过针对不同用例设计的可配置模型实现差异化，包括“重度推理”模型以及可用于高吞吐量操作的低成本模型。在三周前首次公布时，MDASH 在公开的 CyberGym 基准测试中得分为 88.45%，目前该分数已提升至 96.55%，这也成为行业基准。\n此外，Microsoft Defender 可针对提示注入等新兴智能体威胁提供实时防护。企业可管理性是 Windows 长期以来为 IT 和安全团队提供的关键平台能力。Agent 365 现已为运行在 Windows 操作系统环境（如 MXC 和 Windows 365 for Agents）上的智能体提供原生集成的可观测性、治理和安全能力，以确保智能体从一开始就处于安全状态。\n微软表示，许多上述安全能力已在最新 Windows Insider 预览版中提供，更多功能将通过开发者预览计划陆续推出。开发者现在可以通过探索 Microsoft Execution Containers SDK 来开始构建更安全的 AI 智能",
+    "source": "IT之家",
+    "category": "tech",
+    "publishedAt": "2026-06-02T17:21:02.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/b31ef428-7446-4662-820a-30721ea0f226.jpg?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
+    "id": "phi-4-mini-edge-aion-1-0-instruct-api-145-1780431718232",
+    "title": "继 Phi-4-mini 后：微软宣布为 Edge 浏览器引入更高效的 Aion-1.0-Instruct 模型与翻译 API，支持 145 种以上语言",
+    "url": "https://www.ithome.com/0/959/012.htm",
+    "summary": "IT之家 6 月 3 日消息，在今日开幕的 Build 2026 开发者大会上，微软宣布在去年为 Edge 浏览器推出基于 Phi-4-mini 模型的写作辅助 API 基础上扩展了其端侧 AI 能力，新增了模型和 API。本次更新主要包括三项内容：\n0-Instruct 小语言模型的开发者预览版（用于早期测试和反馈）；\nEdge 148 版本中由端侧任务专用模型驱动的语言检测和翻译 API；\n以及在 Edge Canary 和 Dev 通道中提供的实验性 Web Speech API 端侧语音识别功能。微软表示，过去一年中，Edge 浏览器的写作辅助 API 一直基于 Phi-4-mini 模型。这是一个 40 亿参数的模型，在文本理解、推理和指令遵循方面表现出色，但其硬件要求限制了它在不同设备上的可用性。",
+    "fullContent": "IT之家 6 月 3 日消息，在今日开幕的 Build 2026 开发者大会上，微软宣布在去年为 Edge 浏览器推出基于 Phi-4-mini 模型的写作辅助 API 基础上扩展了其端侧 AI 能力，新增了模型和 API。本次更新主要包括三项内容：\n\nAion-1.0-Instruct 小语言模型的开发者预览版（用于早期测试和反馈）；\n\nEdge 148 版本中由端侧任务专用模型驱动的语言检测和翻译 API；\n\n以及在 Edge Canary 和 Dev 通道中提供的实验性 Web Speech API 端侧语音识别功能。\n\n微软表示，过去一年中，Edge 浏览器的写作辅助 API 一直基于 Phi-4-mini 模型。这是一个 40 亿参数的模型，在文本理解、推理和指令遵循方面表现出色，但其硬件要求限制了它在不同设备上的可用性。\n因此，微软即日起在 Edge Canary 和 Dev 通道中引入了 Aion-1.0-Instruct 小语言模型的开发者预览版。该模型更小、更快、更高效，可扩展到更多设备 —— 包括 GPU 性能较低的设备，以及通过 CPU 推理支持无 GPU 的设备，同时为广泛的 Web 使用场景提供良好的输出质量。\n该预览版允许开发者在真实 Web 场景中评估 Aion-1.0-Instruct，测试 API 互操作性并提供反馈，该模型计划于 7 月以开源形式发布到 Hugging Face。\n在 Edge 148 预览版中，全新的语言检测和翻译 API 已正式可用。这些 API 允许网站和浏览器扩展识别文本语言并在语言对之间进行翻译，基于端侧任务专用模型，支持 145 种以上语言，并针对 Web 翻译负载进行了优化。\n开发者可以在网站或扩展中使用 JavaScript 调用这些 API，相比云服务，可获得更好的用户隐私、网络独立性以及零翻译成本。\n在最新的 Edge Canary 和 Dev 通道中，微软还引入了处理语音的端侧任务专用模型，实现了 Web Speech API 的本地语音识别。该实现将语音转文字过程在用户设备上本地完成，可改善用户隐私、降低延迟，并支持低网络连接或无网络场景。开发者只需在现有 Web Speech API 代码中做少量修改，例如设置 recognition.processLocally = true，即可启用端侧语音识别。\n微软表示，借助 Aion-1.0-Instruct 小语言模型、新的语言检测和翻译 API 以及端侧语音识别，开发者可以利用内置于浏览器的模型打造基于 AI 的 Web 体验，无需依赖专用硬件、云服务或特定领域专业知识。",
+    "source": "IT之家",
+    "category": "ai",
+    "publishedAt": "2026-06-02T17:07:48.000Z",
+    "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/8b74deed-a12a-4d13-83b5-6c1146187a9b.jpg?x-bce-process=image/format,f_auto",
+    "type": "article"
+  },
+  {
     "id": "6-nova-lake-wildcat-lake-refresh-1780419485052",
     "title": "曝英特尔 6 核 Nova Lake 移动处理器被砍，Wildcat Lake Refresh 取而代之",
     "url": "https://www.ithome.com/0/959/009.htm",
@@ -179,7 +358,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483804",
+    "id": "untitled-1780431718377",
     "title": "我有一个大侠梦：“武侠”入坑回忆录",
     "url": "https://www.gcores.com/radios/215157",
     "summary": "近几年，国产武侠游戏佳作频出，而“武侠”这俩字，对几位主播来说，其实早在儿时就扎了根。那会儿披上床单就是披风，捡起树枝就是宝剑，嘴里还得念叨几句刚学的招式台词。这期节目里，几位编辑将会一起聊聊那个共同的“大侠梦”是如何开始的——是一本小说、一部电视剧，还是一款武侠游戏？",
@@ -191,7 +370,19 @@
     "type": "article"
   },
   {
-    "id": "310-280-1780419486081",
+    "id": "untitled-1780431720484",
+    "title": "沃尔玛的回调造就了一个颇具吸引力的技术形态",
+    "url": "https://www.tmtpost.com/8012141.html",
+    "summary": "沃尔玛股价在财报发布后遭到抛售，但其相对强势的表现、不断改善的技术面以及稳健的业务基本面表明，这次回调可能提供了一个较为理想的入场机会。",
+    "fullContent": "沃尔玛股价在财报发布后遭到抛售，但其相对强势的表现、不断改善的技术面以及稳健的业务基本面表明，这次回调可能提供了一个较为理想的入场机会。",
+    "source": "钛媒体",
+    "category": "business",
+    "publishedAt": "2026-06-02T13:54:36.000Z",
+    "imageUrl": "https://images.tmtpost.com/uploads/images/2023/tkrss/2r3t43gret3.png",
+    "type": "article"
+  },
+  {
+    "id": "310-280-1780431720485",
     "title": "东阳光：千亿市值下算力豪赌，310亿订单与280亿并购双线狂奔",
     "url": "https://www.tmtpost.com/8012107.html",
     "summary": "东阳光这波操作，简直是把“激进转型”刻在了脑门上。",
@@ -203,7 +394,7 @@
     "type": "article"
   },
   {
-    "id": "7-1780419483638",
+    "id": "7-1780431718078",
     "title": "热门中概股美股盘前普涨，理想汽车涨超7%",
     "url": "https://36kr.com/newsflashes/3836034865411207?f=rss",
     "summary": "36氪获悉，热门中概股美股盘前普涨，截至发稿，理想汽车涨超7%，阿里巴巴、小鹏汽车涨超5%，京东涨超4%，百度涨、哔哩哔哩、蔚来超3%，拼多多、网易涨超2%。",
@@ -214,7 +405,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483638",
+    "id": "untitled-1780431718078",
     "title": "国家发展改革委主任郑栅洁主持召开国有企业座谈会",
     "url": "https://36kr.com/newsflashes/3836032649819272?f=rss",
     "summary": "36氪获悉，6月2日，国家发展改革委主任郑栅洁主持召开国有企业座谈会，与中国远洋海运集团、中国煤炭科工集团、中国资源循环集团、中国物流集团、中国数联物流信息公司、中国国际货运航空公司、中国神华煤制油化工公司等7家国有企业座谈交流，围绕深化国资国企改革、纵深推进全国统一大市场建设、促进绿色低碳发展、保障能源安全等国家重大战略，听取企业情况介绍和意见建议。郑栅洁认真倾听每位企业负责人的发言，与大家深入互动交流，逐一回应关切。",
@@ -225,7 +416,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483638",
+    "id": "untitled-1780431718078",
     "title": "何时启动内地存量业务整治？富途最新回应",
     "url": "https://36kr.com/newsflashes/3836030560761216?f=rss",
     "summary": "6月2日晚间，老虎国际发布通知，明确将自6月12日起暂停对存量投资者账户在中国境内的入金及买入交易服务。目前来看，各家券商行动节奏存在差异。对于存量业务2年集中整治行动何时开启，6月2日晚间，富途客服最新回应称：“本次为中国内地监管部门针对境外金融机构发布的行业性指引，富途也在积极跟进落实相关要求。我们会在确认最终安排后，第一时间通过官方渠道通知您，请留意APP公告。",
@@ -236,7 +427,7 @@
     "type": "article"
   },
   {
-    "id": "18-1780419483638",
+    "id": "18-1780431718078",
     "title": "美股大型科技股盘前涨跌不一，迈威尔科技涨超18%",
     "url": "https://36kr.com/newsflashes/3836029722064007?f=rss",
     "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，迈威尔科技涨超18%，英伟达涨超1%，Meta涨0.43%；微软跌超3%，谷歌跌超2%，亚马逊跌超1%，苹果跌0.",
@@ -247,7 +438,7 @@
     "type": "article"
   },
   {
-    "id": "spacex-ipo-1780419483638",
+    "id": "spacex-ipo-1780431718078",
     "title": "SpaceX正在向银行施压，要求获得有史以来最低的IPO费用率",
     "url": "https://36kr.com/newsflashes/3836020590425216?f=rss",
     "summary": "据报道，SpaceX正在向银行施压，要求获得有史以来最低的首次公开募股（IPO）费用率，希望以不到0.75%的利率筹集750亿美元资金。即使佣金如此之低对于华尔街的IP0承销商而言，这笔费用也可能成为有史以来金额最高的交易之一。牵头银行一高盛集团和摩根士丹利——这些经纪商有望比其他21家经纪商获得更大的佣金份额。知情人士称，这些数字代表SpaceX支付的基本费用，并未计入其他酌情奖励。",
@@ -258,7 +449,7 @@
     "type": "article"
   },
   {
-    "id": "ardian-verne-50-189-ai-15-999-1780419483636",
+    "id": "ardian-verne-50-189-ai-15-999-1780431718076",
     "title": "氪星晚报｜私募股权公司Ardian将与Verne合作，斥资50亿欧元在法国建数字基础设施园区；快手：平台累计催生189个新职业，其中由AI发展带来的新职业达15个；中央财政下达育儿补贴补助资金999亿元支持实施育儿补贴制度",
     "url": "https://36kr.com/p/3834354708031111?f=rss",
     "summary": "高德与新加坡旅游局启动战略合作，将落地首个与海外国家旅游局共建扫街榜\n36氪获悉，6月2日，高德地图与新加坡旅游局（Singapore Tourism Board）在北京签署战略合作备忘录，双方将联合打造首个海外国家旅游局共建文旅榜单——新加坡扫街榜，并将高德飞行街景技术首次落地海外。除了榜单共建，高德还将会把国内已成熟的飞行街景技术应用于新加坡，基于自研空间智能技术，以360°全景视角呈现景点、酒店、街区和餐厅实景，让游客出发前即可直观判断目的地是否符合预期。江西国家稀土技术创新中心成立，注册资本12.36氪获悉，天眼查App显示，近日，江西国家稀土技术创新中心有限公司成立，法定代表人为谢志宏，注册资本12.5亿人民币，经营范围包括矿产资源勘查、自然科学研究和试验发展、工程和技术研究和试验发展等。",
@@ -269,7 +460,7 @@
     "type": "article"
   },
   {
-    "id": "8-1780419486081",
+    "id": "8-1780431720485",
     "title": "供应链黑天鹅突袭、减持阴云笼罩，利通电子暴涨8倍后遇重挫",
     "url": "https://www.tmtpost.com/8011957.html",
     "summary": "估值暴涨后，脆弱底色开始显露。",
@@ -466,7 +657,7 @@
     "type": "article"
   },
   {
-    "id": "chatbot-ai-1780419486081",
+    "id": "chatbot-ai-1780431720485",
     "title": "Chatbot烧钱三年，还是AI时代的“新大陆”吗？",
     "url": "https://www.tmtpost.com/8011510.html",
     "summary": "巨额投入后，Chatbot到了要证明自身商业可行性的时候。",
@@ -514,7 +705,7 @@
     "type": "article"
   },
   {
-    "id": "tv-7-5-1780419483804",
+    "id": "tv-7-5-1780431718377",
     "title": "TV动画《迷宫饭》第二季将于7月5日公布最新情报",
     "url": "https://www.gcores.com/articles/215306",
     "summary": "TV动画《迷宫饭》官方今日在社交媒体确认，将于7月5日于美国洛杉矶举办的Anime Expo2026 TRIGGER专题讨论会上，公布《迷宫饭》第二季的相关消息。",
@@ -526,7 +717,7 @@
     "type": "article"
   },
   {
-    "id": "ai-1780419486081",
+    "id": "ai-1780431720485",
     "title": "滴普科技赵杰辉：企业 AI 技术生态，正在被重构",
     "url": "https://www.tmtpost.com/8011496.html",
     "summary": "在新的结构里，那些「替模型补短板」的技术方案会退到边缘甚至退场，而企业知识层与企业智能体层会成为新的核心。",
@@ -550,7 +741,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419486081",
+    "id": "untitled-1780431720485",
     "title": "快手与字节，打响“二番战”",
     "url": "https://www.tmtpost.com/8011399.html",
     "summary": "当短视频格局尘埃落定时，快手这个封闭生态就已经能看到天花板。当下，从产品体验、服务支撑，到商业模式焕新，AI都被寄予厚望。哪怕需要跟字节硬碰硬，哪怕技术仍然落后，这都是快手最好的出路。",
@@ -562,7 +753,7 @@
     "type": "article"
   },
   {
-    "id": "6-9-dlc-1780419483804",
+    "id": "6-9-dlc-1780431718377",
     "title": "《红色沙漠》公布 6 至 9 月内容更新预览，并首度公开后续 DLC 计划",
     "url": "https://www.gcores.com/articles/215304",
     "summary": "Pearl Abyss 今日发布了最新“开发者日志”，预览了《红色沙漠》下一波内容与功能更新。该系列更新计划于 6 月至 9 月期间面向所有玩家陆续推出。本次更新在一定程度上参考了游戏发售以来玩家分享的反馈，旨在为初入帕卫尔大陆的新手和久经沙场的老玩家提供更佳的体验。同时，Pearl Abyss 还表示， 后续可下载内容（DLC）相关开发工作正在有序推进中。《红色沙漠》团队在开发者更新公告中表示：“ 红色沙漠从发售到现在，正是得益于大家的支持与反馈，才能有今日的样貌。团队补充道：“ 我们红色沙漠团队会继续前行，努力让各位灰鬃在帕卫尔度过的每一个瞬间都无比特别。今后的旅程，也请大家与我们同行。即将到来的更新将为那些在帕卫尔大陆寻求新挑战的玩家引入更多追加内容：\n全新战斗内容： 游戏将加入一项以战斗为核心的全新内容，让玩家有机会证明自己作为一名灰鬃成员的真正实力。更多具体细节将于日后公布。",
@@ -574,7 +765,7 @@
     "type": "article"
   },
   {
-    "id": "10-ai-1780419486081",
+    "id": "10-ai-1780431720485",
     "title": "10万亿！中国正成为AI基建狂魔",
     "url": "https://www.tmtpost.com/8011257.html",
     "summary": "请注意，中国要发力了。",
@@ -586,7 +777,7 @@
     "type": "article"
   },
   {
-    "id": "618-ai-1780419486081",
+    "id": "618-ai-1780431720485",
     "title": "今年618，迎来AI购物“大乱斗”",
     "url": "https://www.tmtpost.com/8011276.html",
     "summary": "当AI助手变身AI买手",
@@ -594,11 +785,11 @@
     "source": "钛媒体",
     "category": "ai",
     "publishedAt": "2026-06-02T09:26:37.000Z",
-    "imageUrl": "https://images.tmtpost.com/uploads/images/wx/2026/06/20260602120311608415.jpg",
+    "imageUrl": "https://images.tmtpost.com/uploads/images/2023/tkrss/23r4t35wethsff3.png",
     "type": "article"
   },
   {
-    "id": "minimax-a-1780419486081",
+    "id": "minimax-a-1780431720485",
     "title": "港股“北归”：智谱和MiniMax为何急着回A？",
     "url": "https://www.tmtpost.com/8011340.html",
     "summary": "国内AI大模型正筹划“双城记”。近日，“全球大模型第一股”智谱（02513.HK）正式建议向国内监管机构申请配发及发行A股，计划在科创板上市，建议A股的发行数量占扩大后股本额2%-8%之间，募集资金以用于AI通用基座大模型、大模型MaaS一站式平台和补充流动资金。",
@@ -610,7 +801,7 @@
     "type": "article"
   },
   {
-    "id": "the-next-factory-how-jensen-huang-s-armies-of-ai-a-1780419486081",
+    "id": "the-next-factory-how-jensen-huang-s-armies-of-ai-a-1780431720485",
     "title": "The Next Factory: How Jensen Huang’s Armies of AI Agents Are Redefining the Compute Economy",
     "url": "https://www.tmtpost.com/8011677.html",
     "summary": "At the Computex Taipei, Nvidia CEO Jensen Huang declared that tech has entered the era of autonomous \"agentic AI\" workers.To anchor this shift, Nvidia unveiled Vera to challenge Intel's data center dominance, the RTX Spark Superchip to capture the consumer PC market, and Cosmos 3 to power mass-produced Unitree humanoid robots.",
@@ -622,11 +813,11 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483636",
+    "id": "untitled-1780431718076",
     "title": "美团在竞争中看清自己",
     "url": "https://36kr.com/p/3835814792492416?f=rss",
     "summary": "参与外卖大战的三家公司中，美团最晚发出一季度财报，但给出了最超预期的“减亏”成果。2026年一季度，美团实现收入910亿元，同比增长5.亮点在于经营亏损的大幅收窄，由上季度的161亿元减至65亿元，其中最受关注的核心本地商业，经营亏损从上季度的100亿元减少到20亿元，明显好于投行预测的40-45亿元。业绩提振下，6月2日港股开盘后，美团盘中最高涨幅超9%，截至发稿，报85.值得关注的是，本季财报中美团还更新了两个关键的收入口径：\n一方面，将“商品销售收入”单列，主要来自食杂零售业务（以小象超市、快驴为主）以及药品、酒类等其他自营零售业务。财报称，这一变化是为了反映零售业务的战略重要性。这部分收入原本属于“其他服务及销售”，单列之后，小象超市的增长势头会更容易追踪；\n另一方面，将原本的“佣金收入”和“在线营销服务收入”合并，以“商家服务收入”的指标进行呈现。",
-    "fullContent": "作者｜任彩茹\n编辑｜乔芊\n参与外卖大战的三家公司中，美团最晚发出一季度财报，但给出了最超预期的“减亏”成果。\n2026年一季度，美团实现收入910亿元，同比增长5.6%，基本符合预期。亮点在于经营亏损的大幅收窄，由上季度的161亿元减至65亿元，其中最受关注的核心本地商业，经营亏损从上季度的100亿元减少到20亿元，明显好于投行预测的40-45亿元。\n业绩提振下，6月2日港股开盘后，美团盘中最高涨幅超9%，截至发稿，报85.25港元/股。\n值得关注的是，本季财报中美团还更新了两个关键的收入口径：\n一方面，将“商品销售收入”单列，主要来自食杂零售业务（以小象超市、快驴为主）以及药品、酒类等其他自营零售业务。财报称，这一变化是为了反映零售业务的战略重要性。这部分收入原本属于“其他服务及销售”，单列之后，小象超市的增长势头会更容易追踪；\n另一方面，将原本的“佣金收入”和“在线营销服务收入”合并，以“商家服务收入”的指标进行呈现。此举带来的结果是，take rate、商家投放意愿等更难直观衡量，到店与到家业务各自的情况进一步变得模糊，双线的竞争态势也更难观察。\n\n美团收入呈报方式的变化（自2026年一季度起）\n财报口径的变化，往往反映一家公司最真实的战略意图。这方面，美团在过去几年有多次调整，2022年一季报，美团取消披露餐饮外卖的GTV，疫情带来的消费表现之变被部分隐去；同年二季报，美团将餐饮外卖、到店酒旅以及新业务三部分收入分项，调整为核心本地商业和新业务两部分，外卖与到店业务的边界开始模糊。2023年开始，美团对年度活跃商家、用户数以及年交易笔数也不再披露。\n回头来看，宏观环境的变化、竞争对手的冲击，一次次重塑和修正了美团。\n一位美团人士告诉36氪，2025年外卖大战初期，一些中高层管理者多次对内表示“大家要放下手上的所有项目，全力服务竞争。”自2025年四季度左右开始，美团内部的导向变得更清晰，即不再关注整个市场的订单份额，将更多资源投向对高价值用户的争取、以及利于长期竞争力的事情上，一些此前停下的、服务于用户和商家体验优化的项目也随之被重启。\n至少从历史表现来看，在最为激烈和危险的竞争中，美团反而不得不重新审视自己的优势及劣势所在，明确要什么、不要什么，进而回到“做正确的事”的轨道上。投资人徐新曾经指出美团赢下千团大战的原因，“那时行业里普遍虚报数据，但王兴的竞争对手跟我说王兴不会这样。美团除了真心对用户好，就是找到了‘三高三低’（高品质、高效率、高科技和低客单、低成本、低毛利）这个生意的本质。”\n如今，美团在到店竞争上也表现出相似意味。财报后的电话会上谈及与抖音的竞争时，CFO陈少晖认为，到店业务的本质逻辑不是流量驱动，“竞争会产生一些噪音”，并表示，美团的到店业务利润率短期内将保持稳定，长期有回升空间。\n01 外卖大战来到拐点，夏季���将见分晓\n外卖UE（单位经济效益）的转正��况，是市场对美团、阿里、京东三家的集体之问。\n目前来看，美团的减亏效率更高。一季度，美团核心本地商业亏损20亿元，仅是预期亏损额的一半。王兴表示，近几个月，美团一方面巩固了市场地位，另一方面扩大了与对手的UE差距，“如果竞争回归理性，Q2的UE将会比Q1有显著提升，但下半年的UE提升仍将取决于竞争环境的演变情况。”\n减亏路径上，美团依赖的是订单结构的改善以及运营能力的优势。知情人士称，在补贴高峰期，美团与竞争对手在订单量上一度接近平开，但在GTV份额上，美团外卖始终保持60%以上的份额。\n在补充电话会上，美团管理层提到，餐饮外卖业务在4月、5月已实现小幅盈利，二季度能否实现整体转正，将取决于6月的表现。值得注意的是，进入6月份，时逢618大促和世界杯等重要节点，与4-5月相比，包括外卖在内的即时零售市场的竞争烈度、补贴力度都会发生变化，但目前从各方表态来看，激烈程度大概率不会再如去年夏季一般。\n阿里在3月份便提出了即时零售业务的盈利路线图——维持2028财年即时零售整体交易规模破万亿元的目标，预计2029财年即时零售业务板块将实现整体盈利。一旦行业整体进入利润修复阶段，美团在运营效率上的优势便值得期待。但局势能否在即将到来的二季度便企稳，仍取决于美团、阿里双方是否能接受当前的市场份额格局。\n对美团而言，实现可持续、高质量的每日1亿单即配订单，仍然是其长期目标。\n外卖业务的导向和思路明确之后，美团在到店业务上面临的竞争似乎更棘手。第一季度，美团到店酒旅的GTV同比增长10%+，收入增幅为中高个位数，利润率20%+。但伴随3月份抖音推出“抖省省”App，到店团购的竞争正在加剧。摩根士丹利在研报中称，“到店酒旅业务存在下行风险。”\n在抖省省这片新阵地上，抖音再度使出了流量与补贴两大工具。一方面，抖音App如今正大力为抖省省App拉新，在抖音的“团购”页面，几乎所有商品都将“去抖省省买”放在了最显眼的显示位，只有再多点击一步，才有“直接购买”的选项，且抖省省的价格均低于直接在抖音购买的价格。\n用户进入抖省省App后，每个商品都会在首屏页面标明“平台补贴xx元”。以“鱼你在一起”的一份套餐为例，美团的价格是25.9元，抖省省的价格则是23.4元。但品牌和商家往往会在套餐内容中作出细节区分，譬如美团在套餐中提供的主菜选项会更多，或是在双拼套餐搭配中，价值更高的“鲜虾蟹籽云吞”在美团平台的数量会更多。\n\n抖省省与美团的价格对比（左为抖省省，右为美团）\n商家不会放弃美团这个成熟渠道，但也无法对抖音的流量坐视不理。QuestMobile数据显示，截至2026年5月10日，抖省省日活跃用户已经接近1600万。\n与外卖类似，美团在一定程度上放弃了“价格战”属性强烈的订单，将资源投向高质量增长和利润，同时坚定地投入品类扩张和市场渗透率。服务零售、低线市场，被美团视为创造增量的阵地。\n以服务零售为例，王莆中在2025年6月就曾表示，“我们在线下看到的，除了卖东西的门店以外，其他大多数都是服务零售的门店，这是一个巨大的版图。”包括健身、美发、按摩、医美等在内，这部分市场的线上化程度低，相比餐饮而言，其产品更非标，交易的信息壁垒也更高。如今，美团通过为非标的“手艺人”建立数字档案等方式，提升服务零售的数字化程度。\n在到店团购市场，抖音无疑是“进攻方”，但美团并非全然的“防守方”，而更像是以自己相信的方法进攻增量市场。陈少晖称，美团今年在到店团购上将专注两件事：在核心品类中强化竞争优势，以及在行业不景气的情况下，为商家打造更好的数字基础设施。管理层对于到店利润率也表现出信心，称短期内能够维持稳定，长期将回升。\n02 小象超市上牌桌，美团向新一代零售公司靠拢\n美团财报将收入呈报方式改变后，小象超市的走势更加透明。它作为自营零售的代表、前置仓的绝对头部玩家，本身在美团内部的存在感就已直线上升。\n从业绩来看，尽管有“美团优选”被关停的影响，一季度，美团新业务的收入仍实现270亿元，同比增长21%，经营亏损收窄至21亿元。就最新拆出的收入分项而言，新业务的商品销售收入同比增长40.7%，小象超市贡献了最主要的增量——小象超市前置仓如今已覆盖55+城市，自有品牌产品的占比也有大幅增加。\n一位美团人士告诉36氪，无论开仓数量还是战略定位，“目标远大",
+    "fullContent": "作者｜任彩茹\n编辑｜乔芊\n参与外卖大战的三家公司中，美团最晚发出一季度财报，但给出了最超预期的“减亏”成果。\n2026年一季度，美团实现收入910亿元，同比增长5.6%，基本符合预期。亮点在于经营亏损的大幅收窄，由上季度的161亿元减至65亿元，其中最受关注的核心本地商业，经营亏损从上季度的100亿元减少到20亿元，明显好于投行预测的40-45亿元。\n业绩提振下，6月2日港股开盘后，美团盘中最高涨幅超9%，截至发稿，报85.25港元/股。\n值得关注的是，本季财报中美团还更新了两个关键的收入口径：\n一方面，将“商品销售收入”单列，主要来自食杂零售业务（以小象超市、快驴为主）以及药品、酒类等其他自营零售业务。财报称，这一变化是为了反映零售业务的战略重要性。这部分收入原本属于“其他服务及销售”，单列之后，小象超市的增长势头会更容易追踪；\n另一方面，将原本的“佣金收入”和“在线营销服务收入”合并，以“商家服务收入”的指标进行呈现。此举带来的结果是，take rate、商家投放意愿等更难直观衡量，到店与到家业务各自的情况进一步变得模糊，双线的竞争态势也更难观察。\n\n美团收入呈报方式的变化（自2026年一季度起）\n财报口径的变化，往往反映一家公司最真实的战略意图。这方面，美团在过去几年有多次调整，2022年一季报，美团取消披露餐饮外卖的GTV，疫情带来的消费表现之变被部分隐去；同年二季报，美团将餐饮外卖、到店酒旅以及新业务三部分收入分项，调整为核心本地商业和新业务两部分，外卖与到店业务的边界开始模糊。2023年开始，美团对年度活跃商家、用户数以及年交易笔数也不再披露。\n回头来看，宏观环境的变化、竞争对手的冲击，一次次重塑和修正了美团。\n一位美团人士告诉36氪，2025年外卖大战初期，一些中高层管理者多次对内表示“大家要放下手上的所有项目，全力服务竞争。”自2025年四季度左右开始，美团内部的导向变得更清晰，即不再关注整个市场的订单份额，将更多资源投向对高价值用户的争取、以及利于长期竞争力的事情上，一些此前停下的、服务于用户和商家体验优化的项目也随之被重启。\n至少从历史表现来看，在最为激烈和危险的竞争中，美团反而不得不重新审视自己的优势及劣势所在，明确要什么、不要什么，进而回到“做正确的事”的轨道上。投资人徐新曾经指出美团赢下千团大战的原因，“那时行业里普遍虚报数据，但王兴的竞争对手跟我说王兴不会这样。美团除了真心对用户好，就是找到了‘三高三低’（高品质、高效率、高科技和低客单、低成本、低毛利）这个生意的本质。”\n如今，美团在到店竞争上也表现出相似意味。财报后的电话会上谈及与抖音的竞争时，CFO陈少晖认为，到店业务的本质逻辑不是流量驱动，“竞争会产生一些噪音”，并表示，美团的到店业务利润率短期内将保持稳定，长期有回升空间。\n01 外卖大战来到拐点，夏季���将见分晓\n外卖UE（单位经济效益）的转正情况，是市场对美团、阿里、京东三家的集体之问。\n目前来看，美团的减亏效率更高。一季度，美团核心本地商业亏损20亿元，仅是预期亏损额的一半。王兴表示，近几个月，美团一方面巩固了市场地位，另一方面扩大了与对手的UE差距，“如果竞争回归理性，Q2的UE将会比Q1有显著提升，但下半年的UE提升仍将取决于竞争环境的演变情况。”\n减亏路径上，美团依赖的是订单结构的改善以及运营能力的优势。知情人士称，在补贴高峰期，美团与竞争对手在订单量上一度接近平开，但在GTV份额上，美团外卖始终保持60%以上的份额。\n在补充电话会上，美团管理层提到，餐饮外卖业务在4月、5月已实现小幅盈利，二季度能否实现整体转正，将取决于6月的表现。值得注意的是，进入6月份，时逢618大促和世界杯等重要节点，与4-5月相比，包括外卖在内的即时零售市场的竞争烈度、补贴力度都会发生变化，但目前从各方表态来看，激烈程度大概率不会再如去年夏季一般。\n阿里在3月份便提出了即时零售业务的盈利路线图——维持2028财年即时零售整体交易规模破万亿元的目标，预计2029财年即时零售业务板块将实现整体盈利。一旦行业整体进入利润修复阶段，美团在运营效率上的优势便值得期待。但局势能否在即将到来的二季度便企稳，仍取决于美团、阿里双方是否能接受当前的市场份额格局。\n对美团而言，实现可持续、高质量的每日1亿单即配订单，仍然是其长期目标。\n外卖业务的导向和思路明确之后，美团在到店业务上面临的竞争似乎更棘手。第一季度，美团到店酒旅的GTV同比增长10%+，收入增幅为中高个位数，利润率20%+。但伴随3月份抖音推出“抖省省”App，到店团购的竞争正在加剧。摩根士丹利在研报中称，“到店酒旅业务存在下行风险。”\n在抖省省这片新阵地上，抖音再度使出了流量与补贴两大工具。一方面，抖音App如今正大力为抖省省App拉新，在抖音的“团购”页面，几乎所有商品都将“去抖省省买”放在了最显眼的显示位，只有再多点击一步，才有“直接购买”的选项，且抖省省的价格均低于直接在抖音购买的价格。\n用户进入抖省省App后，每个商品都会在首屏页面标明“平台补贴xx元”。以“鱼你在一起”的一份套餐为例，美团的价格是25.9元，抖省省的价格则是23.4元。但品牌和商家往往会在套餐内容中作出细节区分，譬如美团在套餐中提供的主菜选项会更多，或是在双拼套餐搭配中，价值更高的“鲜虾蟹籽云吞”在美团平台的数量会更多。\n\n抖省省与美团的价格对比（左为抖省省，右为美团）\n商家不会放弃美团这个成熟渠道，但也无法对抖音的流量坐视不理。QuestMobile数据显示，截至2026年5月10日，抖省省日活跃用户已经接近1600万。\n与外卖类似，美团在一定程度上放弃了“价格战”属性强烈的订单，将资源投向高质量增长和利润，同时坚定地投入品类扩张和市场渗透率。服务零售、低线市场，被美团视为创造增量的阵地。\n以服务零售为例，王莆中在2025年6月就曾表示，“我们在线下看到的，除了卖东西的门店以外，其他大多数都是服务零售的门店，这是一个巨大的版图。”包括健身、美发、按摩、医美等在内，这部分市场的线上化程度低，相比餐饮而言，其产品更非标，交易的信息壁垒也更高。如今，美团通过为非标的“手艺人”建立数字档案等方式，提升服务零售的数字化程度。\n在到店团购市场，抖音无疑是“进攻方”，但美团并非全然的“防守方”，而更像是以自己相信的方法进攻增量市场。陈少晖称，美团今年在到店团购上将专注两件事：在核心品类中强化竞争优势，以及在行业不景气的情况下，为商家打造更好的数字基础设施。管理层对于到店利润率也表现出信心，称短期内能够维持稳定，长期将回升。\n02 小象超市上牌桌，美团向新一代零售公司靠拢\n美团财报将收入呈报方式改变后，小象超市的走势更加透明。它作为自营零售的代表、前置仓的绝对头部玩家，本身在美团内部的存在感就已直线上升。\n从业绩来看，尽管有“美团优选”被关停的影响，一季度，美团新业务的收入仍实现270亿元，同比增长21%，经营亏损收窄至21亿元。就最新拆出的收入分项而言，新业务的商品销售收入同比增长40.7%，小象超市贡献了最主要的增量——小象超市前置仓如今已覆盖55+城市，自有品牌产品的占比也有大幅增加。\n一位美团人士告诉36氪，无论开仓数量还是战略定位，“目标远大”",
     "source": "36氪",
     "category": "business",
     "publishedAt": "2026-06-02T09:20:31.000Z",
@@ -634,7 +825,7 @@
     "type": "article"
   },
   {
-    "id": "6-36-1780419483636",
+    "id": "6-36-1780431718076",
     "title": "豆包6月下旬正式付费，并加速打通抖音电商丨36氪独家",
     "url": "https://36kr.com/p/3835814391100550?f=rss",
     "summary": "5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。其在苹果App Store中更新的付费订阅方案显示，豆包将推出四档收费标准：基础版、标准版、加强版、专业版。对应的月收费价格为：免费、68元、200元、500元；年收费价格为：免费、688元、2048元、5088元。随后官方回应：“豆包始终提供免费服务。在免费服务的基础上，我们也在探索推出更多增值内容，以满足不同用户的差异化需求。据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。据36氪了解，若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。",
@@ -645,7 +836,7 @@
     "type": "article"
   },
   {
-    "id": "ai-opc-1780419486081",
+    "id": "ai-opc-1780431720485",
     "title": "对话中关村AI北纬社区任闯：OPC创业者到底需要什么？",
     "url": "https://www.tmtpost.com/8010096.html",
     "summary": "超级个体借助AI实现产出效率质变，与之对应，创业服务的逻辑也随之重构。",
@@ -657,7 +848,7 @@
     "type": "article"
   },
   {
-    "id": "vol-712-1780419483804",
+    "id": "vol-712-1780431718377",
     "title": "站起来，你对帝皇的职责还没结束，录音笔 VOL.712",
     "url": "https://www.gcores.com/radios/215302",
     "summary": "【录音笔】是GPASS推出的一档会员专享节目，内容来自机核办公室日程生活和工作中的一些短小记录，每期时长十几分钟左右（大概吧）。内容也许是一些不成体统的碎碎念，也许是一些突然发疯的暴言，还有可能是哪个缺德的把办公室里真实的日常对话（dui ma）偷偷录了下来，总之就连我们自己现在也不知道每期会有哪些人参与，会录些什么。",
@@ -669,7 +860,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419486081",
+    "id": "untitled-1780431720485",
     "title": "天涯回来了，但那个江湖回不来了",
     "url": "https://www.tmtpost.com/8010755.html",
     "summary": "天涯最好的东西，不在新入口里，而在过去那一代人的文字里。",
@@ -681,7 +872,7 @@
     "type": "article"
   },
   {
-    "id": "1-3-1999-bbs-1780419486081",
+    "id": "1-3-1999-bbs-1780431720485",
     "title": "1.3亿人的青春重启了，1999元买不回那个BBS时代",
     "url": "https://www.tmtpost.com/8010800.html",
     "summary": "天涯需要回答的不是\"论坛形态还能不能活\"——垂直深度论坛、小众长内容社区依然有稳定用户和商业空间——而是\"一个曾经的全民广场，如何在细分时代找到自己的那块地\"。",
@@ -693,7 +884,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419486081",
+    "id": "untitled-1780431720485",
     "title": "拓竹被“猎巫”，中国品牌出海进入舆论战时代",
     "url": "https://www.tmtpost.com/8006580.html",
     "summary": "如果今天发出这条私信的是那个“苹果”，舆论走向会一样吗？",
@@ -753,7 +944,7 @@
     "type": "article"
   },
   {
-    "id": "ns2-5-beyond-the-dark-nightwatch-1780419483804",
+    "id": "ns2-5-beyond-the-dark-nightwatch-1780431718377",
     "title": "NS2独占虚幻5恐怖游戏《Beyond The Dark - Nightwatch》预告片公开",
     "url": "https://www.gcores.com/articles/215300",
     "summary": "由 Atlantis Studio 制作的合作类恐怖游戏《Beyond The Dark - Nightwatch》今日公开了预告片，本作由虚幻5引擎打造，登陆NS2平台。<内嵌内容，请前往机核查看>\n你醒来发现自己身处一栋从未见过的房子里。走廊里潜伏着一个诡异的生物。在这款考验你胆量的合作游戏中，与好友携手直面恐惧！谁敢冒险探索这栋房子？另一位玩家则通过视频监控系统引导他们。组队是你们逃脱的唯一希望。",
@@ -765,7 +956,7 @@
     "type": "article"
   },
   {
-    "id": "40-computex-2026-claw-8-ex-ai-18-ultra-16-1780419483804",
+    "id": "40-computex-2026-claw-8-ex-ai-18-ultra-16-1780431718377",
     "title": "微星40周年闪耀Computex 2026：CLAW 8 EX AI+掌机、泰坦18 Ultra龙魂典藏版、神影16 星云白惊艳发布",
     "url": "https://www.gcores.com/articles/215299",
     "summary": "台北国际电脑展Computex 2026，微星正式发布全新游戏掌机产品CLAW 8 EX AI+：首批搭载 英特尔® Arc™ G3 Extreme这颗全新掌机定制处理器。与此同时，为庆祝品牌成立40周年，微星还推出了一系列典藏限量版笔记本，体现微星对设计创新与匠心工艺的一贯承诺。伴随这些惊艳新品的亮相，也代表微星持续不懈的将业界全新处理器技术推向市场，进一步丰富 AI PC 产品矩阵。全系新品兼顾潮流时尚外观与高性能的平衡，以满足便携游戏玩家、内容创作者、日常生产力用户的各种所需。台北国际电脑展Computex 2026新品概览：\n",
@@ -777,7 +968,7 @@
     "type": "article"
   },
   {
-    "id": "silver-pines-10-8-1780419483804",
+    "id": "silver-pines-10-8-1780431718378",
     "title": "《双峰》风悬疑恐怖恶魔城新游《银松镇 Silver Pines》确认10月8日发售，免费试玩版现已上线",
     "url": "https://www.gcores.com/articles/215297",
     "summary": "Team17 与开发商 Wych Elm 今日宣布，诡异氛围拉满的独立生存恐怖游戏《Silver Pines》（暂译：银松镇）将于 2026 年 10 月 8 日正式登陆 PC 与主机平台。游戏在Horror Game Awards 展会上正式亮相，同时官方也同步推出了 Steam Demo，让玩家提前体验这座诡异小镇中潜藏的恐怖。<内嵌内容，请前往机核查看>\n私家侦探 Red Walker 来到破败荒凉的美国小镇 Silver Pines 银松镇——一座仿佛被人仓皇弃置的地方。不久后，一通神秘电话为他指明了方向：“找到 Eddie Velvet。”而他的黑暗旅程，也由此正式开始。《Silver Pines》融合了经典生存恐怖游戏中的解谜、资源与背包管理玩法，并以如梦似幻的小镇探索为核心，带领玩家逐步揭开埋藏于噩梦深处的真相。迷雾重重、令人不安的恐怖旅程\n",
@@ -789,7 +980,7 @@
     "type": "article"
   },
   {
-    "id": "anthropic-ipo-ai-1780419483205",
+    "id": "anthropic-ipo-ai-1780431717961",
     "title": "Anthropic 抢跑 IPO，AI 巨头接连秘密上市，背后是怎样的攻防战",
     "url": "https://www.ifanr.com/1667829?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "从这个六月开始，我们或许会看到人类历史上最大的 IPO 浪潮\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -801,7 +992,7 @@
     "type": "article"
   },
   {
-    "id": "x-u-treasure-1780419483804",
+    "id": "x-u-treasure-1780431718378",
     "title": "《怪物猎人》x U-Treasure 订婚&结婚对戒 今日发售",
     "url": "https://www.gcores.com/articles/215293",
     "summary": "U-Treasure宣布，将从今天（6月2日）起至2027年4月30日，与Capcom的“怪物猎人”系列合作举办“婚庆珠宝展”。本次活动计划在 U-Treasure 网上商店以及池袋和心斋桥的 U-Treasure 概念店举行。本次将展出以《怪物猎人》系列世界为灵感设计的订婚戒指和结婚戒指。主打产品“猎人戒指”系列将包含15款不同的婚戒，每枚戒指都饰有以各种怪物为灵感的雕刻和宝石。同时商品也将同时在U-Treasure线上商店和两个线下概念店开始发售，售价 158,400日元 起（含税）。本次珠宝的设计蕴含着对新人狩猎生涯充满浪漫与刺激的美好祝愿，也祝愿他们永远平安。",
@@ -868,7 +1059,7 @@
     "type": "article"
   },
   {
-    "id": "200-1780419483804",
+    "id": "200-1780431718378",
     "title": "《绯红结系》游戏累计销量突破200万份",
     "url": "https://www.gcores.com/articles/215288",
     "summary": "6月2日， 《绯红结系》的官方X账号宣布游戏累计销量突破200万份。游戏总监穴吹 健児自2020年底开始几乎每天都在X账号上发布游戏截图，此次销量突破200万份的里程碑恰逢他发布第2000张截图。",
@@ -892,7 +1083,7 @@
     "type": "article"
   },
   {
-    "id": "18-1780419483636",
+    "id": "18-1780431718077",
     "title": "做了18年民宿的爱彼迎，开始卖酒店了？",
     "url": "https://36kr.com/p/3835511712363657?f=rss",
     "summary": "五月的旧金山，正在经历一场技术的集体癫狂。硅谷的各路AI新贵忙着为机器进化摇旗呐喊，把发布会开成一场场技术狂欢，仿佛人类的下一步就是被算法接管一切。同样的城市里，Brian Chesky——爱彼迎联合创始人兼首席执行官，站上爱彼迎旧金山总部2026夏季发布会的舞台，面对着坐满一楼中央大厅的全球媒体和围在办公大楼每层栏杆边上的爱彼迎员工，他拿应该是过去一年最让他兴奋的事开场了，不是爱彼迎如何利用AI来进化，而是——\n一位在巴黎专拍家庭和情侣的摄影师，去年靠爱彼迎体验赚了14.5万美元；一位意大利第三代意面传人，靠每场90分钟、收费70美元的手工意面课，赚了超过18万美元；一位伦敦做当地旅行体验项目的达人，收入突破了20万美元。爱彼迎2026夏季发布会现场\n爱彼迎2026年夏季发布会的现场\n",
@@ -904,7 +1095,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483804",
+    "id": "untitled-1780431718378",
     "title": "战斗画面首曝：《阿索拉：星之祈愿》前导预告公开",
     "url": "https://www.gcores.com/articles/215283",
     "summary": "由Dynamis One开发的全新二次元RPG《阿索拉：星之祈愿》公布了前导预告。<内嵌内容，请前往机核查看>\n在前导预告中，游戏的实机画面首次曝光，官方也同步公开了新的视觉图及角色信息。以下为本作的世界观概要：「城市、星星与魔法――」在这个既熟悉又陌生的世界里，东京铁塔甫完工，御台场国际展示场仍在如火如荼地建设著。一名地方公务员「主任」，被调派至名为<特区厅>的神秘机构。而他很快便得知，那里其实是统筹管理潜伏在东京的魔法师行政体系。成为东京的魔法师专责公务员后，主任开始独自一人处理这座城市中发生的各种魔法师问题。在这个仍是仰望星空、谈论梦想也不奇怪的时代， 在这个正以未知样貌飞速前进的世界里，一段全新的故事，正悄然展开。",
@@ -940,7 +1131,7 @@
     "type": "article"
   },
   {
-    "id": "200-80-1780419483805",
+    "id": "200-80-1780431718378",
     "title": "200多本全是细糠！带着张小草看看80年代的小人书",
     "url": "https://www.gcores.com/articles/215275",
     "summary": "五月底的某天早上，一位特殊的客人按响了我家的门铃。想不到是张大妈家的张小草来我家做客，登时觉得蓬荜生辉，必须要尽一尽地主之谊啊。二话不说我要带她一起吃早点，必须要去尝一尝豆汁。看出来一般人真喝不惯，小草还是挺给我面子的，最起码没吐，因为一口都没喝……\n“我听说，到北京要吃最美味的还得是烤鸭……”小草笑着问我\n“咳……那，那个是秋季才吃的，现在鸭子都不肥，不肥啊……”我有点磕巴，直擦汗。“哦哦，听说秋天的北京很美。那我下回秋天来请你吃烤鸭”小草慷慨的说。我心说这有编制背靠大公司就是豪爽仗义。我心里已经想着秋季之约是去哪里吃呢？不行不行，太贵了，还是某坊……\n“听说，小力丸很喜欢收藏老连环画？我想看看有什么珍藏啊？我爱吃传统蘸酱，不爱吃蘸糖……不是？“哦哦，也不是珍藏，其实就是小时候喜爱的连环画被父亲整箱的送了人，后来我又通过孔网和其他渠道凭着记忆收集回来了一些童年的回忆。",
@@ -952,7 +1143,7 @@
     "type": "article"
   },
   {
-    "id": "6-16-1780419483805",
+    "id": "6-16-1780431718378",
     "title": "【抽奖】萝莉勇者？直接电！平台跳跃类《哇咔纳传说》6月16日上架",
     "url": "https://www.gcores.com/articles/215281",
     "summary": "《哇咔纳传说》终于定档啦！游戏将于2026年6月16日定档Steam，售价40元，首周8折优惠！炎炎夏日，莘莘学子即将迎来久违的假期，聒噪的蝉鸣和屋外的烈日令人困倦无力，吹着风扇空调、享受冰饮时，躺在自己的小床上无所事事的玩着游戏，这时不妨尝试一下我们的《哇咔纳传说》吧！《哇咔纳传说》是一款集解密、塔防、竞速、养成、跳跳乐的奇幻冒险类动作游戏，带你踏入神秘广阔的童话大陆。游戏将会出现解密、塔防、竞速、跳跳乐、养成等丰富多变的玩法，在这九十九合一游戏世界里，你将灵活运用冰、电、风三大元素魔法，一路闯关破敌，书写属于自己的冒险传说。游戏开场便打破第四面墙的发癫叙事，游戏梗大全，烂梗、热梗、动漫梗、游戏梗、八卦梗、时事梗……三步一彩蛋，五步一童年，考验你的网络冲浪水平，大家一起发癫。像素复古却不简陋的画风，讲述王国公主点点为逃离无聊的课业而成为勇者，离开家中找寻勇者之石的冒险故事。",
@@ -1012,7 +1203,7 @@
     "type": "article"
   },
   {
-    "id": "peelsphere-36-1780419483637",
+    "id": "peelsphere-36-1780431718077",
     "title": "深创投押注全球植纤皮革头部品牌，超级皮儿PEELSPHERE®完成近亿级融资｜36氪首发",
     "url": "https://36kr.com/p/3800191597583621?f=rss",
     "summary": "36氪获悉，植物纤维皮革面料公司深圳朴飞生物（以下简称超级皮儿PEELSPHERE®）已完成新一轮融资，由头部创投机构——深圳市创新投资集团有限公司（深创投）独家战略投资。此轮资金将主要用于新产品研发与团队扩充。超级皮儿PEELSPHERE®是一家做植纤皮革面料的公司。它所切入的场景清晰而纯粹：在消费品牌对材料性能、设计表达、健康环保和综合赋能提出更高要求的背景下，如何通过绿色科技，将咖啡渣、橘子皮、苹果皮等农业废料转化为兼具皮革性能质感、设计表现力和规模化制造潜力的新型面料，为品牌提供更多元、更具产品力的可持续整体解决方案。其技术路径是一套兼顾科技性能与产业落地的先进成果。公司采用自研的“深共晶溶剂技术体系平台”，从植物废料中精确提取纤维素，再通过创新的重组与复合工艺形成具有高质感面料肌理的材料。",
@@ -1072,7 +1263,7 @@
     "type": "article"
   },
   {
-    "id": "boltray-games-1780419483805",
+    "id": "boltray-games-1780431718378",
     "title": "Boltray Games｜末日生存、硬核动作、高速跑酷、恐龙冒险，一次玩个够！",
     "url": "https://www.gcores.com/articles/215274",
     "summary": "核聚变游戏嘉年华深圳站即将开幕，热门新游试玩、精彩舞台活动、限定周边收集、沉浸式体验最热烈的玩家氛围！6 月 27、28 日，我们深圳国际会展中心见！<＞＞获取核聚变2026深圳站门票＜＜>\n作为全球发行新锐的 Boltray Games，本次将携四款风格多元的游戏亮相展会现场，涵盖生存、动作与冒险等不同品类：既有《勇闯死人谷：暗黑之日》末日丧尸围城下的生存挑战；也有《蒸汽世界》手绘梦魇世界中的硬核战斗；你可以在《电车炫客》的反重力轨道上高速炫技；也可以在《Dinoblade》里化身恐龙挥舞巨刀，为了阻止迫在眉睫的灭绝而奋力一搏。通过多品类产品布局与持续的全球发行策略，Boltray Games 聚焦差异化内容开发与全球市场拓展。《电车炫客》是一款将高速跑酷、平台动作与竞分挑战融为一体的风格化作品。在色彩浓烈的反乌托邦世界里，轨道就是战场。",
@@ -1108,7 +1299,7 @@
     "type": "article"
   },
   {
-    "id": "ai-mirror-1780419483205",
+    "id": "ai-mirror-1780431717962",
     "title": "制糖工厂发布 AI 小电拼 Mirror：琥珀屏、双支架与可拼拆设计，重构桌面能源设备",
     "url": "https://www.ifanr.com/1667822?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "AI 小电拼 Mirror 作为 AI 小电拼系列的新一代旗舰产品，Mirror 延续小电拼家族的可拼拆结构，并新增 0.5 英寸 ingBar 琥珀状态屏、Wingie 蝶架与 Oxie 牛架，在桌面显示、支架形态与家旅双栖体验上完成了一次系统化更新。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -1120,7 +1311,7 @@
     "type": "article"
   },
   {
-    "id": "2d-roguelite-1780419483805",
+    "id": "2d-roguelite-1780431718379",
     "title": "2D快节奏动作Roguelite游戏《骑士盘骑士》正式公布，免费试玩版现已上线",
     "url": "https://www.gcores.com/articles/215276",
     "summary": "在今日早些时候的The Mix Summer上，由个人开发者Regal Pigeon Games制作、Imperfect Games与The Arcade Crew联合发行的游戏《骑士盘骑士》公开了其商店页并同步上线了试玩版。这款基于网格战场布局进行实时战斗的快节奏Roguelite采用了与网格进行匹配的机制，营造出一种脚步不停、舞蹈般的战斗模式。如果看不出到底在说什么，不妨试试今天同步上线的Demo吧。<内嵌内容，请前往机核查看>\n<内嵌内容，请前往机核查看>\n扮演一名“软盘骑士”，置身于一个融合了现代科技与中世纪元素的奇幻世界之中。在这个王国里，人们举止古怪，国王因权力欲膨胀和长期的孤立而精神失常，因此王国向你发出召唤，派你去除掉他。然而，在你向城堡进发的过程中，一些奇怪的故障现象表明，这一切的背后存在着更深层次的隐情……\n",
@@ -1132,7 +1323,7 @@
     "type": "article"
   },
   {
-    "id": "un-me-2026-switch-2-playstation-5-1780419483805",
+    "id": "un-me-2026-switch-2-playstation-5-1780431718379",
     "title": "《UN:Me（非我：择谁）》预计2026年发售，确定登陆Switch 2及PlayStation 5！",
     "url": "https://www.gcores.com/articles/215272",
     "summary": "集英社游戏宣布，灵魂抉择冒险游戏《UN:Me（非我：择谁）》于「The MIX Summer Game Showcase 2026」中公开了最新预告片，并确认本作将登陆 Nintendo Switch 2 及 PlayStation 5 平台。《UN:Me（非我：择谁）》是一款冒险游戏，讲述一名体内寄宿着多个灵魂的少女，在反复进行灵魂的选择与消除的过程中，逃离诡异精神迷宫的故事。除已公布的 Steam 版本外，本作还新增了 Nintendo Switch 2 及 PlayStation 5 数字下载版。此外，PlayStation Store 页面现已公开，并支持加入愿望单。后续将继续发布更多信息，欢迎将本作添加到愿望单，静待游戏发售。https://store.playstation.com/zh-hans-hk/concept/10019807\n<内嵌内容，请前往机核查看>\n",
@@ -1180,7 +1371,7 @@
     "type": "article"
   },
   {
-    "id": "36-1780419483637",
+    "id": "36-1780431718077",
     "title": "36氪首发｜原小天才团队做老年硬件，切入居家看护赛道，即将进入海外市场",
     "url": "https://36kr.com/p/3835387558065541?f=rss",
     "summary": "硬氪获悉，近日，居家养老消费电子品牌「元生智能」完成新一轮超千万元Pre-A轮融资。本轮融资由银创资本领投，东科创跟投。本轮资金将主要用于渠道拓展以及相关新产品的持续迭代。元生智能是硬氪长期关注的企业，成立于2022年，主要为65岁以上空巢、独居老人提供居家看护产品。公司创始人、CEO邓龙生曾任小天才学习平板产品负责人、星火教育合伙人；联合创始人房少杰同样来自小天才，曾任小天才电话手表及火火兔产品负责人。元生智能旗下老年看护品牌「亲鹿」于2025年初推出亲鹿Z9老人看护机，并开启全渠道销售，目前已进入快速增长阶段。今年，公司进一步升级防跌倒模型，并推出新品D系列看护机以及焕新版的Z9E。新一代模型采用毫米波雷达与视觉融合的大模型方案进行跌倒检测，采用混合大模型融合技术，实现了更快速、更精准的识别响应。当前，产品跌倒检测精度已达到行业领先水平，误报率与漏报率均维持在极低水平。",
@@ -1204,7 +1395,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483637",
+    "id": "untitled-1780431718077",
     "title": "前美团外卖技术负责人创业，做具身智能时代的“餐饮世界模型”",
     "url": "https://36kr.com/p/3834292242130825?f=rss",
     "summary": "具身智能的落地，正在从实验室走向最真实、最繁忙的物理世界。而元节智能（AtomBite.AI）选择了一个看起来并不性感、但足够真实的场景：餐饮后厨。36氪获悉，具身智能公司元节智能近日完成千万级种子轮融资，由英诺科创基金领投，水木清华校友种子基金、知名投资人个人跟投。资金将主要用于餐饮场景具身世界模型研发及核心产品落地。元节核心团队在成立公司前有过较长时期的探索和孵化，此次融资标志着项目初步验证可行性，并已拿到国内外多家头部公司的产品合作部署意向。元节智能的创始团队带有鲜明的“美团基因”。创始人兼CEO王栋博士曾任美团外卖事业部技术负责人，管理千人产研团队，主导构建支撑日均数千万订单的外卖算法、数据与系统架构；联合创始人李滔曾执掌美团外卖算法与数据体系，是少数真正跑通过“全链路数据算法驱动”的技术负责人；联合创始人李浩哲则是连续创业者，具备多年全球化商业落地经验。",
@@ -1546,7 +1737,7 @@
     "type": "article"
   },
   {
-    "id": "openai-ai-1780419483205",
+    "id": "openai-ai-1780431717962",
     "title": "早报｜OpenAI官宣进军机器人领域/AI误把文物照片上架，闲鱼致歉/天涯社区重启首日被挤爆",
     "url": "https://www.ifanr.com/1667792?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "· 曝豆包 6 月下旬上线付费版\r\n· SK 海力士清州工厂发生火灾，官方称未影响生产\r\n· 宇树科创板 IPO 过会，计划募资 42 亿元\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -1558,18 +1749,18 @@
     "type": "article"
   },
   {
-    "id": "8-1-6-sk-ipo-140-1780419483637",
+    "id": "8-1-6-sk-ipo-140-1780431718077",
     "title": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
     "url": "https://36kr.com/p/3835278829008257?f=rss",
     "summary": "闲鱼回应读取用户手机内文物照片上架售卖\n赛力斯字节合作新品牌细节曝光：将推纯电、增程双动力\n英伟达推出NVIDIA DSX平台\nOpenAI官宣进军机器人赛道，短期内专注研发协助型机器人\n4月中国产汽车在韩国注册登记进口榜排第三，史上首超日本车\n豆包预计6月下旬正式付费，并加速打通抖音电商\n5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。随后官方回应：“豆包始终提供免费服务。在免费服务的基础上，我们也在探索推出更多增值内容，以满足不同用户的差异化需求。据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。",
-    "fullContent": "今日热点导览\n闲鱼回应读取用户手机内文物照片上架售卖\n赛力斯字节合作新品牌细节曝光：将推纯电、增程双动力\n英伟达推出NVIDIA DSX平台\nOpenAI官宣进军机器人赛道，短期内专注研发协助型机器人\n4月中国产汽车在韩国注册登记进口榜排第三，史上首超日本车\nTOP 3大新闻\n豆包预计6月下旬正式付费，并加速打通抖音电商\n5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。随后官方回应：“豆包始终提供免费服务。在免费服务的基础上，我们也在探索推出更多增值内容，以满足不同用户的差异化需求。”\n据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。\n若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。\n韩国SK海力士工厂发生火灾，造成对人体有害的氟气泄露\n当地时间6月1日上午10时32分左右，位于韩国忠清北道清州市的SK海力士第四园区内，连接两个生产间的气体室发生火灾，自动喷淋系统在起火后随即启动，火势及时得到控制，但对人体有害的氟气发生泄露，7人被送往医院接受治疗。\n在有毒气体泄漏后，SK海力士立即疏散了相关工厂内的约3600名员工。之后于当地时间13时38分左右完成残留气体清除工作，经确认无异常情况后，重新开放全部工厂建筑，并宣布事件处置结束。SK海力士方面表示，工厂的生产设备运行未受影响，不会使生产中断；目前公司正在调查事故发生的确切原因。”（央视新闻）\n宇树科技科创板IPO过会，拟募资42.02亿元\n上交所官网显示，上交所上市审核委员会定于6月1日召开审议��议，审议宇树科技（首发）。宇树科技此次科创板IPO拟募资42.02亿元，拟用于智能机器人模型研发、机器人本体研发、新型智能机器人产品开发及智能机器人制造基地建设四大项目。\n截至目前，本周（6月1日到5日）将有3家公司IPO上会，为拟闯关科创板IPO的宇树科技（300674），创业板IPO的中塑股份，北交所IPO的杰锋动力。（证券时报）\n大公司/大事件\n美股三大指数集体收涨，英伟达涨超6%\n36氪获悉，6月1日收盘，美股三大指数集体上涨，道指涨0.09%，纳指涨0.42%，标普500指数涨0.26%。大型科技股跌多涨少，Meta跌超5%，特斯拉跌超4%，苹果、谷歌跌超1%，奈飞小幅下跌；Arm涨超15%，英伟达涨超6%，微软涨超2%。热门中概股涨多跌少，蔚来涨超6%，B站涨6%，小鹏集团涨超4%，腾讯音乐、拼多多涨超3%，爱奇艺涨超2%，微博涨超1%；理想汽车跌超3%，百度跌超2%。 \n谷歌拟筹800亿美元，伯克希尔100亿美元跟投\n6月2日，谷歌母公司Alphabet(GO0G.0)正通过股权发行筹集800亿美元资金，其中包括与伯克希尔·哈撒韦公司达成的一项投资协议，旨在为其雄心勃勃的人工智能支出计划筹措资金。Alphabet在公告中披露，此次融资行动包括300亿美元的承销公开发行，以及400亿美元的“按市价发行”(ATM)交易。作为此次融资计划的一部分，伯克希尔·哈撒韦公司将通过私募方式认购价值100亿美元的股票，Alphabet将以每股351.81美元的价格向伯克希尔发行价值50亿美元的A类普通股，并以每股348.20美元的价格发行另外50亿美元的C类普通股。该公司在声明中表示：AI需求已超出公司现有供应能力。通过扩大投资规模，公司旨在扩展基础架构，从而为迎接未来的巨天增长机遇提供有力支撑。（金十数据）\n智谱：建议A股发行并在科创板上市\n36氪获悉，智谱公告，于2026年6月1日举行的董事会会议上，公司建议向中国相关监管机构申请配发及发行A股，并向上海证券交易所申请该等A股在科创板上市及准予交易。公告指出，建议A股发行数量占建议A股发行完成后公司总股本的2%至8%之间（不含因超额配股权获行使而将予发行的任何A股），即不少于9,098,838股且不多于38,768,964股新A股。预计建议A股发行全部为新股发行，原股东不公开发售股份。\n黄仁勋宣布：联手宇树打造1.8米参考人形机器人\n6月1日，英伟达首席执行官黄仁勋宣布，英伟达已与宇树科技合作，推出新一代人形机器人参考设计H2+，也被称为Isaac GR00T系统，以加速全球人形机器人行业创新。黄仁勋在演讲中表示，这套系统已经完成整体集成。机器人本体拥有31个自由度，每只机械手拥有25个自由度，整机身高约1.8米、重量约68公斤。（红星新闻）\n闲鱼回应读取用户手机内文物照片上架售卖\n5月30日，江苏网友顾女士发帖吐槽称，自己打开闲鱼APP后发现，账号待售页面竟出现了陕西历史博物馆镇馆之宝“唐鎏金舞马衔杯纹皮囊式银壶”，标价6000元，而整个上架过程由平台AI自动完成，她本人毫不知情。\n客服解释称，可能是她此前将照片上传至“闲鱼空间”，系统因此自动生成商品并上架。但顾女士表示，自己不记得上传过这张文物照片，而且即使曾误传到“闲鱼空间”，平台也不应在没有明确提示的情况下，自动将照片包装成商品并标价出售。她发现，系统不仅自动生成了价格，还配上了“整体包浆自然”“适合收藏或陈设摆件”等AI文案。\n闲鱼对此表示，闲鱼始终严守法律底线，坚决反对并积极配合国家机关打击文物违法交易。目前，闲鱼已接入国家文物局“中国被盗（丢失）文物信息发布平台”，可对820条国家级被盗文物数据进行智能比对；同时已对收藏领域72个高敏类目提升发布门槛，要求卖家明确勾选是否具备来源凭证。对于相关产品体验问题给大家带来的困扰，我们深表歉意。后续将尽快加强商品上架提醒和用户确认，避免类似误解再次发生。（上游新闻、中新经纬）\n超1.4万人砸12亿抢购SpaceX代币，总认购资金高达1.77亿美元\n今年4月，一款标榜能分享SpaceX上市收益、最低投资门槛仅100美元、且仅面向美国以外投资者的代币——preSPAX，在短短三天内吸引了超过1.4万名投资者涌入，总认购资金高达1.77亿美元（约合人民币12亿元）。\n然而，preSPAX投资者买到的并非SpaceX真实股权，也无法享受SpaceX分红与投票权。这款代币的性质及其发行人的风险，可能导致投资者“血本无归”。“100美元，即可押注SpaceX上市经济效益”，这让原本仅面向机构的pre-IPO投资，看似向普通投资者敞开了大门。\n4月18日，总部位于开曼群岛的私募股权投资与代币化公司Republic发行的代币产品preSPAX一经开放认购，便遭疯抢，仅3小时就吸引了4633人参与。截至4月21日认购期结束，共有14435名投资者参与，总认购金额达到1.77亿美元，较原定发行额度超额认购约2.9倍。（每日经济新闻）\n黄仁勋表示AI未减少工作岗位\n英伟达CEO黄仁勋在台北的GTC演讲中表示，“有用的AI”时代已经到来，现在token（词元）是利润单位，AI是GDP“生成器”，软件工程师的数量正在增加。人们谈论AI减少了工作岗位，这完全是胡说八道，实际上有更多软件工程师被雇用。（第一财经",
+    "fullContent": "今日热点导览\n闲鱼回应读取用户手机内文物照片上架售卖\n赛力斯字节合作新品牌细节曝光：将推纯电、增程双动力\n英伟达推出NVIDIA DSX平台\nOpenAI官宣进军机器人赛道，短期内专注研发协助型机器人\n4月中国产汽车在韩国注册登记进口榜排第三，史上首超日本车\nTOP 3大新闻\n豆包预计6月下旬正式付费，并加速打通抖音电商\n5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。随后官方回应：“豆包始终提供免费服务。在免费服务的基础上，我们也在探索推出更多增值内容，以满足不同用户的差异化需求。”\n据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。\n若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。\n韩国SK海力士工厂发生火灾，造成对人体有害的氟气泄露\n当地时间6月1日上午10时32分左右，位于韩国忠清北道清州市的SK海力士第四园区内，连接两个生产间的气体室发生火灾，自动喷淋系统在起火后随即启动，火势及时得到控制，但对人体有害的氟气发生泄露，7人被送往医院接受治疗。\n在有毒气体泄漏后，SK海力士立即疏散了相关工厂内的约3600名员工。之后于当地时间13时38分左右完成残留气体清除工作，经确认无异常情况后，重新开放全部工厂建筑，并宣布事件处置结束。SK海力士方面表示，工厂的生产设备运行未受影响，不会使生产中断；目前公司正在调查事故发生的确切原因。”（央视新闻）\n宇树科技科创板IPO过会，拟募资42.02亿元\n上交所官网显示，上交所上市审核委员会定于6月1日召开审议会议，审议宇树科技（首发）。宇树科技此次科创板IPO拟募资42.02亿元，拟用于智能机器人模型研发、机器人本体研发、新型智能机器人产品开发及智能机器人制造基地建设四大项目。\n截至目前，本周（6月1日到5日）将有3家公司IPO上会，为拟闯关科创板IPO的宇树科技（300674），创业板IPO的中塑股份，北交所IPO的杰锋动力。（证券时报）\n大公司/大事件\n美股三大指数集体收涨，英伟达涨超6%\n36氪获悉，6月1日收盘，美股三大指数集体上涨，道指涨0.09%，纳指涨0.42%，标普500指数涨0.26%。大型科技股跌多涨少，Meta跌超5%，特斯拉跌超4%，苹果、谷歌跌超1%，奈飞小幅下跌；Arm涨超15%，英伟达涨超6%，微软涨超2%。热门中概股涨多跌少，蔚来涨超6%，B站涨6%，小鹏集团涨超4%，腾讯音乐、拼多多涨超3%，爱奇艺涨超2%，微博涨超1%；理想汽车跌超3%，百度跌超2%。 \n谷歌拟筹800亿美元，伯克希尔100亿美元跟投\n6月2日，谷歌母公司Alphabet(GO0G.0)正通过股权发行筹集800亿美元资金，其中包括与伯克希尔·哈撒韦公司达成的一项投资协议，旨在为其雄心勃勃的人工智能支出计划筹措资金。Alphabet在公告中披露，此次融资行动包括300亿美元的承销公开发行，以及400亿美元的“按市价发行”(ATM)交易。作为此次融资计划的一部分，伯克希尔·哈撒韦公司将通过私募方式认购价值100亿美元的股票，Alphabet将以每股351.81美元的价格向伯克希尔发行价值50亿美元的A类普通股，并以每股348.20美元的价格发行另外50亿美元的C类普通股。该公司在声明中表示：AI需求已超出公司现有供应能力。通过扩大投资规模，公司旨在扩展基础架构，从而为迎接未来的巨天增长机遇提供有力支撑。（金十数据）\n智谱：建议A股发行并在科创板上市\n36氪获悉，智谱公告，于2026年6月1日举行的董事会会议上，公司建议向中国相关监管机构申请配发及发行A股，并向上海证券交易所申请该等A股在科创板上市及准予交易。公告指出，建议A股发行数量占建议A股发行完成后公司总股本的2%至8%之间（不含因超额配股权获行使而将予发行的任何A股），即不少于9,098,838股且不多于38,768,964股新A股。预计建议A股发行全部为新股发行，原股东不公开发售股份。\n黄仁勋宣布：联手宇树打造1.8米参考人形机器人\n6月1日，英伟达首席执行官黄仁勋宣布，英伟达已与宇树科技合作，推出新一代人形机器人参考设计H2+，也被称为Isaac GR00T系统，以加速全球人形机器人行业创新。黄仁勋在演讲中表示，这套系统已经完成整体集成。机器人本体拥有31个自由度，每只机械手拥有25个自由度，整机身高约1.8米、重量约68公斤。（红星新闻）\n闲鱼回应读取用户手机内文物照片上架售卖\n5月30日，江苏网友顾女士发帖吐槽称，自己打开闲鱼APP后发现，账号待售页面竟出现了陕西历史博物馆镇馆之宝“唐鎏金舞马衔杯纹皮囊式银壶”，标价6000元，而整个上架过程由平台AI自动完成，她本人毫不知情。\n客服解释称，可能是她此前将照片上传至“闲鱼空间”，系统因此自动生成商品并上架。但顾女士表示，自己不记得上传过这张文物照片，而且即使曾误传到“闲鱼空间”，平台也不应在没有明确提示的情况下，自动将照片包装成商品并标价出售。她发现，系统不仅自动生成了价格，还配上了“整体包浆自然”“适合收藏或陈设摆件”等AI文案。\n闲鱼对此表示，闲鱼始终严守法律底线，坚决反对并积极配合国家机关打击文物违法交易。目前，闲鱼已接入国家文物局“中国被盗（丢失）文物信息发布���台”，可对820条国家级被盗文物数据进行智能比对；同时已对收藏领域72个高敏类目提升发布门槛，要求卖家明确勾选是否具备来源凭证。对于相关产品体验问题给大家带来的困扰，我们深表歉意。后续将尽快加强商品上架提醒和用户确认，避免类似误解再次发生。（上游新闻、中新经纬）\n超1.4万人砸12亿抢购SpaceX代币，总认购资金高达1.77亿美元\n今年4月，一款标榜能分享SpaceX上市收益、最低投资门槛仅100美元、且仅面向美国以外投资者的代币——preSPAX，在短短三天内吸引了超过1.4万名投资者涌入，总认购资金高达1.77亿美元（约合人民币12亿元）。\n然而，preSPAX投资者买到的并非SpaceX真实股权，也无法享受SpaceX分红与投票权。这款代币的性质及其发行人的风险，可能导致投资者“血本无归”。“100美元，即可押注SpaceX上市经济效益”，这让原本仅面向机构的pre-IPO投资，看似向普通投资者敞开了大门。\n4月18日，总部位于开曼群岛的私募股权投资与代币化公司Republic发行的代币产品preSPAX一经开放认购，便遭疯抢，仅3小时就吸引了4633人参与。截至4月21日认购期结束，共有14435名投资者参与，总认购金额达到1.77亿美元，较原定发行额度超额认购约2.9倍。（每日经济新闻）\n黄仁勋表示AI未减少工作岗位\n英伟达CEO黄仁勋在台北的GTC演讲中表示，“有用的AI”时代已经到来，现在token（词元）是利润单位，AI是GDP“生成器”，软件工程师的数量正在增加。人们谈论AI减少了工作岗位，这完全是胡说八道，实际上有更多软件工程师被雇用。（第一财",
     "source": "36氪",
     "category": "tech",
     "publishedAt": "2026-06-02T00:12:57.000Z",
     "type": "article"
   },
   {
-    "id": "2-5-aippy-ai-36-1780419483637",
+    "id": "2-5-aippy-ai-36-1780431718077",
     "title": "首轮融资数千万美元、估值2.5亿美元，「Aippy」正在打造下一代AI游戏社区 | 36氪首发",
     "url": "https://36kr.com/p/3834400181741440?f=rss",
     "summary": "36氪获悉，NADA AI团队开发的AI游戏社区「Aippy」，已于近日完成数千万美元首轮融资，本轮由歌未资本（Glowill Capital）投资，投后估值2.本轮资金将主要用于顶尖人才引进和欧美核心市场用户规模化增长。Aippy成立于2025年，由港股上市公司赤子城科技孵化，其创始人、CEO Evan (叶椿建）是赤子城联合创始人，并长期担任赤子城CTO，在海外社交、游戏领域有十余年深耕经验。目前团队规模接近30人，核心成员来自清华大学、美国西北大学、慕尼黑工业大学等国内外顶尖高校，覆盖算法、产品、运营等关键岗位。作为AI驱动的游戏创作与互动社区，Aippy定位于为年轻一代数字原住民打造“人人都能做游戏”的UGC平台，用户仅需用自然语言描述想法，AI即可在数分钟内生成可交互游戏。",
@@ -1783,7 +1974,7 @@
     "type": "article"
   },
   {
-    "id": "nova-16-2-1780419483205",
+    "id": "nova-16-2-1780431717962",
     "title": "华为发布 nova 16 系列：2 亿主摄，红枫影像，还有十年的答案",
     "url": "https://www.ifanr.com/1667771?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -2004,7 +2195,7 @@
     "type": "article"
   },
   {
-    "id": "6-1780419483637",
+    "id": "6-1780431718078",
     "title": "豆包6月下旬正式付费，并加速打通抖音电商丨独家",
     "url": "https://36kr.com/p/3834544830721671?f=rss",
     "summary": "5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。其在苹果App Store中更新的付费订阅方案显示，豆包将推出四档收费标准：基础版、标准版、加强版、专业版。对应的月收费价格为：免费、68元、200元、500元；年收费价格为：免费、688元、2048元、5088元。随后官方回应：“豆包始终提供免费服务。在免费服务的基础上，我们也在探索推出更多增值内容，以满足不同用户的差异化需求。据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。据36氪了解，若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。",
@@ -2085,7 +2276,7 @@
     "type": "article"
   },
   {
-    "id": "claude-opus-4-6-1-9-flash-1780419483206",
+    "id": "claude-opus-4-6-1-9-flash-1780431717962",
     "title": "任务成本仅为Claude Opus 4.6 1/9，阶跃刷新Flash模型效率",
     "url": "https://www.ifanr.com/1667680?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "Flash 模型，不再是旗舰的平替\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -2325,7 +2516,7 @@
     "type": "article"
   },
   {
-    "id": "vast-1780419483206",
+    "id": "vast-1780431717962",
     "title": "世界模型赛道，VAST 选了一条还没有人走过的路",
     "url": "https://www.ifanr.com/1667604?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "不缺好的画面，缺一个真正运转的世界\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -2373,7 +2564,7 @@
     "type": "article"
   },
   {
-    "id": "windows-ai-pc-1780419483206",
+    "id": "windows-ai-pc-1780431717962",
     "title": "英伟达掀桌，Windows 终于迎来真 AI PC",
     "url": "https://www.ifanr.com/1667641?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "Mac mini 最强竞争对手？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -2668,7 +2859,7 @@
     "type": "article"
   },
   {
-    "id": "iphone-wwdc26-1780419483206",
+    "id": "iphone-wwdc26-1780431717962",
     "title": "提前看看，今年新 iPhone 系统长什么样｜WWDC26",
     "url": "https://www.ifanr.com/1667454?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "iOS 27，稳中向好\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -2704,7 +2895,7 @@
     "type": "article"
   },
   {
-    "id": "ai-mirror-ai-agent-1780419483206",
+    "id": "ai-mirror-ai-agent-1780431717962",
     "title": "制糖工厂发布 AI 小电拼 Mirror：全球首款智能体电源，支持 AI Agent 原生接入",
     "url": "https://www.ifanr.com/1667606?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "5 寸 ingBar 琥珀屏，160W 高能巡航 ，4×140W 盲插，支持小米 120W 澎湃秒充，CanOS 2.0 如意系统 + OTW 云桥让充电头持续进化，从桌面电站到差旅随行充，全新定义 AI 时代的万能充。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -3093,7 +3284,7 @@
     "type": "article"
   },
   {
-    "id": "pc-model-y-1780419483206",
+    "id": "pc-model-y-1780431717962",
     "title": "早报｜曝苹果眼镜明年底发布/英伟达首款自研芯片PC本周亮相/特斯拉推出Model Y原厂手动遮阳帘",
     "url": "https://www.ifanr.com/1667599?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "· 曝三星与 OpenAI 定制 AI 芯片项目停滞\r\n· Apple Music 出现全球性服务中断\r\n· 北大数院「黄金二代」苏炜杰加入 OpenAI\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -6719,7 +6910,7 @@
     "type": "article"
   },
   {
-    "id": "ai-token-1780419483206",
+    "id": "ai-token-1780431717962",
     "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
     "url": "https://www.ifanr.com/1667559?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "· 赛力斯回应特斯拉 FSD 入华\r\n· Anthropic 招聘把价值观面试放到关键位置\r\n· ChatGPT 消费级 AI 流量份额被追近，AI 市场进入「三足鼎立」\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -7112,7 +7303,7 @@
     "type": "article"
   },
   {
-    "id": "vivo-s60-1780419483206",
+    "id": "vivo-s60-1780431717962",
     "title": "vivo S60 体验：手机，就该少想多用",
     "url": "https://www.ifanr.com/1667541?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -7182,7 +7373,7 @@
     "type": "article"
   },
   {
-    "id": "untitled-1780419483206",
+    "id": "untitled-1780431717963",
     "title": "当一家车企开始为智驾兜底，它就不是单纯的车企了",
     "url": "https://www.ifanr.com/1667523?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "中国最懂芯片的车企，是比亚迪。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -7532,7 +7723,7 @@
     "type": "article"
   },
   {
-    "id": "gt7-21-99-1780419483206",
+    "id": "gt7-21-99-1780431717963",
     "title": "启境 GT7 开启预售：21.99 万元起，「含华量」爆表，从里到外都带着华为味",
     "url": "https://www.ifanr.com/1667482?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -8041,7 +8232,7 @@
     "type": "article"
   },
   {
-    "id": "149999-rgb-1780419483206",
+    "id": "149999-rgb-1780431717963",
     "title": "149999 元的索尼 RGB 电视是夯是拉？我们去索尼总部瞧了瞧",
     "url": "https://www.ifanr.com/1666682?utm_source=rss&utm_medium=rss&utm_campaign=",
     "summary": "索尼的野心，是把影院搬回家\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",

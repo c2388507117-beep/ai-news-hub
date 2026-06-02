@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-02T16:58:13.215Z",
+  "fetchedAt": "2026-06-02T20:22:08.335Z",
   "items": [
+    {
+      "title": "瓦倫施塔特",
+      "extract": "瓦倫施塔特（Walenstadt）是瑞士的城鎮，位於該國東部，由聖加侖州負責管轄，面積45.68平方公里，海拔高度425米，2011年人口5,428，其中六成居民信奉羅馬天主教。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%80%AB%E6%96%BD%E5%A1%94%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WalenstadtKirche.jpg/330px-WalenstadtKirche.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "烟台市",
       "extract": "烟台市，简称烟，古称芝罘，别称港城，是中华人民共和国山东省下辖的地级市，国务院确定的沿海开放城市，位于山东省东部，是山东最古老的现代化城市。市境东邻威海市，西南界青岛市，西接潍坊市、北濒渤海，南滨黄海，与辽东半岛、朝鲜、南韓隔海相望。地处胶东半岛中北部，市境南北临海，东西联陆，地形可分为低山、丘陵、平原、海岸四个区域，有大小岛屿63个。西部有大泽山，中部有艾山，东部有崑嵛山。主要河流有五龙河、辛安河、大沽夹河、黄水河、界河、王河、大沽河等。市人民政府驻莱山区芙蓉路6号。烟台是山东半岛城市群中心城市，最佳中国魅力城市，联合国人居奖。\n",
@@ -27,13 +34,6 @@
       "extract": "Eric Nam，本名南允道，美国男歌手。出道前曾擔任記者，曾參與MBC《偉大的誕生2》，在2013年以首張迷你專輯《Heaven's Door》正式出道。\n",
       "url": "https://zh.wikipedia.org/wiki/Eric_Nam",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/160526_Eric_Nam_%EC%88%98%EC%9B%90_%EA%B2%BD%ED%9D%AC%EB%8C%80_%EA%B5%AD%EC%A0%9C%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%B6%95%EC%A0%9C_05.jpg/330px-160526_Eric_Nam_%EC%88%98%EC%9B%90_%EA%B2%BD%ED%9D%AC%EB%8C%80_%EA%B5%AD%EC%A0%9C%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%B6%95%EC%A0%9C_05.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "2C-C",
-      "extract": "2C-C（2,5-二甲氧基-4-氯苯乙胺，2,5-dimethoxy-4-chlorophenethylamine）是一种含氯有机化合物，化学式为C10H14ClNO2，被用作宗教致幻劑，最早由亚历山大·舒尔金合成。\n",
-      "url": "https://zh.wikipedia.org/wiki/2C-C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2C-C.svg/langzh-330px-2C-C.svg.png",
       "source": "wikipedia"
     }
   ]
