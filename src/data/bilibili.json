@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-02T11:45:09.632Z",
+  "fetchedAt": "2026-06-02T16:58:13.097Z",
   "folders": [
     {
       "id": 3716645510,
       "title": "游戏与视频",
-      "mediaCount": 11
+      "mediaCount": 10
     }
   ],
   "videos": [
@@ -18,18 +18,6 @@
       "duration": 98145,
       "progress": 0,
       "remaining": 98145,
-      "isWatched": false
-    },
-    {
-      "aid": 116629249791486,
-      "bvid": "BV12BGJ6wEAi",
-      "title": "5万字爆肝！挑战解说史上唯一满分AVG神作【428：被封锁的涩谷】",
-      "cover": "https://i1.hdslb.com/bfs/archive/0d0fbeeeb454ea99a99848457b4572023317eebb.jpg",
-      "link": "https://www.bilibili.com/video/BV12BGJ6wEAi",
-      "author": "十里山吹",
-      "duration": 8183,
-      "progress": 0,
-      "remaining": 8183,
       "isWatched": false
     },
     {

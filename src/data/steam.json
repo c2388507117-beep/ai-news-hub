@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-06-02T11:45:09.220Z",
+  "fetchedAt": "2026-06-02T16:58:12.709Z",
   "topSellers": [
     {
       "name": "Steam Deck",
       "appid": 1675200,
-      "price": 41900,
-      "finalPrice": 41900,
+      "price": 39900,
+      "finalPrice": 39900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "Paralives",
       "appid": 1118520,
-      "price": 3899,
-      "finalPrice": 3899,
+      "price": 3999,
+      "finalPrice": 3999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
@@ -44,10 +44,18 @@
     {
       "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
       "appid": 1588213,
-      "price": 2775,
-      "finalPrice": 1387,
+      "price": 2999,
+      "finalPrice": 1499,
       "discount": 50,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
+    },
+    {
+      "name": "Mina the Hollower",
+      "appid": 1875580,
+      "price": 1999,
+      "finalPrice": 1999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light",
@@ -58,20 +66,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     },
     {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
+      "name": "LEGO® Batman™: Legacy of the Dark Knight",
+      "appid": 2215200,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
-      "name": "Master of Command - The Lion & Eagle",
-      "appid": 4764930,
-      "price": 1499,
-      "finalPrice": 1499,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764930/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
