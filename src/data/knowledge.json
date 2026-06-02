@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-01T22:18:36.596Z",
+  "fetchedAt": "2026-06-02T01:39:43.256Z",
   "items": [
+    {
+      "title": "Eric Nam",
+      "extract": "Eric Nam，本名南允道，美国男歌手。出道前曾擔任記者，曾參與MBC《偉大的誕生2》，在2013年以首張迷你專輯《Heaven's Door》正式出道。\n",
+      "url": "https://zh.wikipedia.org/wiki/Eric_Nam",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/160526_Eric_Nam_%EC%88%98%EC%9B%90_%EA%B2%BD%ED%9D%AC%EB%8C%80_%EA%B5%AD%EC%A0%9C%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%B6%95%EC%A0%9C_05.jpg/330px-160526_Eric_Nam_%EC%88%98%EC%9B%90_%EA%B2%BD%ED%9D%AC%EB%8C%80_%EA%B5%AD%EC%A0%9C%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%B6%95%EC%A0%9C_05.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "2C-C",
       "extract": "2C-C（2,5-二甲氧基-4-氯苯乙胺，2,5-dimethoxy-4-chlorophenethylamine）是一种含氯有机化合物，化学式为C10H14ClNO2，被用作宗教致幻劑，最早由亚历山大·舒尔金合成。\n",
@@ -27,13 +34,6 @@
       "extract": "東方果實蠅，又名橘小實蠅，俗稱蜂仔，原產於印度及馬來半島等地，為太平洋地區果樹的重大害蟲。为害250多种水果及蔬菜、繁殖力強，雌蠅產卵於果皮下，幼蟲孵化後鑽入果肉中蛀食，造成水果腐爛失去商品價值，如果吃水果時發現內部長蟲，大半都是東方果實蠅的幼蟲。由於台灣氣候及環境適合牠生存，目前已遍布全台，終年均有果實蠅發生。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%96%B9%E6%9E%9C%E5%AF%A6%E8%A0%85",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Bactrocera_dorsalis.jpg/330px-Bactrocera_dorsalis.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "P-47戰鬥機",
-      "extract": "P-47雷霆式戰鬥機（Thunderbolt）由共和飛機公司製造，是美國陸軍航空軍（美國空軍前身）在二次大戰中後期的主力戰鬥機之一，也是當時最大型的單引擎戰鬥機，其後期的M / N型更排得進二戰時盟軍最快的螺旋槳戰鬥機之前列。除了空戰方面在中低空略显机动力不足，P-47超出同期战斗机功率近一倍的巨大引擎和直径达3.65米的螺旋桨使其可搭载更强的对空火力、更厚重的装甲，且適合於搭载更多小型炸弹執行對地攻擊任務；虽然巨大的油耗使其滞空时间和航程缩短，但15,686架的總產量使P-47位居美國戰機產量的第一位，其中D型機的12602架，更是世界軍機單一機型生產量第一位。除了美國陸軍航空軍外，也有其他盟軍空軍部隊使用P-47戰鬥機。由於其機身明顯較其他型戰機壯碩許多，故當時被空勤人員暱稱為「水罐」（Jug）。\n",
-      "url": "https://zh.wikipedia.org/wiki/P-47%E6%88%B0%E9%AC%A5%E6%A9%9F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/P-47D-40_Thunderbolt_44-95471_side.jpg/330px-P-47D-40_Thunderbolt_44-95471_side.jpg",
       "source": "wikipedia"
     }
   ]
