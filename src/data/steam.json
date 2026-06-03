@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-03T17:24:00.670Z",
+  "fetchedAt": "2026-06-03T21:32:08.613Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -10,36 +10,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
-      "name": "F1® 25: 2026 Season Pack",
-      "appid": 4148930,
-      "price": 2499,
-      "finalPrice": 2499,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
       "name": "Paralives",
       "appid": 1118520,
       "price": 3999,
       "finalPrice": 3999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
-    },
-    {
-      "name": "Fatekeeper",
-      "appid": 2186990,
-      "price": 999,
-      "finalPrice": 799,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/capsule_184x69.jpg"
     },
     {
       "name": "007 First Light - Standard Edition",
@@ -58,12 +34,36 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
+      "name": "Fatekeeper",
+      "appid": 2186990,
+      "price": 999,
+      "finalPrice": 799,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/capsule_184x69.jpg"
+    },
+    {
       "name": "Subnautica 2",
       "appid": 1962700,
       "price": 2999,
       "finalPrice": 2999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "F1® 25: 2026 Season Pack",
+      "appid": 4148930,
+      "price": 2499,
+      "finalPrice": 2499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/capsule_184x69.jpg"
     },
     {
       "name": "ACE COMBAT 8: WINGS OF THEVE",

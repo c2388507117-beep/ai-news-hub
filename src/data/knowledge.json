@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T17:24:01.365Z",
+  "fetchedAt": "2026-06-03T21:32:09.549Z",
   "items": [
+    {
+      "title": "阿尔弗雷德·施尼特凯",
+      "extract": "阿尔弗雷德·加里耶维奇·施尼特凯，犹太裔苏联-俄罗斯作曲家，音乐理论家。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E6%96%BD%E5%B0%BC%E7%89%B9%E5%87%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Alfred_Schnittke_April_6_1989_Moscow.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "鲁德巴尔日宫",
       "extract": "鲁德巴尔日宫 是一座位於拉脱维亚库尔兰地区庫爾迪加市鎮鲁德巴尔日堂区的宫殿。\n",
@@ -27,13 +34,6 @@
       "extract": "大奧莱克辛，是烏克蘭西北部里夫内州里夫内区什帕尼夫市鎮的村落。始建於1650年，面積0.6平方公里，海拔高度180米，2001年人口2,798，人口密度每平方公里4,663.3人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%A5%A7%E8%90%8A%E5%85%8B%E8%BE%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%D0%9F%D0%B0%D0%BC%E2%80%99%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D1%97%D0%BD%D0%B0%D0%BC-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F%D0%BA%D0%B0%D0%BC%2C_%D0%A1._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D0%BD%2C.jpg/330px-%D0%9F%D0%B0%D0%BC%E2%80%99%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D1%97%D0%BD%D0%B0%D0%BC-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F%D0%BA%D0%B0%D0%BC%2C_%D0%A1._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D0%BD%2C.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "奥夫特施旺",
-      "extract": "奥夫特施旺 是德国巴伐利亚州施瓦本行政区上阿尔高县的市镇，面积19.56平方千米，2023年12月31日人口为2,092人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%A4%AB%E7%89%B9%E6%96%BD%E6%97%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ofterschwang_v_NW.jpg/330px-Ofterschwang_v_NW.jpg",
       "source": "wikipedia"
     }
   ]
