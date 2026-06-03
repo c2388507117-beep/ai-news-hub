@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T07:17:13.628Z",
+  "fetchedAt": "2026-06-03T12:17:06.313Z",
   "items": [
+    {
+      "title": "埃里克·阿马卢",
+      "extract": "埃里克·阿马卢，法国前男子手球运动员。他曾代表法国国家队参加1996年夏季奥林匹克运动会手球比赛，结果队伍获得第四名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E9%87%8C%E5%85%8B%C2%B7%E9%98%BF%E9%A9%AC%E5%8D%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Eric_Amalou_Handball_hebdo_1993-10-4.jpg/330px-Eric_Amalou_Handball_hebdo_1993-10-4.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "曼恩地区勒比尼翁",
       "extract": "曼恩地区勒比尼翁 是法国马耶讷省的一个市镇，属于拉瓦勒区。该市镇总面积14.29平方公里，2009年时的人口为339人。\n",
@@ -27,13 +34,6 @@
       "extract": "瓦倫施塔特（Walenstadt）是瑞士的城鎮，位於該國東部，由聖加侖州負責管轄，面積45.68平方公里，海拔高度425米，2011年人口5,428，其中六成居民信奉羅馬天主教。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%80%AB%E6%96%BD%E5%A1%94%E7%89%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WalenstadtKirche.jpg/330px-WalenstadtKirche.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "烟台市",
-      "extract": "烟台市，简称烟，古称芝罘，别称港城，是中华人民共和国山东省下辖的地级市，国务院确定的沿海开放城市，位于山东省东部，是山东最古老的现代化城市。市境东邻威海市，西南界青岛市，西接潍坊市、北濒渤海，南滨黄海，与辽东半岛、朝鲜、南韓隔海相望。地处胶东半岛中北部，市境南北临海，东西联陆，地形可分为低山、丘陵、平原、海岸四个区域，有大小岛屿63个。西部有大泽山，中部有艾山，东部有崑嵛山。主要河流有五龙河、辛安河、大沽夹河、黄水河、界河、王河、大沽河等。市人民政府驻莱山区芙蓉路6号。烟台是山东半岛城市群中心城市，最佳中国魅力城市，联合国人居奖。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%83%9F%E5%8F%B0%E5%B8%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Yantai2017.jpg/330px-Yantai2017.jpg",
       "source": "wikipedia"
     }
   ]
