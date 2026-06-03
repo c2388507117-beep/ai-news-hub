@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T12:17:06.313Z",
+  "fetchedAt": "2026-06-03T17:24:01.365Z",
   "items": [
+    {
+      "title": "鲁德巴尔日宫",
+      "extract": "鲁德巴尔日宫 是一座位於拉脱维亚库尔兰地区庫爾迪加市鎮鲁德巴尔日堂区的宫殿。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%B2%81%E5%BE%B7%E5%B7%B4%E5%B0%94%E6%97%A5%E5%AE%AB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rudbarzi_manor_%281%29.jpg/330px-Rudbarzi_manor_%281%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "埃里克·阿马卢",
       "extract": "埃里克·阿马卢，法国前男子手球运动员。他曾代表法国国家队参加1996年夏季奥林匹克运动会手球比赛，结果队伍获得第四名。\n",
@@ -27,13 +34,6 @@
       "extract": "奥夫特施旺 是德国巴伐利亚州施瓦本行政区上阿尔高县的市镇，面积19.56平方千米，2023年12月31日人口为2,092人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%A4%AB%E7%89%B9%E6%96%BD%E6%97%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ofterschwang_v_NW.jpg/330px-Ofterschwang_v_NW.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓦倫施塔特",
-      "extract": "瓦倫施塔特（Walenstadt）是瑞士的城鎮，位於該國東部，由聖加侖州負責管轄，面積45.68平方公里，海拔高度425米，2011年人口5,428，其中六成居民信奉羅馬天主教。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%80%AB%E6%96%BD%E5%A1%94%E7%89%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WalenstadtKirche.jpg/330px-WalenstadtKirche.jpg",
       "source": "wikipedia"
     }
   ]
