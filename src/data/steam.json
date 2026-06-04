@@ -1,85 +1,77 @@
 {
-  "fetchedAt": "2026-06-04T12:23:19.676Z",
+  "fetchedAt": "2026-06-04T16:30:35.373Z",
   "topSellers": [
-    {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 3999,
-      "finalPrice": 3999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
-    },
     {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 4899,
-      "finalPrice": 4899,
+      "price": 29800,
+      "finalPrice": 29800,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Prime Status Upgrade",
-      "appid": 54029,
-      "price": 1499,
-      "finalPrice": 1499,
+      "name": "007 First Light - Standard Edition",
+      "appid": 1488462,
+      "price": 29800,
+      "finalPrice": 29800,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
-    },
-    {
-      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
-      "appid": 1588213,
-      "price": 2999,
-      "finalPrice": 1499,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
-    },
-    {
-      "name": "F1® 25: 2026 Season Pack",
-      "appid": 4148930,
-      "price": 2499,
-      "finalPrice": 2499,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/capsule_184x69.jpg"
-    },
-    {
-      "name": "Fatekeeper",
-      "appid": 2186990,
-      "price": 799,
-      "finalPrice": 639,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/capsule_184x69.jpg"
-    },
-    {
-      "name": "Gothic 1 Remake",
-      "appid": 1579999,
-      "price": 3399,
-      "finalPrice": 3399,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1579999/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
       "name": "Grand Theft Auto V Enhanced",
       "appid": 3240220,
-      "price": 2999,
-      "finalPrice": 1499,
+      "price": 14900,
+      "finalPrice": 7450,
       "discount": 50,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
     },
     {
-      "name": "Ready or Not",
-      "appid": 1144200,
-      "price": 2899,
-      "finalPrice": 1449,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/capsule_184x69.jpg"
+      "name": "Romestead",
+      "appid": 1805320,
+      "price": 4800,
+      "finalPrice": 4320,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/capsule_184x69.jpg"
     },
     {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 1899,
-      "finalPrice": 1899,
+      "name": "F1® 25: 2026 Season Pack",
+      "appid": 4148930,
+      "price": 13800,
+      "finalPrice": 13800,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/capsule_184x69.jpg"
+    },
+    {
+      "name": "007 First Light",
+      "appid": 3768760,
+      "price": 29800,
+      "finalPrice": 29800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
+    },
+    {
+      "name": "Wallpaper Engine",
+      "appid": 431960,
+      "price": 2290,
+      "finalPrice": 2290,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
+    },
+    {
+      "name": "Call of Duty®: Modern Warfare® 4",
+      "appid": 4435490,
+      "price": 29800,
+      "finalPrice": 29800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/capsule_184x69.jpg"
+    },
+    {
+      "name": "Subnautica 2",
+      "appid": 1962700,
+      "price": 10800,
+      "finalPrice": 10800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
