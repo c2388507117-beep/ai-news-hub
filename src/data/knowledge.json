@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T00:05:32.106Z",
+  "fetchedAt": "2026-06-04T05:13:02.183Z",
   "items": [
+    {
+      "title": "碘泡虫科",
+      "extract": "碘泡科 是黏孢子蟲綱寄生蟲之下的一個科，一般會感染淡水魚，當中包括不少會對經濟作物造成嚴重影響的物種，例如：Myxobolus cerebralis會寄生於鮭科物種。\n這些物種已被證明為具有複雜的生命週期，涉及在無脊椎動物的另類階段，一般會是環節動物或多毛綱的蠕蟲。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A2%98%E6%B3%A1%E8%99%AB%E7%A7%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mspinacurvatura.jpg/330px-Mspinacurvatura.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "饒河街觀光夜市",
       "extract": "饒河街觀光夜市。位於臺北市松山區，為台北市的一個觀光夜市，也是臺灣繼後站觀光夜市後第二座觀光夜市。\n",
@@ -27,13 +34,6 @@
       "extract": "埃里克·阿马卢，法国前男子手球运动员。他曾代表法国国家队参加1996年夏季奥林匹克运动会手球比赛，结果队伍获得第四名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E9%87%8C%E5%85%8B%C2%B7%E9%98%BF%E9%A9%AC%E5%8D%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Eric_Amalou_Handball_hebdo_1993-10-4.jpg/330px-Eric_Amalou_Handball_hebdo_1993-10-4.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "曼恩地区勒比尼翁",
-      "extract": "曼恩地区勒比尼翁 是法国马耶讷省的一个市镇，属于拉瓦勒区。该市镇总面积14.29平方公里，2009年时的人口为339人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E6%81%A9%E5%9C%B0%E5%8C%BA%E5%8B%92%E6%AF%94%E5%B0%BC%E7%BF%81",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Le_Bignon-du-Maine_%C3%A9glise.JPG/330px-Le_Bignon-du-Maine_%C3%A9glise.JPG",
       "source": "wikipedia"
     }
   ]
