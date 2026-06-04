@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T05:13:02.183Z",
+  "fetchedAt": "2026-06-04T09:05:36.799Z",
   "items": [
+    {
+      "title": "安化公主 (明朝)",
+      "extract": "安化公主（?—17世纪?），南明公主。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%8C%96%E5%85%AC%E4%B8%BB_(%E6%98%8E%E6%9C%9D)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/%E5%AE%89%E5%8C%96%E9%83%A1%E4%B8%BB%E5%A2%93_-_2023-07-19_02.jpg/330px-%E5%AE%89%E5%8C%96%E9%83%A1%E4%B8%BB%E5%A2%93_-_2023-07-19_02.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "碘泡虫科",
       "extract": "碘泡科 是黏孢子蟲綱寄生蟲之下的一個科，一般會感染淡水魚，當中包括不少會對經濟作物造成嚴重影響的物種，例如：Myxobolus cerebralis會寄生於鮭科物種。\n這些物種已被證明為具有複雜的生命週期，涉及在無脊椎動物的另類階段，一般會是環節動物或多毛綱的蠕蟲。\n",
@@ -27,13 +34,6 @@
       "extract": "鲁德巴尔日宫 是一座位於拉脱维亚库尔兰地区庫爾迪加市鎮鲁德巴尔日堂区的宫殿。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%B2%81%E5%BE%B7%E5%B7%B4%E5%B0%94%E6%97%A5%E5%AE%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rudbarzi_manor_%281%29.jpg/330px-Rudbarzi_manor_%281%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "埃里克·阿马卢",
-      "extract": "埃里克·阿马卢，法国前男子手球运动员。他曾代表法国国家队参加1996年夏季奥林匹克运动会手球比赛，结果队伍获得第四名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E9%87%8C%E5%85%8B%C2%B7%E9%98%BF%E9%A9%AC%E5%8D%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Eric_Amalou_Handball_hebdo_1993-10-4.jpg/330px-Eric_Amalou_Handball_hebdo_1993-10-4.jpg",
       "source": "wikipedia"
     }
   ]
