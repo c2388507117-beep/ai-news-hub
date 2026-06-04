@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T09:05:36.799Z",
+  "fetchedAt": "2026-06-04T12:23:20.256Z",
   "items": [
+    {
+      "title": "特里埃",
+      "extract": "特里埃 是意大利撒丁大区奥利亚斯特拉省的一个市镇。总面积28.54平方公里，人口1127人，人口密度39.5人/平方公里（2009年）。ISTAT代码为105019。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E9%87%8C%E5%9F%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Panorama_triei.png/330px-Panorama_triei.png",
+      "source": "wikipedia"
+    },
     {
       "title": "安化公主 (明朝)",
       "extract": "安化公主（?—17世纪?），南明公主。\n",
@@ -27,13 +34,6 @@
       "extract": "阿尔弗雷德·加里耶维奇·施尼特凯，犹太裔苏联-俄罗斯作曲家，音乐理论家。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E6%96%BD%E5%B0%BC%E7%89%B9%E5%87%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Alfred_Schnittke_April_6_1989_Moscow.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鲁德巴尔日宫",
-      "extract": "鲁德巴尔日宫 是一座位於拉脱维亚库尔兰地区庫爾迪加市鎮鲁德巴尔日堂区的宫殿。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%B2%81%E5%BE%B7%E5%B7%B4%E5%B0%94%E6%97%A5%E5%AE%AB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rudbarzi_manor_%281%29.jpg/330px-Rudbarzi_manor_%281%29.jpg",
       "source": "wikipedia"
     }
   ]
