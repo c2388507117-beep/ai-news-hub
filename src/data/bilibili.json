@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-05T14:28:44.498Z",
+  "fetchedAt": "2026-06-05T15:25:57.605Z",
   "folders": [
     {
       "id": 3716645510,
       "title": "游戏与视频",
-      "mediaCount": 10
+      "mediaCount": 9
     }
   ],
   "videos": [
@@ -18,18 +18,6 @@
       "duration": 98145,
       "progress": 0,
       "remaining": 98145,
-      "isWatched": false
-    },
-    {
-      "aid": 116390258285854,
-      "bvid": "BV1L3DSBdETX",
-      "title": "8万字精讲【人狼村之谜】！这种没粉丝的小UP做长视频最狠了",
-      "cover": "https://i0.hdslb.com/bfs/archive/e8e75aff8d68b77306e9d5741a458af47d83f6ad.jpg",
-      "link": "https://www.bilibili.com/video/BV1L3DSBdETX",
-      "author": "十里山吹",
-      "duration": 14910,
-      "progress": 0,
-      "remaining": 14910,
       "isWatched": false
     },
     {

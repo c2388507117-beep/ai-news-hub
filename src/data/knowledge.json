@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T14:28:44.613Z",
+  "fetchedAt": "2026-06-05T15:25:57.704Z",
   "items": [
+    {
+      "title": "中國同性戀史",
+      "extract": "中國同性戀史以男子間的情慾而言，自中國很早以來就有所紀錄，稱之為男色或男風。古代中國的史書即傳有「美男破老、美女破舌」的說法，將美男與女色相提並論，用以勸諫君王離美色遠讒言。在春秋戰國時期，弥子瑕與衛君分桃而食、龍陽君向魏王泣魚固寵，及至兩漢時期漢哀帝不忍驚醒董賢断袖而起，這些事蹟不但是當時士人藉以著書立說的事例，亦成為後世常用於詩詞文章的男風典故。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%90%8C%E6%80%A7%E6%88%80%E5%8F%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Painting_-2ab.jpg/330px-Painting_-2ab.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "吉尔贝·梅耶尔",
       "extract": "吉尔贝·梅耶尔，法国政治人物。曾任国民议会议员、科尔马市长等职。\n",
@@ -27,13 +34,6 @@
       "extract": "里白科 为水龙骨目的一科植物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%87%8C%E7%99%BD%E7%A7%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Diplopterygium_pinnatum1.jpg/330px-Diplopterygium_pinnatum1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "莫斯托夫斯科伊 (克拉斯诺达尔边疆区)",
-      "extract": "莫斯托夫斯科伊 是俄罗斯克拉斯诺达尔边疆区的市级镇、莫斯托夫斯科伊区行政中心及最大聚居地，位于库班河支流拉巴河畔，地处克拉斯诺达尔边疆区东南部，在边疆区首府克拉斯诺达尔东南方，靠近该边疆区与阿迪格共和国的边界。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%96%AF%E6%89%98%E5%A4%AB%E6%96%AF%E7%A7%91%E4%BC%8A_(%E5%85%8B%E6%8B%89%E6%96%AF%E8%AF%BA%E8%BE%BE%E5%B0%94%E8%BE%B9%E7%96%86%E5%8C%BA)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%BE%D0%BA_%D0%9C%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_01.jpg/330px-%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%BE%D0%BA_%D0%9C%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_01.jpg",
       "source": "wikipedia"
     }
   ]
