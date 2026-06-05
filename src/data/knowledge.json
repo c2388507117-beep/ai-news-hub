@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T18:16:08.561Z",
+  "fetchedAt": "2026-06-05T20:19:04.681Z",
   "items": [
+    {
+      "title": "圣米歇尔德布洛涅",
+      "extract": "圣米歇尔德布洛涅 是法国阿尔代什省的一个市镇，属于拉让蒂耶尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%BE%B7%E5%B8%83%E6%B4%9B%E6%B6%85",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Chateaudeboulogne2.JPG/330px-Chateaudeboulogne2.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "帕里納科查斯省",
       "extract": "帕里納科查斯省，是秘魯的省份，位於該國中南部阿亞庫喬大區，首府是科拉科拉，面積5,968平方公里，2002年人口24,028，人口密度每平方公里4.0人。\n",
@@ -27,13 +34,6 @@
       "extract": "古斯塔夫·胡萨克，生於现在的斯洛伐克的布拉迪斯拉发，是前捷克斯洛伐克的政治家、捷克斯洛伐克共產黨前总书记。他的政治实践被称为“胡萨克主义”。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%96%AF%E5%A1%94%E5%A4%AB%C2%B7%E8%83%A1%E8%90%A8%E5%85%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Gust%C3%A1v_Hus%C3%A1k_-_o%C5%99%C3%ADznuto.JPG/330px-Gust%C3%A1v_Hus%C3%A1k_-_o%C5%99%C3%ADznuto.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "闪电狗",
-      "extract": "《雷霆戰狗》，由華特迪士尼製作並於2008年發行的美國電腦動畫喜劇電影，它是第48部華特迪士尼經典動畫長片，同時也是迪士尼的第4部3D電影。這部電影是由曾參與過《花木蘭》以及《變身國王》製作的克里斯·威廉斯，以及曾參與過《星際寶貝》以及《熊的傳說》製作的拜倫·霍華德 兩人共同執導，同時也是他們兩人的第一部導演作品。其英文原版的配音員包括了約翰·屈伏塔、麥莉·希拉、狄爾里奇·巴德 、尼克·史威森 、葛瑞格·杰曼 、蘇茜·伊斯曼 、麥坎·邁道爾 、克萊兒·荷特 和馬克·華爾頓 等人。台灣版本則安排了王偉忠及林郁智（藝名「納豆」）等人配音，香港版本則有張學友、王祖藍等人負責配音。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%97%AA%E7%94%B5%E7%8B%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/3b/Bolt_Poster.jpg",
       "source": "wikipedia"
     }
   ]
