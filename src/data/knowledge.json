@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T15:51:38.583Z",
+  "fetchedAt": "2026-06-05T16:10:36.119Z",
   "items": [
+    {
+      "title": "两耳草",
+      "extract": "两耳草 为禾本科雀稗属下的一个种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%A4%E8%80%B3%E8%8D%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Starr_070208-4357_Paspalum_conjugatum.jpg/330px-Starr_070208-4357_Paspalum_conjugatum.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "斯特灵 (科罗拉多州)",
       "extract": "斯特灵，是美国科罗拉多州洛根县下属的一座城市。建市于1884年12月3日，面积大约为7.61平方英里（19.709平方公里）。根据2010年美国人口普查，该市有人口14,777人。2011年估计该市有人口14,725人，相比2010年人口增长率为-0.35%。同时，论人口该市是科罗拉多州第35大城市。\n",
@@ -27,13 +34,6 @@
       "extract": "維生素C，又稱抗壞血酸，是一種存在於各種食物的維他命，也被作為營養補充品銷售，可用於預防及治療壞血病。維他命C是參與組織修復和某些神經遞質中的酶促生產。它是幾種酶的功能中所必需的，並且對於免疫系統運作很重要。它還可用作抗氧化劑。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%94%9F%E7%B4%A0C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/L-Ascorbic_acid.svg/langzh-330px-L-Ascorbic_acid.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "中國同性戀史",
-      "extract": "中國同性戀史以男子間的情慾而言，自中國很早以來就有所紀錄，稱之為男色或男風。古代中國的史書即傳有「美男破老、美女破舌」的說法，將美男與女色相提並論，用以勸諫君王離美色遠讒言。在春秋戰國時期，弥子瑕與衛君分桃而食、龍陽君向魏王泣魚固寵，及至兩漢時期漢哀帝不忍驚醒董賢断袖而起，這些事蹟不但是當時士人藉以著書立說的事例，亦成為後世常用於詩詞文章的男風典故。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%90%8C%E6%80%A7%E6%88%80%E5%8F%B2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Painting_-2ab.jpg/330px-Painting_-2ab.jpg",
       "source": "wikipedia"
     }
   ]
