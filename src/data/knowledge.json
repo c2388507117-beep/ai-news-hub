@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T15:25:57.704Z",
+  "fetchedAt": "2026-06-05T15:27:20.715Z",
   "items": [
+    {
+      "title": "维生素C",
+      "extract": "維生素C，又稱抗壞血酸，是一種存在於各種食物的維他命，也被作為營養補充品銷售，可用於預防及治療壞血病。維他命C是參與組織修復和某些神經遞質中的酶促生產。它是幾種酶的功能中所必需的，並且對於免疫系統運作很重要。它還可用作抗氧化劑。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%94%9F%E7%B4%A0C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/L-Ascorbic_acid.svg/langzh-330px-L-Ascorbic_acid.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "中國同性戀史",
       "extract": "中國同性戀史以男子間的情慾而言，自中國很早以來就有所紀錄，稱之為男色或男風。古代中國的史書即傳有「美男破老、美女破舌」的說法，將美男與女色相提並論，用以勸諫君王離美色遠讒言。在春秋戰國時期，弥子瑕與衛君分桃而食、龍陽君向魏王泣魚固寵，及至兩漢時期漢哀帝不忍驚醒董賢断袖而起，這些事蹟不但是當時士人藉以著書立說的事例，亦成為後世常用於詩詞文章的男風典故。\n",
@@ -27,13 +34,6 @@
       "extract": "失落的朋友 是一座原位於複活節島的摩埃石像，它於1868年由一艘英國船隻黃玉號的船員從復活節島的奧龍戈取走，現藏於英國倫敦的大英博物館。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E6%9C%8B%E5%8F%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Angled_View_of_the_Hoa_Hakananai%27a_Statue.JPG/330px-Angled_View_of_the_Hoa_Hakananai%27a_Statue.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "里白科",
-      "extract": "里白科 为水龙骨目的一科植物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%8C%E7%99%BD%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Diplopterygium_pinnatum1.jpg/330px-Diplopterygium_pinnatum1.jpg",
       "source": "wikipedia"
     }
   ]
