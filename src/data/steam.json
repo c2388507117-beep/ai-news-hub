@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T04:50:44.516Z",
+  "fetchedAt": "2026-06-05T08:54:08.980Z",
   "topSellers": [
     {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
+      "name": "Gothic 1 Remake",
+      "appid": 1579999,
+      "price": 4999,
+      "finalPrice": 4999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1579999/capsule_184x69.jpg"
     },
     {
       "name": "Forza Horizon 6",
@@ -26,6 +26,22 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
+      "name": "Fatekeeper",
+      "appid": 2186990,
+      "price": 999,
+      "finalPrice": 799,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/capsule_184x69.jpg"
+    },
+    {
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 3899,
+      "finalPrice": 3899,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+    },
+    {
       "name": "Resident Evil Requiem",
       "appid": 3764200,
       "price": 6999,
@@ -34,12 +50,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
     },
     {
-      "name": "Paralives",
-      "appid": 1118520,
+      "name": "Sons Of The Forest",
+      "appid": 1326470,
+      "price": 2899,
+      "finalPrice": 869,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_184x69.jpg"
+    },
+    {
+      "name": "No Rest for the Wicked",
+      "appid": 1371980,
       "price": 3999,
-      "finalPrice": 3999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "finalPrice": 2799,
+      "discount": 30,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/capsule_184x69.jpg"
     },
     {
       "name": "Subnautica 2",
@@ -50,28 +74,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Call of Duty®: Black Ops 7 - BlackCell (Season 04)",
-      "appid": 4200760,
-      "price": 2999,
-      "finalPrice": 2999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200760/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
-      "name": "EA SPORTS™ MVP Bundle (College Football 27 Deluxe Edition & Madden NFL 27 Deluxe Edition)",
-      "appid": 74702,
-      "price": 19998,
-      "finalPrice": 14998,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/74702/capsule_184x69.jpg"
+      "name": "House Flipper Remastered Collection",
+      "appid": 3710840,
+      "price": 4899,
+      "finalPrice": 4409,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710840/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
