@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T16:10:36.119Z",
+  "fetchedAt": "2026-06-05T18:16:08.561Z",
   "items": [
+    {
+      "title": "帕里納科查斯省",
+      "extract": "帕里納科查斯省，是秘魯的省份，位於該國中南部阿亞庫喬大區，首府是科拉科拉，面積5,968平方公里，2002年人口24,028，人口密度每平方公里4.0人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%95%E9%87%8C%E7%B4%8D%E7%A7%91%E6%9F%A5%E6%96%AF%E7%9C%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Le_volcan_Sarasara_et_le_lac_Parinacochas._Vue_des_hauteurs_d%27Incawasi.jpg/330px-Le_volcan_Sarasara_et_le_lac_Parinacochas._Vue_des_hauteurs_d%27Incawasi.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "两耳草",
       "extract": "两耳草 为禾本科雀稗属下的一个种。\n",
@@ -27,13 +34,6 @@
       "extract": "《雷霆戰狗》，由華特迪士尼製作並於2008年發行的美國電腦動畫喜劇電影，它是第48部華特迪士尼經典動畫長片，同時也是迪士尼的第4部3D電影。這部電影是由曾參與過《花木蘭》以及《變身國王》製作的克里斯·威廉斯，以及曾參與過《星際寶貝》以及《熊的傳說》製作的拜倫·霍華德 兩人共同執導，同時也是他們兩人的第一部導演作品。其英文原版的配音員包括了約翰·屈伏塔、麥莉·希拉、狄爾里奇·巴德 、尼克·史威森 、葛瑞格·杰曼 、蘇茜·伊斯曼 、麥坎·邁道爾 、克萊兒·荷特 和馬克·華爾頓 等人。台灣版本則安排了王偉忠及林郁智（藝名「納豆」）等人配音，香港版本則有張學友、王祖藍等人負責配音。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%97%AA%E7%94%B5%E7%8B%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/3b/Bolt_Poster.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "维生素C",
-      "extract": "維生素C，又稱抗壞血酸，是一種存在於各種食物的維他命，也被作為營養補充品銷售，可用於預防及治療壞血病。維他命C是參與組織修復和某些神經遞質中的酶促生產。它是幾種酶的功能中所必需的，並且對於免疫系統運作很重要。它還可用作抗氧化劑。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%94%9F%E7%B4%A0C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/L-Ascorbic_acid.svg/langzh-330px-L-Ascorbic_acid.svg.png",
       "source": "wikipedia"
     }
   ]

@@ -1,69 +1,77 @@
 {
-  "fetchedAt": "2026-06-05T16:10:35.647Z",
+  "fetchedAt": "2026-06-05T18:16:07.757Z",
   "topSellers": [
     {
-      "name": "Sons Of The Forest",
-      "appid": 1326470,
-      "price": 10800,
-      "finalPrice": 3240,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_184x69.jpg"
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "Gothic 1 Remake",
+      "appid": 1297900,
+      "price": 4999,
+      "finalPrice": 4999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+    },
+    {
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 3999,
+      "finalPrice": 3999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Resident Evil 4",
-      "appid": 2050650,
-      "price": 19800,
-      "finalPrice": 4950,
-      "discount": 75,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_184x69.jpg"
-    },
-    {
       "name": "007 First Light - Standard Edition",
       "appid": 1488462,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
       "name": "Resident Evil Requiem",
       "appid": 3764200,
-      "price": 34800,
-      "finalPrice": 27840,
+      "price": 6999,
+      "finalPrice": 5599,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
     },
     {
-      "name": "Call of Duty®: Black Ops 7 - BlackCell (Season 04)",
-      "appid": 4200760,
-      "price": 19500,
-      "finalPrice": 19500,
+      "name": "Subnautica 2",
+      "appid": 1962700,
+      "price": 2999,
+      "finalPrice": 2999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200760/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Grand Theft Auto V Enhanced",
-      "appid": 3240220,
-      "price": 14900,
-      "finalPrice": 7450,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/capsule_184x69.jpg"
-    },
-    {
-      "name": "Monster Hunter Wilds",
-      "appid": 2246340,
-      "price": 34800,
-      "finalPrice": 14616,
-      "discount": 58,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_184x69.jpg"
+      "name": "Fatekeeper",
+      "appid": 2186990,
+      "price": 999,
+      "finalPrice": 799,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
