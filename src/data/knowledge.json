@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T15:42:26.783Z",
+  "fetchedAt": "2026-06-05T15:51:38.583Z",
   "items": [
+    {
+      "title": "斯特灵 (科罗拉多州)",
+      "extract": "斯特灵，是美国科罗拉多州洛根县下属的一座城市。建市于1884年12月3日，面积大约为7.61平方英里（19.709平方公里）。根据2010年美国人口普查，该市有人口14,777人。2011年估计该市有人口14,725人，相比2010年人口增长率为-0.35%。同时，论人口该市是科罗拉多州第35大城市。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E7%89%B9%E7%81%B5_(%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logan_County_Colorado_Incorporated_and_Unincorporated_areas_Sterling_Highlighted.svg/langzh-330px-Logan_County_Colorado_Incorporated_and_Unincorporated_areas_Sterling_Highlighted.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "古斯塔夫·胡萨克",
       "extract": "古斯塔夫·胡萨克，生於现在的斯洛伐克的布拉迪斯拉发，是前捷克斯洛伐克的政治家、捷克斯洛伐克共產黨前总书记。他的政治实践被称为“胡萨克主义”。\n",
@@ -27,13 +34,6 @@
       "extract": "中國同性戀史以男子間的情慾而言，自中國很早以來就有所紀錄，稱之為男色或男風。古代中國的史書即傳有「美男破老、美女破舌」的說法，將美男與女色相提並論，用以勸諫君王離美色遠讒言。在春秋戰國時期，弥子瑕與衛君分桃而食、龍陽君向魏王泣魚固寵，及至兩漢時期漢哀帝不忍驚醒董賢断袖而起，這些事蹟不但是當時士人藉以著書立說的事例，亦成為後世常用於詩詞文章的男風典故。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%90%8C%E6%80%A7%E6%88%80%E5%8F%B2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Painting_-2ab.jpg/330px-Painting_-2ab.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "吉尔贝·梅耶尔",
-      "extract": "吉尔贝·梅耶尔，法国政治人物。曾任国民议会议员、科尔马市长等职。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E5%B0%94%E8%B4%9D%C2%B7%E6%A2%85%E8%80%B6%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gilbert_Meyer_par_Claude_Truong-Ngoc_avril_2015.jpg/330px-Gilbert_Meyer_par_Claude_Truong-Ngoc_avril_2015.jpg",
       "source": "wikipedia"
     }
   ]
