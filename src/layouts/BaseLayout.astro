@@ -17,6 +17,8 @@ const { title = 'AI News Hub', currentCategory = '' } = Astro.props;
     <link rel="alternate" type="application/rss+xml" title="AI News Hub RSS" href="/rss.xml" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <link rel="preconnect" href="https://{s}.tile.openstreetmap.org" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#2563eb" />
     <title>{title}</title>
   </head>
   <body class="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100
@@ -50,6 +52,11 @@ const { title = 'AI News Hub', currentCategory = '' } = Astro.props;
       content.classList.toggle('hidden');
       card.classList.toggle('expanded');
     });
+
+    // Register Service Worker for PWA caching
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
     </script>
   </body>
 </html>

@@ -5,6 +5,15 @@ const SITE_USERNAME = 'tian';
 
 export async function onRequest(context) {
   const { request, env } = context;
+  const url = new URL(request.url);
+
+  // Bypass auth for PWA files (Service Worker registration requires this)
+  var PUBLIC_PATHS = ['/sw.js', '/manifest.json', '/pwa-icons/'];
+  for (var i = 0; i < PUBLIC_PATHS.length; i++) {
+    if (url.pathname.startsWith(PUBLIC_PATHS[i])) {
+      return context.next();
+    }
+  }
 
   // Password: env var takes precedence, fallback to hardcoded
   const SITE_PASSWORD = env.SITE_PASSWORD || '111';
