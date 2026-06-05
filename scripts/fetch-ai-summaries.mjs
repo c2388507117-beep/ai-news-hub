@@ -22,8 +22,10 @@ const BATCH_SIZE = 5;  // Items per API call
 
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!API_KEY) {
-  console.error('✗ ANTHROPIC_API_KEY environment variable is required');
-  process.exit(1);
+  console.log('  ⚠ No ANTHROPIC_API_KEY set, skipping AI summaries.');
+  console.log('  Set it in Cloudflare Pages env vars or run locally:');
+  console.log('  ANTHROPIC_API_KEY=sk-xxx node scripts/fetch-ai-summaries.mjs');
+  process.exit(0);
 }
 
 function readJson(filePath) {
