@@ -1,0 +1,76 @@
+---
+import type { NewsItem } from '../lib/types';
+import type { AISummaryItem } from '../lib/types';
+
+export interface Props {
+  summaries: AISummaryItem[];
+  newsMap: Map<string, NewsItem>;
+}
+
+const { summaries, newsMap } = Astro.props;
+const hasData = summaries.length > 0;
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-purple-600 to-violet-600 px-4 py-3 flex items-center justify-between">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">🤖</span> AI 新闻摘要
+    </h3>
+    <span class="text-xs text-purple-200 opacity-80">由 Claude 生成</span>
+  </div>
+  {hasData ? (
+    <div class="divide-y divide-gray-100 dark:divide-gray-800">
+      {summaries.slice(0, 10).map((s) => {
+        const news = newsMap.get(s.id);
+        if (!news) return null;
+        return (
+          <div class="p-4 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+            <div class="flex items-start gap-3">
+              {news.imageUrl && (
+                <img
+                  src={news.imageUrl}
+                  alt=""
+                  class="w-12 h-12 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-800 mt-0.5"
+                  loading="lazy"
+                  onerror="this.style.display='none'"
+                />
+              )}
+              <div class="flex-1 min-w-0">
+                <a
+                  href={news.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-sm font-semibold text-gray-900 dark:text-gray-100 hover:text-purple-600 dark:hover:text-purple-400 transition-colors line-clamp-2"
+                >
+                  {news.title}
+                </a>
+                {s.oneLiner && (
+                  <p class="text-xs text-purple-600 dark:text-purple-400 mt-1 font-medium">
+                    💡 {s.oneLiner}
+                  </p>
+                )}
+                {s.insights && s.insights.length > 0 && (
+                  <ul class="mt-1.5 space-y-0.5">
+                    {s.insights.map((insight) => (
+                      <li class="text-xs text-gray-500 dark:text-gray-400 flex items-start gap-1">
+                        <span class="text-gray-300 dark:text-gray-600 mt-0.5">·</span>
+                        <span>{insight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  ) : (
+    <div class="p-6 text-center">
+      <p class="text-sm text-gray-400 dark:text-gray-500">暂无 AI 摘要</p>
+      <p class="text-xs text-gray-400 dark:text-gray-600 mt-1">
+        运行 <code class="text-purple-500">ANTHROPIC_API_KEY=sk-xxx node scripts/fetch-ai-summaries.mjs</code> 生成
+      </p>
+    </div>
+  )}
+</div>

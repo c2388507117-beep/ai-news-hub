@@ -234,3 +234,17 @@ export interface KnowledgeList {
   fetchedAt: string;
   items: KnowledgeItem[];
 }
+
+// --- AI Summary types ---
+
+export interface AISummaryItem {
+  id: string;
+  oneLiner: string;
+  insights: string[];
+}
+
+export interface AISummaryData {
+  fetchedAt: string;
+  totalItems: number;
+  summaries: AISummaryItem[];
+}

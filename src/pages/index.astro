@@ -20,7 +20,8 @@ import ElectricalCalc from '../components/ElectricalCalc.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import HotTopics from '../components/HotTopics.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic } from '../lib/types';
+import AISummaries from '../components/AISummaries.astro';
+import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic, AISummaryData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
@@ -31,8 +32,14 @@ import bilibiliData from '../data/bilibili.json';
 import knowledgeData from '../data/knowledge.json';
 import digestData from '../data/digest.json';
 import hotTopicsData from '../data/hot-topics.json';
+import aiSummariesData from '../data/ai-summaries.json';
 
 const allNews = allNewsData as NewsItem[];
+const aiSummaries = aiSummariesData as AISummaryData;
+
+// Build news lookup map for AI summaries
+const newsMap = new Map<string, NewsItem>();
+allNews.forEach((n) => newsMap.set(n.id, n));
 const wallpapers = wallpaperData as WallpaperData;
 const wallpapersGirl = wallpaperGirlData as WallpaperData;
 const football = footballData as FootballData;
@@ -86,6 +93,19 @@ const relatedMap = new Map<string, NewsItem[]>();
 allNews.forEach((item) => {
   relatedMap.set(item.id, getRelated(item, allNews));
 });
+
+// Hybrid rendering: first page static HTML, rest lazy-loaded from JSON
+const INITIAL_PAGE_SIZE = 10;
+const initialItems = allNews.slice(0, INITIAL_PAGE_SIZE);
+const initialRelatedMap = new Map<string, NewsItem[]>();
+initialItems.forEach((item) => {
+  initialRelatedMap.set(item.id, relatedMap.get(item.id) || []);
+});
+// Serializable lookup for client-side dynamic card rendering
+const relatedLookup: Record<string, { t: string; u: string }[]> = {};
+for (const [id, items] of relatedMap) {
+  relatedLookup[id] = items.map((r) => ({ t: r.title, u: r.url }));
+}
 ---
 
 <BaseLayout title="AI News Hub - 个人仪表盘">
@@ -115,6 +135,9 @@ allNews.forEach((item) => {
 
         <!-- Wallpapers -->
         <WallpaperGallery data={wallpapers} />
+
+        <!-- AI News Summaries -->
+        <AISummaries summaries={aiSummaries.summaries} newsMap={newsMap} />
 
         <!-- Category Nav (full width) -->
         <nav class="mb-2 overflow-x-auto">
@@ -167,16 +190,15 @@ allNews.forEach((item) => {
 
             <!-- News Cards -->
             <div id="news-list" class="space-y-3 pb-4">
-              {allNews.map((item) => (
+              {initialItems.map((item) => (
                 <div class="news-item" data-category={item.category}>
-                  <NewsCard item={item} relatedItems={relatedMap.get(item.id) || []} />
+                  <NewsCard item={item} relatedItems={initialRelatedMap.get(item.id) || []} />
                 </div>
               ))}
-              {allNews.length === 0 && (
+              {initialItems.length === 0 && (
                 <p class="text-center text-gray-400 py-12">暂无新闻，点击「更新新闻」获取</p>
               )}
             </div>
-
             <!-- Pagination -->
             <div id="pagination" class="flex items-center justify-center gap-2 pb-8 text-sm">
               <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
@@ -238,38 +260,152 @@ allNews.forEach((item) => {
 </BaseLayout>
 
 <script>
-  // Keep the EXISTING client JS for category filtering, pagination, and update button
+  // Constants
   const PER_PAGE = 10;
-  const newsItems = document.querySelectorAll('.news-item');
-  const catBtns = document.querySelectorAll('.cat-btn');
+  const CATEGORY_MAP = {
+    ai: { emoji: '🤖', label: 'AI 前沿' },
+    tech: { emoji: '💻', label: '科技动态' },
+    business: { emoji: '📈', label: '商业财经' },
+    gaming: { emoji: '🎮', label: '游戏资讯' },
+  };
+
+  // Lazy-loaded data
+  let allItems = null;
+
+  // State
   let currentCat = '';
   let currentPage = 1;
 
+  // DOM refs
+  const newsList = document.getElementById('news-list');
+  const catBtns = document.querySelectorAll('.cat-btn');
   const pgFirst = document.getElementById('pg-first');
   const pgPrev = document.getElementById('pg-prev');
   const pgNext = document.getElementById('pg-next');
   const pgLast = document.getElementById('pg-last');
   const pgInfo = document.getElementById('pg-info');
 
-  function getVisibleItems() {
-    const items = [];
-    newsItems.forEach((item, i) => {
-      if (!currentCat || item.dataset.category === currentCat) {
-        items.push({ el: item, index: i });
-      }
-    });
-    return items;
+  function escapeHtml(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  function renderPage() {
-    const visible = getVisibleItems();
+  function formatDate(dateStr) {
+    const d = new Date(dateStr);
+    const now = new Date();
+    return d.getFullYear() === now.getFullYear()
+      ? d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' })
+      : d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+
+  function loadAllData() {
+    if (allItems) return Promise.resolve();
+    return import('../data/news.json').then(function(mod) {
+      allItems = mod.default || mod;
+    });
+  }
+
+  // Build all lazy-loaded cards on first pagination interaction
+  function ensureAllRendered() {
+    const existing = newsList.querySelectorAll('.news-item');
+    if (existing.length >= allItems.length) return;
+
+    const frag = document.createDocumentFragment();
+    for (let i = existing.length; i < allItems.length; i++) {
+      const item = allItems[i];
+      const div = document.createElement('div');
+      div.className = 'news-item';
+      div.dataset.category = item.category;
+      div.style.display = 'none';
+      div.innerHTML = renderCard(item);
+      frag.appendChild(div);
+    }
+    newsList.appendChild(frag);
+  }
+
+  function renderCard(item) {
+    const cat = CATEGORY_MAP[item.category] || { emoji: '📄', label: item.category || '' };
+    const catBadge = `<span class="ml-auto px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400">${cat.emoji} ${cat.label}</span>`;
+
+    const thumb = item.imageUrl
+      ? `<img src="${escapeHtml(item.imageUrl)}" alt="" class="w-16 h-16 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-800" loading="lazy" onerror="this.style.display='none'" />`
+      : '';
+
+    let stars = '';
+    if (item.type === 'repo' && item.stars != null) {
+      stars = `<span>·</span><span>⭐ ${item.stars.toLocaleString()}</span>`;
+    }
+    let lang = '';
+    if (item.type === 'repo' && item.language) {
+      lang = `<span>·</span><span>${escapeHtml(item.language)}</span>`;
+    }
+
+    const hasContent = item.fullContent && item.fullContent.length > 0;
+    const contentBody = hasContent
+      ? `<div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-4 whitespace-pre-wrap">${escapeHtml(item.fullContent)}</div>`
+      : '<p class="text-sm text-gray-400 dark:text-gray-500 mb-4 italic">暂无详细内容</p>';
+
+    const expandedImg = item.imageUrl
+      ? `<img src="${escapeHtml(item.imageUrl)}" alt="" class="w-full max-h-64 object-cover rounded-lg mb-4 bg-gray-100 dark:bg-gray-800" loading="lazy" onerror="this.style.display='none'" />`
+      : '';
+
+    return `<div class="news-card bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all duration-200 cursor-pointer" data-expandable>
+    <div class="flex items-start gap-3">
+      ${thumb}
+      <div class="flex-1 min-w-0">
+        <h2 class="text-base font-semibold leading-snug mb-1 line-clamp-2">${escapeHtml(item.title)}</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400 line-clamp-2 mb-2">${escapeHtml(item.summary)}</p>
+        <div class="flex items-center gap-2 text-xs text-gray-400 dark:text-gray-500 flex-wrap">
+          <span>${escapeHtml(item.source)}</span>
+          <span>·</span>
+          <span>${formatDate(item.publishedAt)}</span>
+          ${stars}${lang}
+          ${catBadge}
+        </div>
+      </div>
+    </div>
+    <div class="expanded-content mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 hidden">
+      ${expandedImg}
+      ${contentBody}
+      <div class="flex items-center justify-between text-xs text-gray-400 dark:text-gray-500 pt-3 border-t border-gray-100 dark:border-gray-800">
+        <span>📎 出处: ${escapeHtml(item.source)}</span>
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600 hover:underline">查看原文 →</a>
+      </div>
+    </div>
+  </div>`;
+  }
+
+  function getVisibleIndices() {
+    if (!allItems) return [];
+    const indices = [];
+    for (let i = 0; i < allItems.length; i++) {
+      if (!currentCat || allItems[i].category === currentCat) {
+        indices.push(i);
+      }
+    }
+    return indices;
+  }
+
+  async function renderPage() {
+    await loadAllData();
+    const visible = getVisibleIndices();
     const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
     if (currentPage > totalPages) currentPage = totalPages;
     if (currentPage < 1) currentPage = 1;
     const start = (currentPage - 1) * PER_PAGE;
-    const end = start + PER_PAGE;
-    newsItems.forEach((item) => (item.style.display = 'none'));
-    visible.slice(start, end).forEach(({ el }) => { el.style.display = ''; });
+    const end = Math.min(start + PER_PAGE, visible.length);
+    const pageIndices = visible.slice(start, end);
+
+    // Build lazy cards on first pagination interaction
+    if (pageIndices.length > 0) {
+      ensureAllRendered();
+    }
+
+    const allDivs = newsList.querySelectorAll('.news-item');
+    for (let i = 0; i < allDivs.length; i++) {
+      allDivs[i].style.display = pageIndices.includes(i) ? '' : 'none';
+    }
+
     pgInfo.textContent = `${currentPage} / ${totalPages}`;
     pgFirst.disabled = currentPage <= 1;
     pgPrev.disabled = currentPage <= 1;
@@ -277,16 +413,18 @@ allNews.forEach((item) => {
     pgLast.disabled = currentPage >= totalPages;
   }
 
-  function goToPage(page) {
-    const visible = getVisibleItems();
+  async function goToPage(page) {
+    await loadAllData();
+    const visible = getVisibleIndices();
     const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
     currentPage = Math.max(1, Math.min(page, totalPages));
-    renderPage();
-    document.getElementById('news-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    await renderPage();
+    newsList.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  // Category filter buttons
   catBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       const cat = btn.dataset.cat || '';
       currentCat = cat;
       catBtns.forEach((b) => {
@@ -296,21 +434,27 @@ allNews.forEach((item) => {
       btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       btn.classList.add('bg-blue-600', 'text-white');
       currentPage = 1;
-      renderPage();
+      await renderPage();
     });
   });
 
+  // Pagination buttons
   pgFirst.addEventListener('click', () => goToPage(1));
   pgPrev.addEventListener('click', () => goToPage(currentPage - 1));
   pgNext.addEventListener('click', () => goToPage(currentPage + 1));
-  pgLast.addEventListener('click', () => {
-    const visible = getVisibleItems();
+  pgLast.addEventListener('click', async () => {
+    await loadAllData();
+    const visible = getVisibleIndices();
     const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
-    goToPage(totalPages);
+    await goToPage(totalPages);
   });
 
-  renderPage();
+  // Initial render (uses static data for first page, defers lazy build)
+  loadAllData().then(function() {
+    renderPage();
+  });
 
+  // Update button
   const updateBtn = document.getElementById('update-btn');
   if (updateBtn) {
     updateBtn.addEventListener('click', async () => {

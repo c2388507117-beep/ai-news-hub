@@ -34,10 +34,9 @@ const allNews = allNewsData as NewsItem[];
 </BaseLayout>
 
 <script>
-import allNews from '../data/news.json';
-
 const container = document.getElementById('search-results');
 const input = document.getElementById('search-input');
+var allNews = null;
 
 function escapeHtml(s) {
   if (!s) return '';
@@ -77,9 +76,19 @@ function renderCard(item) {
 }
 
 function renderResults(query) {
-  const q = query.trim().toLowerCase();
+  var q = query.trim().toLowerCase();
   if (!q) {
     container.innerHTML = '<p class="text-center text-gray-400 py-12">输入关键词搜索新闻</p>';
+    return;
+  }
+
+  // Lazy-load news data on first search
+  if (!allNews) {
+    container.innerHTML = '<p class="text-center text-gray-400 py-12">加载数据中...</p>';
+    import('../data/news.json').then(function (mod) {
+      allNews = mod.default;
+      renderResults(query);
+    });
     return;
   }
 
@@ -110,17 +119,17 @@ document.getElementById('search-form').addEventListener('submit', (e) => {
 });
 
 // Handle initial load from URL
-const params = new URLSearchParams(location.search);
-const initialQ = params.get('q') || '';
+var params = new URLSearchParams(location.search);
+var initialQ = params.get('q') || '';
 if (initialQ) {
   input.value = initialQ;
   renderResults(initialQ);
 }
 
 // Handle back/forward navigation
-window.addEventListener('popstate', () => {
-  const p = new URLSearchParams(location.search);
-  const q = p.get('q') || '';
+window.addEventListener('popstate', function () {
+  var p = new URLSearchParams(location.search);
+  var q = p.get('q') || '';
   input.value = q;
   renderResults(q);
 });
