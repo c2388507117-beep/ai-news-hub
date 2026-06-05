@@ -20,8 +20,7 @@ import ElectricalCalc from '../components/ElectricalCalc.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import HotTopics from '../components/HotTopics.astro';
 import Footer from '../components/Footer.astro';
-import AISummaries from '../components/AISummaries.astro';
-import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic, AISummaryData } from '../lib/types';
+import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
@@ -32,14 +31,8 @@ import bilibiliData from '../data/bilibili.json';
 import knowledgeData from '../data/knowledge.json';
 import digestData from '../data/digest.json';
 import hotTopicsData from '../data/hot-topics.json';
-import aiSummariesData from '../data/ai-summaries.json';
 
 const allNews = allNewsData as NewsItem[];
-const aiSummaries = aiSummariesData as AISummaryData;
-
-// Build news lookup map for AI summaries
-const newsMap = new Map<string, NewsItem>();
-allNews.forEach((n) => newsMap.set(n.id, n));
 const wallpapers = wallpaperData as WallpaperData;
 const wallpapersGirl = wallpaperGirlData as WallpaperData;
 const football = footballData as FootballData;
@@ -135,9 +128,6 @@ for (const [id, items] of relatedMap) {
 
         <!-- Wallpapers -->
         <WallpaperGallery data={wallpapers} />
-
-        <!-- AI News Summaries -->
-        <AISummaries summaries={aiSummaries.summaries} newsMap={newsMap} />
 
         <!-- Category Nav (full width) -->
         <nav class="mb-2 overflow-x-auto">
