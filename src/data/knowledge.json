@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T15:27:20.715Z",
+  "fetchedAt": "2026-06-05T15:32:20.038Z",
   "items": [
+    {
+      "title": "闪电狗",
+      "extract": "《雷霆戰狗》，由華特迪士尼製作並於2008年發行的美國電腦動畫喜劇電影，它是第48部華特迪士尼經典動畫長片，同時也是迪士尼的第4部3D電影。這部電影是由曾參與過《花木蘭》以及《變身國王》製作的克里斯·威廉斯，以及曾參與過《星際寶貝》以及《熊的傳說》製作的拜倫·霍華德 兩人共同執導，同時也是他們兩人的第一部導演作品。其英文原版的配音員包括了約翰·屈伏塔、麥莉·希拉、狄爾里奇·巴德 、尼克·史威森 、葛瑞格·杰曼 、蘇茜·伊斯曼 、麥坎·邁道爾 、克萊兒·荷特 和馬克·華爾頓 等人。台灣版本則安排了王偉忠及林郁智（藝名「納豆」）等人配音，香港版本則有張學友、王祖藍等人負責配音。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%97%AA%E7%94%B5%E7%8B%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/3b/Bolt_Poster.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "维生素C",
       "extract": "維生素C，又稱抗壞血酸，是一種存在於各種食物的維他命，也被作為營養補充品銷售，可用於預防及治療壞血病。維他命C是參與組織修復和某些神經遞質中的酶促生產。它是幾種酶的功能中所必需的，並且對於免疫系統運作很重要。它還可用作抗氧化劑。\n",
@@ -27,13 +34,6 @@
       "extract": "尚容河畔利夫雷 是法国伊勒-维莱讷省的一个市镇，位于该省东部，属于雷恩区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%9A%E5%AE%B9%E6%B2%B3%E7%95%94%E5%88%A9%E5%A4%AB%E9%9B%B7",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Livr%C3%A9-sur-Changeon_%2835%29_Mairie.jpg/330px-Livr%C3%A9-sur-Changeon_%2835%29_Mairie.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "失落的朋友",
-      "extract": "失落的朋友 是一座原位於複活節島的摩埃石像，它於1868年由一艘英國船隻黃玉號的船員從復活節島的奧龍戈取走，現藏於英國倫敦的大英博物館。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E6%9C%8B%E5%8F%8B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Angled_View_of_the_Hoa_Hakananai%27a_Statue.JPG/330px-Angled_View_of_the_Hoa_Hakananai%27a_Statue.JPG",
       "source": "wikipedia"
     }
   ]
