@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-06T11:00:52.019Z",
+  "fetchedAt": "2026-06-06T12:46:52.755Z",
   "items": [
+    {
+      "title": "拉巴塞尔",
+      "extract": "拉巴塞尔 是法国上比利牛斯省的一个市镇，属于巴涅尔德比戈尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E5%B7%B4%E5%A1%9E%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%89glise_Saint-Martin_de_Labass%C3%A8re_%28Hautes-Pyr%C3%A9n%C3%A9es%2C_France%29.JPG/330px-%C3%89glise_Saint-Martin_de_Labass%C3%A8re_%28Hautes-Pyr%C3%A9n%C3%A9es%2C_France%29.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "站前区",
       "extract": "站前区是中国辽宁省营口市所辖的一个市辖区，是营口市党政机关的所在地。隶属于辽宁省营口市，位于辽宁省南部，西邻辽东湾，东邻边临镇，南与二道镇县毗连，北与辽宾乡接壤南邻二道镇，全境面积82.31平方公里。\n",
@@ -27,13 +34,6 @@
       "extract": "東海大學建築學系成立于1960年，創系主任為藝術家陳其寬。創立之初時成為「建築工程學系」，後於1974年在建築師漢寶德在任系主任時改制為「建築學系」，並授予「建築學士」學位。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%B8%E5%BB%BA%E7%AF%89%E5%AD%B8%E7%B3%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/THU_arch_logo.svg/langzh-330px-THU_arch_logo.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Q後面不接U的英文單字列表",
-      "extract": "在英語中，字母Q的後面經常會接上字母U，但仍有些单词例外。这个列表中的71個單字中有67個是名詞，大多數被認為是外來語，比如阿拉伯語、中文、希伯來語、因纽特语、烏爾都語等不使用英文字母的語言。屬於非外來語的現代英文單字只有qiana、qwerty和tranq。\n",
-      "url": "https://zh.wikipedia.org/wiki/Q%E5%BE%8C%E9%9D%A2%E4%B8%8D%E6%8E%A5U%E7%9A%84%E8%8B%B1%E6%96%87%E5%96%AE%E5%AD%97%E5%88%97%E8%A1%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/QWERTY_keyboard.jpg/330px-QWERTY_keyboard.jpg",
       "source": "wikipedia"
     }
   ]
