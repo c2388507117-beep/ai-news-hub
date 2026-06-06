@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-06T06:05:01.672Z",
+  "fetchedAt": "2026-06-06T08:48:24.575Z",
   "items": [
+    {
+      "title": "酗酒",
+      "extract": "酗酒（alcoholism）是任何導致精神或身體健康問題的持續飲酒方式，其属于临床诊断 酒精使用疾患（依據精神疾病診斷與統計手冊第五版），或 酒精依賴（依據國際疾病分類第十一版）的范畴。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%85%97%E9%85%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/A_wife_asking_her_drunkard_husband_to_hand_over_a_bottle_Wellcome_L0067935.jpg/330px-A_wife_asking_her_drunkard_husband_to_hand_over_a_bottle_Wellcome_L0067935.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "祖古烏金仁波切",
       "extract": "祖古烏金仁波切，藏傳佛教人物，寧瑪派秋吉林巴伏藏師曾孫。\n",
@@ -27,13 +34,6 @@
       "extract": "圣米歇尔德布洛涅 是法国阿尔代什省的一个市镇，属于拉让蒂耶尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E7%B1%B3%E6%AD%87%E5%B0%94%E5%BE%B7%E5%B8%83%E6%B4%9B%E6%B6%85",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Chateaudeboulogne2.JPG/330px-Chateaudeboulogne2.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "帕里納科查斯省",
-      "extract": "帕里納科查斯省，是秘魯的省份，位於該國中南部阿亞庫喬大區，首府是科拉科拉，面積5,968平方公里，2002年人口24,028，人口密度每平方公里4.0人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%95%E9%87%8C%E7%B4%8D%E7%A7%91%E6%9F%A5%E6%96%AF%E7%9C%81",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Le_volcan_Sarasara_et_le_lac_Parinacochas._Vue_des_hauteurs_d%27Incawasi.jpg/330px-Le_volcan_Sarasara_et_le_lac_Parinacochas._Vue_des_hauteurs_d%27Incawasi.jpg",
       "source": "wikipedia"
     }
   ]
