@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-06T12:46:52.755Z",
+  "fetchedAt": "2026-06-06T14:54:47.760Z",
   "items": [
+    {
+      "title": "8-环戊基-1,3-二甲基黄嘌呤",
+      "extract": "8-环戊基-1,3-二甲基黄嘌呤，别名8-环戊基茶碱，简称8-CPT、CPX，是一种药物，可作为腺苷受体的有效选择性拮抗剂，对A1受体亚型具有一定的选择性，同时也对非选择性磷酸二酯酶抑制剂。它对动物有兴奋作用，效力略高于咖啡因。\n",
+      "url": "https://zh.wikipedia.org/wiki/8-%E7%8E%AF%E6%88%8A%E5%9F%BA-1%2C3-%E4%BA%8C%E7%94%B2%E5%9F%BA%E9%BB%84%E5%98%8C%E5%91%A4",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/8-Cyclopentyl-1%2C3-dimethylxanthine.svg/langzh-330px-8-Cyclopentyl-1%2C3-dimethylxanthine.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "拉巴塞尔",
       "extract": "拉巴塞尔 是法国上比利牛斯省的一个市镇，属于巴涅尔德比戈尔区。\n",
@@ -27,13 +34,6 @@
       "extract": "祖古烏金仁波切，藏傳佛教人物，寧瑪派秋吉林巴伏藏師曾孫。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A5%96%E5%8F%A4%E7%83%8F%E9%87%91%E4%BB%81%E6%B3%A2%E5%88%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Urgyen.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "東海大學建築學系",
-      "extract": "東海大學建築學系成立于1960年，創系主任為藝術家陳其寬。創立之初時成為「建築工程學系」，後於1974年在建築師漢寶德在任系主任時改制為「建築學系」，並授予「建築學士」學位。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%B8%E5%BB%BA%E7%AF%89%E5%AD%B8%E7%B3%BB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/THU_arch_logo.svg/langzh-330px-THU_arch_logo.svg.png",
       "source": "wikipedia"
     }
   ]
