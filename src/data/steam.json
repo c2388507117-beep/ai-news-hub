@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-06T01:25:15.449Z",
+  "fetchedAt": "2026-06-06T06:05:00.701Z",
   "topSellers": [
     {
       "name": "Gothic 1 Remake",
@@ -28,34 +28,10 @@
     {
       "name": "Steam Deck",
       "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
+      "price": 41900,
+      "finalPrice": 41900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 3999,
-      "finalPrice": 3999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
-      "name": "Subnautica 2",
-      "appid": 1962700,
-      "price": 2999,
-      "finalPrice": 2999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
       "name": "Resident Evil Requiem",
@@ -66,12 +42,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
     },
     {
-      "name": "Monster Hunter Wilds",
-      "appid": 2246340,
-      "price": 6999,
-      "finalPrice": 2939,
-      "discount": 58,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_184x69.jpg"
+      "name": "Sons Of The Forest",
+      "appid": 1326470,
+      "price": 2899,
+      "finalPrice": 869,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_184x69.jpg"
+    },
+    {
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 3899,
+      "finalPrice": 3899,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
