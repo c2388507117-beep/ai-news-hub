@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T22:37:35.144Z",
+  "fetchedAt": "2026-06-06T01:25:16.189Z",
   "items": [
+    {
+      "title": "東海大學建築學系",
+      "extract": "東海大學建築學系成立于1960年，創系主任為藝術家陳其寬。創立之初時成為「建築工程學系」，後於1974年在建築師漢寶德在任系主任時改制為「建築學系」，並授予「建築學士」學位。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%B8%E5%BB%BA%E7%AF%89%E5%AD%B8%E7%B3%BB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/THU_arch_logo.svg/langzh-330px-THU_arch_logo.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "Q後面不接U的英文單字列表",
       "extract": "在英語中，字母Q的後面經常會接上字母U，但仍有些单词例外。这个列表中的71個單字中有67個是名詞，大多數被認為是外來語，比如阿拉伯語、中文、希伯來語、因纽特语、烏爾都語等不使用英文字母的語言。屬於非外來語的現代英文單字只有qiana、qwerty和tranq。\n",
@@ -27,13 +34,6 @@
       "extract": "两耳草 为禾本科雀稗属下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%A4%E8%80%B3%E8%8D%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Starr_070208-4357_Paspalum_conjugatum.jpg/330px-Starr_070208-4357_Paspalum_conjugatum.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯特灵 (科罗拉多州)",
-      "extract": "斯特灵，是美国科罗拉多州洛根县下属的一座城市。建市于1884年12月3日，面积大约为7.61平方英里（19.709平方公里）。根据2010年美国人口普查，该市有人口14,777人。2011年估计该市有人口14,725人，相比2010年人口增长率为-0.35%。同时，论人口该市是科罗拉多州第35大城市。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E7%89%B9%E7%81%B5_(%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logan_County_Colorado_Incorporated_and_Unincorporated_areas_Sterling_Highlighted.svg/langzh-330px-Logan_County_Colorado_Incorporated_and_Unincorporated_areas_Sterling_Highlighted.svg.png",
       "source": "wikipedia"
     }
   ]
