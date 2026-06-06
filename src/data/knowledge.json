@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-06T14:54:47.760Z",
+  "fetchedAt": "2026-06-06T16:36:12.009Z",
   "items": [
+    {
+      "title": "塔朗泰讷河畔尚-马尔沙勒",
+      "extract": "塔朗泰讷河畔尚-马尔沙勒 是法国康塔尔省的一个市镇，位于该省北部，属于莫里亚克区。该市镇于1972年由原市镇塔朗泰讷河畔尚（Champs-sur-Tarentaine）和马尔沙勒（Marchal）合并而成。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E6%9C%97%E6%B3%B0%E8%AE%B7%E6%B2%B3%E7%95%94%E5%B0%9A-%E9%A9%AC%E5%B0%94%E6%B2%99%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Champs-sur-Tarentaine_jumelage.JPG/330px-Champs-sur-Tarentaine_jumelage.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "8-环戊基-1,3-二甲基黄嘌呤",
       "extract": "8-环戊基-1,3-二甲基黄嘌呤，别名8-环戊基茶碱，简称8-CPT、CPX，是一种药物，可作为腺苷受体的有效选择性拮抗剂，对A1受体亚型具有一定的选择性，同时也对非选择性磷酸二酯酶抑制剂。它对动物有兴奋作用，效力略高于咖啡因。\n",
@@ -27,13 +34,6 @@
       "extract": "酗酒（alcoholism）是任何導致精神或身體健康問題的持續飲酒方式，其属于临床诊断 酒精使用疾患（依據精神疾病診斷與統計手冊第五版），或 酒精依賴（依據國際疾病分類第十一版）的范畴。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%85%97%E9%85%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/A_wife_asking_her_drunkard_husband_to_hand_over_a_bottle_Wellcome_L0067935.jpg/330px-A_wife_asking_her_drunkard_husband_to_hand_over_a_bottle_Wellcome_L0067935.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "祖古烏金仁波切",
-      "extract": "祖古烏金仁波切，藏傳佛教人物，寧瑪派秋吉林巴伏藏師曾孫。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A5%96%E5%8F%A4%E7%83%8F%E9%87%91%E4%BB%81%E6%B3%A2%E5%88%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Urgyen.jpg",
       "source": "wikipedia"
     }
   ]
