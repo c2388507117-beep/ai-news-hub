@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-06T20:36:44.423Z",
+  "fetchedAt": "2026-06-06T22:32:09.823Z",
   "items": [
+    {
+      "title": "涌尾 (香港仔)",
+      "extract": "涌尾，又名士丹頓灣，是香港香港島南部香港仔與黃竹坑之間的一個地方，主要是一個住宅區及輕工業集中地，並有少量商業大廈和酒店。範圍包括香港仔工業學校、南朗山道以西及黃竹坑道以南的工業區、香港仔警署、香港仔網球及壁球中心及逸港居。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B6%8C%E5%B0%BE_(%E9%A6%99%E6%B8%AF%E4%BB%94)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Aberdeen_Chung_Mei.jpg/330px-Aberdeen_Chung_Mei.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "圣布里斯 (奥恩省)",
       "extract": "圣布里斯 是法国奥恩省的一个市镇，属于阿朗松区。\n",
@@ -27,13 +34,6 @@
       "extract": "8-环戊基-1,3-二甲基黄嘌呤，别名8-环戊基茶碱，简称8-CPT、CPX，是一种药物，可作为腺苷受体的有效选择性拮抗剂，对A1受体亚型具有一定的选择性，同时也对非选择性磷酸二酯酶抑制剂。它对动物有兴奋作用，效力略高于咖啡因。\n",
       "url": "https://zh.wikipedia.org/wiki/8-%E7%8E%AF%E6%88%8A%E5%9F%BA-1%2C3-%E4%BA%8C%E7%94%B2%E5%9F%BA%E9%BB%84%E5%98%8C%E5%91%A4",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/8-Cyclopentyl-1%2C3-dimethylxanthine.svg/langzh-330px-8-Cyclopentyl-1%2C3-dimethylxanthine.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉巴塞尔",
-      "extract": "拉巴塞尔 是法国上比利牛斯省的一个市镇，属于巴涅尔德比戈尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E5%B7%B4%E5%A1%9E%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%89glise_Saint-Martin_de_Labass%C3%A8re_%28Hautes-Pyr%C3%A9n%C3%A9es%2C_France%29.JPG/330px-%C3%89glise_Saint-Martin_de_Labass%C3%A8re_%28Hautes-Pyr%C3%A9n%C3%A9es%2C_France%29.JPG",
       "source": "wikipedia"
     }
   ]
