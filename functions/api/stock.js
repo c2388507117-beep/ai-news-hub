@@ -32,25 +32,46 @@ export async function onRequest(context) {
     // --- Search mode ---
     const searchQuery = url.searchParams.get('search');
     if (searchQuery && searchQuery.trim().length > 0) {
-      const res = await fetch(
-        `${YAHOO_SEARCH_URL}?q=${encodeURIComponent(searchQuery.trim())}`,
-        {
+      const query = encodeURIComponent(searchQuery.trim());
+
+      // Try with Chinese language/region support first, fall back to default
+      let quotes = [];
+      const searchConfigs = [
+        { lang: 'zh-CN', region: 'CN', label: 'CN' },
+        { lang: 'zh-CN', region: 'HK', label: 'HK' },
+        { lang: 'en-US', region: 'US', label: 'US' },
+      ];
+
+      for (const cfg of searchConfigs) {
+        const url = `${YAHOO_SEARCH_URL}?q=${query}&lang=${cfg.lang}&region=${cfg.region}&quotesCount=8`;
+        const res = await fetch(url, {
           headers: {
             'User-Agent': 'Mozilla/5.0 (compatible; CloudflarePages/1.0)',
             'Accept': 'application/json',
           },
+        });
+        if (res.ok) {
+          const json = await res.json();
+          const results = (json.quotes || []).map(q => ({
+            symbol: q.symbol,
+            name: q.shortname || q.longname || q.symbol,
+            exchange: q.exchange || '',
+            quoteType: q.quoteType || '',
+          }));
+          // Merge new results, avoid duplicates by symbol
+          const existing = new Set(quotes.map(q => q.symbol));
+          for (const r of results) {
+            if (!existing.has(r.symbol)) {
+              quotes.push(r);
+              existing.add(r.symbol);
+            }
+          }
         }
-      );
-      if (!res.ok) {
-        return Response.json({ quotes: [], error: `Search returned ${res.status}` });
       }
-      const json = await res.json();
-      const quotes = (json.quotes || []).slice(0, 8).map(q => ({
-        symbol: q.symbol,
-        name: q.shortname || q.longname || q.symbol,
-        exchange: q.exchange || '',
-        quoteType: q.quoteType || '',
-      }));
+
+      // Limit to top 8
+      quotes = quotes.slice(0, 8);
+
       return Response.json({ quotes });
     }
 

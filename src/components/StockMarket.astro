@@ -69,7 +69,7 @@
             type="text"
             id="stock-search-input"
             class="w-full pl-8 pr-3 py-2 text-xs rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-green-500 focus:border-green-500 transition-shadow"
-            placeholder="搜索个股 (代码或名称)..."
+            placeholder="搜索个股 (代码/名称/中文)..."
             autocomplete="off"
           />
         </div>
@@ -463,9 +463,28 @@
     }
   }
 
+  // IME composition state (Chinese input method)
+  var isComposing = false;
+
+  searchInput.addEventListener('compositionstart', function() {
+    isComposing = true;
+  });
+
+  searchInput.addEventListener('compositionend', function() {
+    isComposing = false;
+    // Trigger search after composition ends
+    triggerSearch();
+  });
+
   // Debounced search on input
   searchInput.addEventListener('input', function() {
-    var query = this.value.trim();
+    // Skip while IME composition is in progress (e.g., typing pinyin)
+    if (isComposing) return;
+    triggerSearch();
+  });
+
+  function triggerSearch() {
+    var query = searchInput.value.trim();
     if (query.length < 1) {
       searchResults.classList.add('hidden');
       singleResult.classList.add('hidden');
@@ -486,7 +505,7 @@
         }
       })();
     }, 300);
-  });
+  }
 
   // Close search results on blur (with delay to allow click)
   searchInput.addEventListener('blur', function() {
@@ -504,7 +523,7 @@
 
   // Keyboard: Enter on search input triggers search
   searchInput.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter' && !isComposing) {
       var query = this.value.trim();
       if (query.length < 1) return;
       // If there are visible results, click the first one
