@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T02:09:59.141Z",
+  "fetchedAt": "2026-06-07T02:11:05.210Z",
   "items": [
+    {
+      "title": "萘锂",
+      "extract": "萘锂是一种有机化合物，化学式为LiC10H8。锂在苯中与萘反应可以得到萘锂。萘锂可以用作还原剂，可溶于乙醚、苯和四氢呋喃。但它与四氢呋喃或质子溶剂在加热时反应。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%98%E9%94%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Lithium_Naphthalenide.jpg/330px-Lithium_Naphthalenide.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "德林加手枪",
       "extract": "德林加手枪（掌心雷） 泛指任何不是转轮式或半自动/自动式的袖珍手枪，通常使用多枪管设计。由亨利·德林杰 设计的1825年原版“费城德林杰”手枪 是一款前装火帽单发手枪，通常使用.41口径弹药、1.5—6英寸（38—152毫米）的线膛枪管和胡桃木加白铜枪身，总共生产了15000把。\n",
@@ -27,13 +34,6 @@
       "extract": "涌尾，又名士丹頓灣，是香港香港島南部香港仔與黃竹坑之間的一個地方，主要是一個住宅區及輕工業集中地，並有少量商業大廈和酒店。範圍包括香港仔工業學校、南朗山道以西及黃竹坑道以南的工業區、香港仔警署、香港仔網球及壁球中心及逸港居。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B6%8C%E5%B0%BE_(%E9%A6%99%E6%B8%AF%E4%BB%94)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Aberdeen_Chung_Mei.jpg/330px-Aberdeen_Chung_Mei.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "圣布里斯 (奥恩省)",
-      "extract": "圣布里斯 是法国奥恩省的一个市镇，属于阿朗松区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%B8%83%E9%87%8C%E6%96%AF_(%E5%A5%A5%E6%81%A9%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/FranceNormandieSaintBrice61Eglise.jpg/330px-FranceNormandieSaintBrice61Eglise.jpg",
       "source": "wikipedia"
     }
   ]
