@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T20:39:52.067Z",
+  "fetchedAt": "2026-06-07T22:32:00.292Z",
   "items": [
+    {
+      "title": "细叶桉",
+      "extract": "细叶桉 为桃金娘科桉属下的一个种，可見於澳洲東部。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%86%E5%8F%B6%E6%A1%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Eucalyptus_tereticornis_-_full_tree.jpg/330px-Eucalyptus_tereticornis_-_full_tree.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "圣西普里安 (多尔多涅省)",
       "extract": "圣西普里安 是法国多尔多涅省的一个市镇，属于萨拉拉卡内达区。\n",
@@ -27,13 +34,6 @@
       "extract": "彭養光（1873年—1946年）字临九，湖北钟祥客店人，中国民主革命家，中华民国政治人物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E9%A4%8A%E5%85%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Peng_Yangguang.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "於秀敏",
-      "extract": "於秀敏（1983年3月22日—）是中國女子射擊運動員，出生於江蘇鹽城。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%BC%E7%A7%80%E6%95%8F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/FISU_flag.svg/langzh-330px-FISU_flag.svg.png",
       "source": "wikipedia"
     }
   ]

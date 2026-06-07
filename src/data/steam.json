@@ -1,21 +1,29 @@
 {
-  "fetchedAt": "2026-06-07T20:39:51.298Z",
+  "fetchedAt": "2026-06-07T22:31:59.468Z",
   "topSellers": [
+    {
+      "name": "Gothic 1 Remake",
+      "appid": 1297900,
+      "price": 4999,
+      "finalPrice": 4999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+    },
     {
       "name": "Steam Deck",
       "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
+      "price": 41900,
+      "finalPrice": 41900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
-      "name": "Halo: Campaign Evolved",
-      "appid": 2806050,
-      "price": 4999,
-      "finalPrice": 4999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/capsule_184x69.jpg"
+      "name": "Gamble With Your Friends",
+      "appid": 3892270,
+      "price": 779,
+      "finalPrice": 623,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/capsule_184x69.jpg"
     },
     {
       "name": "Forza Horizon 6",
@@ -26,36 +34,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "007 First Light - Standard Edition",
-      "appid": 1488462,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
-    },
-    {
       "name": "Paralives",
       "appid": 1118520,
-      "price": 3999,
-      "finalPrice": 3999,
+      "price": 3899,
+      "finalPrice": 3899,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
-    },
-    {
-      "name": "Gears of War: E-Day",
-      "appid": 3010850,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
       "name": "Subnautica 2",
@@ -66,12 +50,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Gothic 1 Remake",
-      "appid": 1297900,
-      "price": 4999,
-      "finalPrice": 4999,
+      "name": "Fatekeeper",
+      "appid": 2186990,
+      "price": 999,
+      "finalPrice": 799,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
