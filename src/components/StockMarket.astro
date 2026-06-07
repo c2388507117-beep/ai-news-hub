@@ -61,6 +61,24 @@
         </button>
       </div>
 
+      <!-- Search -->
+      <div id="stock-search-area" class="mt-1 mb-3">
+        <div class="relative">
+          <span class="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-sm">🔍</span>
+          <input
+            type="text"
+            id="stock-search-input"
+            class="w-full pl-8 pr-3 py-2 text-xs rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-green-500 focus:border-green-500 transition-shadow"
+            placeholder="搜索个股 (代码或名称)..."
+            autocomplete="off"
+          />
+        </div>
+        <!-- Search results dropdown -->
+        <div id="stock-search-results" class="hidden mt-1 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 divide-y divide-gray-100 dark:divide-gray-800 overflow-hidden shadow-lg"></div>
+        <!-- Single stock result card -->
+        <div id="stock-single-result" class="hidden mt-2"></div>
+      </div>
+
       <!-- Market groups (filled by JS) -->
       <div id="stock-groups" class="hidden space-y-4"></div>
     </div>
@@ -333,6 +351,188 @@
   // Retry button (in error state)
   retryEl.addEventListener('click', function() {
     init();
+  });
+
+  // --- Search functionality ---
+
+  var searchInput = document.getElementById('stock-search-input');
+  var searchResults = document.getElementById('stock-search-results');
+  var singleResult = document.getElementById('stock-single-result');
+  var searchTimer = null;
+
+  /**
+   * Search stocks via Yahoo Finance search API
+   */
+  async function searchStocks(query) {
+    var res = await fetch('/api/stock/search?q=' + encodeURIComponent(query), {
+      headers: { 'Accept': 'application/json' }
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return await res.json();
+  }
+
+  /**
+   * Fetch a single stock quote data
+   */
+  async function fetchSingleStock(symbol) {
+    var res = await fetch('/api/stock?symbols=' + encodeURIComponent(symbol), {
+      headers: { 'Accept': 'application/json' }
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+    return data && data.length > 0 ? data[0] : null;
+  }
+
+  /**
+   * Render search results dropdown
+   */
+  function renderSearchResults(data) {
+    if (!data.quotes || data.quotes.length === 0) {
+      searchResults.innerHTML = '<div class="px-3 py-3 text-xs text-gray-400 text-center">未找到匹配结果</div>';
+      searchResults.classList.remove('hidden');
+      return;
+    }
+
+    var html = '';
+    data.quotes.forEach(function(q) {
+      var typeIcon = q.quoteType === 'EQUITY' ? '🏢' : q.quoteType === 'ETF' ? '📦' : q.quoteType === 'INDEX' ? '📊' : '💹';
+      html += '<button class="stock-search-item w-full flex items-center gap-3 px-3 py-2.5 text-left hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors cursor-pointer" data-symbol="' + escapeHtml(q.symbol) + '">';
+      html += '<span class="text-sm">' + typeIcon + '</span>';
+      html += '<div class="flex-1 min-w-0">';
+      html += '<span class="text-xs font-medium text-gray-800 dark:text-gray-200 block truncate">' + escapeHtml(q.name) + '</span>';
+      html += '<span class="text-[10px] text-gray-400">' + escapeHtml(q.symbol) + (q.exchange ? ' · ' + escapeHtml(q.exchange) : '') + '</span>';
+      html += '</div>';
+      html += '<span class="text-[10px] text-gray-400 bg-gray-100 dark:bg-gray-700 px-1.5 py-0.5 rounded">' + escapeHtml(q.quoteType || '') + '</span>';
+      html += '</button>';
+    });
+
+    searchResults.innerHTML = html;
+    searchResults.classList.remove('hidden');
+
+    // Attach click handlers to each result item
+    searchResults.querySelectorAll('.stock-search-item').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var symbol = this.getAttribute('data-symbol');
+        var name = this.querySelector('.text-xs.font-medium')?.textContent || symbol;
+        selectStock(symbol, name);
+      });
+    });
+  }
+
+  /**
+   * User selected a stock from search results
+   */
+  async function selectStock(symbol, name) {
+    // Hide search results
+    searchResults.classList.add('hidden');
+    searchInput.value = name + ' (' + symbol + ')';
+
+    // Show loading
+    singleResult.innerHTML = '<div class="flex items-center gap-3 py-3 animate-pulse"><div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-24"></div><div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-16 ml-auto"></div></div>';
+    singleResult.classList.remove('hidden');
+
+    try {
+      var data = await fetchSingleStock(symbol);
+      if (!data) throw new Error('No data');
+
+      if (data.error) {
+        singleResult.innerHTML = '<div class="text-center py-4"><span class="text-xs text-red-400">⚠️ ' + escapeHtml(data.error) + '</span></div>';
+        return;
+      }
+
+      // Render result card (similar style to index items)
+      var colorClass = changeColor(data.change);
+      var arrow = data.change > 0 ? '▲' : (data.change < 0 ? '▼' : '—');
+      var isUp = data.change > 0;
+
+      singleResult.innerHTML =
+        '<div class="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 overflow-hidden">' +
+        '<div class="flex items-center gap-3 px-3 py-3">' +
+        '<div class="flex-1 min-w-0">' +
+        '<span class="text-sm font-semibold text-gray-800 dark:text-gray-200 block truncate">' + escapeHtml(data.name || symbol) + '</span>' +
+        '<span class="text-[11px] text-gray-400">' + escapeHtml(symbol) + (data.currency ? ' · ' + escapeHtml(data.currency) : '') + '</span>' +
+        '</div>' +
+        '<div class="text-right">' +
+        '<div class="text-lg font-bold tabular-nums ' + colorClass + '">' + fmtPrice(data.currentPrice) + '</div>' +
+        '<div class="text-xs font-mono tabular-nums ' + colorClass + '">' + arrow + ' ' + fmtChange(data.change) + ' · ' + fmtChangePct(data.changePct) + '</div>' +
+        '</div>' +
+        '</div>' +
+        '</div>';
+    } catch (err) {
+      singleResult.innerHTML = '<div class="text-center py-4"><span class="text-xs text-red-400">⚠️ 加载失败: ' + escapeHtml(err.message) + '</span></div>';
+    }
+  }
+
+  // Debounced search on input
+  searchInput.addEventListener('input', function() {
+    var query = this.value.trim();
+    if (query.length < 1) {
+      searchResults.classList.add('hidden');
+      singleResult.classList.add('hidden');
+      return;
+    }
+
+    // Clear previous timer
+    if (searchTimer) clearTimeout(searchTimer);
+
+    searchTimer = setTimeout(function() {
+      (async function() {
+        try {
+          var data = await searchStocks(query);
+          renderSearchResults(data);
+        } catch (err) {
+          searchResults.innerHTML = '<div class="px-3 py-3 text-xs text-red-400 text-center">搜索失败: ' + escapeHtml(err.message) + '</div>';
+          searchResults.classList.remove('hidden');
+        }
+      })();
+    }, 300);
+  });
+
+  // Close search results on blur (with delay to allow click)
+  searchInput.addEventListener('blur', function() {
+    setTimeout(function() {
+      searchResults.classList.add('hidden');
+    }, 200);
+  });
+
+  // Focus back to show results if input has value
+  searchInput.addEventListener('focus', function() {
+    if (this.value.trim().length >= 1 && !searchResults.classList.contains('hidden')) {
+      searchResults.classList.remove('hidden');
+    }
+  });
+
+  // Keyboard: Enter on search input triggers search
+  searchInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      var query = this.value.trim();
+      if (query.length < 1) return;
+      // If there are visible results, click the first one
+      var firstItem = searchResults.querySelector('.stock-search-item');
+      if (firstItem) {
+        firstItem.click();
+      } else {
+        // Otherwise search directly
+        if (searchTimer) clearTimeout(searchTimer);
+        (async function() {
+          try {
+            var data = await searchStocks(query);
+            renderSearchResults(data);
+          } catch (err) {
+            searchResults.innerHTML = '<div class="px-3 py-3 text-xs text-red-400 text-center">搜索失败</div>';
+            searchResults.classList.remove('hidden');
+          }
+        })();
+      }
+    }
+  });
+
+  // Handle body click to close search results when clicking outside
+  document.addEventListener('click', function(e) {
+    var area = document.getElementById('stock-search-area');
+    if (area && !area.contains(e.target)) {
+      searchResults.classList.add('hidden');
+    }
   });
 
   // Initial load
