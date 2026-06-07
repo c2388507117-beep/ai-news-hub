@@ -118,18 +118,22 @@ async function fetchSingle(symbol) {
   const currentPrice = meta.regularMarketPrice;
   const currency = meta.currency || '';
 
-  // previousClose may be missing in some API responses; fall back to
-  // chartPreviousClose, then derive from the quotes close array.
+  // Debug: collect available meta keys
+  const metaKeys = Object.keys(meta).join(',');
+  const hasIndicators = !!(result?.indicators?.quote?.[0]?.close);
+  const closeLen = result?.indicators?.quote?.[0]?.close?.length;
+
+  // Try multiple fallback strategies for previousClose
   let prevClose = meta.previousClose ?? meta.chartPreviousClose ?? null;
+
+  // Fall back to indicators quote close array
   if (prevClose == null) {
     const closes = result?.indicators?.quote?.[0]?.close;
     if (closes && closes.length >= 2) {
-      // Walk backwards to find the last non-null close before the current one
       for (let i = closes.length - 1; i >= 0; i--) {
         if (closes[i] != null) {
           if (prevClose == null) {
-            // first non-null = current price candidate, skip to find previous
-            prevClose = 0; // sentinel
+            prevClose = 0; // sentinel — found current, need previous
           } else {
             prevClose = closes[i];
             break;
@@ -141,7 +145,12 @@ async function fetchSingle(symbol) {
   }
 
   if (currentPrice == null || prevClose == null) {
-    throw new Error(`Incomplete data for ${symbol}: price=${currentPrice}, prevClose=${prevClose}`);
+    throw new Error(
+      `Incomplete data for ${symbol}: price=${currentPrice},` +
+      ` prevClose=${prevClose}, metaKeys=[${metaKeys}],` +
+      ` chartPrevClose=${meta.chartPreviousClose},` +
+      ` hasIndicators=${hasIndicators}, closeLen=${closeLen}`
+    );
   }
 
   const change = currentPrice - prevClose;
