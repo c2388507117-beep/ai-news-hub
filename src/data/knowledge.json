@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T02:19:44.451Z",
+  "fetchedAt": "2026-06-07T02:40:46.807Z",
   "items": [
+    {
+      "title": "1988年夏季奥林匹克运动会坦桑尼亚代表团",
+      "extract": "1988年夏季奥林匹克运动会坦桑尼亚代表团是坦桑尼亚派出的1988年夏季奥林匹克运动会代表团。\n",
+      "url": "https://zh.wikipedia.org/wiki/1988%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E8%BF%90%E5%8A%A8%E4%BC%9A%E5%9D%A6%E6%A1%91%E5%B0%BC%E4%BA%9A%E4%BB%A3%E8%A1%A8%E5%9B%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/langzh-330px-Flag_of_Tanzania.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "長城葡萄酒",
       "extract": "長城葡萄酒是中糧集團旗下中粮酒业投资有限公司的一款葡萄酒品牌。\n",
@@ -27,13 +34,6 @@
       "extract": "泰梅里库尔 是法国法兰西岛大区瓦兹河谷省的一个市镇，属于蓬图瓦兹区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E6%A2%85%E9%87%8C%E5%BA%93%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/P1030360_chateau.JPG/330px-P1030360_chateau.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "克里特大学",
-      "extract": "克里特大学 是希腊克里特大区的一所大学。该校成立于1973年。克里特大学有两个校区：雷西姆农校区与伊拉克利翁校区。该校现有学生13,141名，其中本科11,011名，研究生2,130名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E7%89%B9%E5%A4%A7%E5%AD%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/University_of_Crete%2C_Rethymno_Campus_01.jpg/330px-University_of_Crete%2C_Rethymno_Campus_01.jpg",
       "source": "wikipedia"
     }
   ]
