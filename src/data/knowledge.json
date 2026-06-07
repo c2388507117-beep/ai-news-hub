@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T02:03:11.939Z",
+  "fetchedAt": "2026-06-07T02:09:59.141Z",
   "items": [
+    {
+      "title": "德林加手枪",
+      "extract": "德林加手枪（掌心雷） 泛指任何不是转轮式或半自动/自动式的袖珍手枪，通常使用多枪管设计。由亨利·德林杰 设计的1825年原版“费城德林杰”手枪 是一款前装火帽单发手枪，通常使用.41口径弹药、1.5—6英寸（38—152毫米）的线膛枪管和胡桃木加白铜枪身，总共生产了15000把。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E6%9E%97%E5%8A%A0%E6%89%8B%E6%9E%AA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Booth_deringer.jpg/330px-Booth_deringer.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "泰梅里库尔",
       "extract": "泰梅里库尔 是法国法兰西岛大区瓦兹河谷省的一个市镇，属于蓬图瓦兹区。\n",
@@ -27,13 +34,6 @@
       "extract": "圣布里斯 是法国奥恩省的一个市镇，属于阿朗松区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%B8%83%E9%87%8C%E6%96%AF_(%E5%A5%A5%E6%81%A9%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/FranceNormandieSaintBrice61Eglise.jpg/330px-FranceNormandieSaintBrice61Eglise.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "猪毛草",
-      "extract": "猪毛草 为莎草科萤蔺属下的一个种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%8C%AA%E6%AF%9B%E8%8D%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%E8%B1%AC%E6%AF%9B%E8%8D%89.JPG/330px-%E8%B1%AC%E6%AF%9B%E8%8D%89.JPG",
       "source": "wikipedia"
     }
   ]
