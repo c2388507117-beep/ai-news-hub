@@ -118,11 +118,6 @@ async function fetchSingle(symbol) {
   const currentPrice = meta.regularMarketPrice;
   const currency = meta.currency || '';
 
-  // Debug: collect available meta keys
-  const metaKeys = Object.keys(meta).join(',');
-  const hasIndicators = !!(result?.indicators?.quote?.[0]?.close);
-  const closeLen = result?.indicators?.quote?.[0]?.close?.length;
-
   // Try multiple fallback strategies for previousClose
   let prevClose = meta.previousClose ?? meta.chartPreviousClose ?? null;
 
@@ -145,12 +140,7 @@ async function fetchSingle(symbol) {
   }
 
   if (currentPrice == null || prevClose == null) {
-    throw new Error(
-      `Incomplete data for ${symbol}: price=${currentPrice},` +
-      ` prevClose=${prevClose}, metaKeys=[${metaKeys}],` +
-      ` chartPrevClose=${meta.chartPreviousClose},` +
-      ` hasIndicators=${hasIndicators}, closeLen=${closeLen}`
-    );
+    throw new Error(`Incomplete data for ${symbol}: price=${currentPrice}, prevClose=${prevClose}`);
   }
 
   const change = currentPrice - prevClose;
