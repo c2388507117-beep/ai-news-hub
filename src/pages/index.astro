@@ -6,6 +6,7 @@ import NetEaseMusic from '../components/NetEaseMusic.astro';
 import FootballStandings from '../components/FootballStandings.astro';
 import SteamCharts from '../components/SteamCharts.astro';
 import BilibiliFavorites from '../components/BilibiliFavorites.astro';
+import StockMarket from '../components/StockMarket.astro';
 import WallpaperGallery from '../components/WallpaperGallery.astro';
 import DailyKnowledge from '../components/DailyKnowledge.astro';
 import DailyDigest from '../components/DailyDigest.astro';
@@ -126,8 +127,8 @@ for (const [id, items] of relatedMap) {
         <!-- Private Douban -->
         <PrivateDouban />
 
-        <!-- Wallpapers -->
-        <WallpaperGallery data={wallpapers} />
+        <!-- Stock Market -->
+        <StockMarket />
 
         <!-- Category Nav (full width) -->
         <nav class="mb-2 overflow-x-auto">
