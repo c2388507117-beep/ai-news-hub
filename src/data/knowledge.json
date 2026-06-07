@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T10:11:19.356Z",
+  "fetchedAt": "2026-06-07T12:03:36.512Z",
   "items": [
+    {
+      "title": "於秀敏",
+      "extract": "於秀敏（1983年3月22日—）是中國女子射擊運動員，出生於江蘇鹽城。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%BC%E7%A7%80%E6%95%8F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/FISU_flag.svg/langzh-330px-FISU_flag.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "太平村屠殺",
       "extract": "太平村屠殺，是越南平定省的太平村於1966年2月大韓民國國軍猛虎部隊對太平村村民的屠杀，死者都是无武装的平民。越南戰爭期間，韓國軍屠殺的越南平民至少有9,000人之多。这一事件中，韩国陆军士兵屠杀了65名没有武器的平民，其中多数是妇女和儿童。\n",
@@ -27,13 +34,6 @@
       "extract": "羅基特内區 是烏克蘭西北部羅夫諾州的舊區，行政中心为羅基特内，並於2020年撤銷。該區面積2,350平方公里，2015年人口56,276，人口密度每平方公里23.9人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E5%9F%BA%E7%89%B9%E5%85%A7%E5%8D%80_(%E7%BE%85%E5%A4%AB%E8%AB%BE%E5%B7%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rokytnyanskyi-Riv-Raion.png/330px-Rokytnyanskyi-Riv-Raion.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "林袋鼠属",
-      "extract": "林袋鼠屬（Dorcopsis），哺乳綱的一屬，屬於袋鼠科，而與林袋鼠屬（林袋鼠）同科的動物尚有小林袋鼠屬（小林袋鼠）、兔袋鼠屬（小兔袋鼠）、樹袋鼠屬（灰樹袋鼠）等之數種哺乳動物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A2%8B%E9%BC%A0%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HalmaturusLuctuosusKeulemans.jpg/330px-HalmaturusLuctuosusKeulemans.jpg",
       "source": "wikipedia"
     }
   ]

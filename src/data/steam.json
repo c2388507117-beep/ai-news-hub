@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-07T10:11:18.648Z",
+  "fetchedAt": "2026-06-07T12:03:35.610Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -34,12 +34,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
-      "name": "Fallout 1st",
-      "appid": 1202520,
-      "price": 1299,
-      "finalPrice": 1299,
+      "name": "Gothic 1 Remake",
+      "appid": 1297900,
+      "price": 4999,
+      "finalPrice": 4999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
       "name": "Paralives",
@@ -50,20 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
-      "name": "Gothic 1 Remake",
-      "appid": 1297900,
-      "price": 4999,
-      "finalPrice": 4999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
-    },
-    {
       "name": "Subnautica 2",
       "appid": 1962700,
       "price": 2999,
       "finalPrice": 2999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
+    },
+    {
+      "name": "Resident Evil Requiem",
+      "appid": 3764200,
+      "price": 6999,
+      "finalPrice": 5599,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
