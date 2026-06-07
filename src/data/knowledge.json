@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T12:03:36.512Z",
+  "fetchedAt": "2026-06-07T14:22:55.755Z",
   "items": [
+    {
+      "title": "彭養光",
+      "extract": "彭養光（1873年—1946年）字临九，湖北钟祥客店人，中国民主革命家，中华民国政治人物。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E9%A4%8A%E5%85%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Peng_Yangguang.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "於秀敏",
       "extract": "於秀敏（1983年3月22日—）是中國女子射擊運動員，出生於江蘇鹽城。\n",
@@ -27,13 +34,6 @@
       "extract": "瓦朗通 是法国法蘭西島大區马恩河谷省的一个市镇，属于克雷泰伊区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E6%9C%97%E9%80%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Parc_d%C3%A9partemental_de_la_Plage_Bleue_-_1.jpg/330px-Parc_d%C3%A9partemental_de_la_Plage_Bleue_-_1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "羅基特內區 (羅夫諾州)",
-      "extract": "羅基特内區 是烏克蘭西北部羅夫諾州的舊區，行政中心为羅基特内，並於2020年撤銷。該區面積2,350平方公里，2015年人口56,276，人口密度每平方公里23.9人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E5%9F%BA%E7%89%B9%E5%85%A7%E5%8D%80_(%E7%BE%85%E5%A4%AB%E8%AB%BE%E5%B7%9E)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rokytnyanskyi-Riv-Raion.png/330px-Rokytnyanskyi-Riv-Raion.png",
       "source": "wikipedia"
     }
   ]
