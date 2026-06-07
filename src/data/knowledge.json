@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T14:22:55.755Z",
+  "fetchedAt": "2026-06-07T16:46:50.727Z",
   "items": [
+    {
+      "title": "臺北市第六選舉區 (立法委員)",
+      "extract": "臺北市第六選舉區是中華民國區域立法委員在臺北市的一個選舉區，範圍為大安區，自2008年第七屆立法委員選舉起實施。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2020_ROC_legislative_election_Taipei_City_6th_Constituency.svg/langzh-330px-2020_ROC_legislative_election_Taipei_City_6th_Constituency.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "彭養光",
       "extract": "彭養光（1873年—1946年）字临九，湖北钟祥客店人，中国民主革命家，中华民国政治人物。\n",
@@ -27,13 +34,6 @@
       "extract": "佩霍爾卡河是俄羅斯的河流，位於莫斯科州內，屬於莫斯科河的左支流，河道全長42公里，流域面積513平方公里，河畔城鎮有巴拉希哈和熱列茲諾多羅日內。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BD%A9%E9%9C%8D%E7%88%BE%E5%8D%A1%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tomilino_pehorka_river.png/330px-Tomilino_pehorka_river.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓦朗通",
-      "extract": "瓦朗通 是法国法蘭西島大區马恩河谷省的一个市镇，属于克雷泰伊区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E6%9C%97%E9%80%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Parc_d%C3%A9partemental_de_la_Plage_Bleue_-_1.jpg/330px-Parc_d%C3%A9partemental_de_la_Plage_Bleue_-_1.jpg",
       "source": "wikipedia"
     }
   ]
