@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T06:44:09.314Z",
+  "fetchedAt": "2026-06-07T10:11:19.356Z",
   "items": [
+    {
+      "title": "太平村屠殺",
+      "extract": "太平村屠殺，是越南平定省的太平村於1966年2月大韓民國國軍猛虎部隊對太平村村民的屠杀，死者都是无武装的平民。越南戰爭期間，韓國軍屠殺的越南平民至少有9,000人之多。这一事件中，韩国陆军士兵屠杀了65名没有武器的平民，其中多数是妇女和儿童。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3%E6%9D%91%E5%B1%A0%E6%AE%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Location_of_Binh_Dinh_within_Vietnam.png",
+      "source": "wikipedia"
+    },
     {
       "title": "佩霍爾卡河",
       "extract": "佩霍爾卡河是俄羅斯的河流，位於莫斯科州內，屬於莫斯科河的左支流，河道全長42公里，流域面積513平方公里，河畔城鎮有巴拉希哈和熱列茲諾多羅日內。\n",
@@ -27,13 +34,6 @@
       "extract": "林袋鼠屬（Dorcopsis），哺乳綱的一屬，屬於袋鼠科，而與林袋鼠屬（林袋鼠）同科的動物尚有小林袋鼠屬（小林袋鼠）、兔袋鼠屬（小兔袋鼠）、樹袋鼠屬（灰樹袋鼠）等之數種哺乳動物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A2%8B%E9%BC%A0%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HalmaturusLuctuosusKeulemans.jpg/330px-HalmaturusLuctuosusKeulemans.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "1988年夏季奥林匹克运动会坦桑尼亚代表团",
-      "extract": "1988年夏季奥林匹克运动会坦桑尼亚代表团是坦桑尼亚派出的1988年夏季奥林匹克运动会代表团。\n",
-      "url": "https://zh.wikipedia.org/wiki/1988%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E8%BF%90%E5%8A%A8%E4%BC%9A%E5%9D%A6%E6%A1%91%E5%B0%BC%E4%BA%9A%E4%BB%A3%E8%A1%A8%E5%9B%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/langzh-330px-Flag_of_Tanzania.svg.png",
       "source": "wikipedia"
     }
   ]
