@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T02:11:05.210Z",
+  "fetchedAt": "2026-06-07T02:19:44.451Z",
   "items": [
+    {
+      "title": "長城葡萄酒",
+      "extract": "長城葡萄酒是中糧集團旗下中粮酒业投资有限公司的一款葡萄酒品牌。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%95%B7%E5%9F%8E%E8%91%A1%E8%90%84%E9%85%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Great_Wall_Wine_at_a_supermarket_in_Beijing_%2820241208152010%29.jpg/330px-Great_Wall_Wine_at_a_supermarket_in_Beijing_%2820241208152010%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "萘锂",
       "extract": "萘锂是一种有机化合物，化学式为LiC10H8。锂在苯中与萘反应可以得到萘锂。萘锂可以用作还原剂，可溶于乙醚、苯和四氢呋喃。但它与四氢呋喃或质子溶剂在加热时反应。\n",
@@ -27,13 +34,6 @@
       "extract": "克里特大学 是希腊克里特大区的一所大学。该校成立于1973年。克里特大学有两个校区：雷西姆农校区与伊拉克利翁校区。该校现有学生13,141名，其中本科11,011名，研究生2,130名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E7%89%B9%E5%A4%A7%E5%AD%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/University_of_Crete%2C_Rethymno_Campus_01.jpg/330px-University_of_Crete%2C_Rethymno_Campus_01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "涌尾 (香港仔)",
-      "extract": "涌尾，又名士丹頓灣，是香港香港島南部香港仔與黃竹坑之間的一個地方，主要是一個住宅區及輕工業集中地，並有少量商業大廈和酒店。範圍包括香港仔工業學校、南朗山道以西及黃竹坑道以南的工業區、香港仔警署、香港仔網球及壁球中心及逸港居。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B6%8C%E5%B0%BE_(%E9%A6%99%E6%B8%AF%E4%BB%94)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Aberdeen_Chung_Mei.jpg/330px-Aberdeen_Chung_Mei.jpg",
       "source": "wikipedia"
     }
   ]
