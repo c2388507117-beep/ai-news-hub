@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T03:23:10.365Z",
+  "fetchedAt": "2026-06-07T03:26:14.641Z",
   "items": [
+    {
+      "title": "瓦朗通",
+      "extract": "瓦朗通 是法国法蘭西島大區马恩河谷省的一个市镇，属于克雷泰伊区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E6%9C%97%E9%80%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Parc_d%C3%A9partemental_de_la_Plage_Bleue_-_1.jpg/330px-Parc_d%C3%A9partemental_de_la_Plage_Bleue_-_1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "羅基特內區 (羅夫諾州)",
       "extract": "羅基特内區 是烏克蘭西北部羅夫諾州的舊區，行政中心为羅基特内，並於2020年撤銷。該區面積2,350平方公里，2015年人口56,276，人口密度每平方公里23.9人。\n",
@@ -27,13 +34,6 @@
       "extract": "長城葡萄酒是中糧集團旗下中粮酒业投资有限公司的一款葡萄酒品牌。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%95%B7%E5%9F%8E%E8%91%A1%E8%90%84%E9%85%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Great_Wall_Wine_at_a_supermarket_in_Beijing_%2820241208152010%29.jpg/330px-Great_Wall_Wine_at_a_supermarket_in_Beijing_%2820241208152010%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "萘锂",
-      "extract": "萘锂是一种有机化合物，化学式为LiC10H8。锂在苯中与萘反应可以得到萘锂。萘锂可以用作还原剂，可溶于乙醚、苯和四氢呋喃。但它与四氢呋喃或质子溶剂在加热时反应。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%90%98%E9%94%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Lithium_Naphthalenide.jpg/330px-Lithium_Naphthalenide.jpg",
       "source": "wikipedia"
     }
   ]
