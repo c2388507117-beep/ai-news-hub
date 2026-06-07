@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T02:40:46.807Z",
+  "fetchedAt": "2026-06-07T02:42:32.109Z",
   "items": [
+    {
+      "title": "林袋鼠属",
+      "extract": "林袋鼠屬（Dorcopsis），哺乳綱的一屬，屬於袋鼠科，而與林袋鼠屬（林袋鼠）同科的動物尚有小林袋鼠屬（小林袋鼠）、兔袋鼠屬（小兔袋鼠）、樹袋鼠屬（灰樹袋鼠）等之數種哺乳動物。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%A2%8B%E9%BC%A0%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HalmaturusLuctuosusKeulemans.jpg/330px-HalmaturusLuctuosusKeulemans.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "1988年夏季奥林匹克运动会坦桑尼亚代表团",
       "extract": "1988年夏季奥林匹克运动会坦桑尼亚代表团是坦桑尼亚派出的1988年夏季奥林匹克运动会代表团。\n",
@@ -27,13 +34,6 @@
       "extract": "德林加手枪（掌心雷） 泛指任何不是转轮式或半自动/自动式的袖珍手枪，通常使用多枪管设计。由亨利·德林杰 设计的1825年原版“费城德林杰”手枪 是一款前装火帽单发手枪，通常使用.41口径弹药、1.5—6英寸（38—152毫米）的线膛枪管和胡桃木加白铜枪身，总共生产了15000把。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E6%9E%97%E5%8A%A0%E6%89%8B%E6%9E%AA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Booth_deringer.jpg/330px-Booth_deringer.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "泰梅里库尔",
-      "extract": "泰梅里库尔 是法国法兰西岛大区瓦兹河谷省的一个市镇，属于蓬图瓦兹区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E6%A2%85%E9%87%8C%E5%BA%93%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/P1030360_chateau.JPG/330px-P1030360_chateau.JPG",
       "source": "wikipedia"
     }
   ]
