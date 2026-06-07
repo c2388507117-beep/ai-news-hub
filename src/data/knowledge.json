@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T02:42:32.109Z",
+  "fetchedAt": "2026-06-07T03:23:10.365Z",
   "items": [
+    {
+      "title": "羅基特內區 (羅夫諾州)",
+      "extract": "羅基特内區 是烏克蘭西北部羅夫諾州的舊區，行政中心为羅基特内，並於2020年撤銷。該區面積2,350平方公里，2015年人口56,276，人口密度每平方公里23.9人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E5%9F%BA%E7%89%B9%E5%85%A7%E5%8D%80_(%E7%BE%85%E5%A4%AB%E8%AB%BE%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rokytnyanskyi-Riv-Raion.png/330px-Rokytnyanskyi-Riv-Raion.png",
+      "source": "wikipedia"
+    },
     {
       "title": "林袋鼠属",
       "extract": "林袋鼠屬（Dorcopsis），哺乳綱的一屬，屬於袋鼠科，而與林袋鼠屬（林袋鼠）同科的動物尚有小林袋鼠屬（小林袋鼠）、兔袋鼠屬（小兔袋鼠）、樹袋鼠屬（灰樹袋鼠）等之數種哺乳動物。\n",
@@ -27,13 +34,6 @@
       "extract": "萘锂是一种有机化合物，化学式为LiC10H8。锂在苯中与萘反应可以得到萘锂。萘锂可以用作还原剂，可溶于乙醚、苯和四氢呋喃。但它与四氢呋喃或质子溶剂在加热时反应。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%90%98%E9%94%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Lithium_Naphthalenide.jpg/330px-Lithium_Naphthalenide.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "德林加手枪",
-      "extract": "德林加手枪（掌心雷） 泛指任何不是转轮式或半自动/自动式的袖珍手枪，通常使用多枪管设计。由亨利·德林杰 设计的1825年原版“费城德林杰”手枪 是一款前装火帽单发手枪，通常使用.41口径弹药、1.5—6英寸（38—152毫米）的线膛枪管和胡桃木加白铜枪身，总共生产了15000把。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E6%9E%97%E5%8A%A0%E6%89%8B%E6%9E%AA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Booth_deringer.jpg/330px-Booth_deringer.jpg",
       "source": "wikipedia"
     }
   ]
