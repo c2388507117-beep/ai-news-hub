@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T01:34:01.144Z",
+  "fetchedAt": "2026-06-07T02:03:11.939Z",
   "items": [
+    {
+      "title": "泰梅里库尔",
+      "extract": "泰梅里库尔 是法国法兰西岛大区瓦兹河谷省的一个市镇，属于蓬图瓦兹区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E6%A2%85%E9%87%8C%E5%BA%93%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/P1030360_chateau.JPG/330px-P1030360_chateau.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "克里特大学",
       "extract": "克里特大学 是希腊克里特大区的一所大学。该校成立于1973年。克里特大学有两个校区：雷西姆农校区与伊拉克利翁校区。该校现有学生13,141名，其中本科11,011名，研究生2,130名。\n",
@@ -27,13 +34,6 @@
       "extract": "猪毛草 为莎草科萤蔺属下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%8C%AA%E6%AF%9B%E8%8D%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%E8%B1%AC%E6%AF%9B%E8%8D%89.JPG/330px-%E8%B1%AC%E6%AF%9B%E8%8D%89.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "塔朗泰讷河畔尚-马尔沙勒",
-      "extract": "塔朗泰讷河畔尚-马尔沙勒 是法国康塔尔省的一个市镇，位于该省北部，属于莫里亚克区。该市镇于1972年由原市镇塔朗泰讷河畔尚（Champs-sur-Tarentaine）和马尔沙勒（Marchal）合并而成。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E6%9C%97%E6%B3%B0%E8%AE%B7%E6%B2%B3%E7%95%94%E5%B0%9A-%E9%A9%AC%E5%B0%94%E6%B2%99%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Champs-sur-Tarentaine_jumelage.JPG/330px-Champs-sur-Tarentaine_jumelage.JPG",
       "source": "wikipedia"
     }
   ]
