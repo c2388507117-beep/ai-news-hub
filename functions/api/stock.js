@@ -116,8 +116,29 @@ async function fetchSingle(symbol) {
 
   const meta = result.meta;
   const currentPrice = meta.regularMarketPrice;
-  const prevClose = meta.previousClose;
   const currency = meta.currency || '';
+
+  // previousClose may be missing in some API responses; fall back to
+  // chartPreviousClose, then derive from the quotes close array.
+  let prevClose = meta.previousClose ?? meta.chartPreviousClose ?? null;
+  if (prevClose == null) {
+    const closes = result?.indicators?.quote?.[0]?.close;
+    if (closes && closes.length >= 2) {
+      // Walk backwards to find the last non-null close before the current one
+      for (let i = closes.length - 1; i >= 0; i--) {
+        if (closes[i] != null) {
+          if (prevClose == null) {
+            // first non-null = current price candidate, skip to find previous
+            prevClose = 0; // sentinel
+          } else {
+            prevClose = closes[i];
+            break;
+          }
+        }
+      }
+      if (prevClose === 0 || prevClose == null) prevClose = null;
+    }
+  }
 
   if (currentPrice == null || prevClose == null) {
     throw new Error(`Incomplete data for ${symbol}: price=${currentPrice}, prevClose=${prevClose}`);
