@@ -17,6 +17,95 @@ const SYMBOL_NAMES = {
   '^GSPC': '标普500',
 };
 
+// Chinese stock name → symbol mapping (for queries Yahoo search can't handle)
+const CN_STOCK_NAMES = {
+  // A股 蓝筹
+  '贵州茅台': '600519.SS', '茅台': '600519.SS',
+  '中国平安': '601318.SS', '平安': '601318.SS',
+  '工商银行': '601398.SS', '工行': '601398.SS',
+  '建设银行': '601939.SS', '建行': '601939.SS',
+  '招商银行': '600036.SS', '招行': '600036.SS',
+  '农业银行': '601288.SS', '农行': '601288.SS',
+  '中国银行': '601988.SS', '中行': '601988.SS',
+  '中国人寿': '601628.SS', '人寿': '601628.SS',
+  '中国石油': '601857.SS', '中石油': '601857.SS',
+  '中国石化': '600028.SS', '中石化': '600028.SS',
+  '中国移动': '600941.SS', '移动': '600941.SS',
+  '中国海油': '600938.SS', '海油': '600938.SS',
+  '宁德时代': '300750.SZ', '宁德': '300750.SZ',
+  '比亚迪': '002594.SZ',
+  '美的集团': '000333.SZ', '美的': '000333.SZ',
+  '五粮液': '000858.SZ',
+  '格力电器': '000651.SZ', '格力': '000651.SZ',
+  '立讯精密': '002475.SZ',
+  '迈瑞医疗': '300760.SZ', '迈瑞': '300760.SZ',
+  '恒瑞医药': '600276.SS', '恒瑞': '600276.SS',
+  '伊利股份': '600887.SS', '伊利': '600887.SS',
+  '中信证券': '600030.SS', '中信': '600030.SS',
+  '海康威视': '002415.SZ', '海康': '002415.SZ',
+  '万华化学': '600309.SS',
+  '药明康德': '603259.SS', '药明': '603259.SS',
+  '海尔智家': '600690.SS', '海尔': '600690.SS',
+  '三一重工': '600031.SS', '三一': '600031.SS',
+  '泸州老窖': '000568.SZ',
+  '山西汾酒': '600809.SS', '汾酒': '600809.SS',
+  '洋河股份': '002304.SZ', '洋河': '002304.SZ',
+  '片仔癀': '600436.SS',
+  '金山办公': '688111.SS', '金山': '688111.SS',
+  '中芯国际': '688981.SS', '中芯': '688981.SS',
+  '紫金矿业': '601899.SS', '紫金': '601899.SS',
+  '长城汽车': '601633.SS', '长城': '601633.SS',
+  '上汽集团': '600104.SS', '上汽': '600104.SS',
+  '中信建投': '601066.SS',
+  // 深圳
+  '东方财富': '300059.SZ', '东财': '300059.SZ',
+  '牧原股份': '002714.SZ', '牧原': '002714.SZ',
+  '温氏股份': '300498.SZ', '温氏': '300498.SZ',
+  '阳光电源': '300274.SZ', '阳光': '300274.SZ',
+  '亿纬锂能': '300014.SZ', '亿纬': '300014.SZ',
+  // 港股
+  '腾讯控股': '0700.HK', '腾讯': '0700.HK',
+  '美团': '3690.HK', '美团点评': '3690.HK',
+  '小米集团': '1810.HK', '小米': '1810.HK',
+  '香港交易所': '0388.HK', '港交所': '0388.HK',
+  '汇丰控股': '0005.HK', '汇丰': '0005.HK',
+  '友邦保险': '1299.HK', '友邦': '1299.HK',
+  '比亚迪股份': '1211.HK',
+  '联想集团': '0992.HK', '联想': '0992.HK',
+  '京东': 'JD',
+  '拼多多': 'PDD',
+  '网易': 'NTES',
+  '百度': 'BIDU',
+  '中概互联': 'KWEB',
+  // 美股
+  '特斯拉': 'TSLA',
+  '苹果': 'AAPL',
+  '微软': 'MSFT',
+  '谷歌': 'GOOGL',
+  '亚马逊': 'AMZN',
+  '英伟达': 'NVDA',
+  'Meta': 'META',
+  '台积电': 'TSM',
+  '英特尔': 'INTC',
+  '可口可乐': 'KO',
+  '伯克希尔': 'BRK.B',
+  '奈飞': 'NFLX', 'Netflix': 'NFLX',
+  'AMD': 'AMD',
+  '高通': 'QCOM',
+  '博通': 'AVGO',
+  '超微电脑': 'SMCI',
+  '戴尔': 'DELL',
+  '优步': 'UBER', 'Uber': 'UBER',
+  'Salesforce': 'CRM',
+  'Adobe': 'ADBE',
+  '迪士尼': 'DIS',
+  '耐克': 'NKE',
+  'Costco': 'COST',
+  '沃尔玛': 'WMT',
+  '强生': 'JNJ',
+  '辉瑞': 'PFE',
+};
+
 const CACHE_TTL_MS = 60 * 1000; // 1 minute cache in D1
 
 export async function onRequest(context) {
@@ -32,45 +121,60 @@ export async function onRequest(context) {
     // --- Search mode ---
     const searchQuery = url.searchParams.get('search');
     if (searchQuery && searchQuery.trim().length > 0) {
-      const query = encodeURIComponent(searchQuery.trim());
+      const query = searchQuery.trim();
+      const queryLower = query.toLowerCase();
 
-      // Try with Chinese language/region support first, fall back to default
-      let quotes = [];
-      const searchConfigs = [
-        { lang: 'zh-CN', region: 'CN', label: 'CN' },
-        { lang: 'zh-CN', region: 'HK', label: 'HK' },
-        { lang: 'en-US', region: 'US', label: 'US' },
-      ];
+      // 1) Search local Chinese name mapping
+      const seen = new Set();
+      const localResults = [];
 
-      for (const cfg of searchConfigs) {
-        const url = `${YAHOO_SEARCH_URL}?q=${query}&lang=${cfg.lang}&region=${cfg.region}&quotesCount=8`;
-        const res = await fetch(url, {
+      for (const [name, symbol] of Object.entries(CN_STOCK_NAMES)) {
+        if (name.includes(query) || query.includes(name) || symbol.toLowerCase().includes(queryLower)) {
+          if (!seen.has(symbol)) {
+            seen.add(symbol);
+            localResults.push({
+              symbol,
+              name: SYMBOL_NAMES[symbol] || name,
+              exchange: symbol.endsWith('.SS') ? 'SSH' : symbol.endsWith('.SZ') ? 'SHE' : symbol.endsWith('.HK') ? 'HKG' : '',
+              quoteType: symbol.endsWith('.SS') || symbol.endsWith('.SZ') ? 'EQUITY' : 'EQUITY',
+            });
+          }
+        }
+      }
+
+      // 2) Try Yahoo search as well (without region params that trigger China block)
+      try {
+        const yahooUrl = `${YAHOO_SEARCH_URL}?q=${encodeURIComponent(query)}&lang=zh-CN&quotesCount=8`;
+        const res = await fetch(yahooUrl, {
           headers: {
             'User-Agent': 'Mozilla/5.0 (compatible; CloudflarePages/1.0)',
             'Accept': 'application/json',
           },
         });
         if (res.ok) {
-          const json = await res.json();
-          const results = (json.quotes || []).map(q => ({
-            symbol: q.symbol,
-            name: q.shortname || q.longname || q.symbol,
-            exchange: q.exchange || '',
-            quoteType: q.quoteType || '',
-          }));
-          // Merge new results, avoid duplicates by symbol
-          const existing = new Set(quotes.map(q => q.symbol));
-          for (const r of results) {
-            if (!existing.has(r.symbol)) {
-              quotes.push(r);
-              existing.add(r.symbol);
+          const text = await res.text();
+          // Yahoo returns HTML when blocked — only parse JSON
+          if (text.trim().startsWith('{')) {
+            const json = JSON.parse(text);
+            if (json.quotes) {
+              for (const q of json.quotes) {
+                if (!seen.has(q.symbol)) {
+                  seen.add(q.symbol);
+                  localResults.push({
+                    symbol: q.symbol,
+                    name: q.shortname || q.longname || q.symbol,
+                    exchange: q.exchange || '',
+                    quoteType: q.quoteType || '',
+                  });
+                }
+              }
             }
           }
         }
-      }
+      } catch (_) { /* Yahoo search is best-effort */ }
 
       // Limit to top 8
-      quotes = quotes.slice(0, 8);
+      const quotes = localResults.slice(0, 8);
 
       return Response.json({ quotes });
     }
