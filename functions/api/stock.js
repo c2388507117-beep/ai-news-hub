@@ -1,8 +1,10 @@
 // GET /api/stock?symbols=000001.SS,399001.SZ,^HSI,^N225,^IXIC,^DJI,^GSPC
-// Server-side proxy for Yahoo Finance — no CORS issues
-// Returns JSON array of { symbol, name, price, change, changePct, currency }
+//   Returns JSON array of { symbol, name, price, change, changePct, currency }
+// GET /api/stock?search=Apple
+//   Returns JSON search results from Yahoo Finance
 
 const YAHOO_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/';
+const YAHOO_SEARCH_URL = 'https://query1.finance.yahoo.com/v1/finance/search';
 
 // Symbol display names
 const SYMBOL_NAMES = {
@@ -26,6 +28,33 @@ export async function onRequest(context) {
 
   try {
     const url = new URL(request.url);
+
+    // --- Search mode ---
+    const searchQuery = url.searchParams.get('search');
+    if (searchQuery && searchQuery.trim().length > 0) {
+      const res = await fetch(
+        `${YAHOO_SEARCH_URL}?q=${encodeURIComponent(searchQuery.trim())}`,
+        {
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (compatible; CloudflarePages/1.0)',
+            'Accept': 'application/json',
+          },
+        }
+      );
+      if (!res.ok) {
+        return Response.json({ quotes: [], error: `Search returned ${res.status}` });
+      }
+      const json = await res.json();
+      const quotes = (json.quotes || []).slice(0, 8).map(q => ({
+        symbol: q.symbol,
+        name: q.shortname || q.longname || q.symbol,
+        exchange: q.exchange || '',
+        quoteType: q.quoteType || '',
+      }));
+      return Response.json({ quotes });
+    }
+
+    // --- Quote mode ---
     const symbolsParam = url.searchParams.get('symbols');
     if (!symbolsParam) {
       return Response.json({ error: 'Missing symbols param' }, { status: 400 });

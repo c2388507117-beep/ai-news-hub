@@ -364,7 +364,7 @@
    * Search stocks via Yahoo Finance search API
    */
   async function searchStocks(query) {
-    var res = await fetch('/api/stock/search?q=' + encodeURIComponent(query), {
+    var res = await fetch('/api/stock?search=' + encodeURIComponent(query), {
       headers: { 'Accept': 'application/json' }
     });
     if (!res.ok) throw new Error('HTTP ' + res.status);
