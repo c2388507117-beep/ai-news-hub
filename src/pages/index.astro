@@ -212,8 +212,8 @@ for (const [id, items] of relatedMap) {
         </details>
       </div>
 
-      <!-- Right: Sidebar -->
-      <aside class="hidden lg:block space-y-4">
+      <!-- Right: Sidebar (flows below main content on mobile, right column on desktop) -->
+      <aside class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
         <NetEaseMusic />
         <DailyKnowledge data={knowledge} />
         <DutyRoster />
@@ -221,16 +221,6 @@ for (const [id, items] of relatedMap) {
         <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
         <BilibiliFavorites data={bilibili} />
       </aside>
-    </div>
-
-    <!-- Mobile: Sidebar content (hidden on desktop) -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:hidden">
-      <NetEaseMusic />
-      <DailyKnowledge data={knowledge} />
-      <DutyRoster />
-      <HotTopics topics={hotTopics} />
-      <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
-      <BilibiliFavorites data={bilibili} />
     </div>
 
 <!-- Bottom: ShoppingCompare + CurrencyExchange + RandomPicker -->

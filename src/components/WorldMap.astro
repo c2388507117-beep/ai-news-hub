@@ -10,7 +10,7 @@
     </h3>
   </div>
   <div class="relative" id="world-map">
-    <div id="map-container" style="height:460px;width:100%;z-index:1;min-height:400px"></div>
+    <div id="map-container" style="height:460px;width:100%;z-index:1;min-height:400px" class="h-[460px] min-h-[350px] sm:min-h-[400px]"></div>
 
     <!-- Loading overlay with step indicator -->
     <div id="map-loading" class="absolute inset-0 z-10 flex items-center justify-center bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-sm" style="height:460px">
@@ -30,8 +30,9 @@
 
     <!-- Controls (hidden until init) -->
     <div id="map-controls" class="hidden">
-      <div class="absolute top-2 left-2 z-[1000] flex gap-1">
-        <select id="map-country-select" class="px-2 py-1.5 text-xs rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 shadow-sm max-w-[100px] focus:outline-none focus:ring-2 focus:ring-teal-500">
+      <!-- Top-left: country/city selects — stack on mobile, row on large screens -->
+      <div class="absolute top-2 left-2 z-[1000] flex flex-col sm:flex-row gap-1 max-w-[140px] sm:max-w-none">
+        <select id="map-country-select" class="px-2 py-1.5 text-xs rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 shadow-sm max-w-[130px] focus:outline-none focus:ring-2 focus:ring-teal-500">
           <option value="">🌏 全部</option>
         </select>
         <select id="map-city-select" class="px-2 py-1.5 text-xs rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 shadow-sm max-w-[130px] focus:outline-none focus:ring-2 focus:ring-teal-500" disabled>
@@ -39,16 +40,17 @@
         </select>
       </div>
 
-      <div class="absolute top-2 right-2 z-[1000] flex gap-1 flex-wrap justify-end max-w-[220px]">
-        <button data-cat="" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-teal-500 text-white shadow-sm transition-colors">全部</button>
-        <button data-cat="自然风光" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🏔️ 自然</button>
-        <button data-cat="历史古迹" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🏛️ 古迹</button>
-        <button data-cat="人文艺术" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🎨 人文</button>
-        <button data-cat="美食街区" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">🍜 美食</button>
+      <!-- Top-right: category buttons — scrollable on mobile -->
+      <div class="absolute top-2 right-2 z-[1000] flex gap-1 overflow-x-auto max-w-[160px] sm:max-w-[280px] pb-1">
+        <button data-cat="" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-teal-500 text-white shadow-sm whitespace-nowrap transition-colors flex-shrink-0">全部</button>
+        <button data-cat="自然风光" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 whitespace-nowrap transition-colors flex-shrink-0">🏔️ 自然</button>
+        <button data-cat="历史古迹" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 whitespace-nowrap transition-colors flex-shrink-0">🏛️ 古迹</button>
+        <button data-cat="人文艺术" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 whitespace-nowrap transition-colors flex-shrink-0">🎨 人文</button>
+        <button data-cat="美食街区" class="map-cat-btn px-2 py-1 text-xs rounded-full font-medium bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 shadow-sm hover:bg-gray-100 dark:hover:bg-gray-700 whitespace-nowrap transition-colors flex-shrink-0">🍜 美食</button>
       </div>
 
-      <div class="absolute bottom-2 left-2 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800 px-3 py-2 text-xs text-gray-600 dark:text-gray-300">
-        <span id="map-stats">📍 已打卡 0 / 0</span>
+      <div class="absolute bottom-1 left-1 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800 px-2 py-1.5 text-[10px] sm:text-xs text-gray-600 dark:text-gray-300">
+        <span id="map-stats">📍 0 / 0</span>
       </div>
     </div>
   </div>
@@ -290,6 +292,14 @@
       window.addEventListener('resize', function () {
         if (map) map.invalidateSize(true);
       });
+      // Mobile orientation change & keyboard toggle
+      window.addEventListener('orientationchange', function () {
+        setTimeout(function () { if (map) map.invalidateSize(true); }, 300);
+      });
+      // Also detect container resize (e.g. mobile browser chrome hiding)
+      if (window.ResizeObserver) {
+        new ResizeObserver(function () { if (map) map.invalidateSize(true); }).observe(mapContainer);
+      }
     });
   }
 
