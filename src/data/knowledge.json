@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T22:32:00.292Z",
+  "fetchedAt": "2026-06-08T01:36:28.642Z",
   "items": [
+    {
+      "title": "萨莱德",
+      "extract": "萨莱德 是法国多姆山省的一个市镇，属于克莱蒙费朗区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E8%8E%B1%E5%BE%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/014_Sall%C3%A8des_%28_63270_%29.JPG/330px-014_Sall%C3%A8des_%28_63270_%29.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "细叶桉",
       "extract": "细叶桉 为桃金娘科桉属下的一个种，可見於澳洲東部。\n",
@@ -27,13 +34,6 @@
       "extract": "臺北市第六選舉區是中華民國區域立法委員在臺北市的一個選舉區，範圍為大安區，自2008年第七屆立法委員選舉起實施。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2020_ROC_legislative_election_Taipei_City_6th_Constituency.svg/langzh-330px-2020_ROC_legislative_election_Taipei_City_6th_Constituency.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "彭養光",
-      "extract": "彭養光（1873年—1946年）字临九，湖北钟祥客店人，中国民主革命家，中华民国政治人物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E9%A4%8A%E5%85%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Peng_Yangguang.jpg",
       "source": "wikipedia"
     }
   ]
