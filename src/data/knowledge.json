@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T01:36:28.642Z",
+  "fetchedAt": "2026-06-08T07:09:22.249Z",
   "items": [
+    {
+      "title": "卓文萱",
+      "extract": "卓文萱，臺灣女歌手、演員與節目主持人。畢業於台北縣立福和國民中學、臺北市私立華岡藝術學校表演藝術科（第27屆）。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E6%96%87%E8%90%B1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Genie.jpg/330px-Genie.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "萨莱德",
       "extract": "萨莱德 是法国多姆山省的一个市镇，属于克莱蒙费朗区。\n",
@@ -27,13 +34,6 @@
       "extract": "美国科羅拉多州共有64個縣。由於科羅拉多州政府並沒有設立行政鎮區，所以縣是政府重要的行政單位。科羅拉多州共有兩個市县合一的地方，分別是布鲁姆菲尔德和州府丹佛。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Colorado_Locator_Map.PNG/330px-Colorado_Locator_Map.PNG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "臺北市第六選舉區 (立法委員)",
-      "extract": "臺北市第六選舉區是中華民國區域立法委員在臺北市的一個選舉區，範圍為大安區，自2008年第七屆立法委員選舉起實施。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2020_ROC_legislative_election_Taipei_City_6th_Constituency.svg/langzh-330px-2020_ROC_legislative_election_Taipei_City_6th_Constituency.svg.png",
       "source": "wikipedia"
     }
   ]
