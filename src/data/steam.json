@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T11:36:31.810Z",
+  "fetchedAt": "2026-06-08T12:11:06.612Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -8,14 +8,6 @@
       "finalPrice": 39900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Prime Status Upgrade",
-      "appid": 54029,
-      "price": 1499,
-      "finalPrice": 1499,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     },
     {
       "name": "Steam Controller",
@@ -42,14 +34,6 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 3999,
-      "finalPrice": 3999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
-    },
-    {
       "name": "Halo: Campaign Evolved",
       "appid": 2806050,
       "price": 4999,
@@ -58,12 +42,28 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/capsule_184x69.jpg"
     },
     {
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 3999,
+      "finalPrice": 3999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+    },
+    {
       "name": "Gothic 1 Remake",
       "appid": 1297900,
       "price": 4999,
       "finalPrice": 4999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+    },
+    {
+      "name": "Prime Status Upgrade",
+      "appid": 54029,
+      "price": 1499,
+      "finalPrice": 1499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     },
     {
       "name": "Subnautica 2",

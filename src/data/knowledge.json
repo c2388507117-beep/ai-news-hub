@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T11:36:32.787Z",
+  "fetchedAt": "2026-06-08T12:11:07.266Z",
   "items": [
+    {
+      "title": "吕伊",
+      "extract": "吕伊 是法国上法蘭西大區加来海峡省的一个市镇，属于贝蒂讷区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%95%E4%BC%8A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruitz_-_Mairie.JPG/330px-Ruitz_-_Mairie.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "桃園市立大有國民中學",
       "extract": "桃園市立大有國民中學，簡稱大有國中，位於台灣桃園市桃園區，2003年正式招收學生。\n",
@@ -27,13 +34,6 @@
       "extract": "卓文萱，臺灣女歌手、演員與節目主持人。畢業於台北縣立福和國民中學、臺北市私立華岡藝術學校表演藝術科（第27屆）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E6%96%87%E8%90%B1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Genie.jpg/330px-Genie.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "萨莱德",
-      "extract": "萨莱德 是法国多姆山省的一个市镇，属于克莱蒙费朗区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E8%8E%B1%E5%BE%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/014_Sall%C3%A8des_%28_63270_%29.JPG/330px-014_Sall%C3%A8des_%28_63270_%29.JPG",
       "source": "wikipedia"
     }
   ]
