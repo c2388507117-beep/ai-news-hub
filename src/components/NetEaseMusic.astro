@@ -23,9 +23,6 @@ const defaultPlaylistName = '热歌榜';
     <div id="music-quick-select" class="flex flex-wrap gap-1.5 mb-2">
       <button data-pid="3778678" class="music-pick px-2 py-1 text-xs rounded-full bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 font-medium transition-colors">🔥 热歌榜</button>
       <button data-pid="3779629" class="music-pick px-2 py-1 text-xs rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">✨ 新歌榜</button>
-      <button data-pid="3779618" class="music-pick px-2 py-1 text-xs rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">🚀 飙升榜</button>
-      <button data-pid="3777333" class="music-pick px-2 py-1 text-xs rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">🎤 歌手榜</button>
-      <button id="music-shuffle" class="px-2 py-1 text-xs rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-200 dark:hover:bg-purple-900/50 transition-colors" title="随机推荐歌单">🎲 随机</button>
     </div>
 
     <!-- Settings (hidden by default) -->
@@ -83,10 +80,9 @@ const defaultPlaylistName = '热歌榜';
   var saveBtn = document.getElementById('music-save-btn');
   var iframe = document.getElementById('music-iframe');
   var nameEl = document.getElementById('music-name-text');
-  var shuffleBtn = document.getElementById('music-shuffle');
   var pickBtns = document.querySelectorAll('.music-pick');
 
-  if (!settingsBtn || !settingsEl || !playlistInput || !saveBtn || !iframe || !nameEl || !shuffleBtn) {
+  if (!settingsBtn || !settingsEl || !playlistInput || !saveBtn || !iframe || !nameEl) {
     throw new Error('NetEaseMusic: missing DOM elements');
   }
 
@@ -94,29 +90,12 @@ const defaultPlaylistName = '热歌榜';
   var PRESETS = {
     '3778678': '🔥 热歌榜',
     '3779629': '✨ 新歌榜',
-    '3779618': '🚀 飙升榜',
-    '3777333': '🎤 歌手榜',
   };
 
-  // Extended playlist pool for shuffle
-  var SHUFFLE_POOL = [
-    ['3778678', '🔥 热歌榜'],
-    ['3779629', '✨ 新歌榜'],
-    ['3779618', '🚀 飙升榜'],
-    ['3777333', '🎤 歌手榜'],
-    ['3779637', '🎸 摇滚榜'],
-    ['3779640', '🎹 民谣榜'],
-    ['3779650', '🎧 电音榜'],
-    ['3779664', '🎶 ACG榜'],
-    ['3779695', '💃 韩语榜'],
-    ['3779709', '🌊 说唱榜'],
-    ['2250011882', '🏮 国风榜'],
-    ['3579853678', '🎬 影视金曲'],
-    ['3779711', '🎼 古典榜'],
-    ['3779717', '🎷 爵士榜'],
-    ['3799302837', '🌙 助睡眠'],
-    ['758126250', '🏃‍♂️ 运动'],
-    ['3799302859', '☕ 工作学习'],
+  // Auto-rotate: switch between playlists every 3 days
+  var ROTATION_PLAYLISTS = [
+    { id: '3778678', name: '🔥 热歌榜' },
+    { id: '3779629', name: '✨ 新歌榜' },
   ];
 
   /* ---------- localStorage helpers ---------- */
@@ -162,9 +141,25 @@ const defaultPlaylistName = '热歌榜';
     });
   }
 
-  /* ---------- Init ---------- */
+  /* ---------- Init (with 3-day auto-rotation) ---------- */
+  function getRotationIndex() {
+    var start = new Date('2025-01-01').getTime();
+    var now = Date.now();
+    var daysSinceStart = Math.floor((now - start) / (1000 * 60 * 60 * 24));
+    return Math.floor(daysSinceStart / 3) % ROTATION_PLAYLISTS.length;
+  }
+
+  var rotationIdx = getRotationIndex();
+  var rotationPick = ROTATION_PLAYLISTS[rotationIdx];
   var savedId = getPlaylistId();
   var savedName = getPlaylistName();
+  // Auto-rotate if currently on one of the rotation playlists
+  var isRotationPlaylist = ROTATION_PLAYLISTS.some(function (p) { return p.id === savedId; });
+  if (isRotationPlaylist && savedId !== rotationPick.id) {
+    savedId = rotationPick.id;
+    savedName = rotationPick.name;
+    setPlaylistData(savedId, savedName);
+  }
   playlistInput.value = savedId;
   nameEl.textContent = '🎶 ' + savedName;
   highlightPick(savedId);
@@ -227,36 +222,5 @@ const defaultPlaylistName = '热歌榜';
     });
   });
 
-  /* ---------- Shuffle — random playlist ---------- */
-  shuffleBtn.addEventListener('click', function () {
-    var currentId = getPlaylistId();
-    var pool = SHUFFLE_POOL.filter(function (p) { return p[0] !== currentId; });
-    if (pool.length === 0) pool = SHUFFLE_POOL;
-    var pick = pool[Math.floor(Math.random() * pool.length)];
-    highlightPick(pick[0]);
-    loadPlayer(pick[0], pick[1]);
-    settingsEl.classList.add('hidden');
-  });
-
-  /* ---------- Tap name to cycle through presets ---------- */
-  var nameCycleTimer = 0;
-  var cycleCount = 0;
-  nameEl.addEventListener('click', function () {
-    cycleCount++;
-    if (cycleCount >= 2) {
-      // double-tap → next preset
-      cycleCount = 0;
-      clearTimeout(nameCycleTimer);
-      var keys = Object.keys(PRESETS);
-      var current = getPlaylistId();
-      var idx = keys.indexOf(current);
-      var next = keys[(idx + 1) % keys.length];
-      highlightPick(next);
-      loadPlayer(next, PRESETS[next]);
-    } else {
-      clearTimeout(nameCycleTimer);
-      nameCycleTimer = setTimeout(function () { cycleCount = 0; }, 400);
-    }
-  });
 })();
 </script>
