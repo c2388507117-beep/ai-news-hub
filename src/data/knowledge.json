@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T12:11:07.266Z",
+  "fetchedAt": "2026-06-08T16:31:12.543Z",
   "items": [
+    {
+      "title": "陳嘉 (歌手)",
+      "extract": "陳嘉（CHANKA），香港創作女歌手，玫瑰崗學校畢業，2015年從英國回流，2017年開辦個個人音樂會，2019年推出首張個人專輯。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%98%89_(%E6%AD%8C%E6%89%8B)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/CHANKA_20221211.jpg/330px-CHANKA_20221211.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "吕伊",
       "extract": "吕伊 是法国上法蘭西大區加来海峡省的一个市镇，属于贝蒂讷区。\n",
@@ -27,13 +34,6 @@
       "extract": "博登 是德国莱茵兰-普法尔茨州韦斯特林山县的市镇，面积2.3平方千米，2023年12月31日人口为688人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E7%99%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BodenWesterwald3.jpg/330px-BodenWesterwald3.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "卓文萱",
-      "extract": "卓文萱，臺灣女歌手、演員與節目主持人。畢業於台北縣立福和國民中學、臺北市私立華岡藝術學校表演藝術科（第27屆）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E6%96%87%E8%90%B1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Genie.jpg/330px-Genie.jpg",
       "source": "wikipedia"
     }
   ]
