@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T11:19:16.882Z",
+  "fetchedAt": "2026-06-08T11:28:53.166Z",
   "topSellers": [
     {
       "name": "Steam Deck",
@@ -58,20 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/capsule_184x69.jpg"
     },
     {
-      "name": "Subnautica 2",
-      "appid": 1962700,
-      "price": 2999,
-      "finalPrice": 2999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
-    },
-    {
       "name": "Gothic 1 Remake",
       "appid": 1297900,
       "price": 4999,
       "finalPrice": 4999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+    },
+    {
+      "name": "Subnautica 2",
+      "appid": 1962700,
+      "price": 2999,
+      "finalPrice": 2999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
