@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T19:37:20.514Z",
+  "fetchedAt": "2026-06-08T22:03:02.289Z",
   "items": [
+    {
+      "title": "劉皇發",
+      "extract": "劉皇發，大紫荊勳賢，GBS，OBE，JP，客家人，人稱發叔、劉皇叔、新界王，曾任香港立法會議員、新界鄉議局主席、行政會議成員、屯門鄉事委員會主席、屯門區議會主席及龍鼓灘村村代表，另為仁愛堂創辦人及香港經濟民生聯盟成員。生於香港新界屯門龍鼓灘村，為新界原居民。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E7%9A%87%E7%99%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lau_Wong-fat_at_Victoria_Park_20100619.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "腐殖质",
       "extract": "腐殖质 又作腐植質，是土壤特异有机质，也是土壤有机质的主要组成部分，约占有机质总量的50%－65%。腐殖土 又作腐植土、栽培土，则是富含腐殖质的土壤。\n",
@@ -27,13 +34,6 @@
       "extract": "桃園市立大有國民中學，簡稱大有國中，位於台灣桃園市桃園區，2003年正式招收學生。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E5%A4%A7%E6%9C%89%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%AD%B8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/23/Da_You_Junior_High_School_Logo.gif",
-      "source": "wikipedia"
-    },
-    {
-      "title": "比萊 (瑞士)",
-      "extract": "比莱 是瑞士联邦西部法语区的沃州下设的一个镇。在行政上属于沃州北汝拉区管辖。比莱的总面积为01683 !16.83平方公里。截至2007年，总人口为000566 !566。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E8%90%8A_(%E7%91%9E%E5%A3%AB)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Karte_Gemeinde_Bullet_2012.png/330px-Karte_Gemeinde_Bullet_2012.png",
       "source": "wikipedia"
     }
   ]
