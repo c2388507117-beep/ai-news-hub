@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T07:09:22.249Z",
+  "fetchedAt": "2026-06-08T11:19:17.701Z",
   "items": [
+    {
+      "title": "博登",
+      "extract": "博登 是德国莱茵兰-普法尔茨州韦斯特林山县的市镇，面积2.3平方千米，2023年12月31日人口为688人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E7%99%BB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BodenWesterwald3.jpg/330px-BodenWesterwald3.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "卓文萱",
       "extract": "卓文萱，臺灣女歌手、演員與節目主持人。畢業於台北縣立福和國民中學、臺北市私立華岡藝術學校表演藝術科（第27屆）。\n",
@@ -27,13 +34,6 @@
       "extract": "圣西普里安 是法国多尔多涅省的一个市镇，属于萨拉拉卡内达区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%A5%BF%E6%99%AE%E9%87%8C%E5%AE%89_(%E5%A4%9A%E5%B0%94%E5%A4%9A%E6%B6%85%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SaintCyprien01.jpg/330px-SaintCyprien01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "科罗拉多州行政区划",
-      "extract": "美国科羅拉多州共有64個縣。由於科羅拉多州政府並沒有設立行政鎮區，所以縣是政府重要的行政單位。科羅拉多州共有兩個市县合一的地方，分別是布鲁姆菲尔德和州府丹佛。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Colorado_Locator_Map.PNG/330px-Colorado_Locator_Map.PNG",
       "source": "wikipedia"
     }
   ]
