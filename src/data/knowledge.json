@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T12:18:47.519Z",
+  "fetchedAt": "2026-06-09T16:14:49.929Z",
   "items": [
+    {
+      "title": "昂比",
+      "extract": "昂比 是法国芒什省的一个市镇，属于库唐斯区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%98%82%E6%AF%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/FranceNormandieHambyeAbbatiale.jpg/330px-FranceNormandieHambyeAbbatiale.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "莱恩·安德森",
       "extract": "莱恩·詹姆斯·安德森，美國NBA聯盟的職業籃球運動員。他在2008年的NBA選秀中第1輪第21順位被新澤西籃網選中。\n",
@@ -27,13 +34,6 @@
       "extract": "哈吉·乌赛努·迪乌夫 出生於非洲塞內加爾的達喀爾，是一名足球運動員，司職前鋒或翼鋒。出身法甲索察，其後轉戰英伦三岛，前後效力英格蘭超級聯賽球會利物浦、保頓、新特蘭及布力般流浪和蘇超球會格拉斯哥流浪。2011年以短約形式效力英冠球會唐卡士打。2012年8月15日轉投英冠球會列斯聯，但雙方並沒有簽下合同。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E7%88%BE-%E5%93%88%E7%A9%8D%C2%B7%E8%BF%AA%E5%A5%A7%E5%A4%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Diouf_cropped.jpg/330px-Diouf_cropped.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "劉皇發",
-      "extract": "劉皇發，大紫荊勳賢，GBS，OBE，JP，客家人，人稱發叔、劉皇叔、新界王，曾任香港立法會議員、新界鄉議局主席、行政會議成員、屯門鄉事委員會主席、屯門區議會主席及龍鼓灘村村代表，另為仁愛堂創辦人及香港經濟民生聯盟成員。生於香港新界屯門龍鼓灘村，為新界原居民。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E7%9A%87%E7%99%BC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lau_Wong-fat_at_Victoria_Park_20100619.jpg",
       "source": "wikipedia"
     }
   ]
