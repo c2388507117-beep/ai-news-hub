@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T04:39:21.028Z",
+  "fetchedAt": "2026-06-09T08:43:10.435Z",
   "items": [
+    {
+      "title": "蘇瓦尼區",
+      "extract": "蘇瓦尼區 是比利时瓦隆大区埃諾省的一个区。該區轄有6個市鎮，面積354.92平方公里，2020年人口為105145人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E7%93%A6%E5%B0%BC%E5%8D%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Arrondissement_Soignies_Belgium_Map.svg/langzh-330px-Arrondissement_Soignies_Belgium_Map.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "普魯士的亞歷山德琳公主 (1803年—1892年)",
       "extract": "普魯士的亞歷山德里娜，普魯士公主，腓特烈·威廉三世的第三女，德意志皇帝威廉一世的妹妹。\n",
@@ -27,13 +34,6 @@
       "extract": "腐殖质 又作腐植質，是土壤特异有机质，也是土壤有机质的主要组成部分，约占有机质总量的50%－65%。腐殖土 又作腐植土、栽培土，则是富含腐殖质的土壤。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%85%90%E6%AE%96%E8%B4%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Soil_profile.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "陳嘉 (歌手)",
-      "extract": "陳嘉（CHANKA），香港創作女歌手，玫瑰崗學校畢業，2015年從英國回流，2017年開辦個個人音樂會，2019年推出首張個人專輯。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%98%89_(%E6%AD%8C%E6%89%8B)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/CHANKA_20221211.jpg/330px-CHANKA_20221211.jpg",
       "source": "wikipedia"
     }
   ]
