@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T21:15:30.389Z",
+  "fetchedAt": "2026-06-09T22:54:40.469Z",
   "items": [
+    {
+      "title": "诺塞勒",
+      "extract": "诺塞勒 是法国康塔尔省的一个市镇，位于该省西南部，属于欧里亚克区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AF%BA%E5%A1%9E%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tour_de_Naucelles.jpg/330px-Tour_de_Naucelles.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "埃利奥·迪吕波",
       "extract": "艾利歐·迪賀波 是比利时王國的社会民主主义政治人物，也是法语社会党的领导人。于2011年12月5日成为比利时首相。他是世界上第二位公開LGBT身分的國家領導人（冰島總理约翰娜·西于尔扎多蒂是第一位），第一位男同性戀者國家領導人，2014年10月7日卸任，11日法語革新運動黨的夏爾·米歇爾拜相，組成聯合內閣。\n",
@@ -27,13 +34,6 @@
       "extract": "莱恩·詹姆斯·安德森，美國NBA聯盟的職業籃球運動員。他在2008年的NBA選秀中第1輪第21順位被新澤西籃網選中。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E6%81%A9%C2%B7%E5%AE%89%E5%BE%B7%E6%A3%AE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/20140101_Ryan_Anderson.JPG/330px-20140101_Ryan_Anderson.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "蘇瓦尼區",
-      "extract": "蘇瓦尼區 是比利时瓦隆大区埃諾省的一个区。該區轄有6個市鎮，面積354.92平方公里，2020年人口為105145人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E7%93%A6%E5%B0%BC%E5%8D%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Arrondissement_Soignies_Belgium_Map.svg/langzh-330px-Arrondissement_Soignies_Belgium_Map.svg.png",
       "source": "wikipedia"
     }
   ]
