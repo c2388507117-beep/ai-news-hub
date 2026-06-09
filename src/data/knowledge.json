@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T23:40:02.351Z",
+  "fetchedAt": "2026-06-09T04:39:21.028Z",
   "items": [
+    {
+      "title": "普魯士的亞歷山德琳公主 (1803年—1892年)",
+      "extract": "普魯士的亞歷山德里娜，普魯士公主，腓特烈·威廉三世的第三女，德意志皇帝威廉一世的妹妹。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E9%AD%AF%E5%A3%AB%E7%9A%84%E4%BA%9E%E6%AD%B7%E5%B1%B1%E5%BE%B7%E7%90%B3%E5%85%AC%E4%B8%BB_(1803%E5%B9%B4%E2%80%941892%E5%B9%B4)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Alexandrine_von_Preu%C3%9Fen_%281803%E2%80%931892%29.jpg/330px-Alexandrine_von_Preu%C3%9Fen_%281803%E2%80%931892%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "艾爾-哈積·迪奧夫",
       "extract": "哈吉·乌赛努·迪乌夫 出生於非洲塞內加爾的達喀爾，是一名足球運動員，司職前鋒或翼鋒。出身法甲索察，其後轉戰英伦三岛，前後效力英格蘭超級聯賽球會利物浦、保頓、新特蘭及布力般流浪和蘇超球會格拉斯哥流浪。2011年以短約形式效力英冠球會唐卡士打。2012年8月15日轉投英冠球會列斯聯，但雙方並沒有簽下合同。\n",
@@ -27,13 +34,6 @@
       "extract": "陳嘉（CHANKA），香港創作女歌手，玫瑰崗學校畢業，2015年從英國回流，2017年開辦個個人音樂會，2019年推出首張個人專輯。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%98%89_(%E6%AD%8C%E6%89%8B)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/CHANKA_20221211.jpg/330px-CHANKA_20221211.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "吕伊",
-      "extract": "吕伊 是法国上法蘭西大區加来海峡省的一个市镇，属于贝蒂讷区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%90%95%E4%BC%8A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruitz_-_Mairie.JPG/330px-Ruitz_-_Mairie.JPG",
       "source": "wikipedia"
     }
   ]
