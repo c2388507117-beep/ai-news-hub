@@ -1,77 +1,85 @@
 {
-  "fetchedAt": "2026-06-10T06:44:37.071Z",
+  "fetchedAt": "2026-06-10T11:05:45.457Z",
   "topSellers": [
     {
-      "name": "MECCHA CHAMELEON",
-      "appid": 4704690,
-      "price": 15500,
-      "finalPrice": 12400,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Voidling Bound",
-      "appid": 2004680,
-      "price": 53000,
-      "finalPrice": 47700,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/capsule_184x69.jpg"
+      "name": "Destiny 2: Renegades",
+      "appid": 3186540,
+      "price": 3999,
+      "finalPrice": 1199,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
     },
     {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 229900,
-      "finalPrice": 229900,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 0,
-      "finalPrice": 0,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+      "name": "MECCHA CHAMELEON",
+      "appid": 4704690,
+      "price": 615,
+      "finalPrice": 492,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Collection",
-      "appid": 77115,
-      "price": 95500,
-      "finalPrice": 68500,
-      "discount": 13,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
+      "name": "Destiny 2: The Edge of Fate",
+      "appid": 3186490,
+      "price": 3999,
+      "finalPrice": 799,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/capsule_184x69.jpg"
     },
     {
-      "name": "007 First Light",
-      "appid": 1488462,
-      "price": 159900,
-      "finalPrice": 159900,
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 3899,
+      "finalPrice": 3899,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
       "name": "Sons Of The Forest",
       "appid": 1326470,
-      "price": 60000,
-      "finalPrice": 18000,
+      "price": 2899,
+      "finalPrice": 869,
       "discount": 70,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_184x69.jpg"
     },
     {
       "name": "Gothic 1 Remake",
       "appid": 1297900,
-      "price": 150500,
-      "finalPrice": 150500,
+      "price": 4999,
+      "finalPrice": 4999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
     },
     {
-      "name": "Prime Status Upgrade",
-      "appid": 54029,
-      "price": 65000,
-      "finalPrice": 65000,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+      "name": "Voidling Bound",
+      "appid": 2004680,
+      "price": 2549,
+      "finalPrice": 2294,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/capsule_184x69.jpg"
+    },
+    {
+      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
+      "appid": 1588213,
+      "price": 2775,
+      "finalPrice": 1387,
+      "discount": 50,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
+    },
+    {
+      "name": "Returnal™",
+      "appid": 1649240,
+      "price": 5999,
+      "finalPrice": 1979,
+      "discount": 67,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
