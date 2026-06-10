@@ -1,85 +1,85 @@
 {
-  "fetchedAt": "2026-06-09T22:54:39.817Z",
+  "fetchedAt": "2026-06-10T01:33:59.739Z",
   "topSellers": [
     {
-      "name": "Road to Empress Ⅱ",
-      "appid": 4148240,
-      "price": 7400,
-      "finalPrice": 5920,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
+      "name": "EA SPORTS FC™ 26",
+      "appid": 3405690,
+      "price": 8999,
+      "finalPrice": 1800,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Collection",
-      "appid": 77115,
-      "price": 12300,
-      "finalPrice": 8872,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
+      "name": "Prime Status Upgrade",
+      "appid": 54029,
+      "price": 1499,
+      "finalPrice": 1499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     },
     {
       "name": "Sons Of The Forest",
       "appid": 1326470,
-      "price": 10800,
-      "finalPrice": 3240,
+      "price": 1499,
+      "finalPrice": 449,
       "discount": 70,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/capsule_184x69.jpg"
     },
     {
-      "name": "Destiny 2: Renegades",
-      "appid": 3186540,
-      "price": 15900,
-      "finalPrice": 4770,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
+      "name": "007 First Light",
+      "appid": 1488462,
+      "price": 3999,
+      "finalPrice": 3999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
       "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 29800,
-      "finalPrice": 29800,
+      "price": 4899,
+      "finalPrice": 4899,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Wallpaper Engine",
-      "appid": 431960,
-      "price": 2290,
-      "finalPrice": 2290,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
+      "name": "TBH : Task Bar Hero - Supporter Pack",
+      "appid": 4427390,
+      "price": 269,
+      "finalPrice": 215,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4427390/capsule_184x69.jpg"
     },
     {
-      "name": "Destiny 2: The Edge of Fate",
-      "appid": 3186490,
-      "price": 15900,
-      "finalPrice": 3180,
-      "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/capsule_184x69.jpg"
+      "name": "Resident Evil 4",
+      "appid": 2050650,
+      "price": 2999,
+      "finalPrice": 749,
+      "discount": 75,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_184x69.jpg"
     },
     {
-      "name": "Monster Hunter Wilds",
-      "appid": 2246340,
-      "price": 34800,
-      "finalPrice": 14616,
-      "discount": 58,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_184x69.jpg"
+      "name": "Path of Exile 2 - Early Access Supporter Pack (Special)",
+      "appid": 1588213,
+      "price": 2999,
+      "finalPrice": 1499,
+      "discount": 50,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588213/capsule_184x69.jpg"
     },
     {
-      "name": "Persona 4 Revival ",
-      "appid": 2963950,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963950/capsule_184x69.jpg"
+      "name": "Resident Evil Requiem",
+      "appid": 3764200,
+      "price": 5249,
+      "finalPrice": 4199,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
     },
     {
-      "name": "007 First Light",
-      "appid": 1488462,
-      "price": 29800,
-      "finalPrice": 29800,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+      "name": "Escape the Backrooms",
+      "appid": 1943950,
+      "price": 499,
+      "finalPrice": 399,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T22:54:40.469Z",
+  "fetchedAt": "2026-06-10T01:34:00.393Z",
   "items": [
+    {
+      "title": "李茂珍",
+      "extract": "李茂珍，是韓國的創作歌手，2020年參加JTBC的《Sing Again - 無名歌手戰》，獲得第三名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%8C%82%E7%8F%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%EC%9D%B4%EB%AC%B4%EC%A7%84_SBS_Radio.png/330px-%EC%9D%B4%EB%AC%B4%EC%A7%84_SBS_Radio.png",
+      "source": "wikipedia"
+    },
     {
       "title": "诺塞勒",
       "extract": "诺塞勒 是法国康塔尔省的一个市镇，位于该省西南部，属于欧里亚克区。\n",
@@ -27,13 +34,6 @@
       "extract": "昂比 是法国芒什省的一个市镇，属于库唐斯区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%98%82%E6%AF%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/FranceNormandieHambyeAbbatiale.jpg/330px-FranceNormandieHambyeAbbatiale.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "莱恩·安德森",
-      "extract": "莱恩·詹姆斯·安德森，美國NBA聯盟的職業籃球運動員。他在2008年的NBA選秀中第1輪第21順位被新澤西籃網選中。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E6%81%A9%C2%B7%E5%AE%89%E5%BE%B7%E6%A3%AE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/20140101_Ryan_Anderson.JPG/330px-20140101_Ryan_Anderson.JPG",
       "source": "wikipedia"
     }
   ]
