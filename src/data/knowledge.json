@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-10T01:34:00.393Z",
+  "fetchedAt": "2026-06-10T06:44:37.652Z",
   "items": [
+    {
+      "title": "金縷梅科",
+      "extract": "金縷梅科 屬於虎耳草目下的開花植物。金縷梅科下有27個屬及大約130種，全都是灌木或小喬木。大部分生长在亚洲的亚热带地区，也有少数生长在美洲、澳洲和马达加斯加岛，中国有17属约80种，集中分布在南方。特徵是單葉互生，具掌狀脈，托葉明顯；花兩性，單性同株則罕有，萼管與子房多少合生，萼齒4或5，花瓣4或5。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%B8%B7%E6%A2%85%E7%A7%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hamamelis_sp.jpg/330px-Hamamelis_sp.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "李茂珍",
       "extract": "李茂珍，是韓國的創作歌手，2020年參加JTBC的《Sing Again - 無名歌手戰》，獲得第三名。\n",
@@ -27,13 +34,6 @@
       "extract": "南漢宸（1895年—1967年1月27日），原名南汝箕，化名王剑秋，男，山西趙城人，中华民国和中華人民共和國政治人物，曾任中國人民銀行首任行長，中国民主建国会第一、第二届中央副主任委员。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%BC%A2%E5%AE%B8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/1952-05_1952%E5%B9%B4_%E8%8E%AB%E6%96%AF%E7%A7%91%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E4%BC%9A%E8%AE%AE_%E4%B8%AD%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%9B%A2%E5%9B%A2%E9%95%BF%E5%8D%97%E6%B1%89%E5%AE%B8_%28cropped%29.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "昂比",
-      "extract": "昂比 是法国芒什省的一个市镇，属于库唐斯区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%98%82%E6%AF%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/FranceNormandieHambyeAbbatiale.jpg/330px-FranceNormandieHambyeAbbatiale.jpg",
       "source": "wikipedia"
     }
   ]
