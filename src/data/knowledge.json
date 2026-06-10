@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-10T20:48:15.743Z",
+  "fetchedAt": "2026-06-10T22:59:15.323Z",
   "items": [
+    {
+      "title": "蒂里 (市镇)",
+      "extract": "蒂里，是愛沙尼亞耶爾瓦縣的一個鄉村型市镇，位於該國中部，行政中心設於蒂里，面積1008平方公里，2021年人口数量为10,710人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%92%82%E9%87%8C_(%E5%B8%82%E9%95%87)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Laupa_m%C3%B5isa_peahoone_2012.jpg/330px-Laupa_m%C3%B5isa_peahoone_2012.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "鮑",
       "extract": "鮑屬，古稱鳆、鰒魚、海耳，又名鏡面魚、九孔螺、明目魚，是鮑科（Haliotidae）唯一的一個屬。它是一類海洋腹足綱軟體動物（也就是一種海螺），棲石質河岸，以藻類為食。\n",
@@ -27,13 +34,6 @@
       "extract": "《花吃了那女孩》 是陳宏一所導演的一部台灣女同志電影，是根據四個真實的女同志情侶故事，改編拍攝而成的四段式電影。也是陳宏一導演首度嘗試拍攝同志題材的電影，另外電影片中的旁白是由歌手陳綺貞所擔綱負責。本片入選第十屆台北電影節十大劇情長片。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8A%B1%E5%90%83%E4%BA%86%E9%82%A3%E5%A5%B3%E5%AD%A9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/92/Candy_Rain.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "金縷梅科",
-      "extract": "金縷梅科 屬於虎耳草目下的開花植物。金縷梅科下有27個屬及大約130種，全都是灌木或小喬木。大部分生长在亚洲的亚热带地区，也有少数生长在美洲、澳洲和马达加斯加岛，中国有17属约80种，集中分布在南方。特徵是單葉互生，具掌狀脈，托葉明顯；花兩性，單性同株則罕有，萼管與子房多少合生，萼齒4或5，花瓣4或5。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%B8%B7%E6%A2%85%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hamamelis_sp.jpg/330px-Hamamelis_sp.jpg",
       "source": "wikipedia"
     }
   ]
