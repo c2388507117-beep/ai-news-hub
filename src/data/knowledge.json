@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-10T18:11:25.509Z",
+  "fetchedAt": "2026-06-10T20:48:15.743Z",
   "items": [
+    {
+      "title": "鮑",
+      "extract": "鮑屬，古稱鳆、鰒魚、海耳，又名鏡面魚、九孔螺、明目魚，是鮑科（Haliotidae）唯一的一個屬。它是一類海洋腹足綱軟體動物（也就是一種海螺），棲石質河岸，以藻類為食。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AE%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LivingAbalone.JPG/330px-LivingAbalone.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "爱德华多·阿兰达",
       "extract": "爱德华多·阿兰达（1985年1月28日—），巴拉圭足球運動員，巴拉圭國家足球隊成員，现效力于日本职业足球联赛球队JEF聯市原·千葉。\n",
@@ -27,13 +34,6 @@
       "extract": "金縷梅科 屬於虎耳草目下的開花植物。金縷梅科下有27個屬及大約130種，全都是灌木或小喬木。大部分生长在亚洲的亚热带地区，也有少数生长在美洲、澳洲和马达加斯加岛，中国有17属约80种，集中分布在南方。特徵是單葉互生，具掌狀脈，托葉明顯；花兩性，單性同株則罕有，萼管與子房多少合生，萼齒4或5，花瓣4或5。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%B8%B7%E6%A2%85%E7%A7%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hamamelis_sp.jpg/330px-Hamamelis_sp.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "李茂珍",
-      "extract": "李茂珍，是韓國的創作歌手，2020年參加JTBC的《Sing Again - 無名歌手戰》，獲得第三名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%8C%82%E7%8F%8D",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%EC%9D%B4%EB%AC%B4%EC%A7%84_SBS_Radio.png/330px-%EC%9D%B4%EB%AC%B4%EC%A7%84_SBS_Radio.png",
       "source": "wikipedia"
     }
   ]
