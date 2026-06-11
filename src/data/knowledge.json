@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-11T11:51:16.667Z",
+  "fetchedAt": "2026-06-11T16:31:41.310Z",
   "items": [
+    {
+      "title": "陳女燕溪",
+      "extract": "陳女燕溪 是著名的越南裔法國女演员。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%A5%B3%E7%87%95%E6%BA%AA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tran_Nu_Y%C3%AAn_Kh%C3%AA_from_%22The_Pot-au-Feu%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853347208367%29_%28cropped%29.jpg/330px-Tran_Nu_Y%C3%AAn_Kh%C3%AA_from_%22The_Pot-au-Feu%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853347208367%29_%28cropped%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "纽伦堡法案",
       "extract": "紐倫堡法案 是納粹德國於1935年頒佈的反猶太法律。\n",
@@ -27,13 +34,6 @@
       "extract": "蒂里，是愛沙尼亞耶爾瓦縣的一個鄉村型市镇，位於該國中部，行政中心設於蒂里，面積1008平方公里，2021年人口数量为10,710人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%92%82%E9%87%8C_(%E5%B8%82%E9%95%87)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Laupa_m%C3%B5isa_peahoone_2012.jpg/330px-Laupa_m%C3%B5isa_peahoone_2012.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鮑",
-      "extract": "鮑屬，古稱鳆、鰒魚、海耳，又名鏡面魚、九孔螺、明目魚，是鮑科（Haliotidae）唯一的一個屬。它是一類海洋腹足綱軟體動物（也就是一種海螺），棲石質河岸，以藻類為食。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%AE%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LivingAbalone.JPG/330px-LivingAbalone.JPG",
       "source": "wikipedia"
     }
   ]
