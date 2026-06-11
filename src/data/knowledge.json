@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-11T19:48:51.079Z",
+  "fetchedAt": "2026-06-11T22:18:58.702Z",
   "items": [
+    {
+      "title": "中山站 (中山市)",
+      "extract": "中山站是广珠城际铁路的高架车站，位於中國广东省中山市火炬开发区东祥路，在2011年1月7日啟用。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B1%B1%E7%AB%99_(%E4%B8%AD%E5%B1%B1%E5%B8%82)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Exterior%2C_Zhongshan_Railway_Station_20260111.jpg/330px-Exterior%2C_Zhongshan_Railway_Station_20260111.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "米蘭-利納特機場",
       "extract": "米蘭-利納特機場 是意大利米蘭三大機場之一。主要用於國內和短途國際航班（所有國際航班的目的地僅限於歐洲境內），至2017年有将近9,548,363名乘客\n",
@@ -27,13 +34,6 @@
       "extract": "伊斯蘭教中的地獄，意譯為火獄，或音譯為哲罕南，來自於希伯來聖經中的Gehenna一詞，中国穆斯林有时亦用波斯语“دوزخ” 的音译“多灾海”、“多罪海”或“垛子海”表示火狱一词。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84_(%E4%BC%8A%E6%96%AF%E8%98%AD%E6%95%99)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Muhammad_visits_Hell_-_from_the_Miraj_Nameh.jpg/330px-Muhammad_visits_Hell_-_from_the_Miraj_Nameh.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "红楼梦 (歌剧)",
-      "extract": "《红楼梦》是一部由朝鲜血海歌剧团创作的歌剧，全剧根据曹雪芹同名著作创作，共六场十二幕，演出时间约三个小时，叙述了林黛玉和贾宝玉的爱情故事。这部歌剧在独唱、伴奏、舞蹈和舞美上吸收了《卖花姑娘》和《血海》等朝鲜经典歌剧的元素，伴奏音乐以朝鲜民族乐器为主，具有朝鲜族风情。全剧演员用朝鲜语演出，剧场设置屏幕播放字幕。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E6%A5%BC%E6%A2%A6_(%E6%AD%8C%E5%89%A7)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/JiaXu01.jpg/330px-JiaXu01.jpg",
       "source": "wikipedia"
     }
   ]

@@ -1,21 +1,53 @@
 {
-  "fetchedAt": "2026-06-11T19:48:50.083Z",
+  "fetchedAt": "2026-06-11T22:18:57.406Z",
   "topSellers": [
+    {
+      "name": "MECCHA CHAMELEON",
+      "appid": 4704690,
+      "price": 599,
+      "finalPrice": 479,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "FINAL FANTASY VII REBIRTH",
+      "appid": 2909400,
+      "price": 4999,
+      "finalPrice": 1999,
+      "discount": 60,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/capsule_184x69.jpg"
+    },
     {
       "name": "Steam Controller",
       "appid": 4165870,
-      "price": 14900,
-      "finalPrice": 14900,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
-      "name": "STARSEEKER: Astroneer Expeditions",
-      "appid": 1454370,
-      "price": 3599,
-      "finalPrice": 3599,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454370/capsule_184x69.jpg"
+      "name": "Destiny 2: Renegades",
+      "appid": 3186540,
+      "price": 3999,
+      "finalPrice": 1199,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
+    },
+    {
+      "name": "Burglin' Gnomes",
+      "appid": 3844970,
+      "price": 999,
+      "finalPrice": 899,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
     },
     {
       "name": "Tabletop Tavern",
@@ -26,52 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3337380/capsule_184x69.jpg"
     },
     {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 4999,
-      "finalPrice": 4999,
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Destiny 2: Renegades",
-      "appid": 3186540,
-      "price": 4999,
-      "finalPrice": 1499,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
-    },
-    {
-      "name": "MECCHA CHAMELEON",
-      "appid": 4704690,
-      "price": 719,
-      "finalPrice": 575,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
-    },
-    {
-      "name": "FINAL FANTASY VII REBIRTH",
-      "appid": 2909400,
-      "price": 6699,
-      "finalPrice": 2679,
-      "discount": 60,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 49900,
-      "finalPrice": 49900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Starseeker + Astroneer",
-      "appid": 78113,
-      "price": 7598,
-      "finalPrice": 6458,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/78113/capsule_184x69.jpg"
+      "name": "Destiny 2: The Edge of Fate",
+      "appid": 3186490,
+      "price": 3999,
+      "finalPrice": 799,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
