@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-11T07:10:50.109Z",
+  "fetchedAt": "2026-06-11T11:51:16.667Z",
   "items": [
+    {
+      "title": "纽伦堡法案",
+      "extract": "紐倫堡法案 是納粹德國於1935年頒佈的反猶太法律。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BA%BD%E4%BC%A6%E5%A0%A1%E6%B3%95%E6%A1%88",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Nuremberg_laws_Racial_Chart.jpg/330px-Nuremberg_laws_Racial_Chart.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "地獄 (伊斯蘭教)",
       "extract": "伊斯蘭教中的地獄，意譯為火獄，或音譯為哲罕南，來自於希伯來聖經中的Gehenna一詞，中国穆斯林有时亦用波斯语“دوزخ” 的音译“多灾海”、“多罪海”或“垛子海”表示火狱一词。\n",
@@ -27,13 +34,6 @@
       "extract": "鮑屬，古稱鳆、鰒魚、海耳，又名鏡面魚、九孔螺、明目魚，是鮑科（Haliotidae）唯一的一個屬。它是一類海洋腹足綱軟體動物（也就是一種海螺），棲石質河岸，以藻類為食。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%AE%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LivingAbalone.JPG/330px-LivingAbalone.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "爱德华多·阿兰达",
-      "extract": "爱德华多·阿兰达（1985年1月28日—），巴拉圭足球運動員，巴拉圭國家足球隊成員，现效力于日本职业足球联赛球队JEF聯市原·千葉。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%BE%B7%E5%8D%8E%E5%A4%9A%C2%B7%E9%98%BF%E5%85%B0%E8%BE%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Eduardo_Aranda.jpg",
       "source": "wikipedia"
     }
   ]
