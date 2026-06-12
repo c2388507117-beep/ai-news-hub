@@ -1,69 +1,77 @@
 {
-  "fetchedAt": "2026-06-12T11:10:54.471Z",
+  "fetchedAt": "2026-06-12T14:19:47.604Z",
   "topSellers": [
+    {
+      "name": "Road to Empress Ⅱ",
+      "appid": 4148240,
+      "price": 7400,
+      "finalPrice": 5920,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
+    },
+    {
+      "name": "Road to Empress Collection",
+      "appid": 77115,
+      "price": 12300,
+      "finalPrice": 8872,
+      "discount": 12,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
+    },
+    {
+      "name": "EA SPORTS FC™ 26",
+      "appid": 3405690,
+      "price": 11800,
+      "finalPrice": 2360,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
+    },
+    {
+      "name": "Road to Empress I",
+      "appid": 3478050,
+      "price": 4900,
+      "finalPrice": 4900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
+    },
+    {
+      "name": "Don't Starve Together",
+      "appid": 322330,
+      "price": 4800,
+      "finalPrice": 480,
+      "discount": 90,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/capsule_184x69.jpg"
+    },
+    {
+      "name": "DAVE THE DIVER - In the Jungle Content Pack",
+      "appid": 4394810,
+      "price": 3900,
+      "finalPrice": 3510,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
+    },
     {
       "name": "Destiny 2: The Collection",
       "appid": 72233,
-      "price": 25491,
-      "finalPrice": 2563,
+      "price": 101100,
+      "finalPrice": 10209,
       "discount": 88,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
-      "name": "MECCHA CHAMELEON",
-      "appid": 4704690,
-      "price": 599,
-      "finalPrice": 479,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
+      "name": "Oxygen Not Included Complete Bundle",
+      "appid": 23266,
+      "price": 19400,
+      "finalPrice": 8729,
+      "discount": 31,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/23266/capsule_184x69.jpg"
     },
     {
-      "name": "Destiny 2: Renegades",
-      "appid": 3186540,
-      "price": 3999,
-      "finalPrice": 1199,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
-    },
-    {
-      "name": "Fallout 1st",
-      "appid": 1202520,
-      "price": 1299,
-      "finalPrice": 1299,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
-      "name": "FINAL FANTASY VII REBIRTH",
-      "appid": 2909400,
-      "price": 4999,
-      "finalPrice": 1999,
-      "discount": 60,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/capsule_184x69.jpg"
-    },
-    {
-      "name": "Burglin' Gnomes",
-      "appid": 3844970,
-      "price": 999,
-      "finalPrice": 899,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+      "name": "Lost Castle 2",
+      "appid": 2445690,
+      "price": 6800,
+      "finalPrice": 4760,
+      "discount": 30,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445690/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

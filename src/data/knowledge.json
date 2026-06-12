@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-12T11:10:55.536Z",
+  "fetchedAt": "2026-06-12T14:19:48.746Z",
   "items": [
+    {
+      "title": "2,6-二甲基吡啶",
+      "extract": "2,6-二甲基吡啶 (2,6-lutidine)是一種天然存在的雜環化合物。 它是從煤焦油和骨炭所含的基本成分中分離出來。是一個 吡啶 的第 2 位和第 6 位被兩個 甲基 取代的結構。 無色液體，有類似吡啶的氣味。\n",
+      "url": "https://zh.wikipedia.org/wiki/2%2C6-%E4%BA%8C%E7%94%B2%E5%9F%BA%E5%90%A1%E5%95%B6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/2%2C6-Lutidine.svg/langzh-330px-2%2C6-Lutidine.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "各国武装部队服役人数列表",
       "extract": "这个列表列出了在役军人和预备役军人人数。它包括所有由政府为进一步推动各自的国内外政策所提供资金的士兵。此文中“国家”为其最常用的用法，即行使主权或有限认可的国家。\n",
@@ -27,13 +34,6 @@
       "extract": "中山站是广珠城际铁路的高架车站，位於中國广东省中山市火炬开发区东祥路，在2011年1月7日啟用。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B1%B1%E7%AB%99_(%E4%B8%AD%E5%B1%B1%E5%B8%82)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Exterior%2C_Zhongshan_Railway_Station_20260111.jpg/330px-Exterior%2C_Zhongshan_Railway_Station_20260111.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "米蘭-利納特機場",
-      "extract": "米蘭-利納特機場 是意大利米蘭三大機場之一。主要用於國內和短途國際航班（所有國際航班的目的地僅限於歐洲境內），至2017年有将近9,548,363名乘客\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E8%98%AD-%E5%88%A9%E7%B4%8D%E7%89%B9%E6%A9%9F%E5%A0%B4",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Milan_-_Linate_%28LIN_-_LIML%29_AN0683546.jpg/330px-Milan_-_Linate_%28LIN_-_LIML%29_AN0683546.jpg",
       "source": "wikipedia"
     }
   ]
