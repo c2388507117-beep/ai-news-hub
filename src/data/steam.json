@@ -1,14 +1,6 @@
 {
-  "fetchedAt": "2026-06-12T20:29:18.089Z",
+  "fetchedAt": "2026-06-12T22:50:11.621Z",
   "topSellers": [
-    {
-      "name": "Road to Empress Collection",
-      "appid": 77115,
-      "price": 12300,
-      "finalPrice": 8872,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
-    },
     {
       "name": "Road to Empress Ⅱ",
       "appid": 4148240,
@@ -16,6 +8,14 @@
       "finalPrice": 5920,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
+    },
+    {
+      "name": "Road to Empress Collection",
+      "appid": 77115,
+      "price": 12300,
+      "finalPrice": 8872,
+      "discount": 12,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
     },
     {
       "name": "EA SPORTS FC™ 26",
@@ -50,6 +50,14 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
     },
     {
+      "name": "Oxygen Not Included Complete Bundle",
+      "appid": 23266,
+      "price": 19400,
+      "finalPrice": 8729,
+      "discount": 31,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/23266/capsule_184x69.jpg"
+    },
+    {
       "name": "Wallpaper Engine",
       "appid": 431960,
       "price": 2290,
@@ -66,20 +74,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
-      "name": "Oxygen Not Included Complete Bundle",
-      "appid": 23266,
-      "price": 19400,
-      "finalPrice": 8729,
-      "discount": 31,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/23266/capsule_184x69.jpg"
-    },
-    {
-      "name": "DAVE THE DIVER",
-      "appid": 1868140,
-      "price": 8000,
-      "finalPrice": 4000,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/capsule_184x69.jpg"
+      "name": "DAVE THE DIVER - In the Jungle Bundle",
+      "appid": 76794,
+      "price": 11900,
+      "finalPrice": 6759,
+      "discount": 37,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/76794/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

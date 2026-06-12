@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-12T20:29:18.951Z",
+  "fetchedAt": "2026-06-12T22:50:12.437Z",
   "items": [
+    {
+      "title": "格拉爾 (洛林公爵)",
+      "extract": "格拉爾，洛林公爵，1048年至1070年在位。曾参与1053年的奇维塔特战役。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E7%88%BE_(%E6%B4%9B%E6%9E%97%E5%85%AC%E7%88%B5)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Portrait_de_G%C3%A9rard_d%27Alsace%2C_duc_de_Lorraine.jpg/330px-Portrait_de_G%C3%A9rard_d%27Alsace%2C_duc_de_Lorraine.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "奥尔内斯区",
       "extract": "奥尔内斯区 是冰岛西峽灣區的市镇。市镇面积为705平方公里，人口数量为47人（2023年）。\n",
@@ -27,13 +34,6 @@
       "extract": "这个列表列出了在役军人和预备役军人人数。它包括所有由政府为进一步推动各自的国内外政策所提供资金的士兵。此文中“国家”为其最常用的用法，即行使主权或有限认可的国家。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%90%84%E5%9B%BD%E6%AD%A6%E8%A3%85%E9%83%A8%E9%98%9F%E6%9C%8D%E5%BD%B9%E4%BA%BA%E6%95%B0%E5%88%97%E8%A1%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Countries_by_soldier_count.svg/langzh-330px-Countries_by_soldier_count.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "关岛大学",
-      "extract": "关岛大学 成立于1952年，是一所四年制公立赠地大学，位于美国西太平洋属地关岛的孟伊劳村。现任校长为罗伯特·安德伍德博士。2008年秋季，关岛大学有180名全职教职人员和3387名学生，其中亚太岛屿裔学生比率91%，全日制学生比率69%。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%B3%E5%B2%9B%E5%A4%A7%E5%AD%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Fieldhouse_-_University_of_Guam_-_DSC01005.JPG/330px-Fieldhouse_-_University_of_Guam_-_DSC01005.JPG",
       "source": "wikipedia"
     }
   ]
