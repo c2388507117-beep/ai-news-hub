@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-11T22:18:58.702Z",
+  "fetchedAt": "2026-06-12T01:41:30.637Z",
   "items": [
+    {
+      "title": "松原有沙",
+      "extract": "松原有沙（1995年5月1日—），日本足球運動員，日本國家女子足球隊成員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E5%8E%9F%E6%9C%89%E6%B2%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Arisa_Matsubara_%2840352516733%29_%28cropped%29.jpg/330px-Arisa_Matsubara_%2840352516733%29_%28cropped%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "中山站 (中山市)",
       "extract": "中山站是广珠城际铁路的高架车站，位於中國广东省中山市火炬开发区东祥路，在2011年1月7日啟用。\n",
@@ -27,13 +34,6 @@
       "extract": "紐倫堡法案 是納粹德國於1935年頒佈的反猶太法律。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BA%BD%E4%BC%A6%E5%A0%A1%E6%B3%95%E6%A1%88",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Nuremberg_laws_Racial_Chart.jpg/330px-Nuremberg_laws_Racial_Chart.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "地獄 (伊斯蘭教)",
-      "extract": "伊斯蘭教中的地獄，意譯為火獄，或音譯為哲罕南，來自於希伯來聖經中的Gehenna一詞，中国穆斯林有时亦用波斯语“دوزخ” 的音译“多灾海”、“多罪海”或“垛子海”表示火狱一词。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84_(%E4%BC%8A%E6%96%AF%E8%98%AD%E6%95%99)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Muhammad_visits_Hell_-_from_the_Miraj_Nameh.jpg/330px-Muhammad_visits_Hell_-_from_the_Miraj_Nameh.jpg",
       "source": "wikipedia"
     }
   ]
