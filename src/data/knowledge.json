@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-12T01:41:30.637Z",
+  "fetchedAt": "2026-06-12T06:57:50.094Z",
   "items": [
+    {
+      "title": "关岛大学",
+      "extract": "关岛大学 成立于1952年，是一所四年制公立赠地大学，位于美国西太平洋属地关岛的孟伊劳村。现任校长为罗伯特·安德伍德博士。2008年秋季，关岛大学有180名全职教职人员和3387名学生，其中亚太岛屿裔学生比率91%，全日制学生比率69%。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%B3%E5%B2%9B%E5%A4%A7%E5%AD%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Fieldhouse_-_University_of_Guam_-_DSC01005.JPG/330px-Fieldhouse_-_University_of_Guam_-_DSC01005.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "松原有沙",
       "extract": "松原有沙（1995年5月1日—），日本足球運動員，日本國家女子足球隊成員。\n",
@@ -27,13 +34,6 @@
       "extract": "陳女燕溪 是著名的越南裔法國女演员。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%A5%B3%E7%87%95%E6%BA%AA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tran_Nu_Y%C3%AAn_Kh%C3%AA_from_%22The_Pot-au-Feu%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853347208367%29_%28cropped%29.jpg/330px-Tran_Nu_Y%C3%AAn_Kh%C3%AA_from_%22The_Pot-au-Feu%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853347208367%29_%28cropped%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "纽伦堡法案",
-      "extract": "紐倫堡法案 是納粹德國於1935年頒佈的反猶太法律。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BA%BD%E4%BC%A6%E5%A0%A1%E6%B3%95%E6%A1%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Nuremberg_laws_Racial_Chart.jpg/330px-Nuremberg_laws_Racial_Chart.jpg",
       "source": "wikipedia"
     }
   ]
