@@ -1,14 +1,6 @@
 {
-  "fetchedAt": "2026-06-13T12:04:46.828Z",
+  "fetchedAt": "2026-06-13T14:30:55.352Z",
   "topSellers": [
-    {
-      "name": "MECCHA CHAMELEON",
-      "appid": 4704690,
-      "price": 599,
-      "finalPrice": 479,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
-    },
     {
       "name": "Destiny 2: The Collection",
       "appid": 72233,
@@ -18,12 +10,36 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
+      "name": "Prime Status Upgrade",
+      "appid": 54029,
+      "price": 1499,
+      "finalPrice": 1499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+    },
+    {
+      "name": "MECCHA CHAMELEON",
+      "appid": 4704690,
+      "price": 599,
+      "finalPrice": 479,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
+    },
+    {
       "name": "Steam Controller",
       "appid": 4165870,
       "price": 9900,
       "finalPrice": 9900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "Destiny 2: Renegades",
@@ -42,22 +58,6 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Burglin' Gnomes",
-      "appid": 3844970,
-      "price": 999,
-      "finalPrice": 899,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
-    },
-    {
-      "name": "Destiny 2: The Edge of Fate",
-      "appid": 3186490,
-      "price": 3999,
-      "finalPrice": 799,
-      "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/capsule_184x69.jpg"
-    },
-    {
       "name": "007 First Light",
       "appid": 1488462,
       "price": 6999,
@@ -66,20 +66,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
-      "name": "FINAL FANTASY VII REBIRTH",
-      "appid": 2909400,
-      "price": 4999,
-      "finalPrice": 1999,
-      "discount": 60,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/capsule_184x69.jpg"
-    },
-    {
-      "name": "Voidling Bound",
-      "appid": 2004680,
-      "price": 2499,
-      "finalPrice": 2249,
+      "name": "Burglin' Gnomes",
+      "appid": 3844970,
+      "price": 999,
+      "finalPrice": 899,
       "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
