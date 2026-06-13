@@ -1,85 +1,85 @@
 {
-  "fetchedAt": "2026-06-13T10:09:09.444Z",
+  "fetchedAt": "2026-06-13T12:04:46.828Z",
   "topSellers": [
-    {
-      "name": "女王的游戏：盛世天下 女帝篇",
-      "appid": 4148240,
-      "price": 8700,
-      "finalPrice": 6960,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
-    },
-    {
-      "name": "《女王的游戏：盛世天下》媚娘篇与女帝篇合集",
-      "appid": 77115,
-      "price": 14200,
-      "finalPrice": 10217,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
-    },
-    {
-      "name": "Wallpaper Engine：壁纸引擎",
-      "appid": 431960,
-      "price": 3500,
-      "finalPrice": 3500,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
-    },
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 3600,
-      "finalPrice": 2880,
+      "price": 599,
+      "finalPrice": 479,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "极限竞速：地平线 6",
+      "name": "Destiny 2: The Collection",
+      "appid": 72233,
+      "price": 25491,
+      "finalPrice": 2563,
+      "discount": 88,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "Destiny 2: Renegades",
+      "appid": 3186540,
+      "price": 3999,
+      "finalPrice": 1199,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
+    },
+    {
+      "name": "Forza Horizon 6",
       "appid": 2483190,
-      "price": 49800,
-      "finalPrice": 49800,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Hearts of Iron IV: Expansion Pass 2 Last Chance",
-      "appid": 71239,
-      "price": 73200,
-      "finalPrice": 35040,
-      "discount": 40,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/71239/capsule_184x69.jpg"
+      "name": "Burglin' Gnomes",
+      "appid": 3844970,
+      "price": 999,
+      "finalPrice": 899,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
     },
     {
-      "name": "Hearts of Iron IV",
-      "appid": 394360,
-      "price": 31800,
-      "finalPrice": 6360,
+      "name": "Destiny 2: The Edge of Fate",
+      "appid": 3186490,
+      "price": 3999,
+      "finalPrice": 799,
       "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/capsule_184x69.jpg"
     },
     {
-      "name": "Theater Pack - Hearts of Iron IV: Thunder at our Gates",
-      "appid": 3796290,
-      "price": 13800,
-      "finalPrice": 13800,
+      "name": "007 First Light",
+      "appid": 1488462,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796290/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
-      "name": "饥荒联机版",
-      "appid": 322330,
-      "price": 7600,
-      "finalPrice": 760,
-      "discount": 90,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/capsule_184x69.jpg"
+      "name": "FINAL FANTASY VII REBIRTH",
+      "appid": 2909400,
+      "price": 4999,
+      "finalPrice": 1999,
+      "discount": 60,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/capsule_184x69.jpg"
     },
     {
-      "name": "女王的游戏：盛世天下 媚娘篇",
-      "appid": 3478050,
-      "price": 5500,
-      "finalPrice": 5500,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
+      "name": "Voidling Bound",
+      "appid": 2004680,
+      "price": 2499,
+      "finalPrice": 2249,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004680/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

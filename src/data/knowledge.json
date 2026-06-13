@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-13T10:09:10.439Z",
+  "fetchedAt": "2026-06-13T12:04:47.874Z",
   "items": [
+    {
+      "title": "尼古拉·科羅利科夫",
+      "extract": "尼古拉·帕夫洛維奇·科羅利科夫，俄羅斯男子馬術運動員。他曾代表蘇聯參加1980年夏季奧林匹克運動會馬術比賽，並獲得團體場地障礙賽金牌及個人場地障礙賽銀牌。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E7%A7%91%E7%BE%85%E5%88%A9%E7%A7%91%E5%A4%AB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RIAN_archive_483866_Medalists_of_the_22nd_Olympic_Games.jpg/330px-RIAN_archive_483866_Medalists_of_the_22nd_Olympic_Games.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "吉耶曼",
       "extract": "吉耶曼 是比利时列日省列日的街区，位于默兹河畔，中央街区以南，是吉耶曼火车站的所在地。\n",
@@ -27,13 +34,6 @@
       "extract": "格拉爾，洛林公爵，1048年至1070年在位。曾参与1053年的奇维塔特战役。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E7%88%BE_(%E6%B4%9B%E6%9E%97%E5%85%AC%E7%88%B5)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Portrait_de_G%C3%A9rard_d%27Alsace%2C_duc_de_Lorraine.jpg/330px-Portrait_de_G%C3%A9rard_d%27Alsace%2C_duc_de_Lorraine.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "奥尔内斯区",
-      "extract": "奥尔内斯区 是冰岛西峽灣區的市镇。市镇面积为705平方公里，人口数量为47人（2023年）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%B0%94%E5%86%85%E6%96%AF%E5%8C%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Dj%C3%BApav%C3%ADk.jpg/330px-Dj%C3%BApav%C3%ADk.jpg",
       "source": "wikipedia"
     }
   ]
