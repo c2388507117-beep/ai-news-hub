@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-13T14:30:55.352Z",
+  "fetchedAt": "2026-06-13T16:51:24.494Z",
   "topSellers": [
     {
       "name": "Destiny 2: The Collection",
@@ -10,12 +10,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
-      "name": "Prime Status Upgrade",
-      "appid": 54029,
-      "price": 1499,
-      "finalPrice": 1499,
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "MECCHA CHAMELEON",
@@ -32,14 +32,6 @@
       "finalPrice": 9900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "Destiny 2: Renegades",
@@ -64,6 +56,14 @@
       "finalPrice": 6999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+    },
+    {
+      "name": "Prime Status Upgrade",
+      "appid": 54029,
+      "price": 1499,
+      "finalPrice": 1499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     },
     {
       "name": "Burglin' Gnomes",
