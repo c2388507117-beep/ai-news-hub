@@ -1,77 +1,85 @@
 {
-  "fetchedAt": "2026-06-13T06:34:08.464Z",
+  "fetchedAt": "2026-06-13T10:09:09.444Z",
   "topSellers": [
     {
-      "name": "Road to Empress Ⅱ",
+      "name": "女王的游戏：盛世天下 女帝篇",
       "appid": 4148240,
-      "price": 7400,
-      "finalPrice": 5920,
+      "price": 8700,
+      "finalPrice": 6960,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Collection",
+      "name": "《女王的游戏：盛世天下》媚娘篇与女帝篇合集",
       "appid": 77115,
-      "price": 12300,
-      "finalPrice": 8872,
+      "price": 14200,
+      "finalPrice": 10217,
       "discount": 12,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
     },
     {
-      "name": "EA SPORTS FC™ 26",
-      "appid": 3405690,
-      "price": 11800,
-      "finalPrice": 2360,
-      "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Road to Empress I",
-      "appid": 3478050,
-      "price": 4900,
-      "finalPrice": 4900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
-    },
-    {
-      "name": "Don't Starve Together",
-      "appid": 322330,
-      "price": 4800,
-      "finalPrice": 480,
-      "discount": 90,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/capsule_184x69.jpg"
-    },
-    {
-      "name": "Wallpaper Engine",
+      "name": "Wallpaper Engine：壁纸引擎",
       "appid": 431960,
-      "price": 2290,
-      "finalPrice": 2290,
+      "price": 3500,
+      "finalPrice": 3500,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
     },
     {
-      "name": "DAVE THE DIVER - In the Jungle Content Pack",
-      "appid": 4394810,
-      "price": 3900,
-      "finalPrice": 3510,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
+      "name": "MECCHA CHAMELEON",
+      "appid": 4704690,
+      "price": 3600,
+      "finalPrice": 2880,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Destiny 2: The Collection",
-      "appid": 72233,
-      "price": 101100,
-      "finalPrice": 10209,
-      "discount": 88,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
+      "name": "极限竞速：地平线 6",
+      "appid": 2483190,
+      "price": 49800,
+      "finalPrice": 49800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "DAVE THE DIVER",
-      "appid": 1868140,
-      "price": 8000,
-      "finalPrice": 4000,
-      "discount": 50,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/capsule_184x69.jpg"
+      "name": "Hearts of Iron IV: Expansion Pass 2 Last Chance",
+      "appid": 71239,
+      "price": 73200,
+      "finalPrice": 35040,
+      "discount": 40,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/71239/capsule_184x69.jpg"
+    },
+    {
+      "name": "Hearts of Iron IV",
+      "appid": 394360,
+      "price": 31800,
+      "finalPrice": 6360,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_184x69.jpg"
+    },
+    {
+      "name": "Theater Pack - Hearts of Iron IV: Thunder at our Gates",
+      "appid": 3796290,
+      "price": 13800,
+      "finalPrice": 13800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796290/capsule_184x69.jpg"
+    },
+    {
+      "name": "饥荒联机版",
+      "appid": 322330,
+      "price": 7600,
+      "finalPrice": 760,
+      "discount": 90,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/capsule_184x69.jpg"
+    },
+    {
+      "name": "女王的游戏：盛世天下 媚娘篇",
+      "appid": 3478050,
+      "price": 5500,
+      "finalPrice": 5500,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

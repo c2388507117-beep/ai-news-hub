@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-13T06:34:09.390Z",
+  "fetchedAt": "2026-06-13T10:09:10.439Z",
   "items": [
+    {
+      "title": "吉耶曼",
+      "extract": "吉耶曼 是比利时列日省列日的街区，位于默兹河畔，中央街区以南，是吉耶曼火车站的所在地。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E8%80%B6%E6%9B%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Guillemins.svg/langzh-330px-Guillemins.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "托莫·米利塞维奇",
       "extract": "托米斯拉夫·“托莫”·米利塞维奇 是一名美国音乐艺人和制作人。2003年至2018年，他曾担任摇滚乐队30秒上火星的主音吉他手。他出生于萨拉热窝，但在美国长大，在1980年代初期米利塞维奇一家移居到了密歇根州特洛伊市。他活跃于当地的重金属音乐圈，参与了一些乐队，并共同创立了乐队Morphic。2003年，他加入了30秒上火星，并在第二张专辑《美丽的谎言》 (2005年)发行后随着乐队的成功而变得知名。 随后的两张专辑，《全面开战》 (2009年)和《爱 欲 信 + 梦》(2013年)则收到的进一步好评和商业上的成功。\n",
@@ -27,13 +34,6 @@
       "extract": "奥尔内斯区 是冰岛西峽灣區的市镇。市镇面积为705平方公里，人口数量为47人（2023年）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%B0%94%E5%86%85%E6%96%AF%E5%8C%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Dj%C3%BApav%C3%ADk.jpg/330px-Dj%C3%BApav%C3%ADk.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "杜塞勒",
-      "extract": "杜塞勒 是法国萨尔特省的一个市镇，属于马梅尔斯区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%9C%E5%A1%9E%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Doucelles_%28Sarthe%29_mairie.jpg/330px-Doucelles_%28Sarthe%29_mairie.jpg",
       "source": "wikipedia"
     }
   ]
