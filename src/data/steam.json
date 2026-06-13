@@ -1,53 +1,13 @@
 {
-  "fetchedAt": "2026-06-13T20:42:33.513Z",
+  "fetchedAt": "2026-06-13T22:32:43.869Z",
   "topSellers": [
-    {
-      "name": "Heroes of Might and Magic: Olden Era",
-      "appid": 3105440,
-      "price": 3999,
-      "finalPrice": 2999,
-      "discount": 25,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/capsule_184x69.jpg"
-    },
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 615,
-      "finalPrice": 492,
+      "price": 599,
+      "finalPrice": 479,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Burglin' Gnomes",
-      "appid": 3844970,
-      "price": 975,
-      "finalPrice": 877,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
-    },
-    {
-      "name": "Forza Horizon 6",
-      "appid": 2483190,
-      "price": 6999,
-      "finalPrice": 6999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
-    },
-    {
-      "name": "Subnautica 2",
-      "appid": 1962700,
-      "price": 2999,
-      "finalPrice": 2999,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
-    },
-    {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 3899,
-      "finalPrice": 3899,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     },
     {
       "name": "Destiny 2: The Collection",
@@ -58,6 +18,46 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "Destiny 2: Renegades",
+      "appid": 3186540,
+      "price": 3999,
+      "finalPrice": 1199,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
+    },
+    {
+      "name": "Burglin' Gnomes",
+      "appid": 3844970,
+      "price": 999,
+      "finalPrice": 899,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
+    },
+    {
       "name": "007 First Light",
       "appid": 1488462,
       "price": 6999,
@@ -66,20 +66,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     },
     {
-      "name": "Gothic 1 Remake",
-      "appid": 1297900,
-      "price": 4999,
-      "finalPrice": 4999,
+      "name": "Subnautica 2",
+      "appid": 1962700,
+      "price": 2999,
+      "finalPrice": 2999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
-    },
-    {
-      "name": "Resident Evil Requiem",
-      "appid": 3764200,
-      "price": 6999,
-      "finalPrice": 5599,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
