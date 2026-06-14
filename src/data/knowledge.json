@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-14T13:07:33.656Z",
+  "fetchedAt": "2026-06-14T15:20:40.842Z",
   "items": [
+    {
+      "title": "贝鲁特国家博物馆",
+      "extract": "贝鲁特国家博物馆 是黎巴嫩主要的考古学博物馆。第一次世界大战后开始收藏，博物馆于1942年正式开放。该博物馆总共收藏了约100,000件藏品，其中大部分是考古发掘的古代和中世纪考古发现，展出文物大约1300件，从史前时期到中世纪的马穆鲁克时期。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B4%9D%E9%B2%81%E7%89%B9%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Beirut_Museum.jpg/330px-Beirut_Museum.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "食籽雀属",
       "extract": "食籽雀属 是唐纳雀科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "班扎克 是法国夏朗德省的一个市镇，位于该省中东部，属于昂古莱姆区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%8F%AD%E6%89%8E%E5%85%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bunzac_eg4.JPG/330px-Bunzac_eg4.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "馬特烏斯·努內斯",
-      "extract": "馬特烏斯·路易斯·努內斯，葡萄牙職業足球員，司職右閘，現效力於英超球會曼城。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E7%89%B9%E7%83%8F%E6%96%AF%C2%B7%E5%8A%AA%E5%85%A7%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Matheus_Nunes_%28cropped%29.jpg",
       "source": "wikipedia"
     }
   ]
