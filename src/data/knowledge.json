@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-14T06:59:45.405Z",
+  "fetchedAt": "2026-06-14T10:33:31.677Z",
   "items": [
+    {
+      "title": "金昭映",
+      "extract": "金昭映，韓国女子羽毛球運動員，現已退役。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E6%98%AD%E6%98%A0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_23.jpg/330px-Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_23.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "敘利亞過渡政府",
       "extract": "敘利亞過渡政府，為現屆敘利亞政府之部長會議。其於2025年3月29日正式成立，取代由前總理穆罕默德·巴希爾領導的看守政府。\n",
@@ -27,13 +34,6 @@
       "extract": "《黑色沙漠》 是一款沙盒大型多人在線角色扮演遊戲，開發商是韓國的Pearl Abyss，自2010年開始開發，2013年10月開始封測，在韓國及日本分別於2014年12月17日與2015年5月8日展開公測。遊戲採用開發商自己的“黑色沙漠”引擎和免費模式，主要將在Windows平台發售，同時開發商也聲稱在與索尼電腦娛樂商談PlayStation 4版本事宜。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E6%B2%99%E6%BC%A0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/2/24/Black_Desert_logo.png/330px-Black_Desert_logo.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "豪尔赫·乌维科",
-      "extract": "豪尔赫·乌维科·卡斯塔涅達 是危地马拉的独裁者，又被称为五号将军、中美拿破仑。他是危地马拉的将军，在1931年在等額选举中当选为总统。他延续了前任總統对美国联合果品公司和富裕地主提供大量政策优惠的政策。他被认为是危地马拉最专制的独裁者，甚至自比阿道夫·希特勒。乌维科在1944年的危地马拉革命中被推翻，其下台是為期十年的瓜地馬拉革命之始。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B1%AA%E5%B0%94%E8%B5%AB%C2%B7%E4%B9%8C%E7%BB%B4%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Presidente_Jorge_Ubico_Casta%C3%B1eda.png/330px-Presidente_Jorge_Ubico_Casta%C3%B1eda.png",
       "source": "wikipedia"
     }
   ]
