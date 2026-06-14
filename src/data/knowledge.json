@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-13T22:32:45.106Z",
+  "fetchedAt": "2026-06-14T01:38:48.840Z",
   "items": [
+    {
+      "title": "班扎克",
+      "extract": "班扎克 是法国夏朗德省的一个市镇，位于该省中东部，属于昂古莱姆区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8F%AD%E6%89%8E%E5%85%8B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bunzac_eg4.JPG/330px-Bunzac_eg4.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "馬特烏斯·努內斯",
       "extract": "馬特烏斯·路易斯·努內斯，葡萄牙職業足球員，司職右閘，現效力於英超球會曼城。\n",
@@ -27,13 +34,6 @@
       "extract": "御堂站 是位於岩手縣岩手郡岩手町，屬於IGR岩手銀河鐵道的岩手銀河鐵道線車站。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BE%A1%E5%A0%82%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IGR_Mido_Station_building%2C_Iwate_Pref.jpg/330px-IGR_Mido_Station_building%2C_Iwate_Pref.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "博帕德",
-      "extract": "博帕德 是德国莱茵兰-普法尔茨州莱茵-洪斯吕克县的城市，面积74.88平方千米，2023年12月31日人口为15,593人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%B8%95%E5%BE%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Boppard_Stadszicht_vanuit_het_noorden_1.jpg/330px-Boppard_Stadszicht_vanuit_het_noorden_1.jpg",
       "source": "wikipedia"
     }
   ]
