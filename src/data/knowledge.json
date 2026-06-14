@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-14T20:01:09.653Z",
+  "fetchedAt": "2026-06-14T21:44:02.545Z",
   "items": [
+    {
+      "title": "Sleep Walking Orchestra",
+      "extract": "《Sleep Walking Orchestra》是由日本流行樂團BUMP OF CHICKEN在2023年冬季發表的單曲，亦為2024年電視動畫《迷宮飯》第一季的片頭曲目。\n",
+      "url": "https://zh.wikipedia.org/wiki/Sleep_Walking_Orchestra",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/92/Sleep_Walking_Orchestra%28Single_Cover%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "拉苏尔·巴特勒",
       "extract": "拉蘇爾·巴特勒，美國職業籃球運動員。在他14年的NBA職業生涯中，他效力於迈阿密热火，紐奧良/奧克拉荷馬城黃蜂，洛杉矶快艇，芝加哥公牛，多伦多暴龙，印第安纳溜馬，华盛顿巫師和圣安东尼奥马刺。他出生在費城，並在費城南部的點清風地區長大。在拉薩爾打大學籃球後，他在2002年NBA熱火隊的第二輪選秀中被選中。\n",
@@ -27,13 +34,6 @@
       "extract": "食籽雀属 是唐纳雀科下的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A3%9F%E7%B1%BD%E9%9B%80%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sporophila-corvina-001.jpg/330px-Sporophila-corvina-001.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "金昭映",
-      "extract": "金昭映，韓国女子羽毛球運動員，現已退役。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E6%98%AD%E6%98%A0",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_23.jpg/330px-Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_23.jpg",
       "source": "wikipedia"
     }
   ]
