@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-14T21:44:02.545Z",
+  "fetchedAt": "2026-06-14T23:39:33.155Z",
   "items": [
+    {
+      "title": "SN 1054",
+      "extract": "天關客星，是1054年金牛座內發現的一顆超新星，古代中國和阿拉伯的天文學家在史書中對這顆星留下了詳細的記錄。因該星星突然出現在天關星（金牛座ζ）附近，故名天關客星。\n",
+      "url": "https://zh.wikipedia.org/wiki/SN_1054",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/330px-Crab_Nebula.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "Sleep Walking Orchestra",
       "extract": "《Sleep Walking Orchestra》是由日本流行樂團BUMP OF CHICKEN在2023年冬季發表的單曲，亦為2024年電視動畫《迷宮飯》第一季的片頭曲目。\n",
@@ -27,13 +34,6 @@
       "extract": "贝鲁特国家博物馆 是黎巴嫩主要的考古学博物馆。第一次世界大战后开始收藏，博物馆于1942年正式开放。该博物馆总共收藏了约100,000件藏品，其中大部分是考古发掘的古代和中世纪考古发现，展出文物大约1300件，从史前时期到中世纪的马穆鲁克时期。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B4%9D%E9%B2%81%E7%89%B9%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Beirut_Museum.jpg/330px-Beirut_Museum.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "食籽雀属",
-      "extract": "食籽雀属 是唐纳雀科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A3%9F%E7%B1%BD%E9%9B%80%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sporophila-corvina-001.jpg/330px-Sporophila-corvina-001.jpg",
       "source": "wikipedia"
     }
   ]
