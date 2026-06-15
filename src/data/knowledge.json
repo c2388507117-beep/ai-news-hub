@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-15T18:03:30.757Z",
+  "fetchedAt": "2026-06-15T21:26:22.285Z",
   "items": [
+    {
+      "title": "羊部",
+      "extract": "羊部，為漢字索引中的部首之一，康熙字典214個部首中的第一百二十三個（六劃的則為第六個）。在傳統漢字與中文簡化字中，其都被歸為六劃部首。羊部通常從上、左方為部字。且無其他部首可用者將部首歸為羊部。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8A%E9%83%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%E7%BE%8A-order.gif",
+      "source": "wikipedia"
+    },
     {
       "title": "弗兰克·维伦博格",
       "extract": "弗兰克·维伦博格 是一位德国足球裁判，现注册于下萨克森足球协会辖下的格伦贝格体育俱乐部。\n",
@@ -27,13 +34,6 @@
       "extract": "天關客星，是1054年金牛座內發現的一顆超新星，古代中國和阿拉伯的天文學家在史書中對這顆星留下了詳細的記錄。因該星星突然出現在天關星（金牛座ζ）附近，故名天關客星。\n",
       "url": "https://zh.wikipedia.org/wiki/SN_1054",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/330px-Crab_Nebula.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Sleep Walking Orchestra",
-      "extract": "《Sleep Walking Orchestra》是由日本流行樂團BUMP OF CHICKEN在2023年冬季發表的單曲，亦為2024年電視動畫《迷宮飯》第一季的片頭曲目。\n",
-      "url": "https://zh.wikipedia.org/wiki/Sleep_Walking_Orchestra",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/92/Sleep_Walking_Orchestra%28Single_Cover%29.jpg",
       "source": "wikipedia"
     }
   ]
