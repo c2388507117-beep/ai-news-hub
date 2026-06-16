@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T17:25:03.175Z",
+  "fetchedAt": "2026-06-16T21:22:30.312Z",
   "items": [
+    {
+      "title": "三氟吡啶胺",
+      "extract": "三氟吡啶胺是一种有机化合物，化学式为C17H13Cl2F3N2O，它具有杀线虫和抗镰刀菌属真菌的双重功效。它于2025年首次获准用于农业。它的异构体混合物含有80-100%的(1S,2S)-对映体和0-20%的(1R,2R)-对映体。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E6%B0%9F%E5%90%A1%E5%95%B6%E8%83%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Cyclobutrifluram.png/330px-Cyclobutrifluram.png",
+      "source": "wikipedia"
+    },
     {
       "title": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏",
       "extract": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏，英国克伦威尔及查理二世时期政治家、辉格党创始人，英国政治哲学家约翰·洛克的赞助人。英国内战期间先后参与保王党和议会军，后在国务会议任职，参与斯图亚特王朝复辟，期间反对第一代克拉伦登伯爵爱德华·海德，1672年获封沙夫茨伯里伯爵，后因叛国罪流亡海外。\n",
@@ -27,13 +34,6 @@
       "extract": "尼古拉斯·拉普羅維托拉，阿根廷籃球運動員。在場上的位置是控球後衛。他現在效力於巴西籃球聯賽球隊弗拉門戈籃球俱樂部。他也代表阿根廷國家籃球隊參賽。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF%C2%B7%E6%8B%89%E6%99%AE%E7%BE%85%E7%B6%AD%E6%89%98%E6%8B%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2022-03-22_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93155.jpg/330px-2022-03-22_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93155.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "羊部",
-      "extract": "羊部，為漢字索引中的部首之一，康熙字典214個部首中的第一百二十三個（六劃的則為第六個）。在傳統漢字與中文簡化字中，其都被歸為六劃部首。羊部通常從上、左方為部字。且無其他部首可用者將部首歸為羊部。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8A%E9%83%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%E7%BE%8A-order.gif",
       "source": "wikipedia"
     }
   ]
