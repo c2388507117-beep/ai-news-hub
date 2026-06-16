@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T11:38:01.233Z",
+  "fetchedAt": "2026-06-16T17:25:03.175Z",
   "items": [
+    {
+      "title": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏",
+      "extract": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏，英国克伦威尔及查理二世时期政治家、辉格党创始人，英国政治哲学家约翰·洛克的赞助人。英国内战期间先后参与保王党和议会军，后在国务会议任职，参与斯图亚特王朝复辟，期间反对第一代克拉伦登伯爵爱德华·海德，1672年获封沙夫茨伯里伯爵，后因叛国罪流亡海外。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E4%BB%A3%E6%B2%99%E5%A4%AB%E8%8C%A8%E4%BC%AF%E9%87%8C%E4%BC%AF%E7%88%B5%E5%AE%89%E6%9D%B1%E5%B0%BC%C2%B7%E9%98%BF%E4%BB%80%E5%88%A9-%E6%9F%AF%E6%9F%8F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Anthony_Ashley-Cooper%2C_1st_Earl_of_Shaftesbury.jpg/330px-Anthony_Ashley-Cooper%2C_1st_Earl_of_Shaftesbury.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "黑暗之夜：死亡金屬",
       "extract": "《黑暗之夜：死亡金屬》 是DC漫畫每月出版的漫畫跨界作品，由作家史考特·史奈德和格雷格·卡普洛所創作。故事描述當地球被黑暗多重宇宙籠罩時，正義聯盟將受到狂笑蝙蝠俠的擺佈。人類在此難以捉摸的地獄環境中經歷了為掙扎求生的鬥爭，而蝙蝠俠、神力女超人和超人都被分離，各自皆為生存而戰。\n",
@@ -27,13 +34,6 @@
       "extract": "羊部，為漢字索引中的部首之一，康熙字典214個部首中的第一百二十三個（六劃的則為第六個）。在傳統漢字與中文簡化字中，其都被歸為六劃部首。羊部通常從上、左方為部字。且無其他部首可用者將部首歸為羊部。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%8A%E9%83%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%E7%BE%8A-order.gif",
-      "source": "wikipedia"
-    },
-    {
-      "title": "弗兰克·维伦博格",
-      "extract": "弗兰克·维伦博格 是一位德国足球裁判，现注册于下萨克森足球协会辖下的格伦贝格体育俱乐部。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E5%85%B0%E5%85%8B%C2%B7%E7%BB%B4%E4%BC%A6%E5%8D%9A%E6%A0%BC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Willenborg%2C_Frank_Schiedsrichter_08-09_WP.JPG/330px-Willenborg%2C_Frank_Schiedsrichter_08-09_WP.JPG",
       "source": "wikipedia"
     }
   ]
