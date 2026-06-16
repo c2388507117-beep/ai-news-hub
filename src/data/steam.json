@@ -1,77 +1,85 @@
 {
-  "fetchedAt": "2026-06-16T21:22:29.609Z",
+  "fetchedAt": "2026-06-16T23:50:42.343Z",
   "topSellers": [
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 2600,
-      "finalPrice": 2600,
+      "price": 3600,
+      "finalPrice": 3600,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Collection",
-      "appid": 77115,
-      "price": 12300,
-      "finalPrice": 8872,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
-    },
-    {
-      "name": "Road to Empress Ⅱ",
+      "name": "女王的游戏：盛世天下 女帝篇",
       "appid": 4148240,
-      "price": 7400,
-      "finalPrice": 5920,
+      "price": 8700,
+      "finalPrice": 6960,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
     },
     {
-      "name": "Split Fiction",
-      "appid": 2001120,
-      "price": 19800,
-      "finalPrice": 12870,
-      "discount": 35,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/capsule_184x69.jpg"
-    },
-    {
-      "name": "Road to Empress I",
-      "appid": 3478050,
-      "price": 4900,
-      "finalPrice": 4900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
-    },
-    {
-      "name": "Don't Starve Together",
-      "appid": 322330,
-      "price": 4800,
-      "finalPrice": 480,
-      "discount": 90,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/capsule_184x69.jpg"
-    },
-    {
-      "name": "Wallpaper Engine",
-      "appid": 431960,
-      "price": 2290,
-      "finalPrice": 2290,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
-    },
-    {
-      "name": "Overwatch® - Ultimate Battle Pass Bundle 2026: Season 3",
+      "name": "《守望先锋®》——终极战令礼包2026：第3赛季",
       "appid": 4586820,
-      "price": 24000,
-      "finalPrice": 24000,
+      "price": 31200,
+      "finalPrice": 31200,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586820/capsule_184x69.jpg"
     },
     {
+      "name": "《女王的游戏：盛世天下》媚娘篇与女帝篇合集",
+      "appid": 77115,
+      "price": 14200,
+      "finalPrice": 10217,
+      "discount": 12,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
+    },
+    {
+      "name": "Wallpaper Engine：壁纸引擎",
+      "appid": 431960,
+      "price": 3500,
+      "finalPrice": 3500,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
+    },
+    {
+      "name": "Hearts of Iron IV",
+      "appid": 394360,
+      "price": 31800,
+      "finalPrice": 6360,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_184x69.jpg"
+    },
+    {
+      "name": "优先状态升级",
+      "appid": 54029,
+      "price": 11600,
+      "finalPrice": 11600,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+    },
+    {
       "name": "Dead by Daylight: Jason",
       "appid": 4791830,
-      "price": 2340,
-      "finalPrice": 2340,
+      "price": 3000,
+      "finalPrice": 3000,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4791830/capsule_184x69.jpg"
+    },
+    {
+      "name": "《守望先锋》：半藏完整神话武器皮肤礼包",
+      "appid": 4586840,
+      "price": 31200,
+      "finalPrice": 31200,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586840/capsule_184x69.jpg"
+    },
+    {
+      "name": "潜水员戴夫 - 丛林 Content Pack",
+      "appid": 4394810,
+      "price": 6200,
+      "finalPrice": 5580,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
