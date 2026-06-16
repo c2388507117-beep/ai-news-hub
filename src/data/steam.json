@@ -1,85 +1,77 @@
 {
-  "fetchedAt": "2026-06-16T00:03:39.399Z",
+  "fetchedAt": "2026-06-16T05:38:11.029Z",
   "topSellers": [
-    {
-      "name": "Path of Exile 2",
-      "appid": 2694490,
-      "price": 4044,
-      "finalPrice": 4044,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/capsule_184x69.jpg"
-    },
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 729,
-      "finalPrice": 583,
+      "price": 599,
+      "finalPrice": 479,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Escape from Tarkov",
-      "appid": 3932890,
-      "price": 2700,
-      "finalPrice": 2700,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/capsule_184x69.jpg"
-    },
-    {
-      "name": "Hearts of Iron IV",
-      "appid": 394360,
-      "price": 5600,
-      "finalPrice": 1120,
-      "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_184x69.jpg"
-    },
-    {
-      "name": "Train Sim World® 6: Köln - Aachen Remaster Essentials Bundle",
-      "appid": 66617,
-      "price": 12075,
-      "finalPrice": 10867,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/66617/capsule_184x69.jpg"
-    },
-    {
       "name": "Destiny 2: The Collection",
       "appid": 72233,
-      "price": 34210,
-      "finalPrice": 3453,
+      "price": 25491,
+      "finalPrice": 2563,
       "discount": 88,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
-      "name": "Subnautica 2",
-      "appid": 1962700,
-      "price": 4000,
-      "finalPrice": 4000,
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
-      "name": "Assassin's Creed Black Flag Resynced",
-      "appid": 3751950,
-      "price": 7990,
-      "finalPrice": 7990,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/capsule_184x69.jpg"
+      "name": "Destiny 2: Renegades",
+      "appid": 3186540,
+      "price": 3999,
+      "finalPrice": 1199,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/capsule_184x69.jpg"
     },
     {
-      "name": "Stellaris: Season 10",
-      "appid": 1484711,
-      "price": 5600,
-      "finalPrice": 5600,
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1484711/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
-      "name": "EA SPORTS FC™ 26",
-      "appid": 3405690,
-      "price": 9990,
-      "finalPrice": 1998,
+      "name": "Burglin' Gnomes",
+      "appid": 3844970,
+      "price": 999,
+      "finalPrice": 899,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
+    },
+    {
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "price": 6999,
+      "finalPrice": 6999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
+    },
+    {
+      "name": "Destiny 2: The Edge of Fate",
+      "appid": 3186490,
+      "price": 3999,
+      "finalPrice": 799,
       "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/capsule_184x69.jpg"
+    },
+    {
+      "name": "Escape the Backrooms",
+      "appid": 1943950,
+      "price": 999,
+      "finalPrice": 999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

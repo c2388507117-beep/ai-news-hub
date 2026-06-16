@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T00:03:40.445Z",
+  "fetchedAt": "2026-06-16T05:38:11.751Z",
   "items": [
+    {
+      "title": "文澳祖師廟",
+      "extract": "文澳祖師廟，主祀清水祖師陳昭應，今為臺灣澎湖縣馬公市西文里的公廟，聚落四周設有六營以保境安民。根據乾隆卅二年（1767年）胡建偉總編的《澎湖紀略》紀載，祖師廟建造於康熙年間，相傳當時有一僧侶自泉州安溪清水巖東渡，來到文澳地區替居民治病，且不收取分文，故設立此廟感念。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E6%BE%B3%E7%A5%96%E5%B8%AB%E5%BB%9F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/%E6%96%87%E6%BE%B3%E7%A5%96%E5%B8%AB%E5%BB%9F%EF%BD%9C%E5%B1%B1%E9%96%80%E7%AB%8B%E9%9D%A2.jpg/330px-%E6%96%87%E6%BE%B3%E7%A5%96%E5%B8%AB%E5%BB%9F%EF%BD%9C%E5%B1%B1%E9%96%80%E7%AB%8B%E9%9D%A2.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "尼古拉斯·拉普羅維托拉",
       "extract": "尼古拉斯·拉普羅維托拉，阿根廷籃球運動員。在場上的位置是控球後衛。他現在效力於巴西籃球聯賽球隊弗拉門戈籃球俱樂部。他也代表阿根廷國家籃球隊參賽。\n",
@@ -27,13 +34,6 @@
       "extract": "拖鞋舟螺，又名指甲履螺，是舟螺科履螺屬的一种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8B%96%E9%9E%8B%E8%88%9F%E8%9E%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Crepidula_onyx_01.JPG/330px-Crepidula_onyx_01.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "罗斯林 (南达科他州)",
-      "extract": "罗斯林，是美国南达科他州下属的一座城市。根据2010年美国人口普查，该市有人口184人。论人口在本州排行第185。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%96%AF%E6%9E%97_(%E5%8D%97%E8%BE%BE%E7%A7%91%E4%BB%96%E5%B7%9E)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Day_County_South_Dakota_Incorporated_and_Unincorporated_areas_Roslyn_Highlighted.svg/langzh-330px-Day_County_South_Dakota_Incorporated_and_Unincorporated_areas_Roslyn_Highlighted.svg.png",
       "source": "wikipedia"
     }
   ]
