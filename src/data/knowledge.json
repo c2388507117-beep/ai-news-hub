@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T05:38:11.751Z",
+  "fetchedAt": "2026-06-16T11:38:01.233Z",
   "items": [
+    {
+      "title": "黑暗之夜：死亡金屬",
+      "extract": "《黑暗之夜：死亡金屬》 是DC漫畫每月出版的漫畫跨界作品，由作家史考特·史奈德和格雷格·卡普洛所創作。故事描述當地球被黑暗多重宇宙籠罩時，正義聯盟將受到狂笑蝙蝠俠的擺佈。人類在此難以捉摸的地獄環境中經歷了為掙扎求生的鬥爭，而蝙蝠俠、神力女超人和超人都被分離，各自皆為生存而戰。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%A4%9C%EF%BC%9A%E6%AD%BB%E4%BA%A1%E9%87%91%E5%B1%AC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/8/89/Dark_Nights_Death_Metal_-1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "文澳祖師廟",
       "extract": "文澳祖師廟，主祀清水祖師陳昭應，今為臺灣澎湖縣馬公市西文里的公廟，聚落四周設有六營以保境安民。根據乾隆卅二年（1767年）胡建偉總編的《澎湖紀略》紀載，祖師廟建造於康熙年間，相傳當時有一僧侶自泉州安溪清水巖東渡，來到文澳地區替居民治病，且不收取分文，故設立此廟感念。\n",
@@ -27,13 +34,6 @@
       "extract": "弗兰克·维伦博格 是一位德国足球裁判，现注册于下萨克森足球协会辖下的格伦贝格体育俱乐部。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E5%85%B0%E5%85%8B%C2%B7%E7%BB%B4%E4%BC%A6%E5%8D%9A%E6%A0%BC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Willenborg%2C_Frank_Schiedsrichter_08-09_WP.JPG/330px-Willenborg%2C_Frank_Schiedsrichter_08-09_WP.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拖鞋舟螺",
-      "extract": "拖鞋舟螺，又名指甲履螺，是舟螺科履螺屬的一种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%96%E9%9E%8B%E8%88%9F%E8%9E%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Crepidula_onyx_01.JPG/330px-Crepidula_onyx_01.JPG",
       "source": "wikipedia"
     }
   ]
