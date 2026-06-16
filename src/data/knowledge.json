@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-15T21:26:22.285Z",
+  "fetchedAt": "2026-06-16T00:03:40.445Z",
   "items": [
+    {
+      "title": "尼古拉斯·拉普羅維托拉",
+      "extract": "尼古拉斯·拉普羅維托拉，阿根廷籃球運動員。在場上的位置是控球後衛。他現在效力於巴西籃球聯賽球隊弗拉門戈籃球俱樂部。他也代表阿根廷國家籃球隊參賽。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF%C2%B7%E6%8B%89%E6%99%AE%E7%BE%85%E7%B6%AD%E6%89%98%E6%8B%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2022-03-22_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93155.jpg/330px-2022-03-22_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93155.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "羊部",
       "extract": "羊部，為漢字索引中的部首之一，康熙字典214個部首中的第一百二十三個（六劃的則為第六個）。在傳統漢字與中文簡化字中，其都被歸為六劃部首。羊部通常從上、左方為部字。且無其他部首可用者將部首歸為羊部。\n",
@@ -27,13 +34,6 @@
       "extract": "罗斯林，是美国南达科他州下属的一座城市。根据2010年美国人口普查，该市有人口184人。论人口在本州排行第185。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%96%AF%E6%9E%97_(%E5%8D%97%E8%BE%BE%E7%A7%91%E4%BB%96%E5%B7%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Day_County_South_Dakota_Incorporated_and_Unincorporated_areas_Roslyn_Highlighted.svg/langzh-330px-Day_County_South_Dakota_Incorporated_and_Unincorporated_areas_Roslyn_Highlighted.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "SN 1054",
-      "extract": "天關客星，是1054年金牛座內發現的一顆超新星，古代中國和阿拉伯的天文學家在史書中對這顆星留下了詳細的記錄。因該星星突然出現在天關星（金牛座ζ）附近，故名天關客星。\n",
-      "url": "https://zh.wikipedia.org/wiki/SN_1054",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/330px-Crab_Nebula.jpg",
       "source": "wikipedia"
     }
   ]
