@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-17T11:19:12.835Z",
+  "fetchedAt": "2026-06-17T16:08:05.476Z",
   "items": [
+    {
+      "title": "桌山",
+      "extract": "桌山 位于南非西开普省开普敦附近，是一座顶部平坦的沙岩山。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A1%8C%E5%B1%B1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Table_Mountain-010.jpg/330px-Table_Mountain-010.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "桔梗属",
       "extract": "桔梗属 为桔梗科的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "三氟吡啶胺是一种有机化合物，化学式为C17H13Cl2F3N2O，它具有杀线虫和抗镰刀菌属真菌的双重功效。它于2025年首次获准用于农业。它的异构体混合物含有80-100%的(1S,2S)-对映体和0-20%的(1R,2R)-对映体。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E6%B0%9F%E5%90%A1%E5%95%B6%E8%83%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Cyclobutrifluram.png/330px-Cyclobutrifluram.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏",
-      "extract": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏，英国克伦威尔及查理二世时期政治家、辉格党创始人，英国政治哲学家约翰·洛克的赞助人。英国内战期间先后参与保王党和议会军，后在国务会议任职，参与斯图亚特王朝复辟，期间反对第一代克拉伦登伯爵爱德华·海德，1672年获封沙夫茨伯里伯爵，后因叛国罪流亡海外。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E4%BB%A3%E6%B2%99%E5%A4%AB%E8%8C%A8%E4%BC%AF%E9%87%8C%E4%BC%AF%E7%88%B5%E5%AE%89%E6%9D%B1%E5%B0%BC%C2%B7%E9%98%BF%E4%BB%80%E5%88%A9-%E6%9F%AF%E6%9F%8F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Anthony_Ashley-Cooper%2C_1st_Earl_of_Shaftesbury.jpg/330px-Anthony_Ashley-Cooper%2C_1st_Earl_of_Shaftesbury.jpg",
       "source": "wikipedia"
     }
   ]
