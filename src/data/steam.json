@@ -1,85 +1,85 @@
 {
-  "fetchedAt": "2026-06-17T21:24:47.873Z",
+  "fetchedAt": "2026-06-17T23:52:41.260Z",
   "topSellers": [
+    {
+      "name": "Path of Exile 2",
+      "appid": 2694490,
+      "price": 4044,
+      "finalPrice": 4044,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/capsule_184x69.jpg"
+    },
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 3600,
-      "finalPrice": 3600,
+      "price": 729,
+      "finalPrice": 729,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "优先状态升级",
-      "appid": 54029,
-      "price": 11600,
-      "finalPrice": 11600,
+      "name": "Overwatch® - Ultimate Battle Pass Bundle 2026: Season 3",
+      "appid": 4586820,
+      "price": 5600,
+      "finalPrice": 5600,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586820/capsule_184x69.jpg"
     },
     {
-      "name": "Scroll Of Taiwu - 促织化影",
-      "appid": 4528730,
-      "price": 4200,
-      "finalPrice": 3360,
+      "name": "Monster Hunter Wilds",
+      "appid": 2246340,
+      "price": 9990,
+      "finalPrice": 4195,
+      "discount": 58,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_184x69.jpg"
+    },
+    {
+      "name": "EA SPORTS FC™ 26",
+      "appid": 3405690,
+      "price": 9990,
+      "finalPrice": 1998,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
+    },
+    {
+      "name": "Resident Evil Requiem",
+      "appid": 3764200,
+      "price": 8590,
+      "finalPrice": 6872,
       "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528730/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
     },
     {
-      "name": "Wallpaper Engine：壁纸引擎",
-      "appid": 431960,
-      "price": 3500,
-      "finalPrice": 3500,
+      "name": "Escape from Tarkov - The Unheard Steam Edition",
+      "appid": 74190,
+      "price": 14000,
+      "finalPrice": 14000,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/74190/capsule_184x69.jpg"
     },
     {
-      "name": "女王的游戏：盛世天下 女帝篇",
-      "appid": 4148240,
-      "price": 8700,
-      "finalPrice": 6960,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
-    },
-    {
-      "name": "《女王的游戏：盛世天下》媚娘篇与女帝篇合集",
-      "appid": 77115,
-      "price": 14200,
-      "finalPrice": 10217,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
-    },
-    {
-      "name": "太吾绘卷：天幕心帷",
-      "appid": 838350,
-      "price": 12800,
-      "finalPrice": 10240,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/838350/capsule_184x69.jpg"
-    },
-    {
-      "name": "潜水员戴夫 - 丛林 Content Pack",
-      "appid": 4394810,
-      "price": 6200,
-      "finalPrice": 5580,
-      "discount": 10,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
-    },
-    {
-      "name": "DAVE THE DIVER - In the Jungle Bundle",
-      "appid": 76794,
-      "price": 18700,
-      "finalPrice": 10647,
-      "discount": 37,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/76794/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 初露锋芒",
-      "appid": 1488462,
-      "price": 46800,
-      "finalPrice": 46800,
+      "name": "The Adventures of Elliot: The Millennium Tales",
+      "appid": 3483510,
+      "price": 7990,
+      "finalPrice": 7990,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/capsule_184x69.jpg"
+    },
+    {
+      "name": "Escape from Tarkov",
+      "appid": 3932890,
+      "price": 2700,
+      "finalPrice": 2700,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/capsule_184x69.jpg"
+    },
+    {
+      "name": "007 First Light",
+      "appid": 3768760,
+      "price": 5900,
+      "finalPrice": 5900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
