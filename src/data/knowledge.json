@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-17T16:08:05.476Z",
+  "fetchedAt": "2026-06-17T18:37:21.643Z",
   "items": [
+    {
+      "title": "巴弄蝶",
+      "extract": "巴弄蝶 又名黧弄蝶，是屬於弄蝶科的一種蝴蝶，是巴弄蝶屬 的唯一一種。分佈於印度至中國廣西一帶，模式產地為斯里蘭卡，是該族少數分佈至印度次大陸的演化支。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%BC%84%E8%9D%B6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Baracus_hampsoni_-_Malabar_Hedge_Hopper_-_Hampson%27s_Hedge_Hopper_05.jpg/330px-Baracus_hampsoni_-_Malabar_Hedge_Hopper_-_Hampson%27s_Hedge_Hopper_05.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "桌山",
       "extract": "桌山 位于南非西开普省开普敦附近，是一座顶部平坦的沙岩山。\n",
@@ -27,13 +34,6 @@
       "extract": "鲍里斯皮尔国际机场 是一座位于乌克兰基輔州鲍里斯皮尔的民用机场，距首都基辅市區29公里。該机场是乌克兰最大的机场，提供全国主要的国际航班服务。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%B2%8D%E9%87%8C%E6%96%AF%E7%9A%AE%E5%B0%94%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Aerial_of_KBP.jpeg/330px-Aerial_of_KBP.jpeg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "三氟吡啶胺",
-      "extract": "三氟吡啶胺是一种有机化合物，化学式为C17H13Cl2F3N2O，它具有杀线虫和抗镰刀菌属真菌的双重功效。它于2025年首次获准用于农业。它的异构体混合物含有80-100%的(1S,2S)-对映体和0-20%的(1R,2R)-对映体。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E6%B0%9F%E5%90%A1%E5%95%B6%E8%83%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Cyclobutrifluram.png/330px-Cyclobutrifluram.png",
       "source": "wikipedia"
     }
   ]
