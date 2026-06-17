@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-17T05:19:48.965Z",
+  "fetchedAt": "2026-06-17T11:19:12.835Z",
   "items": [
+    {
+      "title": "桔梗属",
+      "extract": "桔梗属 为桔梗科的一个属。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A1%94%E6%A2%97%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Platycodon_grandiflorum2.jpg/330px-Platycodon_grandiflorum2.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "K11 MUSEA",
       "extract": "K11 MUSEA，中文名稱「K11人文購物藝術館」， 是香港尖沙咀維港海旁的一座大型購物中心，位處於綜合式大樓 Victoria Dockside 內，樓高10層，以購物藝術館為經營理念，在2019年8月26日開幕。\n",
@@ -27,13 +34,6 @@
       "extract": "第一代沙夫茨伯里伯爵安東尼·阿什利-柯柏，英国克伦威尔及查理二世时期政治家、辉格党创始人，英国政治哲学家约翰·洛克的赞助人。英国内战期间先后参与保王党和议会军，后在国务会议任职，参与斯图亚特王朝复辟，期间反对第一代克拉伦登伯爵爱德华·海德，1672年获封沙夫茨伯里伯爵，后因叛国罪流亡海外。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E4%BB%A3%E6%B2%99%E5%A4%AB%E8%8C%A8%E4%BC%AF%E9%87%8C%E4%BC%AF%E7%88%B5%E5%AE%89%E6%9D%B1%E5%B0%BC%C2%B7%E9%98%BF%E4%BB%80%E5%88%A9-%E6%9F%AF%E6%9F%8F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Anthony_Ashley-Cooper%2C_1st_Earl_of_Shaftesbury.jpg/330px-Anthony_Ashley-Cooper%2C_1st_Earl_of_Shaftesbury.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黑暗之夜：死亡金屬",
-      "extract": "《黑暗之夜：死亡金屬》 是DC漫畫每月出版的漫畫跨界作品，由作家史考特·史奈德和格雷格·卡普洛所創作。故事描述當地球被黑暗多重宇宙籠罩時，正義聯盟將受到狂笑蝙蝠俠的擺佈。人類在此難以捉摸的地獄環境中經歷了為掙扎求生的鬥爭，而蝙蝠俠、神力女超人和超人都被分離，各自皆為生存而戰。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%9A%97%E4%B9%8B%E5%A4%9C%EF%BC%9A%E6%AD%BB%E4%BA%A1%E9%87%91%E5%B1%AC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/8/89/Dark_Nights_Death_Metal_-1.jpg",
       "source": "wikipedia"
     }
   ]
