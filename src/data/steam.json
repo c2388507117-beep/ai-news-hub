@@ -1,85 +1,85 @@
 {
-  "fetchedAt": "2026-06-17T18:37:21.001Z",
+  "fetchedAt": "2026-06-17T21:24:47.873Z",
   "topSellers": [
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 2600,
-      "finalPrice": 2600,
+      "price": 3600,
+      "finalPrice": 3600,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Collection",
-      "appid": 77115,
-      "price": 12300,
-      "finalPrice": 8872,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
+      "name": "优先状态升级",
+      "appid": 54029,
+      "price": 11600,
+      "finalPrice": 11600,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/54029/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Ⅱ",
-      "appid": 4148240,
-      "price": 7400,
-      "finalPrice": 5920,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
-    },
-    {
-      "name": "Scroll Of Taiwu - The Transmogrifying Cricket",
+      "name": "Scroll Of Taiwu - 促织化影",
       "appid": 4528730,
-      "price": 2800,
-      "finalPrice": 2240,
+      "price": 4200,
+      "finalPrice": 3360,
       "discount": 20,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528730/capsule_184x69.jpg"
     },
     {
-      "name": "The Scroll of Taiwu : Beyond The Dome",
-      "appid": 838350,
-      "price": 10800,
-      "finalPrice": 8640,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/838350/capsule_184x69.jpg"
-    },
-    {
-      "name": "Split Fiction",
-      "appid": 2001120,
-      "price": 19800,
-      "finalPrice": 12870,
-      "discount": 35,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/capsule_184x69.jpg"
-    },
-    {
-      "name": "Road to Empress I",
-      "appid": 3478050,
-      "price": 4900,
-      "finalPrice": 4900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
-    },
-    {
-      "name": "Wallpaper Engine",
+      "name": "Wallpaper Engine：壁纸引擎",
       "appid": 431960,
-      "price": 2290,
-      "finalPrice": 2290,
+      "price": 3500,
+      "finalPrice": 3500,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg"
     },
     {
-      "name": "DAVE THE DIVER - In the Jungle Content Pack",
+      "name": "女王的游戏：盛世天下 女帝篇",
+      "appid": 4148240,
+      "price": 8700,
+      "finalPrice": 6960,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
+    },
+    {
+      "name": "《女王的游戏：盛世天下》媚娘篇与女帝篇合集",
+      "appid": 77115,
+      "price": 14200,
+      "finalPrice": 10217,
+      "discount": 12,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
+    },
+    {
+      "name": "太吾绘卷：天幕心帷",
+      "appid": 838350,
+      "price": 12800,
+      "finalPrice": 10240,
+      "discount": 20,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/838350/capsule_184x69.jpg"
+    },
+    {
+      "name": "潜水员戴夫 - 丛林 Content Pack",
       "appid": 4394810,
-      "price": 3900,
-      "finalPrice": 3510,
+      "price": 6200,
+      "finalPrice": 5580,
       "discount": 10,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
     },
     {
-      "name": "Don't Starve Together",
-      "appid": 322330,
-      "price": 4800,
-      "finalPrice": 480,
-      "discount": 90,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/capsule_184x69.jpg"
+      "name": "DAVE THE DIVER - In the Jungle Bundle",
+      "appid": 76794,
+      "price": 18700,
+      "finalPrice": 10647,
+      "discount": 37,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/76794/capsule_184x69.jpg"
+    },
+    {
+      "name": "007 初露锋芒",
+      "appid": 1488462,
+      "price": 46800,
+      "finalPrice": 46800,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

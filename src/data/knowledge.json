@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-17T18:37:21.643Z",
+  "fetchedAt": "2026-06-17T21:24:48.570Z",
   "items": [
+    {
+      "title": "塞茨訥峰",
+      "extract": "塞茨訥峰，是瑞士的山峰，位於該國東南部，由格勞賓登州負責管轄，屬於勒蓬廷山的一部分，海拔高度2,310米，每年平均降雨量1,929毫米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E8%8C%A8%E8%A8%A5%E5%B3%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sezner.jpg/330px-Sezner.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "巴弄蝶",
       "extract": "巴弄蝶 又名黧弄蝶，是屬於弄蝶科的一種蝴蝶，是巴弄蝶屬 的唯一一種。分佈於印度至中國廣西一帶，模式產地為斯里蘭卡，是該族少數分佈至印度次大陸的演化支。\n",
@@ -27,13 +34,6 @@
       "extract": "K11 MUSEA，中文名稱「K11人文購物藝術館」， 是香港尖沙咀維港海旁的一座大型購物中心，位處於綜合式大樓 Victoria Dockside 內，樓高10層，以購物藝術館為經營理念，在2019年8月26日開幕。\n",
       "url": "https://zh.wikipedia.org/wiki/K11_MUSEA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/K11_MUSEA_Opera_Theatre_202008.jpg/330px-K11_MUSEA_Opera_Theatre_202008.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鲍里斯皮尔国际机场",
-      "extract": "鲍里斯皮尔国际机场 是一座位于乌克兰基輔州鲍里斯皮尔的民用机场，距首都基辅市區29公里。該机场是乌克兰最大的机场，提供全国主要的国际航班服务。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%B2%8D%E9%87%8C%E6%96%AF%E7%9A%AE%E5%B0%94%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Aerial_of_KBP.jpeg/330px-Aerial_of_KBP.jpeg",
       "source": "wikipedia"
     }
   ]
