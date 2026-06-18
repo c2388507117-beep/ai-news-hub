@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-18T20:41:09.256Z",
+  "fetchedAt": "2026-06-18T23:12:35.530Z",
   "items": [
+    {
+      "title": "马后炮",
+      "extract": "马后炮，象棋中的杀招，炮、马与对方将 （帅）并线。马位于将（帅）前两格，作炮的炮架，同時限制对方将（帅）的移動。炮位于马后，使对方将（帅）无法移动。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%90%8E%E7%82%AE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Xiangqi_board.svg/langzh-330px-Xiangqi_board.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "福島競馬場",
       "extract": "福島競馬場 是位於日本福島縣福島市的競馬場。爲日本中央競馬會管理的馬場之一，可容納38500名觀衆。\n",
@@ -27,13 +34,6 @@
       "extract": "萨尔塞 是法国罗讷省的一个市镇，属于索恩河畔自由城区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%B0%94%E5%A1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sarcey_Rhone_Tilleul.jpg/330px-Sarcey_Rhone_Tilleul.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "滇南石豆兰",
-      "extract": "滇南石豆兰，为兰科石豆兰属下的一个植物种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%BB%87%E5%8D%97%E7%9F%B3%E8%B1%86%E5%85%B0",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Bulbophyllum_psittacoglossum_%28as_Sarcopodium_psittacoglossum%29_-_Curtis%27_89_%28Ser._3_no._19%29_pl._5408_%281863%29.jpg/330px-Bulbophyllum_psittacoglossum_%28as_Sarcopodium_psittacoglossum%29_-_Curtis%27_89_%28Ser._3_no._19%29_pl._5408_%281863%29.jpg",
       "source": "wikipedia"
     }
   ]
