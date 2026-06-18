@@ -1,85 +1,61 @@
 {
-  "fetchedAt": "2026-06-17T23:52:41.260Z",
+  "fetchedAt": "2026-06-18T05:08:15.476Z",
   "topSellers": [
-    {
-      "name": "Path of Exile 2",
-      "appid": 2694490,
-      "price": 4044,
-      "finalPrice": 4044,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/capsule_184x69.jpg"
-    },
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 729,
-      "finalPrice": 729,
+      "price": 615,
+      "finalPrice": 615,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Overwatch® - Ultimate Battle Pass Bundle 2026: Season 3",
-      "appid": 4586820,
-      "price": 5600,
-      "finalPrice": 5600,
+      "name": "Gothic 1 Remake",
+      "appid": 1297900,
+      "price": 4999,
+      "finalPrice": 4999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586820/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
     },
     {
-      "name": "Monster Hunter Wilds",
-      "appid": 2246340,
-      "price": 9990,
-      "finalPrice": 4195,
-      "discount": 58,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_184x69.jpg"
-    },
-    {
-      "name": "EA SPORTS FC™ 26",
-      "appid": 3405690,
-      "price": 9990,
-      "finalPrice": 1998,
-      "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Resident Evil Requiem",
-      "appid": 3764200,
-      "price": 8590,
-      "finalPrice": 6872,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Escape from Tarkov - The Unheard Steam Edition",
-      "appid": 74190,
-      "price": 14000,
-      "finalPrice": 14000,
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "price": 6999,
+      "finalPrice": 6999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/74190/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 41900,
+      "finalPrice": 41900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "SpaceCraft",
+      "appid": 3276050,
+      "price": 2999,
+      "finalPrice": 2699,
+      "discount": 10,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276050/capsule_184x69.jpg"
+    },
+    {
+      "name": "Jurassic World Evolution 3: Rebirth Expansion",
+      "appid": 4131670,
+      "price": 2499,
+      "finalPrice": 2499,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131670/capsule_184x69.jpg"
     },
     {
       "name": "The Adventures of Elliot: The Millennium Tales",
       "appid": 3483510,
-      "price": 7990,
-      "finalPrice": 7990,
+      "price": 5999,
+      "finalPrice": 5999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/capsule_184x69.jpg"
-    },
-    {
-      "name": "Escape from Tarkov",
-      "appid": 3932890,
-      "price": 2700,
-      "finalPrice": 2700,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/capsule_184x69.jpg"
-    },
-    {
-      "name": "007 First Light",
-      "appid": 3768760,
-      "price": 5900,
-      "finalPrice": 5900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

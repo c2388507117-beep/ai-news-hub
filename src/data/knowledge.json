@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-17T23:52:42.090Z",
+  "fetchedAt": "2026-06-18T05:08:16.184Z",
   "items": [
+    {
+      "title": "滇南石豆兰",
+      "extract": "滇南石豆兰，为兰科石豆兰属下的一个植物种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%BB%87%E5%8D%97%E7%9F%B3%E8%B1%86%E5%85%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Bulbophyllum_psittacoglossum_%28as_Sarcopodium_psittacoglossum%29_-_Curtis%27_89_%28Ser._3_no._19%29_pl._5408_%281863%29.jpg/330px-Bulbophyllum_psittacoglossum_%28as_Sarcopodium_psittacoglossum%29_-_Curtis%27_89_%28Ser._3_no._19%29_pl._5408_%281863%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "托米斯拉夫·杜伊莫維奇",
       "extract": "托米斯拉夫·杜伊莫維奇 是克羅地亞的一位足球運動員。在場上司職防守型中場。他現在效力于俄羅斯足球超級聯賽薩蘭斯克足球俱樂部。他也代表克羅地亞國家足球隊參賽。\n",
@@ -27,13 +34,6 @@
       "extract": "桌山 位于南非西开普省开普敦附近，是一座顶部平坦的沙岩山。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A1%8C%E5%B1%B1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Table_Mountain-010.jpg/330px-Table_Mountain-010.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "桔梗属",
-      "extract": "桔梗属 为桔梗科的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A1%94%E6%A2%97%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Platycodon_grandiflorum2.jpg/330px-Platycodon_grandiflorum2.jpg",
       "source": "wikipedia"
     }
   ]
