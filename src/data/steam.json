@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-18T23:12:34.719Z",
+  "fetchedAt": "2026-06-19T02:08:43.233Z",
   "topSellers": [
     {
       "name": "MECCHA CHAMELEON",
@@ -8,14 +8,6 @@
       "finalPrice": 599,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "Cyberpunk 2077",
@@ -66,12 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 3999,
-      "finalPrice": 3999,
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "Burglin' Gnomes",
+      "appid": 3844970,
+      "price": 999,
+      "finalPrice": 999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-18T23:12:35.530Z",
+  "fetchedAt": "2026-06-19T02:08:43.908Z",
   "items": [
+    {
+      "title": "共和國日",
+      "extract": "共和國日 在一些國家是節假日，用來慶祝國家成為共和國。例如意大利的共和國日是6月12日，紀念意大利在1946年義大利政體公投中決定改行共和政體（公投日期是6月2日）。愛爾蘭共和國的共和國日則是1949年4月18日，紀念愛爾蘭共和國法生效。希臘的共和國日是1974年12月8日。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%B1%E5%92%8C%E5%9C%8B%E6%97%A5",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Festa_della_repubblica_2005_con_frecce_tricolori.jpg/330px-Festa_della_repubblica_2005_con_frecce_tricolori.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "马后炮",
       "extract": "马后炮，象棋中的杀招，炮、马与对方将 （帅）并线。马位于将（帅）前两格，作炮的炮架，同時限制对方将（帅）的移動。炮位于马后，使对方将（帅）无法移动。\n",
@@ -27,13 +34,6 @@
       "extract": "1910年代，是指二十世紀的第二個十年。当时全球面积最大的两个国家大清帝国和俄罗斯帝国相继在该年代倒台。第一次世界大战也在该年代爆发，导致了德意志帝国、奥斯曼帝国和奥匈帝国的瓦解。\n",
       "url": "https://zh.wikipedia.org/wiki/1910%E5%B9%B4%E4%BB%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Hubei_Military_Government.jpg/330px-Hubei_Military_Government.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "萨尔塞",
-      "extract": "萨尔塞 是法国罗讷省的一个市镇，属于索恩河畔自由城区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%B0%94%E5%A1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sarcey_Rhone_Tilleul.jpg/330px-Sarcey_Rhone_Tilleul.jpg",
       "source": "wikipedia"
     }
   ]
