@@ -1,20 +1,7 @@
 import type { APIRoute } from 'astro';
+import type { NewsItem } from '../lib/types';
 import fs from 'node:fs';
 import path from 'node:path';
-
-interface NewsItem {
-  id: string;
-  title: string;
-  url: string;
-  summary: string;
-  source: string;
-  category: string;
-  publishedAt: string;
-  imageUrl?: string;
-  type: 'article' | 'repo';
-  stars?: number;
-  language?: string;
-}
 
 function escapeXml(s: string): string {
   return s

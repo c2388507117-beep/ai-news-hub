@@ -31,6 +31,16 @@ export interface NewsItem {
 
 export const ALL_CATEGORIES: Category[] = ['ai', 'tech', 'business', 'gaming'];
 
+export function isValidCategory(c: string): c is Category {
+  return ['ai', 'tech', 'business', 'gaming'].includes(c);
+}
+
+/** Lightweight reference for related-item lookups (used by index.astro). */
+export interface RelatedItemRef {
+  t: string; // title
+  u: string; // url
+}
+
 // --- Hot Topic types ---
 
 export interface HotTopic {

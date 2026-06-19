@@ -71,7 +71,7 @@ const tools = allTools as Tool[];
 
   catBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
-      const cat = btn.dataset.toolCat || '';
+      const cat = (btn as HTMLElement).dataset.toolCat || '';
 
       catBtns.forEach((b) => {
         b.classList.remove('bg-blue-600', 'text-white');
@@ -82,23 +82,13 @@ const tools = allTools as Tool[];
 
       // Show/hide sections
       sections.forEach((section) => {
-        const sectionCat = section.dataset.toolSection;
-        section.style.display = !cat || sectionCat === cat ? '' : 'none';
+        const sectionCat = (section as HTMLElement).dataset.toolSection;
+        (section as HTMLElement).style.display = !cat || sectionCat === cat ? '' : 'none';
       });
 
-      // Show/hide popular section (show when "all" or any matching)
+      // Show/hide popular section (show when "all")
       if (popularSection) {
-        const popularTools = popularSection.querySelectorAll('.tool-card');
-        let hasVisible = false;
-        popularTools.forEach((card) => {
-          // Get the parent tool-section-like context for each card
-          // Actually for popular section, show when showing all OR when the category matches
-          const toolCard = card.closest('[data-tool-section]');
-          // Popular cards don't have data-tool-section, so always check
-          // We need a different approach: popular cards are in the popular section which has no data-tool-section
-        });
-        // Simple: show popular section when viewing "all"
-        popularSection.style.display = !cat ? '' : 'none';
+        (popularSection as HTMLElement).style.display = !cat ? '' : 'none';
       }
     });
   });
