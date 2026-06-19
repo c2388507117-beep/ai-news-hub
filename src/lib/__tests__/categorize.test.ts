@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { autoCategorize, cleanContent, extractKeywords } from '../categorize';
+import { autoCategorize, cleanContent, extractKeywords, generateSummary, getRelated } from '../categorize';
 
 describe('autoCategorize', () => {
   it('classifies AI articles', () => {
@@ -30,6 +30,11 @@ describe('autoCategorize', () => {
     const result = autoCategorize('New chip design for machine learning', 'Details...');
     expect(result).toBe('ai');
   });
+
+  it('classifies gaming articles', () => {
+    expect(autoCategorize('Nintendo Switch 2 announced with new features', 'Gaming console news')).toBe('gaming');
+    expect(autoCategorize('Steam 夏季促销游戏推荐', '游戏折扣汇总')).toBe('gaming');
+  });
 });
 
 describe('cleanContent', () => {
@@ -38,11 +43,11 @@ describe('cleanContent', () => {
   });
 
   it('removes email addresses', () => {
-    expect(cleanContent('Contact: test@example.com for info')).toBe('Contact:  for info');
+    expect(cleanContent('Contact: test@example.com for info')).toBe('Contact: for info');
   });
 
   it('removes copyright notices', () => {
-    expect(cleanContent('Content here. Copyright 2024 All Rights Reserved. End.')).toBe('Content here.  End.');
+    expect(cleanContent('Content here. Copyright 2024 All Rights Reserved. End.')).toBe('Content here. End.');
   });
 
   it('collapses excessive newlines', () => {
@@ -51,6 +56,10 @@ describe('cleanContent', () => {
 
   it('handles empty input', () => {
     expect(cleanContent('')).toBe('');
+  });
+
+  it('removes extra whitespace after junk removal', () => {
+    expect(cleanContent('Contact: test@example.com for info')).not.toContain('  ');
   });
 });
 
@@ -84,5 +93,52 @@ describe('extractKeywords', () => {
     const result = extractKeywords('machine learning machine learning');
     const mlCount = result.filter((k) => k === 'machine').length;
     expect(mlCount).toBe(1);
+  });
+});
+
+describe('generateSummary', () => {
+  it('extracts first meaningful sentences', () => {
+    const text = '这是第一句有更多详细内容在这里。这是第二句也有非常多内容。这是第三句。';
+    const result = generateSummary(text);
+    expect(result).toContain('第一句');
+    expect(result).toContain('第二句');
+  });
+
+  it('handles empty input', () => {
+    expect(generateSummary('')).toBe('');
+  });
+
+  it('truncates to maxLen', () => {
+    const long = 'A. '.repeat(200);
+    expect(generateSummary(long, 50).length).toBeLessThanOrEqual(55);
+  });
+});
+
+describe('getRelated', () => {
+  it('returns related articles by keyword overlap', () => {
+    const items = [
+      { id: '1', title: 'Machine learning advances in AI', category: 'ai' as const, publishedAt: '2024-06-01T00:00:00Z' },
+      { id: '2', title: 'Deep learning in practice', category: 'ai' as const, publishedAt: '2024-06-02T00:00:00Z' },
+      { id: '3', title: 'Sports results today', category: 'tech' as const, publishedAt: '2024-06-03T00:00:00Z' },
+    ];
+    const result = getRelated(items[0], items);
+    expect(result).toHaveLength(1);
+    expect(result[0].id).toBe('2');
+  });
+
+  it('returns empty for no matches', () => {
+    const items = [
+      { id: '1', title: 'abc xyz', category: 'ai' as const, publishedAt: '2024-01-01T00:00:00Z' },
+      { id: '2', title: 'def uvw', category: 'ai' as const, publishedAt: '2024-01-02T00:00:00Z' },
+    ];
+    expect(getRelated(items[0], items)).toEqual([]);
+  });
+
+  it('only matches within same category', () => {
+    const items = [
+      { id: '1', title: 'AI advances', category: 'ai' as const, publishedAt: '2024-01-01T00:00:00Z' },
+      { id: '2', title: 'AI advances', category: 'tech' as const, publishedAt: '2024-01-02T00:00:00Z' },
+    ];
+    expect(getRelated(items[0], items)).toEqual([]);
   });
 });

@@ -35,6 +35,14 @@ export const CATEGORY_RULES: { category: Category; keywords: string[] }[] = [
       '区块链', 'web3', '元宇宙', '量化', '基金', '金融',
     ],
   },
+  {
+    category: 'gaming',
+    keywords: [
+      'game', 'gaming', 'unity', 'unreal', 'three.js', 'webgl', 'graphics',
+      'playstation', 'xbox', 'nintendo', 'switch', 'steam', '主机',
+      '游戏', '电竞', 'e-sports', 'esports',
+    ],
+  },
 ];
 
 export const JUNK_PATTERNS: RegExp[] = [
@@ -112,6 +120,8 @@ export function cleanContent(text: string): string {
   for (const pattern of JUNK_PATTERNS) {
     cleaned = cleaned.replace(pattern, '');
   }
+  // Collapse multiple spaces left by pattern removal
+  cleaned = cleaned.replace(/  +/g, ' ');
   cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
   cleaned = cleaned.replace(/^\s*[\r\n]/gm, '\n');
   return cleaned.trim();
