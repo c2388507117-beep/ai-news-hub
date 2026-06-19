@@ -34,6 +34,9 @@ import digestData from '../data/digest.json';
 import hotTopicsData from '../data/hot-topics.json';
 
 const allNews = allNewsData as NewsItem[];
+const ogTitle = allNews[0]?.title || 'AI News Hub';
+const ogDescription = allNews[0]?.summary || '每日 AI 新闻聚合';
+const ogImage = allNews[0]?.imageUrl || undefined;
 const wallpapers = wallpaperData as WallpaperData;
 const wallpapersGirl = wallpaperGirlData as WallpaperData;
 const football = footballData as FootballData;
@@ -102,7 +105,12 @@ for (const [id, items] of relatedMap) {
 }
 ---
 
-<BaseLayout title="AI News Hub - 个人仪表盘">
+<BaseLayout
+  title="AI News Hub - 个人仪表盘"
+  {ogTitle}
+  {ogDescription}
+  {ogImage}
+>
   <Wallpaper data={wallpapers} />
 
   <main class="max-w-6xl mx-auto px-4 py-6">

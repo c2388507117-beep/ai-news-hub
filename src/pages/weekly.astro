@@ -37,7 +37,11 @@ function formatDate(dateStr: string): string {
 }
 ---
 
-<BaseLayout title="AI News Hub - 本周热门">
+<BaseLayout
+  title="AI News Hub - 本周热门"
+  ogTitle={`本周热门 - ${weeklyItems.length} 篇 - AI News Hub`}
+  ogDescription={`${formatDate(new Date(weekAgo).toISOString())} — ${formatDate(now.toISOString())}，共 ${weeklyItems.length} 篇`}
+>
   <main class="max-w-4xl mx-auto px-4 py-6">
     <div class="mb-6">
       <h1 class="text-2xl font-bold mb-1">📊 本周热门</h1>

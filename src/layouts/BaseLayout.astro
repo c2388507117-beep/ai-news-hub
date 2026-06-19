@@ -2,9 +2,12 @@
 export interface Props {
   title?: string;
   currentCategory?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
 }
 
-const { title = 'AI News Hub', currentCategory = '' } = Astro.props;
+const { title = 'AI News Hub', currentCategory = '', ogTitle, ogDescription, ogImage } = Astro.props;
 const currentPath = Astro.url.pathname;
 ---
 
@@ -21,6 +24,12 @@ const currentPath = Astro.url.pathname;
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" id="theme-color" content="#2563eb" />
     <title>{title}</title>
+    <meta property="og:title" content={ogTitle || title} />
+    <meta property="og:description" content={ogDescription || '每日 AI 新闻聚合 - 研究突破、行业动态、热门项目、游戏资讯'} />
+    <meta property="og:image" content={ogImage || 'https://ai-news-hub.pages.dev/favicon.svg'} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta name="twitter:card" content="summary_large_image" />
     <!-- Dark mode init: prevent flash of wrong theme -->
     <script is:inline>
       (function() {
