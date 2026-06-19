@@ -33,8 +33,11 @@ function formatDate(dateStr: string): string {
       <img
         src={item.imageUrl}
         alt=""
-        class="w-16 h-16 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-800"
+        class="w-16 h-16 rounded-lg object-cover flex-shrink-0 bg-gray-200 dark:bg-gray-700"
         loading="lazy"
+        decoding="async"
+        width="64"
+        height="64"
         onerror="this.style.display='none'"
       />
     )}
@@ -74,8 +77,11 @@ function formatDate(dateStr: string): string {
       <img
         src={item.imageUrl}
         alt=""
-        class="w-full max-h-64 object-cover rounded-lg mb-4 bg-gray-100 dark:bg-gray-800"
+        class="w-full max-h-64 object-cover rounded-lg mb-4 bg-gray-200 dark:bg-gray-700"
         loading="lazy"
+        decoding="async"
+        width="800"
+        height="400"
         onerror="this.style.display='none'"
       />
     )}
