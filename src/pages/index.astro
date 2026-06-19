@@ -114,6 +114,28 @@ for (const [id, items] of relatedMap) {
   <Wallpaper data={wallpapers} />
 
   <main class="max-w-6xl mx-auto px-4 py-6">
+    <style>
+      .news-item {
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+      .news-item.entering {
+        animation: fadeSlideIn 0.35s ease forwards;
+      }
+      @keyframes fadeSlideIn {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .news-item,
+        .news-card {
+          transition: none !important;
+          animation: none !important;
+        }
+        .news-item.entering {
+          animation: none;
+        }
+      }
+    </style>
     <!-- Football Standings (full width, collapsed by default) -->
     <FootballStandings
       standings={football.standings}
@@ -373,6 +395,17 @@ for (const [id, items] of relatedMap) {
     }
     hasMore = shown.length < visible.length;
     if (!hasMore && sentinel) sentinel.style.display = 'none';
+
+    // Add entrance animation to newly visible items
+    allDivs.forEach((el, i) => {
+      if (shown.includes(i) && !el.dataset.animated) {
+        el.classList.add('entering');
+        el.dataset.animated = 'true';
+        el.addEventListener('animationend', () => {
+          el.classList.remove('entering');
+        }, { once: true });
+      }
+    });
   }
 
   // Category filter buttons
@@ -391,6 +424,8 @@ for (const [id, items] of relatedMap) {
       if (sentinel) sentinel.style.display = '';
       await loadAllData();
       ensureAllRendered();
+      // Reset entrance animations for new filter
+      newsList.querySelectorAll('.news-item').forEach(el => delete el.dataset.animated);
       showVisibleItems();
     });
   });
