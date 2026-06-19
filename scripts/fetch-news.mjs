@@ -293,6 +293,16 @@ async function main() {
   const removed = recategorized.length - removeOldNews(recategorized).length;
   if (removed > 0) console.log(`  \u{1F5D1} Cleaned ${removed} items older than 7 days`);
 
+  // Validate and fix categories
+  const VALID_CATEGORIES = ['ai', 'tech', 'business', 'gaming'];
+  for (const item of merged) {
+    if (!VALID_CATEGORIES.includes(item.category)) {
+      const newCat = autoCategorize(item.title, item.summary || '', 'tech');
+      console.log(`  ↻ Fixed category: "${item.category}" → "${newCat}" for "${item.title.slice(0, 40)}..."`);
+      item.category = newCat;
+    }
+  }
+
   fs.writeFileSync(dataPath, JSON.stringify(merged, null, 2), 'utf-8');
   console.log(`\nDone: ${fresh.length} new items, ${merged.length} total after cleanup`);
 }
