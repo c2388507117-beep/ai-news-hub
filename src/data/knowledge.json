@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T21:40:00.478Z",
+  "fetchedAt": "2026-06-19T23:19:46.011Z",
   "items": [
+    {
+      "title": "尤哈·坦门派",
+      "extract": "尤哈·坦门派，芬兰艺术家。他以其从世界各地原始艺术借鉴而来的超现实主义版画而著称。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%A4%E5%93%88%C2%B7%E5%9D%A6%E9%97%A8%E6%B4%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/03/Juha_Tammenp%C3%A4%C3%A4_-_J%C3%A4%C3%A4hyv%C3%A4iset_laivakoiralle.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "格奥尔基·特塔鲁",
       "extract": "格奥尔基·特塔鲁，罗马尼亚男子足球运动员，司职前锋。他曾代表罗马尼亚国家队参加1970年国际足联世界杯，结果队伍止步小组赛阶段。\n",
@@ -27,13 +34,6 @@
       "extract": "中正北路 是臺南市永康區的南北向主要聯外道路，全線屬於台1線，南承接自中正南路，北終至鹽水溪與新市區中山路相連接。本路段從鹽行地區向東接續中正南路延伸，經永康交流道後進入蔦松地區，可經由永大陸橋往南連結永大路，進而聯絡大灣地區及仁德區，或是持續北上聯絡新市區、善化區等地，南下設有平面聯絡道連接臺南都會區北外環道路，並設有通往台南科學園區的「南科聯絡道」。位於本路段的蔦松地區是典型的工業聚落，範圍涵蓋東側的永康產業園區。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%AD%A3%E5%8C%97%E8%B7%AF_(%E8%87%BA%E5%8D%97%E5%B8%82)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Yongkang_Jhongjheng_north.jpg/330px-Yongkang_Jhongjheng_north.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "產後調理院",
-      "extract": "《產後調理院》，為韓國tvN於2020年11月2日起播出的月火連續劇，由《機智牢房生活》的朴秀元導演與金智秀編劇合作打造。此劇以產後調理院（坐月子中心）為背景，講述身為高齡產婦的主角賢珍所展開的生育災難喜劇故事。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%94%A2%E5%BE%8C%E8%AA%BF%E7%90%86%E9%99%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/c/c1/Birthcare_tvn.png",
       "source": "wikipedia"
     }
   ]
