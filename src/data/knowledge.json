@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T15:17:53.927Z",
+  "fetchedAt": "2026-06-19T16:18:12.699Z",
   "items": [
+    {
+      "title": "中正北路 (臺南市)",
+      "extract": "中正北路 是臺南市永康區的南北向主要聯外道路，全線屬於台1線，南承接自中正南路，北終至鹽水溪與新市區中山路相連接。本路段從鹽行地區向東接續中正南路延伸，經永康交流道後進入蔦松地區，可經由永大陸橋往南連結永大路，進而聯絡大灣地區及仁德區，或是持續北上聯絡新市區、善化區等地，南下設有平面聯絡道連接臺南都會區北外環道路，並設有通往台南科學園區的「南科聯絡道」。位於本路段的蔦松地區是典型的工業聚落，範圍涵蓋東側的永康產業園區。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%AD%A3%E5%8C%97%E8%B7%AF_(%E8%87%BA%E5%8D%97%E5%B8%82)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Yongkang_Jhongjheng_north.jpg/330px-Yongkang_Jhongjheng_north.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "產後調理院",
       "extract": "《產後調理院》，為韓國tvN於2020年11月2日起播出的月火連續劇，由《機智牢房生活》的朴秀元導演與金智秀編劇合作打造。此劇以產後調理院（坐月子中心）為背景，講述身為高齡產婦的主角賢珍所展開的生育災難喜劇故事。\n",
@@ -27,13 +34,6 @@
       "extract": "共和國日 在一些國家是節假日，用來慶祝國家成為共和國。例如意大利的共和國日是6月12日，紀念意大利在1946年義大利政體公投中決定改行共和政體（公投日期是6月2日）。愛爾蘭共和國的共和國日則是1949年4月18日，紀念愛爾蘭共和國法生效。希臘的共和國日是1974年12月8日。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%B1%E5%92%8C%E5%9C%8B%E6%97%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Festa_della_repubblica_2005_con_frecce_tricolori.jpg/330px-Festa_della_repubblica_2005_con_frecce_tricolori.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马后炮",
-      "extract": "马后炮，象棋中的杀招，炮、马与对方将 （帅）并线。马位于将（帅）前两格，作炮的炮架，同時限制对方将（帅）的移動。炮位于马后，使对方将（帅）无法移动。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%90%8E%E7%82%AE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Xiangqi_board.svg/langzh-330px-Xiangqi_board.svg.png",
       "source": "wikipedia"
     }
   ]
