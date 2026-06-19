@@ -188,24 +188,8 @@ for (const [id, items] of relatedMap) {
                 <p class="text-center text-gray-400 py-12">暂无新闻</p>
               )}
             </div>
-            <!-- Pagination -->
-            <div id="pagination" class="flex items-center justify-center gap-2 pb-8 text-sm">
-              <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                首页
-              </button>
-              <button id="pg-prev" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                ← 上一页
-              </button>
-              <span id="pg-info" class="px-3 py-1.5 text-xs text-gray-500 dark:text-gray-400 tabular-nums">
-                1 / 1
-              </span>
-              <button id="pg-next" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                下一页 →
-              </button>
-              <button id="pg-last" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                尾页
-              </button>
-            </div>
+            <!-- Infinite scroll sentinel -->
+            <div id="scroll-sentinel" class="h-4"></div>
           </div>
         </details>
       </div>
@@ -253,16 +237,16 @@ for (const [id, items] of relatedMap) {
 
   // State
   let currentCat = '';
-  let currentPage = 1;
 
   // DOM refs
   const newsList = document.getElementById('news-list');
   const catBtns = document.querySelectorAll('.cat-btn');
-  const pgFirst = document.getElementById('pg-first');
-  const pgPrev = document.getElementById('pg-prev');
-  const pgNext = document.getElementById('pg-next');
-  const pgLast = document.getElementById('pg-last');
-  const pgInfo = document.getElementById('pg-info');
+
+  // --- Infinite Scroll ---
+  let visibleCount = 10;
+  let isLoadingMore = false;
+  let hasMore = true;
+  const sentinel = document.getElementById('scroll-sentinel');
 
   function escapeHtml(s) {
     if (!s) return '';
@@ -365,40 +349,15 @@ for (const [id, items] of relatedMap) {
     return indices;
   }
 
-  async function renderPage() {
-    await loadAllData();
+  function showVisibleItems() {
     const visible = getVisibleIndices();
-    const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
-    if (currentPage > totalPages) currentPage = totalPages;
-    if (currentPage < 1) currentPage = 1;
-    const start = (currentPage - 1) * PER_PAGE;
-    const end = Math.min(start + PER_PAGE, visible.length);
-    const pageIndices = visible.slice(start, end);
-
-    // Build lazy cards on first pagination interaction
-    if (pageIndices.length > 0) {
-      ensureAllRendered();
-    }
-
+    const shown = visible.slice(0, visibleCount);
     const allDivs = newsList.querySelectorAll('.news-item');
     for (let i = 0; i < allDivs.length; i++) {
-      allDivs[i].style.display = pageIndices.includes(i) ? '' : 'none';
+      allDivs[i].style.display = shown.includes(i) ? '' : 'none';
     }
-
-    pgInfo.textContent = `${currentPage} / ${totalPages}`;
-    pgFirst.disabled = currentPage <= 1;
-    pgPrev.disabled = currentPage <= 1;
-    pgNext.disabled = currentPage >= totalPages;
-    pgLast.disabled = currentPage >= totalPages;
-  }
-
-  async function goToPage(page) {
-    await loadAllData();
-    const visible = getVisibleIndices();
-    const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
-    currentPage = Math.max(1, Math.min(page, totalPages));
-    await renderPage();
-    newsList.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    hasMore = shown.length < visible.length;
+    if (!hasMore && sentinel) sentinel.style.display = 'none';
   }
 
   // Category filter buttons
@@ -412,25 +371,33 @@ for (const [id, items] of relatedMap) {
       });
       btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       btn.classList.add('bg-blue-600', 'text-white');
-      currentPage = 1;
-      await renderPage();
+      visibleCount = 10;
+      hasMore = true;
+      if (sentinel) sentinel.style.display = '';
+      await loadAllData();
+      ensureAllRendered();
+      showVisibleItems();
     });
   });
 
-  // Pagination buttons
-  pgFirst.addEventListener('click', () => goToPage(1));
-  pgPrev.addEventListener('click', () => goToPage(currentPage - 1));
-  pgNext.addEventListener('click', () => goToPage(currentPage + 1));
-  pgLast.addEventListener('click', async () => {
-    await loadAllData();
-    const visible = getVisibleIndices();
-    const totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
-    await goToPage(totalPages);
-  });
+  // Infinite scroll observer
+  if (sentinel) {
+    const observer = new IntersectionObserver(async (entries) => {
+      if (entries[0].isIntersecting && hasMore && !isLoadingMore) {
+        isLoadingMore = true;
+        await loadAllData();
+        ensureAllRendered();
+        visibleCount += 5;
+        showVisibleItems();
+        isLoadingMore = false;
+      }
+    }, { rootMargin: '200px' });
+    observer.observe(sentinel);
+  }
 
   // Initial render (uses static data for first page, defers lazy build)
   loadAllData().then(function() {
-    renderPage();
+    showVisibleItems();
   });
 
 </script>
