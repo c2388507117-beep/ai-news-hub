@@ -1,13 +1,21 @@
 {
-  "fetchedAt": "2026-06-19T20:08:25.051Z",
+  "fetchedAt": "2026-06-19T21:39:59.673Z",
   "topSellers": [
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 615,
-      "finalPrice": 615,
+      "price": 599,
+      "finalPrice": 599,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Deck",
+      "appid": 1675200,
+      "price": 39900,
+      "finalPrice": 39900,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
     },
     {
       "name": "Cyberpunk 2077",
@@ -18,12 +26,12 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_184x69.jpg"
     },
     {
-      "name": "Gothic 1 Remake",
-      "appid": 1297900,
-      "price": 4999,
-      "finalPrice": 4999,
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
       "name": "Cyberpunk 2077: Ultimate Edition",
@@ -50,36 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "Subnautica 2",
-      "appid": 1962700,
-      "price": 2999,
-      "finalPrice": 2999,
+      "name": "Destiny 2: The Collection",
+      "appid": 72233,
+      "price": 14491,
+      "finalPrice": 6960,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
     },
     {
-      "name": "EA SPORTS FC™ 26",
-      "appid": 3405690,
+      "name": "007 First Light",
+      "appid": 1488462,
       "price": 6999,
-      "finalPrice": 1399,
-      "discount": 80,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
+      "finalPrice": 6999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
-    },
-    {
-      "name": "Solarpunk™",
-      "appid": 1805110,
-      "price": 2299,
-      "finalPrice": 2299,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

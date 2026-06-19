@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T20:08:25.837Z",
+  "fetchedAt": "2026-06-19T21:40:00.478Z",
   "items": [
+    {
+      "title": "格奥尔基·特塔鲁",
+      "extract": "格奥尔基·特塔鲁，罗马尼亚男子足球运动员，司职前锋。他曾代表罗马尼亚国家队参加1970年国际足联世界杯，结果队伍止步小组赛阶段。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E5%9F%BA%C2%B7%E7%89%B9%E5%A1%94%E9%B2%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gheorghe_T%C4%83taru_1967.jpg/330px-Gheorghe_T%C4%83taru_1967.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "拉莫特阿沙尔",
       "extract": "拉莫特阿沙尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，位于该省西部，属于莱萨布勒多洛讷区。2017年1月1日，拉莫特阿沙尔相邻的拉沙佩勒阿沙尔合并为新市镇莱萨沙尔，并成为新市镇的政府驻地。\n",
@@ -27,13 +34,6 @@
       "extract": "《產後調理院》，為韓國tvN於2020年11月2日起播出的月火連續劇，由《機智牢房生活》的朴秀元導演與金智秀編劇合作打造。此劇以產後調理院（坐月子中心）為背景，講述身為高齡產婦的主角賢珍所展開的生育災難喜劇故事。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%94%A2%E5%BE%8C%E8%AA%BF%E7%90%86%E9%99%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/c/c1/Birthcare_tvn.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "跳蝽属",
-      "extract": "跳蝽属 是跳蝽科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B7%B3%E8%9D%BD%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Saldula.saltatoria2.jpg/330px-Saldula.saltatoria2.jpg",
       "source": "wikipedia"
     }
   ]
