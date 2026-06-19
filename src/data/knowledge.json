@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T18:14:40.973Z",
+  "fetchedAt": "2026-06-19T20:08:25.837Z",
   "items": [
+    {
+      "title": "拉莫特阿沙尔",
+      "extract": "拉莫特阿沙尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，位于该省西部，属于莱萨布勒多洛讷区。2017年1月1日，拉莫特阿沙尔相邻的拉沙佩勒阿沙尔合并为新市镇莱萨沙尔，并成为新市镇的政府驻地。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%8E%AB%E7%89%B9%E9%98%BF%E6%B2%99%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chateau_Domaine_Brandois_85.JPG/330px-Chateau_Domaine_Brandois_85.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "大田政作",
       "extract": "大田政作，日本沖繩縣國頭郡國頭村出身的政治人物，曾任法官、檢察官和律師。臺灣日治時期最後一任澎湖廳長（1942年－1945年），也是澎湖廳唯一一位琉球出身的行政首長、美國統治琉球時期琉球政府的第三任行政主席（1959年－1964年）。\n",
@@ -27,13 +34,6 @@
       "extract": "跳蝽属 是跳蝽科下的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B7%B3%E8%9D%BD%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Saldula.saltatoria2.jpg/330px-Saldula.saltatoria2.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "赫利奥藻科",
-      "extract": "赫利奥藻科  为圆筛藻目的一个科。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%88%A9%E5%A5%A5%E8%97%BB%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Actinoptychus_senarius_1260A_14R_1W.JPG/330px-Actinoptychus_senarius_1260A_14R_1W.JPG",
       "source": "wikipedia"
     }
   ]

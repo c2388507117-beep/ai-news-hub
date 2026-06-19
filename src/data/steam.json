@@ -1,29 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T18:14:40.429Z",
+  "fetchedAt": "2026-06-19T20:08:25.051Z",
   "topSellers": [
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 599,
-      "finalPrice": 599,
+      "price": 615,
+      "finalPrice": 615,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Deck",
-      "appid": 1675200,
-      "price": 39900,
-      "finalPrice": 39900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
-    },
-    {
-      "name": "Steam Controller",
-      "appid": 4165870,
-      "price": 9900,
-      "finalPrice": 9900,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
       "name": "Cyberpunk 2077",
@@ -32,6 +16,14 @@
       "finalPrice": 1799,
       "discount": 70,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_184x69.jpg"
+    },
+    {
+      "name": "Gothic 1 Remake",
+      "appid": 1297900,
+      "price": 4999,
+      "finalPrice": 4999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/capsule_184x69.jpg"
     },
     {
       "name": "Cyberpunk 2077: Ultimate Edition",
@@ -58,20 +50,36 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/capsule_184x69.jpg"
     },
     {
-      "name": "The Adventures of Elliot: The Millennium Tales",
-      "appid": 3483510,
-      "price": 5999,
-      "finalPrice": 5999,
+      "name": "Subnautica 2",
+      "appid": 1962700,
+      "price": 2999,
+      "finalPrice": 2999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
     },
     {
-      "name": "Paralives",
-      "appid": 1118520,
-      "price": 3999,
-      "finalPrice": 3999,
+      "name": "EA SPORTS FC™ 26",
+      "appid": 3405690,
+      "price": 6999,
+      "finalPrice": 1399,
+      "discount": 80,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/capsule_184x69.jpg"
+    },
+    {
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
+    },
+    {
+      "name": "Solarpunk™",
+      "appid": 1805110,
+      "price": 2299,
+      "finalPrice": 2299,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
