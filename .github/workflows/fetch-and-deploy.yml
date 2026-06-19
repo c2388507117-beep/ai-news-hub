@@ -47,11 +47,17 @@ jobs:
       - name: Fetch hot topics
         run: node scripts/fetch-hot-topics.mjs || true
 
+      - name: Fetch GitHub trending repos
+        run: node scripts/fetch-trending.mjs || true
+
+      - name: Fetch AI leaderboard
+        run: node scripts/fetch-leaderboard.mjs || true
+
       - name: Commit and push updated data
         run: |
           git config user.name "ai-news-hub-bot"
           git config user.email "bot@ai-news-hub.local"
-          git add src/data/news.json src/data/wallpapers.json src/data/wallpapers-girl.json src/data/football.json src/data/steam.json src/data/bilibili.json src/data/knowledge.json src/data/digest.json src/data/hot-topics.json
+          git add src/data/news.json src/data/wallpapers.json src/data/wallpapers-girl.json src/data/football.json src/data/steam.json src/data/bilibili.json src/data/knowledge.json src/data/digest.json src/data/hot-topics.json src/data/leaderboard.json
           if git diff --cached --quiet; then
             echo "No changes to data files"
           else
