@@ -91,6 +91,22 @@ async function fetchRepos(query) {
   return repos;
 }
 
+const REPO_CATEGORY_KEYWORDS = [
+  { category: 'ai', keywords: ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'deep learning', 'neural', 'nlp', 'computer vision', 'transformer', 'agent', 'rag', 'diffusion'] },
+  { category: 'tech', keywords: ['javascript', 'python', 'rust', 'go', 'react', 'vue', 'framework', 'cli', 'tool', 'docker', 'kubernetes', 'database', 'compiler', 'app'] },
+  { category: 'gaming', keywords: ['game', 'gaming', 'unity', 'unreal', 'three.js', 'webgl', 'graphics'] },
+];
+
+function categorizeRepo(repo) {
+  const text = ((repo.description || '') + ' ' + repo.full_name).toLowerCase();
+  for (const rule of REPO_CATEGORY_KEYWORDS) {
+    for (const kw of rule.keywords) {
+      if (text.includes(kw)) return rule.category;
+    }
+  }
+  return 'tech'; // default for repos
+}
+
 function repoToNewsItem(repo) {
   let publishedAt = repo.created_at;
   if (!publishedAt || isNaN(new Date(publishedAt).getTime())) {
@@ -102,7 +118,7 @@ function repoToNewsItem(repo) {
     url: repo.html_url,
     summary: repo.description || repo.full_name,
     source: 'GitHub',
-    category: 'trending',
+    category: categorizeRepo(repo),
     publishedAt,
     imageUrl: repo.owner?.avatar_url,
     type: 'repo',
@@ -140,16 +156,8 @@ async function main() {
   const dataPath = path.join(__dirname, '..', 'src', 'data', 'news.json');
   const existing = readExistingData(dataPath);
 
-  // Re-categorize existing items
-  const migrated = existing.map((item) => {
-    if (item.category === 'research' || item.category === 'industry') {
-      return { ...item, category: 'tech' };
-    }
-    return item;
-  });
-
   // Merge: replace all existing trending repos with fresh ones, keep other categories
-  const nonTrending = migrated.filter((item) => item.category !== 'trending');
+  const nonTrending = existing.filter((item) => item.category !== 'trending');
   const trendingItems = top.map(repoToNewsItem);
   const merged = [...nonTrending, ...trendingItems]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
