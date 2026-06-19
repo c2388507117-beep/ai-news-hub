@@ -26,6 +26,8 @@ const SOURCES = [
   { name: '钛媒体', url: 'https://www.tmtpost.com/rss.xml', category: 'business' },
   { name: 'IT之家', url: 'https://www.ithome.com/rss', category: 'tech' },
   { name: '机核网', url: 'https://www.gcores.com/rss', category: 'gaming' },
+  { name: '虎嗅', url: 'https://www.huxiu.com/rss/0.xml', category: 'tech' },
+  { name: '澎湃新闻', url: 'https://www.thepaper.cn/rss/news.xml', category: 'tech' },
 ];
 
 // Keyword rules for auto-categorization (overrides source default)
