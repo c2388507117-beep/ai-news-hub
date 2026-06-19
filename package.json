@@ -10,6 +10,8 @@
     "fetch:news": "node scripts/fetch-news.mjs",
     "fetch:trending": "node scripts/fetch-trending.mjs",
     "digest": "node scripts/fetch-digest.mjs",
+    "fetch:all": "node scripts/fetch-all.mjs",
+    "ci": "npm run test && npm run build",
     "test": "vitest run",
     "test:watch": "vitest"
   },
