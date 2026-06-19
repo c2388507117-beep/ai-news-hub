@@ -5,9 +5,9 @@ export const CATEGORY_RULES: { category: Category; keywords: string[] }[] = [
   {
     category: 'ai',
     keywords: [
-      'ai', '人工智能', '大模型', 'gpt', 'llm', 'openai', 'chatgpt', 'claude',
+      '人工智能', '大模型', 'gpt', 'llm', 'openai', 'chatgpt', 'claude',
       'gemini', 'llama', 'deepseek', 'qwen', '通义', '文心', '星火', '混元',
-      'neural', '深度学习', '机器学习', 'pytorch', 'tensorflow', 'hugging face',
+      'neural', '深度学习', '机器学习', 'machine learning', 'pytorch', 'tensorflow', 'hugging face',
       'copilot', 'agi', 'transformer', 'diffusion', 'stable diffusion',
       'computer vision', '计算机视觉', 'nlp', '自然语言处理',
       '强化学习', 'reinforcement learning', '多模态', 'multimodal',
@@ -38,7 +38,7 @@ export const CATEGORY_RULES: { category: Category; keywords: string[] }[] = [
 ];
 
 export const JUNK_PATTERNS: RegExp[] = [
-  /登录\s*(注册)?\s*(免费)?\s*(订阅)?\s*(阅读)?\s*(全文)?\s*(查看)?\s*(更多)?/gi,
+  /登录\s*(注册)?\s*(免费)?\s*(订阅)?\s*(阅读)?\s*(全文)?\s*(查看)?\s*(更多)?[。.]?/gi,
   /免费\s*(订阅|注册)/gi,
   /点击\s*(阅读|查看|下载|订阅|关注)/gi,
   /本文\s*(来自|来源于|转载|出处)/gi,
@@ -47,8 +47,8 @@ export const JUNK_PATTERNS: RegExp[] = [
   /微信\s*(搜索|扫码)/gi,
   /投稿|商务合作|广告|推广/gi,
   /免责声明|版权声明|免责条款/gi,
-  /Copyright\s+\d+/gi,
-  /All\s+[Rr]ights\s+[Rr]eserved/gi,
+  /Copyright\s+\d+[。.]?/gi,
+  /All\s+[Rr]ights\s+[Rr]eserved[。.]?\s*/gi,
   /未经.*(许可|授权|允许).*不得/gi,
   /\[领取.*\]|抽奖|奖品|抽送|红包|福利/gi,
   /分享到|转发|点赞|在看/gi,
@@ -79,7 +79,7 @@ export function autoCategorize(
   for (const rule of CATEGORY_RULES) {
     let score = 0;
     for (const kw of rule.keywords) {
-      if (text.includes(kw.toLowerCase())) {
+      if (keywordMatches(kw, text)) {
         score++;
       }
     }
@@ -89,6 +89,18 @@ export function autoCategorize(
   if (entries.length === 0) return defaultCategory;
   entries.sort((a, b) => b[1] - a[1]);
   return entries[0][0];
+}
+
+/** Match a keyword against text, using word boundaries for ASCII-only keywords. */
+function keywordMatches(keyword: string, text: string): boolean {
+  const lowerKw = keyword.toLowerCase();
+  // For pure ASCII keywords (letters, digits), use word boundary matching to avoid false positives
+  if (/^[a-zA-Z0-9]+$/.test(keyword)) {
+    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`\\b${escaped}\\b`, 'i').test(text);
+  }
+  // For multi-word or non-ASCII keywords, use substring matching
+  return text.includes(lowerKw);
 }
 
 /**

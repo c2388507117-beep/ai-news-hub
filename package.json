@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "fetch:news": "node scripts/fetch-news.mjs",
     "fetch:trending": "node scripts/fetch-trending.mjs",
-    "digest": "node scripts/fetch-digest.mjs"
+    "digest": "node scripts/fetch-digest.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
@@ -22,6 +24,7 @@
     "pagefind": "^1.3.0",
     "rss-parser": "^3.13.0",
     "sharp": "^0.34.5",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
   }
 }
