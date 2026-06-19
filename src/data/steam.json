@@ -1,85 +1,85 @@
 {
-  "fetchedAt": "2026-06-19T12:20:27.609Z",
+  "fetchedAt": "2026-06-19T15:17:53.269Z",
   "topSellers": [
-    {
-      "name": "Cyberpunk 2077: Ultimate Edition",
-      "appid": 32470,
-      "price": 44700,
-      "finalPrice": 16450,
-      "discount": 60,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32470/capsule_184x69.jpg"
-    },
-    {
-      "name": "Cyberpunk 2077",
-      "appid": 1091500,
-      "price": 29800,
-      "finalPrice": 8940,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_184x69.jpg"
-    },
     {
       "name": "MECCHA CHAMELEON",
       "appid": 4704690,
-      "price": 2600,
-      "finalPrice": 2600,
+      "price": 615,
+      "finalPrice": 615,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
+      "name": "Cyberpunk 2077",
+      "appid": 1091500,
+      "price": 5999,
+      "finalPrice": 1799,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_184x69.jpg"
+    },
+    {
+      "name": "Cyberpunk 2077: Ultimate Edition",
+      "appid": 32470,
+      "price": 8998,
+      "finalPrice": 3310,
+      "discount": 60,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32470/capsule_184x69.jpg"
+    },
+    {
       "name": "Cyberpunk 2077: Phantom Liberty",
       "appid": 2138330,
-      "price": 14900,
-      "finalPrice": 8940,
+      "price": 2999,
+      "finalPrice": 1799,
       "discount": 40,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/capsule_184x69.jpg"
     },
     {
-      "name": "Road to Empress Collection",
-      "appid": 77115,
-      "price": 12300,
-      "finalPrice": 8872,
-      "discount": 12,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/77115/capsule_184x69.jpg"
-    },
-    {
-      "name": "Road to Empress Ⅱ",
-      "appid": 4148240,
-      "price": 7400,
-      "finalPrice": 5920,
-      "discount": 20,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/capsule_184x69.jpg"
-    },
-    {
-      "name": "Split Fiction",
-      "appid": 2001120,
-      "price": 19800,
-      "finalPrice": 12870,
-      "discount": 35,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/capsule_184x69.jpg"
-    },
-    {
-      "name": "DAVE THE DIVER - In the Jungle Content Pack",
-      "appid": 4394810,
-      "price": 3900,
-      "finalPrice": 3900,
+      "name": "Steam Controller",
+      "appid": 4165870,
+      "price": 9900,
+      "finalPrice": 9900,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4394810/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165870/capsule_184x69.jpg"
     },
     {
-      "name": "It Takes Two",
-      "appid": 1426210,
-      "price": 19800,
-      "finalPrice": 5940,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_184x69.jpg"
-    },
-    {
-      "name": "Road to Empress I",
-      "appid": 3478050,
-      "price": 4900,
-      "finalPrice": 4900,
+      "name": "The Adventures of Elliot: The Millennium Tales",
+      "appid": 3483510,
+      "price": 5999,
+      "finalPrice": 5999,
       "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3478050/capsule_184x69.jpg"
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/capsule_184x69.jpg"
+    },
+    {
+      "name": "Atomfall",
+      "appid": 801800,
+      "price": 4999,
+      "finalPrice": 1999,
+      "discount": 60,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/capsule_184x69.jpg"
+    },
+    {
+      "name": "Stellaris: Ultimate",
+      "appid": 21037,
+      "price": 39077,
+      "finalPrice": 14791,
+      "discount": 48,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21037/capsule_184x69.jpg"
+    },
+    {
+      "name": "Jurassic World Evolution 3",
+      "appid": 2958130,
+      "price": 5999,
+      "finalPrice": 4019,
+      "discount": 33,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2958130/capsule_184x69.jpg"
+    },
+    {
+      "name": "Stellaris: Season 10",
+      "appid": 1484711,
+      "price": 4949,
+      "finalPrice": 4949,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1484711/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []

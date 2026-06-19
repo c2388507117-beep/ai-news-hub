@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T12:20:28.469Z",
+  "fetchedAt": "2026-06-19T15:17:53.927Z",
   "items": [
+    {
+      "title": "產後調理院",
+      "extract": "《產後調理院》，為韓國tvN於2020年11月2日起播出的月火連續劇，由《機智牢房生活》的朴秀元導演與金智秀編劇合作打造。此劇以產後調理院（坐月子中心）為背景，講述身為高齡產婦的主角賢珍所展開的生育災難喜劇故事。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%94%A2%E5%BE%8C%E8%AA%BF%E7%90%86%E9%99%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/c/c1/Birthcare_tvn.png",
+      "source": "wikipedia"
+    },
     {
       "title": "跳蝽属",
       "extract": "跳蝽属 是跳蝽科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "马后炮，象棋中的杀招，炮、马与对方将 （帅）并线。马位于将（帅）前两格，作炮的炮架，同時限制对方将（帅）的移動。炮位于马后，使对方将（帅）无法移动。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%90%8E%E7%82%AE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Xiangqi_board.svg/langzh-330px-Xiangqi_board.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "福島競馬場",
-      "extract": "福島競馬場 是位於日本福島縣福島市的競馬場。爲日本中央競馬會管理的馬場之一，可容納38500名觀衆。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%B3%B6%E7%AB%B6%E9%A6%AC%E5%A0%B4",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/%E7%A6%8F%E5%B3%B6%E7%AB%B6%E9%A6%AC%E5%A0%B4%EF%BC%88%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8920250629-P1069928.jpg/330px-%E7%A6%8F%E5%B3%B6%E7%AB%B6%E9%A6%AC%E5%A0%B4%EF%BC%88%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%8920250629-P1069928.jpg",
       "source": "wikipedia"
     }
   ]
