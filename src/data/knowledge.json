@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T16:18:12.699Z",
+  "fetchedAt": "2026-06-19T18:14:40.973Z",
   "items": [
+    {
+      "title": "大田政作",
+      "extract": "大田政作，日本沖繩縣國頭郡國頭村出身的政治人物，曾任法官、檢察官和律師。臺灣日治時期最後一任澎湖廳長（1942年－1945年），也是澎湖廳唯一一位琉球出身的行政首長、美國統治琉球時期琉球政府的第三任行政主席（1959年－1964年）。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B0%E6%94%BF%E4%BD%9C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Seisaku_Ota.JPG/330px-Seisaku_Ota.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "中正北路 (臺南市)",
       "extract": "中正北路 是臺南市永康區的南北向主要聯外道路，全線屬於台1線，南承接自中正南路，北終至鹽水溪與新市區中山路相連接。本路段從鹽行地區向東接續中正南路延伸，經永康交流道後進入蔦松地區，可經由永大陸橋往南連結永大路，進而聯絡大灣地區及仁德區，或是持續北上聯絡新市區、善化區等地，南下設有平面聯絡道連接臺南都會區北外環道路，並設有通往台南科學園區的「南科聯絡道」。位於本路段的蔦松地區是典型的工業聚落，範圍涵蓋東側的永康產業園區。\n",
@@ -27,13 +34,6 @@
       "extract": "赫利奥藻科  为圆筛藻目的一个科。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%88%A9%E5%A5%A5%E8%97%BB%E7%A7%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Actinoptychus_senarius_1260A_14R_1W.JPG/330px-Actinoptychus_senarius_1260A_14R_1W.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "共和國日",
-      "extract": "共和國日 在一些國家是節假日，用來慶祝國家成為共和國。例如意大利的共和國日是6月12日，紀念意大利在1946年義大利政體公投中決定改行共和政體（公投日期是6月2日）。愛爾蘭共和國的共和國日則是1949年4月18日，紀念愛爾蘭共和國法生效。希臘的共和國日是1974年12月8日。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%B1%E5%92%8C%E5%9C%8B%E6%97%A5",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Festa_della_repubblica_2005_con_frecce_tricolori.jpg/330px-Festa_della_repubblica_2005_con_frecce_tricolori.jpg",
       "source": "wikipedia"
     }
   ]
