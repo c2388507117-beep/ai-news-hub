@@ -5,7 +5,6 @@ import Wallpaper from '../components/Wallpaper.astro';
 import NetEaseMusic from '../components/NetEaseMusic.astro';
 import FootballStandings from '../components/FootballStandings.astro';
 import SteamCharts from '../components/SteamCharts.astro';
-import BilibiliFavorites from '../components/BilibiliFavorites.astro';
 import StockMarket from '../components/StockMarket.astro';
 import WallpaperGallery from '../components/WallpaperGallery.astro';
 import DailyKnowledge from '../components/DailyKnowledge.astro';
@@ -25,14 +24,13 @@ import StarTrend from '../components/StarTrend.astro';
 import AIEventCalendar from '../components/AIEventCalendar.astro';
 import TechTimeline from '../components/TechTimeline.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic, TodayHistoryData } from '../lib/types';
+import type { NewsItem, Category, WallpaperData, FootballData, SteamData, KnowledgeItem, KnowledgeList, DigestData, HotTopic, TodayHistoryData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
 import wallpaperGirlData from '../data/wallpapers-girl.json';
 import footballData from '../data/football.json';
 import steamData from '../data/steam.json';
-import bilibiliData from '../data/bilibili.json';
 import knowledgeData from '../data/knowledge.json';
 import digestData from '../data/digest.json';
 import hotTopicsData from '../data/hot-topics.json';
@@ -48,7 +46,6 @@ const wallpapers = wallpaperData as WallpaperData;
 const wallpapersGirl = wallpaperGirlData as WallpaperData;
 const football = footballData as FootballData;
 const steam = steamData as SteamData;
-const bilibili = bilibiliData as BilibiliData;
 const knowledge = knowledgeData as KnowledgeList | null;
 const digest = digestData as DigestData;
 const hotTopics = hotTopicsData as HotTopic[];
@@ -220,7 +217,6 @@ for (const [id, items] of relatedMap) {
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
       <NetEaseMusic />
       <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
-      <BilibiliFavorites data={bilibili} />
       <ShoppingCompare />
       <CurrencyExchange />
       <RandomPicker />
