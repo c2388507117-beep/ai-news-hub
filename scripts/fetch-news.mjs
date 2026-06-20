@@ -28,6 +28,8 @@ const SOURCES = [
   { name: '机核网', url: 'https://www.gcores.com/rss', category: 'gaming' },
   { name: '虎嗅', url: 'https://www.huxiu.com/rss/0.xml', category: 'tech' },
   { name: '澎湃新闻', url: 'https://www.thepaper.cn/rss/news.xml', category: 'tech' },
+  { name: '掘金', url: 'https://rsshub.app/juejin/trending', category: 'tech' },
+  { name: '知乎日报', url: 'https://rsshub.app/zhihu/daily', category: 'tech' },
 ];
 
 // Keyword rules for auto-categorization (overrides source default)
