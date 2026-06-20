@@ -89,6 +89,51 @@
           "stars": 99620
         }
       ]
+    },
+    {
+      "date": "2026-06-20",
+      "repos": [
+        {
+          "name": "openclaw/openclaw",
+          "stars": 379535
+        },
+        {
+          "name": "obra/superpowers",
+          "stars": 233425
+        },
+        {
+          "name": "affaan-m/ECC",
+          "stars": 218319
+        },
+        {
+          "name": "NousResearch/hermes-agent",
+          "stars": 197694
+        },
+        {
+          "name": "multica-ai/andrej-karpathy-skills",
+          "stars": 178855
+        },
+        {
+          "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "stars": 140902
+        },
+        {
+          "name": "msitarzewski/agency-agents",
+          "stars": 114576
+        },
+        {
+          "name": "github/spec-kit",
+          "stars": 114175
+        },
+        {
+          "name": "google-gemini/gemini-cli",
+          "stars": 105417
+        },
+        {
+          "name": "browser-use/browser-use",
+          "stars": 99620
+        }
+      ]
     }
   ]
 }
