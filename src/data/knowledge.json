@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-20T02:46:42.699Z",
+  "fetchedAt": "2026-06-20T04:48:22.947Z",
   "items": [
+    {
+      "title": "鶴島市",
+      "extract": "鶴島市 是日本埼玉縣中部的城市，人口約7万人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%B6%B4%E5%B3%B6%E5%B8%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Turugashima_JCT_2.JPG/330px-Turugashima_JCT_2.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "卢克·巴莫特",
       "extract": "盧克·理察·巴莫特，出生於喀麥隆首都雅溫德（Yaounde,Cameroon），為現役喀麥隆職業籃球運動員，場上主要位置為小前鋒或大前鋒。目前為自由球員。\n",
@@ -27,13 +34,6 @@
       "extract": "馬沙度，葡萄牙政治家、軍人、童子軍和鐵路工人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%B2%99%E5%BA%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/%C3%81lvaro_de_Melo_Machado_-_uniforme_escotista.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉达·冯德罗娃",
-      "extract": "拉达·冯德罗娃，捷克女子田径运动员，2019年欧洲U23田径锦标赛女子400米银牌得主、2021年欧洲U23田径锦标赛女子400米和女子4×400米接力金牌得主、2023年世界田径锦标赛混合4×400米接力铜牌得主。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%BE%BE%C2%B7%E5%86%AF%E5%BE%B7%E7%BD%97%E5%A8%83",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lada_Vondrov%C3%A1_%28CZE%29_2023.jpg/330px-Lada_Vondrov%C3%A1_%28CZE%29_2023.jpg",
       "source": "wikipedia"
     }
   ]
