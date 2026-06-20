@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-20T08:33:56.710Z",
+  "fetchedAt": "2026-06-20T11:33:05.946Z",
   "items": [
+    {
+      "title": "火力發電廠",
+      "extract": "火力发电厂（简称火电厂）或称化石燃料发电厂，是指靠燃烧化石燃料（煤、天然气或石油）来产生电能的热力发电厂。火力发电厂可以持续地穩定大量供电，在许多国家，大部分电能均由火力发电厂提供。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Circle_frame.svg/langzh-330px-Circle_frame.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "美洲矛吻蝠屬",
       "extract": "美洲矛吻蝠屬，哺乳綱、翼手目、葉口蝠科的一屬，而與美洲矛吻蝠屬（鋸緣矛吻蝠）同科的動物尚有狹面矛吻蝠屬（狹面矛吻蝠）、矛吻蝠屬（矛吻蝠）、南美大耳蝠屬（絨大耳蝠）、美洲葉鼻蝠屬（加州葉鼻蝠）等之數種哺乳動物。\n",
@@ -27,13 +34,6 @@
       "extract": "戴维·拉廷，美国NBA联盟前职业篮球运动员。他在1967年的NBA选秀中第1轮第10顺位被旧金山勇士选中。畢業於TEXAS WESTERN COLLEGE，且於1965-66為TEXAS WESTERN COLLEGE奪得冠軍。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E5%A4%AB%C2%B7%E6%8B%89%E5%BB%B7",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/David_Lattin_UTEP.jpg/330px-David_Lattin_UTEP.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "炯燮x義雄",
-      "extract": "炯燮x義雄，為韓國乐华娱乐於2017年推出的雙人期間限定男子音樂團體，成員包括Mnet選秀節目《PRODUCE 101 第二季》乐华娱乐旗下人氣練習生安炯燮和李義雄。2017年11月2日，推出首張迷你專輯《The Moment of Memory》正式出道。2020年8月17日，公告結束官咖營運，準備於新男團出道。2022年，兩人於樂華娛樂七人新男團TEMPEST出道。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%82%AF%E7%87%AEx%E7%BE%A9%E9%9B%84",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/171018_%EC%9D%B4%EC%9D%98%EC%9B%85%26%EC%95%88%ED%98%95%EC%84%AD.jpg/330px-171018_%EC%9D%B4%EC%9D%98%EC%9B%85%26%EC%95%88%ED%98%95%EC%84%AD.jpg",
       "source": "wikipedia"
     }
   ]
