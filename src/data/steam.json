@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T23:19:45.426Z",
+  "fetchedAt": "2026-06-20T01:23:17.710Z",
   "topSellers": [
     {
       "name": "MECCHA CHAMELEON",
@@ -10,20 +10,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/capsule_184x69.jpg"
     },
     {
-      "name": "Cyberpunk 2077",
-      "appid": 1091500,
-      "price": 5999,
-      "finalPrice": 1799,
-      "discount": 70,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_184x69.jpg"
-    },
-    {
       "name": "Steam Deck",
       "appid": 1675200,
       "price": 39900,
       "finalPrice": 39900,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_184x69.jpg"
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "appid": 1091500,
+      "price": 5999,
+      "finalPrice": 1799,
+      "discount": 70,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_184x69.jpg"
     },
     {
       "name": "Steam Controller",
@@ -58,20 +58,20 @@
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/capsule_184x69.jpg"
     },
     {
-      "name": "Destiny 2: The Collection",
-      "appid": 72233,
-      "price": 14491,
-      "finalPrice": 6960,
-      "discount": 0,
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72233/capsule_184x69.jpg"
-    },
-    {
       "name": "Subnautica 2",
       "appid": 1962700,
       "price": 2999,
       "finalPrice": 2999,
       "discount": 0,
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/capsule_184x69.jpg"
+    },
+    {
+      "name": "Paralives",
+      "appid": 1118520,
+      "price": 3999,
+      "finalPrice": 3999,
+      "discount": 0,
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/capsule_184x69.jpg"
     }
   ],
   "mostPlayed": []
