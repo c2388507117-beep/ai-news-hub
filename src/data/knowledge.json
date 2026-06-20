@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-20T01:31:50.933Z",
+  "fetchedAt": "2026-06-20T01:37:31.269Z",
   "items": [
+    {
+      "title": "拉达·冯德罗娃",
+      "extract": "拉达·冯德罗娃，捷克女子田径运动员，2019年欧洲U23田径锦标赛女子400米银牌得主、2021年欧洲U23田径锦标赛女子400米和女子4×400米接力金牌得主、2023年世界田径锦标赛混合4×400米接力铜牌得主。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%BE%BE%C2%B7%E5%86%AF%E5%BE%B7%E7%BD%97%E5%A8%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lada_Vondrov%C3%A1_%28CZE%29_2023.jpg/330px-Lada_Vondrov%C3%A1_%28CZE%29_2023.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "埃迪·琼斯",
       "extract": "埃迪·查尔斯·琼斯，美国NBA联盟职业篮球运动员。他身高六呎六寸，體重二百磅，擔任得分後衛，在1994加入NBA，先後為洛杉磯湖人、夏洛特黃蜂、邁阿密熱火、孟菲斯灰熊以及达拉斯小牛效力。\n",
@@ -27,13 +34,6 @@
       "extract": "格奥尔基·特塔鲁，罗马尼亚男子足球运动员，司职前锋。他曾代表罗马尼亚国家队参加1970年国际足联世界杯，结果队伍止步小组赛阶段。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E5%9F%BA%C2%B7%E7%89%B9%E5%A1%94%E9%B2%81",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gheorghe_T%C4%83taru_1967.jpg/330px-Gheorghe_T%C4%83taru_1967.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉莫特阿沙尔",
-      "extract": "拉莫特阿沙尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，位于该省西部，属于莱萨布勒多洛讷区。2017年1月1日，拉莫特阿沙尔相邻的拉沙佩勒阿沙尔合并为新市镇莱萨沙尔，并成为新市镇的政府驻地。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%8E%AB%E7%89%B9%E9%98%BF%E6%B2%99%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chateau_Domaine_Brandois_85.JPG/330px-Chateau_Domaine_Brandois_85.JPG",
       "source": "wikipedia"
     }
   ]
