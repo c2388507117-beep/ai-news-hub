@@ -1,0 +1,67 @@
+---
+// StarTrend — GitHub 热门仓库星标趋势
+// Shows top repos from star-history.json with star counts
+
+export interface Props {
+  data: { snapshots: Array<{ date: string; repos: Array<{ name: string; stars: number }> }> };
+}
+
+const { data } = Astro.props;
+const snapshots = data?.snapshots || [];
+
+// Get the latest snapshot's repos, sorted by stars desc, top 5
+let topRepos: Array<{ name: string; stars: number; shortName: string }> = [];
+if (snapshots.length > 0) {
+  const latest = snapshots[snapshots.length - 1];
+  topRepos = (latest.repos || [])
+    .sort((a, b) => b.stars - a.stars)
+    .slice(0, 5)
+    .map(r => ({
+      name: r.name,
+      stars: r.stars,
+      shortName: r.name.split('/')[1] || r.name,
+    }));
+}
+
+// Calculate max stars for bar widths
+const maxStars = topRepos.length > 0 ? topRepos[0].stars : 1;
+
+function fmtStars(n: number): string {
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+  return String(n);
+}
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-yellow-600 to-amber-600 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">⭐</span> GitHub 趋势仓库
+    </h3>
+  </div>
+  {topRepos.length > 0 ? (
+    <div class="p-3 space-y-2.5">
+      {topRepos.map((repo) => {
+        const pct = Math.max(5, (repo.stars / maxStars) * 100);
+        return (
+          <div>
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="font-medium text-gray-700 dark:text-gray-300 truncate">{repo.shortName}</span>
+              <span class="text-gray-500 dark:text-gray-400 tabular-nums">{fmtStars(repo.stars)} ⭐</span>
+            </div>
+            <div class="w-full h-2 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
+              <div
+                class="h-full bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full transition-all duration-500"
+                style={`width: ${pct}%`}
+              ></div>
+            </div>
+          </div>
+        );
+      })}
+      <p class="text-[10px] text-gray-400 dark:text-gray-500 text-right pt-1">
+        {snapshots.length} 次记录
+      </p>
+    </div>
+  ) : (
+    <p class="text-center text-gray-400 py-6 text-xs">暂无数据（等待首次抓取）</p>
+  )}
+</div>

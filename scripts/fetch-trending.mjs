@@ -165,6 +165,29 @@ async function main() {
 
   fs.writeFileSync(dataPath, JSON.stringify(merged, null, 2), 'utf-8');
   console.log(`\nDone: ${trendingItems.length} trending repos, ${merged.length} total items`);
+
+  // Save star history snapshot
+  const starHistoryPath = path.join(__dirname, '..', 'src', 'data', 'star-history.json');
+  try {
+    let starHistory = { snapshots: [] };
+    try { starHistory = JSON.parse(fs.readFileSync(starHistoryPath, 'utf-8')); } catch {}
+    const snapshot = {
+      date: new Date().toISOString().slice(0, 10),
+      repos: top.slice(0, 10).map(r => ({
+        name: r.full_name,
+        stars: r.stargazers_count,
+      })),
+    };
+    starHistory.snapshots.push(snapshot);
+    // Keep only last 90 days
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 90);
+    starHistory.snapshots = starHistory.snapshots.filter(s => new Date(s.date) >= cutoff);
+    fs.writeFileSync(starHistoryPath, JSON.stringify(starHistory, null, 2), 'utf-8');
+    console.log(`  ✓ Star history: ${starHistory.snapshots.length} snapshots`);
+  } catch (err) {
+    console.error(`  ✗ Star history save failed: ${err.message}`);
+  }
 }
 
 main().catch(console.error);
