@@ -269,6 +269,51 @@
           "stars": 99673
         }
       ]
+    },
+    {
+      "date": "2026-06-20",
+      "repos": [
+        {
+          "name": "pewdiepie-archdaemon/odysseus",
+          "stars": 74731
+        },
+        {
+          "name": "DietrichGebert/ponytail",
+          "stars": 41729
+        },
+        {
+          "name": "XiaomiMiMo/MiMo-Code",
+          "stars": 10031
+        },
+        {
+          "name": "omnigent-ai/omnigent",
+          "stars": 4144
+        },
+        {
+          "name": "OpenBMB/PilotDeck",
+          "stars": 3575
+        },
+        {
+          "name": "nexu-io/html-video",
+          "stars": 3347
+        },
+        {
+          "name": "GordenSun/GordenPPTSkill",
+          "stars": 2149
+        },
+        {
+          "name": "JimLiu/baoyu-design",
+          "stars": 1658
+        },
+        {
+          "name": "jd-opensource/JoyAI-Echo",
+          "stars": 1613
+        },
+        {
+          "name": "code-yeongyu/lazycodex",
+          "stars": 1583
+        }
+      ]
     }
   ]
 }
