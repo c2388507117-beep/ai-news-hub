@@ -1,0 +1,30 @@
+---
+import type { TodayHistoryData } from '../lib/types';
+export interface Props { data: TodayHistoryData | null; }
+const { data } = Astro.props;
+const items = data?.items || [];
+---
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-purple-600 to-indigo-600 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">📅</span> 历史上的今天
+    </h3>
+  </div>
+  {items.length > 0 ? (
+    <div class="divide-y divide-gray-100 dark:divide-gray-800">
+      {items.map((item) => (
+        <div class="px-4 py-2.5">
+          <div class="flex items-baseline gap-2">
+            <span class="text-xs font-bold text-purple-600 dark:text-purple-400 flex-shrink-0">{item.year}</span>
+            <p class="text-sm text-gray-800 dark:text-gray-200 leading-snug">{item.title}</p>
+          </div>
+          {item.desc && (
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5 line-clamp-2">{item.desc}</p>
+          )}
+        </div>
+      ))}
+    </div>
+  ) : (
+    <p class="text-center text-gray-400 py-6 text-xs">暂无数据</p>
+  )}
+</div>

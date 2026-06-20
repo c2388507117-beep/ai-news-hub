@@ -9,6 +9,7 @@ import BilibiliFavorites from '../components/BilibiliFavorites.astro';
 import StockMarket from '../components/StockMarket.astro';
 import WallpaperGallery from '../components/WallpaperGallery.astro';
 import DailyKnowledge from '../components/DailyKnowledge.astro';
+import TodayHistory from '../components/TodayHistory.astro';
 import DailyDigest from '../components/DailyDigest.astro';
 import SalaryCountdown from '../components/SalaryCountdown.astro';
 import RandomPicker from '../components/RandomPicker.astro';
@@ -21,7 +22,7 @@ import ElectricalCalc from '../components/ElectricalCalc.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import HotTopics from '../components/HotTopics.astro';
 import Footer from '../components/Footer.astro';
-import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic } from '../lib/types';
+import type { NewsItem, Category, WallpaperData, FootballData, SteamData, BilibiliData, KnowledgeItem, KnowledgeList, DigestData, HotTopic, TodayHistoryData } from '../lib/types';
 import { CATEGORY_LABELS, CATEGORY_EMOJIS, ALL_CATEGORIES } from '../lib/types';
 import allNewsData from '../data/news.json';
 import wallpaperData from '../data/wallpapers.json';
@@ -32,6 +33,7 @@ import bilibiliData from '../data/bilibili.json';
 import knowledgeData from '../data/knowledge.json';
 import digestData from '../data/digest.json';
 import hotTopicsData from '../data/hot-topics.json';
+import todayHistoryData from '../data/today-history.json';
 
 const allNews = allNewsData as NewsItem[];
 const ogTitle = allNews[0]?.title || 'AI News Hub';
@@ -45,6 +47,7 @@ const bilibili = bilibiliData as BilibiliData;
 const knowledge = knowledgeData as KnowledgeList | null;
 const digest = digestData as DigestData;
 const hotTopics = hotTopicsData as HotTopic[];
+const todayHistory = todayHistoryData as TodayHistoryData;
 
 // --- Compute Related Articles (same as before) ---
 const commonWords = new Set([
@@ -251,6 +254,7 @@ for (const [id, items] of relatedMap) {
       <aside class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
         <NetEaseMusic />
         <DailyKnowledge data={knowledge} />
+        <TodayHistory data={todayHistory} />
         <DutyRoster />
         <HotTopics topics={hotTopics} />
         <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />

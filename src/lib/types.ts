@@ -240,6 +240,16 @@ export interface DigestData {
   items: DigestItem[];
 }
 
+export interface TodayHistoryItem {
+  year: string;
+  title: string;
+  desc: string;
+}
+export interface TodayHistoryData {
+  fetchedAt: string;
+  items: TodayHistoryItem[];
+}
+
 export interface KnowledgeList {
   fetchedAt: string;
   items: KnowledgeItem[];
