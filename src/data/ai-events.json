@@ -1,8 +1,0 @@
-[
-  { "date": "2026-06-01", "title": "Claude Fable 5 发布", "desc": "Anthropic 发布 Claude Fable 5，推理能力大幅提升", "url": "", "tag": "产品" },
-  { "date": "2026-05-13", "title": "OpenAI GPT-5 发布", "desc": "OpenAI 发布 GPT-5，多模态推理能力飞跃", "url": "", "tag": "产品" },
-  { "date": "2026-04-09", "title": "Google Gemini 3 发布", "desc": "Google 发布 Gemini 3，集成到更多服务", "url": "", "tag": "产品" },
-  { "date": "2026-03-18", "title": "DeepSeek R2 发布", "desc": "DeepSeek 发布 R2 模型，开源社区引起轰动", "url": "", "tag": "开源" },
-  { "date": "2026-02-10", "title": "Sora 正式上线", "desc": "OpenAI Sora 视频生成向公众开放", "url": "", "tag": "产品" },
-  { "date": "2026-01-15", "title": "Meta Llama 4 发布", "desc": "Meta 发布 Llama 4 开源模型系列", "url": "", "tag": "开源" }
-]

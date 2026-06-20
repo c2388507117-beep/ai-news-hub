@@ -1,49 +1,18 @@
 ---
-// MultiCityWeather - self-contained weather widget supporting multiple cities
+// XingtaiWeather — 邢台天气（单城市）
 // Uses wttr.in free API (no API key required)
-// API: https://wttr.in/{city}?format=j1
-
-const CITIES = [
-  { name: '邢台', eng: 'Xingtai' },
-  { name: '北京', eng: 'Beijing' },
-  { name: '上海', eng: 'Shanghai' },
-  { name: '广州', eng: 'Guangzhou' },
-  { name: '深圳', eng: 'Shenzhen' },
-  { name: '成都', eng: 'Chengdu' },
-  { name: '杭州', eng: 'Hangzhou' },
-  { name: '武汉', eng: 'Wuhan' },
-  { name: '南京', eng: 'Nanjing' },
-  { name: '重庆', eng: 'Chongqing' },
-  { name: '西安', eng: "Xi'an" },
-];
 ---
 
 <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
-  <div class="bg-gradient-to-r from-amber-500 to-orange-500 px-4 py-3 flex items-center justify-between">
+  <div class="bg-gradient-to-r from-amber-500 to-orange-500 px-4 py-3">
     <h3 class="text-sm font-bold text-white flex items-center gap-2">
-      <span aria-hidden="true">🌤️</span>
-      <span id="weather-title">邢台天气</span>
+      <span aria-hidden="true">🌤️</span> 邢台天气
     </h3>
-    <select id="city-selector" class="text-xs rounded-lg border-0 bg-white/20 text-white px-2 py-1 focus:outline-none focus:ring-2 focus:ring-white/40 cursor-pointer" aria-label="选择城市">
-      {CITIES.map(c => (
-        <option value={c.eng} class="text-gray-800 bg-white">{c.name}</option>
-      ))}
-    </select>
   </div>
   <div class="p-4" id="weather-widget">
-    <!-- Loading state -->
-    <div id="weather-loading" class="text-center text-gray-500 dark:text-gray-400 text-sm py-4">
-      🌤️ 加载天气...
-    </div>
-
-    <!-- Error state (hidden by default) -->
-    <div id="weather-error" class="text-center text-red-500 text-sm py-4 hidden">
-      ❌ 天气加载失败
-    </div>
-
-    <!-- Weather content (hidden by default, shown after successful fetch) -->
+    <div id="weather-loading" class="text-center text-gray-500 dark:text-gray-400 text-sm py-4">🌤️ 加载中...</div>
+    <div id="weather-error" class="text-center text-red-500 text-sm py-4 hidden">❌ 天气加载失败</div>
     <div id="weather-content" class="hidden">
-      <!-- Current weather -->
       <div class="text-center mb-4">
         <div class="text-4xl font-bold text-gray-800 dark:text-gray-200 tabular-nums" id="weather-temp">--</div>
         <div class="text-sm text-gray-500 dark:text-gray-400 mt-1" id="weather-desc">--</div>
@@ -52,24 +21,10 @@ const CITIES = [
           <span id="weather-wind">💨 --</span>
         </div>
       </div>
-
-      <!-- 3-day forecast (collapsible, default folded) -->
       <details class="text-xs">
-        <summary class="font-medium text-gray-600 dark:text-gray-300 cursor-pointer hover:text-gray-800 dark:hover:text-gray-100 list-none flex items-center gap-1 [&::-webkit-details-marker]:hidden">
-          📅 未来3天预报
-        </summary>
-        <div class="mt-2 space-y-2" id="weather-forecast">
-          <!-- Filled by JS -->
-        </div>
+        <summary class="font-medium text-gray-600 dark:text-gray-300 cursor-pointer hover:text-gray-800 dark:hover:text-gray-100 list-none flex items-center gap-1 [&::-webkit-details-marker]:hidden">📅 未来3天预报</summary>
+        <div class="mt-2 space-y-2" id="weather-forecast"></div>
       </details>
-
-      <!-- 24h forecast (horizontal scroll) -->
-      <div class="mt-3">
-        <div class="text-xs font-medium text-gray-600 dark:text-gray-300 mb-2">🕐 逐时预报</div>
-        <div class="flex gap-2 overflow-x-auto pb-2" id="weather-hourly">
-          <!-- Filled by JS -->
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -77,218 +32,61 @@ const CITIES = [
 <script>
 (function() {
   'use strict';
+  var CACHE_KEY = 'xingtai-weather';
+  var CACHE_TTL = 30 * 60 * 1000;
+  var els = {};
+  ['loading','error','content','temp','desc','humidity','wind','forecast'].forEach(function(k) {
+    els[k] = document.getElementById('weather-' + k);
+  });
+  if (!els.loading) return;
 
-  var CACHE_KEY_PREFIX = 'weather-cache-';
-  var CACHE_TTL = 30 * 60 * 1000; // 30 minutes
-  var CITY_STORAGE_KEY = 'weather-city';
-
-  var CITIES = [
-    { name: '邢台', eng: 'Xingtai' },
-    { name: '北京', eng: 'Beijing' },
-    { name: '上海', eng: 'Shanghai' },
-    { name: '广州', eng: 'Guangzhou' },
-    { name: '深圳', eng: 'Shenzhen' },
-    { name: '成都', eng: 'Chengdu' },
-    { name: '杭州', eng: 'Hangzhou' },
-    { name: '武汉', eng: 'Wuhan' },
-    { name: '南京', eng: 'Nanjing' },
-    { name: '重庆', eng: 'Chongqing' },
-    { name: '西安', eng: "Xi'an" },
-  ];
-
-  // DOM refs
-  var loadingEl = document.getElementById('weather-loading');
-  var errorEl = document.getElementById('weather-error');
-  var contentEl = document.getElementById('weather-content');
-  var tempEl = document.getElementById('weather-temp');
-  var descEl = document.getElementById('weather-desc');
-  var humidityEl = document.getElementById('weather-humidity');
-  var windEl = document.getElementById('weather-wind');
-  var forecastEl = document.getElementById('weather-forecast');
-  var hourlyEl = document.getElementById('weather-hourly');
-  var titleEl = document.getElementById('weather-title');
-  var selectorEl = document.getElementById('city-selector');
-
-  if (!loadingEl || !errorEl || !contentEl || !tempEl || !descEl || !humidityEl || !windEl || !forecastEl || !hourlyEl || !titleEl || !selectorEl) {
-    throw new Error('WeatherWidget: missing DOM elements');
+  function emoji(c) {
+    var n = Number(c);
+    if (n === 113) return '☀️'; if (n === 116) return '⛅';
+    if (n >= 119 && n <= 122) return '☁️'; if (n >= 176 && n <= 200) return '🌧️';
+    if (n >= 227 && n <= 230) return '❄️'; return '🌤️';
+  }
+  function fmtDate(s) {
+    var d = new Date(s + 'T00:00:00');
+    if (isNaN(d.getTime())) return s;
+    return (d.getMonth()+1)+'/'+d.getDate()+' '+['周日','周一','周二','周三','周四','周五','周六'][d.getDay()];
   }
 
-  function getWeatherEmoji(code) {
-    var c = Number(code);
-    if (c === 113) return '☀️';
-    if (c === 116) return '⛅';
-    if (c >= 119 && c <= 122) return '☁️';
-    if (c >= 176 && c <= 200) return '🌧️';
-    if (c >= 227 && c <= 230) return '❄️';
-    if (c >= 248 && c <= 260) return '🌫️';
-    if (c >= 143 && c <= 248) return '🌫️';
-    if (c >= 263 && c <= 389) return '🌧️';
-    return '🌤️';
-  }
-
-  function fmtTime(time) {
-    var s = String(time).padStart(4, '0');
-    return s.slice(0, 2) + ':' + s.slice(2);
-  }
-
-  function fmtDate(dateStr) {
-    var d = new Date(dateStr + 'T00:00:00');
-    if (isNaN(d.getTime())) return dateStr;
-    var month = d.getMonth() + 1;
-    var day = d.getDate();
-    var weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
-    return month + '/' + day + ' ' + (weekdays[d.getDay()] || '');
-  }
-
-  function getSelectedCity() {
+  (async function() {
     try {
-      return localStorage.getItem(CITY_STORAGE_KEY) || 'Xingtai';
-    } catch { return 'Xingtai'; }
-  }
-
-  function setSelectedCity(eng) {
-    try { localStorage.setItem(CITY_STORAGE_KEY, eng); } catch {}
-  }
-
-  function getCityName(eng) {
-    for (var i = 0; i < CITIES.length; i++) {
-      if (CITIES[i].eng === eng) return CITIES[i].name;
+      var cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || '{}');
+      if (cached && cached.ts && Date.now() - cached.ts < CACHE_TTL) { render(cached.data); return; }
+      var res = await fetch('https://wttr.in/Xingtai?format=j1');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+      sessionStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: data }));
+      render(data);
+    } catch(e) {
+      console.error(e);
+      els.loading.classList.add('hidden');
+      els.error.classList.remove('hidden');
     }
-    return eng;
-  }
-
-  async function loadWeather(city) {
-    var cacheKey = CACHE_KEY_PREFIX + city;
-    try {
-      var cached = sessionStorage.getItem(cacheKey);
-      if (cached) {
-        var parsed = JSON.parse(cached);
-        if (parsed && parsed.timestamp && parsed.data && Date.now() - parsed.timestamp < CACHE_TTL) {
-          return parsed.data;
-        }
-      }
-    } catch (_) {}
-
-    var url = 'https://wttr.in/' + encodeURIComponent(city) + '?format=j1';
-    var res = await fetch(url);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    var data = await res.json();
-
-    try {
-      sessionStorage.setItem(cacheKey, JSON.stringify({ timestamp: Date.now(), data: data }));
-    } catch (_) {}
-
-    return data;
-  }
+  })();
 
   function render(data) {
-    var current = data.current_condition && data.current_condition[0];
-    if (!current) throw new Error('No current_condition in API response');
+    var c = data.current_condition && data.current_condition[0];
+    if (!c) throw new Error('No data');
+    els.temp.textContent = (c.temp_C || '--') + '°C';
+    els.desc.textContent = emoji(c.weatherCode) + ' ' + ((c.weatherDesc && c.weatherDesc[0] && c.weatherDesc[0].value) || '--');
+    els.humidity.textContent = '💧 ' + (c.humidity || '--') + '%';
+    els.wind.textContent = '💨 ' + (c.windSpeedKmph || '--') + ' km/h';
 
-    tempEl.textContent = (current.temp_C || '--') + '°C';
-
-    var desc = (current.weatherDesc && current.weatherDesc[0] && current.weatherDesc[0].value) || '--';
-    descEl.textContent = getWeatherEmoji(current.weatherCode) + ' ' + desc;
-
-    humidityEl.textContent = '💧 ' + (current.humidity || '--') + '%';
-    windEl.textContent = '💨 ' + (current.windSpeedKmph || '--') + ' km/h';
-
-    // 3-day forecast
-    if (data.weather && data.weather.length > 0) {
-      forecastEl.innerHTML = '';
-      var days = data.weather.slice(0, 3);
-      for (var i = 0; i < days.length; i++) {
-        var day = days[i];
-        if (!day) continue;
-        var dayEmoji = '🌤️';
-        if (day.hourly && day.hourly.length > 0) {
-          var noonIdx = Math.min(day.hourly.length - 1, 4);
-          if (day.hourly[noonIdx] && day.hourly[noonIdx].weatherCode != null) {
-            dayEmoji = getWeatherEmoji(day.hourly[noonIdx].weatherCode);
-          }
-        }
-        var el = document.createElement('div');
-        el.className = 'flex items-center justify-between text-gray-600 dark:text-gray-300';
-        el.innerHTML = '<span>' + fmtDate(day.date) + '</span><span>' + dayEmoji + '</span><span class="tabular-nums">' + (day.tempMinC ?? '--') + '° / ' + (day.tempMaxC ?? '--') + '°C</span>';
-        forecastEl.appendChild(el);
-      }
+    if (data.weather) {
+      els.forecast.innerHTML = '';
+      data.weather.slice(0,3).forEach(function(d) {
+        var e = document.createElement('div');
+        e.className = 'flex items-center justify-between text-gray-600 dark:text-gray-300';
+        e.innerHTML = '<span>' + fmtDate(d.date) + '</span><span>' + emoji(d.hourly?.[4]?.weatherCode) + '</span><span class="tabular-nums">' + (d.tempMinC ?? '--') + '° / ' + (d.tempMaxC ?? '--') + '°C</span>';
+        els.forecast.appendChild(e);
+      });
     }
-
-    // 24h hourly
-    if (data.weather && data.weather[0] && data.weather[0].hourly) {
-      hourlyEl.innerHTML = '';
-      var hourly = data.weather[0].hourly;
-      var now = new Date();
-      var currentH = now.getHours();
-
-      var slots = [];
-      for (var k = 0; k < hourly.length; k++) {
-        var h = hourly[k];
-        if (!h) continue;
-        var hourNum = parseInt(h.time, 10) / 100;
-        if (!isNaN(hourNum) && hourNum >= currentH) {
-          slots.push(h);
-        }
-      }
-
-      if (slots.length < 6 && data.weather[1] && data.weather[1].hourly) {
-        for (var m = 0; m < data.weather[1].hourly.length && slots.length < 6; m++) {
-          var tomorrowH = data.weather[1].hourly[m];
-          if (tomorrowH) slots.push(tomorrowH);
-        }
-      }
-
-      slots = slots.slice(0, 6);
-
-      for (var n = 0; n < slots.length; n++) {
-        var slot = slots[n];
-        var el = document.createElement('div');
-        el.className = 'flex flex-col items-center gap-1 min-w-[60px] p-2 rounded-lg bg-gray-50 dark:bg-gray-800/50 text-xs text-gray-600 dark:text-gray-300 flex-shrink-0';
-        el.innerHTML = '<span class="font-medium">' + fmtTime(slot.time) + '</span><span class="text-lg leading-none">' + getWeatherEmoji(slot.weatherCode) + '</span><span class="tabular-nums">' + (slot.tempC ?? '--') + '°</span>';
-        hourlyEl.appendChild(el);
-      }
-    }
+    els.loading.classList.add('hidden');
+    els.content.classList.remove('hidden');
   }
-
-  async function loadAndRender(city) {
-    var cityName = getCityName(city);
-    titleEl.textContent = cityName + '天气';
-
-    // Don't clear cached data on city switch — show old data while loading
-    loadingEl.classList.remove('hidden');
-    errorEl.classList.add('hidden');
-
-    try {
-      var data = await loadWeather(city);
-      render(data);
-      loadingEl.classList.add('hidden');
-      contentEl.classList.remove('hidden');
-    } catch (err) {
-      console.error('Weather error:', err);
-      loadingEl.classList.add('hidden');
-      errorEl.classList.remove('hidden');
-    }
-  }
-
-  // --- Init ---
-  var savedCity = getSelectedCity();
-
-  // Set selector to saved city
-  for (var i = 0; i < selectorEl.options.length; i++) {
-    if (selectorEl.options[i].value === savedCity) {
-      selectorEl.selectedIndex = i;
-      break;
-    }
-  }
-
-  // City switch handler
-  selectorEl.addEventListener('change', function() {
-    var city = this.value;
-    setSelectedCity(city);
-    loadAndRender(city);
-  });
-
-  // Initial load
-  loadAndRender(savedCity);
 })();
 </script>

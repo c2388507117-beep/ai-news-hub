@@ -13,15 +13,12 @@ import DailyDigest from '../components/DailyDigest.astro';
 import SalaryCountdown from '../components/SalaryCountdown.astro';
 import RandomPicker from '../components/RandomPicker.astro';
 import CurrencyExchange from '../components/CurrencyExchange.astro';
-import PrivateDouban from '../components/PrivateDouban.astro';
 import DutyRoster from '../components/DutyRoster.astro';
 import WorldMap from '../components/WorldMap.astro';
-import ShoppingCompare from '../components/ShoppingCompare.astro';
-import ElectricalCalc from '../components/ElectricalCalc.astro';
 import XingtaiWeather from '../components/XingtaiWeather.astro';
 import HotTopics from '../components/HotTopics.astro';
 import StarTrend from '../components/StarTrend.astro';
-import AIEventCalendar from '../components/AIEventCalendar.astro';
+import PowerPolicy from '../components/PowerPolicy.astro';
 import TechTimeline from '../components/TechTimeline.astro';
 import Footer from '../components/Footer.astro';
 import type { NewsItem, Category, WallpaperData, FootballData, SteamData, KnowledgeItem, KnowledgeList, DigestData, HotTopic, TodayHistoryData } from '../lib/types';
@@ -35,8 +32,8 @@ import knowledgeData from '../data/knowledge.json';
 import digestData from '../data/digest.json';
 import hotTopicsData from '../data/hot-topics.json';
 import starHistoryData from '../data/star-history.json';
-import aiEventsData from '../data/ai-events.json';
 import todayHistoryData from '../data/today-history.json';
+import powerPolicyData from '../data/power-policy.json';
 
 const allNews = allNewsData as NewsItem[];
 const ogTitle = allNews[0]?.title || 'AI News Hub';
@@ -50,8 +47,8 @@ const knowledge = knowledgeData as KnowledgeList | null;
 const digest = digestData as DigestData;
 const hotTopics = hotTopicsData as HotTopic[];
 const starHistory = starHistoryData as any;
-const aiEvents = aiEventsData as any[];
 const todayHistory = todayHistoryData as TodayHistoryData;
+const powerPolicy = powerPolicyData as any;
 
 // --- Compute Related Articles ---
 const commonWords = new Set([
@@ -208,7 +205,7 @@ for (const [id, items] of relatedMap) {
       </div>
       <div class="space-y-4">
         <StarTrend data={starHistory} />
-        <AIEventCalendar events={aiEvents} />
+        <PowerPolicy items={powerPolicy.items} />
         <DutyRoster />
       </div>
     </div>
@@ -217,14 +214,11 @@ for (const [id, items] of relatedMap) {
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
       <NetEaseMusic />
       <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
-      <ShoppingCompare />
       <CurrencyExchange />
       <RandomPicker />
     </div>
 
     <!-- ═══ 6. 全宽 ═══ -->
-    <PrivateDouban />
-
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <FootballStandings standings={football.standings} lastMatch={football.lastMatch} nextMatch={football.nextMatch} />
       <SteamCharts data={steam} />

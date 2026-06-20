@@ -1,10 +1,10 @@
 {
   "fetchedAt": "2026-06-20T00:00:00.000Z",
   "items": [
-    { "year": "2024", "title": "OpenAI 发布 GPT-4o", "desc": "GPT-4o 发布，多模态能力全面提升" },
-    { "year": "2023", "title": "Apple Vision Pro 发布", "desc": "Apple 正式发布混合现实头显 Vision Pro" },
-    { "year": "2022", "title": "Stable Diffusion 开源", "desc": "Stability AI 开源 Stable Diffusion 文生图模型" },
-    { "year": "2012", "title": "Coursera 上线", "desc": "斯坦福教授 Andrew Ng 联合创办 Coursera" },
-    { "year": "2007", "title": "第一代 iPhone 发售", "desc": "Apple iPhone 在美国正式发售" }
+    { "year": "1944", "title": "诺曼底登陆（D-Day）", "desc": "盟军在法国诺曼底登陆，开辟欧洲第二战场" },
+    { "year": "1985", "title": "Windows 1.0 发布", "desc": "微软发布第一个图形界面操作系统 Windows 1.0" },
+    { "year": "1998", "title": "Google 成立", "desc": "拉里·佩奇和谢尔盖·布林在加州创办 Google" },
+    { "year": "1783", "title": "蒙特哥菲尔兄弟热气球升空", "desc": "第一次载人热气球飞行在巴黎成功" },
+    { "year": "1989", "title": "万维网（WWW）发明", "desc": "蒂姆·伯纳斯-李提出万维网概念" }
   ]
 }

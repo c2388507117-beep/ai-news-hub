@@ -6,21 +6,21 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const TWO_YEARS_AGO = new Date();
-TWO_YEARS_AGO.setFullYear(TWO_YEARS_AGO.getFullYear() - 2);
-const DATE_FILTER = 'created:>=' + TWO_YEARS_AGO.toISOString().slice(0, 10);
+const ONE_MONTH_AGO = new Date();
+ONE_MONTH_AGO.setDate(ONE_MONTH_AGO.getDate() - 30);
+const DATE_FILTER = 'created:>=' + ONE_MONTH_AGO.toISOString().slice(0, 10);
 
-// Search queries that return popular AI/ML repos
+// Search queries that return popular AI/ML repos (weekly trending, <1 month old)
 const SEARCH_QUERIES = [
-  `ai OR artificial-intelligence OR machine-learning ${DATE_FILTER} stars:>500`,
-  `llm OR large-language-model OR gpt ${DATE_FILTER} stars:>500`,
-  `deep-learning OR neural-network OR pytorch ${DATE_FILTER} stars:>500`,
-  `computer-vision OR nlp OR recommender-system ${DATE_FILTER} stars:>300`,
-  `ai-agents OR autonomous-ai OR rag ${DATE_FILTER} stars:>300`,
+  `ai OR artificial-intelligence OR machine-learning ${DATE_FILTER} stars:>50`,
+  `llm OR large-language-model OR gpt ${DATE_FILTER} stars:>50`,
+  `deep-learning OR neural-network OR pytorch ${DATE_FILTER} stars:>30`,
+  `computer-vision OR nlp OR recommender-system ${DATE_FILTER} stars:>30`,
+  `ai-agents OR autonomous-ai OR rag ${DATE_FILTER} stars:>30`,
 ];
 
 const PER_PAGE = 30;
-const MAX_REPOS = 40;
+const MAX_REPOS = 20;
 
 function readExistingData(dataPath) {
   try {
@@ -82,7 +82,7 @@ async function fetchRepos(query) {
     return [];
   }
   // Filter to ensure only recent repos
-  const cutoff = TWO_YEARS_AGO.getTime();
+  const cutoff = ONE_MONTH_AGO.getTime();
   repos = repos.filter((repo) => {
     const created = new Date(repo.created_at).getTime();
     return !isNaN(created) && created >= cutoff;
