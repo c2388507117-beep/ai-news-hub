@@ -10,7 +10,7 @@ export interface Props {
 const { data } = Astro.props;
 const hasUrls = data?.urls?.length > 0;
 
-// Pick several wallpapers to show as a mini gallery
+// Pick several wallpapers to show as a mini gallery (fewer, bigger images)
 const count = Math.min(data?.urls?.length || 0, 9);
 const indices: number[] = [];
 if (count > 0) {
@@ -19,7 +19,7 @@ if (count > 0) {
   const startOfYear = new Date(now.getFullYear(), 0, 0);
   const diff = now.getTime() - startOfYear.getTime();
   const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-  for (let i = 0; i < Math.min(count, 9); i++) {
+  for (let i = 0; i < Math.min(count, 6); i++) {
     indices.push((dayOfYear + i * 7) % count);
   }
 }
@@ -36,7 +36,7 @@ function getUrl(u: any): string {
     </h3>
   </div>
   {hasUrls ? (
-    <div class="grid grid-cols-3 gap-1 p-2">
+    <div class="grid grid-cols-2 gap-2 p-3">
       {indices.map(i => {
         const u = data.urls[i];
         const url = getUrl(u);
@@ -45,7 +45,7 @@ function getUrl(u: any): string {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            class="block aspect-[16/9] rounded overflow-hidden bg-gray-100 dark:bg-gray-800 hover:opacity-90 transition-opacity"
+            class="block aspect-[4/3] rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800 hover:opacity-90 transition-opacity shadow-sm"
           >
             <img
               src={url}
