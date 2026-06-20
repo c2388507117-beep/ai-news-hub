@@ -225,8 +225,6 @@ for (const [id, items] of relatedMap) {
                 <p class="text-center text-gray-400 py-12">暂无新闻</p>
               )}
             </div>
-            <!-- Infinite scroll sentinel -->
-            <div id="scroll-sentinel" class="h-4"></div>
             <!-- Pagination -->
             <div id="pagination" class="flex items-center justify-center gap-2 pb-2 text-sm">
               <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
@@ -303,10 +301,8 @@ for (const [id, items] of relatedMap) {
   const pgLast = document.getElementById('pg-last');
   const pgInfo = document.getElementById('pg-info');
 
-  // --- Pagination + Infinite Scroll ---
+  // --- Pagination ---
   let totalPages = 1;
-  let hasMore = true;
-  const sentinel = document.getElementById('scroll-sentinel');
 
   function escapeHtml(s) {
     if (!s) return '';
@@ -425,9 +421,6 @@ for (const [id, items] of relatedMap) {
       allDivs[i].style.display = pageIndices.includes(i) ? '' : 'none';
     }
 
-    hasMore = currentPage < totalPages;
-    if (sentinel) sentinel.style.display = hasMore ? '' : 'none';
-
     // Pagination buttons
     pgInfo.textContent = `${currentPage} / ${totalPages}`;
     pgFirst.disabled = currentPage <= 1;
@@ -472,7 +465,6 @@ for (const [id, items] of relatedMap) {
       btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       btn.classList.add('bg-blue-600', 'text-white');
 
-      if (sentinel) sentinel.style.display = '';
       await loadAllData();
       ensureAllRendered();
       newsList.querySelectorAll('.news-item').forEach(el => delete el.dataset.animated);
@@ -489,18 +481,6 @@ for (const [id, items] of relatedMap) {
     ensureAllRendered();
     goToPage(totalPages);
   });
-
-  // --- Infinite scroll: load next page when sentinel appears ---
-  if (sentinel) {
-    const observer = new IntersectionObserver(async (entries) => {
-      if (entries[0].isIntersecting && hasMore) {
-        await loadAllData();
-        ensureAllRendered();
-        goToPage(currentPage + 1);
-      }
-    }, { rootMargin: '200px' });
-    observer.observe(sentinel);
-  }
 
   // --- Initial load ---
   loadAllData().then(function() {
