@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-20T01:23:18.549Z",
+  "fetchedAt": "2026-06-20T01:31:50.933Z",
   "items": [
+    {
+      "title": "埃迪·琼斯",
+      "extract": "埃迪·查尔斯·琼斯，美国NBA联盟职业篮球运动员。他身高六呎六寸，體重二百磅，擔任得分後衛，在1994加入NBA，先後為洛杉磯湖人、夏洛特黃蜂、邁阿密熱火、孟菲斯灰熊以及达拉斯小牛效力。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E8%BF%AA%C2%B7%E7%90%BC%E6%96%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Eddie_Jones_Miami_Heat.jpg/330px-Eddie_Jones_Miami_Heat.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "綠黨 (愛爾蘭)",
       "extract": "綠黨 是愛爾蘭地區的綠黨，在愛爾蘭共和國和北愛爾蘭（北愛爾蘭綠黨）均有活動。綠黨在1981年成立於都柏林，設立者是一位教師Christopher Fettes。\n",
@@ -27,13 +34,6 @@
       "extract": "拉莫特阿沙尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，位于该省西部，属于莱萨布勒多洛讷区。2017年1月1日，拉莫特阿沙尔相邻的拉沙佩勒阿沙尔合并为新市镇莱萨沙尔，并成为新市镇的政府驻地。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%8E%AB%E7%89%B9%E9%98%BF%E6%B2%99%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chateau_Domaine_Brandois_85.JPG/330px-Chateau_Domaine_Brandois_85.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "大田政作",
-      "extract": "大田政作，日本沖繩縣國頭郡國頭村出身的政治人物，曾任法官、檢察官和律師。臺灣日治時期最後一任澎湖廳長（1942年－1945年），也是澎湖廳唯一一位琉球出身的行政首長、美國統治琉球時期琉球政府的第三任行政主席（1959年－1964年）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B0%E6%94%BF%E4%BD%9C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Seisaku_Ota.JPG/330px-Seisaku_Ota.JPG",
       "source": "wikipedia"
     }
   ]
