@@ -1,1 +1,10 @@
-{"fetchedAt":null,"items":[]}
+{
+  "fetchedAt": "2026-06-20T00:00:00.000Z",
+  "items": [
+    { "year": "2024", "title": "OpenAI 发布 GPT-4o", "desc": "GPT-4o 发布，多模态能力全面提升" },
+    { "year": "2023", "title": "Apple Vision Pro 发布", "desc": "Apple 正式发布混合现实头显 Vision Pro" },
+    { "year": "2022", "title": "Stable Diffusion 开源", "desc": "Stability AI 开源 Stable Diffusion 文生图模型" },
+    { "year": "2012", "title": "Coursera 上线", "desc": "斯坦福教授 Andrew Ng 联合创办 Coursera" },
+    { "year": "2007", "title": "第一代 iPhone 发售", "desc": "Apple iPhone 在美国正式发售" }
+  ]
+}

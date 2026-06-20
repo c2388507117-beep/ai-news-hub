@@ -56,7 +56,7 @@ const starHistory = starHistoryData as any;
 const aiEvents = aiEventsData as any[];
 const todayHistory = todayHistoryData as TodayHistoryData;
 
-// --- Compute Related Articles (same as before) ---
+// --- Compute Related Articles ---
 const commonWords = new Set([
   'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of',
   'with', 'by', 'from', 'is', 'are', 'was', 'were', 'be', 'been', 'has', 'have',
@@ -123,170 +123,119 @@ for (const [id, items] of relatedMap) {
 >
   <Wallpaper data={wallpapers} />
 
-  <main class="max-w-6xl mx-auto px-4 py-6">
+  <main class="max-w-6xl mx-auto px-4 py-6 space-y-5">
     <style>
-      .news-item {
-        transition: opacity 0.3s ease, transform 0.3s ease;
-      }
-      .news-item.entering {
-        animation: fadeSlideIn 0.35s ease forwards;
-      }
-      @keyframes fadeSlideIn {
-        from { opacity: 0; transform: translateY(8px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
+      .news-item { transition: opacity 0.3s ease, transform 0.3s ease; }
+      .news-item.entering { animation: fadeSlideIn 0.35s ease forwards; }
+      @keyframes fadeSlideIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
       @media (prefers-reduced-motion: reduce) {
-        .news-item,
-        .news-card {
-          transition: none !important;
-          animation: none !important;
-        }
-        .news-item.entering {
-          animation: none;
-        }
+        .news-item, .news-card { transition: none !important; animation: none !important; }
+        .news-item.entering { animation: none; }
       }
     </style>
-    <!-- Football Standings (full width, collapsed by default) -->
-    <FootballStandings
-      standings={football.standings}
-      lastMatch={football.lastMatch}
-      nextMatch={football.nextMatch}
-    />
 
-    <!-- Two-Column Layout: Main Dashboard + Right Sidebar -->
-    <div class="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-4">
-      <!-- Left: Personal Dashboard -->
-      <div class="space-y-4">
-        <!-- Personal tools row 1: DailyDigest + SalaryCountdown -->
-        <div class="grid grid-cols-1 xl:grid-cols-3 gap-4">
-          <DailyDigest data={digest} />
-          <XingtaiWeather />
-          <SalaryCountdown />
-        </div>
-
-        <!-- Private Douban -->
-        <PrivateDouban />
-
-        <!-- Stock Market -->
-        <StockMarket />
-
-        <!-- Category Nav (full width) -->
-        <nav class="mb-2 overflow-x-auto">
-          <div class="flex gap-2 min-w-max" id="category-nav">
-            <button data-cat="" class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-blue-600 text-white transition-colors">
-              📰 全部
-            </button>
-            {ALL_CATEGORIES.map((key) => (
-              <button
-                data-cat={key}
-                class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-              >
-                {CATEGORY_EMOJIS[key]} {CATEGORY_LABELS[key]}
-              </button>
-            ))}
-          </div>
-        </nav>
-
-        <!-- News (collapsible, default expanded) -->
-        <details class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm" open>
-          <summary class="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 cursor-pointer text-sm font-bold text-white hover:from-blue-500 hover:to-blue-600 transition-all list-none flex items-center gap-2 [&::-webkit-details-marker]:hidden">
-            <span aria-hidden="true">🗞️</span> 新闻资讯
-          </summary>
-          <div class="p-4">
-            <!-- Search -->
-            <form action="/search" method="get" class="mb-3">
-              <div class="relative">
-                <input
-                  type="search"
-                  name="q"
-                  aria-label="搜索"
-                  placeholder="搜索新闻..."
-                  class="w-full px-4 py-2.5 pl-10 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow"
-                />
-                <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
-            </form>
-
-            <!-- News Cards -->
-            <div id="news-list" class="space-y-3 pb-4">
-              <!-- Skeleton cards shown while JS loads -->
-              <div id="news-skeleton" class="space-y-3">
-                {[1,2,3,4,5].map((i) => (
-                  <div class="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 animate-pulse">
-                    <div class="flex items-start gap-3">
-                      <div class="w-16 h-16 rounded-lg bg-gray-200 dark:bg-gray-700 flex-shrink-0"></div>
-                      <div class="flex-1 space-y-2">
-                        <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4"></div>
-                        <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded w-full"></div>
-                        <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              {initialItems.map((item) => (
-                <div class="news-item hidden" data-category={item.category}>
-                  <NewsCard item={item} relatedItems={initialRelatedMap.get(item.id) || []} />
-                </div>
-              ))}
-              {initialItems.length === 0 && (
-                <p class="text-center text-gray-400 py-12">暂无新闻</p>
-              )}
-            </div>
-            <!-- Pagination -->
-            <div id="pagination" class="flex items-center justify-center gap-2 pb-2 text-sm">
-              <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                首页
-              </button>
-              <button id="pg-prev" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                ← 上一页
-              </button>
-              <span id="pg-info" class="px-3 py-1.5 text-xs text-gray-500 dark:text-gray-400 tabular-nums">
-                1 / 1
-              </span>
-              <button id="pg-next" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                下一页 →
-              </button>
-              <button id="pg-last" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">
-                尾页
-              </button>
-            </div>
-          </div>
-        </details>
-      </div>
-
-      <!-- Right: Sidebar (flows below main content on mobile, right column on desktop) -->
-      <aside class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
-        <NetEaseMusic />
-        <DailyKnowledge data={knowledge} />
-        <TodayHistory data={todayHistory} />
-        <DutyRoster />
-        <HotTopics topics={hotTopics} />
-        <StarTrend data={starHistory} />
-        <AIEventCalendar events={aiEvents} />
-        <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
-        <BilibiliFavorites data={bilibili} />
-      </aside>
+    <!-- ═══ 1. 快捷信息栏 ═══ -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <XingtaiWeather />
+      <DailyDigest data={digest} />
+      <SalaryCountdown />
     </div>
 
-<!-- Bottom: ShoppingCompare + CurrencyExchange + RandomPicker -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
+    <!-- ═══ 2. 行情 ═══ -->
+    <StockMarket />
+
+    <!-- ═══ 3. 新闻 ═══ -->
+    <section>
+      <nav class="mb-3 overflow-x-auto">
+        <div class="flex gap-2 min-w-max" id="category-nav">
+          <button data-cat="" class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-blue-600 text-white transition-colors">📰 全部</button>
+          {ALL_CATEGORIES.map((key) => (
+            <button data-cat={key} class="cat-btn px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+              {CATEGORY_EMOJIS[key]} {CATEGORY_LABELS[key]}
+            </button>
+          ))}
+        </div>
+      </nav>
+
+      <form action="/search" method="get" class="mb-3">
+        <div class="relative">
+          <input type="search" name="q" aria-label="搜索" placeholder="搜索新闻..." class="w-full px-4 py-2.5 pl-10 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow" />
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </div>
+      </form>
+
+      <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+        <div class="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-2.5 text-sm font-bold text-white flex items-center gap-2">
+          <span aria-hidden="true">🗞️</span> 新闻资讯
+        </div>
+        <div class="p-4">
+          <div id="news-list" class="space-y-3 pb-4">
+            <div id="news-skeleton" class="space-y-3">
+              {[1,2,3,4,5].map((i) => (
+                <div class="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-4 animate-pulse">
+                  <div class="flex items-start gap-3">
+                    <div class="w-16 h-16 rounded-lg bg-gray-200 dark:bg-gray-700 flex-shrink-0"></div>
+                    <div class="flex-1 space-y-2">
+                      <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4"></div>
+                      <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded w-full"></div>
+                      <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {initialItems.map((item) => (
+              <div class="news-item hidden" data-category={item.category}>
+                <NewsCard item={item} relatedItems={initialRelatedMap.get(item.id) || []} />
+              </div>
+            ))}
+            {initialItems.length === 0 && <p class="text-center text-gray-400 py-12">暂无新闻</p>}
+          </div>
+          <div id="pagination" class="flex items-center justify-center gap-2 pb-2 text-sm">
+            <button id="pg-first" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">首页</button>
+            <button id="pg-prev" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">← 上一页</button>
+            <span id="pg-info" class="px-3 py-1.5 text-xs text-gray-500 dark:text-gray-400 tabular-nums">1 / 1</span>
+            <button id="pg-next" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">下一页 →</button>
+            <button id="pg-last" class="px-3 py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-xs font-medium">尾页</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 4. 知识 & 热点 (2列) ═══ -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="space-y-4">
+        <HotTopics topics={hotTopics} />
+        <TodayHistory data={todayHistory} />
+        <DailyKnowledge data={knowledge} />
+      </div>
+      <div class="space-y-4">
+        <StarTrend data={starHistory} />
+        <AIEventCalendar events={aiEvents} />
+        <DutyRoster />
+      </div>
+    </div>
+
+    <!-- ═══ 5. 娱乐 & 工具 (响应式网格) ═══ -->
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      <NetEaseMusic />
+      <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
+      <BilibiliFavorites data={bilibili} />
       <ShoppingCompare />
       <CurrencyExchange />
       <RandomPicker />
     </div>
 
-    <!-- WorldMap full width -->
-    <div class="mt-4">
-      <WorldMap />
+    <!-- ═══ 6. 全宽 ═══ -->
+    <PrivateDouban />
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <FootballStandings standings={football.standings} lastMatch={football.lastMatch} nextMatch={football.nextMatch} />
+      <SteamCharts data={steam} />
     </div>
 
-    <!-- Tech Timeline full width -->
-    <div class="mt-4">
-      <TechTimeline items={allNews} />
-    </div>
+    <WorldMap />
+    <TechTimeline items={allNews} />
   </main>
   <Fragment slot="footer">
     <Footer />
@@ -433,32 +382,26 @@ for (const [id, items] of relatedMap) {
     const end = Math.min(start + PER_PAGE, visible.length);
     const pageIndices = visible.slice(start, end);
 
-    // Show/hide items
     const allDivs = newsList.querySelectorAll('.news-item');
     for (let i = 0; i < allDivs.length; i++) {
       allDivs[i].style.display = pageIndices.includes(i) ? '' : 'none';
     }
 
-    // Pagination buttons
     pgInfo.textContent = `${currentPage} / ${totalPages}`;
     pgFirst.disabled = currentPage <= 1;
     pgPrev.disabled = currentPage <= 1;
     pgNext.disabled = currentPage >= totalPages;
     pgLast.disabled = currentPage >= totalPages;
 
-    // Entrance animation for newly visible items
     allDivs.forEach((el, i) => {
       if (pageIndices.includes(i) && !el.dataset.animated) {
         el.classList.add('entering');
         el.dataset.animated = 'true';
-        el.addEventListener('animationend', () => {
-          el.classList.remove('entering');
-        }, { once: true });
+        el.addEventListener('animationend', () => { el.classList.remove('entering'); }, { once: true });
       }
     });
   }
 
-  /** Navigate to a specific page */
   async function goToPage(page) {
     if (page < 1 || page > totalPages) return;
     await loadAllData();
@@ -469,20 +412,17 @@ for (const [id, items] of relatedMap) {
     newsList.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // --- Category filter ---
   catBtns.forEach((btn) => {
     btn.addEventListener('click', async () => {
       const cat = btn.dataset.cat || '';
       currentCat = cat;
       currentPage = 1;
-
       catBtns.forEach((b) => {
         b.classList.remove('bg-blue-600', 'text-white');
         b.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       });
       btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       btn.classList.add('bg-blue-600', 'text-white');
-
       await loadAllData();
       ensureAllRendered();
       newsList.querySelectorAll('.news-item').forEach(el => delete el.dataset.animated);
@@ -490,7 +430,6 @@ for (const [id, items] of relatedMap) {
     });
   });
 
-  // --- Pagination buttons ---
   pgFirst.addEventListener('click', () => goToPage(1));
   pgPrev.addEventListener('click', () => goToPage(currentPage - 1));
   pgNext.addEventListener('click', () => goToPage(currentPage + 1));
@@ -500,13 +439,10 @@ for (const [id, items] of relatedMap) {
     goToPage(totalPages);
   });
 
-  // --- Initial load ---
   loadAllData().then(function() {
     const skeleton = document.getElementById('news-skeleton');
     if (skeleton) skeleton.style.display = 'none';
-    // Show static news items
     newsList.querySelectorAll('.news-item').forEach(el => el.classList.remove('hidden'));
     renderPage();
   });
-
 </script>
