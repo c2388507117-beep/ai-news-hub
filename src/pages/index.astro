@@ -92,7 +92,7 @@ allNews.forEach((item) => {
 });
 
 // Hybrid rendering: first page static HTML, rest lazy-loaded from JSON
-const INITIAL_PAGE_SIZE = 10;
+const INITIAL_PAGE_SIZE = 8;
 const initialItems = allNews.slice(0, INITIAL_PAGE_SIZE);
 const initialRelatedMap = new Map<string, NewsItem[]>();
 initialItems.forEach((item) => {
@@ -279,7 +279,7 @@ for (const [id, items] of relatedMap) {
 
 <script>
   // Constants
-  const PER_PAGE = 10;
+  const PER_PAGE = 8;
   const CATEGORY_MAP = {
     ai: { emoji: '🤖', label: 'AI 前沿' },
     tech: { emoji: '💻', label: '科技动态' },
@@ -304,8 +304,7 @@ for (const [id, items] of relatedMap) {
   const pgInfo = document.getElementById('pg-info');
 
   // --- Pagination + Infinite Scroll ---
-  let visibleCount = 10;
-  let isLoadingMore = false;
+  let totalPages = 1;
   let hasMore = true;
   const sentinel = document.getElementById('scroll-sentinel');
 
@@ -399,6 +398,7 @@ for (const [id, items] of relatedMap) {
   </div>`;
   }
 
+  /** Get filtered item indices for current category */
   function getVisibleIndices() {
     if (!allItems) return [];
     const indices = [];
@@ -410,32 +410,34 @@ for (const [id, items] of relatedMap) {
     return indices;
   }
 
-  function getTotalPages() {
-    return Math.max(1, Math.ceil(getVisibleIndices().length / PER_PAGE));
-  }
-
-  function showVisibleItems() {
+  /** Show only items for current page and update pagination UI */
+  function renderPage() {
     const visible = getVisibleIndices();
-    const shown = visible.slice(0, visibleCount);
+    totalPages = Math.max(1, Math.ceil(visible.length / PER_PAGE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    const start = (currentPage - 1) * PER_PAGE;
+    const end = Math.min(start + PER_PAGE, visible.length);
+    const pageIndices = visible.slice(start, end);
+
+    // Show/hide items
     const allDivs = newsList.querySelectorAll('.news-item');
     for (let i = 0; i < allDivs.length; i++) {
-      allDivs[i].style.display = shown.includes(i) ? '' : 'none';
+      allDivs[i].style.display = pageIndices.includes(i) ? '' : 'none';
     }
-    hasMore = shown.length < visible.length;
-    if (!hasMore && sentinel) sentinel.style.display = 'none';
 
-    // Update pagination UI
-    const totalPages = getTotalPages();
-    currentPage = Math.min(Math.ceil(visibleCount / PER_PAGE), totalPages);
+    hasMore = currentPage < totalPages;
+    if (sentinel) sentinel.style.display = hasMore ? '' : 'none';
+
+    // Pagination buttons
     pgInfo.textContent = `${currentPage} / ${totalPages}`;
     pgFirst.disabled = currentPage <= 1;
     pgPrev.disabled = currentPage <= 1;
     pgNext.disabled = currentPage >= totalPages;
     pgLast.disabled = currentPage >= totalPages;
 
-    // Add entrance animation to newly visible items
+    // Entrance animation for newly visible items
     allDivs.forEach((el, i) => {
-      if (shown.includes(i) && !el.dataset.animated) {
+      if (pageIndices.includes(i) && !el.dataset.animated) {
         el.classList.add('entering');
         el.dataset.animated = 'true';
         el.addEventListener('animationend', () => {
@@ -445,70 +447,68 @@ for (const [id, items] of relatedMap) {
     });
   }
 
+  /** Navigate to a specific page */
   async function goToPage(page) {
+    if (page < 1 || page > totalPages) return;
     await loadAllData();
     ensureAllRendered();
-    visibleCount = page * PER_PAGE;
+    currentPage = page;
     newsList.querySelectorAll('.news-item').forEach(el => delete el.dataset.animated);
-    showVisibleItems();
+    renderPage();
     newsList.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  // Category filter buttons
+  // --- Category filter ---
   catBtns.forEach((btn) => {
     btn.addEventListener('click', async () => {
       const cat = btn.dataset.cat || '';
       currentCat = cat;
+      currentPage = 1;
+
       catBtns.forEach((b) => {
         b.classList.remove('bg-blue-600', 'text-white');
         b.classList.add('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       });
       btn.classList.remove('bg-gray-100', 'dark:bg-gray-800', 'text-gray-600', 'dark:text-gray-300', 'hover:bg-gray-200', 'dark:hover:bg-gray-700');
       btn.classList.add('bg-blue-600', 'text-white');
-      visibleCount = 10;
-      hasMore = true;
-      currentPage = 1;
+
       if (sentinel) sentinel.style.display = '';
       await loadAllData();
       ensureAllRendered();
-      // Reset entrance animations for new filter
       newsList.querySelectorAll('.news-item').forEach(el => delete el.dataset.animated);
-      showVisibleItems();
+      renderPage();
     });
   });
 
-  // Infinite scroll observer
+  // --- Pagination buttons ---
+  pgFirst.addEventListener('click', () => goToPage(1));
+  pgPrev.addEventListener('click', () => goToPage(currentPage - 1));
+  pgNext.addEventListener('click', () => goToPage(currentPage + 1));
+  pgLast.addEventListener('click', async () => {
+    await loadAllData();
+    ensureAllRendered();
+    goToPage(totalPages);
+  });
+
+  // --- Infinite scroll: load next page when sentinel appears ---
   if (sentinel) {
     const observer = new IntersectionObserver(async (entries) => {
-      if (entries[0].isIntersecting && hasMore && !isLoadingMore) {
-        isLoadingMore = true;
+      if (entries[0].isIntersecting && hasMore) {
         await loadAllData();
         ensureAllRendered();
-        visibleCount += 5;
-        showVisibleItems();
-        isLoadingMore = false;
+        goToPage(currentPage + 1);
       }
     }, { rootMargin: '200px' });
     observer.observe(sentinel);
   }
 
-  // Pagination buttons
-  pgFirst.addEventListener('click', () => goToPage(1));
-  pgPrev.addEventListener('click', () => goToPage(Math.max(1, currentPage - 1)));
-  pgNext.addEventListener('click', () => goToPage(Math.min(getTotalPages(), currentPage + 1)));
-  pgLast.addEventListener('click', async () => {
-    await loadAllData();
-    const totalPages = getTotalPages();
-    await goToPage(totalPages);
-  });
-
-  // Initial render (uses static data for first page, defers lazy build)
+  // --- Initial load ---
   loadAllData().then(function() {
     const skeleton = document.getElementById('news-skeleton');
     if (skeleton) skeleton.style.display = 'none';
     // Show static news items
     newsList.querySelectorAll('.news-item').forEach(el => el.classList.remove('hidden'));
-    showVisibleItems();
+    renderPage();
   });
 
 </script>
