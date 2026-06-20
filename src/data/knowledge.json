@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-20T01:47:00.541Z",
+  "fetchedAt": "2026-06-20T02:12:10.175Z",
   "items": [
+    {
+      "title": "炯燮x義雄",
+      "extract": "炯燮x義雄，為韓國乐华娱乐於2017年推出的雙人期間限定男子音樂團體，成員包括Mnet選秀節目《PRODUCE 101 第二季》乐华娱乐旗下人氣練習生安炯燮和李義雄。2017年11月2日，推出首張迷你專輯《The Moment of Memory》正式出道。2020年8月17日，公告結束官咖營運，準備於新男團出道。2022年，兩人於樂華娛樂七人新男團TEMPEST出道。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%82%AF%E7%87%AEx%E7%BE%A9%E9%9B%84",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/171018_%EC%9D%B4%EC%9D%98%EC%9B%85%26%EC%95%88%ED%98%95%EC%84%AD.jpg/330px-171018_%EC%9D%B4%EC%9D%98%EC%9B%85%26%EC%95%88%ED%98%95%EC%84%AD.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "馬沙度",
       "extract": "馬沙度，葡萄牙政治家、軍人、童子軍和鐵路工人。\n",
@@ -27,13 +34,6 @@
       "extract": "綠黨 是愛爾蘭地區的綠黨，在愛爾蘭共和國和北愛爾蘭（北愛爾蘭綠黨）均有活動。綠黨在1981年成立於都柏林，設立者是一位教師Christopher Fettes。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B6%A0%E9%BB%A8_(%E6%84%9B%E7%88%BE%E8%98%AD)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Green_Party_%28Ireland%29_logo.svg/langzh-330px-Green_Party_%28Ireland%29_logo.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "尤哈·坦门派",
-      "extract": "尤哈·坦门派，芬兰艺术家。他以其从世界各地原始艺术借鉴而来的超现实主义版画而著称。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%A4%E5%93%88%C2%B7%E5%9D%A6%E9%97%A8%E6%B4%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/03/Juha_Tammenp%C3%A4%C3%A4_-_J%C3%A4%C3%A4hyv%C3%A4iset_laivakoiralle.jpg",
       "source": "wikipedia"
     }
   ]

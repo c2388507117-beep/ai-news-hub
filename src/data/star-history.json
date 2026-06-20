@@ -1,1 +1,49 @@
-{"snapshots":[]}
+{
+  "snapshots": [
+    {
+      "date": "2026-06-20",
+      "repos": [
+        {
+          "name": "openclaw/openclaw",
+          "stars": 379534
+        },
+        {
+          "name": "obra/superpowers",
+          "stars": 233402
+        },
+        {
+          "name": "affaan-m/ECC",
+          "stars": 218307
+        },
+        {
+          "name": "NousResearch/hermes-agent",
+          "stars": 197676
+        },
+        {
+          "name": "multica-ai/andrej-karpathy-skills",
+          "stars": 178843
+        },
+        {
+          "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "stars": 140902
+        },
+        {
+          "name": "msitarzewski/agency-agents",
+          "stars": 114572
+        },
+        {
+          "name": "github/spec-kit",
+          "stars": 114167
+        },
+        {
+          "name": "google-gemini/gemini-cli",
+          "stars": 105415
+        },
+        {
+          "name": "browser-use/browser-use",
+          "stars": 99619
+        }
+      ]
+    }
+  ]
+}
