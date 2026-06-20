@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-20T02:12:10.175Z",
+  "fetchedAt": "2026-06-20T02:40:53.437Z",
   "items": [
+    {
+      "title": "戴夫·拉廷",
+      "extract": "戴维·拉廷，美国NBA联盟前职业篮球运动员。他在1967年的NBA选秀中第1轮第10顺位被旧金山勇士选中。畢業於TEXAS WESTERN COLLEGE，且於1965-66為TEXAS WESTERN COLLEGE奪得冠軍。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E5%A4%AB%C2%B7%E6%8B%89%E5%BB%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/David_Lattin_UTEP.jpg/330px-David_Lattin_UTEP.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "炯燮x義雄",
       "extract": "炯燮x義雄，為韓國乐华娱乐於2017年推出的雙人期間限定男子音樂團體，成員包括Mnet選秀節目《PRODUCE 101 第二季》乐华娱乐旗下人氣練習生安炯燮和李義雄。2017年11月2日，推出首張迷你專輯《The Moment of Memory》正式出道。2020年8月17日，公告結束官咖營運，準備於新男團出道。2022年，兩人於樂華娛樂七人新男團TEMPEST出道。\n",
@@ -27,13 +34,6 @@
       "extract": "埃迪·查尔斯·琼斯，美国NBA联盟职业篮球运动员。他身高六呎六寸，體重二百磅，擔任得分後衛，在1994加入NBA，先後為洛杉磯湖人、夏洛特黃蜂、邁阿密熱火、孟菲斯灰熊以及达拉斯小牛效力。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E8%BF%AA%C2%B7%E7%90%BC%E6%96%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Eddie_Jones_Miami_Heat.jpg/330px-Eddie_Jones_Miami_Heat.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "綠黨 (愛爾蘭)",
-      "extract": "綠黨 是愛爾蘭地區的綠黨，在愛爾蘭共和國和北愛爾蘭（北愛爾蘭綠黨）均有活動。綠黨在1981年成立於都柏林，設立者是一位教師Christopher Fettes。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B6%A0%E9%BB%A8_(%E6%84%9B%E7%88%BE%E8%98%AD)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Green_Party_%28Ireland%29_logo.svg/langzh-330px-Green_Party_%28Ireland%29_logo.svg.png",
       "source": "wikipedia"
     }
   ]
