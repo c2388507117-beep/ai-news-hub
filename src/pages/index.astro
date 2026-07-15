@@ -2,14 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Wallpaper from '../components/Wallpaper.astro';
 import NetEaseMusic from '../components/NetEaseMusic.astro';
-import FootballStandings from '../components/FootballStandings.astro';
 import StockMarket from '../components/StockMarket.astro';
 import WallpaperGallery from '../components/WallpaperGallery.astro';
 import DailyKnowledge from '../components/DailyKnowledge.astro';
 import TodayHistory from '../components/TodayHistory.astro';
 import DailyDigest from '../components/DailyDigest.astro';
 import SalaryCountdown from '../components/SalaryCountdown.astro';
-import RandomPicker from '../components/RandomPicker.astro';
 import CurrencyExchange from '../components/CurrencyExchange.astro';
 import DutyRoster from '../components/DutyRoster.astro';
 import WorldMap from '../components/WorldMap.astro';
@@ -17,10 +15,9 @@ import XingtaiWeather from '../components/XingtaiWeather.astro';
 import GameDealCard from '../components/GameDealCard.astro';
 import NationalStandards from '../components/NationalStandards.astro';
 import Footer from '../components/Footer.astro';
-import type { WallpaperData, FootballData, KnowledgeList, DigestData, TodayHistoryData } from '../lib/types';
+import type { WallpaperData, KnowledgeList, DigestData, TodayHistoryData } from '../lib/types';
 import wallpaperData from '../data/wallpapers.json';
 import wallpaperGirlData from '../data/wallpapers-girl.json';
-import footballData from '../data/football.json';
 import knowledgeData from '../data/knowledge.json';
 import digestData from '../data/digest.json';
 import todayHistoryData from '../data/today-history.json';
@@ -29,7 +26,6 @@ import gameDealsData from '../data/game-deals.json';
 
 const wallpapers = wallpaperData as WallpaperData;
 const wallpapersGirl = wallpaperGirlData as WallpaperData;
-const football = footballData as FootballData;
 const knowledge = knowledgeData as KnowledgeList | null;
 const digest = digestData as DigestData;
 const todayHistory = todayHistoryData as TodayHistoryData;
@@ -94,12 +90,6 @@ const ogImage = undefined;
       <NetEaseMusic />
       <WallpaperGallery data={wallpapersGirl} title="美女壁纸" emoji="💃" />
       <CurrencyExchange />
-      <RandomPicker />
-    </div>
-
-    <!-- ═══ 6. 全宽 ═══ -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <FootballStandings standings={football.standings} lastMatch={football.lastMatch} nextMatch={football.nextMatch} />
     </div>
 
     <WorldMap />

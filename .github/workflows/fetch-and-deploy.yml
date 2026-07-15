@@ -32,9 +32,6 @@ jobs:
       - name: Fetch wallpapers
         run: node scripts/fetch-wallpapers.mjs
 
-      - name: Fetch football data
-        run: node scripts/fetch-football.mjs
-
       - name: Fetch daily knowledge
         run: node scripts/fetch-knowledge.mjs
 
@@ -48,7 +45,7 @@ jobs:
         run: |
           git config user.name "ai-news-hub-bot"
           git config user.email "bot@ai-news-hub.local"
-          git add src/data/wallpapers.json src/data/wallpapers-girl.json src/data/football.json src/data/knowledge.json src/data/digest.json src/data/today-history.json src/data/game-deals.json
+          git add src/data/wallpapers.json src/data/wallpapers-girl.json src/data/knowledge.json src/data/digest.json src/data/today-history.json src/data/game-deals.json
           if git diff --cached --quiet; then
             echo "No changes to data files"
           else

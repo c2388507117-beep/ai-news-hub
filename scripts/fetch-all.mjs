@@ -19,7 +19,6 @@ const SCRIPTS = [
   { name: 'Daily Knowledge', file: 'fetch-knowledge.mjs', required: true },
   { name: 'Daily Digest', file: 'fetch-digest.mjs', required: true },
   { name: 'Today History', file: 'fetch-today-history.mjs', required: false },
-  { name: 'Football', file: 'fetch-football.mjs', required: false },
 ];
 
 let failures = 0;
