@@ -1,0 +1,75 @@
+---
+// NationalStandards — 国标每日学习
+// 每天从数据库中取3条，按日期轮换，自动循环复习
+
+export interface StandardItem {
+  id: string;
+  title: string;
+  category: string;
+}
+
+export interface Props {
+  items: StandardItem[];
+}
+
+const { items } = Astro.props;
+const allStandards = items || [];
+
+// 按第几天取3条（自然轮换，循环复习）
+const now = new Date();
+const startOfYear = new Date(now.getFullYear(), 0, 0);
+const dayOfYear = Math.floor((now.getTime() - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
+const count = allStandards.length;
+
+let todayItems: StandardItem[] = [];
+if (count > 0) {
+  const start = (dayOfYear * 3) % count;
+  for (let i = 0; i < Math.min(3, count); i++) {
+    todayItems.push(allStandards[(start + i) % count]);
+  }
+}
+
+const CATEGORY_COLORS: Record<string, string> = {
+  安规: 'bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300',
+  安全: 'bg-orange-100 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300',
+  电气: 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300',
+  高压: 'bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300',
+  配电: 'bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300',
+  施工: 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/40 dark:text-yellow-300',
+  继保: 'bg-pink-100 text-pink-700 dark:bg-pink-900/40 dark:text-pink-300',
+  变电: 'bg-teal-100 text-teal-700 dark:bg-teal-900/40 dark:text-teal-300',
+  试验: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/40 dark:text-cyan-300',
+  接地: 'bg-lime-100 text-lime-700 dark:bg-lime-900/40 dark:text-lime-300',
+  基础: 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300',
+};
+
+function getCategoryColor(cat: string): string {
+  return CATEGORY_COLORS[cat] || 'bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-300';
+}
+---
+
+<div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden shadow-sm">
+  <div class="bg-gradient-to-r from-slate-700 to-slate-900 dark:from-slate-600 dark:to-slate-800 px-4 py-3">
+    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+      <span aria-hidden="true">📋</span> 国标每日学
+    </h3>
+  </div>
+  {todayItems.length > 0 ? (
+    <div class="divide-y divide-gray-100 dark:divide-gray-800">
+      {todayItems.map((std) => (
+        <div class="px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
+          <div class="flex items-start justify-between gap-2">
+            <span class="text-[11px] font-mono font-bold text-slate-600 dark:text-slate-400 flex-shrink-0 mt-0.5">{std.id}</span>
+            <span class="text-[10px] px-1.5 py-0.5 rounded {getCategoryColor(std.category)} flex-shrink-0">{std.category}</span>
+          </div>
+          <p class="text-xs text-gray-800 dark:text-gray-200 mt-1 leading-relaxed">{std.title}</p>
+        </div>
+      ))}
+      <div class="px-4 py-2 bg-gray-50 dark:bg-gray-800/50 text-[10px] text-gray-400 text-center">
+        共 {count} 条国标 · 每天 3 条自动轮换复习
+      </div>
+    </div>
+  ) : (
+    <p class="text-center text-gray-400 py-6 text-xs">暂无国标数据</p>
+  )}
+</div>

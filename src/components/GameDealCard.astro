@@ -1,0 +1,67 @@
+---
+// GameDealCard — 游戏打折卡片
+
+export interface GameDeal {
+  id: string;
+  title: string;
+  url: string;
+  discount: number;
+  originalPrice: number;
+  finalPrice: number;
+  imageUrl: string;
+  platform: string;
+  source: string;
+  publishedAt: string;
+  summary: string;
+}
+
+export interface Props {
+  items: GameDeal[];
+}
+
+const { items } = Astro.props;
+
+const PLATFORM_COLORS: Record<string, string> = {
+  Steam: 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300',
+  PlayStation: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300',
+  Switch: 'bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300',
+};
+
+function fmtPrice(cents: number): string {
+  if (!cents) return '';
+  return '¥' + (cents / 100).toFixed(2);
+}
+---
+
+<div class="space-y-2">
+  {items.map((item) => {
+    const platColor = PLATFORM_COLORS[item.platform] || 'bg-gray-100 text-gray-600';
+    return (
+      <a
+        href={item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center gap-3 p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-green-300 dark:hover:border-green-700 hover:shadow-md transition-all"
+      >
+        {item.imageUrl && (
+          <img src={item.imageUrl} alt="" class="w-14 h-14 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-800" loading="lazy" onerror="this.style.display='none'" />
+        )}
+        <div class="flex-1 min-w-0">
+          <h3 class="text-sm font-semibold leading-snug line-clamp-2 text-gray-800 dark:text-gray-200">{item.title}</h3>
+          <div class="flex items-center gap-2 mt-1 flex-wrap">
+            <span class="text-[10px] px-1.5 py-0.5 rounded {platColor}">{item.platform}</span>
+            {item.discount > 0 && (
+              <span class="text-[11px] font-bold text-red-500">-{item.discount}%</span>
+            )}
+            {item.finalPrice > 0 && (
+              <span class="text-[11px] text-gray-500 dark:text-gray-400">{fmtPrice(item.finalPrice)}</span>
+            )}
+          </div>
+        </div>
+      </a>
+    );
+  })}
+  {items.length === 0 && (
+    <p class="text-center text-gray-400 py-6 text-xs">暂无折扣信息</p>
+  )}
+</div>

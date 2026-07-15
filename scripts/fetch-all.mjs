@@ -14,17 +14,12 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SCRIPTS = [
-  { name: 'RSS News', file: 'fetch-news.mjs', required: true },
+  { name: 'Game Deals', file: 'fetch-game-deals.mjs', required: false },
   { name: 'Wallpapers', file: 'fetch-wallpapers.mjs', required: true },
   { name: 'Daily Knowledge', file: 'fetch-knowledge.mjs', required: true },
   { name: 'Daily Digest', file: 'fetch-digest.mjs', required: true },
-  { name: 'Hot Topics', file: 'fetch-hot-topics.mjs', required: false },
+  { name: 'Today History', file: 'fetch-today-history.mjs', required: false },
   { name: 'Football', file: 'fetch-football.mjs', required: false },
-  { name: 'Steam Charts', file: 'fetch-steam.mjs', required: false },
-  { name: 'Bilibili', file: 'fetch-bilibili.mjs', required: false },
-  { name: 'GitHub Trending', file: 'fetch-trending.mjs', required: false },
-  { name: 'AI Leaderboard', file: 'fetch-leaderboard.mjs', required: false },
-  { name: 'Generate Icons', file: 'generate-icons.mjs', required: false },
 ];
 
 let failures = 0;
