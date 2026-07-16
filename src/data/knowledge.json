@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T21:28:10.135Z",
+  "fetchedAt": "2026-07-16T23:13:29.833Z",
   "items": [
+    {
+      "title": "白石塘站",
+      "extract": "白石塘站，是一個深圳地铁3号线的地铁车站，位于中华人民共和国广东省深圳市龍崗區坪地街道吉祥路与福照街路口，2024年12月28日投入运营。此車站为地下车站。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E7%9F%B3%E5%A1%98%E7%AB%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/%E7%99%BD%E7%9F%B3%E5%A1%98.jpg/330px-%E7%99%BD%E7%9F%B3%E5%A1%98.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "回旋踢",
       "extract": "回旋踢是一种脚法，练习者在踢击时抬起膝盖，同时自己的另一只支撑脚和身体做半圆运动，並且抬起的那只腳要伸展腿部，用小腿下部或脚背打击對手。脚掌也可用來打击目标。 \n",
@@ -27,13 +34,6 @@
       "extract": "《東雲侑子系列》是日本輕小說家森橋賓果創作、畫師Nardack負責插畫的輕小說作品，本於日本Fami通文庫的網路雜誌《FB Online》上連載，2011年由Fami通文庫出版成書。後有改編為漫畫，作畫者為成瀨ちさと。小說第一集曾獲第一屆《店員最愛輕小說大賞》第四位。整系列獲得《這本輕小說真厲害！2013》第八名。由成瀨ちさと作畫的改編漫畫於2012年至2013年連載。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%9B%B2%E4%BE%91%E5%AD%90%E7%B3%BB%E5%88%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9D%B1%E9%9B%B2%E4%BE%91%E5%AD%90.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "湖西風力發電站",
-      "extract": "湖西風力發電站位於臺灣澎湖縣湖西鄉，為隸屬於台灣電力公司旗下的風力發電站，該風力發電站共有6部風力發電機組，分別坐落在湖西鄉北寮村、南寮村，以及菓葉村三個村落。所生產之電力引接至尖山發電廠後由該發電廠做調度使用。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B9%96%E8%A5%BF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Huxi_Windpower_Plant.jpg/330px-Huxi_Windpower_Plant.jpg",
       "source": "wikipedia"
     }
   ]

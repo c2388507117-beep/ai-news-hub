@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-16T21:28:05.169Z",
+  "fetchedAt": "2026-07-16T23:13:25.368Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: 星际战士2",
+      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "discount": 70,
+      "originalPrice": 59.99,
+      "finalPrice": 17.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-16T23:13:25.368Z"
     },
     {
       "id": "steam-275850",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-3159330",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-3240220",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-1623730",
@@ -77,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
-    },
-    {
-      "id": "steam-4210580",
-      "title": "《采矿工厂小队》- Ore Factory Squad ⛏️",
-      "url": "https://store.steampowered.com/app/4210580?l=schinese",
-      "discount": 25,
-      "originalPrice": 12.99,
-      "finalPrice": 9.74,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.169Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-2968420",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.169Z"
+      "publishedAt": "2026-07-16T23:13:25.368Z"
+    },
+    {
+      "id": "steam-4210580",
+      "title": "《采矿工厂小队》- Ore Factory Squad ⛏️",
+      "url": "https://store.steampowered.com/app/4210580?l=schinese",
+      "discount": 25,
+      "originalPrice": 12.99,
+      "finalPrice": 9.74,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-16T23:13:25.368Z"
     },
     {
       "id": "steam-3808690",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-1671210",
@@ -129,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.169Z"
-    },
-    {
-      "id": "steam-2524850",
-      "title": "电车炫客",
-      "url": "https://store.steampowered.com/app/2524850?l=schinese",
-      "discount": 10,
-      "originalPrice": 76,
-      "finalPrice": 68.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.368Z"
     },
     {
       "id": "steam-3641000",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.018Z"
+      "publishedAt": "2026-07-16T23:13:25.117Z"
     },
     {
       "id": "steam-3712080",
@@ -168,20 +168,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.169Z"
+      "publishedAt": "2026-07-16T23:13:25.368Z"
     },
     {
-      "id": "steam-3869850",
-      "title": "Welcome to the Game III",
-      "url": "https://store.steampowered.com/app/3869850?l=schinese",
+      "id": "steam-2524850",
+      "title": "电车炫客",
+      "url": "https://store.steampowered.com/app/2524850?l=schinese",
       "discount": 10,
       "originalPrice": 19.99,
       "finalPrice": 17.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869850/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T21:28:05.169Z"
+      "publishedAt": "2026-07-16T23:13:25.368Z"
+    },
+    {
+      "id": "steam-1696770",
+      "title": "The Mermaid Mask",
+      "url": "https://store.steampowered.com/app/1696770?l=schinese",
+      "discount": 10,
+      "originalPrice": 19.99,
+      "finalPrice": 17.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-16T23:13:25.368Z"
     }
   ]
 }
