@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T16:44:05.989Z",
+  "fetchedAt": "2026-07-16T18:34:33.872Z",
   "items": [
+    {
+      "title": "施塔尔贝格",
+      "extract": "施塔尔贝格 是德国莱茵兰-普法尔茨州唐纳山县的市镇，面积2.59平方千米，2023年12月31日人口为174人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%BD%E5%A1%94%E5%B0%94%E8%B4%9D%E6%A0%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Glockenturm_Stahlberg.jpg/330px-Glockenturm_Stahlberg.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "東雲侑子系列",
       "extract": "《東雲侑子系列》是日本輕小說家森橋賓果創作、畫師Nardack負責插畫的輕小說作品，本於日本Fami通文庫的網路雜誌《FB Online》上連載，2011年由Fami通文庫出版成書。後有改編為漫畫，作畫者為成瀨ちさと。小說第一集曾獲第一屆《店員最愛輕小說大賞》第四位。整系列獲得《這本輕小說真厲害！2013》第八名。由成瀨ちさと作畫的改編漫畫於2012年至2013年連載。\n",
@@ -27,13 +34,6 @@
       "extract": "米內拉爾尼巴尼市，是保加利亞的城鎮，位於該國南部，由哈斯科沃州負責管轄，首府設於米內拉爾尼巴尼，面積215平方公里，2011年人口5,899，人口密度每平方公里27.4人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%85%A7%E6%8B%89%E7%88%BE%E5%B0%BC%E5%B7%B4%E5%B0%BC%E5%B8%82%E9%8E%AE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Map_of_Mineralni_bani_municipality_%28Haskovo_Province%29.png/330px-Map_of_Mineralni_bani_municipality_%28Haskovo_Province%29.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "失落的秘符",
-      "extract": "《失落的秘符》，台译《失落的符号》，原名《所罗门之钥》，是美国著名畅销书作家丹·布朗于2009年9月15日出版的暢銷小說。本书的主人公与2000年出版的《天使与魔鬼》、2003年出版的《達文西密碼》一样，仍是哈佛大学符号学教授罗伯特·兰登，场景设定在美國首都华盛顿特区，以共济会和希伯来古书《所罗门之钥》中的神秘符号为主题。本书已完成多年，曾被猜测于2006年付梓，但出版日期几经推迟，最终定于2009年9月15日。预计首批印刷数量将多达五百万到六百五十万本，将创下Random House首印数量之最。本书的电子版面市的日期官方尚未公布，但已开始接受预定。本书在美国和加拿大两地接受预定几个月以来接到了大量订单，丹·布朗在美国的出版商Sonny Mehta称其这部作品为“才华横溢、令人瞩目的惊悚小说”，并且“值得读者等待。”\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%A7%98%E7%AC%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/07/LostSymbol.jpg",
       "source": "wikipedia"
     }
   ]

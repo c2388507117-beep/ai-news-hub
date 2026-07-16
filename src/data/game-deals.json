@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-07-16T16:44:00.265Z",
+  "fetchedAt": "2026-07-16T18:34:28.552Z",
   "items": [
     {
-      "id": "steam-703080",
-      "title": "动物园之星",
-      "url": "https://store.steampowered.com/app/703080?l=schinese",
+      "id": "steam-447040",
+      "title": "Watch_Dogs® 2",
+      "url": "https://store.steampowered.com/app/447040?l=schinese",
       "discount": 95,
-      "originalPrice": 180,
-      "finalPrice": 9,
+      "originalPrice": 298,
+      "finalPrice": 14.9,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-1174180",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-1304930",
@@ -38,20 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
-    },
-    {
-      "id": "steam-1771300",
-      "title": "天国：拯救2",
-      "url": "https://store.steampowered.com/app/1771300?l=schinese",
-      "discount": 60,
-      "originalPrice": 228,
-      "finalPrice": 91.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-3159330",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-3892270",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:44:00.265Z"
+      "publishedAt": "2026-07-16T18:34:28.552Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-4210580",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:44:00.265Z"
+      "publishedAt": "2026-07-16T18:34:28.552Z"
     },
     {
       "id": "steam-3808690",
@@ -129,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
+    },
+    {
+      "id": "steam-2749950",
+      "title": "Esports Manager 2026",
+      "url": "https://store.steampowered.com/app/2749950?l=schinese",
+      "discount": 20,
+      "originalPrice": 68,
+      "finalPrice": 54.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-1671210",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:44:00.265Z"
+      "publishedAt": "2026-07-16T18:34:28.552Z"
     },
     {
       "id": "steam-3641000",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:43:59.724Z"
+      "publishedAt": "2026-07-16T18:34:28.301Z"
     },
     {
       "id": "steam-3712080",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:44:00.264Z"
+      "publishedAt": "2026-07-16T18:34:28.552Z"
     },
     {
       "id": "steam-2524850",
@@ -181,20 +181,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:44:00.265Z"
+      "publishedAt": "2026-07-16T18:34:28.552Z"
     },
     {
-      "id": "steam-367270",
-      "title": "Angels Fall First",
-      "url": "https://store.steampowered.com/app/367270?l=schinese",
+      "id": "steam-3869850",
+      "title": "Welcome to the Game III",
+      "url": "https://store.steampowered.com/app/3869850?l=schinese",
       "discount": 10,
-      "originalPrice": 17.99,
-      "finalPrice": 16.19,
+      "originalPrice": 19.99,
+      "finalPrice": 17.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T16:44:00.265Z"
+      "publishedAt": "2026-07-16T18:34:28.552Z"
     }
   ]
 }
