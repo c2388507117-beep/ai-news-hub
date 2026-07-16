@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T11:55:26.475Z",
+  "fetchedAt": "2026-07-16T14:26:25.327Z",
   "items": [
+    {
+      "title": "湖西風力發電站",
+      "extract": "湖西風力發電站位於臺灣澎湖縣湖西鄉，為隸屬於台灣電力公司旗下的風力發電站，該風力發電站共有6部風力發電機組，分別坐落在湖西鄉北寮村、南寮村，以及菓葉村三個村落。所生產之電力引接至尖山發電廠後由該發電廠做調度使用。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%96%E8%A5%BF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Huxi_Windpower_Plant.jpg/330px-Huxi_Windpower_Plant.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "2020年夏季奧林匹克運動會美國代表團",
       "extract": "2020年夏季奥林匹克运动会美国代表团是美国所派出的，因2019冠状病毒病疫情而延期至2021年举办的第32届夏季奥林匹克运动会的代表团。这是该国第二十八次参加夏季奥运。\n",
@@ -27,13 +34,6 @@
       "extract": "火力发电厂（简称火电厂）或称化石燃料发电厂，是指靠燃烧化石燃料（煤、天然气或石油）来产生电能的热力发电厂。火力发电厂可以持续地穩定大量供电，在许多国家，大部分电能均由火力发电厂提供。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Circle_frame.svg/langzh-330px-Circle_frame.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "美洲矛吻蝠屬",
-      "extract": "美洲矛吻蝠屬，哺乳綱、翼手目、葉口蝠科的一屬，而與美洲矛吻蝠屬（鋸緣矛吻蝠）同科的動物尚有狹面矛吻蝠屬（狹面矛吻蝠）、矛吻蝠屬（矛吻蝠）、南美大耳蝠屬（絨大耳蝠）、美洲葉鼻蝠屬（加州葉鼻蝠）等之數種哺乳動物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%B4%B2%E7%9F%9B%E5%90%BB%E8%9D%A0%E5%B1%AC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mimon_bennettii.jpg/330px-Mimon_bennettii.jpg",
       "source": "wikipedia"
     }
   ]
