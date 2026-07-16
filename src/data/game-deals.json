@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-16T11:31:56.943Z",
+  "fetchedAt": "2026-07-16T11:55:22.320Z",
   "items": [
     {
       "id": "steam-703080",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-447040",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-1174180",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-1304930",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-1771300",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-275850",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.943Z"
+      "publishedAt": "2026-07-16T11:55:22.320Z"
     },
     {
       "id": "steam-3159330",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-3240220",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-3892270",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.943Z"
+      "publishedAt": "2026-07-16T11:55:22.320Z"
     },
     {
       "id": "steam-1623730",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-2749950",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.685Z"
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-1671210",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.943Z"
+      "publishedAt": "2026-07-16T11:55:22.320Z"
     },
     {
       "id": "steam-4380490",
@@ -168,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.943Z"
+      "publishedAt": "2026-07-16T11:55:22.320Z"
+    },
+    {
+      "id": "steam-3641000",
+      "title": "加利宅邸悬案",
+      "url": "https://store.steampowered.com/app/3641000?l=schinese",
+      "discount": 10,
+      "originalPrice": 76,
+      "finalPrice": 68.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-16T11:55:22.145Z"
     },
     {
       "id": "steam-2524850",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T11:31:56.943Z"
+      "publishedAt": "2026-07-16T11:55:22.320Z"
     }
   ]
 }

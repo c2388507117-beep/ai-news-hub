@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T11:32:02.748Z",
+  "fetchedAt": "2026-07-16T11:55:26.475Z",
   "items": [
+    {
+      "title": "2020年夏季奧林匹克運動會美國代表團",
+      "extract": "2020年夏季奥林匹克运动会美国代表团是美国所派出的，因2019冠状病毒病疫情而延期至2021年举办的第32届夏季奥林匹克运动会的代表团。这是该国第二十八次参加夏季奥运。\n",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%81%8B%E5%8B%95%E6%9C%83%E7%BE%8E%E5%9C%8B%E4%BB%A3%E8%A1%A8%E5%9C%98",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/langzh-330px-Flag_of_the_United_States.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "米內拉爾尼巴尼市鎮",
       "extract": "米內拉爾尼巴尼市，是保加利亞的城鎮，位於該國南部，由哈斯科沃州負責管轄，首府設於米內拉爾尼巴尼，面積215平方公里，2011年人口5,899，人口密度每平方公里27.4人。\n",
@@ -27,13 +34,6 @@
       "extract": "美洲矛吻蝠屬，哺乳綱、翼手目、葉口蝠科的一屬，而與美洲矛吻蝠屬（鋸緣矛吻蝠）同科的動物尚有狹面矛吻蝠屬（狹面矛吻蝠）、矛吻蝠屬（矛吻蝠）、南美大耳蝠屬（絨大耳蝠）、美洲葉鼻蝠屬（加州葉鼻蝠）等之數種哺乳動物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%B4%B2%E7%9F%9B%E5%90%BB%E8%9D%A0%E5%B1%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mimon_bennettii.jpg/330px-Mimon_bennettii.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鶴島市",
-      "extract": "鶴島市 是日本埼玉縣中部的城市，人口約7万人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%B6%B4%E5%B3%B6%E5%B8%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Turugashima_JCT_2.JPG/330px-Turugashima_JCT_2.JPG",
       "source": "wikipedia"
     }
   ]
