@@ -1,12 +1,15 @@
 ---
-// GameDealCard — 游戏打折卡片（三平台分类展示）
+// GameDealCard — Steam 游戏打折卡片（国区，¥ 价格）
 
 export interface GameDeal {
   id: string;
   title: string;
   url: string;
   discount: number;
+  originalPrice: number;
   finalPrice: number;
+  currency: string;
+  region: string;
   imageUrl: string;
   platform: string;
   publishedAt: string;
@@ -15,75 +18,48 @@ export interface GameDeal {
 export interface Props { items: GameDeal[]; }
 
 const { items } = Astro.props;
-
-const PLATFORMS = [
-  { key: 'Steam', label: 'Steam', emoji: '🟦' },
-  { key: 'PlayStation', label: 'PlayStation', emoji: '🔷' },
-  { key: 'Switch', label: 'Switch', emoji: '🔴' },
-];
-
-function groupByPlatform(items: GameDeal[]): Record<string, GameDeal[]> {
-  const groups: Record<string, GameDeal[]> = {};
-  for (const item of items) {
-    if (!groups[item.platform]) groups[item.platform] = [];
-    groups[item.platform].push(item);
-  }
-  return groups;
-}
-
-const grouped = groupByPlatform(items);
+if (items.length > 9) items.sort((a, b) => b.discount - a.discount);
 
 function fmtPrice(p: number): string {
-  if (!p) return '';
-  return '¥' + p.toFixed(2);
+  if (p <= 0) return '';
+  return p.toFixed(2);
 }
 ---
 
-<div>
-  {PLATFORMS.map(({ key, label, emoji }) => {
-    const platformItems = grouped[key] || [];
-    return (
-      <div class="mb-4 last:mb-0">
-        <div class="flex items-center gap-2 mb-2">
-          <span class="text-sm">{emoji}</span>
-          <h3 class="text-sm font-bold text-gray-700 dark:text-gray-300">{label}</h3>
-          <span class="text-[10px] text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded-full">{platformItems.length} 个折扣</span>
-        </div>
-        {platformItems.length > 0 ? (
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {platformItems.slice(0, 6).map((item) => (
-              <a
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center gap-3 p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-green-300 dark:hover:border-green-700 hover:shadow-md transition-all"
-              >
-                {item.imageUrl ? (
-                  <img src={item.imageUrl} alt="" class="w-14 h-14 rounded-lg object-cover flex-shrink-0 bg-gray-100 dark:bg-gray-800" loading="lazy" onerror="this.style.display='none'" />
-                ) : (
-                  <div class="w-14 h-14 rounded-lg flex-shrink-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-lg">{item.platform === 'Steam' ? '🎮' : item.platform === 'PlayStation' ? '🎯' : '🕹️'}</div>
+<div class="space-y-2">
+  {items.length > 0 ? (
+    items.slice(0, 24).map((item) => (
+      <a
+        href={item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center gap-3 p-3 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-green-300 dark:hover:border-green-700 hover:shadow-md transition-all"
+      >
+        <img
+          src={item.imageUrl}
+          alt=""
+          class="w-20 h-[60px] rounded-lg object-cover flex-shrink-0 bg-gray-200 dark:bg-gray-700"
+          loading="lazy"
+          onerror="this.style.display='none'"
+        />
+        <div class="flex-1 min-w-0">
+          <h3 class="text-sm font-semibold leading-snug line-clamp-2 text-gray-800 dark:text-gray-200">{item.title}</h3>
+          <div class="flex items-center gap-2.5 mt-2 flex-wrap">
+            <span class="text-xs font-bold text-white bg-red-500 px-2 py-0.5 rounded">-{item.discount}%</span>
+            {item.finalPrice > 0 && (
+              <>
+                <span class="text-sm font-bold text-gray-800 dark:text-gray-200">¥{fmtPrice(item.finalPrice)}</span>
+                {item.originalPrice > item.finalPrice && (
+                  <span class="text-[11px] text-gray-400 line-through">¥{fmtPrice(item.originalPrice)}</span>
                 )}
-                <div class="flex-1 min-w-0">
-                  <h4 class="text-xs font-semibold leading-snug line-clamp-2 text-gray-800 dark:text-gray-200">{item.title}</h4>
-                  <div class="flex items-center gap-2 mt-1.5">
-                    {item.discount > 0 && (
-                      <span class="text-xs font-bold text-red-500">-{item.discount}%</span>
-                    )}
-                    {item.finalPrice > 0 && (
-                      <span class="text-[11px] text-gray-500 dark:text-gray-400">{fmtPrice(item.finalPrice)}</span>
-                    )}
-                  </div>
-                </div>
-              </a>
-            ))}
+              </>
+            )}
+            <span class="text-[10px] text-gray-400 ml-auto">{item.region}</span>
           </div>
-        ) : (
-          <p class="text-xs text-gray-400 py-3 text-center">暂无折扣信息</p>
-        )}
-      </div>
-    );
-  })}
-  {items.length === 0 && (
+        </div>
+      </a>
+    ))
+  ) : (
     <p class="text-center text-gray-400 py-6 text-xs">暂无折扣信息</p>
   )}
 </div>
