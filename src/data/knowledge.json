@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T20:13:47.122Z",
+  "fetchedAt": "2026-07-16T21:28:10.135Z",
   "items": [
+    {
+      "title": "回旋踢",
+      "extract": "回旋踢是一种脚法，练习者在踢击时抬起膝盖，同时自己的另一只支撑脚和身体做半圆运动，並且抬起的那只腳要伸展腿部，用小腿下部或脚背打击對手。脚掌也可用來打击目标。 \n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%97%8B%E8%B8%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lethwei-Hight-kick.jpg/330px-Lethwei-Hight-kick.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "特奥多尔·埃舍里希",
       "extract": "特奥多尔·埃舍里希，是德国—奥地利儿科医生，格拉茨大学和维也纳大学教授。他发现并描述了大肠杆菌 的特性。\n",
@@ -27,13 +34,6 @@
       "extract": "湖西風力發電站位於臺灣澎湖縣湖西鄉，為隸屬於台灣電力公司旗下的風力發電站，該風力發電站共有6部風力發電機組，分別坐落在湖西鄉北寮村、南寮村，以及菓葉村三個村落。所生產之電力引接至尖山發電廠後由該發電廠做調度使用。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B9%96%E8%A5%BF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Huxi_Windpower_Plant.jpg/330px-Huxi_Windpower_Plant.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "2020年夏季奧林匹克運動會美國代表團",
-      "extract": "2020年夏季奥林匹克运动会美国代表团是美国所派出的，因2019冠状病毒病疫情而延期至2021年举办的第32届夏季奥林匹克运动会的代表团。这是该国第二十八次参加夏季奥运。\n",
-      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%81%8B%E5%8B%95%E6%9C%83%E7%BE%8E%E5%9C%8B%E4%BB%A3%E8%A1%A8%E5%9C%98",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/langzh-330px-Flag_of_the_United_States.svg.png",
       "source": "wikipedia"
     }
   ]

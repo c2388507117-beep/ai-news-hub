@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-16T20:13:41.786Z",
+  "fetchedAt": "2026-07-16T21:28:05.169Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
+    },
+    {
+      "id": "steam-275850",
+      "title": "No Man's Sky 无人深空",
+      "url": "https://store.steampowered.com/app/275850?l=schinese",
+      "discount": 60,
+      "originalPrice": 175,
+      "finalPrice": 70,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-3159330",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-1623730",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-4210580",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.786Z"
+      "publishedAt": "2026-07-16T21:28:05.169Z"
     },
     {
       "id": "steam-2968420",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.786Z"
+      "publishedAt": "2026-07-16T21:28:05.169Z"
     },
     {
       "id": "steam-3808690",
@@ -103,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
-    },
-    {
-      "id": "steam-2749950",
-      "title": "Esports Manager 2026",
-      "url": "https://store.steampowered.com/app/2749950?l=schinese",
-      "discount": 20,
-      "originalPrice": 68,
-      "finalPrice": 54.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2749950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-1671210",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.786Z"
+      "publishedAt": "2026-07-16T21:28:05.169Z"
     },
     {
       "id": "steam-2524850",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.520Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-3641000",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.521Z"
+      "publishedAt": "2026-07-16T21:28:05.018Z"
     },
     {
       "id": "steam-3712080",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.786Z"
+      "publishedAt": "2026-07-16T21:28:05.169Z"
     },
     {
       "id": "steam-3869850",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3869850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-16T20:13:41.786Z"
+      "publishedAt": "2026-07-16T21:28:05.169Z"
     }
   ]
 }
