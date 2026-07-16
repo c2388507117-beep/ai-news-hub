@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T14:26:25.327Z",
+  "fetchedAt": "2026-07-16T16:44:05.989Z",
   "items": [
+    {
+      "title": "東雲侑子系列",
+      "extract": "《東雲侑子系列》是日本輕小說家森橋賓果創作、畫師Nardack負責插畫的輕小說作品，本於日本Fami通文庫的網路雜誌《FB Online》上連載，2011年由Fami通文庫出版成書。後有改編為漫畫，作畫者為成瀨ちさと。小說第一集曾獲第一屆《店員最愛輕小說大賞》第四位。整系列獲得《這本輕小說真厲害！2013》第八名。由成瀨ちさと作畫的改編漫畫於2012年至2013年連載。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%9B%B2%E4%BE%91%E5%AD%90%E7%B3%BB%E5%88%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9D%B1%E9%9B%B2%E4%BE%91%E5%AD%90.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "湖西風力發電站",
       "extract": "湖西風力發電站位於臺灣澎湖縣湖西鄉，為隸屬於台灣電力公司旗下的風力發電站，該風力發電站共有6部風力發電機組，分別坐落在湖西鄉北寮村、南寮村，以及菓葉村三個村落。所生產之電力引接至尖山發電廠後由該發電廠做調度使用。\n",
@@ -27,13 +34,6 @@
       "extract": "《失落的秘符》，台译《失落的符号》，原名《所罗门之钥》，是美国著名畅销书作家丹·布朗于2009年9月15日出版的暢銷小說。本书的主人公与2000年出版的《天使与魔鬼》、2003年出版的《達文西密碼》一样，仍是哈佛大学符号学教授罗伯特·兰登，场景设定在美國首都华盛顿特区，以共济会和希伯来古书《所罗门之钥》中的神秘符号为主题。本书已完成多年，曾被猜测于2006年付梓，但出版日期几经推迟，最终定于2009年9月15日。预计首批印刷数量将多达五百万到六百五十万本，将创下Random House首印数量之最。本书的电子版面市的日期官方尚未公布，但已开始接受预定。本书在美国和加拿大两地接受预定几个月以来接到了大量订单，丹·布朗在美国的出版商Sonny Mehta称其这部作品为“才华横溢、令人瞩目的惊悚小说”，并且“值得读者等待。”\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E8%90%BD%E7%9A%84%E7%A7%98%E7%AC%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/07/LostSymbol.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "火力發電廠",
-      "extract": "火力发电厂（简称火电厂）或称化石燃料发电厂，是指靠燃烧化石燃料（煤、天然气或石油）来产生电能的热力发电厂。火力发电厂可以持续地穩定大量供电，在许多国家，大部分电能均由火力发电厂提供。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Circle_frame.svg/langzh-330px-Circle_frame.svg.png",
       "source": "wikipedia"
     }
   ]
