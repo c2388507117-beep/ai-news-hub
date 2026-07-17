@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-17T19:35:36.666Z",
+  "fetchedAt": "2026-07-17T21:10:36.678Z",
   "items": [
+    {
+      "title": "圣伊什特万圣殿",
+      "extract": "圣伊什特万圣殿 是匈牙利首都布达佩斯的一座天主教宗座圣殿，以匈牙利的第一位国王伊什特万一世（975–1038）得名，其聖物王之聖右手安放在此。圣伊什特万圣殿与匈牙利国会大厦是布达佩斯最高的两座建筑，高96米，宽55米，长87.4米。它完成于1905年，工期长达54年。耽延的主要原因是1868年穹顶倾塌，已完成的工程全部拆除， 并从地基开始重建。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E4%BC%8A%E4%BB%80%E7%89%B9%E4%B8%87%E5%9C%A3%E6%AE%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Budapest%2C_St._Stephen%27s_Basilica_C16.jpg/330px-Budapest%2C_St._Stephen%27s_Basilica_C16.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "福建水師提督列表",
       "extract": "大清帝國福建水師為隸屬綠營的軍事組織，福建水師提督為福建水師最高長官，品秩從一品，補服以麒麟為幟，原職初設於康熙元年（1662年），康熙七年（1668年）裁撤，康熙16年（1677年）復設之後，延續至光緒30年（1904年）裁撤，有清一朝計56任提督，有重複出任者4人，總計52人出任福建水師提督，茲列表如下：\n",
@@ -27,13 +34,6 @@
       "extract": "瑟姆納 是挪威諾爾蘭郡的一個市镇，行政中心为维克村。市镇面积为195.19平方公里，2023年人口数量为1,970人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%91%9F%E5%A7%86%E7%B4%8D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Berg_i_Helgeland.jpg/330px-Berg_i_Helgeland.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "WE ARE Perfume WORLD TOUR 3rd DOCUMENT",
-      "extract": "《WE ARE Perfume -WORLD TOUR 3rd DOCUMENT》是日本流行電音組合Perfume首部纪录片电影，於2015年10月31日公开上映。商品化版本于2016年7月6日发行，唱片公司為Perfume Records。\n",
-      "url": "https://zh.wikipedia.org/wiki/WE_ARE_Perfume_WORLD_TOUR_3rd_DOCUMENT",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/e/e6/WE_ARE_Perfume_-WORLD_TOUR_3rd_DOCUMENT%E7%94%B5%E5%BD%B1%E5%BC%80%E5%9C%BA.jpg/330px-WE_ARE_Perfume_-WORLD_TOUR_3rd_DOCUMENT%E7%94%B5%E5%BD%B1%E5%BC%80%E5%9C%BA.jpg",
       "source": "wikipedia"
     }
   ]
