@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-17T17:33:17.367Z",
+  "fetchedAt": "2026-07-17T19:35:36.666Z",
   "items": [
+    {
+      "title": "福建水師提督列表",
+      "extract": "大清帝國福建水師為隸屬綠營的軍事組織，福建水師提督為福建水師最高長官，品秩從一品，補服以麒麟為幟，原職初設於康熙元年（1662年），康熙七年（1668年）裁撤，康熙16年（1677年）復設之後，延續至光緒30年（1904年）裁撤，有清一朝計56任提督，有重複出任者4人，總計52人出任福建水師提督，茲列表如下：\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%BB%BA%E6%B0%B4%E5%B8%AB%E6%8F%90%E7%9D%A3%E5%88%97%E8%A1%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Qing_Dynasty_Fujian_map_1820.svg/langzh-330px-Qing_Dynasty_Fujian_map_1820.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "監察院副院長",
       "extract": "監察院副院長，是中華民國監察院的副首長，依據《中華民國憲法》規定，對全國各機關行使彈劾權、糾舉權及審計權。任期六年，憲法第七次修正後改為總統提名、經立法院同意後任命。\n",
@@ -27,13 +34,6 @@
       "extract": "《WE ARE Perfume -WORLD TOUR 3rd DOCUMENT》是日本流行電音組合Perfume首部纪录片电影，於2015年10月31日公开上映。商品化版本于2016年7月6日发行，唱片公司為Perfume Records。\n",
       "url": "https://zh.wikipedia.org/wiki/WE_ARE_Perfume_WORLD_TOUR_3rd_DOCUMENT",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/e/e6/WE_ARE_Perfume_-WORLD_TOUR_3rd_DOCUMENT%E7%94%B5%E5%BD%B1%E5%BC%80%E5%9C%BA.jpg/330px-WE_ARE_Perfume_-WORLD_TOUR_3rd_DOCUMENT%E7%94%B5%E5%BD%B1%E5%BC%80%E5%9C%BA.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓦利亞斯大街",
-      "extract": "瓦利亞斯大街 是伊朗德黑蘭的一條綠樹成蔭的街道，將城市分為東西兩部分，建於1922年至1927年間。它被認為是德黑蘭的主要大道和商業中心之一。它也是中東最長的街道，前BBC（現半島電視台）記者Rageh Omaar在電視紀錄片《歡迎來到德黑蘭》中將其報導為世界上最長的街道之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%88%A9%E4%BA%9E%E6%96%AF%E5%A4%A7%E8%A1%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Abbasabad%2C_Tehran%2C_Tehran%2C_Iran_-_panoramio_-_Behrooz_Rezvani_%2837%29.jpg/330px-Abbasabad%2C_Tehran%2C_Tehran%2C_Iran_-_panoramio_-_Behrooz_Rezvani_%2837%29.jpg",
       "source": "wikipedia"
     }
   ]
