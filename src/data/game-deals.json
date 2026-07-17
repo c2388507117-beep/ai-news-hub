@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-17T11:43:23.963Z",
+  "fetchedAt": "2026-07-17T14:06:15.262Z",
   "items": [
     {
       "id": "steam-447040",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-1174180",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-1304930",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-2183900",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-3159330",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-1623730",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-2968420",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.962Z"
+      "publishedAt": "2026-07-17T14:06:15.262Z"
+    },
+    {
+      "id": "steam-4210580",
+      "title": "《采矿工厂小队》- Ore Factory Squad ⛏️",
+      "url": "https://store.steampowered.com/app/4210580?l=schinese",
+      "discount": 25,
+      "originalPrice": 12.99,
+      "finalPrice": 9.74,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-17T14:06:15.262Z"
     },
     {
       "id": "steam-3808690",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-1453566",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453566/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.632Z"
+      "publishedAt": "2026-07-17T14:06:14.957Z"
     },
     {
       "id": "steam-1671210",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.962Z"
+      "publishedAt": "2026-07-17T14:06:15.262Z"
     },
     {
       "id": "steam-3712080",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.962Z"
+      "publishedAt": "2026-07-17T14:06:15.262Z"
     },
     {
       "id": "steam-2524850",
@@ -168,20 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.962Z"
-    },
-    {
-      "id": "steam-1696770",
-      "title": "The Mermaid Mask",
-      "url": "https://store.steampowered.com/app/1696770?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-17T11:43:23.962Z"
+      "publishedAt": "2026-07-17T14:06:15.262Z"
     }
   ]
 }

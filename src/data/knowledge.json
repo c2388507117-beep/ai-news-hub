@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-17T11:43:28.589Z",
+  "fetchedAt": "2026-07-17T14:06:20.660Z",
   "items": [
+    {
+      "title": "瑟姆納",
+      "extract": "瑟姆納 是挪威諾爾蘭郡的一個市镇，行政中心为维克村。市镇面积为195.19平方公里，2023年人口数量为1,970人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%91%9F%E5%A7%86%E7%B4%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Berg_i_Helgeland.jpg/330px-Berg_i_Helgeland.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "WE ARE Perfume WORLD TOUR 3rd DOCUMENT",
       "extract": "《WE ARE Perfume -WORLD TOUR 3rd DOCUMENT》是日本流行電音組合Perfume首部纪录片电影，於2015年10月31日公开上映。商品化版本于2016年7月6日发行，唱片公司為Perfume Records。\n",
@@ -27,13 +34,6 @@
       "extract": "无锡国际金融中心 是一座位于中华人民共和国江苏省无锡市梁溪区太湖广场的现代主义超高层摩天大楼。此塔楼高度为339米（1,112英尺），有68层。 建筑面积280,000平方米（3,014,000平方英尺），于2014年完工，是無錫第一高樓。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%97%A0%E9%94%A1IFS%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/201906_IFS_Wuxi.jpg/330px-201906_IFS_Wuxi.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "维克托·佐洛托夫",
-      "extract": "维克托·瓦西里耶维奇·佐洛托夫，現任俄羅斯聯邦國家近衛軍總司令、俄羅斯聯邦安全會議成員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E4%BD%90%E6%B4%9B%E6%89%98%E5%A4%AB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Viktor_Zolotov_%282020-05-06%29.jpg/330px-Viktor_Zolotov_%282020-05-06%29.jpg",
       "source": "wikipedia"
     }
   ]
