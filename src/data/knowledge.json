@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-17T22:08:42.859Z",
+  "fetchedAt": "2026-07-17T23:10:58.349Z",
   "items": [
+    {
+      "title": "埃熱澤爾斯湖",
+      "extract": "埃熱澤爾斯湖 是拉脫維亞的湖泊，位於該國東南部，長8.2公里，面積9.9平方公里，集水區面積120平方公里，海拔高度169.4米，平均水深6.4米，最大水深21米，湖中島嶼總面積77.6公畝。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E7%86%B1%E6%BE%A4%E7%88%BE%E6%96%AF%E6%B9%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/E%C5%BEezers_pie_Ezernieku_-_Andze%C4%BCu_ce%C4%BCa_2004-08-05_-_panoramio.jpg/330px-E%C5%BEezers_pie_Ezernieku_-_Andze%C4%BCu_ce%C4%BCa_2004-08-05_-_panoramio.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "云南路站",
       "extract": "云南路站位于中华人民共和国江苏省南京市鼓楼区北京西路与云南路的交叉口，是南京地铁4号线与5号线的地铁换乘站。\n",
@@ -27,13 +34,6 @@
       "extract": "監察院副院長，是中華民國監察院的副首長，依據《中華民國憲法》規定，對全國各機關行使彈劾權、糾舉權及審計權。任期六年，憲法第七次修正後改為總統提名、經立法院同意後任命。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E5%AF%9F%E9%99%A2%E5%89%AF%E9%99%A2%E9%95%B7",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/%E6%9D%8E%E9%B4%BB%E9%88%9E%E5%89%AF%E9%99%A2%E9%95%B7.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "飯田祥二郎",
-      "extract": "飯田祥二郎，為大日本帝國陸軍的軍人，最終階級為陸軍中將。在太平洋戰爭期間負責指揮日本軍第15軍進攻英屬緬甸（史稱緬甸戰役），為南方軍司令官四人中的其中一人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A3%AF%E7%94%B0%E7%A5%A5%E4%BA%8C%E9%83%8E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Portrait_of_Lieutenant_General_Shojiro_Iida.jpg",
       "source": "wikipedia"
     }
   ]
