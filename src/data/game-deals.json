@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-17T03:43:52.128Z",
+  "fetchedAt": "2026-07-17T06:30:26.694Z",
   "items": [
     {
       "id": "steam-447040",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-1174180",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-1304930",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-2183900",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-3159330",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-3892270",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:52.128Z"
+      "publishedAt": "2026-07-17T06:30:26.694Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
+    },
+    {
+      "id": "steam-739630",
+      "title": "Phasmophobia 恐鬼症",
+      "url": "https://store.steampowered.com/app/739630?l=schinese",
+      "discount": 30,
+      "originalPrice": 68,
+      "finalPrice": 47.6,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-2968420",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:52.128Z"
+      "publishedAt": "2026-07-17T06:30:26.694Z"
     },
     {
       "id": "steam-3808690",
@@ -129,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
-    },
-    {
-      "id": "steam-1453566",
-      "title": "《F1® 25》：2026赛季版",
-      "url": "https://store.steampowered.com/app/1453566?l=schinese",
-      "discount": 20,
-      "originalPrice": 248,
-      "finalPrice": 198.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453566/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.499Z"
     },
     {
       "id": "steam-1671210",
@@ -155,20 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:52.128Z"
-    },
-    {
-      "id": "steam-2524850",
-      "title": "电车炫客",
-      "url": "https://store.steampowered.com/app/2524850?l=schinese",
-      "discount": 10,
-      "originalPrice": 76,
-      "finalPrice": 68.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:51.988Z"
+      "publishedAt": "2026-07-17T06:30:26.694Z"
     },
     {
       "id": "steam-3712080",
@@ -181,20 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:52.128Z"
+      "publishedAt": "2026-07-17T06:30:26.694Z"
     },
     {
-      "id": "steam-367270",
-      "title": "Angels Fall First",
-      "url": "https://store.steampowered.com/app/367270?l=schinese",
+      "id": "steam-2524850",
+      "title": "电车炫客",
+      "url": "https://store.steampowered.com/app/2524850?l=schinese",
       "discount": 10,
-      "originalPrice": 17.99,
-      "finalPrice": 16.19,
+      "originalPrice": 19.99,
+      "finalPrice": 17.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T03:43:52.128Z"
+      "publishedAt": "2026-07-17T06:30:26.694Z"
     }
   ]
 }
