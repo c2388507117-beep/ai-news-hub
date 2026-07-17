@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-16T23:13:29.833Z",
+  "fetchedAt": "2026-07-17T00:15:24.531Z",
   "items": [
+    {
+      "title": "维克托·佐洛托夫",
+      "extract": "维克托·瓦西里耶维奇·佐洛托夫，現任俄羅斯聯邦國家近衛軍總司令、俄羅斯聯邦安全會議成員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E4%BD%90%E6%B4%9B%E6%89%98%E5%A4%AB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Viktor_Zolotov_%282020-05-06%29.jpg/330px-Viktor_Zolotov_%282020-05-06%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "白石塘站",
       "extract": "白石塘站，是一個深圳地铁3号线的地铁车站，位于中华人民共和国广东省深圳市龍崗區坪地街道吉祥路与福照街路口，2024年12月28日投入运营。此車站为地下车站。\n",
@@ -27,13 +34,6 @@
       "extract": "施塔尔贝格 是德国莱茵兰-普法尔茨州唐纳山县的市镇，面积2.59平方千米，2023年12月31日人口为174人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%BD%E5%A1%94%E5%B0%94%E8%B4%9D%E6%A0%BC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Glockenturm_Stahlberg.jpg/330px-Glockenturm_Stahlberg.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "東雲侑子系列",
-      "extract": "《東雲侑子系列》是日本輕小說家森橋賓果創作、畫師Nardack負責插畫的輕小說作品，本於日本Fami通文庫的網路雜誌《FB Online》上連載，2011年由Fami通文庫出版成書。後有改編為漫畫，作畫者為成瀨ちさと。小說第一集曾獲第一屆《店員最愛輕小說大賞》第四位。整系列獲得《這本輕小說真厲害！2013》第八名。由成瀨ちさと作畫的改編漫畫於2012年至2013年連載。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%9B%B2%E4%BE%91%E5%AD%90%E7%B3%BB%E5%88%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9D%B1%E9%9B%B2%E4%BE%91%E5%AD%90.jpg",
       "source": "wikipedia"
     }
   ]
