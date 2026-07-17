@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-07-17T00:15:19.462Z",
+  "fetchedAt": "2026-07-17T03:43:52.128Z",
   "items": [
+    {
+      "id": "steam-447040",
+      "title": "Watch_Dogs® 2",
+      "url": "https://store.steampowered.com/app/447040?l=schinese",
+      "discount": 95,
+      "originalPrice": 298,
+      "finalPrice": 14.9,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-17T03:43:51.988Z"
+    },
     {
       "id": "steam-1174180",
       "title": "Red Dead Redemption 2",
@@ -12,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-1304930",
@@ -25,33 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: 星际战士2",
       "url": "https://store.steampowered.com/app/2183900?l=schinese",
       "discount": 70,
-      "originalPrice": 59.99,
-      "finalPrice": 17.99,
+      "originalPrice": 249,
+      "finalPrice": 74.7,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
-    },
-    {
-      "id": "steam-275850",
-      "title": "No Man's Sky 无人深空",
-      "url": "https://store.steampowered.com/app/275850?l=schinese",
-      "discount": 60,
-      "originalPrice": 175,
-      "finalPrice": 70,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-3159330",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
+    },
+    {
+      "id": "steam-3892270",
+      "title": "Gamble With Your Friends",
+      "url": "https://store.steampowered.com/app/3892270?l=schinese",
+      "discount": 38,
+      "originalPrice": 7.99,
+      "finalPrice": 4.95,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-17T03:43:52.128Z"
     },
     {
       "id": "steam-1623730",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.295Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-2968420",
@@ -103,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
-    },
-    {
-      "id": "steam-4210580",
-      "title": "《采矿工厂小队》- Ore Factory Squad ⛏️",
-      "url": "https://store.steampowered.com/app/4210580?l=schinese",
-      "discount": 25,
-      "originalPrice": 12.99,
-      "finalPrice": 9.74,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210580/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
+      "publishedAt": "2026-07-17T03:43:52.128Z"
     },
     {
       "id": "steam-3808690",
@@ -129,7 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
+    },
+    {
+      "id": "steam-1453566",
+      "title": "《F1® 25》：2026赛季版",
+      "url": "https://store.steampowered.com/app/1453566?l=schinese",
+      "discount": 20,
+      "originalPrice": 248,
+      "finalPrice": 198.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453566/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-1671210",
@@ -142,20 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
+      "publishedAt": "2026-07-17T03:43:52.128Z"
     },
     {
-      "id": "steam-3641000",
-      "title": "加利宅邸悬案",
-      "url": "https://store.steampowered.com/app/3641000?l=schinese",
+      "id": "steam-2524850",
+      "title": "电车炫客",
+      "url": "https://store.steampowered.com/app/2524850?l=schinese",
       "discount": 10,
       "originalPrice": 76,
       "finalPrice": 68.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641000/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.296Z"
+      "publishedAt": "2026-07-17T03:43:51.988Z"
     },
     {
       "id": "steam-3712080",
@@ -168,33 +181,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
+      "publishedAt": "2026-07-17T03:43:52.128Z"
     },
     {
-      "id": "steam-2524850",
-      "title": "电车炫客",
-      "url": "https://store.steampowered.com/app/2524850?l=schinese",
+      "id": "steam-367270",
+      "title": "Angels Fall First",
+      "url": "https://store.steampowered.com/app/367270?l=schinese",
       "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
+      "originalPrice": 17.99,
+      "finalPrice": 16.19,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
-    },
-    {
-      "id": "steam-1696770",
-      "title": "The Mermaid Mask",
-      "url": "https://store.steampowered.com/app/1696770?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-17T00:15:19.462Z"
+      "publishedAt": "2026-07-17T03:43:52.128Z"
     }
   ]
 }
