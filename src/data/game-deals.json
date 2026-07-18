@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-18T21:08:05.743Z",
+  "fetchedAt": "2026-07-18T22:09:32.440Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
       "id": "steam-3159330",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
       "id": "steam-3240220",
@@ -64,20 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
       "id": "steam-3892270",
       "title": "Gamble With Your Friends",
       "url": "https://store.steampowered.com/app/3892270?l=schinese",
       "discount": 38,
-      "originalPrice": 7.99,
-      "finalPrice": 4.95,
+      "originalPrice": 52,
+      "finalPrice": 32.24,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.743Z"
+      "publishedAt": "2026-07-18T22:09:32.440Z"
     },
     {
       "id": "steam-1623730",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
       "id": "steam-739630",
@@ -103,20 +103,46 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     },
     {
-      "id": "steam-2968420",
-      "title": "冲就完事模拟器2",
-      "url": "https://store.steampowered.com/app/2968420?l=schinese",
-      "discount": 25,
-      "originalPrice": 24.99,
-      "finalPrice": 18.74,
+      "id": "steam-3112280",
+      "title": "Reclaiming the Lost",
+      "url": "https://store.steampowered.com/app/3112280?l=schinese",
+      "discount": 30,
+      "originalPrice": 76,
+      "finalPrice": 53.2,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3112280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.743Z"
+      "publishedAt": "2026-07-18T22:09:32.440Z"
+    },
+    {
+      "id": "steam-3219010",
+      "title": "穿雾列车 Fogpiercer  ",
+      "url": "https://store.steampowered.com/app/3219010?l=schinese",
+      "discount": 25,
+      "originalPrice": 99,
+      "finalPrice": 74.25,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219010/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-18T22:09:32.440Z"
+    },
+    {
+      "id": "steam-2195120",
+      "title": "Go-Go Town!",
+      "url": "https://store.steampowered.com/app/2195120?l=schinese",
+      "discount": 25,
+      "originalPrice": 170,
+      "finalPrice": 127.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-18T22:09:32.440Z"
     },
     {
       "id": "steam-3808690",
@@ -129,59 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.448Z"
-    },
-    {
-      "id": "steam-1671210",
-      "title": "DELTARUNE",
-      "url": "https://store.steampowered.com/app/1671210?l=schinese",
-      "discount": 20,
-      "originalPrice": 24.99,
-      "finalPrice": 19.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.743Z"
-    },
-    {
-      "id": "steam-3844970",
-      "title": "地精捣蛋团",
-      "url": "https://store.steampowered.com/app/3844970?l=schinese",
-      "discount": 20,
-      "originalPrice": 9.99,
-      "finalPrice": 7.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.743Z"
-    },
-    {
-      "id": "steam-3712080",
-      "title": "Funnel Runners",
-      "url": "https://store.steampowered.com/app/3712080?l=schinese",
-      "discount": 10,
-      "originalPrice": 14.99,
-      "finalPrice": 13.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.743Z"
-    },
-    {
-      "id": "steam-2524850",
-      "title": "电车炫客",
-      "url": "https://store.steampowered.com/app/2524850?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-18T21:08:05.743Z"
+      "publishedAt": "2026-07-18T22:09:32.363Z"
     }
   ]
 }
