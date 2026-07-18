@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-18T15:17:35.191Z",
+  "fetchedAt": "2026-07-18T17:17:53.316Z",
   "items": [
+    {
+      "title": "七夕 (日本)",
+      "extract": "日本的七夕 是在日本的七夕節慶的相關習俗及歷史由來。在日本，人們也有過七夕的習慣，其詳細來源淵遠流長，是為早期中日文化交流，中國的七夕與日本傳統文化互相融合，七夕的風俗在奈良時代已由中國傳入日本，但日本人很快便將它本地化，除了中國傳統的「牛郎織女傳說」外，還加進了當地原有的「棚機津女」傳說。棚機津女傳說原出《古事記》，謂古時村莊的人們會選出一位女子，使其居於水邊織衣祭神，並與神結成一夜夫妻，以求消災解厄。奈良時期以來，七夕紀念棚機及牛郎織女並存，從日文中「七夕」最常用的讀法不是音讀，而是訓讀為「棚機」的讀法「たなばた，Tanabata」，可見該傳說的影響。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%83%E5%A4%95_(%E6%97%A5%E6%9C%AC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Tanabata_Festival_in_Edo_%28Hiroshige%2C_1852%29.jpg/330px-Tanabata_Festival_in_Edo_%28Hiroshige%2C_1852%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "釉蛺蝶亞科",
       "extract": "釉蛺蝶亞科，又名毒蝶亞科，是蛺蝶科蝴蝶的一個亞科。廣泛分佈於世界各地的熱帶地區，尤其在南美洲，珍蝶族的物種則在北半球都有分佈。大部份物種的幼蟲以有毒的西番蓮科植物作寄主，而成蟲以鮮豔的警告色來表示其身上有毒性。經常出見米氏擬態。\n",
@@ -27,13 +34,6 @@
       "extract": "欧布埃，法国东北部城市，大东部大区默尔特-摩泽尔省的一个市镇，隶属于布里埃区，其市镇面积为4.5平方公里，2023年1月1日时人口数量为2,650人，在法国城市中排名第4,325位。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%B8%83%E5%9F%83",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Eglise_Aubou%C3%A9.jpg/330px-Eglise_Aubou%C3%A9.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯拉文·比利奇",
-      "extract": "斯拉文·比利奇，前克羅地亞国家足球队运动员，退役後執教多家俱樂部。比利奇拥有一个法学硕士学位。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%8B%89%E6%96%87%C2%B7%E6%AF%94%E5%88%A9%E5%A5%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Slaven_Bilic_West_Ham_Vs_Birkrikara_%2819941778785%29_%28cropped%29.jpg/330px-Slaven_Bilic_West_Ham_Vs_Birkrikara_%2819941778785%29_%28cropped%29.jpg",
       "source": "wikipedia"
     }
   ]
