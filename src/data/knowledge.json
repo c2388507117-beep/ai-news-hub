@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-18T09:02:04.807Z",
+  "fetchedAt": "2026-07-18T10:42:48.758Z",
   "items": [
+    {
+      "title": "欧布埃",
+      "extract": "欧布埃，法国东北部城市，大东部大区默尔特-摩泽尔省的一个市镇，隶属于布里埃区，其市镇面积为4.5平方公里，2023年1月1日时人口数量为2,650人，在法国城市中排名第4,325位。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%B8%83%E5%9F%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Eglise_Aubou%C3%A9.jpg/330px-Eglise_Aubou%C3%A9.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "斯拉文·比利奇",
       "extract": "斯拉文·比利奇，前克羅地亞国家足球队运动员，退役後執教多家俱樂部。比利奇拥有一个法学硕士学位。\n",
@@ -27,13 +34,6 @@
       "extract": "《只要長得可愛，即使是變態你也喜歡嗎？》 是花間燈負責撰寫、sune繪製插畫的日本輕小說。2017年2月起於KADOKAWA旗下的MF文庫J發行。官方簡稱為「變喜歡」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%AA%E8%A6%81%E9%95%B7%E5%BE%97%E5%8F%AF%E6%84%9B%EF%BC%8C%E5%8D%B3%E4%BD%BF%E6%98%AF%E8%AE%8A%E6%85%8B%E4%BD%A0%E4%B9%9F%E5%96%9C%E6%AD%A1%E5%97%8E%EF%BC%9F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/b/b8/%E5%8F%AA%E8%A6%81%E9%95%B7%E5%BE%97%E5%8F%AF%E6%84%9B%EF%BC%8C%E5%8D%B3%E4%BD%BF%E6%98%AF%E8%AE%8A%E6%85%8B%E4%BD%A0%E4%B9%9F%E5%96%9C%E6%AD%A1%E5%97%8E%EF%BC%9F.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "埃熱澤爾斯湖",
-      "extract": "埃熱澤爾斯湖 是拉脫維亞的湖泊，位於該國東南部，長8.2公里，面積9.9平方公里，集水區面積120平方公里，海拔高度169.4米，平均水深6.4米，最大水深21米，湖中島嶼總面積77.6公畝。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E7%86%B1%E6%BE%A4%E7%88%BE%E6%96%AF%E6%B9%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/E%C5%BEezers_pie_Ezernieku_-_Andze%C4%BCu_ce%C4%BCa_2004-08-05_-_panoramio.jpg/330px-E%C5%BEezers_pie_Ezernieku_-_Andze%C4%BCu_ce%C4%BCa_2004-08-05_-_panoramio.jpg",
       "source": "wikipedia"
     }
   ]
