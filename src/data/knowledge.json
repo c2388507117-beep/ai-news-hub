@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-18T17:17:53.316Z",
+  "fetchedAt": "2026-07-18T19:35:05.835Z",
   "items": [
+    {
+      "title": "山齒鶉",
+      "extract": "山齒鶉，也叫北美鶉，是原住於北美洲、中美洲北部及加勒比海的一種陸上鳥類。牠們最初被分類在雉科中，現在則分類在齒鶉科中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E9%BD%92%E9%B6%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Colinus_virginianus_USFWS.jpg/330px-Colinus_virginianus_USFWS.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "七夕 (日本)",
       "extract": "日本的七夕 是在日本的七夕節慶的相關習俗及歷史由來。在日本，人們也有過七夕的習慣，其詳細來源淵遠流長，是為早期中日文化交流，中國的七夕與日本傳統文化互相融合，七夕的風俗在奈良時代已由中國傳入日本，但日本人很快便將它本地化，除了中國傳統的「牛郎織女傳說」外，還加進了當地原有的「棚機津女」傳說。棚機津女傳說原出《古事記》，謂古時村莊的人們會選出一位女子，使其居於水邊織衣祭神，並與神結成一夜夫妻，以求消災解厄。奈良時期以來，七夕紀念棚機及牛郎織女並存，從日文中「七夕」最常用的讀法不是音讀，而是訓讀為「棚機」的讀法「たなばた，Tanabata」，可見該傳說的影響。\n",
@@ -27,13 +34,6 @@
       "extract": "《Prism》 是日本NHK於2022年7月12日至9月13日於NHK綜合頻道「電視劇10」時段播出的電視劇，由杉咲花主演。\n",
       "url": "https://zh.wikipedia.org/wiki/Prism_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/0e/%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0.jpg/330px-%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "欧布埃",
-      "extract": "欧布埃，法国东北部城市，大东部大区默尔特-摩泽尔省的一个市镇，隶属于布里埃区，其市镇面积为4.5平方公里，2023年1月1日时人口数量为2,650人，在法国城市中排名第4,325位。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E5%B8%83%E5%9F%83",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Eglise_Aubou%C3%A9.jpg/330px-Eglise_Aubou%C3%A9.jpg",
       "source": "wikipedia"
     }
   ]
