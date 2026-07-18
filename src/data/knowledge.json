@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-18T19:35:05.835Z",
+  "fetchedAt": "2026-07-18T21:08:10.970Z",
   "items": [
+    {
+      "title": "巨齒鯊2：海溝深淵",
+      "extract": "《巨齿鲨2：深渊》 是一部2023年美中合拍的科幻動作片，2018年電影《巨齒鯊》的續集，改編自史蒂夫·艾騰的《深海巨鯊：奪命海溝》一書。電影由班·懷特利執導，傑森·史塔森、吴京、蔡書雅、佩吉·肯尼迪、賽吉爾·佩里斯-曼切塔、絲凱樂·山繆斯、西耶娜·盖尔利和克利夫·柯蒂斯主演。劇情講述喬納斯·泰勒 率領一支研究小組潛入未知水域的最深處進行探勘，但一場惡意的採礦作業造成他們的阻礙，眾人被迫捲入更加危險的爭鬥之中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B7%A8%E9%BD%92%E9%AF%8A2%EF%BC%9A%E6%B5%B7%E6%BA%9D%E6%B7%B1%E6%B7%B5",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/6/67/Meg_2_The_Trench_Poster.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "山齒鶉",
       "extract": "山齒鶉，也叫北美鶉，是原住於北美洲、中美洲北部及加勒比海的一種陸上鳥類。牠們最初被分類在雉科中，現在則分類在齒鶉科中。\n",
@@ -27,13 +34,6 @@
       "extract": "米夏埃尔·伦辛 出生於下薩克森，是一名德國足球運動員，司職守門員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E5%A4%8F%E5%9F%83%E5%B0%94%C2%B7%E4%BC%A6%E8%BE%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Michael-Rensing-2015-07.jpg/330px-Michael-Rensing-2015-07.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Prism (電視劇)",
-      "extract": "《Prism》 是日本NHK於2022年7月12日至9月13日於NHK綜合頻道「電視劇10」時段播出的電視劇，由杉咲花主演。\n",
-      "url": "https://zh.wikipedia.org/wiki/Prism_(%E9%9B%BB%E8%A6%96%E5%8A%87)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/0e/%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0.jpg/330px-%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0.jpg",
       "source": "wikipedia"
     }
   ]
