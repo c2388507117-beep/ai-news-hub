@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-19T11:33:07.219Z",
+  "fetchedAt": "2026-07-19T13:56:33.224Z",
   "items": [
+    {
+      "title": "二(三甲基硅基)乙酰胺",
+      "extract": "二(三甲基硅基)乙酰胺（BSA），其衍生物常用于分析化学。 带有该基团可增加化合物的挥发性。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8C(%E4%B8%89%E7%94%B2%E5%9F%BA%E7%A1%85%E5%9F%BA)%E4%B9%99%E9%85%B0%E8%83%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Bis%28trimethylsilyl%29acetamide-3D.png/330px-Bis%28trimethylsilyl%29acetamide-3D.png",
+      "source": "wikipedia"
+    },
     {
       "title": "屈曲花",
       "extract": "屈曲花 是十字花科屈曲花属的植物。分布于西欧以及中国大陆等地，目前已由人工引种栽培。\n",
@@ -27,13 +34,6 @@
       "extract": "森恪，日本大阪府西區江戶堀（今大阪府大阪市西區江戶堀）人，外務政務次官、内閣書記官長。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E6%81%AA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tsutomu_mori.jpg/330px-Tsutomu_mori.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "褐毛紫菀",
-      "extract": "褐毛紫菀 是菊科紫菀属的植物。分布在缅甸以及中国大陆的四川、西藏、云南等地，生长于海拔2,900米至4,200米的地区，一般生于亚高山草坡、石砾地、高山、灌丛边缘或沟涧旁。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%A4%90%E6%AF%9B%E7%B4%AB%E8%8F%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Aster_fuscescens_143-8728.jpg/330px-Aster_fuscescens_143-8728.jpg",
       "source": "wikipedia"
     }
   ]
