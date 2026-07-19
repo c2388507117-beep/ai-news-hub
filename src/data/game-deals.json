@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-19T17:26:54.591Z",
+  "fetchedAt": "2026-07-19T19:35:41.695Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
     },
     {
       "id": "steam-275850",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.591Z"
+      "publishedAt": "2026-07-19T19:35:41.695Z"
     },
     {
       "id": "steam-3159330",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
     },
     {
       "id": "steam-3240220",
@@ -77,33 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
-    },
-    {
-      "id": "steam-2881650",
-      "title": "前方高能",
-      "url": "https://store.steampowered.com/app/2881650?l=schinese",
-      "discount": 50,
-      "originalPrice": 33,
-      "finalPrice": 16.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
-    },
-    {
-      "id": "steam-3892270",
-      "title": "Gamble With Your Friends",
-      "url": "https://store.steampowered.com/app/3892270?l=schinese",
-      "discount": 38,
-      "originalPrice": 33,
-      "finalPrice": 20.46,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
     },
     {
       "id": "steam-1623730",
@@ -116,7 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.392Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
+    },
+    {
+      "id": "steam-526870",
+      "title": "幸福工厂",
+      "url": "https://store.steampowered.com/app/526870?l=schinese",
+      "discount": 30,
+      "originalPrice": 39.99,
+      "finalPrice": 27.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-19T19:35:41.695Z"
     },
     {
       "id": "steam-2968420",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.591Z"
+      "publishedAt": "2026-07-19T19:35:41.695Z"
     },
     {
       "id": "steam-3808690",
@@ -142,7 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.393Z"
+      "publishedAt": "2026-07-19T19:35:41.457Z"
+    },
+    {
+      "id": "steam-1453566",
+      "title": "《F1® 25》：2026赛季版",
+      "url": "https://store.steampowered.com/app/1453566?l=schinese",
+      "discount": 20,
+      "originalPrice": 248,
+      "finalPrice": 198.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1453566/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-19T19:35:41.457Z"
     },
     {
       "id": "steam-1671210",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.591Z"
+      "publishedAt": "2026-07-19T19:35:41.695Z"
     },
     {
       "id": "steam-3712080",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T17:26:54.591Z"
+      "publishedAt": "2026-07-19T19:35:41.695Z"
     }
   ]
 }

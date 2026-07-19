@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-19T17:27:00.058Z",
+  "fetchedAt": "2026-07-19T19:35:47.161Z",
   "items": [
+    {
+      "title": "加罗林群岛",
+      "extract": "加罗林群岛，也译作加羅蓮群島，是太平洋西北部一个重要的群岛，位于巴布亚新几内亚东北，菲律宾正东，由500餘小岛和珊瑚礁组成。除西端的帕劳自成一国外，其余岛屿均属密克罗尼西亚联邦。歷史上此區域又被稱為新菲律賓，因為曾為西屬東印度的一部分，並接受位於馬尼拉的菲律賓都督府統治。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E7%BD%97%E6%9E%97%E7%BE%A4%E5%B2%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/LocationCarolineIslands.png",
+      "source": "wikipedia"
+    },
     {
       "title": "张翼翔",
       "extract": "张翼翔（1914年6月18日—1990年4月5日），男，湖南浏阳人，中国人民解放军高级将领，中将军衔。中国共产党第九、第十届中央委员。\n",
@@ -27,13 +34,6 @@
       "extract": "屈曲花 是十字花科屈曲花属的植物。分布于西欧以及中国大陆等地，目前已由人工引种栽培。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B1%88%E6%9B%B2%E8%8A%B1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Iberis_amara_carriere-saint-vaast-les-mello_60_01072008_02.jpg/330px-Iberis_amara_carriere-saint-vaast-les-mello_60_01072008_02.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "閃亂神樂 -少女們的真影-",
-      "extract": "《閃亂神樂 -少女們的真影-》 是Marvelous Entertainment 於2011年9月22日發售的任天堂3DS遊戲，由高木謙一郎企劃、北島行德負責劇本，並由八重樫南負責插畫。\n2012年8月30日發售續作《閃亂神樂 Burst -紅蓮的少女們-》（下稱「Burst」），並於同年宣佈動畫化企劃進行中。\n而動畫版於2013年1月6日開始播放，同年2月28日發售PlayStation Vita新作《閃亂神樂 忍者對決 -少女們的証明-》（下稱「SV」）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%96%83%E4%BA%82%E7%A5%9E%E6%A8%82_-%E5%B0%91%E5%A5%B3%E5%80%91%E7%9A%84%E7%9C%9F%E5%BD%B1-",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/e/e5/Senran_Kagura_-_Shoujotachi_no_Shinei_Coverart.jpg",
       "source": "wikipedia"
     }
   ]
