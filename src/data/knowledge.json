@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-19T00:12:56.108Z",
+  "fetchedAt": "2026-07-19T03:59:31.232Z",
   "items": [
+    {
+      "title": "森恪",
+      "extract": "森恪，日本大阪府西區江戶堀（今大阪府大阪市西區江戶堀）人，外務政務次官、内閣書記官長。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E6%81%AA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tsutomu_mori.jpg/330px-Tsutomu_mori.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "褐毛紫菀",
       "extract": "褐毛紫菀 是菊科紫菀属的植物。分布在缅甸以及中国大陆的四川、西藏、云南等地，生长于海拔2,900米至4,200米的地区，一般生于亚高山草坡、石砾地、高山、灌丛边缘或沟涧旁。\n",
@@ -27,13 +34,6 @@
       "extract": "《巨齿鲨2：深渊》 是一部2023年美中合拍的科幻動作片，2018年電影《巨齒鯊》的續集，改編自史蒂夫·艾騰的《深海巨鯊：奪命海溝》一書。電影由班·懷特利執導，傑森·史塔森、吴京、蔡書雅、佩吉·肯尼迪、賽吉爾·佩里斯-曼切塔、絲凱樂·山繆斯、西耶娜·盖尔利和克利夫·柯蒂斯主演。劇情講述喬納斯·泰勒 率領一支研究小組潛入未知水域的最深處進行探勘，但一場惡意的採礦作業造成他們的阻礙，眾人被迫捲入更加危險的爭鬥之中。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B7%A8%E9%BD%92%E9%AF%8A2%EF%BC%9A%E6%B5%B7%E6%BA%9D%E6%B7%B1%E6%B7%B5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/6/67/Meg_2_The_Trench_Poster.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "山齒鶉",
-      "extract": "山齒鶉，也叫北美鶉，是原住於北美洲、中美洲北部及加勒比海的一種陸上鳥類。牠們最初被分類在雉科中，現在則分類在齒鶉科中。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E9%BD%92%E9%B6%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Colinus_virginianus_USFWS.jpg/330px-Colinus_virginianus_USFWS.jpg",
       "source": "wikipedia"
     }
   ]
