@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-19T03:59:24.621Z",
+  "fetchedAt": "2026-07-19T06:44:42.295Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-2183900",
@@ -38,20 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
-    },
-    {
-      "id": "steam-275850",
-      "title": "No Man's Sky 无人深空",
-      "url": "https://store.steampowered.com/app/275850?l=schinese",
-      "discount": 60,
-      "originalPrice": 175,
-      "finalPrice": 70,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-3159330",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
+    },
+    {
+      "id": "steam-2881650",
+      "title": "前方高能",
+      "url": "https://store.steampowered.com/app/2881650?l=schinese",
+      "discount": 50,
+      "originalPrice": 33,
+      "finalPrice": 16.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-3892270",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.621Z"
+      "publishedAt": "2026-07-19T06:44:42.295Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
+    },
+    {
+      "id": "steam-739630",
+      "title": "Phasmophobia 恐鬼症",
+      "url": "https://store.steampowered.com/app/739630?l=schinese",
+      "discount": 30,
+      "originalPrice": 68,
+      "finalPrice": 47.6,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-2968420",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2968420/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.621Z"
+      "publishedAt": "2026-07-19T06:44:42.295Z"
     },
     {
       "id": "steam-3808690",
@@ -129,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.480Z"
-    },
-    {
-      "id": "steam-3844970",
-      "title": "地精捣蛋团",
-      "url": "https://store.steampowered.com/app/3844970?l=schinese",
-      "discount": 20,
-      "originalPrice": 9.99,
-      "finalPrice": 7.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.621Z"
+      "publishedAt": "2026-07-19T06:44:42.117Z"
     },
     {
       "id": "steam-1671210",
@@ -155,7 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.621Z"
+      "publishedAt": "2026-07-19T06:44:42.295Z"
+    },
+    {
+      "id": "steam-3844970",
+      "title": "地精捣蛋团",
+      "url": "https://store.steampowered.com/app/3844970?l=schinese",
+      "discount": 20,
+      "originalPrice": 9.99,
+      "finalPrice": 7.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844970/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-19T06:44:42.295Z"
     },
     {
       "id": "steam-3712080",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-19T03:59:24.621Z"
+      "publishedAt": "2026-07-19T06:44:42.295Z"
     }
   ]
 }
