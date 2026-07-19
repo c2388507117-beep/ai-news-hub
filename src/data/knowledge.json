@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-19T13:56:33.224Z",
+  "fetchedAt": "2026-07-19T15:18:11.749Z",
   "items": [
+    {
+      "title": "江汉大学",
+      "extract": "江汉大学 為中華人民共和國的一所公立大學，校址位於湖北省武漢市武漢經濟技術開發區三角湖畔，另在汉口和武昌分别设有校区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E6%B1%89%E5%A4%A7%E5%AD%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/f/f3/Jianghan_University_Emblem.svg/langzh-330px-Jianghan_University_Emblem.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "二(三甲基硅基)乙酰胺",
       "extract": "二(三甲基硅基)乙酰胺（BSA），其衍生物常用于分析化学。 带有该基团可增加化合物的挥发性。\n",
@@ -27,13 +34,6 @@
       "extract": "伐地那非（Vardenafil）是一种橙色的小药丸，绰号“火焰”。它是非常强效的PDE-5抑制剂。用於治療男性陰莖勃起功能障礙。該藥能夠協助男性在性行為時能達到及維持勃起。其品牌名稱為「Levitra」，中國大陸譯名為「艾力达」，香港譯名為「立威大」，台灣則譯為「樂威壯」（德國拜耳）。製劑有片劑，內含鹽酸伐地那非2.5mg、5mg、10mg或20mg。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BC%90%E5%9C%B0%E9%82%A3%E9%9D%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Vardenafil.svg/langzh-330px-Vardenafil.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "森恪",
-      "extract": "森恪，日本大阪府西區江戶堀（今大阪府大阪市西區江戶堀）人，外務政務次官、内閣書記官長。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E6%81%AA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Tsutomu_mori.jpg/330px-Tsutomu_mori.jpg",
       "source": "wikipedia"
     }
   ]
