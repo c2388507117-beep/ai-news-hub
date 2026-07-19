@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-19T15:18:11.749Z",
+  "fetchedAt": "2026-07-19T17:27:00.058Z",
   "items": [
+    {
+      "title": "张翼翔",
+      "extract": "张翼翔（1914年6月18日—1990年4月5日），男，湖南浏阳人，中国人民解放军高级将领，中将军衔。中国共产党第九、第十届中央委员。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E7%BF%BC%E7%BF%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Zhang_Yixiang.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "江汉大学",
       "extract": "江汉大学 為中華人民共和國的一所公立大學，校址位於湖北省武漢市武漢經濟技術開發區三角湖畔，另在汉口和武昌分别设有校区。\n",
@@ -27,13 +34,6 @@
       "extract": "《閃亂神樂 -少女們的真影-》 是Marvelous Entertainment 於2011年9月22日發售的任天堂3DS遊戲，由高木謙一郎企劃、北島行德負責劇本，並由八重樫南負責插畫。\n2012年8月30日發售續作《閃亂神樂 Burst -紅蓮的少女們-》（下稱「Burst」），並於同年宣佈動畫化企劃進行中。\n而動畫版於2013年1月6日開始播放，同年2月28日發售PlayStation Vita新作《閃亂神樂 忍者對決 -少女們的証明-》（下稱「SV」）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%96%83%E4%BA%82%E7%A5%9E%E6%A8%82_-%E5%B0%91%E5%A5%B3%E5%80%91%E7%9A%84%E7%9C%9F%E5%BD%B1-",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/e/e5/Senran_Kagura_-_Shoujotachi_no_Shinei_Coverart.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "伐地那非",
-      "extract": "伐地那非（Vardenafil）是一种橙色的小药丸，绰号“火焰”。它是非常强效的PDE-5抑制剂。用於治療男性陰莖勃起功能障礙。該藥能夠協助男性在性行為時能達到及維持勃起。其品牌名稱為「Levitra」，中國大陸譯名為「艾力达」，香港譯名為「立威大」，台灣則譯為「樂威壯」（德國拜耳）。製劑有片劑，內含鹽酸伐地那非2.5mg、5mg、10mg或20mg。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BC%90%E5%9C%B0%E9%82%A3%E9%9D%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Vardenafil.svg/langzh-330px-Vardenafil.svg.png",
       "source": "wikipedia"
     }
   ]
