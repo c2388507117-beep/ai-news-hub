@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T18:22:54.391Z",
+  "fetchedAt": "2026-07-20T20:43:43.995Z",
   "items": [
+    {
+      "title": "格兰芬多",
+      "extract": "葛來分多 以及獅子，並以勇氣仗義為招生條件。葛來分多的學院導師為變形學教授兼副校長麥米奈娃，之後她成為了霍格華茲的校長，而學院幽靈是通稱為差點沒頭的尼克的尼古拉斯·德·明西-波平頓爵士。根據羅琳的說法，葛來分多學院大致對應四大元素中的火。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%85%B0%E8%8A%AC%E5%A4%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Blason_Gryffondor.svg/langzh-330px-Blason_Gryffondor.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "格里波尔",
       "extract": "格里波尔 是法国默尔特-摩泽尔省的一个市镇，属于南锡区。\n",
@@ -27,13 +34,6 @@
       "extract": "罗卡塞卡 是意大利拉齐奥大区弗罗西诺内省的一个镇。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%8D%A1%E5%A1%9E%E5%8D%A1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Roccasecca.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "3-甲基吡啶",
-      "extract": "3-甲基吡啶是一种有机化合物，是甲基吡啶的同分异构体之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/3-%E7%94%B2%E5%9F%BA%E5%90%A1%E5%95%B6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/3-methylpyridine-2D-skeletal.png/330px-3-methylpyridine-2D-skeletal.png",
       "source": "wikipedia"
     }
   ]
