@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-19T23:14:38.317Z",
+  "fetchedAt": "2026-07-20T00:15:55.520Z",
   "items": [
+    {
+      "title": "基布兹",
+      "extract": "基布兹 是以色列的一种常見的集体社區體制，傳統上以務農為主，現在則歷經轉型，兼事工业和高科技产业。基布茲是種混合烏托邦社会主义和锡安主义而建立的社区型態，是以色列的重要特色，佔全國GDP中工業總產值9%、農業總產值40%。第一个基布茲建于1909年，叫Degania。在基布茲中生活的人稱為基布茲尼克，目前全以色列約有5%人口住在基布茲內。基布茲最初是烏托邦式社群，融合了社會主義與錫安主義理念。近數十年來，部分基布茲已私有化，其集體生活模式亦有所變革。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E5%B8%83%E5%85%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PikiWiki_Israel_6009_Gan-Shmuel_sh1-_14.jpg/330px-PikiWiki_Israel_6009_Gan-Shmuel_sh1-_14.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "貝爾梅滕山",
       "extract": "貝爾梅滕山，是瑞士的山峰，位於該國中部，由烏里州負責管轄，屬於西阿爾卑斯山脈中烏里山的一部分，海拔高度2,414米，每年平均降雨量2,385毫米。\n",
@@ -27,13 +34,6 @@
       "extract": "加罗林群岛，也译作加羅蓮群島，是太平洋西北部一个重要的群岛，位于巴布亚新几内亚东北，菲律宾正东，由500餘小岛和珊瑚礁组成。除西端的帕劳自成一国外，其余岛屿均属密克罗尼西亚联邦。歷史上此區域又被稱為新菲律賓，因為曾為西屬東印度的一部分，並接受位於馬尼拉的菲律賓都督府統治。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E7%BD%97%E6%9E%97%E7%BE%A4%E5%B2%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/LocationCarolineIslands.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "张翼翔",
-      "extract": "张翼翔（1914年6月18日—1990年4月5日），男，湖南浏阳人，中国人民解放军高级将领，中将军衔。中国共产党第九、第十届中央委员。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E7%BF%BC%E7%BF%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Zhang_Yixiang.jpg",
       "source": "wikipedia"
     }
   ]
