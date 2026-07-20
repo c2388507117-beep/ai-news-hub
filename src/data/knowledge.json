@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T20:43:43.995Z",
+  "fetchedAt": "2026-07-20T22:15:03.503Z",
   "items": [
+    {
+      "title": "基茨曼區",
+      "extract": "基茨曼區 是位於烏克蘭西南部切爾諾夫策州的舊區，首府設於基茨曼，並於2020年被撤銷。該區面積607平方公里，2004年人口72,884，人口密度每平方公里120.07人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E8%8C%A8%E6%9B%BC%E5%8D%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Kitsmanskyi-Raion.png/330px-Kitsmanskyi-Raion.png",
+      "source": "wikipedia"
+    },
     {
       "title": "格兰芬多",
       "extract": "葛來分多 以及獅子，並以勇氣仗義為招生條件。葛來分多的學院導師為變形學教授兼副校長麥米奈娃，之後她成為了霍格華茲的校長，而學院幽靈是通稱為差點沒頭的尼克的尼古拉斯·德·明西-波平頓爵士。根據羅琳的說法，葛來分多學院大致對應四大元素中的火。\n",
@@ -27,13 +34,6 @@
       "extract": "晉州市，是韓國慶尚南道的一個城市。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%99%8B%E5%B7%9E%E5%B8%82_(%E9%9F%A9%E5%9B%BD)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Korea-Jinju-Festival-Nam.River-01.jpg/330px-Korea-Jinju-Festival-Nam.River-01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "罗卡塞卡",
-      "extract": "罗卡塞卡 是意大利拉齐奥大区弗罗西诺内省的一个镇。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%8D%A1%E5%A1%9E%E5%8D%A1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Roccasecca.jpg",
       "source": "wikipedia"
     }
   ]
