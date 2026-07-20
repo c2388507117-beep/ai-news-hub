@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T00:15:55.520Z",
+  "fetchedAt": "2026-07-20T04:11:06.658Z",
   "items": [
+    {
+      "title": "黄杨路站",
+      "extract": "黄杨路站位于中华人民共和国上海市浦东新区金桥镇锦锈东路与黄杨路交叉口西侧，是上海地铁14号线的地铁车站。2021年12月30日启用。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%9D%A8%E8%B7%AF%E7%AB%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/The_Platform_of_Huangyang_Road_Station_in_Shanghai_2025.jpg/330px-The_Platform_of_Huangyang_Road_Station_in_Shanghai_2025.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "基布兹",
       "extract": "基布兹 是以色列的一种常見的集体社區體制，傳統上以務農為主，現在則歷經轉型，兼事工业和高科技产业。基布茲是種混合烏托邦社会主义和锡安主义而建立的社区型態，是以色列的重要特色，佔全國GDP中工業總產值9%、農業總產值40%。第一个基布茲建于1909年，叫Degania。在基布茲中生活的人稱為基布茲尼克，目前全以色列約有5%人口住在基布茲內。基布茲最初是烏托邦式社群，融合了社會主義與錫安主義理念。近數十年來，部分基布茲已私有化，其集體生活模式亦有所變革。\n",
@@ -27,13 +34,6 @@
       "extract": "波隆内 是乌克兰赫梅利尼茨基州舍佩蒂夫卡區波隆内市镇的城市及行政中心，2020年7月18日前为波隆內區的行政中心。該市面積23.53平方公里，海拔高度237米，2022年人口数量为20,172人，人口密度每平方公里857人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E9%9A%86%E5%86%85",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%D0%A5%D0%BE%D0%BC%D0%BE%D1%80%D0%B0_%D0%9B%D1%96%D1%82%D0%BE_9.jpg/330px-%D0%A5%D0%BE%D0%BC%D0%BE%D1%80%D0%B0_%D0%9B%D1%96%D1%82%D0%BE_9.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "加罗林群岛",
-      "extract": "加罗林群岛，也译作加羅蓮群島，是太平洋西北部一个重要的群岛，位于巴布亚新几内亚东北，菲律宾正东，由500餘小岛和珊瑚礁组成。除西端的帕劳自成一国外，其余岛屿均属密克罗尼西亚联邦。歷史上此區域又被稱為新菲律賓，因為曾為西屬東印度的一部分，並接受位於馬尼拉的菲律賓都督府統治。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E7%BD%97%E6%9E%97%E7%BE%A4%E5%B2%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/LocationCarolineIslands.png",
       "source": "wikipedia"
     }
   ]
