@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-20T13:20:46.396Z",
+  "fetchedAt": "2026-07-20T16:03:03.410Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-3159330",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-3240220",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-2881650",
@@ -77,20 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
-    },
-    {
-      "id": "steam-3892270",
-      "title": "Gamble With Your Friends",
-      "url": "https://store.steampowered.com/app/3892270?l=schinese",
-      "discount": 38,
-      "originalPrice": 7.99,
-      "finalPrice": 4.95,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.396Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-1623730",
@@ -103,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
-    },
-    {
-      "id": "steam-739630",
-      "title": "Phasmophobia 恐鬼症",
-      "url": "https://store.steampowered.com/app/739630?l=schinese",
-      "discount": 30,
-      "originalPrice": 68,
-      "finalPrice": 47.6,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-526870",
@@ -129,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.396Z"
+      "publishedAt": "2026-07-20T16:03:03.410Z"
     },
     {
       "id": "steam-3808690",
@@ -142,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.236Z"
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-1671210",
@@ -155,7 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.396Z"
+      "publishedAt": "2026-07-20T16:03:03.410Z"
+    },
+    {
+      "id": "steam-2936290",
+      "title": "The Life and Suffering of Prince Jerian",
+      "url": "https://store.steampowered.com/app/2936290?l=schinese",
+      "discount": 15,
+      "originalPrice": 93,
+      "finalPrice": 79.05,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936290/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-20T16:03:03.233Z"
     },
     {
       "id": "steam-3712080",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T13:20:46.396Z"
+      "publishedAt": "2026-07-20T16:03:03.410Z"
     }
   ]
 }

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T13:20:51.762Z",
+  "fetchedAt": "2026-07-20T16:03:09.012Z",
   "items": [
+    {
+      "title": "蚕茧草",
+      "extract": "蚕茧草 为蓼科蓼属下的一个种。其种加词“japonicum”意为“日本的”。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%9A%95%E8%8C%A7%E8%8D%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Persicaria_japonica_03.JPG/330px-Persicaria_japonica_03.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "晋州市 (韩国)",
       "extract": "晉州市，是韓國慶尚南道的一個城市。\n",
@@ -27,13 +34,6 @@
       "extract": "黄杨路站位于中华人民共和国上海市浦东新区金桥镇锦锈东路与黄杨路交叉口西侧，是上海地铁14号线的地铁车站。2021年12月30日启用。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%9D%A8%E8%B7%AF%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/The_Platform_of_Huangyang_Road_Station_in_Shanghai_2025.jpg/330px-The_Platform_of_Huangyang_Road_Station_in_Shanghai_2025.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "基布兹",
-      "extract": "基布兹 是以色列的一种常見的集体社區體制，傳統上以務農為主，現在則歷經轉型，兼事工业和高科技产业。基布茲是種混合烏托邦社会主义和锡安主义而建立的社区型態，是以色列的重要特色，佔全國GDP中工業總產值9%、農業總產值40%。第一个基布茲建于1909年，叫Degania。在基布茲中生活的人稱為基布茲尼克，目前全以色列約有5%人口住在基布茲內。基布茲最初是烏托邦式社群，融合了社會主義與錫安主義理念。近數十年來，部分基布茲已私有化，其集體生活模式亦有所變革。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E5%B8%83%E5%85%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PikiWiki_Israel_6009_Gan-Shmuel_sh1-_14.jpg/330px-PikiWiki_Israel_6009_Gan-Shmuel_sh1-_14.jpg",
       "source": "wikipedia"
     }
   ]
