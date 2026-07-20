@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T11:15:53.387Z",
+  "fetchedAt": "2026-07-20T13:20:51.762Z",
   "items": [
+    {
+      "title": "晋州市 (韩国)",
+      "extract": "晉州市，是韓國慶尚南道的一個城市。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%8B%E5%B7%9E%E5%B8%82_(%E9%9F%A9%E5%9B%BD)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Korea-Jinju-Festival-Nam.River-01.jpg/330px-Korea-Jinju-Festival-Nam.River-01.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "罗卡塞卡",
       "extract": "罗卡塞卡 是意大利拉齐奥大区弗罗西诺内省的一个镇。\n",
@@ -27,13 +34,6 @@
       "extract": "基布兹 是以色列的一种常見的集体社區體制，傳統上以務農為主，現在則歷經轉型，兼事工业和高科技产业。基布茲是種混合烏托邦社会主义和锡安主义而建立的社区型態，是以色列的重要特色，佔全國GDP中工業總產值9%、農業總產值40%。第一个基布茲建于1909年，叫Degania。在基布茲中生活的人稱為基布茲尼克，目前全以色列約有5%人口住在基布茲內。基布茲最初是烏托邦式社群，融合了社會主義與錫安主義理念。近數十年來，部分基布茲已私有化，其集體生活模式亦有所變革。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E5%B8%83%E5%85%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PikiWiki_Israel_6009_Gan-Shmuel_sh1-_14.jpg/330px-PikiWiki_Israel_6009_Gan-Shmuel_sh1-_14.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "貝爾梅滕山",
-      "extract": "貝爾梅滕山，是瑞士的山峰，位於該國中部，由烏里州負責管轄，屬於西阿爾卑斯山脈中烏里山的一部分，海拔高度2,414米，每年平均降雨量2,385毫米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B2%9D%E7%88%BE%E6%A2%85%E6%BB%95%E5%B1%B1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/B%C3%A4lmeten.jpg/330px-B%C3%A4lmeten.jpg",
       "source": "wikipedia"
     }
   ]
