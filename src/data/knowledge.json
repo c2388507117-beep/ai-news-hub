@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-21T03:50:22.953Z",
+  "fetchedAt": "2026-07-21T06:43:40.314Z",
   "items": [
+    {
+      "title": "山梨酸钾",
+      "extract": "山梨酸钾是山梨酸的钾盐，化学式為C6H7O2K。主要用作防腐剂，E編號為E202。山梨酸及其鹽在莓类水果中自然产生，但工业上一般是由化工合成。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E6%A2%A8%E9%85%B8%E9%92%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Potassium_sorbate_ball-and-stick.png/330px-Potassium_sorbate_ball-and-stick.png",
+      "source": "wikipedia"
+    },
     {
       "title": "阿曼航空",
       "extract": "阿曼航空，是阿曼苏丹国的國家航空公司、阿拉伯航空運輸組織成员，總部设在阿曼首都馬斯喀特。阿曼航空以馬斯喀特國際機場为枢纽机场，经营阿曼国内航线以及中东、南亚、欧洲等地的国际航线。\n",
@@ -27,13 +34,6 @@
       "extract": "葛來分多 以及獅子，並以勇氣仗義為招生條件。葛來分多的學院導師為變形學教授兼副校長麥米奈娃，之後她成為了霍格華茲的校長，而學院幽靈是通稱為差點沒頭的尼克的尼古拉斯·德·明西-波平頓爵士。根據羅琳的說法，葛來分多學院大致對應四大元素中的火。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%85%B0%E8%8A%AC%E5%A4%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Blason_Gryffondor.svg/langzh-330px-Blason_Gryffondor.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "格里波尔",
-      "extract": "格里波尔 是法国默尔特-摩泽尔省的一个市镇，属于南锡区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%87%8C%E6%B3%A2%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Gripport.jpg/330px-Gripport.jpg",
       "source": "wikipedia"
     }
   ]
