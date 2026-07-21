@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-21T18:43:09.350Z",
+  "fetchedAt": "2026-07-21T20:37:55.633Z",
   "items": [
+    {
+      "title": "莱布瓦",
+      "extract": "莱布瓦 是瑞士汝拉州的一個市鎮，面積24.74平方公里，海拔高度1,034米，2011年人口1,155，六成半人口信奉羅馬天主教，人口密度每平方公里47人。由於侏羅州位在瑞士法語區的範圍內，莱布瓦有九成以上的人口是以法語作為母語，德語與義大利語族群佔少數。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E5%B8%83%E7%93%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Les_Bois_2%2C_28.6.2008.jpg/330px-Les_Bois_2%2C_28.6.2008.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "美国化学学会",
       "extract": "美国化学学会，是一个总部位于美国的科学学会，旨在支持化学领域的科学研究。该学会于1876年在纽约大学成立，目前拥有超过155,000名会员，成员涵盖各个学位级别和化学、化学工程及相关领域。按会员人数计算，它是世界上规模最大的科学学会之一。该学会是一个501(c)(3)非营利组织，根据美国法典第36条持有国会宪章。其总部位于华盛顿特区，而大部分工作人员集中在俄亥俄州哥伦布市。\n",
@@ -27,13 +34,6 @@
       "extract": "維多利亞湖樸麗魚，為輻鰭魚綱鱸形目隆頭魚亞目慈鯛科的其中一種，被IUCN列為極危保育類動物，分布於非洲維多利亞湖流域，棲息深度6-12公尺，體長可達16.6公分，棲息在有遮蔽的泥底質水域，屬肉食性，以魚類為食，生活習性不明。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%A4%9A%E5%88%A9%E4%BA%9E%E6%B9%96%E6%A8%B8%E9%BA%97%E9%AD%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Haplochromis_victorianus.jpg/330px-Haplochromis_victorianus.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉波马雷德",
-      "extract": "拉波马雷德 是法国奥德省的一个市镇，属于卡尔卡松区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E6%B3%A2%E9%A9%AC%E9%9B%B7%E5%BE%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Lp-aerien.jpg/330px-Lp-aerien.jpg",
       "source": "wikipedia"
     }
   ]
