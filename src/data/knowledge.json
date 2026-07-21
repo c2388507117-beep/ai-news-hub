@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-21T14:27:02.249Z",
+  "fetchedAt": "2026-07-21T16:46:52.048Z",
   "items": [
+    {
+      "title": "旺卡",
+      "extract": "《旺卡》 是一部2023年英美合拍歌舞奇幻片，由保羅·金執導並與西蒙·法納比編劇。該片是1971年電影《歡樂糖果屋》的前傳，改編自羅爾德·達爾的1964年小說《查理與巧克力工廠》，音樂劇類型的本片探索了「威利·旺卡」成立巧克力冒險工廠之前的旅程。主演陣容包括提摩西·夏勒梅、卡拉·蓮恩、基根-麥可·奇、派特森·約瑟夫、麥特·盧卡斯、馬修·貝恩頓、莎莉·霍金斯、羅溫·艾金森、吉姆·卡特、湯姆·戴維斯、奧莉薇雅·柯爾曼和休·葛蘭。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%97%BA%E5%8D%A1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/15/Wonka_Poster.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "Kill Heel",
       "extract": "《Kill Heel》，為韓國tvN於2022年3月9日起播出的水木連續劇，由《檢法男女》的盧道哲導演和《需要仙女》的申廣鎬編劇合作打造。此劇講述在激烈的電視購物市場中想要取得成功的人的強烈慾望、競爭和權力中展開的人性故事。\n",
@@ -27,13 +34,6 @@
       "extract": "山梨酸钾是山梨酸的钾盐，化学式為C6H7O2K。主要用作防腐剂，E編號為E202。山梨酸及其鹽在莓类水果中自然产生，但工业上一般是由化工合成。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E6%A2%A8%E9%85%B8%E9%92%BE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Potassium_sorbate_ball-and-stick.png/330px-Potassium_sorbate_ball-and-stick.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿曼航空",
-      "extract": "阿曼航空，是阿曼苏丹国的國家航空公司、阿拉伯航空運輸組織成员，總部设在阿曼首都馬斯喀特。阿曼航空以馬斯喀特國際機場为枢纽机场，经营阿曼国内航线以及中东、南亚、欧洲等地的国际航线。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC%E8%88%AA%E7%A9%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Boeing_787-9_%E2%80%98A4O-SC%E2%80%99_Oman_Air.jpg/330px-Boeing_787-9_%E2%80%98A4O-SC%E2%80%99_Oman_Air.jpg",
       "source": "wikipedia"
     }
   ]
