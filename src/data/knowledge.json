@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-21T12:02:09.403Z",
+  "fetchedAt": "2026-07-21T14:27:02.249Z",
   "items": [
+    {
+      "title": "Kill Heel",
+      "extract": "《Kill Heel》，為韓國tvN於2022年3月9日起播出的水木連續劇，由《檢法男女》的盧道哲導演和《需要仙女》的申廣鎬編劇合作打造。此劇講述在激烈的電視購物市場中想要取得成功的人的強烈慾望、競爭和權力中展開的人性故事。\n",
+      "url": "https://zh.wikipedia.org/wiki/Kill_Heel",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/de/Kill_Heel.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "維多利亞湖樸麗魚",
       "extract": "維多利亞湖樸麗魚，為輻鰭魚綱鱸形目隆頭魚亞目慈鯛科的其中一種，被IUCN列為極危保育類動物，分布於非洲維多利亞湖流域，棲息深度6-12公尺，體長可達16.6公分，棲息在有遮蔽的泥底質水域，屬肉食性，以魚類為食，生活習性不明。\n",
@@ -27,13 +34,6 @@
       "extract": "阿曼航空，是阿曼苏丹国的國家航空公司、阿拉伯航空運輸組織成员，總部设在阿曼首都馬斯喀特。阿曼航空以馬斯喀特國際機場为枢纽机场，经营阿曼国内航线以及中东、南亚、欧洲等地的国际航线。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC%E8%88%AA%E7%A9%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Boeing_787-9_%E2%80%98A4O-SC%E2%80%99_Oman_Air.jpg/330px-Boeing_787-9_%E2%80%98A4O-SC%E2%80%99_Oman_Air.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "金杨",
-      "extract": "金杨（1989年或1994年5月16日—），黑龙江省哈尔滨市人，中国男子花样滑冰运动员，主攻双人滑。他在1999年开始练习花样滑冰。2009年，他开始和于小雨搭档。2016年4月，中国花样滑冰队对队内双人滑组合进行拆对重组，金杨不再与于小雨搭档，改为与彭程搭档。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E6%9D%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2016_Grand_Prix_of_Figure_Skating_Final_Peng_Cheng_Jin_Yang_IMG_3555.jpg/330px-2016_Grand_Prix_of_Figure_Skating_Final_Peng_Cheng_Jin_Yang_IMG_3555.jpg",
       "source": "wikipedia"
     }
   ]
