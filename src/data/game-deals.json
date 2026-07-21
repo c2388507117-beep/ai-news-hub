@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T09:42:40.007Z",
+  "fetchedAt": "2026-07-21T12:02:03.586Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-2050650",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-1304930",
@@ -38,7 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: 星际战士2",
+      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "discount": 70,
+      "originalPrice": 249,
+      "finalPrice": 74.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-1364780",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-1466060",
@@ -77,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
-    },
-    {
-      "id": "steam-3892270",
-      "title": "Gamble With Your Friends",
-      "url": "https://store.steampowered.com/app/3892270?l=schinese",
-      "discount": 38,
-      "originalPrice": 7.99,
-      "finalPrice": 4.95,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:40.007Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-588030",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:40.007Z"
+      "publishedAt": "2026-07-21T12:02:03.586Z"
     },
     {
       "id": "steam-3764200",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:39.851Z"
+      "publishedAt": "2026-07-21T12:02:03.371Z"
     },
     {
       "id": "steam-3712080",
@@ -142,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T09:42:40.007Z"
+      "publishedAt": "2026-07-21T12:02:03.586Z"
+    },
+    {
+      "id": "steam-2524850",
+      "title": "电车炫客",
+      "url": "https://store.steampowered.com/app/2524850?l=schinese",
+      "discount": 10,
+      "originalPrice": 19.99,
+      "finalPrice": 17.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-21T12:02:03.586Z"
     }
   ]
 }
