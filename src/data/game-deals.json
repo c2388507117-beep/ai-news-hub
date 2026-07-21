@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-20T23:27:13.351Z",
+  "fetchedAt": "2026-07-21T03:50:17.188Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
+    },
+    {
+      "id": "steam-2050650",
+      "title": "Resident Evil 4",
+      "url": "https://store.steampowered.com/app/2050650?l=schinese",
+      "discount": 75,
+      "originalPrice": 198,
+      "finalPrice": 49.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-1304930",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-2183900",
@@ -38,20 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
-    },
-    {
-      "id": "steam-275850",
-      "title": "No Man's Sky 无人深空",
-      "url": "https://store.steampowered.com/app/275850?l=schinese",
-      "discount": 60,
-      "originalPrice": 175,
-      "finalPrice": 70,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.180Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-3240220",
@@ -64,33 +64,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-1466060",
       "title": "污痕圣杯：阿瓦隆的陨落",
       "url": "https://store.steampowered.com/app/1466060?l=schinese",
       "discount": 50,
-      "originalPrice": 44.99,
-      "finalPrice": 22.49,
+      "originalPrice": 152,
+      "finalPrice": 76,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.351Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-3892270",
       "title": "Gamble With Your Friends",
       "url": "https://store.steampowered.com/app/3892270?l=schinese",
       "discount": 38,
-      "originalPrice": 33,
-      "finalPrice": 20.46,
+      "originalPrice": 7.99,
+      "finalPrice": 4.95,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.180Z"
+      "publishedAt": "2026-07-21T03:50:17.188Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
+    },
+    {
+      "id": "steam-4069520",
+      "title": "超级高尔夫大乱斗",
+      "url": "https://store.steampowered.com/app/4069520?l=schinese",
+      "discount": 30,
+      "originalPrice": 7.99,
+      "finalPrice": 5.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4069520/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-21T03:50:17.188Z"
     },
     {
       "id": "steam-588030",
@@ -116,20 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.351Z"
+      "publishedAt": "2026-07-21T03:50:17.188Z"
     },
     {
-      "id": "steam-3808690",
-      "title": "致病本源",
-      "url": "https://store.steampowered.com/app/3808690?l=schinese",
+      "id": "steam-3764200",
+      "title": "Resident Evil Requiem",
+      "url": "https://store.steampowered.com/app/3764200?l=schinese",
       "discount": 20,
-      "originalPrice": 39.99,
-      "finalPrice": 31.99,
+      "originalPrice": 348,
+      "finalPrice": 278.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-2936290",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2936290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.179Z"
+      "publishedAt": "2026-07-21T03:50:16.909Z"
     },
     {
       "id": "steam-3712080",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.351Z"
+      "publishedAt": "2026-07-21T03:50:17.188Z"
     },
     {
       "id": "steam-2524850",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-20T23:27:13.351Z"
+      "publishedAt": "2026-07-21T03:50:17.188Z"
     }
   ]
 }

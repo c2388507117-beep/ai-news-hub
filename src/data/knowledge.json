@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T23:27:18.475Z",
+  "fetchedAt": "2026-07-21T03:50:22.953Z",
   "items": [
+    {
+      "title": "阿曼航空",
+      "extract": "阿曼航空，是阿曼苏丹国的國家航空公司、阿拉伯航空運輸組織成员，總部设在阿曼首都馬斯喀特。阿曼航空以馬斯喀特國際機場为枢纽机场，经营阿曼国内航线以及中东、南亚、欧洲等地的国际航线。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC%E8%88%AA%E7%A9%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Boeing_787-9_%E2%80%98A4O-SC%E2%80%99_Oman_Air.jpg/330px-Boeing_787-9_%E2%80%98A4O-SC%E2%80%99_Oman_Air.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "金杨",
       "extract": "金杨（1989年或1994年5月16日—），黑龙江省哈尔滨市人，中国男子花样滑冰运动员，主攻双人滑。他在1999年开始练习花样滑冰。2009年，他开始和于小雨搭档。2016年4月，中国花样滑冰队对队内双人滑组合进行拆对重组，金杨不再与于小雨搭档，改为与彭程搭档。\n",
@@ -27,13 +34,6 @@
       "extract": "格里波尔 是法国默尔特-摩泽尔省的一个市镇，属于南锡区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%87%8C%E6%B3%A2%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Gripport.jpg/330px-Gripport.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "蚕茧草",
-      "extract": "蚕茧草 为蓼科蓼属下的一个种。其种加词“japonicum”意为“日本的”。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%9A%95%E8%8C%A7%E8%8D%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Persicaria_japonica_03.JPG/330px-Persicaria_japonica_03.JPG",
       "source": "wikipedia"
     }
   ]
