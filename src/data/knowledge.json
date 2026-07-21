@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-21T22:13:47.282Z",
+  "fetchedAt": "2026-07-21T23:15:11.627Z",
   "items": [
+    {
+      "title": "勐养镇 (梁河县)",
+      "extract": "勐养镇，是中华人民共和国云南省德宏傣族景颇族自治州梁河县下辖的一个乡镇级行政单位。当地主要民族为傣族、汉族、景颇族、阿昌族等。其位于梁河县城南部，乡政府驻地芒轩村，海拔885米，总面积2569平方公里。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8B%90%E5%85%BB%E9%95%87_(%E6%A2%81%E6%B2%B3%E5%8E%BF)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%E5%BE%B7%E5%AE%8F%E5%BA%95%E5%9B%BE%E4%BD%8D%E7%BD%AE%E5%9B%BE-%E5%8B%90%E5%85%BB%E9%95%87.svg/langzh-330px-%E5%BE%B7%E5%AE%8F%E5%BA%95%E5%9B%BE%E4%BD%8D%E7%BD%AE%E5%9B%BE-%E5%8B%90%E5%85%BB%E9%95%87.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "新疆鼠尾草",
       "extract": "新疆鼠尾草 为唇形科鼠尾草属的植物。分布于俄罗斯以及中国大陆的新疆等地，生长于海拔270米至1,850米的地区，一般生于田野荒地、沙滩草地、沟边以及林下，目前已由人工引种栽培。\n",
@@ -27,13 +34,6 @@
       "extract": "《旺卡》 是一部2023年英美合拍歌舞奇幻片，由保羅·金執導並與西蒙·法納比編劇。該片是1971年電影《歡樂糖果屋》的前傳，改編自羅爾德·達爾的1964年小說《查理與巧克力工廠》，音樂劇類型的本片探索了「威利·旺卡」成立巧克力冒險工廠之前的旅程。主演陣容包括提摩西·夏勒梅、卡拉·蓮恩、基根-麥可·奇、派特森·約瑟夫、麥特·盧卡斯、馬修·貝恩頓、莎莉·霍金斯、羅溫·艾金森、吉姆·卡特、湯姆·戴維斯、奧莉薇雅·柯爾曼和休·葛蘭。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%97%BA%E5%8D%A1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/15/Wonka_Poster.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Kill Heel",
-      "extract": "《Kill Heel》，為韓國tvN於2022年3月9日起播出的水木連續劇，由《檢法男女》的盧道哲導演和《需要仙女》的申廣鎬編劇合作打造。此劇講述在激烈的電視購物市場中想要取得成功的人的強烈慾望、競爭和權力中展開的人性故事。\n",
-      "url": "https://zh.wikipedia.org/wiki/Kill_Heel",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/de/Kill_Heel.jpg",
       "source": "wikipedia"
     }
   ]
