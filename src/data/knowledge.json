@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T12:07:20.334Z",
+  "fetchedAt": "2026-07-22T14:28:25.832Z",
   "items": [
+    {
+      "title": "突击工兵旅",
+      "extract": "突击工兵旅 或称风暴工兵旅，是隶属于红军最高指挥部的预备队，因在第二次世界大战期间的出色表现而闻名。这些工兵部队的职责是突击敌军集散地以及突破已被强化防御的敌军阵地。突击工兵旅一般被缩写为“ShISBr” (俄語：ШИСБР)，一般被称为“装甲步兵”或“铜墙铁壁步兵”。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E5%87%BB%E5%B7%A5%E5%85%B5%E6%97%85",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flak_jacket_1942.jpg/330px-Flak_jacket_1942.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "曾豪駒",
       "extract": "曾豪駒，臺灣退役棒球選手、教練，球員時期守備位置為外野手，曾效力於中華職棒Lamigo桃猿。2020年至2023年擔任樂天桃猿一軍總教練。2024年為樂天桃猿二軍總教練。同年再獲任為中華隊總教練。2026年起再度擔任樂天桃猿一軍總教練。\n",
@@ -27,13 +34,6 @@
       "extract": "埃尔巴斯河 是法国奥弗涅-罗讷-阿尔卑斯大区伊泽尔省的河流，是罗讷河的右支流，长40千米。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E5%B7%B4%E6%96%AF%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/L%27Herbasse_13_04_13.JPG/330px-L%27Herbasse_13_04_13.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瑟尔登",
-      "extract": "瑟尔登 是奥地利蒂罗尔州伊姆斯特县的一个市镇，面积466.89平方千米，是奧地利面積最大的市镇，2021人口为2,955人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%91%9F%E5%B0%94%E7%99%BB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Soelden.jpg/330px-Soelden.jpg",
       "source": "wikipedia"
     }
   ]
