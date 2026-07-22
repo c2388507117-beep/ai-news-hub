@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T14:28:20.585Z",
+  "fetchedAt": "2026-07-22T16:51:14.168Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-2050650",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-1466060",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.585Z"
+      "publishedAt": "2026-07-22T16:51:14.168Z"
     },
     {
       "id": "steam-1623730",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.459Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-1145350",
@@ -90,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
-    },
-    {
-      "id": "steam-588030",
-      "title": "Derail Valley",
-      "url": "https://store.steampowered.com/app/588030?l=schinese",
-      "discount": 25,
-      "originalPrice": 39.99,
-      "finalPrice": 29.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.585Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-3116700",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3116700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-3590290",
@@ -129,20 +116,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
-      "id": "steam-1605850",
-      "title": "零度空间 ZeroSpace",
-      "url": "https://store.steampowered.com/app/1605850?l=schinese",
-      "discount": 10,
-      "originalPrice": 158,
-      "finalPrice": 142.2,
+      "id": "steam-4324480",
+      "title": "小本生意",
+      "url": "https://store.steampowered.com/app/4324480?l=schinese",
+      "discount": 20,
+      "originalPrice": 14.99,
+      "finalPrice": 11.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.460Z"
+      "publishedAt": "2026-07-22T16:51:14.168Z"
+    },
+    {
+      "id": "steam-3722330",
+      "title": "午夜轮班",
+      "url": "https://store.steampowered.com/app/3722330?l=schinese",
+      "discount": 10,
+      "originalPrice": 38,
+      "finalPrice": 34.2,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-22T16:51:13.897Z"
     },
     {
       "id": "steam-3712080",
@@ -155,7 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T14:28:20.585Z"
+      "publishedAt": "2026-07-22T16:51:14.168Z"
+    },
+    {
+      "id": "steam-1605850",
+      "title": "零度空间 ZeroSpace",
+      "url": "https://store.steampowered.com/app/1605850?l=schinese",
+      "discount": 10,
+      "originalPrice": 39.99,
+      "finalPrice": 35.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-22T16:51:14.168Z"
     }
   ]
 }

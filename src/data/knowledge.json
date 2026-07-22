@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T14:28:25.832Z",
+  "fetchedAt": "2026-07-22T16:51:19.451Z",
   "items": [
+    {
+      "title": "第一代傑利科伯爵約翰·傑利科",
+      "extract": "第一代傑利科伯爵約翰·拉什沃思·傑利科，GCB，OM，GCVO，英國皇家海軍軍官，最高軍階為海軍元帥。第一次世界大戰期間出任大艦隊司令，指揮1916年日德蘭海戰，此為一戰中規模最大的海上決戰。後升任第一海務大臣主持反潛艦作戰，戰後出任紐西蘭總督。時任第一海軍大臣溫斯頓·邱吉爾曾稱傑利科為「雙方唯一能在一個下午輸掉整場戰爭的人」，意指大艦隊作為大英帝國海上霸權的根基，一旦覆滅便無法挽回。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E4%BB%A3%E5%82%91%E5%88%A9%E7%A7%91%E4%BC%AF%E7%88%B5%E7%B4%84%E7%BF%B0%C2%B7%E5%82%91%E5%88%A9%E7%A7%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/John_Jellicoe_Gw_jellicoe_02.png/330px-John_Jellicoe_Gw_jellicoe_02.png",
+      "source": "wikipedia"
+    },
     {
       "title": "突击工兵旅",
       "extract": "突击工兵旅 或称风暴工兵旅，是隶属于红军最高指挥部的预备队，因在第二次世界大战期间的出色表现而闻名。这些工兵部队的职责是突击敌军集散地以及突破已被强化防御的敌军阵地。突击工兵旅一般被缩写为“ShISBr” (俄語：ШИСБР)，一般被称为“装甲步兵”或“铜墙铁壁步兵”。\n",
@@ -27,13 +34,6 @@
       "extract": "谢尔瓦勒 是法国多尔多涅省的一个市镇，属于佩里格区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E5%B0%94%E7%93%A6%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cherval_eg2.JPG/330px-Cherval_eg2.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "埃尔巴斯河",
-      "extract": "埃尔巴斯河 是法国奥弗涅-罗讷-阿尔卑斯大区伊泽尔省的河流，是罗讷河的右支流，长40千米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E5%B7%B4%E6%96%AF%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/L%27Herbasse_13_04_13.JPG/330px-L%27Herbasse_13_04_13.JPG",
       "source": "wikipedia"
     }
   ]
