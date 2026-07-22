@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T23:15:06.632Z",
+  "fetchedAt": "2026-07-22T00:11:47.005Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-2050650",
@@ -25,20 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
-    },
-    {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: 星际战士2",
-      "url": "https://store.steampowered.com/app/2183900?l=schinese",
-      "discount": 70,
-      "originalPrice": 249,
-      "finalPrice": 74.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-1466060",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.632Z"
+      "publishedAt": "2026-07-22T00:11:47.005Z"
     },
     {
       "id": "steam-1623730",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.384Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-1145350",
@@ -103,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
-    },
-    {
-      "id": "steam-3764200",
-      "title": "Resident Evil Requiem",
-      "url": "https://store.steampowered.com/app/3764200?l=schinese",
-      "discount": 20,
-      "originalPrice": 348,
-      "finalPrice": 278.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-3590290",
@@ -129,7 +103,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.385Z"
+      "publishedAt": "2026-07-22T00:11:46.845Z"
+    },
+    {
+      "id": "steam-3764200",
+      "title": "Resident Evil Requiem",
+      "url": "https://store.steampowered.com/app/3764200?l=schinese",
+      "discount": 20,
+      "originalPrice": 348,
+      "finalPrice": 278.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-22T00:11:46.845Z"
+    },
+    {
+      "id": "steam-1605850",
+      "title": "零度空间 ZeroSpace",
+      "url": "https://store.steampowered.com/app/1605850?l=schinese",
+      "discount": 10,
+      "originalPrice": 158,
+      "finalPrice": 142.2,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-22T00:11:46.845Z"
     },
     {
       "id": "steam-3712080",
@@ -142,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.632Z"
-    },
-    {
-      "id": "steam-1605850",
-      "title": "零度空间 ZeroSpace",
-      "url": "https://store.steampowered.com/app/1605850?l=schinese",
-      "discount": 10,
-      "originalPrice": 39.99,
-      "finalPrice": 35.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-21T23:15:06.632Z"
+      "publishedAt": "2026-07-22T00:11:47.005Z"
     }
   ]
 }
