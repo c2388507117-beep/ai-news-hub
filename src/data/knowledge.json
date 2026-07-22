@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T18:36:19.798Z",
+  "fetchedAt": "2026-07-22T20:33:40.425Z",
   "items": [
+    {
+      "title": "拜尼欧",
+      "extract": "拜尼欧 是法国吉伦特省的一个市镇，属于朗贡区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%9C%E5%B0%BC%E6%AC%A7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Baigneaux_Mairie.jpg/330px-Baigneaux_Mairie.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "科托羅斯爾河",
       "extract": "科托羅斯爾河 是俄羅斯的河流，位於雅羅斯拉夫爾州，屬於伏爾加河的右支流，發源自羅斯托夫附近，在雅羅斯拉夫爾注入伏爾加河。由於科托羅斯爾河與俄羅斯其他河流相連，因此在中世紀時有戰略重要性。\n",
@@ -27,13 +34,6 @@
       "extract": "曾豪駒，臺灣退役棒球選手、教練，球員時期守備位置為外野手，曾效力於中華職棒Lamigo桃猿。2020年至2023年擔任樂天桃猿一軍總教練。2024年為樂天桃猿二軍總教練。同年再獲任為中華隊總教練。2026年起再度擔任樂天桃猿一軍總教練。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E8%B1%AA%E9%A7%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/11.26_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C2024%E5%B9%B4%E4%B8%96%E7%95%8C%E6%A3%92%E7%90%8312%E5%BC%B7%E8%B3%BD%E4%BB%A3%E8%A1%A8%E9%9A%8A%E3%80%8D_-_54165913073_%28cropped%29.jpg/330px-11.26_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C2024%E5%B9%B4%E4%B8%96%E7%95%8C%E6%A3%92%E7%90%8312%E5%BC%B7%E8%B3%BD%E4%BB%A3%E8%A1%A8%E9%9A%8A%E3%80%8D_-_54165913073_%28cropped%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "比拉克 (夏朗德省)",
-      "extract": "比拉克 是法国夏朗德省的一个市镇，属于干邑区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E6%8B%89%E5%85%8B_(%E5%A4%8F%E6%9C%97%E5%BE%B7%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Birac_faye2.JPG/330px-Birac_faye2.JPG",
       "source": "wikipedia"
     }
   ]
