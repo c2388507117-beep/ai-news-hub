@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T16:51:19.451Z",
+  "fetchedAt": "2026-07-22T18:36:19.798Z",
   "items": [
+    {
+      "title": "科托羅斯爾河",
+      "extract": "科托羅斯爾河 是俄羅斯的河流，位於雅羅斯拉夫爾州，屬於伏爾加河的右支流，發源自羅斯托夫附近，在雅羅斯拉夫爾注入伏爾加河。由於科托羅斯爾河與俄羅斯其他河流相連，因此在中世紀時有戰略重要性。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E6%89%98%E7%BE%85%E6%96%AF%E7%88%BE%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kotorosl.jpg/330px-Kotorosl.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "第一代傑利科伯爵約翰·傑利科",
       "extract": "第一代傑利科伯爵約翰·拉什沃思·傑利科，GCB，OM，GCVO，英國皇家海軍軍官，最高軍階為海軍元帥。第一次世界大戰期間出任大艦隊司令，指揮1916年日德蘭海戰，此為一戰中規模最大的海上決戰。後升任第一海務大臣主持反潛艦作戰，戰後出任紐西蘭總督。時任第一海軍大臣溫斯頓·邱吉爾曾稱傑利科為「雙方唯一能在一個下午輸掉整場戰爭的人」，意指大艦隊作為大英帝國海上霸權的根基，一旦覆滅便無法挽回。\n",
@@ -27,13 +34,6 @@
       "extract": "比拉克 是法国夏朗德省的一个市镇，属于干邑区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E6%8B%89%E5%85%8B_(%E5%A4%8F%E6%9C%97%E5%BE%B7%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Birac_faye2.JPG/330px-Birac_faye2.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "谢尔瓦勒",
-      "extract": "谢尔瓦勒 是法国多尔多涅省的一个市镇，属于佩里格区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E5%B0%94%E7%93%A6%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cherval_eg2.JPG/330px-Cherval_eg2.JPG",
       "source": "wikipedia"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T16:51:14.168Z",
+  "fetchedAt": "2026-07-22T18:36:14.509Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
       "id": "steam-2050650",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
       "id": "steam-1466060",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:14.168Z"
+      "publishedAt": "2026-07-22T18:36:14.509Z"
     },
     {
       "id": "steam-1623730",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.272Z"
     },
     {
       "id": "steam-1145350",
@@ -90,33 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
-      "id": "steam-3116700",
-      "title": "地府有点忙",
-      "url": "https://store.steampowered.com/app/3116700?l=schinese",
+      "id": "steam-3764200",
+      "title": "Resident Evil Requiem",
+      "url": "https://store.steampowered.com/app/3764200?l=schinese",
       "discount": 20,
-      "originalPrice": 49,
-      "finalPrice": 39.2,
+      "originalPrice": 348,
+      "finalPrice": 278.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3116700/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
-    },
-    {
-      "id": "steam-3590290",
-      "title": "生死深潜：雨之子民",
-      "url": "https://store.steampowered.com/app/3590290?l=schinese",
-      "discount": 20,
-      "originalPrice": 73,
-      "finalPrice": 58.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590290/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
       "id": "steam-4324480",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:14.168Z"
+      "publishedAt": "2026-07-22T18:36:14.509Z"
     },
     {
       "id": "steam-3722330",
@@ -142,7 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:13.897Z"
+      "publishedAt": "2026-07-22T18:36:14.273Z"
+    },
+    {
+      "id": "steam-1913120",
+      "title": "Tears of Metal",
+      "url": "https://store.steampowered.com/app/1913120?l=schinese",
+      "discount": 10,
+      "originalPrice": 93,
+      "finalPrice": 83.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-22T18:36:14.273Z"
     },
     {
       "id": "steam-3712080",
@@ -155,20 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:14.168Z"
-    },
-    {
-      "id": "steam-1605850",
-      "title": "零度空间 ZeroSpace",
-      "url": "https://store.steampowered.com/app/1605850?l=schinese",
-      "discount": 10,
-      "originalPrice": 39.99,
-      "finalPrice": 35.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605850/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-22T16:51:14.168Z"
+      "publishedAt": "2026-07-22T18:36:14.509Z"
     }
   ]
 }
