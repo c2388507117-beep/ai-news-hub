@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T09:41:32.345Z",
+  "fetchedAt": "2026-07-22T12:07:20.334Z",
   "items": [
+    {
+      "title": "曾豪駒",
+      "extract": "曾豪駒，臺灣退役棒球選手、教練，球員時期守備位置為外野手，曾效力於中華職棒Lamigo桃猿。2020年至2023年擔任樂天桃猿一軍總教練。2024年為樂天桃猿二軍總教練。同年再獲任為中華隊總教練。2026年起再度擔任樂天桃猿一軍總教練。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E8%B1%AA%E9%A7%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/11.26_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C2024%E5%B9%B4%E4%B8%96%E7%95%8C%E6%A3%92%E7%90%8312%E5%BC%B7%E8%B3%BD%E4%BB%A3%E8%A1%A8%E9%9A%8A%E3%80%8D_-_54165913073_%28cropped%29.jpg/330px-11.26_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C2024%E5%B9%B4%E4%B8%96%E7%95%8C%E6%A3%92%E7%90%8312%E5%BC%B7%E8%B3%BD%E4%BB%A3%E8%A1%A8%E9%9A%8A%E3%80%8D_-_54165913073_%28cropped%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "比拉克 (夏朗德省)",
       "extract": "比拉克 是法国夏朗德省的一个市镇，属于干邑区。\n",
@@ -27,13 +34,6 @@
       "extract": "瑟尔登 是奥地利蒂罗尔州伊姆斯特县的一个市镇，面积466.89平方千米，是奧地利面積最大的市镇，2021人口为2,955人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%91%9F%E5%B0%94%E7%99%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Soelden.jpg/330px-Soelden.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "勐养镇 (梁河县)",
-      "extract": "勐养镇，是中华人民共和国云南省德宏傣族景颇族自治州梁河县下辖的一个乡镇级行政单位。当地主要民族为傣族、汉族、景颇族、阿昌族等。其位于梁河县城南部，乡政府驻地芒轩村，海拔885米，总面积2569平方公里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8B%90%E5%85%BB%E9%95%87_(%E6%A2%81%E6%B2%B3%E5%8E%BF)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%E5%BE%B7%E5%AE%8F%E5%BA%95%E5%9B%BE%E4%BD%8D%E7%BD%AE%E5%9B%BE-%E5%8B%90%E5%85%BB%E9%95%87.svg/langzh-330px-%E5%BE%B7%E5%AE%8F%E5%BA%95%E5%9B%BE%E4%BD%8D%E7%BD%AE%E5%9B%BE-%E5%8B%90%E5%85%BB%E9%95%87.svg.png",
       "source": "wikipedia"
     }
   ]
