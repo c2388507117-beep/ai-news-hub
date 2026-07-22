@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T00:11:51.912Z",
+  "fetchedAt": "2026-07-22T03:51:18.801Z",
   "items": [
+    {
+      "title": "埃尔巴斯河",
+      "extract": "埃尔巴斯河 是法国奥弗涅-罗讷-阿尔卑斯大区伊泽尔省的河流，是罗讷河的右支流，长40千米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E5%B7%B4%E6%96%AF%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/L%27Herbasse_13_04_13.JPG/330px-L%27Herbasse_13_04_13.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "瑟尔登",
       "extract": "瑟尔登 是奥地利蒂罗尔州伊姆斯特县的一个市镇，面积466.89平方千米，是奧地利面積最大的市镇，2021人口为2,955人。\n",
@@ -27,13 +34,6 @@
       "extract": "莱布瓦 是瑞士汝拉州的一個市鎮，面積24.74平方公里，海拔高度1,034米，2011年人口1,155，六成半人口信奉羅馬天主教，人口密度每平方公里47人。由於侏羅州位在瑞士法語區的範圍內，莱布瓦有九成以上的人口是以法語作為母語，德語與義大利語族群佔少數。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E5%B8%83%E7%93%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Les_Bois_2%2C_28.6.2008.jpg/330px-Les_Bois_2%2C_28.6.2008.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "美国化学学会",
-      "extract": "美国化学学会，是一个总部位于美国的科学学会，旨在支持化学领域的科学研究。该学会于1876年在纽约大学成立，目前拥有超过155,000名会员，成员涵盖各个学位级别和化学、化学工程及相关领域。按会员人数计算，它是世界上规模最大的科学学会之一。该学会是一个501(c)(3)非营利组织，根据美国法典第36条持有国会宪章。其总部位于华盛顿特区，而大部分工作人员集中在俄亥俄州哥伦布市。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E5%8C%96%E5%AD%A6%E5%AD%A6%E4%BC%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/a/a0/American_Chemical_Society_logo.svg/langzh-330px-American_Chemical_Society_logo.svg.png",
       "source": "wikipedia"
     }
   ]
