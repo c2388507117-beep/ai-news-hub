@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-23T20:32:09.442Z",
+  "fetchedAt": "2026-07-23T22:17:42.182Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.442Z"
+      "publishedAt": "2026-07-23T22:17:42.182Z"
     },
     {
       "id": "steam-2050650",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-886313",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.442Z"
+      "publishedAt": "2026-07-23T22:17:42.182Z"
     },
     {
       "id": "steam-1466060",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.442Z"
+      "publishedAt": "2026-07-23T22:17:42.182Z"
     },
     {
       "id": "steam-1145350",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-4704690",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-2699230",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.295Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-3722330",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-3561220",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-1845250",
@@ -155,33 +155,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
-    },
-    {
-      "id": "steam-3440070",
-      "title": "这龙带刀",
-      "url": "https://store.steampowered.com/app/3440070?l=schinese",
-      "discount": 10,
-      "originalPrice": 44,
-      "finalPrice": 39.6,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.296Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
     },
     {
       "id": "steam-1913120",
       "title": "Tears of Metal",
       "url": "https://store.steampowered.com/app/1913120?l=schinese",
       "discount": 10,
-      "originalPrice": 24.99,
-      "finalPrice": 22.49,
+      "originalPrice": 93,
+      "finalPrice": 83.7,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T20:32:09.442Z"
+      "publishedAt": "2026-07-23T22:17:42.038Z"
+    },
+    {
+      "id": "steam-3440070",
+      "title": "这龙带刀",
+      "url": "https://store.steampowered.com/app/3440070?l=schinese",
+      "discount": 10,
+      "originalPrice": 19.99,
+      "finalPrice": 17.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-23T22:17:42.182Z"
     }
   ]
 }

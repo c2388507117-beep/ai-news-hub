@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-23T20:32:14.190Z",
+  "fetchedAt": "2026-07-23T22:17:47.499Z",
   "items": [
+    {
+      "title": "厄德夸特",
+      "extract": "厄德夸特 是德国下萨克森州施塔德县的市镇，面积37.13平方千米，2023年12月31日人口为1,006人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E5%BE%B7%E5%A4%B8%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Oederquart%2C_St._Johannis_%2820%29.jpg/330px-Oederquart%2C_St._Johannis_%2820%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "克兰维利耶",
       "extract": "克兰维利耶 是法国大東部大區孚日省的一个市镇，属于讷沙托区。\n",
@@ -27,13 +34,6 @@
       "extract": "德寶電影公司 是香港1980年代中葉至1990年代初期一家重要的電影公司，主力打造面向中產階層觀眾的電影。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%AF%B6%E9%9B%BB%E5%BD%B1%E5%85%AC%E5%8F%B8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/74/D_%26_B_Films_Co_Ltd.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "馬丁 (內布拉斯加州)",
-      "extract": "馬丁 是位於美國內布拉斯加州基斯縣的普查規定居民點。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E4%B8%81_(%E5%85%A7%E5%B8%83%E6%8B%89%E6%96%AF%E5%8A%A0%E5%B7%9E)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Martin%2C_NE.jpg/330px-Martin%2C_NE.jpg",
       "source": "wikipedia"
     }
   ]
