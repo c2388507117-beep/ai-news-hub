@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-23T00:15:27.551Z",
+  "fetchedAt": "2026-07-23T03:50:13.872Z",
   "items": [
+    {
+      "title": "曼特奈",
+      "extract": "曼特奈 是法国上法蘭西大區加来海峡省的一个市镇，属于蒙特勒伊区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E7%89%B9%E5%A5%88",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Maintenay_%C3%A9glise.jpg/330px-Maintenay_%C3%A9glise.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "银叶巴豆",
       "extract": "银叶巴豆，又名裏白巴豆，为大戟科巴豆属下的一个种。\n",
@@ -27,13 +34,6 @@
       "extract": "科托羅斯爾河 是俄羅斯的河流，位於雅羅斯拉夫爾州，屬於伏爾加河的右支流，發源自羅斯托夫附近，在雅羅斯拉夫爾注入伏爾加河。由於科托羅斯爾河與俄羅斯其他河流相連，因此在中世紀時有戰略重要性。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E6%89%98%E7%BE%85%E6%96%AF%E7%88%BE%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kotorosl.jpg/330px-Kotorosl.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "第一代傑利科伯爵約翰·傑利科",
-      "extract": "第一代傑利科伯爵約翰·拉什沃思·傑利科，GCB，OM，GCVO，英國皇家海軍軍官，最高軍階為海軍元帥。第一次世界大戰期間出任大艦隊司令，指揮1916年日德蘭海戰，此為一戰中規模最大的海上決戰。後升任第一海務大臣主持反潛艦作戰，戰後出任紐西蘭總督。時任第一海軍大臣溫斯頓·邱吉爾曾稱傑利科為「雙方唯一能在一個下午輸掉整場戰爭的人」，意指大艦隊作為大英帝國海上霸權的根基，一旦覆滅便無法挽回。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E4%BB%A3%E5%82%91%E5%88%A9%E7%A7%91%E4%BC%AF%E7%88%B5%E7%B4%84%E7%BF%B0%C2%B7%E5%82%91%E5%88%A9%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/John_Jellicoe_Gw_jellicoe_02.png/330px-John_Jellicoe_Gw_jellicoe_02.png",
       "source": "wikipedia"
     }
   ]
