@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-23T03:50:07.762Z",
+  "fetchedAt": "2026-07-23T06:42:13.684Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-2050650",
@@ -25,20 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
-    },
-    {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: 星际战士2",
-      "url": "https://store.steampowered.com/app/2183900?l=schinese",
-      "discount": 70,
-      "originalPrice": 249,
-      "finalPrice": 74.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-1466060",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.762Z"
+      "publishedAt": "2026-07-23T06:42:13.684Z"
     },
     {
       "id": "steam-1623730",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-1145350",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-4324480",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.762Z"
+      "publishedAt": "2026-07-23T06:42:13.684Z"
     },
     {
       "id": "steam-3722330",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-1913120",
@@ -129,20 +116,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
-      "id": "steam-3837350",
-      "title": "Staffer Retro - 异能追忆",
-      "url": "https://store.steampowered.com/app/3837350?l=schinese",
+      "id": "steam-3561220",
+      "title": "风暴怕死队",
+      "url": "https://store.steampowered.com/app/3561220?l=schinese",
       "discount": 10,
-      "originalPrice": 125,
-      "finalPrice": 112.5,
+      "originalPrice": 68,
+      "finalPrice": 61.2,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837350/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.482Z"
+      "publishedAt": "2026-07-23T06:42:13.516Z"
+    },
+    {
+      "id": "steam-1845250",
+      "title": "红眼露比",
+      "url": "https://store.steampowered.com/app/1845250?l=schinese",
+      "discount": 10,
+      "originalPrice": 79,
+      "finalPrice": 71.1,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-23T06:42:13.516Z"
     },
     {
       "id": "steam-3712080",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T03:50:07.762Z"
+      "publishedAt": "2026-07-23T06:42:13.684Z"
     }
   ]
 }
