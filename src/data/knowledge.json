@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-23T06:42:18.865Z",
+  "fetchedAt": "2026-07-23T09:40:01.749Z",
   "items": [
+    {
+      "title": "伊蘇IX -怪人之夜-",
+      "extract": "《伊蘇IX -怪人之夜-》 是日本Falcom出品動作角色扮演遊戲作品，為伊蘇系列第九作，於2019年9月26日在PlayStation 4上推出。繁體中文版與韓文版由雲豹娛樂代理發行，繁體中文版於2020年2月6日發售，韓文版則隨後於2020年2月13日發售。較後時間在任天堂Switch上推出，北美於2021年7月6日、歐洲版於同年7月9日、日版於同年9月9日、亞洲版則於2022年1月20日發售。在Windows版本於2021年7月7日同步發行。2023年5月，PlayStation 5版陆续在美国、欧洲和澳大利亚推出。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%98%87IX_-%E6%80%AA%E4%BA%BA%E4%B9%8B%E5%A4%9C-",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/18/Ys_IX_Monstrum_Nox_Boxart.png",
+      "source": "wikipedia"
+    },
     {
       "title": "莱珀蒂特洛日",
       "extract": "莱珀蒂特洛日 是法国马恩省的一个市镇，属于兰斯区。\n",
@@ -27,13 +34,6 @@
       "extract": "丘爾戈是匈牙利的城鎮，位於該國西南部，毗鄰與克羅地亞接壤的邊境，由紹莫吉州負責管轄，面積59.42平方公里，2011年人口5,248，其中約六成居民信奉天主教。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%98%E7%88%BE%E6%88%88",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Csurg%C3%B3_-_Gimn%C3%A1zium.jpg/330px-Csurg%C3%B3_-_Gimn%C3%A1zium.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拜尼欧",
-      "extract": "拜尼欧 是法国吉伦特省的一个市镇，属于朗贡区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%9C%E5%B0%BC%E6%AC%A7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Baigneaux_Mairie.jpg/330px-Baigneaux_Mairie.jpg",
       "source": "wikipedia"
     }
   ]
