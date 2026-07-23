@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-23T14:36:30.787Z",
+  "fetchedAt": "2026-07-23T16:49:36.153Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,20 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
-    },
-    {
-      "id": "steam-2050650",
-      "title": "Resident Evil 4",
-      "url": "https://store.steampowered.com/app/2050650?l=schinese",
-      "discount": 75,
-      "originalPrice": 198,
-      "finalPrice": 49.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-3240220",
@@ -38,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-1466060",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.787Z"
+      "publishedAt": "2026-07-23T16:49:36.153Z"
     },
     {
       "id": "steam-1623730",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-1145350",
@@ -77,20 +64,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
-      "id": "steam-4324480",
-      "title": "小本生意",
-      "url": "https://store.steampowered.com/app/4324480?l=schinese",
-      "discount": 20,
-      "originalPrice": 14.99,
-      "finalPrice": 11.99,
+      "id": "steam-4704690",
+      "title": "MECCHA CHAMELEON",
+      "url": "https://store.steampowered.com/app/4704690?l=schinese",
+      "discount": 15,
+      "originalPrice": 26,
+      "finalPrice": 22.1,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.787Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
+    },
+    {
+      "id": "steam-2699230",
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "url": "https://store.steampowered.com/app/2699230?l=schinese",
+      "discount": 10,
+      "originalPrice": 73,
+      "finalPrice": 65.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-3722330",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-3561220",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-1845250",
@@ -129,20 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:35.982Z"
     },
     {
       "id": "steam-1913120",
       "title": "Tears of Metal",
       "url": "https://store.steampowered.com/app/1913120?l=schinese",
       "discount": 10,
-      "originalPrice": 93,
-      "finalPrice": 83.7,
+      "originalPrice": 24.99,
+      "finalPrice": 22.49,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.590Z"
+      "publishedAt": "2026-07-23T16:49:36.153Z"
     },
     {
       "id": "steam-3712080",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-23T14:36:30.787Z"
+      "publishedAt": "2026-07-23T16:49:36.153Z"
     }
   ]
 }

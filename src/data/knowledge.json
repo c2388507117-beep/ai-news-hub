@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-23T14:36:35.943Z",
+  "fetchedAt": "2026-07-23T16:49:41.557Z",
   "items": [
+    {
+      "title": "黑潮新鼬鳚",
+      "extract": "新鼬魚，又名黑潮新鼬鳚，為輻鰭魚綱鼬魚目鼬魚科的其中一種。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%BD%AE%E6%96%B0%E9%BC%AC%E9%B3%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FMIB_41162_Watasea_sivicola_Jordan_%26_Snyder.jpeg/330px-FMIB_41162_Watasea_sivicola_Jordan_%26_Snyder.jpeg",
+      "source": "wikipedia"
+    },
     {
       "title": "德寶電影公司",
       "extract": "德寶電影公司 是香港1980年代中葉至1990年代初期一家重要的電影公司，主力打造面向中產階層觀眾的電影。\n",
@@ -27,13 +34,6 @@
       "extract": "莱珀蒂特洛日 是法国马恩省的一个市镇，属于兰斯区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E7%8F%80%E8%92%82%E7%89%B9%E6%B4%9B%E6%97%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Mairie_02956.JPG/330px-Mairie_02956.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "曼特奈",
-      "extract": "曼特奈 是法国上法蘭西大區加来海峡省的一个市镇，属于蒙特勒伊区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E7%89%B9%E5%A5%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Maintenay_%C3%A9glise.jpg/330px-Maintenay_%C3%A9glise.jpg",
       "source": "wikipedia"
     }
   ]
