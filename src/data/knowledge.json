@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-23T09:40:01.749Z",
+  "fetchedAt": "2026-07-23T12:04:55.838Z",
   "items": [
+    {
+      "title": "馬丁 (內布拉斯加州)",
+      "extract": "馬丁 是位於美國內布拉斯加州基斯縣的普查規定居民點。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E4%B8%81_(%E5%85%A7%E5%B8%83%E6%8B%89%E6%96%AF%E5%8A%A0%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Martin%2C_NE.jpg/330px-Martin%2C_NE.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "伊蘇IX -怪人之夜-",
       "extract": "《伊蘇IX -怪人之夜-》 是日本Falcom出品動作角色扮演遊戲作品，為伊蘇系列第九作，於2019年9月26日在PlayStation 4上推出。繁體中文版與韓文版由雲豹娛樂代理發行，繁體中文版於2020年2月6日發售，韓文版則隨後於2020年2月13日發售。較後時間在任天堂Switch上推出，北美於2021年7月6日、歐洲版於同年7月9日、日版於同年9月9日、亞洲版則於2022年1月20日發售。在Windows版本於2021年7月7日同步發行。2023年5月，PlayStation 5版陆续在美国、欧洲和澳大利亚推出。\n",
@@ -27,13 +34,6 @@
       "extract": "银叶巴豆，又名裏白巴豆，为大戟科巴豆属下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%93%B6%E5%8F%B6%E5%B7%B4%E8%B1%86",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gardenology.org-IMG_8043_qsbg11mar.jpg/330px-Gardenology.org-IMG_8043_qsbg11mar.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "丘爾戈",
-      "extract": "丘爾戈是匈牙利的城鎮，位於該國西南部，毗鄰與克羅地亞接壤的邊境，由紹莫吉州負責管轄，面積59.42平方公里，2011年人口5,248，其中約六成居民信奉天主教。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%98%E7%88%BE%E6%88%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Csurg%C3%B3_-_Gimn%C3%A1zium.jpg/330px-Csurg%C3%B3_-_Gimn%C3%A1zium.jpg",
       "source": "wikipedia"
     }
   ]
