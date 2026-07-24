@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-24T11:57:18.747Z",
+  "fetchedAt": "2026-07-24T14:16:21.964Z",
   "items": [
+    {
+      "title": "林夜鹰",
+      "extract": "南亞夜鷹，又名南亚夜鹰或疏林夜鹰，臺灣話俗稱石磯仔 或山蚊母，是夜鷹目夜鷹科夜鷹屬的鳥類，廣泛分布於東洋界地區，主要棲息於於低地草原、河岸與灌木叢環境，亦可見於部分人類活動頻繁的地區。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A4%9C%E9%B9%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Caprimulgus_affinis.jpg/330px-Caprimulgus_affinis.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "金獅湖",
       "extract": "金獅湖，原名大埤或覆鼎金陂，位於高雄市三民區鼎金里，獅頭山下，故名之。是高雄愛河上游一座湖泊，水域面積約12甲（11.6公頃），雨季時有調節水位的重要功能。金獅湖水位受乾雨季影響，湖岸已闢成金獅湖公園，金獅湖不但是當地居民的休憩運動場所，也是高雄市民假日闔家休閒的去處之一。\n",
@@ -27,13 +34,6 @@
       "extract": "普林西比岛 是圣多美和普林西比的两个主要岛屿之一。总面积136平方千米，人口约5000，人口密度约36人/平方千米。隶属普林西比自治区，下設范围相同的帕盖区。主要城镇为自治区首府圣安东尼奥。岛上有一个机场，即普林西比机场。该岛为火山岛。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9E%97%E8%A5%BF%E6%AF%94%E5%B2%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Tp-map.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "于立群",
-      "extract": "于立群（1916年—1979年2月25日），原名佩珊，广西省贺县桂岭人，演员、书法家。郭沫若第三任妻子。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%AB%8B%E7%BE%A4",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Yu_Liqun.jpg/330px-Yu_Liqun.jpg",
       "source": "wikipedia"
     }
   ]
