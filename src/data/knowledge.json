@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-24T21:31:18.244Z",
+  "fetchedAt": "2026-07-24T23:27:16.461Z",
   "items": [
+    {
+      "title": "惡靈古堡首部曲：拉昆市",
+      "extract": "《惡靈古堡首部曲：拉昆市》 是一部2021年德美合拍求生恐怖電影，由約翰尼斯·羅勃茲執導。該片改編自卡普空的同名恐怖遊戲系列，同時是「惡靈古堡系列電影」的重啟作，主演包括凱亞·絲柯黛蘭莉歐、羅比·艾梅爾、漢娜·約翰-卡門、湯姆·霍珀、亞凡·喬吉亞和尼爾·麥克唐納。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%83%A1%E9%9D%88%E5%8F%A4%E5%A0%A1%E9%A6%96%E9%83%A8%E6%9B%B2%EF%BC%9A%E6%8B%89%E6%98%86%E5%B8%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/28/RE_Welcome_to_Raccoon_City.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "四川电影电视学院",
       "extract": "四川电影电视学院 简称“川影”，位于四川省成都市，是经中华人民共和国教育部批准的，继北京电影学院之后的第二所以电影命名的全日制本科院校。\n",
@@ -27,13 +34,6 @@
       "extract": "利涅 是法国安德尔省的一个市镇，位于该省北部偏东，属于伊苏丹区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E6%B6%85_(%E5%AE%89%E5%BE%B7%E5%B0%94%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%C3%89glise_Saint-Martin_de_Liniez.jpg/330px-%C3%89glise_Saint-Martin_de_Liniez.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "林夜鹰",
-      "extract": "南亞夜鷹，又名南亚夜鹰或疏林夜鹰，臺灣話俗稱石磯仔 或山蚊母，是夜鷹目夜鷹科夜鷹屬的鳥類，廣泛分布於東洋界地區，主要棲息於於低地草原、河岸與灌木叢環境，亦可見於部分人類活動頻繁的地區。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A4%9C%E9%B9%B0",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Caprimulgus_affinis.jpg/330px-Caprimulgus_affinis.jpg",
       "source": "wikipedia"
     }
   ]
