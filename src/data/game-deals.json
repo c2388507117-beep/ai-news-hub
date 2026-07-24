@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-24T15:49:27.090Z",
+  "fetchedAt": "2026-07-24T17:54:39.090Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,20 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:27.090Z"
-    },
-    {
-      "id": "steam-2050650",
-      "title": "Resident Evil 4",
-      "url": "https://store.steampowered.com/app/2050650?l=schinese",
-      "discount": 75,
-      "originalPrice": 198,
-      "finalPrice": 49.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:39.090Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-886313",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:27.090Z"
+      "publishedAt": "2026-07-24T17:54:39.090Z"
     },
     {
       "id": "steam-1809540",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:27.090Z"
+      "publishedAt": "2026-07-24T17:54:39.090Z"
     },
     {
       "id": "steam-2840770",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:27.090Z"
+      "publishedAt": "2026-07-24T17:54:39.090Z"
     },
     {
       "id": "steam-3683770",
@@ -103,7 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
+    },
+    {
+      "id": "steam-3241660",
+      "title": "R.E.P.O.",
+      "url": "https://store.steampowered.com/app/3241660?l=schinese",
+      "discount": 35,
+      "originalPrice": 35,
+      "finalPrice": 22.75,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-1145350",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-4704690",
@@ -129,20 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
-    },
-    {
-      "id": "steam-3722330",
-      "title": "午夜轮班",
-      "url": "https://store.steampowered.com/app/3722330?l=schinese",
-      "discount": 10,
-      "originalPrice": 38,
-      "finalPrice": 34.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.887Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-2699230",
@@ -155,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
+    },
+    {
+      "id": "steam-3722330",
+      "title": "午夜轮班",
+      "url": "https://store.steampowered.com/app/3722330?l=schinese",
+      "discount": 10,
+      "originalPrice": 38,
+      "finalPrice": 34.2,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-3561220",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-3863760",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3863760/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:26.888Z"
+      "publishedAt": "2026-07-24T17:54:38.895Z"
     },
     {
       "id": "steam-3440070",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:27.090Z"
+      "publishedAt": "2026-07-24T17:54:39.090Z"
     },
     {
       "id": "steam-1913120",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T15:49:27.090Z"
+      "publishedAt": "2026-07-24T17:54:39.090Z"
     }
   ]
 }
