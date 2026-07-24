@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-24T14:16:16.434Z",
+  "fetchedAt": "2026-07-24T15:49:27.090Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.434Z"
+      "publishedAt": "2026-07-24T15:49:27.090Z"
     },
     {
       "id": "steam-2050650",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-886313",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.434Z"
+      "publishedAt": "2026-07-24T15:49:27.090Z"
     },
     {
       "id": "steam-1809540",
@@ -77,20 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.434Z"
+      "publishedAt": "2026-07-24T15:49:27.090Z"
     },
     {
-      "id": "steam-1466060",
-      "title": "污痕圣杯：阿瓦隆的陨落",
-      "url": "https://store.steampowered.com/app/1466060?l=schinese",
-      "discount": 50,
-      "originalPrice": 44.99,
-      "finalPrice": 22.49,
+      "id": "steam-2840770",
+      "title": "Avatar: Frontiers of Pandora™",
+      "url": "https://store.steampowered.com/app/2840770?l=schinese",
+      "discount": 40,
+      "originalPrice": 29.99,
+      "finalPrice": 17.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.434Z"
+      "publishedAt": "2026-07-24T15:49:27.090Z"
     },
     {
       "id": "steam-3683770",
@@ -103,20 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
-      "id": "steam-3764200",
-      "title": "Resident Evil Requiem",
-      "url": "https://store.steampowered.com/app/3764200?l=schinese",
-      "discount": 20,
-      "originalPrice": 348,
-      "finalPrice": 278.4,
+      "id": "steam-1145350",
+      "title": "Hades II",
+      "url": "https://store.steampowered.com/app/1145350?l=schinese",
+      "discount": 30,
+      "originalPrice": 108,
+      "finalPrice": 75.6,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-4704690",
@@ -129,20 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
-    },
-    {
-      "id": "steam-2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "url": "https://store.steampowered.com/app/2699230?l=schinese",
-      "discount": 10,
-      "originalPrice": 73,
-      "finalPrice": 65.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-3722330",
@@ -155,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.887Z"
+    },
+    {
+      "id": "steam-2699230",
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "url": "https://store.steampowered.com/app/2699230?l=schinese",
+      "discount": 10,
+      "originalPrice": 73,
+      "finalPrice": 65.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-3561220",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-3863760",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3863760/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.200Z"
+      "publishedAt": "2026-07-24T15:49:26.888Z"
     },
     {
       "id": "steam-3440070",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.434Z"
+      "publishedAt": "2026-07-24T15:49:27.090Z"
     },
     {
       "id": "steam-1913120",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-24T14:16:16.434Z"
+      "publishedAt": "2026-07-24T15:49:27.090Z"
     }
   ]
 }
