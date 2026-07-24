@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-24T19:50:00.186Z",
+  "fetchedAt": "2026-07-24T21:31:18.244Z",
   "items": [
+    {
+      "title": "四川电影电视学院",
+      "extract": "四川电影电视学院 简称“川影”，位于四川省成都市，是经中华人民共和国教育部批准的，继北京电影学院之后的第二所以电影命名的全日制本科院校。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%B7%9D%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%AD%A6%E9%99%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/b/b1/Sichuan_Film_and_Television_University_logo.png",
+      "source": "wikipedia"
+    },
     {
       "title": "施塔特哈根",
       "extract": "施塔特哈根 是德国下萨克森州绍姆堡县的城市，也是绍姆堡县的县治，面积60.27平方千米，2023年12月31日人口为22,924人。\n",
@@ -27,13 +34,6 @@
       "extract": "南亞夜鷹，又名南亚夜鹰或疏林夜鹰，臺灣話俗稱石磯仔 或山蚊母，是夜鷹目夜鷹科夜鷹屬的鳥類，廣泛分布於東洋界地區，主要棲息於於低地草原、河岸與灌木叢環境，亦可見於部分人類活動頻繁的地區。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A4%9C%E9%B9%B0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Caprimulgus_affinis.jpg/330px-Caprimulgus_affinis.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "金獅湖",
-      "extract": "金獅湖，原名大埤或覆鼎金陂，位於高雄市三民區鼎金里，獅頭山下，故名之。是高雄愛河上游一座湖泊，水域面積約12甲（11.6公頃），雨季時有調節水位的重要功能。金獅湖水位受乾雨季影響，湖岸已闢成金獅湖公園，金獅湖不但是當地居民的休憩運動場所，也是高雄市民假日闔家休閒的去處之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%8D%85%E6%B9%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jinshi_Lake.JPG/330px-Jinshi_Lake.JPG",
       "source": "wikipedia"
     }
   ]
