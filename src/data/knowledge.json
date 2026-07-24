@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-24T00:13:16.721Z",
+  "fetchedAt": "2026-07-24T03:49:11.217Z",
   "items": [
+    {
+      "title": "普林西比岛",
+      "extract": "普林西比岛 是圣多美和普林西比的两个主要岛屿之一。总面积136平方千米，人口约5000，人口密度约36人/平方千米。隶属普林西比自治区，下設范围相同的帕盖区。主要城镇为自治区首府圣安东尼奥。岛上有一个机场，即普林西比机场。该岛为火山岛。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9E%97%E8%A5%BF%E6%AF%94%E5%B2%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Tp-map.png",
+      "source": "wikipedia"
+    },
     {
       "title": "于立群",
       "extract": "于立群（1916年—1979年2月25日），原名佩珊，广西省贺县桂岭人，演员、书法家。郭沫若第三任妻子。\n",
@@ -27,13 +34,6 @@
       "extract": "泽莱内哈伊 是烏克蘭中部第聶伯羅彼得羅夫斯克州第聶伯羅區苏尔西科-利托夫斯克市镇内的村落。處於莫克拉蘇拉河畔，距離波赫丹尼夫卡和新米科萊夫卡2公里，海拔高度61米，2001年人口52。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%BE%A4%E8%90%8A%E5%85%A7%E5%93%88%E4%BC%8A_(%E7%AC%AC%E8%81%B6%E4%BC%AF%E7%BE%85%E5%8D%80)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Green_countryside_house_in_Zelenyi_Hai%3B_1.6.19.jpg/330px-Green_countryside_house_in_Zelenyi_Hai%3B_1.6.19.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黑潮新鼬鳚",
-      "extract": "新鼬魚，又名黑潮新鼬鳚，為輻鰭魚綱鼬魚目鼬魚科的其中一種。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%BD%AE%E6%96%B0%E9%BC%AC%E9%B3%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FMIB_41162_Watasea_sivicola_Jordan_%26_Snyder.jpeg/330px-FMIB_41162_Watasea_sivicola_Jordan_%26_Snyder.jpeg",
       "source": "wikipedia"
     }
   ]
