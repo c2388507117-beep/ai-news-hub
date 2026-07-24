@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-23T22:17:47.499Z",
+  "fetchedAt": "2026-07-24T00:13:16.721Z",
   "items": [
+    {
+      "title": "于立群",
+      "extract": "于立群（1916年—1979年2月25日），原名佩珊，广西省贺县桂岭人，演员、书法家。郭沫若第三任妻子。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%AB%8B%E7%BE%A4",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Yu_Liqun.jpg/330px-Yu_Liqun.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "厄德夸特",
       "extract": "厄德夸特 是德国下萨克森州施塔德县的市镇，面积37.13平方千米，2023年12月31日人口为1,006人。\n",
@@ -27,13 +34,6 @@
       "extract": "新鼬魚，又名黑潮新鼬鳚，為輻鰭魚綱鼬魚目鼬魚科的其中一種。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%BD%AE%E6%96%B0%E9%BC%AC%E9%B3%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/FMIB_41162_Watasea_sivicola_Jordan_%26_Snyder.jpeg/330px-FMIB_41162_Watasea_sivicola_Jordan_%26_Snyder.jpeg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "德寶電影公司",
-      "extract": "德寶電影公司 是香港1980年代中葉至1990年代初期一家重要的電影公司，主力打造面向中產階層觀眾的電影。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%AF%B6%E9%9B%BB%E5%BD%B1%E5%85%AC%E5%8F%B8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/74/D_%26_B_Films_Co_Ltd.jpg",
       "source": "wikipedia"
     }
   ]
