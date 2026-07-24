@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-24T17:54:44.482Z",
+  "fetchedAt": "2026-07-24T19:50:00.186Z",
   "items": [
+    {
+      "title": "施塔特哈根",
+      "extract": "施塔特哈根 是德国下萨克森州绍姆堡县的城市，也是绍姆堡县的县治，面积60.27平方千米，2023年12月31日人口为22,924人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%BD%E5%A1%94%E7%89%B9%E5%93%88%E6%A0%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Stadthagen4.jpg/330px-Stadthagen4.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "长瓣钗子股",
       "extract": "长瓣钗子股 为兰科钗子股属下的一个种。\n",
@@ -27,13 +34,6 @@
       "extract": "金獅湖，原名大埤或覆鼎金陂，位於高雄市三民區鼎金里，獅頭山下，故名之。是高雄愛河上游一座湖泊，水域面積約12甲（11.6公頃），雨季時有調節水位的重要功能。金獅湖水位受乾雨季影響，湖岸已闢成金獅湖公園，金獅湖不但是當地居民的休憩運動場所，也是高雄市民假日闔家休閒的去處之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%8D%85%E6%B9%96",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jinshi_Lake.JPG/330px-Jinshi_Lake.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "内龙",
-      "extract": "内龙 是法国东部安省的一个市镇，属于布雷斯地区布尔格区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%86%85%E9%BE%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mairie_Neyron_6.jpg/330px-Mairie_Neyron_6.jpg",
       "source": "wikipedia"
     }
   ]
