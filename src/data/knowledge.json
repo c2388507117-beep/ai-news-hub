@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T03:42:48.534Z",
+  "fetchedAt": "2026-07-25T06:31:18.289Z",
   "items": [
+    {
+      "title": "胡志明市博物館",
+      "extract": "胡志明市博物館 是位在越南胡志明市的一座博物馆，在兩越統一前稱為嘉隆宮。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%83%A1%E5%BF%97%E6%98%8E%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A4%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Museum_of_Ho_Chi_Minh_City_04.JPG/330px-Museum_of_Ho_Chi_Minh_City_04.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
       "extract": "卡爾·古斯塔夫·埃米爾·曼納海姆男爵，芬兰瑞典族，是芬蘭第二任摄政（1918-1919年）、芬蘭共和國第六任总统（1944-1946年）及芬兰元帅。\n",
@@ -27,13 +34,6 @@
       "extract": "施塔特哈根 是德国下萨克森州绍姆堡县的城市，也是绍姆堡县的县治，面积60.27平方千米，2023年12月31日人口为22,924人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%BD%E5%A1%94%E7%89%B9%E5%93%88%E6%A0%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Stadthagen4.jpg/330px-Stadthagen4.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "长瓣钗子股",
-      "extract": "长瓣钗子股 为兰科钗子股属下的一个种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E7%93%A3%E9%92%97%E5%AD%90%E8%82%A1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Luisia_filiformis-2-bsi-yercaud-salem-India.jpg/330px-Luisia_filiformis-2-bsi-yercaud-salem-India.jpg",
       "source": "wikipedia"
     }
   ]
