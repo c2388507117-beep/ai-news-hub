@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T21:11:15.115Z",
+  "fetchedAt": "2026-07-25T22:12:56.587Z",
   "items": [
+    {
+      "title": "竹中平藏",
+      "extract": "竹中平藏（1951年3月3日— ），生於日本和歌山縣和歌山市，經濟學者與政治人物。是小泉政權重要的閣員之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%B9%E4%B8%AD%E5%B9%B3%E8%97%8F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Takenaka_Heizo_1-1.jpg/330px-Takenaka_Heizo_1-1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "青格尔洛赫蒂希峰",
       "extract": "青格尔洛赫蒂希峰（Tschingellochtighorn）是瑞士的山峰，位於該國南部，由伯恩州負責管轄，屬於伯尔尼山的一部分，海拔高度2,735米，每年平均降雨量1,585毫米。\n",
@@ -27,13 +34,6 @@
       "extract": "乔治·华盛顿，美国开国元勋，於1789年至1797年間擔任首任美国总统，曾在美國獨立戰爭中指揮大陆军擊敗大英帝国，帶領革命者獲得獨立，被後世美國人尊稱為「國父」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E5%8D%8E%E7%9B%9B%E9%A1%BF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Gilbert-Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert-Stuart_Williamstown_Portrait_of_George_Washington.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "流水迢迢",
-      "extract": "《流水迢迢》 是2024年播出的中國大陸武侠古装爱情传奇剧，改編自簫樓的同名小說。該劇由周靖韜、綦晓卉、梁宝全執導，原著作者簫樓与李娜、张杨擔任編劇，任嘉倫、李蘭迪、徐正溪領銜主演。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B0%B4%E8%BF%A2%E8%BF%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/9e/%E9%9B%BB%E8%A6%96%E5%8A%87%E6%B5%81%E6%B0%B4%E8%BF%A2%E8%BF%A2.jpeg",
       "source": "wikipedia"
     }
   ]
