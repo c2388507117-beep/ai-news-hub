@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T17:18:23.960Z",
+  "fetchedAt": "2026-07-25T19:37:37.259Z",
   "items": [
+    {
+      "title": "普利茅斯枪击案",
+      "extract": "普利茅斯枪击案是2021年8月12日发生在英国德文郡普利茅斯的一起大规模槍擊案，此次槍擊案包括兇手在内的六人死亡，另有两人受伤。这是自2010年坎布里亚郡枪击案以来，英国发生的第一起致命的大规模枪击事件。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%88%A9%E8%8C%85%E6%96%AF%E6%9E%AA%E5%87%BB%E6%A1%88",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Junction_of_Henderson_Place_with_Wolseley_Road%2C_Ford%2C_Plymouth_-_geograph.org.uk_-_1831690.jpg/330px-Junction_of_Henderson_Place_with_Wolseley_Road%2C_Ford%2C_Plymouth_-_geograph.org.uk_-_1831690.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "艾德·菲蓋羅亞",
       "extract": "愛德華多·菲蓋羅亞·帕迪亞，為前美國職棒大聯盟的投手，他生涯曾效力於天使、洋基、遊騎兵與運動家等隊。\n",
@@ -27,13 +34,6 @@
       "extract": "村田製作所 是日本一家电子零件专业制造厂，總部設於京都府长冈京市。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%91%E7%94%B0%E8%A3%BD%E4%BD%9C%E6%89%80",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Murata-Manufacturing-hq-01.jpg/330px-Murata-Manufacturing-hq-01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马鲁阿",
-      "extract": "马鲁阿 是喀麦隆北端极北省的一座城市，极北省首府，2001年估计人口299,600。马鲁阿是喀麦隆棉花工业中心，市内有机场、农业学院以及民族志博物馆。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%B2%81%E9%98%BF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/A_street_in_Maroua.jpg/330px-A_street_in_Maroua.jpg",
       "source": "wikipedia"
     }
   ]
