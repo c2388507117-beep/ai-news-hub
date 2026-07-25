@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T09:14:01.201Z",
+  "fetchedAt": "2026-07-25T10:47:40.284Z",
   "items": [
+    {
+      "title": "马鲁阿",
+      "extract": "马鲁阿 是喀麦隆北端极北省的一座城市，极北省首府，2001年估计人口299,600。马鲁阿是喀麦隆棉花工业中心，市内有机场、农业学院以及民族志博物馆。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%B2%81%E9%98%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/A_street_in_Maroua.jpg/330px-A_street_in_Maroua.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "史蒂夫·麦克奈尔",
       "extract": "史蒂夫·麦克奈尔，绰号Air McNair，前美式足球四分卫，其职业生涯主要效力于田纳西泰坦队。\n",
@@ -27,13 +34,6 @@
       "extract": "《惡靈古堡首部曲：拉昆市》 是一部2021年德美合拍求生恐怖電影，由約翰尼斯·羅勃茲執導。該片改編自卡普空的同名恐怖遊戲系列，同時是「惡靈古堡系列電影」的重啟作，主演包括凱亞·絲柯黛蘭莉歐、羅比·艾梅爾、漢娜·約翰-卡門、湯姆·霍珀、亞凡·喬吉亞和尼爾·麥克唐納。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%83%A1%E9%9D%88%E5%8F%A4%E5%A0%A1%E9%A6%96%E9%83%A8%E6%9B%B2%EF%BC%9A%E6%8B%89%E6%98%86%E5%B8%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/28/RE_Welcome_to_Raccoon_City.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "四川电影电视学院",
-      "extract": "四川电影电视学院 简称“川影”，位于四川省成都市，是经中华人民共和国教育部批准的，继北京电影学院之后的第二所以电影命名的全日制本科院校。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%B7%9D%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%AD%A6%E9%99%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/b/b1/Sichuan_Film_and_Television_University_logo.png",
       "source": "wikipedia"
     }
   ]
