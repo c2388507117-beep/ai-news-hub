@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T12:11:13.461Z",
+  "fetchedAt": "2026-07-25T14:05:13.586Z",
   "items": [
+    {
+      "title": "流水迢迢",
+      "extract": "《流水迢迢》 是2024年播出的中國大陸武侠古装爱情传奇剧，改編自簫樓的同名小說。該劇由周靖韜、綦晓卉、梁宝全執導，原著作者簫樓与李娜、张杨擔任編劇，任嘉倫、李蘭迪、徐正溪領銜主演。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B0%B4%E8%BF%A2%E8%BF%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/9e/%E9%9B%BB%E8%A6%96%E5%8A%87%E6%B5%81%E6%B0%B4%E8%BF%A2%E8%BF%A2.jpeg",
+      "source": "wikipedia"
+    },
     {
       "title": "村田製作所",
       "extract": "村田製作所 是日本一家电子零件专业制造厂，總部設於京都府长冈京市。\n",
@@ -27,13 +34,6 @@
       "extract": "胡志明市博物館 是位在越南胡志明市的一座博物馆，在兩越統一前稱為嘉隆宮。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%83%A1%E5%BF%97%E6%98%8E%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A4%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Museum_of_Ho_Chi_Minh_City_04.JPG/330px-Museum_of_Ho_Chi_Minh_City_04.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
-      "extract": "卡爾·古斯塔夫·埃米爾·曼納海姆男爵，芬兰瑞典族，是芬蘭第二任摄政（1918-1919年）、芬蘭共和國第六任总统（1944-1946年）及芬兰元帅。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E5%8F%A4%E6%96%AF%E5%A1%94%E5%A4%AB%C2%B7%E5%9F%83%E7%B1%B3%E5%B0%94%C2%B7%E6%9B%BC%E7%BA%B3%E6%B5%B7%E5%A7%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mannerheim1940.jpg/330px-Mannerheim1940.jpg",
       "source": "wikipedia"
     }
   ]
