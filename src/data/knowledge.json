@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T15:31:28.000Z",
+  "fetchedAt": "2026-07-25T17:18:23.960Z",
   "items": [
+    {
+      "title": "艾德·菲蓋羅亞",
+      "extract": "愛德華多·菲蓋羅亞·帕迪亞，為前美國職棒大聯盟的投手，他生涯曾效力於天使、洋基、遊騎兵與運動家等隊。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%BE%B7%C2%B7%E8%8F%B2%E8%93%8B%E7%BE%85%E4%BA%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ed_Figueroa_Yankees.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "乔治·华盛顿",
       "extract": "乔治·华盛顿，美国开国元勋，於1789年至1797年間擔任首任美国总统，曾在美國獨立戰爭中指揮大陆军擊敗大英帝国，帶領革命者獲得獨立，被後世美國人尊稱為「國父」。\n",
@@ -27,13 +34,6 @@
       "extract": "马鲁阿 是喀麦隆北端极北省的一座城市，极北省首府，2001年估计人口299,600。马鲁阿是喀麦隆棉花工业中心，市内有机场、农业学院以及民族志博物馆。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%B2%81%E9%98%BF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/A_street_in_Maroua.jpg/330px-A_street_in_Maroua.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "史蒂夫·麦克奈尔",
-      "extract": "史蒂夫·麦克奈尔，绰号Air McNair，前美式足球四分卫，其职业生涯主要效力于田纳西泰坦队。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E9%BA%A6%E5%85%8B%E5%A5%88%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Steve_McNair_2007-08-10.jpg/330px-Steve_McNair_2007-08-10.jpg",
       "source": "wikipedia"
     }
   ]
