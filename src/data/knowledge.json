@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T19:37:37.259Z",
+  "fetchedAt": "2026-07-25T21:11:15.115Z",
   "items": [
+    {
+      "title": "青格尔洛赫蒂希峰",
+      "extract": "青格尔洛赫蒂希峰（Tschingellochtighorn）是瑞士的山峰，位於該國南部，由伯恩州負責管轄，屬於伯尔尼山的一部分，海拔高度2,735米，每年平均降雨量1,585毫米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9D%92%E6%A0%BC%E5%B0%94%E6%B4%9B%E8%B5%AB%E8%92%82%E5%B8%8C%E5%B3%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tschingellochtighorn.jpg/330px-Tschingellochtighorn.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "普利茅斯枪击案",
       "extract": "普利茅斯枪击案是2021年8月12日发生在英国德文郡普利茅斯的一起大规模槍擊案，此次槍擊案包括兇手在内的六人死亡，另有两人受伤。这是自2010年坎布里亚郡枪击案以来，英国发生的第一起致命的大规模枪击事件。\n",
@@ -27,13 +34,6 @@
       "extract": "《流水迢迢》 是2024年播出的中國大陸武侠古装爱情传奇剧，改編自簫樓的同名小說。該劇由周靖韜、綦晓卉、梁宝全執導，原著作者簫樓与李娜、张杨擔任編劇，任嘉倫、李蘭迪、徐正溪領銜主演。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B0%B4%E8%BF%A2%E8%BF%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/9e/%E9%9B%BB%E8%A6%96%E5%8A%87%E6%B5%81%E6%B0%B4%E8%BF%A2%E8%BF%A2.jpeg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "村田製作所",
-      "extract": "村田製作所 是日本一家电子零件专业制造厂，總部設於京都府长冈京市。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%91%E7%94%B0%E8%A3%BD%E4%BD%9C%E6%89%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Murata-Manufacturing-hq-01.jpg/330px-Murata-Manufacturing-hq-01.jpg",
       "source": "wikipedia"
     }
   ]
