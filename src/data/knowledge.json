@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-24T23:27:16.461Z",
+  "fetchedAt": "2026-07-25T03:42:48.534Z",
   "items": [
+    {
+      "title": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+      "extract": "卡爾·古斯塔夫·埃米爾·曼納海姆男爵，芬兰瑞典族，是芬蘭第二任摄政（1918-1919年）、芬蘭共和國第六任总统（1944-1946年）及芬兰元帅。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E5%8F%A4%E6%96%AF%E5%A1%94%E5%A4%AB%C2%B7%E5%9F%83%E7%B1%B3%E5%B0%94%C2%B7%E6%9B%BC%E7%BA%B3%E6%B5%B7%E5%A7%86",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mannerheim1940.jpg/330px-Mannerheim1940.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "惡靈古堡首部曲：拉昆市",
       "extract": "《惡靈古堡首部曲：拉昆市》 是一部2021年德美合拍求生恐怖電影，由約翰尼斯·羅勃茲執導。該片改編自卡普空的同名恐怖遊戲系列，同時是「惡靈古堡系列電影」的重啟作，主演包括凱亞·絲柯黛蘭莉歐、羅比·艾梅爾、漢娜·約翰-卡門、湯姆·霍珀、亞凡·喬吉亞和尼爾·麥克唐納。\n",
@@ -27,13 +34,6 @@
       "extract": "长瓣钗子股 为兰科钗子股属下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E7%93%A3%E9%92%97%E5%AD%90%E8%82%A1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Luisia_filiformis-2-bsi-yercaud-salem-India.jpg/330px-Luisia_filiformis-2-bsi-yercaud-salem-India.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "利涅 (安德尔省)",
-      "extract": "利涅 是法国安德尔省的一个市镇，位于该省北部偏东，属于伊苏丹区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E6%B6%85_(%E5%AE%89%E5%BE%B7%E5%B0%94%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%C3%89glise_Saint-Martin_de_Liniez.jpg/330px-%C3%89glise_Saint-Martin_de_Liniez.jpg",
       "source": "wikipedia"
     }
   ]
