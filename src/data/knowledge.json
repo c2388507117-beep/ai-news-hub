@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T06:31:18.289Z",
+  "fetchedAt": "2026-07-25T09:14:01.201Z",
   "items": [
+    {
+      "title": "史蒂夫·麦克奈尔",
+      "extract": "史蒂夫·麦克奈尔，绰号Air McNair，前美式足球四分卫，其职业生涯主要效力于田纳西泰坦队。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E9%BA%A6%E5%85%8B%E5%A5%88%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Steve_McNair_2007-08-10.jpg/330px-Steve_McNair_2007-08-10.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "胡志明市博物館",
       "extract": "胡志明市博物館 是位在越南胡志明市的一座博物馆，在兩越統一前稱為嘉隆宮。\n",
@@ -27,13 +34,6 @@
       "extract": "四川电影电视学院 简称“川影”，位于四川省成都市，是经中华人民共和国教育部批准的，继北京电影学院之后的第二所以电影命名的全日制本科院校。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%B7%9D%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%AD%A6%E9%99%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/b/b1/Sichuan_Film_and_Television_University_logo.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "施塔特哈根",
-      "extract": "施塔特哈根 是德国下萨克森州绍姆堡县的城市，也是绍姆堡县的县治，面积60.27平方千米，2023年12月31日人口为22,924人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%BD%E5%A1%94%E7%89%B9%E5%93%88%E6%A0%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Stadthagen4.jpg/330px-Stadthagen4.jpg",
       "source": "wikipedia"
     }
   ]
