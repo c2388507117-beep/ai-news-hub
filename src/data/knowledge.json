@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T10:47:40.284Z",
+  "fetchedAt": "2026-07-25T12:11:13.461Z",
   "items": [
+    {
+      "title": "村田製作所",
+      "extract": "村田製作所 是日本一家电子零件专业制造厂，總部設於京都府长冈京市。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%91%E7%94%B0%E8%A3%BD%E4%BD%9C%E6%89%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Murata-Manufacturing-hq-01.jpg/330px-Murata-Manufacturing-hq-01.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "马鲁阿",
       "extract": "马鲁阿 是喀麦隆北端极北省的一座城市，极北省首府，2001年估计人口299,600。马鲁阿是喀麦隆棉花工业中心，市内有机场、农业学院以及民族志博物馆。\n",
@@ -27,13 +34,6 @@
       "extract": "卡爾·古斯塔夫·埃米爾·曼納海姆男爵，芬兰瑞典族，是芬蘭第二任摄政（1918-1919年）、芬蘭共和國第六任总统（1944-1946年）及芬兰元帅。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E5%8F%A4%E6%96%AF%E5%A1%94%E5%A4%AB%C2%B7%E5%9F%83%E7%B1%B3%E5%B0%94%C2%B7%E6%9B%BC%E7%BA%B3%E6%B5%B7%E5%A7%86",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mannerheim1940.jpg/330px-Mannerheim1940.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "惡靈古堡首部曲：拉昆市",
-      "extract": "《惡靈古堡首部曲：拉昆市》 是一部2021年德美合拍求生恐怖電影，由約翰尼斯·羅勃茲執導。該片改編自卡普空的同名恐怖遊戲系列，同時是「惡靈古堡系列電影」的重啟作，主演包括凱亞·絲柯黛蘭莉歐、羅比·艾梅爾、漢娜·約翰-卡門、湯姆·霍珀、亞凡·喬吉亞和尼爾·麥克唐納。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%83%A1%E9%9D%88%E5%8F%A4%E5%A0%A1%E9%A6%96%E9%83%A8%E6%9B%B2%EF%BC%9A%E6%8B%89%E6%98%86%E5%B8%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/28/RE_Welcome_to_Raccoon_City.jpg",
       "source": "wikipedia"
     }
   ]

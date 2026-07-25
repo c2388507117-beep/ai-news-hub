@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-25T10:47:35.578Z",
+  "fetchedAt": "2026-07-25T12:11:08.452Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.577Z"
+      "publishedAt": "2026-07-25T12:11:08.452Z"
     },
     {
       "id": "steam-2050650",
@@ -25,20 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: 星际战士2",
       "url": "https://store.steampowered.com/app/2183900?l=schinese",
       "discount": 70,
-      "originalPrice": 249,
-      "finalPrice": 74.7,
+      "originalPrice": 59.99,
+      "finalPrice": 17.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.452Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-886313",
@@ -64,20 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.577Z"
+      "publishedAt": "2026-07-25T12:11:08.452Z"
     },
     {
-      "id": "steam-3892270",
-      "title": "朋友，梭哈吧",
-      "url": "https://store.steampowered.com/app/3892270?l=schinese",
-      "discount": 38,
-      "originalPrice": 7.99,
-      "finalPrice": 4.95,
+      "id": "steam-1466060",
+      "title": "污痕圣杯：阿瓦隆的陨落",
+      "url": "https://store.steampowered.com/app/1466060?l=schinese",
+      "discount": 50,
+      "originalPrice": 44.99,
+      "finalPrice": 22.49,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.577Z"
+      "publishedAt": "2026-07-25T12:11:08.452Z"
     },
     {
       "id": "steam-3683770",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-3241660",
@@ -103,20 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
-      "id": "steam-1145350",
-      "title": "Hades II",
-      "url": "https://store.steampowered.com/app/1145350?l=schinese",
-      "discount": 30,
-      "originalPrice": 108,
-      "finalPrice": 75.6,
+      "id": "steam-3764200",
+      "title": "Resident Evil Requiem",
+      "url": "https://store.steampowered.com/app/3764200?l=schinese",
+      "discount": 20,
+      "originalPrice": 348,
+      "finalPrice": 278.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-4704690",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-3722330",
@@ -142,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
-    },
-    {
-      "id": "steam-2699230",
-      "title": "Grim Dawn - Fangs of Asterkarn",
-      "url": "https://store.steampowered.com/app/2699230?l=schinese",
-      "discount": 10,
-      "originalPrice": 73,
-      "finalPrice": 65.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-3561220",
@@ -168,7 +155,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.365Z"
+      "publishedAt": "2026-07-25T12:11:08.235Z"
+    },
+    {
+      "id": "steam-2699230",
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "url": "https://store.steampowered.com/app/2699230?l=schinese",
+      "discount": 10,
+      "originalPrice": 73,
+      "finalPrice": 65.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-25T12:11:08.235Z"
+    },
+    {
+      "id": "steam-4699920",
+      "title": "天平游戏1:抉择",
+      "url": "https://store.steampowered.com/app/4699920?l=schinese",
+      "discount": 10,
+      "originalPrice": 29,
+      "finalPrice": 26.1,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699920/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-25T12:11:08.235Z"
     },
     {
       "id": "steam-1913120",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.577Z"
+      "publishedAt": "2026-07-25T12:11:08.452Z"
     },
     {
       "id": "steam-3440070",
@@ -194,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-25T10:47:35.577Z"
+      "publishedAt": "2026-07-25T12:11:08.452Z"
     }
   ]
 }
