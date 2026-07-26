@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-26T07:46:52.268Z",
+  "fetchedAt": "2026-07-26T10:14:09.389Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.268Z"
+      "publishedAt": "2026-07-26T10:14:09.389Z"
     },
     {
       "id": "steam-2050650",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.210Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
       "id": "steam-886313",
@@ -64,33 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.268Z"
+      "publishedAt": "2026-07-26T10:14:09.389Z"
     },
     {
       "id": "steam-3892270",
       "title": "朋友，梭哈吧",
       "url": "https://store.steampowered.com/app/3892270?l=schinese",
       "discount": 38,
-      "originalPrice": 7.99,
-      "finalPrice": 4.95,
+      "originalPrice": 33,
+      "finalPrice": 20.46,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.268Z"
-    },
-    {
-      "id": "steam-3683770",
-      "title": "奶茶店模拟器 - 重生之我在冰堡甜城当店长",
-      "url": "https://store.steampowered.com/app/3683770?l=schinese",
-      "discount": 35,
-      "originalPrice": 52,
-      "finalPrice": 33.8,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.210Z"
     },
     {
       "id": "steam-3241660",
@@ -103,20 +90,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
-      "id": "steam-3764200",
-      "title": "Resident Evil Requiem",
-      "url": "https://store.steampowered.com/app/3764200?l=schinese",
-      "discount": 20,
-      "originalPrice": 348,
-      "finalPrice": 278.4,
+      "id": "steam-3683770",
+      "title": "奶茶店模拟器 - 重生之我在冰堡甜城当店长",
+      "url": "https://store.steampowered.com/app/3683770?l=schinese",
+      "discount": 35,
+      "originalPrice": 52,
+      "finalPrice": 33.8,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
+    },
+    {
+      "id": "steam-1874880",
+      "title": "武装突袭 重铸者",
+      "url": "https://store.steampowered.com/app/1874880?l=schinese",
+      "discount": 30,
+      "originalPrice": 39.99,
+      "finalPrice": 27.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-26T10:14:09.389Z"
     },
     {
       "id": "steam-4704690",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
       "id": "steam-3722330",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
       "id": "steam-3561220",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
       "id": "steam-2699230",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.092Z"
+      "publishedAt": "2026-07-26T10:14:09.209Z"
     },
     {
       "id": "steam-1913120",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.268Z"
+      "publishedAt": "2026-07-26T10:14:09.389Z"
     },
     {
       "id": "steam-3440070",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T07:46:52.268Z"
+      "publishedAt": "2026-07-26T10:14:09.389Z"
     }
   ]
 }

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-26T07:46:57.876Z",
+  "fetchedAt": "2026-07-26T10:14:14.685Z",
   "items": [
+    {
+      "title": "库尔甘",
+      "extract": "库尔甘 是法国萨尔特省的一个市镇，属于马梅尔斯区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BA%93%E5%B0%94%E7%94%98",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Courgains_-_20180929_094859.jpg/330px-Courgains_-_20180929_094859.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "船洋",
       "extract": "船洋是对正面镌有孫中山像、背面铸有帆船图样的中国银币的俗称。船洋最早由民國十八年出現帆船幣試鑄版，後于民国二十一年（1932年）开始正式铸造，是當年中国國民政府北伐統一中國後，為了取代當時具有北洋政府所发行的袁大頭银币，由於成銀色穩定，造型優美而受到銀幣藏家愛戴，在中國藏家中也有人稱他為孫大頭（對應孫小頭）。常傳於世的有民国二十二年、二十三年版本，也有少量二十一年版，其中又以民国二十三年版存世量最大。\n",
@@ -27,13 +34,6 @@
       "extract": "库尔莱巴尔 是法国谢尔省的一个市镇，属于圣阿芒蒙龙区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BA%93%E5%B0%94%E8%8E%B1%E5%B7%B4%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cours-les-Barres-FR-18-panneau-01.jpg/330px-Cours-les-Barres-FR-18-panneau-01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "竹中平藏",
-      "extract": "竹中平藏（1951年3月3日— ），生於日本和歌山縣和歌山市，經濟學者與政治人物。是小泉政權重要的閣員之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%AB%B9%E4%B8%AD%E5%B9%B3%E8%97%8F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Takenaka_Heizo_1-1.jpg/330px-Takenaka_Heizo_1-1.jpg",
       "source": "wikipedia"
     }
   ]
