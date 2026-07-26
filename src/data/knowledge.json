@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-26T21:14:11.783Z",
+  "fetchedAt": "2026-07-26T22:15:57.938Z",
   "items": [
+    {
+      "title": "罗恩·霍兰德",
+      "extract": "羅納德·德韋恩·霍蘭德二世，出生于美国德克薩斯州鄧肯維爾，现役美国职业篮球运动员，司职小前锋，现效力於NBA底特律活塞。他是2024年選秀屆中最頂尖的球員之一，在此之前他曾效力于NBA G聯盟引爆者。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%81%A9%C2%B7%E9%9C%8D%E5%85%B0%E5%BE%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ron_Holland_%28241117-F-XI802-1065%29_%28cropped%29.jpg/330px-Ron_Holland_%28241117-F-XI802-1065%29_%28cropped%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "约翰·帕登",
       "extract": "约翰·文森特·帕登，美国数学家，研究领域包括几何学和拓扑学，主要研究成果包括解决米哈伊尔·格罗莫夫关于纽结畸变的问题，因此夺得2012年摩根奖。2026年，在美国费城举行的国际数学家大会上获颁菲尔兹奖。\n",
@@ -27,13 +34,6 @@
       "extract": "露絲·瑪莎·沙迪·索利斯 是秘鲁人类学、考古学家。她是卡拉尔考古計畫的發起者和负责人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E7%B5%B2%C2%B7%E6%B2%99%E8%BF%AA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ruth_Shady_en_Caral_2014_%28cropped%29.JPG/330px-Ruth_Shady_en_Caral_2014_%28cropped%29.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "石川哲罗鱼",
-      "extract": "石川哲罗鱼 为輻鰭魚綱鮭形目鲑科哲罗鱼属的鱼类，為溫帶淡水魚，分布於亞洲東北亞的鴨綠江、朝鮮半島的將子江、原州河與長津江，體長可達50公分，棲息在水流湍急的溪流底部，生活習性不明。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E5%93%B2%E7%BD%97%E9%B1%BC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Hucho_hucho.jpg/330px-Hucho_hucho.jpg",
       "source": "wikipedia"
     }
   ]

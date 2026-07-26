@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-26T21:14:07.139Z",
+  "fetchedAt": "2026-07-26T22:15:53.523Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,33 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.139Z"
-    },
-    {
-      "id": "steam-2050650",
-      "title": "Resident Evil 4",
-      "url": "https://store.steampowered.com/app/2050650?l=schinese",
-      "discount": 75,
-      "originalPrice": 198,
-      "finalPrice": 49.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
-    },
-    {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: 星际战士2",
-      "url": "https://store.steampowered.com/app/2183900?l=schinese",
-      "discount": 70,
-      "originalPrice": 249,
-      "finalPrice": 74.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.523Z"
     },
     {
       "id": "steam-2417610",
@@ -51,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
+    },
+    {
+      "id": "steam-275850",
+      "title": "No Man's Sky 无人深空",
+      "url": "https://store.steampowered.com/app/275850?l=schinese",
+      "discount": 60,
+      "originalPrice": 175,
+      "finalPrice": 70,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-3240220",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.013Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-886313",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.139Z"
+      "publishedAt": "2026-07-26T22:15:53.523Z"
     },
     {
       "id": "steam-3892270",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-3241660",
@@ -103,20 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
-      "id": "steam-1874880",
-      "title": "武装突袭 重铸者",
-      "url": "https://store.steampowered.com/app/1874880?l=schinese",
+      "id": "steam-1145350",
+      "title": "Hades II",
+      "url": "https://store.steampowered.com/app/1145350?l=schinese",
       "discount": 30,
-      "originalPrice": 39.99,
-      "finalPrice": 27.99,
+      "originalPrice": 108,
+      "finalPrice": 75.6,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.139Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-4704690",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-3722330",
@@ -142,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-2699230",
@@ -155,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-3561220",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.014Z"
+      "publishedAt": "2026-07-26T22:15:53.341Z"
     },
     {
       "id": "steam-1913120",
@@ -181,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.139Z"
+      "publishedAt": "2026-07-26T22:15:53.523Z"
     },
     {
       "id": "steam-3440070",
@@ -194,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T21:14:07.139Z"
+      "publishedAt": "2026-07-26T22:15:53.523Z"
     }
   ]
 }
