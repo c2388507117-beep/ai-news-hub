@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-25T23:15:38.882Z",
+  "fetchedAt": "2026-07-26T01:01:56.518Z",
   "items": [
+    {
+      "title": "裸顶蚁鸟",
+      "extract": "裸顶蚁鸟，是雀形目蚁鸟科的一种鸟类，属于单型的裸顶蚁鸟属。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A3%B8%E9%A1%B6%E8%9A%81%E9%B8%9F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gymnocichla_nudiceps_-_Bare-crowned_Antbird.jpg/330px-Gymnocichla_nudiceps_-_Bare-crowned_Antbird.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "库尔莱巴尔",
       "extract": "库尔莱巴尔 是法国谢尔省的一个市镇，属于圣阿芒蒙龙区。\n",
@@ -27,13 +34,6 @@
       "extract": "普利茅斯枪击案是2021年8月12日发生在英国德文郡普利茅斯的一起大规模槍擊案，此次槍擊案包括兇手在内的六人死亡，另有两人受伤。这是自2010年坎布里亚郡枪击案以来，英国发生的第一起致命的大规模枪击事件。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%88%A9%E8%8C%85%E6%96%AF%E6%9E%AA%E5%87%BB%E6%A1%88",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Junction_of_Henderson_Place_with_Wolseley_Road%2C_Ford%2C_Plymouth_-_geograph.org.uk_-_1831690.jpg/330px-Junction_of_Henderson_Place_with_Wolseley_Road%2C_Ford%2C_Plymouth_-_geograph.org.uk_-_1831690.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "艾德·菲蓋羅亞",
-      "extract": "愛德華多·菲蓋羅亞·帕迪亞，為前美國職棒大聯盟的投手，他生涯曾效力於天使、洋基、遊騎兵與運動家等隊。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%BE%B7%C2%B7%E8%8F%B2%E8%93%8B%E7%BE%85%E4%BA%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ed_Figueroa_Yankees.jpg",
       "source": "wikipedia"
     }
   ]
