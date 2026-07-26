@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-26T22:15:57.938Z",
+  "fetchedAt": "2026-07-26T23:24:48.473Z",
   "items": [
+    {
+      "title": "OGLE-2006-BLG-109Lc",
+      "extract": "OGLE-2006-BLG-109Lc是一颗位于人马座、距离地球约4900光年的系外行星，其母星为OGLE-2006-BLG-109L。2008年，科学家使用微引力透镜法发现了该行星。该行星的质量约为土星质量的90%。\n",
+      "url": "https://zh.wikipedia.org/wiki/OGLE-2006-BLG-109Lc",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/PlanetQuest-OGLE109c.png/330px-PlanetQuest-OGLE109c.png",
+      "source": "wikipedia"
+    },
     {
       "title": "罗恩·霍兰德",
       "extract": "羅納德·德韋恩·霍蘭德二世，出生于美国德克薩斯州鄧肯維爾，现役美国职业篮球运动员，司职小前锋，现效力於NBA底特律活塞。他是2024年選秀屆中最頂尖的球員之一，在此之前他曾效力于NBA G聯盟引爆者。\n",
@@ -27,13 +34,6 @@
       "extract": "《家裡蹲吸血姬的鬱悶》 是小林湖底所著的日本輕小說，由りいちゅ擔綱插畫，2020年1月起經GA文庫出版。第11屆GA文庫大獎優秀獎得獎作品。改編漫畫於2021年12月25日發售的《月刊BIG GANGAN》2022年Vol.01至2025年4月25日發售的2025年Vol.05連載，由原作插畫師りいちゅ繪畫。改編電視動畫由project No.9製作，於2023年10月至12月播出。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%AE%B6%E8%A3%A1%E8%B9%B2%E5%90%B8%E8%A1%80%E5%A7%AC%E7%9A%84%E9%AC%B1%E6%82%B6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/e/eb/%E5%AE%B6%E8%A3%A1%E8%B9%B2%E5%90%B8%E8%A1%80%E5%A7%AC%E7%9A%84%E9%AC%B1%E6%82%B6.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "露絲·沙迪",
-      "extract": "露絲·瑪莎·沙迪·索利斯 是秘鲁人类学、考古学家。她是卡拉尔考古計畫的發起者和负责人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E7%B5%B2%C2%B7%E6%B2%99%E8%BF%AA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ruth_Shady_en_Caral_2014_%28cropped%29.JPG/330px-Ruth_Shady_en_Caral_2014_%28cropped%29.JPG",
       "source": "wikipedia"
     }
   ]
