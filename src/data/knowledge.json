@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-26T17:27:36.284Z",
+  "fetchedAt": "2026-07-26T19:38:32.998Z",
   "items": [
+    {
+      "title": "沃拉爾普湖",
+      "extract": "沃拉爾普湖（Voralpsee），是瑞士的湖泊，位於該國東北部，由聖加侖州負責管轄，長0.5公里、寬0.3公里，面積0.1平方公里，海拔高度1,123米，每年平均降雨量1,954毫米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%83%E6%8B%89%E7%88%BE%E6%99%AE%E6%B9%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Voralpsee1.JPG/330px-Voralpsee1.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "家裡蹲吸血姬的鬱悶",
       "extract": "《家裡蹲吸血姬的鬱悶》 是小林湖底所著的日本輕小說，由りいちゅ擔綱插畫，2020年1月起經GA文庫出版。第11屆GA文庫大獎優秀獎得獎作品。改編漫畫於2021年12月25日發售的《月刊BIG GANGAN》2022年Vol.01至2025年4月25日發售的2025年Vol.05連載，由原作插畫師りいちゅ繪畫。改編電視動畫由project No.9製作，於2023年10月至12月播出。\n",
@@ -27,13 +34,6 @@
       "extract": "水邊 是香港元朗區議會下轄的選區，1994年設立，2023年取消，前任區議員為前朱凱迪新西團隊成員黎國泳。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E9%82%8A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/ShuiPinConstituency.svg/langzh-330px-ShuiPinConstituency.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "库尔甘",
-      "extract": "库尔甘 是法国萨尔特省的一个市镇，属于马梅尔斯区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BA%93%E5%B0%94%E7%94%98",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Courgains_-_20180929_094859.jpg/330px-Courgains_-_20180929_094859.jpg",
       "source": "wikipedia"
     }
   ]
