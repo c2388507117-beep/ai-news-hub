@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-26T11:39:44.625Z",
+  "fetchedAt": "2026-07-26T14:01:56.822Z",
   "items": [
     {
       "id": "steam-1149460",
@@ -12,20 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.625Z"
+      "publishedAt": "2026-07-26T14:01:56.821Z"
     },
     {
-      "id": "steam-2050650",
-      "title": "Resident Evil 4",
-      "url": "https://store.steampowered.com/app/2050650?l=schinese",
+      "id": "steam-1066582",
+      "title": "Overcooked! 2 - Gourmet Edition",
+      "url": "https://store.steampowered.com/app/1066582?l=schinese",
       "discount": 75,
-      "originalPrice": 198,
-      "finalPrice": 49.5,
+      "originalPrice": 189.99,
+      "finalPrice": 47.49,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066582/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-886313",
@@ -64,7 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/886313/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.625Z"
+      "publishedAt": "2026-07-26T14:01:56.822Z"
+    },
+    {
+      "id": "steam-221100",
+      "title": "DayZ",
+      "url": "https://store.steampowered.com/app/221100?l=schinese",
+      "discount": 50,
+      "originalPrice": 49.99,
+      "finalPrice": 24.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-26T14:01:56.822Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-3241660",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-3683770",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-4704690",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-3722330",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-3561220",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-2699230",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.489Z"
+      "publishedAt": "2026-07-26T14:01:56.669Z"
     },
     {
       "id": "steam-1913120",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.625Z"
+      "publishedAt": "2026-07-26T14:01:56.821Z"
     },
     {
       "id": "steam-3440070",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3440070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-26T11:39:44.625Z"
+      "publishedAt": "2026-07-26T14:01:56.822Z"
     }
   ]
 }
