@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-27T18:51:02.643Z",
+  "fetchedAt": "2026-07-27T20:46:30.795Z",
   "items": [
+    {
+      "title": "蝾螺科",
+      "extract": "蝾螺科 是一個包括有小型到大型海洋腹足纲软体动物的一個科。舊屬原始腹足目，現時蠑螺科是鐘螺目鐘螺總科之下的一個科。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%9D%BE%E8%9E%BA%E7%A7%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Turbo_cornutus_1.jpg/330px-Turbo_cornutus_1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "屈克 (塔恩省)",
       "extract": "屈克 是法国奥克西塔尼大区塔恩省的一个市镇，属于卡斯特尔区。\n",
@@ -27,13 +34,6 @@
       "extract": "2016年夏季奧林匹克運動會模里西斯代表團將參加2016年8月5日至8月21日在巴西里約熱內盧舉行的第三十一屆奧林匹克運動會。\n",
       "url": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%81%8B%E5%8B%95%E6%9C%83%E6%A8%A1%E9%87%8C%E8%A5%BF%E6%96%AF%E4%BB%A3%E8%A1%A8%E5%9C%98",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/langzh-330px-Flag_of_Mauritius.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "穆瓦耶讷维尔 (索姆省)",
-      "extract": "穆瓦耶讷维尔 是法国上法蘭西大區索姆省的一个市镇，属于阿布维尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A9%86%E7%93%A6%E8%80%B6%E8%AE%B7%E7%BB%B4%E5%B0%94_(%E7%B4%A2%E5%A7%86%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Moyenneville_%C3%A9glise_1.jpg/330px-Moyenneville_%C3%A9glise_1.jpg",
       "source": "wikipedia"
     }
   ]
