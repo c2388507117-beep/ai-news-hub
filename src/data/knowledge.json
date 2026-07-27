@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-27T17:13:55.807Z",
+  "fetchedAt": "2026-07-27T18:51:02.643Z",
   "items": [
+    {
+      "title": "屈克 (塔恩省)",
+      "extract": "屈克 是法国奥克西塔尼大区塔恩省的一个市镇，属于卡斯特尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B1%88%E5%85%8B_(%E5%A1%94%E6%81%A9%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Eglise-de-Cuq.png/330px-Eglise-de-Cuq.png",
+      "source": "wikipedia"
+    },
     {
       "title": "支配物种",
       "extract": "《支配物种》 為Disney+自2024年4月10日起上線公開的原創韓國劇集，由参与执导《迷網追兇》的朴哲焕担任导演，《秘密森林》系列、《迷網追兇》的编剧李秀妍执笔。\n",
@@ -27,13 +34,6 @@
       "extract": "穆瓦耶讷维尔 是法国上法蘭西大區索姆省的一个市镇，属于阿布维尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A9%86%E7%93%A6%E8%80%B6%E8%AE%B7%E7%BB%B4%E5%B0%94_(%E7%B4%A2%E5%A7%86%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Moyenneville_%C3%A9glise_1.jpg/330px-Moyenneville_%C3%A9glise_1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "喬治六世紀念禮拜堂",
-      "extract": "喬治六世紀念禮拜堂，又譯喬治六世國王紀念教堂，屬英國溫莎城堡聖喬治禮拜堂的一部分，為1962年英國女王伊莉莎白二世委託喬治·佩斯設計作為她父親喬治六世的墓地，1969年竣工。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%96%AC%E6%B2%BB%E5%85%AD%E4%B8%96%E7%B4%80%E5%BF%B5%E7%A6%AE%E6%8B%9C%E5%A0%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/King_George_VI_memorial_chapel_-_geograph.org.uk_-_1770568.jpg/330px-King_George_VI_memorial_chapel_-_geograph.org.uk_-_1770568.jpg",
       "source": "wikipedia"
     }
   ]
