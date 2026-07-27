@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-27T15:17:15.083Z",
+  "fetchedAt": "2026-07-27T17:13:55.807Z",
   "items": [
+    {
+      "title": "支配物种",
+      "extract": "《支配物种》 為Disney+自2024年4月10日起上線公開的原創韓國劇集，由参与执导《迷網追兇》的朴哲焕担任导演，《秘密森林》系列、《迷網追兇》的编剧李秀妍执笔。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%94%AF%E9%85%8D%E7%89%A9%E7%A7%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5f/Blood_Free_2024_poster.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "帕尔米略",
       "extract": "帕尔米略 是法国伊泽尔省的一个市镇，属于拉图尔迪潘区。\n",
@@ -27,13 +34,6 @@
       "extract": "喬治六世紀念禮拜堂，又譯喬治六世國王紀念教堂，屬英國溫莎城堡聖喬治禮拜堂的一部分，為1962年英國女王伊莉莎白二世委託喬治·佩斯設計作為她父親喬治六世的墓地，1969年竣工。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%96%AC%E6%B2%BB%E5%85%AD%E4%B8%96%E7%B4%80%E5%BF%B5%E7%A6%AE%E6%8B%9C%E5%A0%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/King_George_VI_memorial_chapel_-_geograph.org.uk_-_1770568.jpg/330px-King_George_VI_memorial_chapel_-_geograph.org.uk_-_1770568.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "OGLE-2006-BLG-109Lc",
-      "extract": "OGLE-2006-BLG-109Lc是一颗位于人马座、距离地球约4900光年的系外行星，其母星为OGLE-2006-BLG-109L。2008年，科学家使用微引力透镜法发现了该行星。该行星的质量约为土星质量的90%。\n",
-      "url": "https://zh.wikipedia.org/wiki/OGLE-2006-BLG-109Lc",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/PlanetQuest-OGLE109c.png/330px-PlanetQuest-OGLE109c.png",
       "source": "wikipedia"
     }
   ]
