@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-27T04:06:49.245Z",
+  "fetchedAt": "2026-07-27T07:55:47.236Z",
   "items": [
+    {
+      "title": "穆瓦耶讷维尔 (索姆省)",
+      "extract": "穆瓦耶讷维尔 是法国上法蘭西大區索姆省的一个市镇，属于阿布维尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A9%86%E7%93%A6%E8%80%B6%E8%AE%B7%E7%BB%B4%E5%B0%94_(%E7%B4%A2%E5%A7%86%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Moyenneville_%C3%A9glise_1.jpg/330px-Moyenneville_%C3%A9glise_1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "喬治六世紀念禮拜堂",
       "extract": "喬治六世紀念禮拜堂，又譯喬治六世國王紀念教堂，屬英國溫莎城堡聖喬治禮拜堂的一部分，為1962年英國女王伊莉莎白二世委託喬治·佩斯設計作為她父親喬治六世的墓地，1969年竣工。\n",
@@ -27,13 +34,6 @@
       "extract": "约翰·文森特·帕登，美国数学家，研究领域包括几何学和拓扑学，主要研究成果包括解决米哈伊尔·格罗莫夫关于纽结畸变的问题，因此夺得2012年摩根奖。2026年，在美国费城举行的国际数学家大会上获颁菲尔兹奖。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%B8%95%E7%99%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/John_Pardon%2C_2017_%28cropped%29.jpg/330px-John_Pardon%2C_2017_%28cropped%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "沃拉爾普湖",
-      "extract": "沃拉爾普湖（Voralpsee），是瑞士的湖泊，位於該國東北部，由聖加侖州負責管轄，長0.5公里、寬0.3公里，面積0.1平方公里，海拔高度1,123米，每年平均降雨量1,954毫米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B2%83%E6%8B%89%E7%88%BE%E6%99%AE%E6%B9%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Voralpsee1.JPG/330px-Voralpsee1.JPG",
       "source": "wikipedia"
     }
   ]
