@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-27T20:46:30.795Z",
+  "fetchedAt": "2026-07-27T22:29:33.056Z",
   "items": [
+    {
+      "title": "古吉拉特邦行政区划",
+      "extract": "印度古吉拉特邦現辖有33个县。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%90%89%E6%8B%89%E7%89%B9%E9%82%A6%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Administrative_map_of_Gujarat.png/330px-Administrative_map_of_Gujarat.png",
+      "source": "wikipedia"
+    },
     {
       "title": "蝾螺科",
       "extract": "蝾螺科 是一個包括有小型到大型海洋腹足纲软体动物的一個科。舊屬原始腹足目，現時蠑螺科是鐘螺目鐘螺總科之下的一個科。\n",
@@ -27,13 +34,6 @@
       "extract": "帕尔米略 是法国伊泽尔省的一个市镇，属于拉图尔迪潘区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B8%95%E5%B0%94%E7%B1%B3%E7%95%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Parmilieu%2C_vers_1930%2C_p155_de_L%27Is%C3%A8re_les_533_communes.jpg/330px-Parmilieu%2C_vers_1930%2C_p155_de_L%27Is%C3%A8re_les_533_communes.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "2016年夏季奧林匹克運動會模里西斯代表團",
-      "extract": "2016年夏季奧林匹克運動會模里西斯代表團將參加2016年8月5日至8月21日在巴西里約熱內盧舉行的第三十一屆奧林匹克運動會。\n",
-      "url": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%81%8B%E5%8B%95%E6%9C%83%E6%A8%A1%E9%87%8C%E8%A5%BF%E6%96%AF%E4%BB%A3%E8%A1%A8%E5%9C%98",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/langzh-330px-Flag_of_Mauritius.svg.png",
       "source": "wikipedia"
     }
   ]
