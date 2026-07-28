@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T20:36:06.081Z",
+  "fetchedAt": "2026-07-28T22:27:07.792Z",
   "items": [
+    {
+      "title": "博马尔谢",
+      "extract": "博马尔谢 是法国热尔省的一个市镇，属于米朗德区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E9%A9%AC%E5%B0%94%E8%B0%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%C3%89glise_Notre-Dame_de_Beaumarch%C3%A9s_%28Gers%2C_France%29.JPG/330px-%C3%89glise_Notre-Dame_de_Beaumarch%C3%A9s_%28Gers%2C_France%29.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "山南乳魚",
       "extract": "山南乳魚 為輻鰭魚綱胡瓜魚目南乳魚科的其中一種。分布澳洲東部及南部，體長可達15公分，棲息在水質清澈具礫石底質的溪流，常成群躲藏在廢木下或大岩石底。\n",
@@ -27,13 +34,6 @@
       "extract": "罗库尔和弗拉巴 是法国大東部大區阿登省的一个市镇，属于色当区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%BA%93%E5%B0%94%E5%92%8C%E5%BC%97%E6%8B%89%E5%B7%B4",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/103_%282%29_Raucourt-et-Flaba_%28_08450_%29.JPG/330px-103_%282%29_Raucourt-et-Flaba_%28_08450_%29.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "海口镇 (澄江市)",
-      "extract": "海口镇，是中华人民共和国云南省玉溪市澄江市下辖的一个镇。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%8F%A3%E9%95%87_(%E6%BE%84%E6%B1%9F%E5%B8%82)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/20251216_Chengjiang_Shi_Haikou_Zhen_Renmin_Zhengfu.jpg/330px-20251216_Chengjiang_Shi_Haikou_Zhen_Renmin_Zhengfu.jpg",
       "source": "wikipedia"
     }
   ]
