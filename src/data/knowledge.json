@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T09:58:17.720Z",
+  "fetchedAt": "2026-07-28T12:16:12.584Z",
   "items": [
+    {
+      "title": "海口镇 (澄江市)",
+      "extract": "海口镇，是中华人民共和国云南省玉溪市澄江市下辖的一个镇。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%8F%A3%E9%95%87_(%E6%BE%84%E6%B1%9F%E5%B8%82)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/20251216_Chengjiang_Shi_Haikou_Zhen_Renmin_Zhengfu.jpg/330px-20251216_Chengjiang_Shi_Haikou_Zhen_Renmin_Zhengfu.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "我不是潘金莲 (电影)",
       "extract": "《我不是潘金莲》 是冯小刚执导的一部中国剧情片，根據作家刘震云的同名小说改編，由范冰冰主演。入围2016年多倫多國際影展特别展映单元并获得国际影评人费比西奖，以及获得第64届圣塞巴斯蒂安国际电影节最佳影片金贝壳奖和最佳女主角银贝壳奖，这是继2009年陆川的《南京！南京！》后，又一部获此大奖的华语片。获得第53届金马奖最佳剧情片等5项提名，赢得最佳导演奖和观众票选最佳影片。还赢得第11届亚洲电影大奖最佳电影、最佳女主角和最佳摄影三个奖，以及第31届金鸡奖最佳导演、最佳女主角和最佳男配角奖。2016年11月18日在中国上映。\n",
@@ -27,13 +34,6 @@
       "extract": "萨勒芬妮 是拳头游戏于2009年推出的电子游戏《英雄联盟》中的一位角色，于2020年作为Instagram和Twitter的虚拟网红正式登场。游戏内则存在着她的另一个平行宇宙版本，该版本与现实世界设定中的社交媒体版本相互独立。这些社交媒体账号以其第一人称视角发布动态，展示其日常生活和音乐创作，其中还包括她将与虚拟乐团K/DA进行合作的相关言论。该角色在发布动态时还表现出了自我怀疑的一面，并向粉丝寻求支持。这些动态由参与了该角色创作的布列塔尼·希加 撰写，她表示自己在创作该角色时融入了自身产生自我怀疑的个人经历。此外，萨勒芬妮的配音演员是杰斯敏·克拉克。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%8B%92%E8%8A%AC%E5%A6%AE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/6/61/Seraphine_LoL.png/330px-Seraphine_LoL.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "古吉拉特邦行政区划",
-      "extract": "印度古吉拉特邦現辖有33个县。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%90%89%E6%8B%89%E7%89%B9%E9%82%A6%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Administrative_map_of_Gujarat.png/330px-Administrative_map_of_Gujarat.png",
       "source": "wikipedia"
     }
   ]
