@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T16:52:33.319Z",
+  "fetchedAt": "2026-07-28T18:50:01.045Z",
   "items": [
+    {
+      "title": "梅奥朗-勒韦勒",
+      "extract": "梅奥朗-勒韦勒 是法国上普罗旺斯阿尔卑斯省的一个市镇，属于巴瑟洛内特区。该市镇于1973年由原市镇梅奥朗（Méolans）和勒韦勒（Revel）合并而成。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A2%85%E5%A5%A5%E6%9C%97-%E5%8B%92%E9%9F%A6%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/M%C3%A9olans-Revel%2C_clocher_de_M%C3%A9olans_2.jpg/330px-M%C3%A9olans-Revel%2C_clocher_de_M%C3%A9olans_2.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "約翰尼·米勒",
       "extract": "約翰尼·米勒，美國男子職業高爾夫球運動員。他是1970年代中期的頂尖球手，亦是首位以63杆完成大滿貫賽事的選手（1973年美國公開賽）。職業生涯中贏過25次PGA巡迴賽賽事，包括2次大滿貫賽事。他在1998年獲邀加入世界高爾夫名人堂。\n",
@@ -27,13 +34,6 @@
       "extract": "《我不是潘金莲》 是冯小刚执导的一部中国剧情片，根據作家刘震云的同名小说改編，由范冰冰主演。入围2016年多倫多國際影展特别展映单元并获得国际影评人费比西奖，以及获得第64届圣塞巴斯蒂安国际电影节最佳影片金贝壳奖和最佳女主角银贝壳奖，这是继2009年陆川的《南京！南京！》后，又一部获此大奖的华语片。获得第53届金马奖最佳剧情片等5项提名，赢得最佳导演奖和观众票选最佳影片。还赢得第11届亚洲电影大奖最佳电影、最佳女主角和最佳摄影三个奖，以及第31届金鸡奖最佳导演、最佳女主角和最佳男配角奖。2016年11月18日在中国上映。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E6%BD%98%E9%87%91%E8%8E%B2_(%E7%94%B5%E5%BD%B1)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/96/I_Am_Not_Madame_Bovary.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Ardour (软件)",
-      "extract": "Ardour是开源的 數位音頻工作站軟體，支持Linux、Mac OS X等操作系统，4.0版开始支持Microsoft Windows。虽然Ardour是开放源代码软件，但比之于捐赠者来说，非捐赠者在使用已编译好的OS X版本时不可以保存AU插件设置，而使用已编译好的Linux版本时不能获得从IRC频道或邮件列表的支持。\n",
-      "url": "https://zh.wikipedia.org/wiki/Ardour_(%E8%BD%AF%E4%BB%B6)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ardour-icon.png",
       "source": "wikipedia"
     }
   ]
