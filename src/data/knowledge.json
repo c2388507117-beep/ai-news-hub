@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T18:50:01.045Z",
+  "fetchedAt": "2026-07-28T20:36:06.081Z",
   "items": [
+    {
+      "title": "山南乳魚",
+      "extract": "山南乳魚 為輻鰭魚綱胡瓜魚目南乳魚科的其中一種。分布澳洲東部及南部，體長可達15公分，棲息在水質清澈具礫石底質的溪流，常成群躲藏在廢木下或大岩石底。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%8D%97%E4%B9%B3%E9%AD%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mountain_Galaxias_%281%29.jpg/330px-Mountain_Galaxias_%281%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "梅奥朗-勒韦勒",
       "extract": "梅奥朗-勒韦勒 是法国上普罗旺斯阿尔卑斯省的一个市镇，属于巴瑟洛内特区。该市镇于1973年由原市镇梅奥朗（Méolans）和勒韦勒（Revel）合并而成。\n",
@@ -27,13 +34,6 @@
       "extract": "海口镇，是中华人民共和国云南省玉溪市澄江市下辖的一个镇。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%8F%A3%E9%95%87_(%E6%BE%84%E6%B1%9F%E5%B8%82)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/20251216_Chengjiang_Shi_Haikou_Zhen_Renmin_Zhengfu.jpg/330px-20251216_Chengjiang_Shi_Haikou_Zhen_Renmin_Zhengfu.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "我不是潘金莲 (电影)",
-      "extract": "《我不是潘金莲》 是冯小刚执导的一部中国剧情片，根據作家刘震云的同名小说改編，由范冰冰主演。入围2016年多倫多國際影展特别展映单元并获得国际影评人费比西奖，以及获得第64届圣塞巴斯蒂安国际电影节最佳影片金贝壳奖和最佳女主角银贝壳奖，这是继2009年陆川的《南京！南京！》后，又一部获此大奖的华语片。获得第53届金马奖最佳剧情片等5项提名，赢得最佳导演奖和观众票选最佳影片。还赢得第11届亚洲电影大奖最佳电影、最佳女主角和最佳摄影三个奖，以及第31届金鸡奖最佳导演、最佳女主角和最佳男配角奖。2016年11月18日在中国上映。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E6%BD%98%E9%87%91%E8%8E%B2_(%E7%94%B5%E5%BD%B1)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/96/I_Am_Not_Madame_Bovary.jpg",
       "source": "wikipedia"
     }
   ]
