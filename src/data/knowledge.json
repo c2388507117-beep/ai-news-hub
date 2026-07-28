@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T06:43:56.385Z",
+  "fetchedAt": "2026-07-28T09:58:17.720Z",
   "items": [
+    {
+      "title": "我不是潘金莲 (电影)",
+      "extract": "《我不是潘金莲》 是冯小刚执导的一部中国剧情片，根據作家刘震云的同名小说改編，由范冰冰主演。入围2016年多倫多國際影展特别展映单元并获得国际影评人费比西奖，以及获得第64届圣塞巴斯蒂安国际电影节最佳影片金贝壳奖和最佳女主角银贝壳奖，这是继2009年陆川的《南京！南京！》后，又一部获此大奖的华语片。获得第53届金马奖最佳剧情片等5项提名，赢得最佳导演奖和观众票选最佳影片。还赢得第11届亚洲电影大奖最佳电影、最佳女主角和最佳摄影三个奖，以及第31届金鸡奖最佳导演、最佳女主角和最佳男配角奖。2016年11月18日在中国上映。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E6%BD%98%E9%87%91%E8%8E%B2_(%E7%94%B5%E5%BD%B1)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/96/I_Am_Not_Madame_Bovary.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "Ardour (软件)",
       "extract": "Ardour是开源的 數位音頻工作站軟體，支持Linux、Mac OS X等操作系统，4.0版开始支持Microsoft Windows。虽然Ardour是开放源代码软件，但比之于捐赠者来说，非捐赠者在使用已编译好的OS X版本时不可以保存AU插件设置，而使用已编译好的Linux版本时不能获得从IRC频道或邮件列表的支持。\n",
@@ -27,13 +34,6 @@
       "extract": "印度古吉拉特邦現辖有33个县。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%90%89%E6%8B%89%E7%89%B9%E9%82%A6%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Administrative_map_of_Gujarat.png/330px-Administrative_map_of_Gujarat.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "蝾螺科",
-      "extract": "蝾螺科 是一個包括有小型到大型海洋腹足纲软体动物的一個科。舊屬原始腹足目，現時蠑螺科是鐘螺目鐘螺總科之下的一個科。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%9D%BE%E8%9E%BA%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Turbo_cornutus_1.jpg/330px-Turbo_cornutus_1.jpg",
       "source": "wikipedia"
     }
   ]
