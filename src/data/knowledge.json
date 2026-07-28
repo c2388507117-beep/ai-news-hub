@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T14:45:11.863Z",
+  "fetchedAt": "2026-07-28T16:52:33.319Z",
   "items": [
+    {
+      "title": "約翰尼·米勒",
+      "extract": "約翰尼·米勒，美國男子職業高爾夫球運動員。他是1970年代中期的頂尖球手，亦是首位以63杆完成大滿貫賽事的選手（1973年美國公開賽）。職業生涯中贏過25次PGA巡迴賽賽事，包括2次大滿貫賽事。他在1998年獲邀加入世界高爾夫名人堂。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%E5%B0%BC%C2%B7%E7%B1%B3%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Johnny_Miller_1975.jpeg/330px-Johnny_Miller_1975.jpeg",
+      "source": "wikipedia"
+    },
     {
       "title": "罗库尔和弗拉巴",
       "extract": "罗库尔和弗拉巴 是法国大東部大區阿登省的一个市镇，属于色当区。\n",
@@ -27,13 +34,6 @@
       "extract": "Ardour是开源的 數位音頻工作站軟體，支持Linux、Mac OS X等操作系统，4.0版开始支持Microsoft Windows。虽然Ardour是开放源代码软件，但比之于捐赠者来说，非捐赠者在使用已编译好的OS X版本时不可以保存AU插件设置，而使用已编译好的Linux版本时不能获得从IRC频道或邮件列表的支持。\n",
       "url": "https://zh.wikipedia.org/wiki/Ardour_(%E8%BD%AF%E4%BB%B6)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ardour-icon.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "情侣路 (珠海)",
-      "extract": "情侶路是中華人民共和國廣東省珠海市香洲區连接香洲、吉大及拱北的一条城市主干道，始建于1991年，起于海天驿站附近、梅华东路与港湾大道交界处，终于拱北观澳平台附近接昌盛路交界处，大致呈南北走向，全长28公里，兼具对外交通联络、城市综合性主干道、特色品牌旅游路等多重职能，现已成为珠海乃至珠江口西岸的标志性休闲观光景观。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%83%85%E4%BE%A3%E8%B7%AF_(%E7%8F%A0%E6%B5%B7)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Qinglv_Road.jpg/330px-Qinglv_Road.jpg",
       "source": "wikipedia"
     }
   ]
