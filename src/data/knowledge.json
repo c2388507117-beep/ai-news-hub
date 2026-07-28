@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-27T22:29:33.056Z",
+  "fetchedAt": "2026-07-28T00:13:14.032Z",
   "items": [
+    {
+      "title": "萨勒芬妮",
+      "extract": "萨勒芬妮 是拳头游戏于2009年推出的电子游戏《英雄联盟》中的一位角色，于2020年作为Instagram和Twitter的虚拟网红正式登场。游戏内则存在着她的另一个平行宇宙版本，该版本与现实世界设定中的社交媒体版本相互独立。这些社交媒体账号以其第一人称视角发布动态，展示其日常生活和音乐创作，其中还包括她将与虚拟乐团K/DA进行合作的相关言论。该角色在发布动态时还表现出了自我怀疑的一面，并向粉丝寻求支持。这些动态由参与了该角色创作的布列塔尼·希加 撰写，她表示自己在创作该角色时融入了自身产生自我怀疑的个人经历。此外，萨勒芬妮的配音演员是杰斯敏·克拉克。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%8B%92%E8%8A%AC%E5%A6%AE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/6/61/Seraphine_LoL.png/330px-Seraphine_LoL.png",
+      "source": "wikipedia"
+    },
     {
       "title": "古吉拉特邦行政区划",
       "extract": "印度古吉拉特邦現辖有33个县。\n",
@@ -27,13 +34,6 @@
       "extract": "《支配物种》 為Disney+自2024年4月10日起上線公開的原創韓國劇集，由参与执导《迷網追兇》的朴哲焕担任导演，《秘密森林》系列、《迷網追兇》的编剧李秀妍执笔。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%94%AF%E9%85%8D%E7%89%A9%E7%A7%8D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5f/Blood_Free_2024_poster.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "帕尔米略",
-      "extract": "帕尔米略 是法国伊泽尔省的一个市镇，属于拉图尔迪潘区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%95%E5%B0%94%E7%B1%B3%E7%95%A5",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Parmilieu%2C_vers_1930%2C_p155_de_L%27Is%C3%A8re_les_533_communes.jpg/330px-Parmilieu%2C_vers_1930%2C_p155_de_L%27Is%C3%A8re_les_533_communes.jpg",
       "source": "wikipedia"
     }
   ]
