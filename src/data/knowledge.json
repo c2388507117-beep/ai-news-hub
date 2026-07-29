@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T00:11:47.841Z",
+  "fetchedAt": "2026-07-29T03:44:28.379Z",
   "items": [
+    {
+      "title": "英厄·哈马斯特伦",
+      "extract": "英厄·哈马斯特伦，瑞典男子冰球运动员，场上位置是前锋。他曾代表瑞典国家队参加1972年冬季奥林匹克运动会冰球比赛，获得第4名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%8E%84%C2%B7%E5%93%88%E9%A9%AC%E6%96%AF%E7%89%B9%E4%BC%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Inge_Hammarstr%C3%B6m.jpg/330px-Inge_Hammarstr%C3%B6m.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "自由和直接民主",
       "extract": "自由和直接民主 是捷克一个极右翼政黨，該政黨 秉持歐洲懷疑主義、反移民、以及支持直接民主。该党于2015年5月由岡村富夫和Radim Fiala創辦。\n",
@@ -27,13 +34,6 @@
       "extract": "梅奥朗-勒韦勒 是法国上普罗旺斯阿尔卑斯省的一个市镇，属于巴瑟洛内特区。该市镇于1973年由原市镇梅奥朗（Méolans）和勒韦勒（Revel）合并而成。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A2%85%E5%A5%A5%E6%9C%97-%E5%8B%92%E9%9F%A6%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/M%C3%A9olans-Revel%2C_clocher_de_M%C3%A9olans_2.jpg/330px-M%C3%A9olans-Revel%2C_clocher_de_M%C3%A9olans_2.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "約翰尼·米勒",
-      "extract": "約翰尼·米勒，美國男子職業高爾夫球運動員。他是1970年代中期的頂尖球手，亦是首位以63杆完成大滿貫賽事的選手（1973年美國公開賽）。職業生涯中贏過25次PGA巡迴賽賽事，包括2次大滿貫賽事。他在1998年獲邀加入世界高爾夫名人堂。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%E5%B0%BC%C2%B7%E7%B1%B3%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Johnny_Miller_1975.jpeg/330px-Johnny_Miller_1975.jpeg",
       "source": "wikipedia"
     }
   ]

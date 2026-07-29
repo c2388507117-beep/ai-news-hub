@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-07-29T00:11:42.798Z",
+  "fetchedAt": "2026-07-29T03:44:22.853Z",
   "items": [
+    {
+      "id": "steam-2290180",
+      "title": "极限国度",
+      "url": "https://store.steampowered.com/app/2290180?l=schinese",
+      "discount": 90,
+      "originalPrice": 168,
+      "finalPrice": 16.8,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-29T03:44:22.711Z"
+    },
     {
       "id": "steam-124923",
       "title": "《巫师 3：狂猎 - 完全版》",
@@ -12,20 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/124923/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
-      "id": "steam-129576",
-      "title": "Dying Light 2: Reloaded Edition",
-      "url": "https://store.steampowered.com/app/129576?l=schinese",
-      "discount": 80,
+      "id": "steam-2050650",
+      "title": "Resident Evil 4",
+      "url": "https://store.steampowered.com/app/2050650?l=schinese",
+      "discount": 75,
       "originalPrice": 198,
-      "finalPrice": 39.6,
+      "finalPrice": 49.5,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/129576/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-1091500",
@@ -38,33 +51,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-2183900",
       "title": "Warhammer 40,000: 星际战士2",
       "url": "https://store.steampowered.com/app/2183900?l=schinese",
       "discount": 70,
-      "originalPrice": 249,
-      "finalPrice": 74.7,
+      "originalPrice": 59.99,
+      "finalPrice": 17.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.853Z"
     },
     {
       "id": "steam-2417610",
       "title": "METAL GEAR SOLID Δ: SNAKE EATER",
       "url": "https://store.steampowered.com/app/2417610?l=schinese",
       "discount": 60,
-      "originalPrice": 69.99,
-      "finalPrice": 27.99,
+      "originalPrice": 218,
+      "finalPrice": 87.2,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.798Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-2138330",
@@ -77,20 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-3892270",
       "title": "朋友，梭哈吧",
       "url": "https://store.steampowered.com/app/3892270?l=schinese",
       "discount": 38,
-      "originalPrice": 33,
-      "finalPrice": 20.46,
+      "originalPrice": 7.99,
+      "finalPrice": 4.95,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.853Z"
     },
     {
       "id": "steam-3241660",
@@ -103,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
-    },
-    {
-      "id": "steam-2215200",
-      "title": "乐高®蝙蝠侠™：黑暗骑士之遗",
-      "url": "https://store.steampowered.com/app/2215200?l=schinese",
-      "discount": 20,
-      "originalPrice": 69.99,
-      "finalPrice": 55.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.798Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-4704690",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-3722330",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-3561220",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.558Z"
+      "publishedAt": "2026-07-29T03:44:22.711Z"
     },
     {
       "id": "steam-4594150",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.798Z"
+      "publishedAt": "2026-07-29T03:44:22.853Z"
     },
     {
       "id": "steam-2684630",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.798Z"
+      "publishedAt": "2026-07-29T03:44:22.853Z"
     },
     {
       "id": "steam-1913120",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T00:11:42.798Z"
+      "publishedAt": "2026-07-29T03:44:22.853Z"
     }
   ]
 }
