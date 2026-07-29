@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T03:44:28.379Z",
+  "fetchedAt": "2026-07-29T06:47:45.153Z",
   "items": [
+    {
+      "title": "肅州龍屬",
+      "extract": "肅州龍屬 是鐮刀龍超科下的一個屬，生活於白堊紀早期。目前所知的化石發現於中國甘肅省俞井子盆地的新民堡群下部，包含兩個部分顱後骨骼，根據肱骨的特徵，可證實牠們屬於鐮刀龍超科。古生物學家李大慶等人經過親緣分支分類法研究後發現：肅州龍比北票龍及鑄鐮龍衍化，較阿拉善龍及鐮刀龍原始，而牠與懶爪龍互為姊妹分類單元，形成了一個分支。模式種為似大地懶肅州龍，肅州龍與可能是同期的步氏南雄龍 都是最大型的下白堊紀鐮刀龍超科恐龍之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%82%85%E5%B7%9E%E9%BE%8D%E5%B1%AC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Suzhousaurus.JPG/330px-Suzhousaurus.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "英厄·哈马斯特伦",
       "extract": "英厄·哈马斯特伦，瑞典男子冰球运动员，场上位置是前锋。他曾代表瑞典国家队参加1972年冬季奥林匹克运动会冰球比赛，获得第4名。\n",
@@ -27,13 +34,6 @@
       "extract": "山南乳魚 為輻鰭魚綱胡瓜魚目南乳魚科的其中一種。分布澳洲東部及南部，體長可達15公分，棲息在水質清澈具礫石底質的溪流，常成群躲藏在廢木下或大岩石底。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%8D%97%E4%B9%B3%E9%AD%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mountain_Galaxias_%281%29.jpg/330px-Mountain_Galaxias_%281%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "梅奥朗-勒韦勒",
-      "extract": "梅奥朗-勒韦勒 是法国上普罗旺斯阿尔卑斯省的一个市镇，属于巴瑟洛内特区。该市镇于1973年由原市镇梅奥朗（Méolans）和勒韦勒（Revel）合并而成。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A2%85%E5%A5%A5%E6%9C%97-%E5%8B%92%E9%9F%A6%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/M%C3%A9olans-Revel%2C_clocher_de_M%C3%A9olans_2.jpg/330px-M%C3%A9olans-Revel%2C_clocher_de_M%C3%A9olans_2.jpg",
       "source": "wikipedia"
     }
   ]
