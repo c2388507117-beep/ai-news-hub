@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-29T15:22:04.616Z",
+  "fetchedAt": "2026-07-29T17:41:32.282Z",
   "items": [
     {
       "id": "steam-2290180",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
+    },
+    {
+      "id": "steam-124923",
+      "title": "《巫师 3：狂猎 - 完全版》",
+      "url": "https://store.steampowered.com/app/124923?l=schinese",
+      "discount": 80,
+      "originalPrice": 199,
+      "finalPrice": 39.8,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/124923/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-1091500",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.112Z"
     },
     {
       "id": "steam-2183900",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-2417610",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.616Z"
+      "publishedAt": "2026-07-29T17:41:32.282Z"
     },
     {
       "id": "steam-2138330",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-3241660",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-3683770",
@@ -103,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3683770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
+    },
+    {
+      "id": "steam-3642010",
+      "title": "Truck-kun is Supporting Me from Another World?!",
+      "url": "https://store.steampowered.com/app/3642010?l=schinese",
+      "discount": 20,
+      "originalPrice": 19.99,
+      "finalPrice": 15.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-07-29T17:41:32.282Z"
     },
     {
       "id": "steam-3808690",
@@ -116,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.616Z"
+      "publishedAt": "2026-07-29T17:41:32.282Z"
     },
     {
       "id": "steam-4704690",
@@ -129,20 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
-    },
-    {
-      "id": "steam-3722330",
-      "title": "午夜轮班",
-      "url": "https://store.steampowered.com/app/3722330?l=schinese",
-      "discount": 10,
-      "originalPrice": 38,
-      "finalPrice": 34.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-3561220",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.406Z"
+      "publishedAt": "2026-07-29T17:41:32.113Z"
     },
     {
       "id": "steam-4594150",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.616Z"
+      "publishedAt": "2026-07-29T17:41:32.282Z"
     },
     {
       "id": "steam-1913120",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.616Z"
+      "publishedAt": "2026-07-29T17:41:32.282Z"
     },
     {
       "id": "steam-2684630",
@@ -194,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-07-29T15:22:04.616Z"
+      "publishedAt": "2026-07-29T17:41:32.282Z"
     }
   ]
 }

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T15:22:09.920Z",
+  "fetchedAt": "2026-07-29T17:41:37.385Z",
   "items": [
+    {
+      "title": "甘德湖",
+      "extract": "甘德湖是加拿大的湖泊，位於紐芬蘭島中部，由紐芬蘭-拉布拉多省負責管轄，長56公里、寬7公里，面積113.2平方公里，平均水深105.4米，最大水深288米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%94%98%E5%BE%B7%E6%B9%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gander_Lake_map.png/330px-Gander_Lake_map.png",
+      "source": "wikipedia"
+    },
     {
       "title": "小杨桃螺",
       "extract": "小杨桃螺，是新腹足目杨桃螺科杨桃螺属的一种。主要分布于印度尼西亚、台湾，常栖息在浅海、沿岸。\n",
@@ -27,13 +34,6 @@
       "extract": "肅州龍屬 是鐮刀龍超科下的一個屬，生活於白堊紀早期。目前所知的化石發現於中國甘肅省俞井子盆地的新民堡群下部，包含兩個部分顱後骨骼，根據肱骨的特徵，可證實牠們屬於鐮刀龍超科。古生物學家李大慶等人經過親緣分支分類法研究後發現：肅州龍比北票龍及鑄鐮龍衍化，較阿拉善龍及鐮刀龍原始，而牠與懶爪龍互為姊妹分類單元，形成了一個分支。模式種為似大地懶肅州龍，肅州龍與可能是同期的步氏南雄龍 都是最大型的下白堊紀鐮刀龍超科恐龍之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%82%85%E5%B7%9E%E9%BE%8D%E5%B1%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Suzhousaurus.JPG/330px-Suzhousaurus.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "英厄·哈马斯特伦",
-      "extract": "英厄·哈马斯特伦，瑞典男子冰球运动员，场上位置是前锋。他曾代表瑞典国家队参加1972年冬季奥林匹克运动会冰球比赛，获得第4名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%8E%84%C2%B7%E5%93%88%E9%A9%AC%E6%96%AF%E7%89%B9%E4%BC%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Inge_Hammarstr%C3%B6m.jpg/330px-Inge_Hammarstr%C3%B6m.jpg",
       "source": "wikipedia"
     }
   ]
