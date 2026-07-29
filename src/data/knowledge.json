@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T22:16:35.246Z",
+  "fetchedAt": "2026-07-29T23:27:05.162Z",
   "items": [
+    {
+      "title": "黄油曲奇",
+      "extract": "黄油曲奇 是由黄油 、麵粉和糖组成的無酵餅。 面团在用來製作黃油曲奇時通常需要冷却。市面上有時會推出香草、巧克力和椰子風味的黃油曲奇。黃油曲奇还具有各种形状，例如圆形、正方形、椭圆形、环形。 在欧洲和北美等地，黄油饼干通常在圣诞节前后十分暢銷。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%B2%B9%E6%9B%B2%E5%A5%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Butter_cookies.jpg/330px-Butter_cookies.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "王振",
       "extract": "王振（？—1449年），明朝宦官。他透過明英宗皇帝朱祁鎮的信任，掌控明朝中央政府之政治權力。他在司禮監任內，除影響軍禮大閱之將士名次與賞賜結果，更促使英宗皇帝對麓川與瓦剌等發動征戰，導致土木堡之變、明朝國力衰退以及對外軍事政策改變等重大後果。王振被認為是該些軍事行動的主要推動者；他被歷史學者認定欲藉征戰勝利後舉行之軍禮儀式，突顯自己對明政權的重要影響與貢獻，以鞏固在朝廷中的地位與威望。\n",
@@ -27,13 +34,6 @@
       "extract": "甘德湖是加拿大的湖泊，位於紐芬蘭島中部，由紐芬蘭-拉布拉多省負責管轄，長56公里、寬7公里，面積113.2平方公里，平均水深105.4米，最大水深288米。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%94%98%E5%BE%B7%E6%B9%96",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gander_Lake_map.png/330px-Gander_Lake_map.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "小杨桃螺",
-      "extract": "小杨桃螺，是新腹足目杨桃螺科杨桃螺属的一种。主要分布于印度尼西亚、台湾，常栖息在浅海、沿岸。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9D%A8%E6%A1%83%E8%9E%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Harpa_amouretta_01.JPG/330px-Harpa_amouretta_01.JPG",
       "source": "wikipedia"
     }
   ]
