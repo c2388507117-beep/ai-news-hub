@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T06:47:45.153Z",
+  "fetchedAt": "2026-07-29T09:59:45.814Z",
   "items": [
+    {
+      "title": "桃鈴音音",
+      "extract": "桃鈴音音 是日本的虛擬YouTuber，隸屬於Hololive Production，也是Hololive的五期生成員之一。於2020年8月13日開始活動。由於粉絲製作的網路迷因，被暱稱為「海豹」。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A1%83%E9%88%B4%E9%9F%B3%E9%9F%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/99/Momosuzu_Nene.png",
+      "source": "wikipedia"
+    },
     {
       "title": "肅州龍屬",
       "extract": "肅州龍屬 是鐮刀龍超科下的一個屬，生活於白堊紀早期。目前所知的化石發現於中國甘肅省俞井子盆地的新民堡群下部，包含兩個部分顱後骨骼，根據肱骨的特徵，可證實牠們屬於鐮刀龍超科。古生物學家李大慶等人經過親緣分支分類法研究後發現：肅州龍比北票龍及鑄鐮龍衍化，較阿拉善龍及鐮刀龍原始，而牠與懶爪龍互為姊妹分類單元，形成了一個分支。模式種為似大地懶肅州龍，肅州龍與可能是同期的步氏南雄龍 都是最大型的下白堊紀鐮刀龍超科恐龍之一。\n",
@@ -27,13 +34,6 @@
       "extract": "博马尔谢 是法国热尔省的一个市镇，属于米朗德区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E9%A9%AC%E5%B0%94%E8%B0%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%C3%89glise_Notre-Dame_de_Beaumarch%C3%A9s_%28Gers%2C_France%29.JPG/330px-%C3%89glise_Notre-Dame_de_Beaumarch%C3%A9s_%28Gers%2C_France%29.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "山南乳魚",
-      "extract": "山南乳魚 為輻鰭魚綱胡瓜魚目南乳魚科的其中一種。分布澳洲東部及南部，體長可達15公分，棲息在水質清澈具礫石底質的溪流，常成群躲藏在廢木下或大岩石底。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%8D%97%E4%B9%B3%E9%AD%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mountain_Galaxias_%281%29.jpg/330px-Mountain_Galaxias_%281%29.jpg",
       "source": "wikipedia"
     }
   ]
