@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-28T22:27:07.792Z",
+  "fetchedAt": "2026-07-29T00:11:47.841Z",
   "items": [
+    {
+      "title": "自由和直接民主",
+      "extract": "自由和直接民主 是捷克一个极右翼政黨，該政黨 秉持歐洲懷疑主義、反移民、以及支持直接民主。该党于2015年5月由岡村富夫和Radim Fiala創辦。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%92%8C%E7%9B%B4%E6%8E%A5%E6%B0%91%E4%B8%BB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/SPD_Czechia_logo_%282026%29.svg/langzh-330px-SPD_Czechia_logo_%282026%29.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "博马尔谢",
       "extract": "博马尔谢 是法国热尔省的一个市镇，属于米朗德区。\n",
@@ -27,13 +34,6 @@
       "extract": "約翰尼·米勒，美國男子職業高爾夫球運動員。他是1970年代中期的頂尖球手，亦是首位以63杆完成大滿貫賽事的選手（1973年美國公開賽）。職業生涯中贏過25次PGA巡迴賽賽事，包括2次大滿貫賽事。他在1998年獲邀加入世界高爾夫名人堂。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B4%84%E7%BF%B0%E5%B0%BC%C2%B7%E7%B1%B3%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Johnny_Miller_1975.jpeg/330px-Johnny_Miller_1975.jpeg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "罗库尔和弗拉巴",
-      "extract": "罗库尔和弗拉巴 是法国大東部大區阿登省的一个市镇，属于色当区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%BA%93%E5%B0%94%E5%92%8C%E5%BC%97%E6%8B%89%E5%B7%B4",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/103_%282%29_Raucourt-et-Flaba_%28_08450_%29.JPG/330px-103_%282%29_Raucourt-et-Flaba_%28_08450_%29.JPG",
       "source": "wikipedia"
     }
   ]
