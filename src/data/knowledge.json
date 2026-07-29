@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T21:14:36.713Z",
+  "fetchedAt": "2026-07-29T22:16:35.246Z",
   "items": [
+    {
+      "title": "王振",
+      "extract": "王振（？—1449年），明朝宦官。他透過明英宗皇帝朱祁鎮的信任，掌控明朝中央政府之政治權力。他在司禮監任內，除影響軍禮大閱之將士名次與賞賜結果，更促使英宗皇帝對麓川與瓦剌等發動征戰，導致土木堡之變、明朝國力衰退以及對外軍事政策改變等重大後果。王振被認為是該些軍事行動的主要推動者；他被歷史學者認定欲藉征戰勝利後舉行之軍禮儀式，突顯自己對明政權的重要影響與貢獻，以鞏固在朝廷中的地位與威望。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%8C%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/%E5%A4%AA%E7%9B%91%E7%8E%8B%E6%8C%AF%E7%94%BB%E5%83%8F.jpg/330px-%E5%A4%AA%E7%9B%91%E7%8E%8B%E6%8C%AF%E7%94%BB%E5%83%8F.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "长耳蝠属",
       "extract": "·\n",
@@ -27,13 +34,6 @@
       "extract": "小杨桃螺，是新腹足目杨桃螺科杨桃螺属的一种。主要分布于印度尼西亚、台湾，常栖息在浅海、沿岸。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9D%A8%E6%A1%83%E8%9E%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Harpa_amouretta_01.JPG/330px-Harpa_amouretta_01.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "唐諾道",
-      "extract": "唐諾道，加拿大卑詩省政治人物，卑詩新民主黨籍。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E8%AB%BE%E9%81%93",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Doug_Donaldson_%28cropped%29.jpg/330px-Doug_Donaldson_%28cropped%29.jpg",
       "source": "wikipedia"
     }
   ]
