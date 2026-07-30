@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-30T18:50:12.019Z",
+  "fetchedAt": "2026-07-30T20:37:21.158Z",
   "items": [
+    {
+      "title": "仙剑奇侠传三 (电视剧)",
+      "extract": "《仙剑奇侠传三》 是一部2009年首播的中国大陆仙侠题材古装玄幻剧，改编自台湾大宇资讯开发的同名单机游戏《仙剑奇侠传三》，故事背景設定為《仙剑奇侠传》 的50年前。该剧由唐人影视和东阳捷成影视有限公司联合出品，香港导演李国立执导，并由胡歌、霍建华、杨幂、刘诗诗、唐嫣、黄志玮领衔主演。全剧讲述了男主人公景天梦想成为蜀山大侠，为了协助蜀山派封印锁妖塔，他与唐雪见、徐长卿等人一同展开寻找五颗灵珠的冒险之旅，期间历经艰险，最终却引出了众人意想不到的前世今生和爱恨纠葛。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E4%B8%89_(%E7%94%B5%E8%A7%86%E5%89%A7)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5f/Chinese_Paladin_3_%28TV_series%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "乔治·切科夫斯基",
       "extract": "乔治·切科夫斯基，北馬其頓籃球運動員，現在效力於北馬其頓球隊Rabotnički。他也代表北馬其頓國家男子籃球隊參賽。\n",
@@ -27,13 +34,6 @@
       "extract": "地藤壶属 为小藤壶科的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E8%97%A4%E5%A3%B6%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chthamalus_depressus_%28Poli%2C_1795%29_1.JPG/330px-Chthamalus_depressus_%28Poli%2C_1795%29_1.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "普萊夏赫河",
-      "extract": "普萊夏赫河，是德國的河流，位於該國東南部，由巴伐利亞負責管轄，屬於美因河的支流，河道全長34公里，流域面積128平方公里，發源自維爾茨堡附近豪森。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E8%90%8A%E5%A4%8F%E8%B5%AB%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bild_M%C3%BCndung_der_Pleichach_in_den_Main.jpg/330px-Bild_M%C3%BCndung_der_Pleichach_in_den_Main.jpg",
       "source": "wikipedia"
     }
   ]
