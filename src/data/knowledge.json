@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-29T23:27:05.162Z",
+  "fetchedAt": "2026-07-30T03:34:33.916Z",
   "items": [
+    {
+      "title": "克迪茨",
+      "extract": "克迪茨 是德国巴伐利亚州上弗兰肯行政区霍夫县的市镇，面积31.45平方千米，2023年12月31日人口为2,409人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%BF%AA%E8%8C%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Auensee.JPG/330px-Auensee.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "黄油曲奇",
       "extract": "黄油曲奇 是由黄油 、麵粉和糖组成的無酵餅。 面团在用來製作黃油曲奇時通常需要冷却。市面上有時會推出香草、巧克力和椰子風味的黃油曲奇。黃油曲奇还具有各种形状，例如圆形、正方形、椭圆形、环形。 在欧洲和北美等地，黄油饼干通常在圣诞节前后十分暢銷。\n",
@@ -27,13 +34,6 @@
       "extract": "闽浙铁角蕨 为铁角蕨科铁角蕨属下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%97%BD%E6%B5%99%E9%93%81%E8%A7%92%E8%95%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Asplenium_wilfordii_%2823214892122%29.jpg/330px-Asplenium_wilfordii_%2823214892122%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "甘德湖",
-      "extract": "甘德湖是加拿大的湖泊，位於紐芬蘭島中部，由紐芬蘭-拉布拉多省負責管轄，長56公里、寬7公里，面積113.2平方公里，平均水深105.4米，最大水深288米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%94%98%E5%BE%B7%E6%B9%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gander_Lake_map.png/330px-Gander_Lake_map.png",
       "source": "wikipedia"
     }
   ]
