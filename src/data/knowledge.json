@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-30T12:06:37.634Z",
+  "fetchedAt": "2026-07-30T14:36:10.399Z",
   "items": [
+    {
+      "title": "印度驻库尔纳助理高级专员公署",
+      "extract": "印度驻库尔纳助理高级专员公署 是印度派駐孟加拉國库尔纳的外交機構。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6%E9%A9%BB%E5%BA%93%E5%B0%94%E7%BA%B3%E5%8A%A9%E7%90%86%E9%AB%98%E7%BA%A7%E4%B8%93%E5%91%98%E5%85%AC%E7%BD%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/langzh-330px-Emblem_of_India.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "地藤壶属",
       "extract": "地藤壶属 为小藤壶科的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "克迪茨 是德国巴伐利亚州上弗兰肯行政区霍夫县的市镇，面积31.45平方千米，2023年12月31日人口为2,409人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%BF%AA%E8%8C%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Auensee.JPG/330px-Auensee.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黄油曲奇",
-      "extract": "黄油曲奇 是由黄油 、麵粉和糖组成的無酵餅。 面团在用來製作黃油曲奇時通常需要冷却。市面上有時會推出香草、巧克力和椰子風味的黃油曲奇。黃油曲奇还具有各种形状，例如圆形、正方形、椭圆形、环形。 在欧洲和北美等地，黄油饼干通常在圣诞节前后十分暢銷。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%B2%B9%E6%9B%B2%E5%A5%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Butter_cookies.jpg/330px-Butter_cookies.jpg",
       "source": "wikipedia"
     }
   ]
