@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-30T14:36:10.399Z",
+  "fetchedAt": "2026-07-30T16:51:59.354Z",
   "items": [
+    {
+      "title": "大鳴大放 (馬)",
+      "extract": "大鳴大放，是日本純種競賽馬匹。生涯活躍於中距離賽事並稱霸經典戰線，曾於2015年勝出皋月賞及東京優駿（日本打吡）。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%B3%B4%E5%A4%A7%E6%94%BE_(%E9%A6%AC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Duramente_Tokyo_Yushun_2015%28IMG1%29.jpg/330px-Duramente_Tokyo_Yushun_2015%28IMG1%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "印度驻库尔纳助理高级专员公署",
       "extract": "印度驻库尔纳助理高级专员公署 是印度派駐孟加拉國库尔纳的外交機構。\n",
@@ -27,13 +34,6 @@
       "extract": "梅尔瓦勒 是法国上法蘭西大區埃纳省的一个旧市镇，属于苏瓦松区。2016年，梅尔瓦勒与临近的6个市镇合并为新市镇莱塞特瓦隆。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A2%85%E5%B0%94%E7%93%A6%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Merval_%28Aisne%29_%C3%A9cole_%2B_mairie.JPG/330px-Merval_%28Aisne%29_%C3%A9cole_%2B_mairie.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "克迪茨",
-      "extract": "克迪茨 是德国巴伐利亚州上弗兰肯行政区霍夫县的市镇，面积31.45平方千米，2023年12月31日人口为2,409人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%BF%AA%E8%8C%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Auensee.JPG/330px-Auensee.JPG",
       "source": "wikipedia"
     }
   ]
