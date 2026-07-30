@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-30T20:37:21.158Z",
+  "fetchedAt": "2026-07-30T22:29:31.705Z",
   "items": [
+    {
+      "title": "女優，摔吧！",
+      "extract": "《女優，摔吧！》，是台灣首部結合女子摔角與 AV 女優的性喜劇電影，由周美豫執導，夏于喬、吳映潔、黃心娣、鄭平君等人主演。於2019年9月13日舉辦開鏡儀式，於11月1日殺青。劇本入選 2017 年金馬創投電影計畫，並入選第 26 屆韓國富川國際奇幻電影節「Merry-Go-Round」單元。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%84%AA%EF%BC%8C%E6%91%94%E5%90%A7%EF%BC%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/24/Girls%2C_Be_Ambitious%21.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "仙剑奇侠传三 (电视剧)",
       "extract": "《仙剑奇侠传三》 是一部2009年首播的中国大陆仙侠题材古装玄幻剧，改编自台湾大宇资讯开发的同名单机游戏《仙剑奇侠传三》，故事背景設定為《仙剑奇侠传》 的50年前。该剧由唐人影视和东阳捷成影视有限公司联合出品，香港导演李国立执导，并由胡歌、霍建华、杨幂、刘诗诗、唐嫣、黄志玮领衔主演。全剧讲述了男主人公景天梦想成为蜀山大侠，为了协助蜀山派封印锁妖塔，他与唐雪见、徐长卿等人一同展开寻找五颗灵珠的冒险之旅，期间历经艰险，最终却引出了众人意想不到的前世今生和爱恨纠葛。\n",
@@ -27,13 +34,6 @@
       "extract": "印度驻库尔纳助理高级专员公署 是印度派駐孟加拉國库尔纳的外交機構。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6%E9%A9%BB%E5%BA%93%E5%B0%94%E7%BA%B3%E5%8A%A9%E7%90%86%E9%AB%98%E7%BA%A7%E4%B8%93%E5%91%98%E5%85%AC%E7%BD%B2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/langzh-330px-Emblem_of_India.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "地藤壶属",
-      "extract": "地藤壶属 为小藤壶科的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E8%97%A4%E5%A3%B6%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chthamalus_depressus_%28Poli%2C_1795%29_1.JPG/330px-Chthamalus_depressus_%28Poli%2C_1795%29_1.JPG",
       "source": "wikipedia"
     }
   ]
