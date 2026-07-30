@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-30T16:51:59.354Z",
+  "fetchedAt": "2026-07-30T18:50:12.019Z",
   "items": [
+    {
+      "title": "乔治·切科夫斯基",
+      "extract": "乔治·切科夫斯基，北馬其頓籃球運動員，現在效力於北馬其頓球隊Rabotnički。他也代表北馬其頓國家男子籃球隊參賽。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E5%88%87%E7%A7%91%E5%A4%AB%E6%96%AF%E5%9F%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cekovski.jpg/330px-Cekovski.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "大鳴大放 (馬)",
       "extract": "大鳴大放，是日本純種競賽馬匹。生涯活躍於中距離賽事並稱霸經典戰線，曾於2015年勝出皋月賞及東京優駿（日本打吡）。\n",
@@ -27,13 +34,6 @@
       "extract": "普萊夏赫河，是德國的河流，位於該國東南部，由巴伐利亞負責管轄，屬於美因河的支流，河道全長34公里，流域面積128平方公里，發源自維爾茨堡附近豪森。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E8%90%8A%E5%A4%8F%E8%B5%AB%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bild_M%C3%BCndung_der_Pleichach_in_den_Main.jpg/330px-Bild_M%C3%BCndung_der_Pleichach_in_den_Main.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "梅尔瓦勒",
-      "extract": "梅尔瓦勒 是法国上法蘭西大區埃纳省的一个旧市镇，属于苏瓦松区。2016年，梅尔瓦勒与临近的6个市镇合并为新市镇莱塞特瓦隆。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A2%85%E5%B0%94%E7%93%A6%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Merval_%28Aisne%29_%C3%A9cole_%2B_mairie.JPG/330px-Merval_%28Aisne%29_%C3%A9cole_%2B_mairie.JPG",
       "source": "wikipedia"
     }
   ]
