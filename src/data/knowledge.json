@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-31T07:17:32.925Z",
+  "fetchedAt": "2026-07-31T10:02:19.417Z",
   "items": [
+    {
+      "title": "吉田茂",
+      "extract": "吉田茂，日本政治人物。日本政治元老、原外務省官僚、大老牧野伸顯的女婿。1946年在二戰結束不久後出任內閣總理大臣（首相），為大日本帝國憲法下的最後一任首相，1948年再度拜相，後執政至1954年，期間主導了日本輕武裝、發展經濟的國策影響日本至今，領導日本度過同盟國軍事佔領日本時期，和駐日盟軍總司令麥克阿瑟元帥關係融洽。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E8%8C%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Shigeru_Yoshida_suit.jpg/330px-Shigeru_Yoshida_suit.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "白雲母",
       "extract": "白雲母(英語：Muscovite）為矽酸鹽礦物的一種。化學式為KAl2(AlSi3O10)(OH)2，晶體結構為單斜晶系。它具有各向異性，可產生強雙折射現象。\n",
@@ -27,13 +34,6 @@
       "extract": "《女優，摔吧！》，是台灣首部結合女子摔角與 AV 女優的性喜劇電影，由周美豫執導，夏于喬、吳映潔、黃心娣、鄭平君等人主演。於2019年9月13日舉辦開鏡儀式，於11月1日殺青。劇本入選 2017 年金馬創投電影計畫，並入選第 26 屆韓國富川國際奇幻電影節「Merry-Go-Round」單元。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%84%AA%EF%BC%8C%E6%91%94%E5%90%A7%EF%BC%81",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/24/Girls%2C_Be_Ambitious%21.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "仙剑奇侠传三 (电视剧)",
-      "extract": "《仙剑奇侠传三》 是一部2009年首播的中国大陆仙侠题材古装玄幻剧，改编自台湾大宇资讯开发的同名单机游戏《仙剑奇侠传三》，故事背景設定為《仙剑奇侠传》 的50年前。该剧由唐人影视和东阳捷成影视有限公司联合出品，香港导演李国立执导，并由胡歌、霍建华、杨幂、刘诗诗、唐嫣、黄志玮领衔主演。全剧讲述了男主人公景天梦想成为蜀山大侠，为了协助蜀山派封印锁妖塔，他与唐雪见、徐长卿等人一同展开寻找五颗灵珠的冒险之旅，期间历经艰险，最终却引出了众人意想不到的前世今生和爱恨纠葛。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0%E4%B8%89_(%E7%94%B5%E8%A7%86%E5%89%A7)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5f/Chinese_Paladin_3_%28TV_series%29.jpg",
       "source": "wikipedia"
     }
   ]
