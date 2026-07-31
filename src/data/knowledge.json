@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-31T17:55:54.817Z",
+  "fetchedAt": "2026-07-31T19:56:47.701Z",
   "items": [
+    {
+      "title": "旧犹太人公墓 (弗罗茨瓦夫)",
+      "extract": "旧犹太（人）公墓 或称老犹太（人）公墓，是一座历史悠久的大墓地博物馆，位于波兰弗罗茨瓦夫（原布雷斯劳）南部斯莱扎（Ślężna）街37/39号。该墓地于1856年开放，布局风格折衷，规模宏大，融合了多种建筑形式和风格。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%97%A7%E7%8A%B9%E5%A4%AA%E4%BA%BA%E5%85%AC%E5%A2%93_(%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Brama_g%C5%82%C3%B3wna_na_Stary_Cmentarz_%C5%BBydowski_we_Wroc%C5%82awiu.JPG/330px-Brama_g%C5%82%C3%B3wna_na_Stary_Cmentarz_%C5%BBydowski_we_Wroc%C5%82awiu.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "格勒南",
       "extract": "格勒南 是法国上马恩省的一个市镇，属于朗格勒区。\n",
@@ -27,13 +34,6 @@
       "extract": "吉田茂，日本政治人物。日本政治元老、原外務省官僚、大老牧野伸顯的女婿。1946年在二戰結束不久後出任內閣總理大臣（首相），為大日本帝國憲法下的最後一任首相，1948年再度拜相，後執政至1954年，期間主導了日本輕武裝、發展經濟的國策影響日本至今，領導日本度過同盟國軍事佔領日本時期，和駐日盟軍總司令麥克阿瑟元帥關係融洽。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E8%8C%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Shigeru_Yoshida_suit.jpg/330px-Shigeru_Yoshida_suit.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "白雲母",
-      "extract": "白雲母(英語：Muscovite）為矽酸鹽礦物的一種。化學式為KAl2(AlSi3O10)(OH)2，晶體結構為單斜晶系。它具有各向異性，可產生強雙折射現象。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E9%9B%B2%E6%AF%8D",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Muscovite-Albite-122887.jpg/330px-Muscovite-Albite-122887.jpg",
       "source": "wikipedia"
     }
   ]
