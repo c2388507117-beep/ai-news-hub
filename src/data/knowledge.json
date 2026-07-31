@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-31T21:31:52.221Z",
+  "fetchedAt": "2026-07-31T23:17:44.861Z",
   "items": [
+    {
+      "title": "莱帕拉莱地方市镇",
+      "extract": "莱帕拉莱地方市镇 是南非林波波省瓦特贝赫区级市镇的地方市镇，行政中心为萊帕拉萊。地方市镇面积为13,784平方公里，2011年人口数量为115,767人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E5%B8%95%E6%8B%89%E8%8E%B1%E5%9C%B0%E6%96%B9%E5%B8%82%E9%95%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ellisras%2C_South_Africa_-_panoramio_%282%29.jpg/330px-Ellisras%2C_South_Africa_-_panoramio_%282%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "GUID磁碟分割表",
       "extract": "GUID磁碟分割表 是使用全局唯一标识符 对物理计算机存储设备（例如硬盘驱动器或固态驱动器）的分区表进行布局的标准。作为统一可扩展固件接口（UEFI）标准的一部分（统一可扩展固件接口论坛建议其為個人電腦BIOS的替代品），由于主引导记录（MBR）分区表的限制，它也被用在一些BIOS。MBR分区表使用32位用于传统512字节磁盘扇区的邏輯區塊位址（LBA）。\n",
@@ -27,13 +34,6 @@
       "extract": "田中裕介，已退役日本職業足球員，司職後衛，前日本23歲以下足球代表隊成員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E8%A3%95%E4%BB%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/20150403-Y%C5%ABsuke_Tanaka.jpg/330px-20150403-Y%C5%ABsuke_Tanaka.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "北京市第八十中学",
-      "extract": "北京市第八十中学 简称八十中，位于北京市朝阳区，是北京市示范性普通高级中学。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%B8%82%E7%AC%AC%E5%85%AB%E5%8D%81%E4%B8%AD%E5%AD%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/e/e4/Logo_of_Beijing_No.80_High_School.jpg",
       "source": "wikipedia"
     }
   ]
