@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T22:13:40.920Z",
+  "fetchedAt": "2026-08-01T23:16:52.562Z",
   "items": [
+    {
+      "title": "德國少女聯盟",
+      "extract": "德国少女联盟 是纳粹德国希特勒青年团的青年女性分支组织，成员年龄在14至18岁之间。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%9C%8B%E5%B0%91%E5%A5%B3%E8%81%AF%E7%9B%9F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Allgemeiner_BDM_und_JM-Wimpel_1935.svg/langzh-330px-Allgemeiner_BDM_und_JM-Wimpel_1935.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "阿列克谢·沃洛茨科夫",
       "extract": "阿列克谢·阿纳托利耶维奇·沃洛茨科夫 是俄罗斯政治人物，第八届国家杜马代表。\n",
@@ -27,13 +34,6 @@
       "extract": "锺景輝，SBS，尊稱「King Sir」，香港男演員、導演、戲劇教育家、電視製作人、節目主持人。曾為香港無綫電視節目部及製作部經理、合約藝員及節目主持人、香港戲劇協會會長、康文署演藝小組成員、赫墾坊劇團董事長、香港藝術發展局戲劇藝術顧問、第七届全国政协委员。他師承劇作家姚克（原名姚志伊）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E6%99%AF%E8%BC%9D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Chung_King_Fai%27s_signature.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "特丁净",
-      "extract": "特丁净 是一种含硫三嗪类除草剂，带有一个1,3,5-三嗪环和一个叔丁基，能控制农田中杂草的生长，也可以作为除藻剂使用，但存在持久污染的隐患。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E4%B8%81%E5%87%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Terbutryn.svg/langzh-330px-Terbutryn.svg.png",
       "source": "wikipedia"
     }
   ]
