@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T06:42:54.860Z",
+  "fetchedAt": "2026-08-01T09:24:47.151Z",
   "items": [
+    {
+      "title": "威廉·弗里德曼·巴赫",
+      "extract": "威廉·弗里德曼·巴赫，德国作曲家，管风琴家，大鍵琴演奏家J.S.巴赫的长子。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC%C2%B7%E5%B7%B4%E8%B5%AB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/W.F.Bach.png",
+      "source": "wikipedia"
+    },
     {
       "title": "毁木弓背蚁",
       "extract": "毁木弓背蚁 属于蚁亚科之下的弓背蚁属，是一种常见的弓背蚁，广泛分布于欧洲各地。 它们生活在各种林地栖息地，通常在干树桩、倒下的枯树或部分被埋住的石头和木头下筑巢。 由于体型巨大且极具攻击性，毁木弓背蚁在其分布范围内是优势种。\n",
@@ -27,13 +34,6 @@
       "extract": "GUID磁碟分割表 是使用全局唯一标识符 对物理计算机存储设备（例如硬盘驱动器或固态驱动器）的分区表进行布局的标准。作为统一可扩展固件接口（UEFI）标准的一部分（统一可扩展固件接口论坛建议其為個人電腦BIOS的替代品），由于主引导记录（MBR）分区表的限制，它也被用在一些BIOS。MBR分区表使用32位用于传统512字节磁盘扇区的邏輯區塊位址（LBA）。\n",
       "url": "https://zh.wikipedia.org/wiki/GUID%E7%A3%81%E7%A2%9F%E5%88%86%E5%89%B2%E8%A1%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/langzh-330px-GUID_Partition_Table_Scheme.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "旧犹太人公墓 (弗罗茨瓦夫)",
-      "extract": "旧犹太（人）公墓 或称老犹太（人）公墓，是一座历史悠久的大墓地博物馆，位于波兰弗罗茨瓦夫（原布雷斯劳）南部斯莱扎（Ślężna）街37/39号。该墓地于1856年开放，布局风格折衷，规模宏大，融合了多种建筑形式和风格。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%97%A7%E7%8A%B9%E5%A4%AA%E4%BA%BA%E5%85%AC%E5%A2%93_(%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Brama_g%C5%82%C3%B3wna_na_Stary_Cmentarz_%C5%BBydowski_we_Wroc%C5%82awiu.JPG/330px-Brama_g%C5%82%C3%B3wna_na_Stary_Cmentarz_%C5%BBydowski_we_Wroc%C5%82awiu.JPG",
       "source": "wikipedia"
     }
   ]
