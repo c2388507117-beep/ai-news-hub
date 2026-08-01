@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T09:24:47.151Z",
+  "fetchedAt": "2026-08-01T11:36:08.815Z",
   "items": [
+    {
+      "title": "性博物館 (紐約)",
+      "extract": "性博物館 是位於紐約市第五大道233號的一座性博物館。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%8D%9A%E7%89%A9%E9%A4%A8_(%E7%B4%90%E7%B4%84)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/27th_St_5th_Av_03_-_Museum_of_Sex.jpg/330px-27th_St_5th_Av_03_-_Museum_of_Sex.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "威廉·弗里德曼·巴赫",
       "extract": "威廉·弗里德曼·巴赫，德国作曲家，管风琴家，大鍵琴演奏家J.S.巴赫的长子。\n",
@@ -27,13 +34,6 @@
       "extract": "莱帕拉莱地方市镇 是南非林波波省瓦特贝赫区级市镇的地方市镇，行政中心为萊帕拉萊。地方市镇面积为13,784平方公里，2011年人口数量为115,767人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E5%B8%95%E6%8B%89%E8%8E%B1%E5%9C%B0%E6%96%B9%E5%B8%82%E9%95%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ellisras%2C_South_Africa_-_panoramio_%282%29.jpg/330px-Ellisras%2C_South_Africa_-_panoramio_%282%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "GUID磁碟分割表",
-      "extract": "GUID磁碟分割表 是使用全局唯一标识符 对物理计算机存储设备（例如硬盘驱动器或固态驱动器）的分区表进行布局的标准。作为统一可扩展固件接口（UEFI）标准的一部分（统一可扩展固件接口论坛建议其為個人電腦BIOS的替代品），由于主引导记录（MBR）分区表的限制，它也被用在一些BIOS。MBR分区表使用32位用于传统512字节磁盘扇区的邏輯區塊位址（LBA）。\n",
-      "url": "https://zh.wikipedia.org/wiki/GUID%E7%A3%81%E7%A2%9F%E5%88%86%E5%89%B2%E8%A1%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/langzh-330px-GUID_Partition_Table_Scheme.svg.png",
       "source": "wikipedia"
     }
   ]
