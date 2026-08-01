@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T19:37:46.314Z",
+  "fetchedAt": "2026-08-01T21:12:01.208Z",
   "items": [
+    {
+      "title": "谢瑞詹",
+      "extract": "沙里占·佐汉，官方中文名为谢瑞詹，马来西亚政治人物，现任雪兰莪州万宜国会议员。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E7%91%9E%E8%A9%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Syahredzan_Johan_pada_2023.jpg/330px-Syahredzan_Johan_pada_2023.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "南京市 (中華民國)",
       "extract": "南京市，通稱南京，簡稱「京」。其曾是國民政府駐地；行憲後，亦為中華民國政府在遷往臺灣之前的駐地，因而是中華民國國都。此後，南京同時也是中華民國在中國大陸所設立的12個院轄市之一。\n",
@@ -27,13 +34,6 @@
       "extract": "土登嘉措，藏傳佛教第十三世達賴喇嘛，西藏宗教及政治人物。第十三世達賴喇嘛一生處在英國和俄國爭奪中亞霸權的大博弈的時代，而當時受滿清保護的西藏正處於二者爭奪的地區之中，達賴曾於英國侵藏戰爭（1904年）與川軍入藏（1910年）時流亡在外，一生周旋於英國、俄國、滿清、北洋及國府等不同政權之間捭闔縱橫，使西藏幾十年得以保持事實上的獨立自治地位，亦因此於藏人間威望崇高。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%8D%81%E4%B8%89%E4%B8%96%E9%81%94%E8%B3%B4%E5%96%87%E5%98%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/13thDalaiLama1910.jpg/330px-13thDalaiLama1910.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "性博物館 (紐約)",
-      "extract": "性博物館 是位於紐約市第五大道233號的一座性博物館。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%8D%9A%E7%89%A9%E9%A4%A8_(%E7%B4%90%E7%B4%84)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/27th_St_5th_Av_03_-_Museum_of_Sex.jpg/330px-27th_St_5th_Av_03_-_Museum_of_Sex.jpg",
       "source": "wikipedia"
     }
   ]
