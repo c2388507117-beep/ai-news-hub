@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T15:30:32.942Z",
+  "fetchedAt": "2026-08-01T17:19:46.567Z",
   "items": [
+    {
+      "title": "鍾景輝",
+      "extract": "锺景輝，SBS，尊稱「King Sir」，香港男演員、導演、戲劇教育家、電視製作人、節目主持人。曾為香港無綫電視節目部及製作部經理、合約藝員及節目主持人、香港戲劇協會會長、康文署演藝小組成員、赫墾坊劇團董事長、香港藝術發展局戲劇藝術顧問、第七届全国政协委员。他師承劇作家姚克（原名姚志伊）。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E6%99%AF%E8%BC%9D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Chung_King_Fai%27s_signature.png",
+      "source": "wikipedia"
+    },
     {
       "title": "特丁净",
       "extract": "特丁净 是一种含硫三嗪类除草剂，带有一个1,3,5-三嗪环和一个叔丁基，能控制农田中杂草的生长，也可以作为除藻剂使用，但存在持久污染的隐患。\n",
@@ -27,13 +34,6 @@
       "extract": "威廉·弗里德曼·巴赫，德国作曲家，管风琴家，大鍵琴演奏家J.S.巴赫的长子。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC%C2%B7%E5%B7%B4%E8%B5%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/W.F.Bach.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "毁木弓背蚁",
-      "extract": "毁木弓背蚁 属于蚁亚科之下的弓背蚁属，是一种常见的弓背蚁，广泛分布于欧洲各地。 它们生活在各种林地栖息地，通常在干树桩、倒下的枯树或部分被埋住的石头和木头下筑巢。 由于体型巨大且极具攻击性，毁木弓背蚁在其分布范围内是优势种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AF%81%E6%9C%A8%E5%BC%93%E8%83%8C%E8%9A%81",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Camponotus_ligniperda_casent0173649_profile_1.jpg/330px-Camponotus_ligniperda_casent0173649_profile_1.jpg",
       "source": "wikipedia"
     }
   ]
