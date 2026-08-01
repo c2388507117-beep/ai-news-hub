@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-31T23:17:44.861Z",
+  "fetchedAt": "2026-08-01T03:54:32.802Z",
   "items": [
+    {
+      "title": "秀茂坪南",
+      "extract": "秀茂坪南 曾是香港觀塘區議會下轄的選區，1999年設立，2023年取消，末任區議員為創建力量成員陳耀雄。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%80%E8%8C%82%E5%9D%AA%E5%8D%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/SauMauPingSouthConstituency.svg/langzh-330px-SauMauPingSouthConstituency.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "莱帕拉莱地方市镇",
       "extract": "莱帕拉莱地方市镇 是南非林波波省瓦特贝赫区级市镇的地方市镇，行政中心为萊帕拉萊。地方市镇面积为13,784平方公里，2011年人口数量为115,767人。\n",
@@ -27,13 +34,6 @@
       "extract": "格勒南 是法国上马恩省的一个市镇，属于朗格勒区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%8B%92%E5%8D%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Grenant_01.jpg/330px-Grenant_01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "田中裕介",
-      "extract": "田中裕介，已退役日本職業足球員，司職後衛，前日本23歲以下足球代表隊成員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E8%A3%95%E4%BB%8B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/20150403-Y%C5%ABsuke_Tanaka.jpg/330px-20150403-Y%C5%ABsuke_Tanaka.jpg",
       "source": "wikipedia"
     }
   ]
