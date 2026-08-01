@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T17:19:46.567Z",
+  "fetchedAt": "2026-08-01T19:37:46.314Z",
   "items": [
+    {
+      "title": "南京市 (中華民國)",
+      "extract": "南京市，通稱南京，簡稱「京」。其曾是國民政府駐地；行憲後，亦為中華民國政府在遷往臺灣之前的駐地，因而是中華民國國都。此後，南京同時也是中華民國在中國大陸所設立的12個院轄市之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/National_Government_of_the_R.O.C.jpg/330px-National_Government_of_the_R.O.C.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "鍾景輝",
       "extract": "锺景輝，SBS，尊稱「King Sir」，香港男演員、導演、戲劇教育家、電視製作人、節目主持人。曾為香港無綫電視節目部及製作部經理、合約藝員及節目主持人、香港戲劇協會會長、康文署演藝小組成員、赫墾坊劇團董事長、香港藝術發展局戲劇藝術顧問、第七届全国政协委员。他師承劇作家姚克（原名姚志伊）。\n",
@@ -27,13 +34,6 @@
       "extract": "性博物館 是位於紐約市第五大道233號的一座性博物館。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%8D%9A%E7%89%A9%E9%A4%A8_(%E7%B4%90%E7%B4%84)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/27th_St_5th_Av_03_-_Museum_of_Sex.jpg/330px-27th_St_5th_Av_03_-_Museum_of_Sex.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "威廉·弗里德曼·巴赫",
-      "extract": "威廉·弗里德曼·巴赫，德国作曲家，管风琴家，大鍵琴演奏家J.S.巴赫的长子。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E6%9B%BC%C2%B7%E5%B7%B4%E8%B5%AB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/W.F.Bach.png",
       "source": "wikipedia"
     }
   ]
