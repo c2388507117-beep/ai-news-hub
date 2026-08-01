@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T03:54:32.802Z",
+  "fetchedAt": "2026-08-01T06:42:54.860Z",
   "items": [
+    {
+      "title": "毁木弓背蚁",
+      "extract": "毁木弓背蚁 属于蚁亚科之下的弓背蚁属，是一种常见的弓背蚁，广泛分布于欧洲各地。 它们生活在各种林地栖息地，通常在干树桩、倒下的枯树或部分被埋住的石头和木头下筑巢。 由于体型巨大且极具攻击性，毁木弓背蚁在其分布范围内是优势种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AF%81%E6%9C%A8%E5%BC%93%E8%83%8C%E8%9A%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Camponotus_ligniperda_casent0173649_profile_1.jpg/330px-Camponotus_ligniperda_casent0173649_profile_1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "秀茂坪南",
       "extract": "秀茂坪南 曾是香港觀塘區議會下轄的選區，1999年設立，2023年取消，末任區議員為創建力量成員陳耀雄。\n",
@@ -27,13 +34,6 @@
       "extract": "旧犹太（人）公墓 或称老犹太（人）公墓，是一座历史悠久的大墓地博物馆，位于波兰弗罗茨瓦夫（原布雷斯劳）南部斯莱扎（Ślężna）街37/39号。该墓地于1856年开放，布局风格折衷，规模宏大，融合了多种建筑形式和风格。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%97%A7%E7%8A%B9%E5%A4%AA%E4%BA%BA%E5%85%AC%E5%A2%93_(%E5%BC%97%E7%BD%97%E8%8C%A8%E7%93%A6%E5%A4%AB)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Brama_g%C5%82%C3%B3wna_na_Stary_Cmentarz_%C5%BBydowski_we_Wroc%C5%82awiu.JPG/330px-Brama_g%C5%82%C3%B3wna_na_Stary_Cmentarz_%C5%BBydowski_we_Wroc%C5%82awiu.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "格勒南",
-      "extract": "格勒南 是法国上马恩省的一个市镇，属于朗格勒区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%8B%92%E5%8D%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Grenant_01.jpg/330px-Grenant_01.jpg",
       "source": "wikipedia"
     }
   ]
