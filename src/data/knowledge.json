@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T19:38:26.053Z",
+  "fetchedAt": "2026-08-02T21:12:37.202Z",
   "items": [
+    {
+      "title": "瓜爾達",
+      "extract": "瓜爾達（Guarda）是瑞士的城鎮，位於該國東部，由格勞賓登州負責管轄，面積31.41平方公里，海拔高度1,653米，2011年人口164，六成居民使用羅曼什語，人口密度每平方公里5人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%93%9C%E7%88%BE%E9%81%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Guarda02.jpg/330px-Guarda02.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "山地蝸牛科",
       "extract": "山地蝸牛科 是一個小型到中型會呼吸空氣的蝸牛的科級分類單元。原為堅齒螺科之下的山地蝸牛亞科，根據2005年《布歇特和洛克羅伊的腹足類分類》，本科是肺螺類腹足纲软体动物的一種，屬於Punctoidea科；但到了2017年《布歇特等人的腹足類分類》，這個總科成為了旋蝸牛亞目之下的下目地位未定分類。\n",
@@ -27,13 +34,6 @@
       "extract": "灰藓虎耳草 是虎耳草科虎耳草属多年生草本植物，因形似灰藓 而得名，原产不列颠群岛、法罗群岛、冰岛、挪威、法国、比利时。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%81%B0%E8%97%93%E8%99%8E%E8%80%B3%E8%8D%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Saxifraga_hypnoides01.jpg/330px-Saxifraga_hypnoides01.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "我和我的冠軍女兒",
-      "extract": "《我和我的冠軍女兒》 是一部2016年印度印地語傳記運動劇情片，由涅提·蒂瓦里執導，蒂瓦里、皮尤什·古普塔 、什雷亞斯·賈恩 和尼基爾·梅赫羅特拉 編劇，阿米爾·罕、基蘭·拉奧及悉達多·羅伊·卡普爾監製，阿米爾·罕製片公司與印度華特迪士尼公司出品。本片改編自真實故事，罕飾演業餘角力手瑪哈維亞·辛格·波格特，他訓練自己的女兒吉塔巴比塔成為印度首批世界級女子摔角運動員。法蒂瑪·薩納·謝赫飾演吉塔，桑妮亞·馬賀拉飾演巴比塔，其他演員包括沙克希·坦沃、賽伊拉·沃西、蘇哈妮·巴特納格 和阿帕爾夏克提·庫拉那。馬賀拉、沃西、巴特納格和庫拉那均為首次演出電影。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%86%A0%E8%BB%8D%E5%A5%B3%E5%85%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/99/Dangal_Poster.jpg",
       "source": "wikipedia"
     }
   ]
