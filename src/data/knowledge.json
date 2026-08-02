@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T11:37:06.901Z",
+  "fetchedAt": "2026-08-02T14:01:59.167Z",
   "items": [
+    {
+      "title": "灰藓虎耳草",
+      "extract": "灰藓虎耳草 是虎耳草科虎耳草属多年生草本植物，因形似灰藓 而得名，原产不列颠群岛、法罗群岛、冰岛、挪威、法国、比利时。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%81%B0%E8%97%93%E8%99%8E%E8%80%B3%E8%8D%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Saxifraga_hypnoides01.jpg/330px-Saxifraga_hypnoides01.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "我和我的冠軍女兒",
       "extract": "《我和我的冠軍女兒》 是一部2016年印度印地語傳記運動劇情片，由涅提·蒂瓦里執導，蒂瓦里、皮尤什·古普塔 、什雷亞斯·賈恩 和尼基爾·梅赫羅特拉 編劇，阿米爾·罕、基蘭·拉奧及悉達多·羅伊·卡普爾監製，阿米爾·罕製片公司與印度華特迪士尼公司出品。本片改編自真實故事，罕飾演業餘角力手瑪哈維亞·辛格·波格特，他訓練自己的女兒吉塔巴比塔成為印度首批世界級女子摔角運動員。法蒂瑪·薩納·謝赫飾演吉塔，桑妮亞·馬賀拉飾演巴比塔，其他演員包括沙克希·坦沃、賽伊拉·沃西、蘇哈妮·巴特納格 和阿帕爾夏克提·庫拉那。馬賀拉、沃西、巴特納格和庫拉那均為首次演出電影。\n",
@@ -27,13 +34,6 @@
       "extract": "阿拉基特河是俄羅斯的河流，位於薩哈共和國，屬於奧列尼奧克河的右支流，河道全長232公里，流域面積約11,800平方公里，河水主要來自融雪和雨水，流經中西伯利亞高原東北部邊緣。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E5%9F%BA%E7%89%B9%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Alakit_ONC_C-5.jpg/330px-Alakit_ONC_C-5.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿勒曼尼亞",
-      "extract": "阿勒曼尼亞 是曾經由日耳曼民族中的阿勒曼尼人居住的地區。他們在3世纪從美因河盆地不斷擴張，袭击了罗马各省。在213年阿勒曼尼人越过界墙，并于4世纪开始在莱茵河左岸定居。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%8B%92%E6%9B%BC%E5%B0%BC%E4%BA%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Alamannien_Hochburgund_ca_1000.png/330px-Alamannien_Hochburgund_ca_1000.png",
       "source": "wikipedia"
     }
   ]
