@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T04:03:04.929Z",
+  "fetchedAt": "2026-08-02T06:47:49.263Z",
   "items": [
+    {
+      "title": "公寓404",
+      "extract": "《公寓404》 為韓國tvN于2024年播出的懸疑推理綜藝節目，由劉在錫、吳娜拉、車太鉉、梁世燦、Jennie和李正河出演，於2024年2月23日起播出。主軸為由6名居住在公寓404𥚃的居民以各種挑戰任務去推理解謎及追蹤跨越時空發生過的事件，取材自不同年份曾經真實發生過的懸疑事件。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E5%AF%93404",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/d4/Apartment_404_poster.jpeg",
+      "source": "wikipedia"
+    },
     {
       "title": "阿拉基特河",
       "extract": "阿拉基特河是俄羅斯的河流，位於薩哈共和國，屬於奧列尼奧克河的右支流，河道全長232公里，流域面積約11,800平方公里，河水主要來自融雪和雨水，流經中西伯利亞高原東北部邊緣。\n",
@@ -27,13 +34,6 @@
       "extract": "阿列克谢·阿纳托利耶维奇·沃洛茨科夫 是俄罗斯政治人物，第八届国家杜马代表。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%88%97%E5%85%8B%E8%B0%A2%C2%B7%E6%B2%83%E6%B4%9B%E8%8C%A8%E7%A7%91%E5%A4%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/%D0%92%D0%BE%D0%BB%D0%BE%D1%86%D0%BA%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87.png/330px-%D0%92%D0%BE%D0%BB%D0%BE%D1%86%D0%BA%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "谢瑞詹",
-      "extract": "沙里占·佐汉，官方中文名为谢瑞詹，马来西亚政治人物，现任雪兰莪州万宜国会议员。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E7%91%9E%E8%A9%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Syahredzan_Johan_pada_2023.jpg/330px-Syahredzan_Johan_pada_2023.jpg",
       "source": "wikipedia"
     }
   ]
