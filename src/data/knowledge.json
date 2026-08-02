@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T15:30:28.822Z",
+  "fetchedAt": "2026-08-02T17:26:01.264Z",
   "items": [
+    {
+      "title": "1965年太平洋颱風季",
+      "extract": "1965年太平洋颱風季泛指在1965年全年內的任何時間，於赤道以北及國際換日線以西的太平洋水域，以及南中國海所產生的熱帶氣旋。雖然有關方面並沒有設下本颱風季的指定期限，但大部份於西北太平洋的熱帶氣旋通常都會於五月至十二月期間形成。\n",
+      "url": "https://zh.wikipedia.org/wiki/1965%E5%B9%B4%E5%A4%AA%E5%B9%B3%E6%B4%8B%E9%A2%B1%E9%A2%A8%E5%AD%A3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/1965_Pacific_typhoon_season_summary_map.png/330px-1965_Pacific_typhoon_season_summary_map.png",
+      "source": "wikipedia"
+    },
     {
       "title": "中国驻蒂华纳总领事馆",
       "extract": "中华人民共和国驻蒂华纳总领事馆，简称中国驻蒂华纳总领事馆，是中华人民共和国派驻墨西哥下加利福尼亚州蒂华纳的最高级别外交机构。领区包括下加利福尼亚州、南下加利福尼亚州、索诺拉州、奇瓦瓦州。\n",
@@ -27,13 +34,6 @@
       "extract": "奧斯特霍爾茨縣 是德國下薩克森州北部的一個縣，首府奥斯特霍尔茨-沙姆贝克。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E6%96%AF%E7%89%B9%E9%9C%8D%E5%B0%94%E8%8C%A8%E5%8E%BF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Lower_saxony_ohz.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "公寓404",
-      "extract": "《公寓404》 為韓國tvN于2024年播出的懸疑推理綜藝節目，由劉在錫、吳娜拉、車太鉉、梁世燦、Jennie和李正河出演，於2024年2月23日起播出。主軸為由6名居住在公寓404𥚃的居民以各種挑戰任務去推理解謎及追蹤跨越時空發生過的事件，取材自不同年份曾經真實發生過的懸疑事件。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E5%AF%93404",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/d4/Apartment_404_poster.jpeg",
       "source": "wikipedia"
     }
   ]
