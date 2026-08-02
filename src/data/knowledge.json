@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T14:01:59.167Z",
+  "fetchedAt": "2026-08-02T15:30:28.822Z",
   "items": [
+    {
+      "title": "中国驻蒂华纳总领事馆",
+      "extract": "中华人民共和国驻蒂华纳总领事馆，简称中国驻蒂华纳总领事馆，是中华人民共和国派驻墨西哥下加利福尼亚州蒂华纳的最高级别外交机构。领区包括下加利福尼亚州、南下加利福尼亚州、索诺拉州、奇瓦瓦州。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%A9%BB%E8%92%82%E5%8D%8E%E7%BA%B3%E6%80%BB%E9%A2%86%E4%BA%8B%E9%A6%86",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg/langzh-330px-%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "灰藓虎耳草",
       "extract": "灰藓虎耳草 是虎耳草科虎耳草属多年生草本植物，因形似灰藓 而得名，原产不列颠群岛、法罗群岛、冰岛、挪威、法国、比利时。\n",
@@ -27,13 +34,6 @@
       "extract": "《公寓404》 為韓國tvN于2024年播出的懸疑推理綜藝節目，由劉在錫、吳娜拉、車太鉉、梁世燦、Jennie和李正河出演，於2024年2月23日起播出。主軸為由6名居住在公寓404𥚃的居民以各種挑戰任務去推理解謎及追蹤跨越時空發生過的事件，取材自不同年份曾經真實發生過的懸疑事件。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E5%AF%93404",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/d4/Apartment_404_poster.jpeg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿拉基特河",
-      "extract": "阿拉基特河是俄羅斯的河流，位於薩哈共和國，屬於奧列尼奧克河的右支流，河道全長232公里，流域面積約11,800平方公里，河水主要來自融雪和雨水，流經中西伯利亞高原東北部邊緣。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E5%9F%BA%E7%89%B9%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Alakit_ONC_C-5.jpg/330px-Alakit_ONC_C-5.jpg",
       "source": "wikipedia"
     }
   ]
