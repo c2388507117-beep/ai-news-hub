@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T09:24:42.601Z",
+  "fetchedAt": "2026-08-02T11:37:06.901Z",
   "items": [
+    {
+      "title": "我和我的冠軍女兒",
+      "extract": "《我和我的冠軍女兒》 是一部2016年印度印地語傳記運動劇情片，由涅提·蒂瓦里執導，蒂瓦里、皮尤什·古普塔 、什雷亞斯·賈恩 和尼基爾·梅赫羅特拉 編劇，阿米爾·罕、基蘭·拉奧及悉達多·羅伊·卡普爾監製，阿米爾·罕製片公司與印度華特迪士尼公司出品。本片改編自真實故事，罕飾演業餘角力手瑪哈維亞·辛格·波格特，他訓練自己的女兒吉塔巴比塔成為印度首批世界級女子摔角運動員。法蒂瑪·薩納·謝赫飾演吉塔，桑妮亞·馬賀拉飾演巴比塔，其他演員包括沙克希·坦沃、賽伊拉·沃西、蘇哈妮·巴特納格 和阿帕爾夏克提·庫拉那。馬賀拉、沃西、巴特納格和庫拉那均為首次演出電影。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%86%A0%E8%BB%8D%E5%A5%B3%E5%85%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/99/Dangal_Poster.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "奥斯特霍尔茨县",
       "extract": "奧斯特霍爾茨縣 是德國下薩克森州北部的一個縣，首府奥斯特霍尔茨-沙姆贝克。\n",
@@ -27,13 +34,6 @@
       "extract": "阿勒曼尼亞 是曾經由日耳曼民族中的阿勒曼尼人居住的地區。他們在3世纪從美因河盆地不斷擴張，袭击了罗马各省。在213年阿勒曼尼人越过界墙，并于4世纪开始在莱茵河左岸定居。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%8B%92%E6%9B%BC%E5%B0%BC%E4%BA%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Alamannien_Hochburgund_ca_1000.png/330px-Alamannien_Hochburgund_ca_1000.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "德國少女聯盟",
-      "extract": "德国少女联盟 是纳粹德国希特勒青年团的青年女性分支组织，成员年龄在14至18岁之间。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%9C%8B%E5%B0%91%E5%A5%B3%E8%81%AF%E7%9B%9F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Allgemeiner_BDM_und_JM-Wimpel_1935.svg/langzh-330px-Allgemeiner_BDM_und_JM-Wimpel_1935.svg.png",
       "source": "wikipedia"
     }
   ]
