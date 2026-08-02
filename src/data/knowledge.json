@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T22:13:04.066Z",
+  "fetchedAt": "2026-08-02T23:15:59.668Z",
   "items": [
+    {
+      "title": "马雷莱菲塞",
+      "extract": "马雷莱菲塞 是法国科多尔省的一个市镇，属于博讷区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%9B%B7%E8%8E%B1%E8%8F%B2%E5%A1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Marey-l%C3%A8s-Fussey_%2821%29_Mairie_-_02.jpg/330px-Marey-l%C3%A8s-Fussey_%2821%29_Mairie_-_02.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "百泉 (河北省)",
       "extract": "百泉为中国河北省一泉群的统称。该泉群位于邢台市境内京广铁路两侧，太行山东麓山脚冲积扇内，分布广达20多平方公里。泉群有分珍珠泉、银沙泉、韩家泉等小泉群。\n",
@@ -27,13 +34,6 @@
       "extract": "1965年太平洋颱風季泛指在1965年全年內的任何時間，於赤道以北及國際換日線以西的太平洋水域，以及南中國海所產生的熱帶氣旋。雖然有關方面並沒有設下本颱風季的指定期限，但大部份於西北太平洋的熱帶氣旋通常都會於五月至十二月期間形成。\n",
       "url": "https://zh.wikipedia.org/wiki/1965%E5%B9%B4%E5%A4%AA%E5%B9%B3%E6%B4%8B%E9%A2%B1%E9%A2%A8%E5%AD%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/1965_Pacific_typhoon_season_summary_map.png/330px-1965_Pacific_typhoon_season_summary_map.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "中国驻蒂华纳总领事馆",
-      "extract": "中华人民共和国驻蒂华纳总领事馆，简称中国驻蒂华纳总领事馆，是中华人民共和国派驻墨西哥下加利福尼亚州蒂华纳的最高级别外交机构。领区包括下加利福尼亚州、南下加利福尼亚州、索诺拉州、奇瓦瓦州。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%A9%BB%E8%92%82%E5%8D%8E%E7%BA%B3%E6%80%BB%E9%A2%86%E4%BA%8B%E9%A6%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg/langzh-330px-%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg.png",
       "source": "wikipedia"
     }
   ]
