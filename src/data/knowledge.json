@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T00:16:24.875Z",
+  "fetchedAt": "2026-08-02T04:03:04.929Z",
   "items": [
+    {
+      "title": "阿拉基特河",
+      "extract": "阿拉基特河是俄羅斯的河流，位於薩哈共和國，屬於奧列尼奧克河的右支流，河道全長232公里，流域面積約11,800平方公里，河水主要來自融雪和雨水，流經中西伯利亞高原東北部邊緣。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E5%9F%BA%E7%89%B9%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Alakit_ONC_C-5.jpg/330px-Alakit_ONC_C-5.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "阿勒曼尼亞",
       "extract": "阿勒曼尼亞 是曾經由日耳曼民族中的阿勒曼尼人居住的地區。他們在3世纪從美因河盆地不斷擴張，袭击了罗马各省。在213年阿勒曼尼人越过界墙，并于4世纪开始在莱茵河左岸定居。\n",
@@ -27,13 +34,6 @@
       "extract": "沙里占·佐汉，官方中文名为谢瑞詹，马来西亚政治人物，现任雪兰莪州万宜国会议员。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B0%A2%E7%91%9E%E8%A9%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Syahredzan_Johan_pada_2023.jpg/330px-Syahredzan_Johan_pada_2023.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "南京市 (中華民國)",
-      "extract": "南京市，通稱南京，簡稱「京」。其曾是國民政府駐地；行憲後，亦為中華民國政府在遷往臺灣之前的駐地，因而是中華民國國都。此後，南京同時也是中華民國在中國大陸所設立的12個院轄市之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/National_Government_of_the_R.O.C.jpg/330px-National_Government_of_the_R.O.C.jpg",
       "source": "wikipedia"
     }
   ]
