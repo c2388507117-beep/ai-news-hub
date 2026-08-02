@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-01T23:16:52.562Z",
+  "fetchedAt": "2026-08-02T00:16:24.875Z",
   "items": [
+    {
+      "title": "阿勒曼尼亞",
+      "extract": "阿勒曼尼亞 是曾經由日耳曼民族中的阿勒曼尼人居住的地區。他們在3世纪從美因河盆地不斷擴張，袭击了罗马各省。在213年阿勒曼尼人越过界墙，并于4世纪开始在莱茵河左岸定居。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%8B%92%E6%9B%BC%E5%B0%BC%E4%BA%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Alamannien_Hochburgund_ca_1000.png/330px-Alamannien_Hochburgund_ca_1000.png",
+      "source": "wikipedia"
+    },
     {
       "title": "德國少女聯盟",
       "extract": "德国少女联盟 是纳粹德国希特勒青年团的青年女性分支组织，成员年龄在14至18岁之间。\n",
@@ -27,13 +34,6 @@
       "extract": "南京市，通稱南京，簡稱「京」。其曾是國民政府駐地；行憲後，亦為中華民國政府在遷往臺灣之前的駐地，因而是中華民國國都。此後，南京同時也是中華民國在中國大陸所設立的12個院轄市之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/National_Government_of_the_R.O.C.jpg/330px-National_Government_of_the_R.O.C.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鍾景輝",
-      "extract": "锺景輝，SBS，尊稱「King Sir」，香港男演員、導演、戲劇教育家、電視製作人、節目主持人。曾為香港無綫電視節目部及製作部經理、合約藝員及節目主持人、香港戲劇協會會長、康文署演藝小組成員、赫墾坊劇團董事長、香港藝術發展局戲劇藝術顧問、第七届全国政协委员。他師承劇作家姚克（原名姚志伊）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E6%99%AF%E8%BC%9D",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Chung_King_Fai%27s_signature.png",
       "source": "wikipedia"
     }
   ]
