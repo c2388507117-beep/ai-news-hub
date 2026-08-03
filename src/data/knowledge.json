@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T21:32:38.941Z",
+  "fetchedAt": "2026-08-03T23:29:23.609Z",
   "items": [
+    {
+      "title": "武定直隸州",
+      "extract": "武定直隸州，清朝时在今云南省设置的直隸州。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%AE%9A%E7%9B%B4%E9%9A%B8%E5%B7%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/%E6%AD%A6%E5%AE%9A%E5%B7%9E%E4%BD%8D%E7%BD%AE%E5%9B%BE1820.svg/langzh-330px-%E6%AD%A6%E5%AE%9A%E5%B7%9E%E4%BD%8D%E7%BD%AE%E5%9B%BE1820.svg.png",
+      "source": "wikipedia"
+    },
     {
       "title": "新宾满族自治县",
       "extract": "新宾满族自治县，是辽宁省抚顺市下辖的一个自治县，旧称兴京，总面积4432平方公里。 系1985年，经国务院批准，辽宁省新宾县成立全国第一个满族自治县。首任县长金维新，副县长高鹏(女)。\n",
@@ -27,13 +34,6 @@
       "extract": "丹尼尔·哈桑·奥谢富 為奈及利亞裔美國男子籃球運動員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%B9%E5%B0%BC%E5%B0%94%C2%B7%E5%A5%A5%E8%B0%A2%E5%AF%8C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Daniel_Ochefu.jpg/330px-Daniel_Ochefu.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "洛克希德·馬丁X-59 QueSST",
-      "extract": "洛克希德·馬丁X-59 QueSST 是一架美国洛克希德·马丁公司研制的试验性超音速飞机。该机的研发工作始于2016年，是NASA低爆音飞行项目研究的一部分。这是一种试图减少超音速飞机的音爆对地面影响的技术，为未来可能解除超音速陆上飞行禁令和下一代超音速客机奠定基础。该项目原计划2021年首飞，经历多次延期后，于2025年10月28日在加利福尼亚州棕榈谷的美国空军第42号工厂成功首飞。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E5%85%8B%E5%B8%8C%E5%BE%B7%C2%B7%E9%A6%AC%E4%B8%81X-59_QueSST",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/NASA%E2%80%99s_X-59_Sits_on_Ramp_%28AFRC2023-0198-03%29.jpg/330px-NASA%E2%80%99s_X-59_Sits_on_Ramp_%28AFRC2023-0198-03%29.jpg",
       "source": "wikipedia"
     }
   ]
