@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T12:37:50.818Z",
+  "fetchedAt": "2026-08-03T15:56:47.026Z",
   "items": [
+    {
+      "title": "丹尼尔·奥谢富",
+      "extract": "丹尼尔·哈桑·奥谢富 為奈及利亞裔美國男子籃球運動員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%B9%E5%B0%BC%E5%B0%94%C2%B7%E5%A5%A5%E8%B0%A2%E5%AF%8C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Daniel_Ochefu.jpg/330px-Daniel_Ochefu.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "洛克希德·馬丁X-59 QueSST",
       "extract": "洛克希德·馬丁X-59 QueSST 是一架美国洛克希德·马丁公司研制的试验性超音速飞机。该机的研发工作始于2016年，是NASA低爆音飞行项目研究的一部分。这是一种试图减少超音速飞机的音爆对地面影响的技术，为未来可能解除超音速陆上飞行禁令和下一代超音速客机奠定基础。该项目原计划2021年首飞，经历多次延期后，于2025年10月28日在加利福尼亚州棕榈谷的美国空军第42号工厂成功首飞。\n",
@@ -27,13 +34,6 @@
       "extract": "賴清德內閣是指2017年9月8日至2019年1月14日期間，由時任行政院院長賴清德所領導的中華民國內閣，是蔡英文政府的第二個內閣。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7%E5%85%A7%E9%96%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2019%E5%B9%B41%E6%9C%8811%E6%97%A5%E8%A1%8C%E6%94%BF%E9%99%A2%E8%87%A8%E6%99%82%E9%99%A2%E6%9C%83%E5%85%A7%E9%96%A3%E7%B8%BD%E8%BE%AD%E5%BE%8C%E5%90%88%E5%BD%B1.jpg/330px-2019%E5%B9%B41%E6%9C%8811%E6%97%A5%E8%A1%8C%E6%94%BF%E9%99%A2%E8%87%A8%E6%99%82%E9%99%A2%E6%9C%83%E5%85%A7%E9%96%A3%E7%B8%BD%E8%BE%AD%E5%BE%8C%E5%90%88%E5%BD%B1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马雷莱菲塞",
-      "extract": "马雷莱菲塞 是法国科多尔省的一个市镇，属于博讷区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%9B%B7%E8%8E%B1%E8%8F%B2%E5%A1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Marey-l%C3%A8s-Fussey_%2821%29_Mairie_-_02.jpg/330px-Marey-l%C3%A8s-Fussey_%2821%29_Mairie_-_02.jpg",
       "source": "wikipedia"
     }
   ]
