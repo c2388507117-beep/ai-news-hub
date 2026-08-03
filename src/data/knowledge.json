@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T08:43:23.462Z",
+  "fetchedAt": "2026-08-03T12:37:50.818Z",
   "items": [
+    {
+      "title": "洛克希德·馬丁X-59 QueSST",
+      "extract": "洛克希德·馬丁X-59 QueSST 是一架美国洛克希德·马丁公司研制的试验性超音速飞机。该机的研发工作始于2016年，是NASA低爆音飞行项目研究的一部分。这是一种试图减少超音速飞机的音爆对地面影响的技术，为未来可能解除超音速陆上飞行禁令和下一代超音速客机奠定基础。该项目原计划2021年首飞，经历多次延期后，于2025年10月28日在加利福尼亚州棕榈谷的美国空军第42号工厂成功首飞。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E5%85%8B%E5%B8%8C%E5%BE%B7%C2%B7%E9%A6%AC%E4%B8%81X-59_QueSST",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/NASA%E2%80%99s_X-59_Sits_on_Ramp_%28AFRC2023-0198-03%29.jpg/330px-NASA%E2%80%99s_X-59_Sits_on_Ramp_%28AFRC2023-0198-03%29.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "维莱讷河畔努瓦亚勒",
       "extract": "维莱讷河畔努瓦亚勒 是法国伊勒-维莱讷省的一个市镇，位于该省中东部，属于雷恩区。\n",
@@ -27,13 +34,6 @@
       "extract": "马雷莱菲塞 是法国科多尔省的一个市镇，属于博讷区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%9B%B7%E8%8E%B1%E8%8F%B2%E5%A1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Marey-l%C3%A8s-Fussey_%2821%29_Mairie_-_02.jpg/330px-Marey-l%C3%A8s-Fussey_%2821%29_Mairie_-_02.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "百泉 (河北省)",
-      "extract": "百泉为中国河北省一泉群的统称。该泉群位于邢台市境内京广铁路两侧，太行山东麓山脚冲积扇内，分布广达20多平方公里。泉群有分珍珠泉、银沙泉、韩家泉等小泉群。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%99%BE%E6%B3%89_(%E6%B2%B3%E5%8C%97%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Xingtai_Dahuoquan_Park.jpg/330px-Xingtai_Dahuoquan_Park.jpg",
       "source": "wikipedia"
     }
   ]
