@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T04:51:08.363Z",
+  "fetchedAt": "2026-08-03T08:43:23.462Z",
   "items": [
+    {
+      "title": "维莱讷河畔努瓦亚勒",
+      "extract": "维莱讷河畔努瓦亚勒 是法国伊勒-维莱讷省的一个市镇，位于该省中东部，属于雷恩区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E8%8E%B1%E8%AE%B7%E6%B2%B3%E7%95%94%E5%8A%AA%E7%93%A6%E4%BA%9A%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hotel_de_ville_Noyal_sur_Vilaine.JPG/330px-Hotel_de_ville_Noyal_sur_Vilaine.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "马库斯·福利乌斯·卡米卢斯",
       "extract": "马库斯·福利乌斯·卡米卢斯，约活动于公元前5世纪至公元前4世纪前后。古罗马政治家与将领，其事迹在古罗马广为传颂。公元前396年攻克維愛，公元前391年被流放。公元前390年罗马被包围后，他受命担任独裁官，公元前390年到公元前367年前后，他五次出任独裁官的职位。擊敗高盧人入侵，奠定羅馬向外擴張的基礎，被稱為罗慕路斯之後第二位羅馬創造者。卡米卢斯死於羅馬瘟疫。\n",
@@ -27,13 +34,6 @@
       "extract": "百泉为中国河北省一泉群的统称。该泉群位于邢台市境内京广铁路两侧，太行山东麓山脚冲积扇内，分布广达20多平方公里。泉群有分珍珠泉、银沙泉、韩家泉等小泉群。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%99%BE%E6%B3%89_(%E6%B2%B3%E5%8C%97%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Xingtai_Dahuoquan_Park.jpg/330px-Xingtai_Dahuoquan_Park.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓜爾達",
-      "extract": "瓜爾達（Guarda）是瑞士的城鎮，位於該國東部，由格勞賓登州負責管轄，面積31.41平方公里，海拔高度1,653米，2011年人口164，六成居民使用羅曼什語，人口密度每平方公里5人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%9C%E7%88%BE%E9%81%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Guarda02.jpg/330px-Guarda02.jpg",
       "source": "wikipedia"
     }
   ]
