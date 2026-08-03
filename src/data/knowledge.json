@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T01:00:10.336Z",
+  "fetchedAt": "2026-08-03T04:51:08.363Z",
   "items": [
+    {
+      "title": "马库斯·福利乌斯·卡米卢斯",
+      "extract": "马库斯·福利乌斯·卡米卢斯，约活动于公元前5世纪至公元前4世纪前后。古罗马政治家与将领，其事迹在古罗马广为传颂。公元前396年攻克維愛，公元前391年被流放。公元前390年罗马被包围后，他受命担任独裁官，公元前390年到公元前367年前后，他五次出任独裁官的职位。擊敗高盧人入侵，奠定羅馬向外擴張的基礎，被稱為罗慕路斯之後第二位羅馬創造者。卡米卢斯死於羅馬瘟疫。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%BA%93%E6%96%AF%C2%B7%E7%A6%8F%E5%88%A9%E4%B9%8C%E6%96%AF%C2%B7%E5%8D%A1%E7%B1%B3%E5%8D%A2%E6%96%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Firenze.PalVecchio03.JPG/330px-Firenze.PalVecchio03.JPG",
+      "source": "wikipedia"
+    },
     {
       "title": "賴清德內閣",
       "extract": "賴清德內閣是指2017年9月8日至2019年1月14日期間，由時任行政院院長賴清德所領導的中華民國內閣，是蔡英文政府的第二個內閣。\n",
@@ -27,13 +34,6 @@
       "extract": "瓜爾達（Guarda）是瑞士的城鎮，位於該國東部，由格勞賓登州負責管轄，面積31.41平方公里，海拔高度1,653米，2011年人口164，六成居民使用羅曼什語，人口密度每平方公里5人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%93%9C%E7%88%BE%E9%81%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Guarda02.jpg/330px-Guarda02.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "山地蝸牛科",
-      "extract": "山地蝸牛科 是一個小型到中型會呼吸空氣的蝸牛的科級分類單元。原為堅齒螺科之下的山地蝸牛亞科，根據2005年《布歇特和洛克羅伊的腹足類分類》，本科是肺螺類腹足纲软体动物的一種，屬於Punctoidea科；但到了2017年《布歇特等人的腹足類分類》，這個總科成為了旋蝸牛亞目之下的下目地位未定分類。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%9C%B0%E8%9D%B8%E7%89%9B%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/OreohelixSubridis1.jpg/330px-OreohelixSubridis1.jpg",
       "source": "wikipedia"
     }
   ]
