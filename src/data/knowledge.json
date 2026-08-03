@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-02T23:15:59.668Z",
+  "fetchedAt": "2026-08-03T01:00:10.336Z",
   "items": [
+    {
+      "title": "賴清德內閣",
+      "extract": "賴清德內閣是指2017年9月8日至2019年1月14日期間，由時任行政院院長賴清德所領導的中華民國內閣，是蔡英文政府的第二個內閣。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7%E5%85%A7%E9%96%A3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2019%E5%B9%B41%E6%9C%8811%E6%97%A5%E8%A1%8C%E6%94%BF%E9%99%A2%E8%87%A8%E6%99%82%E9%99%A2%E6%9C%83%E5%85%A7%E9%96%A3%E7%B8%BD%E8%BE%AD%E5%BE%8C%E5%90%88%E5%BD%B1.jpg/330px-2019%E5%B9%B41%E6%9C%8811%E6%97%A5%E8%A1%8C%E6%94%BF%E9%99%A2%E8%87%A8%E6%99%82%E9%99%A2%E6%9C%83%E5%85%A7%E9%96%A3%E7%B8%BD%E8%BE%AD%E5%BE%8C%E5%90%88%E5%BD%B1.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "马雷莱菲塞",
       "extract": "马雷莱菲塞 是法国科多尔省的一个市镇，属于博讷区。\n",
@@ -27,13 +34,6 @@
       "extract": "山地蝸牛科 是一個小型到中型會呼吸空氣的蝸牛的科級分類單元。原為堅齒螺科之下的山地蝸牛亞科，根據2005年《布歇特和洛克羅伊的腹足類分類》，本科是肺螺類腹足纲软体动物的一種，屬於Punctoidea科；但到了2017年《布歇特等人的腹足類分類》，這個總科成為了旋蝸牛亞目之下的下目地位未定分類。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%9C%B0%E8%9D%B8%E7%89%9B%E7%A7%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/OreohelixSubridis1.jpg/330px-OreohelixSubridis1.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "1965年太平洋颱風季",
-      "extract": "1965年太平洋颱風季泛指在1965年全年內的任何時間，於赤道以北及國際換日線以西的太平洋水域，以及南中國海所產生的熱帶氣旋。雖然有關方面並沒有設下本颱風季的指定期限，但大部份於西北太平洋的熱帶氣旋通常都會於五月至十二月期間形成。\n",
-      "url": "https://zh.wikipedia.org/wiki/1965%E5%B9%B4%E5%A4%AA%E5%B9%B3%E6%B4%8B%E9%A2%B1%E9%A2%A8%E5%AD%A3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/1965_Pacific_typhoon_season_summary_map.png/330px-1965_Pacific_typhoon_season_summary_map.png",
       "source": "wikipedia"
     }
   ]
