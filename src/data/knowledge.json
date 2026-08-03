@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T15:56:47.026Z",
+  "fetchedAt": "2026-08-03T18:11:17.482Z",
   "items": [
+    {
+      "title": "鲭形目",
+      "extract": "鲭形目 是辐鳍鱼纲鱸形總目的一个目，包含了17科、約290種魚類，分布世界各大洋，從熱帶到寒帶都有分布，主要為遠洋魚類，也有淺海及半咸水魚種，包括了遠洋魚及底棲性魚類。鯧科、鯖科、帶魚科等常見的經濟魚類都屬於醒目。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%B2%AD%E5%BD%A2%E7%9B%AE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Al_mcglashan_tuna.jpg/330px-Al_mcglashan_tuna.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "丹尼尔·奥谢富",
       "extract": "丹尼尔·哈桑·奥谢富 為奈及利亞裔美國男子籃球運動員。\n",
@@ -27,13 +34,6 @@
       "extract": "马库斯·福利乌斯·卡米卢斯，约活动于公元前5世纪至公元前4世纪前后。古罗马政治家与将领，其事迹在古罗马广为传颂。公元前396年攻克維愛，公元前391年被流放。公元前390年罗马被包围后，他受命担任独裁官，公元前390年到公元前367年前后，他五次出任独裁官的职位。擊敗高盧人入侵，奠定羅馬向外擴張的基礎，被稱為罗慕路斯之後第二位羅馬創造者。卡米卢斯死於羅馬瘟疫。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%BA%93%E6%96%AF%C2%B7%E7%A6%8F%E5%88%A9%E4%B9%8C%E6%96%AF%C2%B7%E5%8D%A1%E7%B1%B3%E5%8D%A2%E6%96%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Firenze.PalVecchio03.JPG/330px-Firenze.PalVecchio03.JPG",
-      "source": "wikipedia"
-    },
-    {
-      "title": "賴清德內閣",
-      "extract": "賴清德內閣是指2017年9月8日至2019年1月14日期間，由時任行政院院長賴清德所領導的中華民國內閣，是蔡英文政府的第二個內閣。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7%E5%85%A7%E9%96%A3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2019%E5%B9%B41%E6%9C%8811%E6%97%A5%E8%A1%8C%E6%94%BF%E9%99%A2%E8%87%A8%E6%99%82%E9%99%A2%E6%9C%83%E5%85%A7%E9%96%A3%E7%B8%BD%E8%BE%AD%E5%BE%8C%E5%90%88%E5%BD%B1.jpg/330px-2019%E5%B9%B41%E6%9C%8811%E6%97%A5%E8%A1%8C%E6%94%BF%E9%99%A2%E8%87%A8%E6%99%82%E9%99%A2%E6%9C%83%E5%85%A7%E9%96%A3%E7%B8%BD%E8%BE%AD%E5%BE%8C%E5%90%88%E5%BD%B1.jpg",
       "source": "wikipedia"
     }
   ]
