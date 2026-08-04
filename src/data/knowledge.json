@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-04T10:01:06.570Z",
+  "fetchedAt": "2026-08-04T12:20:53.992Z",
   "items": [
+    {
+      "title": "安德列·納瓦拉",
+      "extract": "安德列-尼古拉·納瓦拉，法國大提琴家，教師。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E5%88%97%C2%B7%E7%B4%8D%E7%93%A6%E6%8B%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/%D7%90%D7%A0%D7%93%D7%A8%D7%94_%D7%A0%D7%90%D7%95%D7%95%D7%90%D7%A8%D7%94.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "史密斯威森M27左輪手槍",
       "extract": "史密斯威森M27 是一系列由美国槍械公司史密斯威森所研製及生產的6發式碳鋼“N型底把”雙動操作式左輪手槍，最早於1935年開始生產，並在1990年代停止生產，發射.357 S&W馬格南或火力相對較弱的.38 S&W特種彈這二種子彈。它具有31⁄2、4、5、6和83⁄8英吋多種槍管長度和可調節式機械瞄具。\n",
@@ -27,13 +34,6 @@
       "extract": "武定直隸州，清朝时在今云南省设置的直隸州。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%AE%9A%E7%9B%B4%E9%9A%B8%E5%B7%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/%E6%AD%A6%E5%AE%9A%E5%B7%9E%E4%BD%8D%E7%BD%AE%E5%9B%BE1820.svg/langzh-330px-%E6%AD%A6%E5%AE%9A%E5%B7%9E%E4%BD%8D%E7%BD%AE%E5%9B%BE1820.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "新宾满族自治县",
-      "extract": "新宾满族自治县，是辽宁省抚顺市下辖的一个自治县，旧称兴京，总面积4432平方公里。 系1985年，经国务院批准，辽宁省新宾县成立全国第一个满族自治县。首任县长金维新，副县长高鹏(女)。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%AE%BE%E6%BB%A1%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8E%BF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Yanshui_Bridge_1.jpg/330px-Yanshui_Bridge_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
