@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-04T12:20:53.992Z",
+  "fetchedAt": "2026-08-04T15:39:05.286Z",
   "items": [
+    {
+      "title": "中園路",
+      "extract": "中園路為臺灣桃園市中壢區之重要道路之一，緊鄰中壢工業區，北銜接大園區中正東路三段，南迄於中壢區中華路二段並銜接忠義路。全線屬於市道110甲線，共分二段，以中山高速公路為分段點並設有內壢交流道。內壢交流道至南園二路為雙向六車道；南園二路至中華路二段為雙向四車道。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%92%E8%B7%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%E4%B8%AD%E5%A3%A2%E5%B8%82%E4%B8%AD%E5%9C%92%E8%B7%AF.JPG/330px-%E4%B8%AD%E5%A3%A2%E5%B8%82%E4%B8%AD%E5%9C%92%E8%B7%AF.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "安德列·納瓦拉",
       "extract": "安德列-尼古拉·納瓦拉，法國大提琴家，教師。\n",
@@ -27,13 +34,6 @@
       "extract": "在信息论中，熵 是接收的每条消息中包含的信息的平均量。这里的“消息”代表来自分布或数据流中的事件、样本或特征。 来自信源的另一个特征是样本的概率分布。这里的想法是，比较不可能发生的事情，当它发生了，会提供更多的信息。由于一些其他的原因，把信息（熵）定义为概率分布的对数的相反数是有道理的。事件的概率分布和每个事件的信息量构成了一个随机变量，这个随机变量的均值（即期望）就是这个分布产生的信息量的平均值（即熵）。熵的单位通常为比特，但也用Sh、nat、Hart计量，取决于定义用到对数的底。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%86%B5_(%E4%BF%A1%E6%81%AF%E8%AE%BA)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Entropy_flip_2_coins.jpg/330px-Entropy_flip_2_coins.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "武定直隸州",
-      "extract": "武定直隸州，清朝时在今云南省设置的直隸州。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%AE%9A%E7%9B%B4%E9%9A%B8%E5%B7%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/%E6%AD%A6%E5%AE%9A%E5%B7%9E%E4%BD%8D%E7%BD%AE%E5%9B%BE1820.svg/langzh-330px-%E6%AD%A6%E5%AE%9A%E5%B7%9E%E4%BD%8D%E7%BD%AE%E5%9B%BE1820.svg.png",
       "source": "wikipedia"
     }
   ]
