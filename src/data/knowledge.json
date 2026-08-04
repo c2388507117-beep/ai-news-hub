@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-04T06:43:43.053Z",
+  "fetchedAt": "2026-08-04T10:01:06.570Z",
   "items": [
+    {
+      "title": "史密斯威森M27左輪手槍",
+      "extract": "史密斯威森M27 是一系列由美国槍械公司史密斯威森所研製及生產的6發式碳鋼“N型底把”雙動操作式左輪手槍，最早於1935年開始生產，並在1990年代停止生產，發射.357 S&W馬格南或火力相對較弱的.38 S&W特種彈這二種子彈。它具有31⁄2、4、5、6和83⁄8英吋多種槍管長度和可調節式機械瞄具。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF%E5%A8%81%E6%A3%AEM27%E5%B7%A6%E8%BC%AA%E6%89%8B%E6%A7%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Model_27_web.jpg/330px-Model_27_web.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "黎德英",
       "extract": "黎德英，越南原国家主席，越南共产党原中央政治局常委。\n",
@@ -27,13 +34,6 @@
       "extract": "新宾满族自治县，是辽宁省抚顺市下辖的一个自治县，旧称兴京，总面积4432平方公里。 系1985年，经国务院批准，辽宁省新宾县成立全国第一个满族自治县。首任县长金维新，副县长高鹏(女)。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%AE%BE%E6%BB%A1%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8E%BF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Yanshui_Bridge_1.jpg/330px-Yanshui_Bridge_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黑白海豚",
-      "extract": "黑白海豚，或稱科梅尔松氏海豚 、科氏海豚、康氏矮海豚、花斑喙头海豚，是黑白海豚属下的一種海豚，其下有兩個亞種，分別生活在南美洲（C.c.commersonii）和凯尔盖朗群岛（C.c.kerguelensis）附近。其身體黑白相間，因而得名。其种加詞來自法國博物學家菲利贝尔·科梅尔松 的姓，他在1767年首次于麥哲倫海峽觀測並描述了這些生物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%99%BD%E6%B5%B7%E8%B1%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Commerson%27s_dolphin_size.svg/langzh-330px-Commerson%27s_dolphin_size.svg.png",
       "source": "wikipedia"
     }
   ]
