@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-03T23:29:23.609Z",
+  "fetchedAt": "2026-08-04T03:42:36.829Z",
   "items": [
+    {
+      "title": "熵 (信息论)",
+      "extract": "在信息论中，熵 是接收的每条消息中包含的信息的平均量。这里的“消息”代表来自分布或数据流中的事件、样本或特征。 来自信源的另一个特征是样本的概率分布。这里的想法是，比较不可能发生的事情，当它发生了，会提供更多的信息。由于一些其他的原因，把信息（熵）定义为概率分布的对数的相反数是有道理的。事件的概率分布和每个事件的信息量构成了一个随机变量，这个随机变量的均值（即期望）就是这个分布产生的信息量的平均值（即熵）。熵的单位通常为比特，但也用Sh、nat、Hart计量，取决于定义用到对数的底。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%86%B5_(%E4%BF%A1%E6%81%AF%E8%AE%BA)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Entropy_flip_2_coins.jpg/330px-Entropy_flip_2_coins.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "武定直隸州",
       "extract": "武定直隸州，清朝时在今云南省设置的直隸州。\n",
@@ -27,13 +34,6 @@
       "extract": "鲭形目 是辐鳍鱼纲鱸形總目的一个目，包含了17科、約290種魚類，分布世界各大洋，從熱帶到寒帶都有分布，主要為遠洋魚類，也有淺海及半咸水魚種，包括了遠洋魚及底棲性魚類。鯧科、鯖科、帶魚科等常見的經濟魚類都屬於醒目。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%B2%AD%E5%BD%A2%E7%9B%AE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Al_mcglashan_tuna.jpg/330px-Al_mcglashan_tuna.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "丹尼尔·奥谢富",
-      "extract": "丹尼尔·哈桑·奥谢富 為奈及利亞裔美國男子籃球運動員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%B9%E5%B0%BC%E5%B0%94%C2%B7%E5%A5%A5%E8%B0%A2%E5%AF%8C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Daniel_Ochefu.jpg/330px-Daniel_Ochefu.jpg",
       "source": "wikipedia"
     }
   ]
