@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-04T03:42:36.829Z",
+  "fetchedAt": "2026-08-04T06:43:43.053Z",
   "items": [
+    {
+      "title": "黎德英",
+      "extract": "黎德英，越南原国家主席，越南共产党原中央政治局常委。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%8E%E5%BE%B7%E8%8B%B1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Leducanh2.jpg/330px-Leducanh2.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "熵 (信息论)",
       "extract": "在信息论中，熵 是接收的每条消息中包含的信息的平均量。这里的“消息”代表来自分布或数据流中的事件、样本或特征。 来自信源的另一个特征是样本的概率分布。这里的想法是，比较不可能发生的事情，当它发生了，会提供更多的信息。由于一些其他的原因，把信息（熵）定义为概率分布的对数的相反数是有道理的。事件的概率分布和每个事件的信息量构成了一个随机变量，这个随机变量的均值（即期望）就是这个分布产生的信息量的平均值（即熵）。熵的单位通常为比特，但也用Sh、nat、Hart计量，取决于定义用到对数的底。\n",
@@ -27,13 +34,6 @@
       "extract": "黑白海豚，或稱科梅尔松氏海豚 、科氏海豚、康氏矮海豚、花斑喙头海豚，是黑白海豚属下的一種海豚，其下有兩個亞種，分別生活在南美洲（C.c.commersonii）和凯尔盖朗群岛（C.c.kerguelensis）附近。其身體黑白相間，因而得名。其种加詞來自法國博物學家菲利贝尔·科梅尔松 的姓，他在1767年首次于麥哲倫海峽觀測並描述了這些生物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%99%BD%E6%B5%B7%E8%B1%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Commerson%27s_dolphin_size.svg/langzh-330px-Commerson%27s_dolphin_size.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鲭形目",
-      "extract": "鲭形目 是辐鳍鱼纲鱸形總目的一个目，包含了17科、約290種魚類，分布世界各大洋，從熱帶到寒帶都有分布，主要為遠洋魚類，也有淺海及半咸水魚種，包括了遠洋魚及底棲性魚類。鯧科、鯖科、帶魚科等常見的經濟魚類都屬於醒目。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%B2%AD%E5%BD%A2%E7%9B%AE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Al_mcglashan_tuna.jpg/330px-Al_mcglashan_tuna.jpg",
       "source": "wikipedia"
     }
   ]
