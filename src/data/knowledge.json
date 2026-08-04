@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-04T20:02:57.103Z",
+  "fetchedAt": "2026-08-04T21:40:02.724Z",
   "items": [
+    {
+      "title": "辛弗林",
+      "extract": "辛弗林是一种膳食补充剂，可以帮助减少人体内的脂肪。尽管它的功能还存在争议，目前辛弗林已经成为了在美国更具争议的另一种膳食补充剂麻黄(Ephedra)的替代品。辛弗林主要是从一种水果苦酸橙(Citrus aurantium)中提取出来的。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%BE%9B%E5%BC%97%E6%9E%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Synephrine.svg/langzh-330px-Synephrine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "白翅哀鴿",
       "extract": "白翅哀鴿 是哀鴿屬下的一種鳥，原產於美國西南部到墨西哥和加勒比群島的中美洲地區。其棲息地已經拓展到了人類的都市中。\n",
@@ -27,13 +34,6 @@
       "extract": "安德列-尼古拉·納瓦拉，法國大提琴家，教師。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E5%88%97%C2%B7%E7%B4%8D%E7%93%A6%E6%8B%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/%D7%90%D7%A0%D7%93%D7%A8%D7%94_%D7%A0%D7%90%D7%95%D7%95%D7%90%D7%A8%D7%94.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "史密斯威森M27左輪手槍",
-      "extract": "史密斯威森M27 是一系列由美国槍械公司史密斯威森所研製及生產的6發式碳鋼“N型底把”雙動操作式左輪手槍，最早於1935年開始生產，並在1990年代停止生產，發射.357 S&W馬格南或火力相對較弱的.38 S&W特種彈這二種子彈。它具有31⁄2、4、5、6和83⁄8英吋多種槍管長度和可調節式機械瞄具。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF%E5%A8%81%E6%A3%AEM27%E5%B7%A6%E8%BC%AA%E6%89%8B%E6%A7%8D",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Model_27_web.jpg/330px-Model_27_web.jpg",
       "source": "wikipedia"
     }
   ]
