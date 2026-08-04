@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-04T18:06:50.686Z",
+  "fetchedAt": "2026-08-04T20:02:57.103Z",
   "items": [
+    {
+      "title": "白翅哀鴿",
+      "extract": "白翅哀鴿 是哀鴿屬下的一種鳥，原產於美國西南部到墨西哥和加勒比群島的中美洲地區。其棲息地已經拓展到了人類的都市中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E7%BF%85%E5%93%80%E9%B4%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Zenaida_asiatica_-Tuscon_-Arizona_-USA_-8a.jpg/330px-Zenaida_asiatica_-Tuscon_-Arizona_-USA_-8a.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "横沙乡",
       "extract": "横沙乡，是中华人民共和国上海市崇明区下辖的一个乡级行政单位。位于崇明区东南部吴淞口外长江南支水道的横沙岛上，因名横沙乡。横沙乡管辖范围即横沙东滩大规模填海前的原横沙岛范围，东接人工填海形成的横沙新洲农业园，西与长兴镇隔水相望，全境呈三角形，面积51.74平方公里。户籍人口约3.3万人。\n",
@@ -27,13 +34,6 @@
       "extract": "史密斯威森M27 是一系列由美国槍械公司史密斯威森所研製及生產的6發式碳鋼“N型底把”雙動操作式左輪手槍，最早於1935年開始生產，並在1990年代停止生產，發射.357 S&W馬格南或火力相對較弱的.38 S&W特種彈這二種子彈。它具有31⁄2、4、5、6和83⁄8英吋多種槍管長度和可調節式機械瞄具。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF%E5%A8%81%E6%A3%AEM27%E5%B7%A6%E8%BC%AA%E6%89%8B%E6%A7%8D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Model_27_web.jpg/330px-Model_27_web.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黎德英",
-      "extract": "黎德英，越南原国家主席，越南共产党原中央政治局常委。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%8E%E5%BE%B7%E8%8B%B1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Leducanh2.jpg/330px-Leducanh2.jpg",
       "source": "wikipedia"
     }
   ]
