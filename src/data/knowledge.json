@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-05T15:31:16.378Z",
+  "fetchedAt": "2026-08-05T17:55:56.609Z",
   "items": [
+    {
+      "title": "普世教會協會",
+      "extract": "普世教会协会，又称世界基督教协会或世界基督教协进会，簡稱普世教协，是一个创立于1948年的基督教跨教派合一运动组织。目前，其会员包括了基督教各种主流派系的教会，不过天主教会以观察员的形式参加会议。该组织的宗旨是促进普世教会合一运动，并以下列声明作为其基础：\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E4%B8%96%E6%95%99%E6%9C%83%E5%8D%94%E6%9C%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/5/51/World_Council_of_Churches_logo.svg/langzh-330px-World_Council_of_Churches_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "石勒蘇益格-荷爾斯泰因瓦登海國家公園",
       "extract": "石勒蘇益格-荷爾斯泰因瓦登海國家公園 是德國的國家公園，始建於1985年10月1日，面積4,410平方公里，該國家公園在2009年6月26日被聯合國教科文組織列為世界遺產。\n",
@@ -27,13 +34,6 @@
       "extract": "2016年夏季奧林匹克运动会荷兰代表团派出242名运动员参加2016年8月5日至8月21日在巴西里约热内卢举行的第三十一届奥林匹克运动会。\n",
       "url": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4%E5%A4%8F%E5%AD%A3%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%81%8B%E5%8B%95%E6%9C%83%E8%8D%B7%E8%98%AD%E4%BB%A3%E8%A1%A8%E5%9C%98",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/langzh-330px-Flag_of_the_Netherlands.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "春天出版",
-      "extract": "春天出版集團，是臺灣的一家出版集團。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%98%A5%E5%A4%A9%E5%87%BA%E7%89%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Spring_Publishing_Group_in_Comic_Exhibition_20130817.jpg/330px-Spring_Publishing_Group_in_Comic_Exhibition_20130817.jpg",
       "source": "wikipedia"
     }
   ]
