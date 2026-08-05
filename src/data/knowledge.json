@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-05T06:45:08.901Z",
+  "fetchedAt": "2026-08-05T09:59:40.649Z",
   "items": [
+    {
+      "title": "福德佩尔",
+      "extract": "福德佩尔 是法国洛泽尔省的一个旧市镇，属于芒德区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%BE%B7%E4%BD%A9%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Eglise-du-Fau.jpg/330px-Eglise-du-Fau.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "2016年夏季奧林匹克運動會荷蘭代表團",
       "extract": "2016年夏季奧林匹克运动会荷兰代表团派出242名运动员参加2016年8月5日至8月21日在巴西里约热内卢举行的第三十一届奥林匹克运动会。\n",
@@ -27,13 +34,6 @@
       "extract": "辛弗林是一种膳食补充剂，可以帮助减少人体内的脂肪。尽管它的功能还存在争议，目前辛弗林已经成为了在美国更具争议的另一种膳食补充剂麻黄(Ephedra)的替代品。辛弗林主要是从一种水果苦酸橙(Citrus aurantium)中提取出来的。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%BE%9B%E5%BC%97%E6%9E%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Synephrine.svg/langzh-330px-Synephrine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "白翅哀鴿",
-      "extract": "白翅哀鴿 是哀鴿屬下的一種鳥，原產於美國西南部到墨西哥和加勒比群島的中美洲地區。其棲息地已經拓展到了人類的都市中。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E7%BF%85%E5%93%80%E9%B4%BF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Zenaida_asiatica_-Tuscon_-Arizona_-USA_-8a.jpg/330px-Zenaida_asiatica_-Tuscon_-Arizona_-USA_-8a.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
