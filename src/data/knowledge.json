@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-05T09:59:40.649Z",
+  "fetchedAt": "2026-08-05T12:19:36.083Z",
   "items": [
+    {
+      "title": "蘇爾特 (利比亞)",
+      "extract": "蘇特 是位於利比亚北部锡德拉湾沿岸的一座港口城市，蘇爾特省首府。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E7%88%BE%E7%89%B9_(%E5%88%A9%E6%AF%94%E4%BA%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Sirte2.jpg/330px-Sirte2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "福德佩尔",
       "extract": "福德佩尔 是法国洛泽尔省的一个旧市镇，属于芒德区。\n",
@@ -27,13 +34,6 @@
       "extract": "華城市，大韓民國京畿道下轄的特例市，国际大企业三星電子在此市設有先進製程的晶圓廠，華城市境內工業發達，有化工、機械食品加工、汽車等多种產業，此外，農業、水產業及畜牧業亦發達。交通便利，共有三條高速公路經過。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8F%AF%E5%9F%8E%E5%B8%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gungpyeong_Port_%289521509283%29.jpg/330px-Gungpyeong_Port_%289521509283%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "辛弗林",
-      "extract": "辛弗林是一种膳食补充剂，可以帮助减少人体内的脂肪。尽管它的功能还存在争议，目前辛弗林已经成为了在美国更具争议的另一种膳食补充剂麻黄(Ephedra)的替代品。辛弗林主要是从一种水果苦酸橙(Citrus aurantium)中提取出来的。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%BE%9B%E5%BC%97%E6%9E%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Synephrine.svg/langzh-330px-Synephrine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
