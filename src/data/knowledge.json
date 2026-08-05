@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-05T19:58:00.808Z",
+  "fetchedAt": "2026-08-05T21:36:28.307Z",
   "items": [
+    {
+      "title": "納亞巴德清真寺",
+      "extract": "纳亚巴德清真寺 是孟加拉国的一个清真寺，位於迪纳杰布尔县的卡哈羅萊烏帕齊拉，坐落在德帕河畔。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E4%BA%9E%E5%B7%B4%E5%BE%B7%E6%B8%85%E7%9C%9F%E5%AF%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Noyabaad_Mosque_%286%29.jpg/330px-Noyabaad_Mosque_%286%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "科隆达讷",
       "extract": "科隆达讷 是法国克勒兹省的一个市镇，位于该省西北部，属于盖雷区。\n",
@@ -27,13 +34,6 @@
       "extract": "蘇特 是位於利比亚北部锡德拉湾沿岸的一座港口城市，蘇爾特省首府。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E7%88%BE%E7%89%B9_(%E5%88%A9%E6%AF%94%E4%BA%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Sirte2.jpg/330px-Sirte2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "福德佩尔",
-      "extract": "福德佩尔 是法国洛泽尔省的一个旧市镇，属于芒德区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%BE%B7%E4%BD%A9%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Eglise-du-Fau.jpg/330px-Eglise-du-Fau.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
