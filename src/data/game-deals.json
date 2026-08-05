@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T21:36:23.481Z",
+  "fetchedAt": "2026-08-05T23:25:35.927Z",
   "items": [
     {
       "id": "steam-1091500",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-1817070",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-1817190",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-3527290",
@@ -51,20 +51,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-1144200",
       "title": "Ready or Not",
       "url": "https://store.steampowered.com/app/1144200?l=schinese",
       "discount": 50,
-      "originalPrice": 159,
-      "finalPrice": 79.5,
+      "originalPrice": 49.99,
+      "finalPrice": 24.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.927Z"
     },
     {
       "id": "steam-1627720",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.481Z"
+      "publishedAt": "2026-08-05T23:25:35.927Z"
     },
     {
       "id": "steam-2138330",
@@ -90,7 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
+    },
+    {
+      "id": "steam-2001120",
+      "title": "双影奇境",
+      "url": "https://store.steampowered.com/app/2001120?l=schinese",
+      "discount": 35,
+      "originalPrice": 198,
+      "finalPrice": 128.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-2651280",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-1086940",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.680Z"
     },
     {
       "id": "steam-1478500",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-4108000",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.259Z"
+      "publishedAt": "2026-08-05T23:25:35.681Z"
     },
     {
       "id": "steam-2142790",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-05T21:36:23.481Z"
+      "publishedAt": "2026-08-05T23:25:35.927Z"
     }
   ]
 }
