@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-06T10:01:48.288Z",
+  "fetchedAt": "2026-08-06T12:21:34.301Z",
   "items": [
+    {
+      "title": "Rei",
+      "extract": "直井怜，日本女歌手，藝名Rei，是韓國STARSHIP娛樂旗下女子團體IVE成員之一，隊內擔任饶舌及Vocal。\n",
+      "url": "https://zh.wikipedia.org/wiki/Rei",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Rei_of_Ive_at_the_Valentino_event%2C_March_20%2C_2026_%283%29.png/330px-Rei_of_Ive_at_the_Valentino_event%2C_March_20%2C_2026_%283%29.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "恩里科·丹多洛",
       "extract": "恩里科·丹多洛，第四十一任威尼斯总督，威尼斯历史上著名的商人兼政治军事家。第四次十字军东征时他成功诱导十字军把矛头从耶路撒冷转向东罗马帝国的首都君士坦丁堡。据说他早年行商时曾在君士坦丁堡被迫害下狱并被弄瞎双眼，当时正是君士坦丁人排斥威尼斯商人的时候。 有认为这是他后来血洗君士坦丁堡的私人原因。\n",
@@ -27,13 +34,6 @@
       "extract": "克雷日莱莫 是法国法蘭西島大區塞纳-马恩省的一个市镇，属于莫城区。 \n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%9B%B7%E6%97%A5%E8%8E%B1%E8%8E%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cr%C3%A9gy-l%C3%A8s-Meaux_%2877%29%2C_mairie_et_%C3%A9glise_St-Laurent_XIXe_s.%2C_rue_Jean-Jaur%C3%A8s_02.jpg/330px-Cr%C3%A9gy-l%C3%A8s-Meaux_%2877%29%2C_mairie_et_%C3%A9glise_St-Laurent_XIXe_s.%2C_rue_Jean-Jaur%C3%A8s_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "納亞巴德清真寺",
-      "extract": "纳亚巴德清真寺 是孟加拉国的一个清真寺，位於迪纳杰布尔县的卡哈羅萊烏帕齊拉，坐落在德帕河畔。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E4%BA%9E%E5%B7%B4%E5%BE%B7%E6%B8%85%E7%9C%9F%E5%AF%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Noyabaad_Mosque_%286%29.jpg/330px-Noyabaad_Mosque_%286%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
