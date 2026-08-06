@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-06T07:05:55.051Z",
+  "fetchedAt": "2026-08-06T10:01:48.288Z",
   "items": [
+    {
+      "title": "恩里科·丹多洛",
+      "extract": "恩里科·丹多洛，第四十一任威尼斯总督，威尼斯历史上著名的商人兼政治军事家。第四次十字军东征时他成功诱导十字军把矛头从耶路撒冷转向东罗马帝国的首都君士坦丁堡。据说他早年行商时曾在君士坦丁堡被迫害下狱并被弄瞎双眼，当时正是君士坦丁人排斥威尼斯商人的时候。 有认为这是他后来血洗君士坦丁堡的私人原因。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%81%A9%E9%87%8C%E7%A7%91%C2%B7%E4%B8%B9%E5%A4%9A%E6%B4%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/EnricoDandolo.jpg/330px-EnricoDandolo.jpg",
+      "source": "wikipedia"
+    },
     {
       "title": "兴辽",
       "extract": "兴辽 是一个由渤海国遗民建立的政权，有独立的年号。\n",
@@ -27,13 +34,6 @@
       "extract": "纳亚巴德清真寺 是孟加拉国的一个清真寺，位於迪纳杰布尔县的卡哈羅萊烏帕齊拉，坐落在德帕河畔。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E4%BA%9E%E5%B7%B4%E5%BE%B7%E6%B8%85%E7%9C%9F%E5%AF%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Noyabaad_Mosque_%286%29.jpg/330px-Noyabaad_Mosque_%286%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "科隆达讷",
-      "extract": "科隆达讷 是法国克勒兹省的一个市镇，位于该省西北部，属于盖雷区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E9%9A%86%E8%BE%BE%E8%AE%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Colondannes_%C3%A9glise_et_presbyt%C3%A8re.jpg/330px-Colondannes_%C3%A9glise_et_presbyt%C3%A8re.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
