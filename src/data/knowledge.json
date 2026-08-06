@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-06T12:21:34.301Z",
+  "fetchedAt": "2026-08-06T15:32:01.115Z",
   "items": [
+    {
+      "title": "Calibre",
+      "extract": "calibre是一個自由開源的電子書軟體套裝，可以用來組織、存放、以及管理電子書，支援大多數的電子書格式。同時支援與許多流行的電子書閱讀器進行同步，並可能在DRM的限制下轉換電子書的格式。\n",
+      "url": "https://zh.wikipedia.org/wiki/Calibre",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Calibre_logo_3.png/330px-Calibre_logo_3.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "Rei",
       "extract": "直井怜，日本女歌手，藝名Rei，是韓國STARSHIP娛樂旗下女子團體IVE成員之一，隊內擔任饶舌及Vocal。\n",
@@ -27,13 +34,6 @@
       "extract": "逆疫苗，即反向疫苗或逆向疫苗，是一种设想中的疫苗使用方法，旨在训练免疫系统不对某些物质产生免疫反应。在实验室条件下，逆疫苗已被证明可以对抗自身免疫性疾病。自身免疫性疾病会攻击人体自身的细胞和物质，逆疫苗的作用机制正是对抗这种攻击。目前对抗自身免疫性疾病的方法是抑制整个免疫系统，这会导致人体无法抵抗感染。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%80%86%E7%96%AB%E8%8B%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Testing_vaccine_in_laboratory._Holding_syringe_with_protective_medical_gloves_closeup._%2851714051263%29.jpg/330px-Testing_vaccine_in_laboratory._Holding_syringe_with_protective_medical_gloves_closeup._%2851714051263%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "克雷日莱莫",
-      "extract": "克雷日莱莫 是法国法蘭西島大區塞纳-马恩省的一个市镇，属于莫城区。 \n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%9B%B7%E6%97%A5%E8%8E%B1%E8%8E%AB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cr%C3%A9gy-l%C3%A8s-Meaux_%2877%29%2C_mairie_et_%C3%A9glise_St-Laurent_XIXe_s.%2C_rue_Jean-Jaur%C3%A8s_02.jpg/330px-Cr%C3%A9gy-l%C3%A8s-Meaux_%2877%29%2C_mairie_et_%C3%A9glise_St-Laurent_XIXe_s.%2C_rue_Jean-Jaur%C3%A8s_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
