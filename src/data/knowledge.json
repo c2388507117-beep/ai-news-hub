@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-06T15:32:01.115Z",
+  "fetchedAt": "2026-08-07T00:18:05.423Z",
   "items": [
+    {
+      "title": "泡叶栒子",
+      "extract": "泡叶栒子 为蔷薇科栒子属的植物，为中国的特有植物。分布于中国大陆的云南、四川、西藏、湖北等地，生长于海拔2,000米至3,200米的地区，一般生长在河岸旁、坡地疏林内及山沟边。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A1%E5%8F%B6%E6%A0%92%E5%AD%90",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cotoneaster-bullatus.JPG/330px-Cotoneaster-bullatus.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "Calibre",
       "extract": "calibre是一個自由開源的電子書軟體套裝，可以用來組織、存放、以及管理電子書，支援大多數的電子書格式。同時支援與許多流行的電子書閱讀器進行同步，並可能在DRM的限制下轉換電子書的格式。\n",
@@ -27,13 +34,6 @@
       "extract": "兴辽 是一个由渤海国遗民建立的政权，有独立的年号。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%B4%E8%BE%BD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Heungyo.svg/langzh-330px-Heungyo.svg.png",
-      "source": "wikipedia"
-    },
-    {
-      "title": "逆疫苗",
-      "extract": "逆疫苗，即反向疫苗或逆向疫苗，是一种设想中的疫苗使用方法，旨在训练免疫系统不对某些物质产生免疫反应。在实验室条件下，逆疫苗已被证明可以对抗自身免疫性疾病。自身免疫性疾病会攻击人体自身的细胞和物质，逆疫苗的作用机制正是对抗这种攻击。目前对抗自身免疫性疾病的方法是抑制整个免疫系统，这会导致人体无法抵抗感染。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%80%86%E7%96%AB%E8%8B%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Testing_vaccine_in_laboratory._Holding_syringe_with_protective_medical_gloves_closeup._%2851714051263%29.jpg/330px-Testing_vaccine_in_laboratory._Holding_syringe_with_protective_medical_gloves_closeup._%2851714051263%29.jpg",
       "source": "wikipedia"
     }
   ]
