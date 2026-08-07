@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T22:57:09.903Z",
+  "fetchedAt": "2026-08-07T23:50:49.825Z",
   "items": [
+    {
+      "title": "姜永勳",
+      "extract": "姜永勳，韓國外交官，2019年起成為第11任駐台北韓國代表部代表，先前歷任駐檀香山總領事、外交部南亞太平洋局局長、駐澳洲公使銜參事及日本、俄羅斯、加拿大等地駐外使領館的勤務，亦曾於總統秘書室及外交部前身機構——外務部與外交通商部內擔當官職。其於駐檀香山總領事任內，曾從事韓國與夏威夷美軍印太司令部間的軍事外交，並獲得「強化韓美同盟」以及「致力拓展夏威夷韓僑政治力量」等評價。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A7%9C%E6%B0%B8%E5%8B%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/115A5411_Young-hoon_Kang%2C_consul_general_of_the_Republic_of_Korea_in_Honolulu_%28Flickr_id_33531248898%29.jpg/330px-115A5411_Young-hoon_Kang%2C_consul_general_of_the_Republic_of_Korea_in_Honolulu_%28Flickr_id_33531248898%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "臺灣總督府農商局食糧部臺中事務所",
       "extract": "農業部農糧署中區分署臺中辦事處，前身臺灣總督府農商局食糧部臺中事務所，該辦公署為1941年臺灣日治時期所建之木造二階建事務所建築，原名臺灣總督府米榖局臺中事務所，下轄有清水出張所、彰化出張所與員林出張所。1945年後，作為臺中地區農糧相關部門之辦公機構使用，現今則由農委會農糧署中區分署臺中辦事處進行使用。2005年，該建築以「日治時臺中公共建築代表作品之一」、「整體空間使用方式仍保存至今，具有保存及建築研究價值」、「掌管之糧政業務，具有地方產業歷史變遷研究價值」為由，獲臺中市政府登錄為歷史建築。\n",
@@ -27,13 +34,6 @@
       "extract": "奥雷利娅別墅 是一座历史悠久的新艺术运动風格的别墅，位于意大利科莫湖畔的列纳古村落。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E9%9B%B7%E5%88%A9%E5%A8%85%E5%88%AB%E5%A2%85",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lago_di_Como%2C_Lierna%2C_Lombardy%2C_Italy_-_panoramio_%281%29.jpg/330px-Lago_di_Como%2C_Lierna%2C_Lombardy%2C_Italy_-_panoramio_%281%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "涅克拉索夫卡站",
-      "extract": "涅克拉索夫卡站 是莫斯科地鐵涅克拉索夫卡線的一個車站。在2019年6月3日啟用。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B6%85%E5%85%8B%E6%8B%89%E7%B4%A2%E5%A4%AB%E5%8D%A1%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Moscow_Nekrasovka_metro_station_asv2019-06.jpg/330px-Moscow_Nekrasovka_metro_station_asv2019-06.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
