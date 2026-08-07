@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T21:57:56.958Z",
+  "fetchedAt": "2026-08-07T22:57:09.903Z",
   "items": [
+    {
+      "title": "臺灣總督府農商局食糧部臺中事務所",
+      "extract": "農業部農糧署中區分署臺中辦事處，前身臺灣總督府農商局食糧部臺中事務所，該辦公署為1941年臺灣日治時期所建之木造二階建事務所建築，原名臺灣總督府米榖局臺中事務所，下轄有清水出張所、彰化出張所與員林出張所。1945年後，作為臺中地區農糧相關部門之辦公機構使用，現今則由農委會農糧署中區分署臺中辦事處進行使用。2005年，該建築以「日治時臺中公共建築代表作品之一」、「整體空間使用方式仍保存至今，具有保存及建築研究價值」、「掌管之糧政業務，具有地方產業歷史變遷研究價值」為由，獲臺中市政府登錄為歷史建築。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E8%BE%B2%E5%95%86%E5%B1%80%E9%A3%9F%E7%B3%A7%E9%83%A8%E8%87%BA%E4%B8%AD%E4%BA%8B%E5%8B%99%E6%89%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Taichung_Office_of_Agriculture_and_Food_Agency.JPG/330px-Taichung_Office_of_Agriculture_and_Food_Agency.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "普尔朗",
       "extract": "普尔朗 是法国索恩-卢瓦尔省的一个市镇，属于卢昂区。\n",
@@ -27,13 +34,6 @@
       "extract": "涅克拉索夫卡站 是莫斯科地鐵涅克拉索夫卡線的一個車站。在2019年6月3日啟用。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B6%85%E5%85%8B%E6%8B%89%E7%B4%A2%E5%A4%AB%E5%8D%A1%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Moscow_Nekrasovka_metro_station_asv2019-06.jpg/330px-Moscow_Nekrasovka_metro_station_asv2019-06.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "平成",
-      "extract": "平成 是日本第125代天皇明仁使用的年號。自1989年1月8日明仁繼位開始使用，至2019年4月30日明仁退位結束。平成於中國宋朝元豐（1078—1085）、日本江戶時代慶應（1865—1868）改元之際，也曾為年號候選詞之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E6%88%90",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Emperor_Akihito_199011_1.jpg/330px-Emperor_Akihito_199011_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
