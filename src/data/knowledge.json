@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T07:45:49.200Z",
+  "fetchedAt": "2026-08-07T09:17:34.411Z",
   "items": [
+    {
+      "title": "金韬",
+      "extract": "金韬（1954年7月—），黑龙江人，北京电影学院毕业，属第五代导演，中国大陆影视导演、编剧。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%9F%AC",
+      "imageUrl": null,
+      "source": "wikipedia"
+    },
     {
       "title": "齐乐互动",
       "extract": "齐乐互动，全稱齐乐互动（北京）科技有限公司是一家總部位於中華人民共和國北京市海淀区的電子遊戲開發商和發行商，主要開發社交遊戲。2011年被熱酷收購，員工全部合併到熱酷旗下開發團隊中。\n",
@@ -27,13 +34,6 @@
       "extract": "泡叶栒子 为蔷薇科栒子属的植物，为中国的特有植物。分布于中国大陆的云南、四川、西藏、湖北等地，生长于海拔2,000米至3,200米的地区，一般生长在河岸旁、坡地疏林内及山沟边。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%A1%E5%8F%B6%E6%A0%92%E5%AD%90",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cotoneaster-bullatus.JPG/330px-Cotoneaster-bullatus.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Calibre",
-      "extract": "calibre是一個自由開源的電子書軟體套裝，可以用來組織、存放、以及管理電子書，支援大多數的電子書格式。同時支援與許多流行的電子書閱讀器進行同步，並可能在DRM的限制下轉換電子書的格式。\n",
-      "url": "https://zh.wikipedia.org/wiki/Calibre",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Calibre_logo_3.png/330px-Calibre_logo_3.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
