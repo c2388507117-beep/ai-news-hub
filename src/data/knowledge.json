@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T09:17:34.411Z",
+  "fetchedAt": "2026-08-07T11:10:11.581Z",
   "items": [
+    {
+      "title": "勒普朗凯",
+      "extract": "勒普朗凯 是法国厄尔省的一个市镇，属于贝尔奈区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E6%99%AE%E6%9C%97%E5%87%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Le_Planquay.jpg/330px-Le_Planquay.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "金韬",
       "extract": "金韬（1954年7月—），黑龙江人，北京电影学院毕业，属第五代导演，中国大陆影视导演、编剧。\n",
@@ -27,13 +34,6 @@
       "extract": "OPV-80型巡逻舰是智利和哥伦比亚海军向德国吕森造船厂订购的一款巡逻舰，共建造7艘，通过技术转移到自家造船厂建造。\n",
       "url": "https://zh.wikipedia.org/wiki/OPV-80%E5%9E%8B%E5%B7%A1%E9%80%BB%E8%88%B0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Botadura_al_mar_de_la_embarcaci%C3%B3n_%E2%80%9CCabo_Odger%E2%80%9D_%2828640402542%29.jpg/330px-Botadura_al_mar_de_la_embarcaci%C3%B3n_%E2%80%9CCabo_Odger%E2%80%9D_%2828640402542%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "泡叶栒子",
-      "extract": "泡叶栒子 为蔷薇科栒子属的植物，为中国的特有植物。分布于中国大陆的云南、四川、西藏、湖北等地，生长于海拔2,000米至3,200米的地区，一般生长在河岸旁、坡地疏林内及山沟边。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A1%E5%8F%B6%E6%A0%92%E5%AD%90",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cotoneaster-bullatus.JPG/330px-Cotoneaster-bullatus.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
