@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T16:11:22.930Z",
+  "fetchedAt": "2026-08-07T17:11:41.846Z",
   "items": [
+    {
+      "title": "平成",
+      "extract": "平成 是日本第125代天皇明仁使用的年號。自1989年1月8日明仁繼位開始使用，至2019年4月30日明仁退位結束。平成於中國宋朝元豐（1078—1085）、日本江戶時代慶應（1865—1868）改元之際，也曾為年號候選詞之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E6%88%90",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Emperor_Akihito_199011_1.jpg/330px-Emperor_Akihito_199011_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "中国民航 (1953年—1987年)",
       "extract": "中国民航，是中国民用航空局于1953年至1987年间，经营民用航空事業所使用的名义。在上述期间，民航局垄断经营中华人民共和国的国际航线、国内干线和工业航空经营业务，並承担中华人民共和国的载旗航空职能。\n",
@@ -27,13 +34,6 @@
       "extract": "Etesiolaus是灰蝶科線灰蝶亞科瑤灰蝶族裡的一個屬，尚無正式中文學名命名。共有3個物種，分佈於非洲。基於外表和寄主（山欖科植物）不同，Larsen(2005)把此屬從狹義瑤灰蝶屬分離出。\n",
       "url": "https://zh.wikipedia.org/wiki/Etesiolaus",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Etesiolaus_catori.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "勒普朗凯",
-      "extract": "勒普朗凯 是法国厄尔省的一个市镇，属于贝尔奈区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E6%99%AE%E6%9C%97%E5%87%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Le_Planquay.jpg/330px-Le_Planquay.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
