@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T04:04:14.042Z",
+  "fetchedAt": "2026-08-07T05:53:00.287Z",
   "items": [
+    {
+      "title": "阿米尔·汗",
+      "extract": "穆罕默德·阿米爾·侯賽因·罕，印度男演員、製片人、導演、編劇及電視名人，從事寶萊塢（印地語電影界）電影工作，在媒體有「完美主義者先生」 之稱。罕已成為印度電影界巨星之一，演藝事業超過30年，還獲得了諸多獎項，涵蓋印度國家電影獎、印度電影觀眾獎及澳大利亞影視藝術學院獎，參與的一部電影獲奧斯卡金像獎提名。他於2003年被印度政府授予莲花士勋章，2010年則被授予莲花装勋章。罕也在中國受到歡迎，2017年獲當局頒發「印度國寶」 榮譽。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%B1%B3%E5%B0%94%C2%B7%E6%B1%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Aamir_Khan_in_2014_%28cropped%29.jpg/330px-Aamir_Khan_in_2014_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "OPV-80型巡逻舰",
       "extract": "OPV-80型巡逻舰是智利和哥伦比亚海军向德国吕森造船厂订购的一款巡逻舰，共建造7艘，通过技术转移到自家造船厂建造。\n",
@@ -27,13 +34,6 @@
       "extract": "直井怜，日本女歌手，藝名Rei，是韓國STARSHIP娛樂旗下女子團體IVE成員之一，隊內擔任饶舌及Vocal。\n",
       "url": "https://zh.wikipedia.org/wiki/Rei",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Rei_of_Ive_at_the_Valentino_event%2C_March_20%2C_2026_%283%29.png/330px-Rei_of_Ive_at_the_Valentino_event%2C_March_20%2C_2026_%283%29.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "恩里科·丹多洛",
-      "extract": "恩里科·丹多洛，第四十一任威尼斯总督，威尼斯历史上著名的商人兼政治军事家。第四次十字军东征时他成功诱导十字军把矛头从耶路撒冷转向东罗马帝国的首都君士坦丁堡。据说他早年行商时曾在君士坦丁堡被迫害下狱并被弄瞎双眼，当时正是君士坦丁人排斥威尼斯商人的时候。 有认为这是他后来血洗君士坦丁堡的私人原因。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%81%A9%E9%87%8C%E7%A7%91%C2%B7%E4%B8%B9%E5%A4%9A%E6%B4%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/EnricoDandolo.jpg/330px-EnricoDandolo.jpg",
       "source": "wikipedia"
     }
   ]
