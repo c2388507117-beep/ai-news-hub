@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-07T13:42:12.573Z",
+  "fetchedAt": "2026-08-07T15:11:48.282Z",
   "items": [
+    {
+      "title": "托尔布尔县",
+      "extract": "托尔布尔县 是印度拉賈斯坦邦的一個縣，位於該國西北部，面積3,084平方公里，識字率為70.14%，2011年人口1,207,293，人口密度每平方公里391人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%89%98%E5%B0%94%E5%B8%83%E5%B0%94%E5%8E%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dholpur_in_Rajasthan_%28India%29.svg/langzh-330px-Dholpur_in_Rajasthan_%28India%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "阿拉尼翁河畔朗德",
       "extract": "阿拉尼翁河畔朗德 是法国上卢瓦尔省的一个市镇，属于布里尤德区。\n",
@@ -27,13 +34,6 @@
       "extract": "金韬（1954年7月—），黑龙江人，北京电影学院毕业，属第五代导演，中国大陆影视导演、编剧。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%9F%AC",
       "imageUrl": null,
-      "source": "wikipedia"
-    },
-    {
-      "title": "齐乐互动",
-      "extract": "齐乐互动，全稱齐乐互动（北京）科技有限公司是一家總部位於中華人民共和國北京市海淀区的電子遊戲開發商和發行商，主要開發社交遊戲。2011年被熱酷收購，員工全部合併到熱酷旗下開發團隊中。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BD%90%E4%B9%90%E4%BA%92%E5%8A%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/0d/HappySNS_logo.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
