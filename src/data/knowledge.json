@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T17:49:33.834Z",
+  "fetchedAt": "2026-08-08T19:02:27.581Z",
   "items": [
+    {
+      "title": "契托爾縣",
+      "extract": "契托爾縣 是印度的一個縣，位於該國東南部，由安得拉邦負責管轄，面積15,359平方公里，每年平均降雨量918毫米，2011年人口4,170,468，人口密度每平方公里272人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%91%E6%89%98%E7%88%BE%E7%B8%A3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lord_Venkateswara_on_Gaja_Vahanam..JPG/330px-Lord_Venkateswara_on_Gaja_Vahanam..JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "迈克尔·霍普",
       "extract": "迈克尔·霍普 是一位英国的作曲家，音乐制作人，在宝丽金唱片公司做过多年的A&R职位。迈克尔·霍普的音乐风格为新世纪音乐，他的专辑Solace曾在1993年的格莱美新世纪音乐奖项上获得提名。\n",
@@ -27,13 +34,6 @@
       "extract": "雷萊滕山，是德國的山峰，位於該國東南部，由巴伐利亞負責管轄，屬於巴伐利亞前阿爾卑斯山脈的一部分，海拔高度1,338米，每年平均降雨量1,847毫米。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E8%90%8A%E6%BB%95%E5%B1%B1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flintsbach_Riesenkopf_Maiwand-1.jpg/330px-Flintsbach_Riesenkopf_Maiwand-1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "富谢尔欧布瓦",
-      "extract": "富谢尔欧布瓦 是法国默兹省的一个市镇，属于巴勒迪克区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B0%A2%E5%B0%94%E6%AC%A7%E5%B8%83%E7%93%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Foucheres-eglise.jpg/330px-Foucheres-eglise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
