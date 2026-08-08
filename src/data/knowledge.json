@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T07:18:03.447Z",
+  "fetchedAt": "2026-08-08T09:04:08.063Z",
   "items": [
+    {
+      "title": "萨克罗法诺",
+      "extract": "萨克罗法诺，是意大利拉齐奥大区罗马首都广域市的一个市镇。总面积28.49平方公里，人口7458人，人口密度261.8人/平方公里（2009年）。ISTAT代码为058093。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%85%8B%E7%BD%97%E6%B3%95%E8%AF%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ItaliaLazioSacrofanoPanorama1.jpg/330px-ItaliaLazioSacrofanoPanorama1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "2008年夏季残疾人奥林匹克运动会",
       "extract": "第十三屆残疾人奥林匹克运动会于2008年9月6日至9月17日於中華人民共和國首都北京舉行，開幕式于9月6日晚20点举办。此屆奧運會是中國首次舉辦残疾人奥林匹克运动会，也使得中国成为繼1964年東京残奥會和1988年漢城帕運會後，第三個舉行帕運會的亞洲國家。\n",
@@ -27,13 +34,6 @@
       "extract": "臉龍屬 是植龍目的一屬，生存於三疊紀晚期的北美洲。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%87%89%E9%BE%8D%E5%B1%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Protome_batalaria.jpg/330px-Protome_batalaria.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "姜永勳",
-      "extract": "姜永勳，韓國外交官，2019年起成為第11任駐台北韓國代表部代表，先前歷任駐檀香山總領事、外交部南亞太平洋局局長、駐澳洲公使銜參事及日本、俄羅斯、加拿大等地駐外使領館的勤務，亦曾於總統秘書室及外交部前身機構——外務部與外交通商部內擔當官職。其於駐檀香山總領事任內，曾從事韓國與夏威夷美軍印太司令部間的軍事外交，並獲得「強化韓美同盟」以及「致力拓展夏威夷韓僑政治力量」等評價。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A7%9C%E6%B0%B8%E5%8B%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/115A5411_Young-hoon_Kang%2C_consul_general_of_the_Republic_of_Korea_in_Honolulu_%28Flickr_id_33531248898%29.jpg/330px-115A5411_Young-hoon_Kang%2C_consul_general_of_the_Republic_of_Korea_in_Honolulu_%28Flickr_id_33531248898%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
