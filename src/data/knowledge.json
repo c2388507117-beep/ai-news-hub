@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T22:50:12.841Z",
+  "fetchedAt": "2026-08-08T23:48:13.717Z",
   "items": [
+    {
+      "title": "露水",
+      "extract": "露水 是稀薄的小水滴，出現於早晨或夜晚中。由於早晨氣溫較低，當物體的表面溫度低於露點時，氣化的水分會液化成液態，凝聚在物體 表面，形成露水。由於其形態經常凝結成珠狀，因此也被稱為露珠。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E6%B0%B4",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Global_tropical_cyclone_tracks-edit2.jpg/330px-Global_tropical_cyclone_tracks-edit2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "貝霖",
       "extract": "伯頓·林恩·帕斯科，是一名美國外交官，於2007年3月1日至2012年6月10日間出任聯合國政治事務部副秘書長。\n",
@@ -27,13 +34,6 @@
       "extract": "苦蘵，又称为炮仔灯、天泡子、天泡草、黄姑娘、小酸浆、朴朴草、打额泡、燈籠草，是茄科灯笼果属的一种植物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8B%A6%E8%98%B5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Physalis_angulata.jpg/330px-Physalis_angulata.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "契托爾縣",
-      "extract": "契托爾縣 是印度的一個縣，位於該國東南部，由安得拉邦負責管轄，面積15,359平方公里，每年平均降雨量918毫米，2011年人口4,170,468，人口密度每平方公里272人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A5%91%E6%89%98%E7%88%BE%E7%B8%A3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lord_Venkateswara_on_Gaja_Vahanam..JPG/330px-Lord_Venkateswara_on_Gaja_Vahanam..JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
