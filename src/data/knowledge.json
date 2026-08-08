@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T13:15:18.087Z",
+  "fetchedAt": "2026-08-08T14:01:26.083Z",
   "items": [
+    {
+      "title": "富谢尔欧布瓦",
+      "extract": "富谢尔欧布瓦 是法国默兹省的一个市镇，属于巴勒迪克区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B0%A2%E5%B0%94%E6%AC%A7%E5%B8%83%E7%93%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Foucheres-eglise.jpg/330px-Foucheres-eglise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "小黑江 (威远江支流)",
       "extract": "小黑江，位于中华人民共和国云南省西南部的一条河流，是威远江左岸支流，因江水深处色黑绿似万丈深渊，故名。发源于普洱市宁洱哈尼族彝族自治县梅子镇永胜村坡脚以北干坝子大山东北麓，向西北流经镇沅彝族哈尼族拉祜族自治县田坝乡西南隅，之后转向西南流，进入景谷傣族彝族自治县境内，右纳海庆河后转向南流，经景谷县正兴镇翁安村、勐乃村和正兴村等地，于小黑江森林公园普贤寺东南左纳勐烈河后再转西南流，成为景谷县与宁洱县之间的界河，至普洱市思茅区云仙彝族乡团山村老肖寨以西左纳酒房河后又成为景谷县与思茅区之间的界河。最后于景谷县益智乡和平村以南汇入威远江。河长110.7千米，流域面积1979.9平方千米，落差2131.1米，河道平均比降19.4‰。\n",
@@ -27,13 +34,6 @@
       "extract": "阿拜 是哈薩克的城鎮，由卡拉干達州負責管轄，位於該國中部，始建於1949年，面積約200平方公里，海拔高度504米，主要經濟活動是採礦業，2009年人口35,115。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%9C_(%E5%93%88%E8%96%A9%E5%85%8B)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%D0%90%D0%BB%D0%BB%D0%B5%D0%B8_%D0%B2_%D0%90%D0%B1%D0%B0%D0%B5.jpg/330px-%D0%90%D0%BB%D0%BB%D0%B5%D0%B8_%D0%B2_%D0%90%D0%B1%D0%B0%D0%B5.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "萨克罗法诺",
-      "extract": "萨克罗法诺，是意大利拉齐奥大区罗马首都广域市的一个市镇。总面积28.49平方公里，人口7458人，人口密度261.8人/平方公里（2009年）。ISTAT代码为058093。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%85%8B%E7%BD%97%E6%B3%95%E8%AF%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ItaliaLazioSacrofanoPanorama1.jpg/330px-ItaliaLazioSacrofanoPanorama1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
