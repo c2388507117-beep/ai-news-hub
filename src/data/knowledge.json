@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T09:57:05.654Z",
+  "fetchedAt": "2026-08-08T10:54:08.668Z",
   "items": [
+    {
+      "title": "沃加沃加",
+      "extract": "沃加沃加 是位于澳大利亚新南威尔士的一座城市，紧邻穆林碧治河。它是新南威尔士州最大的内陆城市，也是全澳第五大的内陆城市和瑞福利納地区的主要城市。沃加沃加居民现約46,735人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%83%E5%8A%A0%E6%B2%83%E5%8A%A0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Baylis_Street%2C_Wagga_Wagga.jpg/330px-Baylis_Street%2C_Wagga_Wagga.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "阿拜 (哈薩克)",
       "extract": "阿拜 是哈薩克的城鎮，由卡拉干達州負責管轄，位於該國中部，始建於1949年，面積約200平方公里，海拔高度504米，主要經濟活動是採礦業，2009年人口35,115。\n",
@@ -27,13 +34,6 @@
       "extract": "大仓玉皇阁，又称大仓大庙，是位于云南省大理白族自治州祥云县下庄镇大仓村的一处道教建筑群。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BB%93%E7%8E%89%E7%9A%87%E9%98%81",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%E5%A4%A7%E4%BB%93%E7%8E%89%E7%9A%87%E9%98%81_%E8%83%8C%E9%9D%A2_2026-05-01.jpg/330px-%E5%A4%A7%E4%BB%93%E7%8E%89%E7%9A%87%E9%98%81_%E8%83%8C%E9%9D%A2_2026-05-01.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉美利斯",
-      "extract": "拉美利斯·山度士·多納西門托 是一名巴西足球員，出生在里約熱內盧州巴拉皮拉伊，司職中場。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%BE%8E%E5%88%A9%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chelsea_1_Man_City_1_%2816413207122%29.jpg/330px-Chelsea_1_Man_City_1_%2816413207122%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
