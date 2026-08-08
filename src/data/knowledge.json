@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T21:49:12.665Z",
+  "fetchedAt": "2026-08-08T22:50:12.841Z",
   "items": [
+    {
+      "title": "貝霖",
+      "extract": "伯頓·林恩·帕斯科，是一名美國外交官，於2007年3月1日至2012年6月10日間出任聯合國政治事務部副秘書長。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B2%9D%E9%9C%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/B_Lynn_Pascoe_State.jpg/330px-B_Lynn_Pascoe_State.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "瓶口衣科",
       "extract": "瓶口衣科 为瓶口衣目的一科真菌。\n",
@@ -27,13 +34,6 @@
       "extract": "契托爾縣 是印度的一個縣，位於該國東南部，由安得拉邦負責管轄，面積15,359平方公里，每年平均降雨量918毫米，2011年人口4,170,468，人口密度每平方公里272人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A5%91%E6%89%98%E7%88%BE%E7%B8%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lord_Venkateswara_on_Gaja_Vahanam..JPG/330px-Lord_Venkateswara_on_Gaja_Vahanam..JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "迈克尔·霍普",
-      "extract": "迈克尔·霍普 是一位英国的作曲家，音乐制作人，在宝丽金唱片公司做过多年的A&R职位。迈克尔·霍普的音乐风格为新世纪音乐，他的专辑Solace曾在1993年的格莱美新世纪音乐奖项上获得提名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%BF%88%E5%85%8B%E5%B0%94%C2%B7%E9%9C%8D%E6%99%AE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Michael2011.jpg/330px-Michael2011.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
