@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T02:24:19.122Z",
+  "fetchedAt": "2026-08-08T04:31:07.833Z",
   "items": [
+    {
+      "title": "拉美利斯",
+      "extract": "拉美利斯·山度士·多納西門托 是一名巴西足球員，出生在里約熱內盧州巴拉皮拉伊，司職中場。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%BE%8E%E5%88%A9%E6%96%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chelsea_1_Man_City_1_%2816413207122%29.jpg/330px-Chelsea_1_Man_City_1_%2816413207122%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "臉龍屬",
       "extract": "臉龍屬 是植龍目的一屬，生存於三疊紀晚期的北美洲。\n",
@@ -27,13 +34,6 @@
       "extract": "普尔朗 是法国索恩-卢瓦尔省的一个市镇，属于卢昂区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%B0%94%E6%9C%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Pourlans_Kirche_mit_Umgebung.JPG/330px-Pourlans_Kirche_mit_Umgebung.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马尼翁库尔",
-      "extract": "马尼翁库尔 是法国上索恩省的一个市镇，属于吕尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%BC%E7%BF%81%E5%BA%93%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/2016-09_-_Magnoncourt_-_04.jpg/330px-2016-09_-_Magnoncourt_-_04.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
