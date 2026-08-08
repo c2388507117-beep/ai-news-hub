@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T19:47:01.365Z",
+  "fetchedAt": "2026-08-08T20:51:58.031Z",
   "items": [
     {
       "id": "steam-460930",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-1091500",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-1426210",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-3527290",
@@ -51,20 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
-    },
-    {
-      "id": "steam-1144200",
-      "title": "Ready or Not",
-      "url": "https://store.steampowered.com/app/1144200?l=schinese",
-      "discount": 50,
-      "originalPrice": 49.99,
-      "finalPrice": 24.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.365Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-2138330",
@@ -77,20 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
-    },
-    {
-      "id": "steam-2436940",
-      "title": "赛菲莉娅",
-      "url": "https://store.steampowered.com/app/2436940?l=schinese",
-      "discount": 40,
-      "originalPrice": 58,
-      "finalPrice": 34.8,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-2001120",
@@ -103,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-1478500",
@@ -116,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-2950790",
@@ -129,7 +103,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
+    },
+    {
+      "id": "steam-1368140",
+      "title": "纵横秘湾 Corsair Cove",
+      "url": "https://store.steampowered.com/app/1368140?l=schinese",
+      "discount": 25,
+      "originalPrice": 149,
+      "finalPrice": 111.75,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-08T20:51:57.733Z"
+    },
+    {
+      "id": "steam-4108000",
+      "title": "机械狂欢",
+      "url": "https://store.steampowered.com/app/4108000?l=schinese",
+      "discount": 15,
+      "originalPrice": 7.99,
+      "finalPrice": 6.79,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-08T20:51:58.031Z"
     },
     {
       "id": "steam-3812600",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.079Z"
+      "publishedAt": "2026-08-08T20:51:57.733Z"
     },
     {
       "id": "steam-4450620",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.365Z"
+      "publishedAt": "2026-08-08T20:51:58.030Z"
     },
     {
       "id": "steam-2142790",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-08T19:47:01.365Z"
+      "publishedAt": "2026-08-08T20:51:58.031Z"
     }
   ]
 }
