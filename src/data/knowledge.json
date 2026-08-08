@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T14:01:26.083Z",
+  "fetchedAt": "2026-08-08T14:52:22.366Z",
   "items": [
+    {
+      "title": "雷萊滕山",
+      "extract": "雷萊滕山，是德國的山峰，位於該國東南部，由巴伐利亞負責管轄，屬於巴伐利亞前阿爾卑斯山脈的一部分，海拔高度1,338米，每年平均降雨量1,847毫米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E8%90%8A%E6%BB%95%E5%B1%B1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flintsbach_Riesenkopf_Maiwand-1.jpg/330px-Flintsbach_Riesenkopf_Maiwand-1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "富谢尔欧布瓦",
       "extract": "富谢尔欧布瓦 是法国默兹省的一个市镇，属于巴勒迪克区。\n",
@@ -27,13 +34,6 @@
       "extract": "沃加沃加 是位于澳大利亚新南威尔士的一座城市，紧邻穆林碧治河。它是新南威尔士州最大的内陆城市，也是全澳第五大的内陆城市和瑞福利納地区的主要城市。沃加沃加居民现約46,735人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B2%83%E5%8A%A0%E6%B2%83%E5%8A%A0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Baylis_Street%2C_Wagga_Wagga.jpg/330px-Baylis_Street%2C_Wagga_Wagga.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿拜 (哈薩克)",
-      "extract": "阿拜 是哈薩克的城鎮，由卡拉干達州負責管轄，位於該國中部，始建於1949年，面積約200平方公里，海拔高度504米，主要經濟活動是採礦業，2009年人口35,115。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%9C_(%E5%93%88%E8%96%A9%E5%85%8B)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%D0%90%D0%BB%D0%BB%D0%B5%D0%B8_%D0%B2_%D0%90%D0%B1%D0%B0%D0%B5.jpg/330px-%D0%90%D0%BB%D0%BB%D0%B5%D0%B8_%D0%B2_%D0%90%D0%B1%D0%B0%D0%B5.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
