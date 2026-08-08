@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T05:59:14.862Z",
+  "fetchedAt": "2026-08-08T07:18:03.447Z",
   "items": [
+    {
+      "title": "2008年夏季残疾人奥林匹克运动会",
+      "extract": "第十三屆残疾人奥林匹克运动会于2008年9月6日至9月17日於中華人民共和國首都北京舉行，開幕式于9月6日晚20点举办。此屆奧運會是中國首次舉辦残疾人奥林匹克运动会，也使得中国成为繼1964年東京残奥會和1988年漢城帕運會後，第三個舉行帕運會的亞洲國家。\n",
+      "url": "https://zh.wikipedia.org/wiki/2008%E5%B9%B4%E5%A4%8F%E5%AD%A3%E6%AE%8B%E7%96%BE%E4%BA%BA%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E8%BF%90%E5%8A%A8%E4%BC%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/b/b7/Beijing_2008_Paralympics_logo.svg/langzh-330px-Beijing_2008_Paralympics_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "大仓玉皇阁",
       "extract": "大仓玉皇阁，又称大仓大庙，是位于云南省大理白族自治州祥云县下庄镇大仓村的一处道教建筑群。\n",
@@ -27,13 +34,6 @@
       "extract": "姜永勳，韓國外交官，2019年起成為第11任駐台北韓國代表部代表，先前歷任駐檀香山總領事、外交部南亞太平洋局局長、駐澳洲公使銜參事及日本、俄羅斯、加拿大等地駐外使領館的勤務，亦曾於總統秘書室及外交部前身機構——外務部與外交通商部內擔當官職。其於駐檀香山總領事任內，曾從事韓國與夏威夷美軍印太司令部間的軍事外交，並獲得「強化韓美同盟」以及「致力拓展夏威夷韓僑政治力量」等評價。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A7%9C%E6%B0%B8%E5%8B%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/115A5411_Young-hoon_Kang%2C_consul_general_of_the_Republic_of_Korea_in_Honolulu_%28Flickr_id_33531248898%29.jpg/330px-115A5411_Young-hoon_Kang%2C_consul_general_of_the_Republic_of_Korea_in_Honolulu_%28Flickr_id_33531248898%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "臺灣總督府農商局食糧部臺中事務所",
-      "extract": "農業部農糧署中區分署臺中辦事處，前身臺灣總督府農商局食糧部臺中事務所，該辦公署為1941年臺灣日治時期所建之木造二階建事務所建築，原名臺灣總督府米榖局臺中事務所，下轄有清水出張所、彰化出張所與員林出張所。1945年後，作為臺中地區農糧相關部門之辦公機構使用，現今則由農委會農糧署中區分署臺中辦事處進行使用。2005年，該建築以「日治時臺中公共建築代表作品之一」、「整體空間使用方式仍保存至今，具有保存及建築研究價值」、「掌管之糧政業務，具有地方產業歷史變遷研究價值」為由，獲臺中市政府登錄為歷史建築。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E8%BE%B2%E5%95%86%E5%B1%80%E9%A3%9F%E7%B3%A7%E9%83%A8%E8%87%BA%E4%B8%AD%E4%BA%8B%E5%8B%99%E6%89%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Taichung_Office_of_Agriculture_and_Food_Agency.JPG/330px-Taichung_Office_of_Agriculture_and_Food_Agency.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
