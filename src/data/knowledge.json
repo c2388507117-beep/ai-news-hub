@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T14:52:22.366Z",
+  "fetchedAt": "2026-08-08T15:49:34.391Z",
   "items": [
+    {
+      "title": "蛋白質A",
+      "extract": "蛋白質A 為金黃色葡萄球菌表面上發現的一種表面蛋白，大小約為42 kDa。該蛋白由 spa 基因轉譯而成，並由DNA的拓樸結構、包內滲透壓，以及一個名為ArlS-ArlR的雙單元調控系統調控。該蛋白可以與免疫球蛋白結合，故常用於生化研究。該蛋白三維構造中有五個同源性免疫球蛋白結合域，每個結合域都能與多種哺乳類的免疫球蛋白結合，最主要為IgG。蛋白質A能與大多數免疫球蛋白重鏈的Fc區域結合，甚至可與人類VH3蛋白質家族的Fab區域結合。當蛋白質A與免疫球蛋白結合後，這些免疫球蛋白便失去了作用，進而摧毀免疫系統的吞噬作用及調理作用。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%9B%8B%E7%99%BD%E8%B3%AAA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Protein_A_1DEE_1L6X.png/330px-Protein_A_1DEE_1L6X.png",
+      "source": "wikipedia"
+    },
     {
       "title": "雷萊滕山",
       "extract": "雷萊滕山，是德國的山峰，位於該國東南部，由巴伐利亞負責管轄，屬於巴伐利亞前阿爾卑斯山脈的一部分，海拔高度1,338米，每年平均降雨量1,847毫米。\n",
@@ -27,13 +34,6 @@
       "extract": "合成第十旅，又称“夜老虎旅”，是中国人民解放军陆军第七十二集团军下辖的一个重型合成旅，驻地江苏省苏州市。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E9%99%86%E5%86%9B%E5%90%88%E6%88%90%E7%AC%AC%E5%8D%81%E6%97%85",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ground_Force_Flag_of_the_People%27s_Republic_of_China.svg/langzh-330px-Ground_Force_Flag_of_the_People%27s_Republic_of_China.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "沃加沃加",
-      "extract": "沃加沃加 是位于澳大利亚新南威尔士的一座城市，紧邻穆林碧治河。它是新南威尔士州最大的内陆城市，也是全澳第五大的内陆城市和瑞福利納地区的主要城市。沃加沃加居民现約46,735人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B2%83%E5%8A%A0%E6%B2%83%E5%8A%A0",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Baylis_Street%2C_Wagga_Wagga.jpg/330px-Baylis_Street%2C_Wagga_Wagga.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
