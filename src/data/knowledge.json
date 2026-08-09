@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T17:50:18.246Z",
+  "fetchedAt": "2026-08-09T19:05:10.491Z",
   "items": [
+    {
+      "title": "沙尔梅伊",
+      "extract": "沙尔梅伊 是法国阿列省的一个市镇，属于维希区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E5%B0%94%E6%A2%85%E4%BC%8A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Charmeil_%C3%89glise_2014-06-14.JPG/330px-Charmeil_%C3%89glise_2014-06-14.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "莱普朗 (埃罗省)",
       "extract": "莱普朗 是法国埃罗省的一个市镇，属于洛代沃区。\n",
@@ -27,13 +34,6 @@
       "extract": "欧特雷勒韦 是法国上索恩省的一个市镇，属于吕尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E7%89%B9%E9%9B%B7%E5%8B%92%E9%9F%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2016-07_-_Autrey-le-Vay_-_02.jpg/330px-2016-07_-_Autrey-le-Vay_-_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "莎朗·贝格利",
-      "extract": "莎朗·贝格利 是一名美国记者、科普作家以及Stat撰稿人。 \n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8E%E6%9C%97%C2%B7%E8%B4%9D%E6%A0%BC%E5%88%A9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TAM_6_-_Sharon_Begley_%282617787771%29_%28cropped%29.jpg/330px-TAM_6_-_Sharon_Begley_%282617787771%29_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
