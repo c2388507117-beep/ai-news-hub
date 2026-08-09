@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T19:05:10.491Z",
+  "fetchedAt": "2026-08-09T19:50:48.845Z",
   "items": [
+    {
+      "title": "三碘化铀",
+      "extract": "三碘化铀是一种无机化合物，化学式 UI3。 它是一种黑色固体，可溶于水。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%A2%98%E5%8C%96%E9%93%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Unit_cell_of_PuBr3.png/330px-Unit_cell_of_PuBr3.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "沙尔梅伊",
       "extract": "沙尔梅伊 是法国阿列省的一个市镇，属于维希区。\n",
@@ -27,13 +34,6 @@
       "extract": "德拉古廷·迪米特里耶维奇，是一名塞尔维亚军官，他于1913年起担任总参谋部军事情报处长官。迪米特里耶维奇是“黑手会”的创始人和最活跃的成员，代号「阿匹斯」。该集团是一个秘密军事组织，并主导了1903年暗杀塞尔维亚国王亚历山大一世与王后德拉加的政变。有学者认为，迪米特里耶维奇还曾于1914年6月发起了针对弗朗茨·斐迪南大公夫妇的刺杀，这一行动直接导致了七月危机以及第一次世界大战的爆发。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E6%8B%89%E5%8F%A4%E5%BB%B7%C2%B7%E8%BF%AA%E7%B1%B3%E7%89%B9%E9%87%8C%E8%80%B6%E7%BB%B4%E5%A5%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Dragutin_Dimitrijevi%C4%87-Apis%2C_ca._1900.jpg/330px-Dragutin_Dimitrijevi%C4%87-Apis%2C_ca._1900.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "欧特雷勒韦",
-      "extract": "欧特雷勒韦 是法国上索恩省的一个市镇，属于吕尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E7%89%B9%E9%9B%B7%E5%8B%92%E9%9F%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2016-07_-_Autrey-le-Vay_-_02.jpg/330px-2016-07_-_Autrey-le-Vay_-_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
