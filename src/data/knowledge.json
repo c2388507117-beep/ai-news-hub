@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T15:50:31.097Z",
+  "fetchedAt": "2026-08-09T16:58:24.270Z",
   "items": [
+    {
+      "title": "利蒙 (科罗拉多州)",
+      "extract": "利蒙，是美国科罗拉多州林肯县下属的一座城市。建市于1909年11月18日，面积大约为2.161平方英里（5.598平方公里）。根据2010年美国人口普查，该市有人口1,880人。2011年估计该市有人口1,874人，相比2010年人口增长率为-0.32%。同时，论人口该市是科罗拉多州第114大城市。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E8%92%99_(%E7%A7%91%E7%BD%97%E6%8B%89%E5%A4%9A%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lincoln_County_Colorado_Incorporated_and_Unincorporated_areas_Limon_Highlighted.svg/langzh-330px-Lincoln_County_Colorado_Incorporated_and_Unincorporated_areas_Limon_Highlighted.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "德拉古廷·迪米特里耶维奇",
       "extract": "德拉古廷·迪米特里耶维奇，是一名塞尔维亚军官，他于1913年起担任总参谋部军事情报处长官。迪米特里耶维奇是“黑手会”的创始人和最活跃的成员，代号「阿匹斯」。该集团是一个秘密军事组织，并主导了1903年暗杀塞尔维亚国王亚历山大一世与王后德拉加的政变。有学者认为，迪米特里耶维奇还曾于1914年6月发起了针对弗朗茨·斐迪南大公夫妇的刺杀，这一行动直接导致了七月危机以及第一次世界大战的爆发。\n",
@@ -27,13 +34,6 @@
       "extract": "丕顯斯里丹斯里哈芝阿德南沙甸，砂拉越政治人物，曾在2014年至2017年間擔任砂拉越首席部長，亦曾任砂拉越土著保守聯合黨 主席。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%BE%B7%E5%8D%97%E6%B2%99%E7%94%B8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Adenan_Satem_during_the_Sejiwa_Sanada_programme_at_Kota_Samarahan.jpg/330px-Adenan_Satem_during_the_Sejiwa_Sanada_programme_at_Kota_Samarahan.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "自由今日大马",
-      "extract": "《自由今日大马》 是一个马来西亚双语新闻网站，内容以英语和马来语为主，主要关注马来西亚时事，创建于2009年。 它是马来西亚访问量最大的新闻网站之一，每月访问量达1183万人次。 \n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E4%BB%8A%E6%97%A5%E5%A4%A7%E9%A9%AC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_Free_Malaysia_Today_%28logo%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
