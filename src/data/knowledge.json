@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-08T23:48:13.717Z",
+  "fetchedAt": "2026-08-09T02:31:42.291Z",
   "items": [
+    {
+      "title": "萊娜·邁爾-蘭德魯特",
+      "extract": "萊娜·邁爾-蘭德魯特。德國女歌手。代表德國參加2010年歐洲歌唱大賽以歌曲《衛星》取得冠軍，隔年再度代表德國參加歐洲歌唱大賽以歌曲《著迷於陌生人》取得第十名。並在2013-2016年、2019年在德國版本的兒童好聲音節目上擔任1-4、7季導師。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%8A%E5%A8%9C%C2%B7%E9%82%81%E7%88%BE-%E8%98%AD%E5%BE%B7%E9%AD%AF%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lena_2017_Unser_Song_%28cropped%29.jpg/330px-Lena_2017_Unser_Song_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "露水",
       "extract": "露水 是稀薄的小水滴，出現於早晨或夜晚中。由於早晨氣溫較低，當物體的表面溫度低於露點時，氣化的水分會液化成液態，凝聚在物體 表面，形成露水。由於其形態經常凝結成珠狀，因此也被稱為露珠。\n",
@@ -27,13 +34,6 @@
       "extract": "阿德米尔·达吉亚 是巴西退役男子职业足球运动员，1960年代和1970年代，他在巴西的彭美拉斯體育會中效力，場上司職組織核心。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%BE%B7%E7%B1%B3%E5%B0%94%C2%B7%E8%BE%BE%E5%90%89%E4%BA%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ademir_da_Guia_%281974%29.jpg/330px-Ademir_da_Guia_%281974%29.jpg",
-      "source": "wikipedia"
-    },
-    {
-      "title": "苦蘵",
-      "extract": "苦蘵，又称为炮仔灯、天泡子、天泡草、黄姑娘、小酸浆、朴朴草、打额泡、燈籠草，是茄科灯笼果属的一种植物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8B%A6%E8%98%B5",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Physalis_angulata.jpg/330px-Physalis_angulata.jpg",
       "source": "wikipedia"
     }
   ]
