@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T14:55:24.702Z",
+  "fetchedAt": "2026-08-09T15:50:26.565Z",
   "items": [
     {
       "id": "steam-460930",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.702Z"
+      "publishedAt": "2026-08-09T15:50:26.565Z"
     },
     {
       "id": "steam-1091500",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.580Z"
+      "publishedAt": "2026-08-09T15:50:26.090Z"
     },
     {
       "id": "steam-1426210",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-3527290",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-1144200",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-2138330",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-2436940",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-2001120",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-1478500",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-2950790",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-4108000",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.581Z"
+      "publishedAt": "2026-08-09T15:50:26.091Z"
     },
     {
       "id": "steam-3812600",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.701Z"
+      "publishedAt": "2026-08-09T15:50:26.565Z"
     },
     {
       "id": "steam-4450620",
@@ -168,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-09T14:55:24.702Z"
+      "publishedAt": "2026-08-09T15:50:26.565Z"
+    },
+    {
+      "id": "steam-2142790",
+      "title": "Fields of Mistria",
+      "url": "https://store.steampowered.com/app/2142790?l=schinese",
+      "discount": 10,
+      "originalPrice": 13.99,
+      "finalPrice": 12.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-09T15:50:26.565Z"
     }
   ]
 }

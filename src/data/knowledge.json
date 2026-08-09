@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T14:55:29.845Z",
+  "fetchedAt": "2026-08-09T15:50:31.097Z",
   "items": [
+    {
+      "title": "德拉古廷·迪米特里耶维奇",
+      "extract": "德拉古廷·迪米特里耶维奇，是一名塞尔维亚军官，他于1913年起担任总参谋部军事情报处长官。迪米特里耶维奇是“黑手会”的创始人和最活跃的成员，代号「阿匹斯」。该集团是一个秘密军事组织，并主导了1903年暗杀塞尔维亚国王亚历山大一世与王后德拉加的政变。有学者认为，迪米特里耶维奇还曾于1914年6月发起了针对弗朗茨·斐迪南大公夫妇的刺杀，这一行动直接导致了七月危机以及第一次世界大战的爆发。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E6%8B%89%E5%8F%A4%E5%BB%B7%C2%B7%E8%BF%AA%E7%B1%B3%E7%89%B9%E9%87%8C%E8%80%B6%E7%BB%B4%E5%A5%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Dragutin_Dimitrijevi%C4%87-Apis%2C_ca._1900.jpg/330px-Dragutin_Dimitrijevi%C4%87-Apis%2C_ca._1900.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "欧特雷勒韦",
       "extract": "欧特雷勒韦 是法国上索恩省的一个市镇，属于吕尔区。\n",
@@ -27,13 +34,6 @@
       "extract": "《自由今日大马》 是一个马来西亚双语新闻网站，内容以英语和马来语为主，主要关注马来西亚时事，创建于2009年。 它是马来西亚访问量最大的新闻网站之一，每月访问量达1183万人次。 \n",
       "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E4%BB%8A%E6%97%A5%E5%A4%A7%E9%A9%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/The_Free_Malaysia_Today_%28logo%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿曼达·米林",
-      "extract": "阿曼达·安妮·米林女爵士，DBE 是英国保守党政治人物，现任下院坎諾克蔡斯选区议员、亞洲事務國務大臣，前保守党主席兼内阁不管部大臣。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC%E8%BE%BE%C2%B7%E7%B1%B3%E6%9E%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Official_portrait_of_Amanda_Milling_MP_crop_2.jpg/330px-Official_portrait_of_Amanda_Milling_MP_crop_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
