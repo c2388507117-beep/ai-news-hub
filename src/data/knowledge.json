@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T13:18:28.215Z",
+  "fetchedAt": "2026-08-09T14:55:29.845Z",
   "items": [
+    {
+      "title": "欧特雷勒韦",
+      "extract": "欧特雷勒韦 是法国上索恩省的一个市镇，属于吕尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E7%89%B9%E9%9B%B7%E5%8B%92%E9%9F%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2016-07_-_Autrey-le-Vay_-_02.jpg/330px-2016-07_-_Autrey-le-Vay_-_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "莎朗·贝格利",
       "extract": "莎朗·贝格利 是一名美国记者、科普作家以及Stat撰稿人。 \n",
@@ -27,13 +34,6 @@
       "extract": "阿曼达·安妮·米林女爵士，DBE 是英国保守党政治人物，现任下院坎諾克蔡斯选区议员、亞洲事務國務大臣，前保守党主席兼内阁不管部大臣。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC%E8%BE%BE%C2%B7%E7%B1%B3%E6%9E%97",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Official_portrait_of_Amanda_Milling_MP_crop_2.jpg/330px-Official_portrait_of_Amanda_Milling_MP_crop_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "破產姐妹",
-      "extract": "《破产姐妹》 是一部美国情景喜剧，于2011年9月19日至2017年4月17日在CBS电视网首播。本剧由华纳兄弟电视公司拍摄，并由迈克尔·帕特里克·金与惠特妮·卡明担任创作人。故事的场景设置在美国纽约州纽约市布鲁克林区威廉斯堡附近。《破产姐妹》讲述了麦克斯·布莱克（凯特·丹宁丝饰）和卡洛琳·钱宁（贝丝·贝尔斯饰）这对好朋友的生活。卡洛宁出生于富豪家庭，而麦克斯则出生于贫困，因而两人对于生活的态度有所冲突。两人虽然在一家餐厅打工，但同时还积累资金来筹备经营着自己的杯子蛋糕生意。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A0%B4%E7%94%A2%E5%A7%90%E5%A6%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/00/2BrokeGirlsintertitle.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
