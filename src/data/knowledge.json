@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T07:25:42.381Z",
+  "fetchedAt": "2026-08-09T09:05:11.434Z",
   "items": [
+    {
+      "title": "破產姐妹",
+      "extract": "《破产姐妹》 是一部美国情景喜剧，于2011年9月19日至2017年4月17日在CBS电视网首播。本剧由华纳兄弟电视公司拍摄，并由迈克尔·帕特里克·金与惠特妮·卡明担任创作人。故事的场景设置在美国纽约州纽约市布鲁克林区威廉斯堡附近。《破产姐妹》讲述了麦克斯·布莱克（凯特·丹宁丝饰）和卡洛琳·钱宁（贝丝·贝尔斯饰）这对好朋友的生活。卡洛宁出生于富豪家庭，而麦克斯则出生于贫困，因而两人对于生活的态度有所冲突。两人虽然在一家餐厅打工，但同时还积累资金来筹备经营着自己的杯子蛋糕生意。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A0%B4%E7%94%A2%E5%A7%90%E5%A6%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/00/2BrokeGirlsintertitle.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "李奎翰",
       "extract": "李奎翰，韓國男演員。\n",
@@ -27,13 +34,6 @@
       "extract": "萊娜·邁爾-蘭德魯特。德國女歌手。代表德國參加2010年歐洲歌唱大賽以歌曲《衛星》取得冠軍，隔年再度代表德國參加歐洲歌唱大賽以歌曲《著迷於陌生人》取得第十名。並在2013-2016年、2019年在德國版本的兒童好聲音節目上擔任1-4、7季導師。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%90%8A%E5%A8%9C%C2%B7%E9%82%81%E7%88%BE-%E8%98%AD%E5%BE%B7%E9%AD%AF%E7%89%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lena_2017_Unser_Song_%28cropped%29.jpg/330px-Lena_2017_Unser_Song_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "露水",
-      "extract": "露水 是稀薄的小水滴，出現於早晨或夜晚中。由於早晨氣溫較低，當物體的表面溫度低於露點時，氣化的水分會液化成液態，凝聚在物體 表面，形成露水。由於其形態經常凝結成珠狀，因此也被稱為露珠。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E6%B0%B4",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Global_tropical_cyclone_tracks-edit2.jpg/330px-Global_tropical_cyclone_tracks-edit2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
