@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T02:31:42.291Z",
+  "fetchedAt": "2026-08-09T04:39:43.804Z",
   "items": [
+    {
+      "title": "马克兰丁",
+      "extract": "马克兰丁 是德国勃兰登堡州乌克马克县曾经的一个市镇，面积45.41平方千米，2019年9月30日人口为993人。2022年4月19日，马克兰丁与另外2个市镇并入市镇奥得河畔施韦特。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%85%8B%E5%85%B0%E4%B8%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Schloss_Hohenlandin.JPG/330px-Schloss_Hohenlandin.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "萊娜·邁爾-蘭德魯特",
       "extract": "萊娜·邁爾-蘭德魯特。德國女歌手。代表德國參加2010年歐洲歌唱大賽以歌曲《衛星》取得冠軍，隔年再度代表德國參加歐洲歌唱大賽以歌曲《著迷於陌生人》取得第十名。並在2013-2016年、2019年在德國版本的兒童好聲音節目上擔任1-4、7季導師。\n",
@@ -27,13 +34,6 @@
       "extract": "瓶口衣科 为瓶口衣目的一科真菌。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%93%B6%E5%8F%A3%E8%A1%A3%E7%A7%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Verrucaria02.jpg/330px-Verrucaria02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿德米尔·达吉亚",
-      "extract": "阿德米尔·达吉亚 是巴西退役男子职业足球运动员，1960年代和1970年代，他在巴西的彭美拉斯體育會中效力，場上司職組織核心。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%BE%B7%E7%B1%B3%E5%B0%94%C2%B7%E8%BE%BE%E5%90%89%E4%BA%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ademir_da_Guia_%281974%29.jpg/330px-Ademir_da_Guia_%281974%29.jpg",
       "source": "wikipedia"
     }
   ]
