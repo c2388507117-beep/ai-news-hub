@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T16:58:24.270Z",
+  "fetchedAt": "2026-08-09T17:50:18.246Z",
   "items": [
+    {
+      "title": "莱普朗 (埃罗省)",
+      "extract": "莱普朗 是法国埃罗省的一个市镇，属于洛代沃区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E6%99%AE%E6%9C%97_(%E5%9F%83%E7%BD%97%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Les_Plans_%28Chapelle_pr%C3%A9-romane_Saint-Sauveur%29.jpg/330px-Les_Plans_%28Chapelle_pr%C3%A9-romane_Saint-Sauveur%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "利蒙 (科罗拉多州)",
       "extract": "利蒙，是美国科罗拉多州林肯县下属的一座城市。建市于1909年11月18日，面积大约为2.161平方英里（5.598平方公里）。根据2010年美国人口普查，该市有人口1,880人。2011年估计该市有人口1,874人，相比2010年人口增长率为-0.32%。同时，论人口该市是科罗拉多州第114大城市。\n",
@@ -27,13 +34,6 @@
       "extract": "莎朗·贝格利 是一名美国记者、科普作家以及Stat撰稿人。 \n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%8E%E6%9C%97%C2%B7%E8%B4%9D%E6%A0%BC%E5%88%A9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TAM_6_-_Sharon_Begley_%282617787771%29_%28cropped%29.jpg/330px-TAM_6_-_Sharon_Begley_%282617787771%29_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿德南沙甸",
-      "extract": "丕顯斯里丹斯里哈芝阿德南沙甸，砂拉越政治人物，曾在2014年至2017年間擔任砂拉越首席部長，亦曾任砂拉越土著保守聯合黨 主席。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%BE%B7%E5%8D%97%E6%B2%99%E7%94%B8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Adenan_Satem_during_the_Sejiwa_Sanada_programme_at_Kota_Samarahan.jpg/330px-Adenan_Satem_during_the_Sejiwa_Sanada_programme_at_Kota_Samarahan.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
