@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T06:01:27.803Z",
+  "fetchedAt": "2026-08-09T07:25:42.381Z",
   "items": [
+    {
+      "title": "李奎翰",
+      "extract": "李奎翰，韓國男演員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%A5%8E%E7%BF%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Lee_Kyu-han_from_acrofan.jpg/330px-Lee_Kyu-han_from_acrofan.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "日莱 (上马恩省)",
       "extract": "日莱 是法国上马恩省的一个市镇，属于朗格勒区。该市镇总面积10.58平方公里，2009年时的人口为73人。\n",
@@ -27,13 +34,6 @@
       "extract": "露水 是稀薄的小水滴，出現於早晨或夜晚中。由於早晨氣溫較低，當物體的表面溫度低於露點時，氣化的水分會液化成液態，凝聚在物體 表面，形成露水。由於其形態經常凝結成珠狀，因此也被稱為露珠。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9C%B2%E6%B0%B4",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Global_tropical_cyclone_tracks-edit2.jpg/330px-Global_tropical_cyclone_tracks-edit2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "貝霖",
-      "extract": "伯頓·林恩·帕斯科，是一名美國外交官，於2007年3月1日至2012年6月10日間出任聯合國政治事務部副秘書長。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B2%9D%E9%9C%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/B_Lynn_Pascoe_State.jpg/330px-B_Lynn_Pascoe_State.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
