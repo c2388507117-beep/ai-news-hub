@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T22:53:23.664Z",
+  "fetchedAt": "2026-08-09T23:50:42.212Z",
   "items": [
+    {
+      "title": "芝加哥公牛",
+      "extract": "芝加哥公牛，是一支位於美國伊利諾州芝加哥的NBA職業籃球隊，分屬於東區的中央組，其主場為联合中心球馆。芝加哥的畜牧業非常發達，該城的職業美式足球隊（芝加哥熊）和職業棒球隊（芝加哥小熊）皆以動物名稱命名，而「公牛」則成了芝加哥職業籃球隊的隊名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8A%9D%E5%8A%A0%E5%93%A5%E5%85%AC%E7%89%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/6/67/Chicago_Bulls_logo.svg/langzh-330px-Chicago_Bulls_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "红花苷",
       "extract": "红花苷 是从菊科植物红花 提取到的一种红色色素。在食品工业以及纺织品中作为染料使用，俗称天然红26。\n",
@@ -27,13 +34,6 @@
       "extract": "三碘化铀是一种无机化合物，化学式 UI3。 它是一种黑色固体，可溶于水。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%A2%98%E5%8C%96%E9%93%80",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Unit_cell_of_PuBr3.png/330px-Unit_cell_of_PuBr3.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "沙尔梅伊",
-      "extract": "沙尔梅伊 是法国阿列省的一个市镇，属于维希区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E5%B0%94%E6%A2%85%E4%BC%8A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Charmeil_%C3%89glise_2014-06-14.JPG/330px-Charmeil_%C3%89glise_2014-06-14.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
