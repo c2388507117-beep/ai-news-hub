@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T10:55:18.028Z",
+  "fetchedAt": "2026-08-09T11:48:27.309Z",
   "items": [
+    {
+      "title": "阿德南沙甸",
+      "extract": "丕顯斯里丹斯里哈芝阿德南沙甸，砂拉越政治人物，曾在2014年至2017年間擔任砂拉越首席部長，亦曾任砂拉越土著保守聯合黨 主席。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%BE%B7%E5%8D%97%E6%B2%99%E7%94%B8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Adenan_Satem_during_the_Sejiwa_Sanada_programme_at_Kota_Samarahan.jpg/330px-Adenan_Satem_during_the_Sejiwa_Sanada_programme_at_Kota_Samarahan.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "自由今日大马",
       "extract": "《自由今日大马》 是一个马来西亚双语新闻网站，内容以英语和马来语为主，主要关注马来西亚时事，创建于2009年。 它是马来西亚访问量最大的新闻网站之一，每月访问量达1183万人次。 \n",
@@ -27,13 +34,6 @@
       "extract": "李奎翰，韓國男演員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%A5%8E%E7%BF%B0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Lee_Kyu-han_from_acrofan.jpg/330px-Lee_Kyu-han_from_acrofan.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "日莱 (上马恩省)",
-      "extract": "日莱 是法国上马恩省的一个市镇，属于朗格勒区。该市镇总面积10.58平方公里，2009年时的人口为73人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E8%8E%B1_(%E4%B8%8A%E9%A9%AC%E6%81%A9%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Gilley_%28_52_%29_rue_du_Centre_en_1933.jpg/330px-Gilley_%28_52_%29_rue_du_Centre_en_1933.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
