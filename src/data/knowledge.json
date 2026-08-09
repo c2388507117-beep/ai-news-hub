@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T09:05:11.434Z",
+  "fetchedAt": "2026-08-09T09:59:33.606Z",
   "items": [
+    {
+      "title": "阿曼达·米林",
+      "extract": "阿曼达·安妮·米林女爵士，DBE 是英国保守党政治人物，现任下院坎諾克蔡斯选区议员、亞洲事務國務大臣，前保守党主席兼内阁不管部大臣。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC%E8%BE%BE%C2%B7%E7%B1%B3%E6%9E%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Official_portrait_of_Amanda_Milling_MP_crop_2.jpg/330px-Official_portrait_of_Amanda_Milling_MP_crop_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "破產姐妹",
       "extract": "《破产姐妹》 是一部美国情景喜剧，于2011年9月19日至2017年4月17日在CBS电视网首播。本剧由华纳兄弟电视公司拍摄，并由迈克尔·帕特里克·金与惠特妮·卡明担任创作人。故事的场景设置在美国纽约州纽约市布鲁克林区威廉斯堡附近。《破产姐妹》讲述了麦克斯·布莱克（凯特·丹宁丝饰）和卡洛琳·钱宁（贝丝·贝尔斯饰）这对好朋友的生活。卡洛宁出生于富豪家庭，而麦克斯则出生于贫困，因而两人对于生活的态度有所冲突。两人虽然在一家餐厅打工，但同时还积累资金来筹备经营着自己的杯子蛋糕生意。\n",
@@ -27,13 +34,6 @@
       "extract": "马克兰丁 是德国勃兰登堡州乌克马克县曾经的一个市镇，面积45.41平方千米，2019年9月30日人口为993人。2022年4月19日，马克兰丁与另外2个市镇并入市镇奥得河畔施韦特。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%85%8B%E5%85%B0%E4%B8%81",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Schloss_Hohenlandin.JPG/330px-Schloss_Hohenlandin.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "萊娜·邁爾-蘭德魯特",
-      "extract": "萊娜·邁爾-蘭德魯特。德國女歌手。代表德國參加2010年歐洲歌唱大賽以歌曲《衛星》取得冠軍，隔年再度代表德國參加歐洲歌唱大賽以歌曲《著迷於陌生人》取得第十名。並在2013-2016年、2019年在德國版本的兒童好聲音節目上擔任1-4、7季導師。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%90%8A%E5%A8%9C%C2%B7%E9%82%81%E7%88%BE-%E8%98%AD%E5%BE%B7%E9%AD%AF%E7%89%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lena_2017_Unser_Song_%28cropped%29.jpg/330px-Lena_2017_Unser_Song_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
