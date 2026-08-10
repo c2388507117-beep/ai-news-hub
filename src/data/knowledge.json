@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T10:38:26.625Z",
+  "fetchedAt": "2026-08-10T12:02:13.972Z",
   "items": [
+    {
+      "title": "曾志偉",
+      "extract": "曾志偉，MH，香港男藝人、演員、電視節目主持人和影視製作人。曾志偉中學畢業，以龍虎武師出身，其後成為電影演員以及電視節目主持人，並以於《獎門人系列》中擔任「獎門人」為人所知。同時亦投資、策劃及參與電影製作，在主持，演员及导演三方面颇有成就，曾為香港無綫電視總經理（節目內容營運）。曾志偉是1980年代香港新藝城的创作主力之一，以喜剧形象参与《最佳拍檔》《最佳福星》系列电影演出，其后凭《雙城故事》获得香港電影金像獎最佳男主角。1992年加入無綫電視，伴隨陳百祥，率領錢嘉樂主持《獎門人系列》遊戲節目，創下高收視。他還擔任香港演藝人協會名譽會長。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E5%BF%97%E5%81%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/EricTsang_small.jpg/330px-EricTsang_small.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "怀仁堂",
       "extract": "怀仁堂是中华人民共和国北京市中南海内主要建筑之一，位于中海西门内，丰泽园东北。中国近代历史上，曾有多次重大历史事件在此发生。中国共产党政治局和政治局常委会议通常在怀仁堂召开。同时，怀仁堂也是中国共产党多个领导小组的会议举办地，如：中央财经委员会（原中央财经领导小组）、中央全面深化改革委员会（中央全面深化改革领导小组）。\n",
@@ -27,13 +34,6 @@
       "extract": "維策河，是德國的河流，位於該國西北部，由下薩克森州負責管轄，屬於厄爾策河的支流，處於呂訥堡石楠草原南部，河道全長33公里，流域面積193平方公里。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E7%AD%96%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Wietze_%C3%96rtze.jpg/330px-Wietze_%C3%96rtze.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "杰克·唐加拉",
-      "extract": "杰克·唐加拉 是美国一位计算机科学家，英国皇家学会院士外籍院员，他是田納西大學电气工程与计算机科学系特聘教授。橡树岭国家实验室计算机科学与数学部杰出研究人员，曼彻斯特大学数学学院图灵奖学金，萊斯大學计算机科学系兼职教授。他曾在得克萨斯农工大学担任研究人员，他也是创新计算实验室的创始主任。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E5%85%8B%C2%B7%E5%94%90%E5%8A%A0%E6%8B%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jack-dongarra-2022.jpg/330px-Jack-dongarra-2022.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
