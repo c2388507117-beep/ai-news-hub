@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-10T21:04:15.097Z",
+  "fetchedAt": "2026-08-10T22:00:50.386Z",
   "items": [
     {
       "id": "steam-460930",
@@ -12,20 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
-    },
-    {
-      "id": "steam-699130",
-      "title": "World War Z",
-      "url": "https://store.steampowered.com/app/699130?l=schinese",
-      "discount": 75,
-      "originalPrice": 129,
-      "finalPrice": 32.25,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
     },
     {
       "id": "steam-1426210",
@@ -38,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
     },
     {
       "id": "steam-3527290",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.155Z"
     },
     {
       "id": "steam-2001120",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.155Z"
     },
     {
       "id": "steam-1478500",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.155Z"
     },
     {
       "id": "steam-2950790",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
     },
     {
       "id": "steam-1943950",
@@ -103,7 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
+    },
+    {
+      "id": "steam-2057760",
+      "title": "奥秘消退",
+      "url": "https://store.steampowered.com/app/2057760?l=schinese",
+      "discount": 20,
+      "originalPrice": 24.99,
+      "finalPrice": 19.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-10T22:00:50.386Z"
     },
     {
       "id": "steam-1067360",
@@ -116,20 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
     },
     {
       "id": "steam-4108000",
       "title": "机械狂欢",
       "url": "https://store.steampowered.com/app/4108000?l=schinese",
       "discount": 15,
-      "originalPrice": 7.99,
-      "finalPrice": 6.79,
+      "originalPrice": 33,
+      "finalPrice": 28.05,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:15.097Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
     },
     {
       "id": "steam-3812600",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:14.775Z"
+      "publishedAt": "2026-08-10T22:00:50.156Z"
     },
     {
       "id": "steam-2142790",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:15.097Z"
+      "publishedAt": "2026-08-10T22:00:50.386Z"
     },
     {
       "id": "steam-4450620",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-10T21:04:15.097Z"
+      "publishedAt": "2026-08-10T22:00:50.386Z"
     }
   ]
 }

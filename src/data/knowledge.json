@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T21:04:19.917Z",
+  "fetchedAt": "2026-08-10T22:00:55.160Z",
   "items": [
+    {
+      "title": "往来香港特别行政区通行证",
+      "extract": "往来香港特别行政区通行证，是在香港回归后由中华人民共和国国务院港澳事务办公室签发给因公往来或驻留香港特别行政区内地人员的出入境身份证件。封面为灰色，内有46页的签注页。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%80%E6%9D%A5%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E9%80%9A%E8%A1%8C%E8%AF%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Affairs_to_Hong_Kong_Pass.jpg/330px-Affairs_to_Hong_Kong_Pass.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "禪弄蝶屬",
       "extract": "禪弄蝶屬 是弄蝶亞科刺脛弄蝶族裡的一個屬，曾長期被視為孔弄蝶屬的異名，物種分布於亞洲東部的俄羅斯遠東、朝鮮半島、日本、中國與臺灣。\n",
@@ -27,13 +34,6 @@
       "extract": "賴峰偉（1953年9月20日—），臺灣政治人物，中國國民黨籍，生於澎湖縣馬公市。曾於1997年至2005年間連續兩屆當選為澎湖縣縣長；2018年再度當選澎湖縣縣長，但在2022年敗給回鍋參選的前縣長陳光復，連任失利。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E5%B3%B0%E5%81%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E8%B3%B4%E5%B3%B0%E5%81%89%E7%B8%A3%E9%95%B7.jpg/330px-%E8%B3%B4%E5%B3%B0%E5%81%89%E7%B8%A3%E9%95%B7.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "茶梨",
-      "extract": "茶梨 为山茶科茶梨属下的一个种。其种加词“Fragrans”意为“芳香的”，“有着甜美气味的”。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8C%B6%E6%A2%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Plantae_Asiaticae_Rariores_-_plate_005_-_Anneslea_fragrans.jpg/330px-Plantae_Asiaticae_Rariores_-_plate_005_-_Anneslea_fragrans.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
