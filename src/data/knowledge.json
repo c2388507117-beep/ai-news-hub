@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T13:48:25.863Z",
+  "fetchedAt": "2026-08-10T15:25:47.941Z",
   "items": [
+    {
+      "title": "茶梨",
+      "extract": "茶梨 为山茶科茶梨属下的一个种。其种加词“Fragrans”意为“芳香的”，“有着甜美气味的”。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8C%B6%E6%A2%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Plantae_Asiaticae_Rariores_-_plate_005_-_Anneslea_fragrans.jpg/330px-Plantae_Asiaticae_Rariores_-_plate_005_-_Anneslea_fragrans.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "雷丁鎮區 (密歇根州希爾斯代爾縣)",
       "extract": "雷丁鎮區 是一個位於美國密歇根州希爾斯代爾縣的行政鎮區。\n",
@@ -27,13 +34,6 @@
       "extract": "文化艺术中心站位于中华人民共和国湖南省长沙市岳麓区梅溪湖路、连湖一路与临水路交叉口地下，是长沙地铁2号线的地铁车站，于2015年12月28日开通。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%8C%96%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Platform_of_Culture_and_Arts_Center_Station_20260616.jpg/330px-Platform_of_Culture_and_Arts_Center_Station_20260616.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "加纳自治领",
-      "extract": "加纳自治领，（1957年—1960年）是加纳共和国的前身，第二次世界大战结束以来西非第一个独立国家。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E7%BA%B3%E8%87%AA%E6%B2%BB%E9%A2%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/langzh-330px-Flag_of_Ghana.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
