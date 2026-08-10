@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T19:24:33.780Z",
+  "fetchedAt": "2026-08-10T21:04:19.917Z",
   "items": [
+    {
+      "title": "禪弄蝶屬",
+      "extract": "禪弄蝶屬 是弄蝶亞科刺脛弄蝶族裡的一個屬，曾長期被視為孔弄蝶屬的異名，物種分布於亞洲東部的俄羅斯遠東、朝鮮半島、日本、中國與臺灣。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A6%AA%E5%BC%84%E8%9D%B6%E5%B1%AC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Polytremis_pellucida.JPG/330px-Polytremis_pellucida.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "天津津门虎足球俱乐部",
       "extract": "天津津门虎足球俱乐部，原名天津泰达足球俱乐部，是一家位于中国天津市的职业足球俱乐部，主场为天津奥林匹克中心体育场和泰达足球场。其前身天津泰达足球俱乐部成立于1998年2月16日，是中国足球超级联赛的创始会员。\n",
@@ -27,13 +34,6 @@
       "extract": "茶梨 为山茶科茶梨属下的一个种。其种加词“Fragrans”意为“芳香的”，“有着甜美气味的”。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8C%B6%E6%A2%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Plantae_Asiaticae_Rariores_-_plate_005_-_Anneslea_fragrans.jpg/330px-Plantae_Asiaticae_Rariores_-_plate_005_-_Anneslea_fragrans.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "雷丁鎮區 (密歇根州希爾斯代爾縣)",
-      "extract": "雷丁鎮區 是一個位於美國密歇根州希爾斯代爾縣的行政鎮區。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E4%B8%81%E9%8E%AE%E5%8D%80_(%E5%AF%86%E6%AD%87%E6%A0%B9%E5%B7%9E%E5%B8%8C%E7%88%BE%E6%96%AF%E4%BB%A3%E7%88%BE%E7%B8%A3)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Reading_Township%2C_Michigan_hall.jpg/330px-Reading_Township%2C_Michigan_hall.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
