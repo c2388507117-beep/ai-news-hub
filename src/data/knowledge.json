@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-09T23:50:42.212Z",
+  "fetchedAt": "2026-08-10T02:37:23.134Z",
   "items": [
+    {
+      "title": "杰克·唐加拉",
+      "extract": "杰克·唐加拉 是美国一位计算机科学家，英国皇家学会院士外籍院员，他是田納西大學电气工程与计算机科学系特聘教授。橡树岭国家实验室计算机科学与数学部杰出研究人员，曼彻斯特大学数学学院图灵奖学金，萊斯大學计算机科学系兼职教授。他曾在得克萨斯农工大学担任研究人员，他也是创新计算实验室的创始主任。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E5%85%8B%C2%B7%E5%94%90%E5%8A%A0%E6%8B%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jack-dongarra-2022.jpg/330px-Jack-dongarra-2022.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "芝加哥公牛",
       "extract": "芝加哥公牛，是一支位於美國伊利諾州芝加哥的NBA職業籃球隊，分屬於東區的中央組，其主場為联合中心球馆。芝加哥的畜牧業非常發達，該城的職業美式足球隊（芝加哥熊）和職業棒球隊（芝加哥小熊）皆以動物名稱命名，而「公牛」則成了芝加哥職業籃球隊的隊名。\n",
@@ -27,13 +34,6 @@
       "extract": "小眼平頭鮈 是輻鰭魚綱鯉形目雅羅魚科的其中一個種，分布於北美洲加拿大及美國三個主要流域，即馬更些河流域、密蘇里河-密西西比河流域、格蘭德河流域，本魚身體細長，頭部扁平，呈「楔形」，鼻尖，口大有觸鬚，胸鰭成鐮刀狀，尾鰭叉形，成魚體呈棕色、橄欖色或黑色，側面和腹部銀色，體長可達32公分，棲息在中大型、水流湍急且混濁的溪流，以昆蟲為食，繁殖期約在6至8月，可作為食用魚。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%9C%BC%E5%B9%B3%E9%A0%AD%E9%AE%88",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/The_fishes_of_North_and_Middle_America_%28Pl._LIV%29_%287983322799%29.jpg/330px-The_fishes_of_North_and_Middle_America_%28Pl._LIV%29_%287983322799%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "三碘化铀",
-      "extract": "三碘化铀是一种无机化合物，化学式 UI3。 它是一种黑色固体，可溶于水。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%A2%98%E5%8C%96%E9%93%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Unit_cell_of_PuBr3.png/330px-Unit_cell_of_PuBr3.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
