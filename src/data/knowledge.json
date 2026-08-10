@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T15:25:47.941Z",
+  "fetchedAt": "2026-08-10T17:11:49.617Z",
   "items": [
+    {
+      "title": "賴峰偉",
+      "extract": "賴峰偉（1953年9月20日—），臺灣政治人物，中國國民黨籍，生於澎湖縣馬公市。曾於1997年至2005年間連續兩屆當選為澎湖縣縣長；2018年再度當選澎湖縣縣長，但在2022年敗給回鍋參選的前縣長陳光復，連任失利。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E5%B3%B0%E5%81%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E8%B3%B4%E5%B3%B0%E5%81%89%E7%B8%A3%E9%95%B7.jpg/330px-%E8%B3%B4%E5%B3%B0%E5%81%89%E7%B8%A3%E9%95%B7.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "茶梨",
       "extract": "茶梨 为山茶科茶梨属下的一个种。其种加词“Fragrans”意为“芳香的”，“有着甜美气味的”。\n",
@@ -27,13 +34,6 @@
       "extract": "怀仁堂是中华人民共和国北京市中南海内主要建筑之一，位于中海西门内，丰泽园东北。中国近代历史上，曾有多次重大历史事件在此发生。中国共产党政治局和政治局常委会议通常在怀仁堂召开。同时，怀仁堂也是中国共产党多个领导小组的会议举办地，如：中央财经委员会（原中央财经领导小组）、中央全面深化改革委员会（中央全面深化改革领导小组）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%80%80%E4%BB%81%E5%A0%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1st_National_People%27s_Congress_1.jpg/330px-1st_National_People%27s_Congress_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "文化艺术中心站",
-      "extract": "文化艺术中心站位于中华人民共和国湖南省长沙市岳麓区梅溪湖路、连湖一路与临水路交叉口地下，是长沙地铁2号线的地铁车站，于2015年12月28日开通。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%8C%96%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Platform_of_Culture_and_Arts_Center_Station_20260616.jpg/330px-Platform_of_Culture_and_Arts_Center_Station_20260616.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
