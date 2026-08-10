@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T06:44:19.415Z",
+  "fetchedAt": "2026-08-10T08:53:10.906Z",
   "items": [
+    {
+      "title": "文化艺术中心站",
+      "extract": "文化艺术中心站位于中华人民共和国湖南省长沙市岳麓区梅溪湖路、连湖一路与临水路交叉口地下，是长沙地铁2号线的地铁车站，于2015年12月28日开通。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%8C%96%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83%E7%AB%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Platform_of_Culture_and_Arts_Center_Station_20260616.jpg/330px-Platform_of_Culture_and_Arts_Center_Station_20260616.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "加纳自治领",
       "extract": "加纳自治领，（1957年—1960年）是加纳共和国的前身，第二次世界大战结束以来西非第一个独立国家。\n",
@@ -27,13 +34,6 @@
       "extract": "芝加哥公牛，是一支位於美國伊利諾州芝加哥的NBA職業籃球隊，分屬於東區的中央組，其主場為联合中心球馆。芝加哥的畜牧業非常發達，該城的職業美式足球隊（芝加哥熊）和職業棒球隊（芝加哥小熊）皆以動物名稱命名，而「公牛」則成了芝加哥職業籃球隊的隊名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8A%9D%E5%8A%A0%E5%93%A5%E5%85%AC%E7%89%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/6/67/Chicago_Bulls_logo.svg/langzh-330px-Chicago_Bulls_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "红花苷",
-      "extract": "红花苷 是从菊科植物红花 提取到的一种红色色素。在食品工业以及纺织品中作为染料使用，俗称天然红26。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E8%8A%B1%E8%8B%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Carthamin.png/330px-Carthamin.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
