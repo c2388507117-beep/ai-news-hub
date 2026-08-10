@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T08:53:10.906Z",
+  "fetchedAt": "2026-08-10T10:38:26.625Z",
   "items": [
+    {
+      "title": "怀仁堂",
+      "extract": "怀仁堂是中华人民共和国北京市中南海内主要建筑之一，位于中海西门内，丰泽园东北。中国近代历史上，曾有多次重大历史事件在此发生。中国共产党政治局和政治局常委会议通常在怀仁堂召开。同时，怀仁堂也是中国共产党多个领导小组的会议举办地，如：中央财经委员会（原中央财经领导小组）、中央全面深化改革委员会（中央全面深化改革领导小组）。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%80%E4%BB%81%E5%A0%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1st_National_People%27s_Congress_1.jpg/330px-1st_National_People%27s_Congress_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "文化艺术中心站",
       "extract": "文化艺术中心站位于中华人民共和国湖南省长沙市岳麓区梅溪湖路、连湖一路与临水路交叉口地下，是长沙地铁2号线的地铁车站，于2015年12月28日开通。\n",
@@ -27,13 +34,6 @@
       "extract": "杰克·唐加拉 是美国一位计算机科学家，英国皇家学会院士外籍院员，他是田納西大學电气工程与计算机科学系特聘教授。橡树岭国家实验室计算机科学与数学部杰出研究人员，曼彻斯特大学数学学院图灵奖学金，萊斯大學计算机科学系兼职教授。他曾在得克萨斯农工大学担任研究人员，他也是创新计算实验室的创始主任。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%B0%E5%85%8B%C2%B7%E5%94%90%E5%8A%A0%E6%8B%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jack-dongarra-2022.jpg/330px-Jack-dongarra-2022.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "芝加哥公牛",
-      "extract": "芝加哥公牛，是一支位於美國伊利諾州芝加哥的NBA職業籃球隊，分屬於東區的中央組，其主場為联合中心球馆。芝加哥的畜牧業非常發達，該城的職業美式足球隊（芝加哥熊）和職業棒球隊（芝加哥小熊）皆以動物名稱命名，而「公牛」則成了芝加哥職業籃球隊的隊名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8A%9D%E5%8A%A0%E5%93%A5%E5%85%AC%E7%89%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/6/67/Chicago_Bulls_logo.svg/langzh-330px-Chicago_Bulls_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
