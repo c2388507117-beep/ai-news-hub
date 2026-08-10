@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T22:59:12.113Z",
+  "fetchedAt": "2026-08-10T23:53:02.978Z",
   "items": [
+    {
+      "title": "三(3,6-二氧杂庚基)胺",
+      "extract": "三(3,6-二氧杂庚基)胺 是一种有机化合物，化学式为N(CH2CH2OCH2CH2OCH3)3。它是无色的物质，一些样品可能呈黄色。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89(3%2C6-%E4%BA%8C%E6%B0%A7%E6%9D%82%E5%BA%9A%E5%9F%BA)%E8%83%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TDA1%2C_ptc_catalyst.svg/langzh-330px-TDA1%2C_ptc_catalyst.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "雅典科学院",
       "extract": "雅典科学院 是希腊的國家科學院，也是該國最高的研究機構。它成立於1926年，其創始原則及名稱可以追溯到歷史悠久的柏拉图学园，並在隶属教育和宗教事务部的監督下運作。學院的主樓是雅典的主要地標之一。\n",
@@ -27,13 +34,6 @@
       "extract": "天津津门虎足球俱乐部，原名天津泰达足球俱乐部，是一家位于中国天津市的职业足球俱乐部，主场为天津奥林匹克中心体育场和泰达足球场。其前身天津泰达足球俱乐部成立于1998年2月16日，是中国足球超级联赛的创始会员。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%B4%A5%E6%B4%A5%E9%97%A8%E8%99%8E%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/a/ad/Logo_of_Tianjin_Jinmen_Tiger_FC.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "氰化镉",
-      "extract": "氰化镉是一种无机化合物，化学式为Cd(CN)2。它是白色晶体，加热变为褐色，剧毒，用于电镀。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B0%E5%8C%96%E9%95%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cd%28CN%292.jpg/330px-Cd%28CN%292.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
