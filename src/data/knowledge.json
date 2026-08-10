@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T04:58:03.164Z",
+  "fetchedAt": "2026-08-10T06:44:19.415Z",
   "items": [
+    {
+      "title": "加纳自治领",
+      "extract": "加纳自治领，（1957年—1960年）是加纳共和国的前身，第二次世界大战结束以来西非第一个独立国家。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E7%BA%B3%E8%87%AA%E6%B2%BB%E9%A2%86",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/langzh-330px-Flag_of_Ghana.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "維策河",
       "extract": "維策河，是德國的河流，位於該國西北部，由下薩克森州負責管轄，屬於厄爾策河的支流，處於呂訥堡石楠草原南部，河道全長33公里，流域面積193平方公里。\n",
@@ -27,13 +34,6 @@
       "extract": "红花苷 是从菊科植物红花 提取到的一种红色色素。在食品工业以及纺织品中作为染料使用，俗称天然红26。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E8%8A%B1%E8%8B%B7",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Carthamin.png/330px-Carthamin.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "中国—菲律宾关系",
-      "extract": "中菲關係 即是中國和菲律賓之間的關係。菲律賓歷史上的蘇祿蘇丹國曾經和中國建立朝貢關係。菲律賓獨立後，曾與中華民國建交，並與1949年成立的中華人民共和國處於敵對狀態，北京當局也拒絕承認馬尼拉政府，並把菲律賓共產黨建立的政權稱為人民政府。直至1975年，菲律賓才與中華民國斷交和中華人民共和國建立邦交，互派大使。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E2%80%94%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%85%B3%E7%B3%BB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/China_Philippines_Locator.svg/langzh-330px-China_Philippines_Locator.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
