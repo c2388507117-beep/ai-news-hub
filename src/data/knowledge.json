@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T02:37:23.134Z",
+  "fetchedAt": "2026-08-10T04:58:03.164Z",
   "items": [
+    {
+      "title": "維策河",
+      "extract": "維策河，是德國的河流，位於該國西北部，由下薩克森州負責管轄，屬於厄爾策河的支流，處於呂訥堡石楠草原南部，河道全長33公里，流域面積193平方公里。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E7%AD%96%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Wietze_%C3%96rtze.jpg/330px-Wietze_%C3%96rtze.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "杰克·唐加拉",
       "extract": "杰克·唐加拉 是美国一位计算机科学家，英国皇家学会院士外籍院员，他是田納西大學电气工程与计算机科学系特聘教授。橡树岭国家实验室计算机科学与数学部杰出研究人员，曼彻斯特大学数学学院图灵奖学金，萊斯大學计算机科学系兼职教授。他曾在得克萨斯农工大学担任研究人员，他也是创新计算实验室的创始主任。\n",
@@ -27,13 +34,6 @@
       "extract": "中菲關係 即是中國和菲律賓之間的關係。菲律賓歷史上的蘇祿蘇丹國曾經和中國建立朝貢關係。菲律賓獨立後，曾與中華民國建交，並與1949年成立的中華人民共和國處於敵對狀態，北京當局也拒絕承認馬尼拉政府，並把菲律賓共產黨建立的政權稱為人民政府。直至1975年，菲律賓才與中華民國斷交和中華人民共和國建立邦交，互派大使。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E2%80%94%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%85%B3%E7%B3%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/China_Philippines_Locator.svg/langzh-330px-China_Philippines_Locator.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "小眼平頭鮈",
-      "extract": "小眼平頭鮈 是輻鰭魚綱鯉形目雅羅魚科的其中一個種，分布於北美洲加拿大及美國三個主要流域，即馬更些河流域、密蘇里河-密西西比河流域、格蘭德河流域，本魚身體細長，頭部扁平，呈「楔形」，鼻尖，口大有觸鬚，胸鰭成鐮刀狀，尾鰭叉形，成魚體呈棕色、橄欖色或黑色，側面和腹部銀色，體長可達32公分，棲息在中大型、水流湍急且混濁的溪流，以昆蟲為食，繁殖期約在6至8月，可作為食用魚。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%9C%BC%E5%B9%B3%E9%A0%AD%E9%AE%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/The_fishes_of_North_and_Middle_America_%28Pl._LIV%29_%287983322799%29.jpg/330px-The_fishes_of_North_and_Middle_America_%28Pl._LIV%29_%287983322799%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
