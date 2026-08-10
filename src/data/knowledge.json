@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-10T17:11:49.617Z",
+  "fetchedAt": "2026-08-10T18:06:11.828Z",
   "items": [
+    {
+      "title": "氰化镉",
+      "extract": "氰化镉是一种无机化合物，化学式为Cd(CN)2。它是白色晶体，加热变为褐色，剧毒，用于电镀。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B0%E5%8C%96%E9%95%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cd%28CN%292.jpg/330px-Cd%28CN%292.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "賴峰偉",
       "extract": "賴峰偉（1953年9月20日—），臺灣政治人物，中國國民黨籍，生於澎湖縣馬公市。曾於1997年至2005年間連續兩屆當選為澎湖縣縣長；2018年再度當選澎湖縣縣長，但在2022年敗給回鍋參選的前縣長陳光復，連任失利。\n",
@@ -27,13 +34,6 @@
       "extract": "曾志偉，MH，香港男藝人、演員、電視節目主持人和影視製作人。曾志偉中學畢業，以龍虎武師出身，其後成為電影演員以及電視節目主持人，並以於《獎門人系列》中擔任「獎門人」為人所知。同時亦投資、策劃及參與電影製作，在主持，演员及导演三方面颇有成就，曾為香港無綫電視總經理（節目內容營運）。曾志偉是1980年代香港新藝城的创作主力之一，以喜剧形象参与《最佳拍檔》《最佳福星》系列电影演出，其后凭《雙城故事》获得香港電影金像獎最佳男主角。1992年加入無綫電視，伴隨陳百祥，率領錢嘉樂主持《獎門人系列》遊戲節目，創下高收視。他還擔任香港演藝人協會名譽會長。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E5%BF%97%E5%81%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/EricTsang_small.jpg/330px-EricTsang_small.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "怀仁堂",
-      "extract": "怀仁堂是中华人民共和国北京市中南海内主要建筑之一，位于中海西门内，丰泽园东北。中国近代历史上，曾有多次重大历史事件在此发生。中国共产党政治局和政治局常委会议通常在怀仁堂召开。同时，怀仁堂也是中国共产党多个领导小组的会议举办地，如：中央财经委员会（原中央财经领导小组）、中央全面深化改革委员会（中央全面深化改革领导小组）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%80%80%E4%BB%81%E5%A0%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1st_National_People%27s_Congress_1.jpg/330px-1st_National_People%27s_Congress_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
