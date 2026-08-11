@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-11T04:42:55.579Z",
+  "fetchedAt": "2026-08-11T06:07:10.203Z",
   "items": [
+    {
+      "title": "姥姥的外孙",
+      "extract": "《姥姥的外孙》，曾用名《中国家庭》，是一部由宽屏影业制作，GDH 559发行的泰国家庭剧情片。 此片由普提蓬·阿萨拉塔纳功、彤达婉·奔提维此弓、三亚·库纳空、邦沙敦·宗威拉克、莎琳拉·托马斯等人主演。电影改编自真人真事，主要讲述了出生泰籍華裔潮州人家庭的年轻人M，为了继承百万遗产辞去工作照顾罹患癌症的的姥姥，并在过程中明白了许多道理。此片原定于2023年年底上映，后因为电影档期冲突延迟至2024年4月4日上映。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A7%A5%E5%A7%A5%E7%9A%84%E5%A4%96%E5%AD%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/8/8d/%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B9%88%E0%B8%B2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "骨顶鸡属",
       "extract": "骨顶鸡属，也称骨顶属，是秧鸡科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "雅典科学院 是希腊的國家科學院，也是該國最高的研究機構。它成立於1926年，其創始原則及名稱可以追溯到歷史悠久的柏拉图学园，並在隶属教育和宗教事务部的監督下運作。學院的主樓是雅典的主要地標之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%85%E5%85%B8%E7%A7%91%E5%AD%A6%E9%99%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Akademie_von_Athen.jpg/330px-Akademie_von_Athen.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "往来香港特别行政区通行证",
-      "extract": "往来香港特别行政区通行证，是在香港回归后由中华人民共和国国务院港澳事务办公室签发给因公往来或驻留香港特别行政区内地人员的出入境身份证件。封面为灰色，内有46页的签注页。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BE%80%E6%9D%A5%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E9%80%9A%E8%A1%8C%E8%AF%81",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Affairs_to_Hong_Kong_Pass.jpg/330px-Affairs_to_Hong_Kong_Pass.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
