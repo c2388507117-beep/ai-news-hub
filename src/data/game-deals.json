@@ -1,19 +1,6 @@
 {
-  "fetchedAt": "2026-08-11T21:07:06.071Z",
+  "fetchedAt": "2026-08-11T22:07:58.402Z",
   "items": [
-    {
-      "id": "steam-460930",
-      "title": "幽灵行动：荒野",
-      "url": "https://store.steampowered.com/app/460930?l=schinese",
-      "discount": 95,
-      "originalPrice": 49.99,
-      "finalPrice": 2.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:06.071Z"
-    },
     {
       "id": "steam-1222140",
       "title": "底特律：化身为人",
@@ -25,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-699130",
@@ -38,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-1426210",
@@ -51,20 +38,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
+    },
+    {
+      "id": "steam-1687950",
+      "title": "女神异闻录5皇家版",
+      "url": "https://store.steampowered.com/app/1687950?l=schinese",
+      "discount": 70,
+      "originalPrice": 438,
+      "finalPrice": 131.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-11T22:07:58.402Z"
     },
     {
       "id": "steam-2161700",
       "title": "女神异闻录３ Reload",
       "url": "https://store.steampowered.com/app/2161700?l=schinese",
       "discount": 65,
-      "originalPrice": 268,
-      "finalPrice": 93.8,
+      "originalPrice": 438,
+      "finalPrice": 153.3,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.402Z"
     },
     {
       "id": "steam-3527290",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-2001120",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-2358720",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-1478500",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-2950790",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
       "id": "steam-1067360",
@@ -142,59 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:05.607Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     },
     {
-      "id": "steam-3929470",
-      "title": "Warhounds",
-      "url": "https://store.steampowered.com/app/3929470?l=schinese",
+      "id": "steam-4108000",
+      "title": "机械狂欢",
+      "url": "https://store.steampowered.com/app/4108000?l=schinese",
       "discount": 15,
-      "originalPrice": 34.99,
-      "finalPrice": 29.74,
+      "originalPrice": 33,
+      "finalPrice": 28.05,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:06.071Z"
-    },
-    {
-      "id": "steam-1574480",
-      "title": "Agent 64: Spies Never Die",
-      "url": "https://store.steampowered.com/app/1574480?l=schinese",
-      "discount": 11,
-      "originalPrice": 21.64,
-      "finalPrice": 19.25,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:06.071Z"
-    },
-    {
-      "id": "steam-2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "url": "https://store.steampowered.com/app/2523770?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:06.071Z"
-    },
-    {
-      "id": "steam-3812600",
-      "title": "维修物语",
-      "url": "https://store.steampowered.com/app/3812600?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T21:07:06.071Z"
+      "publishedAt": "2026-08-11T22:07:58.184Z"
     }
   ]
 }
