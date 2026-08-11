@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T17:15:32.866Z",
+  "fetchedAt": "2026-08-11T18:10:59.366Z",
   "items": [
     {
       "id": "steam-1222140",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-699130",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-1426210",
@@ -38,20 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
-    },
-    {
-      "id": "steam-1687950",
-      "title": "女神异闻录5皇家版",
-      "url": "https://store.steampowered.com/app/1687950?l=schinese",
-      "discount": 70,
-      "originalPrice": 438,
-      "finalPrice": 131.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.866Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-3527290",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-2001120",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-2358720",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-1478500",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-2950790",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-1067360",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     },
     {
       "id": "steam-4108000",
@@ -142,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T17:15:32.759Z"
+      "publishedAt": "2026-08-11T18:10:59.275Z"
     }
   ]
 }

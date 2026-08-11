@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-11T17:15:38.797Z",
+  "fetchedAt": "2026-08-11T18:11:04.131Z",
   "items": [
+    {
+      "title": "臺灣與英國關係史",
+      "extract": "臺灣與英國關係史（臺英關係史）是指臺灣有信史以來，與英國雙方在歷史上的不同階段的關係，以及當前臺灣與英國的各項交流。英國是史上最早在臺設立領事館的國家。隨著中華民國政府遷臺，實際上已併入到中華民國與英國關係中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%88%87%E8%8B%B1%E5%9C%8B%E9%97%9C%E4%BF%82%E5%8F%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taiwan_United_Kingdom_Locator.png/330px-Taiwan_United_Kingdom_Locator.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "国家食品药品监督管理总局",
       "extract": "国家食品药品监督管理总局，标准简称食品药品监管总局，亦简称国家食药监总局，是已撤销的中华人民共和国国务院直属机构，负责食品药品监督管理工作。\n",
@@ -27,13 +34,6 @@
       "extract": "中華民國的國家公園，是中華民國政府為了保護國家特有的自然風景、野生物及史蹟，依《國家公園法》所公告劃定之區域；《國家公園法》另定合於上述條件但資源豐度或面積規模較小者，設置國家自然公園。從1984年成立墾丁國家公園以來，目前設有9座國家公園、1座國家自然公園。其主管機關均為內政部國家公園署。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/LocationTaiwan.svg/langzh-330px-LocationTaiwan.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "塔季扬娜·库赛科",
-      "extract": "塔季扬娜·阿列克谢耶芙娜·库赛科 是俄罗斯政治人物。她于2016年至2021年间担任联邦委员会议员，并自2021年起担任第八届国家杜马议员。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%AD%A3%E6%89%AC%E5%A8%9C%C2%B7%E5%BA%93%E8%B5%9B%E7%A7%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%9A%D1%83%D1%81%D0%B0%D0%B9%D0%BA%D0%BE.jpg/330px-%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%9A%D1%83%D1%81%D0%B0%D0%B9%D0%BA%D0%BE.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
