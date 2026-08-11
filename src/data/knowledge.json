@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-11T13:46:30.695Z",
+  "fetchedAt": "2026-08-11T15:17:48.895Z",
   "items": [
+    {
+      "title": "假叶树属",
+      "extract": "假叶树属 是假叶树科下的一个属，为直立亚灌木植物。该属共有约7种，分布于马德拉群岛、欧洲南部、地中海地区或至高加索地区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%81%87%E5%8F%B6%E6%A0%91%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ruscus_aculeatus0.jpg/330px-Ruscus_aculeatus0.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "鎚卡頦銀漢魚",
       "extract": "鎚卡頦銀漢魚，為輻鰭魚綱銀漢魚目擬銀漢魚科的其中一種，分布於北美洲墨西哥Lerma河流域，為熱帶魚類，棲息在底中層水域，生活習性不明。\n",
@@ -27,13 +34,6 @@
       "extract": "崔始源，韓國男歌手及演員，為韓國男子團體Super Junior及子團Super Junior-M、Super Junior-L.S.S.成员，在隊內擔任副唱及門面。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B4%94%E5%A7%8B%E6%BA%90",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/191231_%EC%B5%9C%EC%8B%9C%EC%9B%90.jpg/330px-191231_%EC%B5%9C%EC%8B%9C%EC%9B%90.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "厄兰盖姆",
-      "extract": "厄兰盖姆 是法国上法蘭西大區加来海峡省的一个市镇，属于圣奥梅尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E5%85%B0%E7%9B%96%E5%A7%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Heuringhem_%28Pas-de-Calais%2C_Fr%29_mairie.JPG/330px-Heuringhem_%28Pas-de-Calais%2C_Fr%29_mairie.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
