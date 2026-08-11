@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-08-11T12:00:25.521Z",
+  "fetchedAt": "2026-08-11T13:46:25.553Z",
   "items": [
     {
       "id": "steam-460930",
       "title": "幽灵行动：荒野",
       "url": "https://store.steampowered.com/app/460930?l=schinese",
       "discount": 95,
-      "originalPrice": 49.99,
-      "finalPrice": 2.49,
+      "originalPrice": 208,
+      "finalPrice": 10.4,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.520Z"
+      "publishedAt": "2026-08-11T13:46:25.553Z"
     },
     {
       "id": "steam-1222140",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     },
     {
       "id": "steam-699130",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     },
     {
       "id": "steam-1426210",
@@ -51,20 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
-    },
-    {
-      "id": "steam-1687950",
-      "title": "女神异闻录5皇家版",
-      "url": "https://store.steampowered.com/app/1687950?l=schinese",
-      "discount": 70,
-      "originalPrice": 268,
-      "finalPrice": 80.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     },
     {
       "id": "steam-3527290",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.469Z"
     },
     {
       "id": "steam-2001120",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     },
     {
       "id": "steam-1478500",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.469Z"
     },
     {
       "id": "steam-2950790",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     },
     {
       "id": "steam-1067360",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     },
     {
       "id": "steam-4108000",
@@ -142,33 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.294Z"
+      "publishedAt": "2026-08-11T13:46:25.469Z"
     },
     {
-      "id": "steam-3812600",
-      "title": "维修物语",
-      "url": "https://store.steampowered.com/app/3812600?l=schinese",
+      "id": "steam-3226060",
+      "title": "梦境回响",
+      "url": "https://store.steampowered.com/app/3226060?l=schinese",
       "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
+      "originalPrice": 42,
+      "finalPrice": 37.8,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.520Z"
-    },
-    {
-      "id": "steam-2142790",
-      "title": "Fields of Mistria",
-      "url": "https://store.steampowered.com/app/2142790?l=schinese",
-      "discount": 10,
-      "originalPrice": 13.99,
-      "finalPrice": 12.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-11T12:00:25.520Z"
+      "publishedAt": "2026-08-11T13:46:25.470Z"
     }
   ]
 }

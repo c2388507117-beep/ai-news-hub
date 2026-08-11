@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-11T12:00:30.670Z",
+  "fetchedAt": "2026-08-11T13:46:30.695Z",
   "items": [
+    {
+      "title": "鎚卡頦銀漢魚",
+      "extract": "鎚卡頦銀漢魚，為輻鰭魚綱銀漢魚目擬銀漢魚科的其中一種，分布於北美洲墨西哥Lerma河流域，為熱帶魚類，棲息在底中層水域，生活習性不明。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8E%9A%E5%8D%A1%E9%A0%A6%E9%8A%80%E6%BC%A2%E9%AD%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/FMIB_40486_Chirostoma_lermoe%2C_Lateral_and_dorsal_views_of_head.jpeg/330px-FMIB_40486_Chirostoma_lermoe%2C_Lateral_and_dorsal_views_of_head.jpeg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "中華民國國家公園",
       "extract": "中華民國的國家公園，是中華民國政府為了保護國家特有的自然風景、野生物及史蹟，依《國家公園法》所公告劃定之區域；《國家公園法》另定合於上述條件但資源豐度或面積規模較小者，設置國家自然公園。從1984年成立墾丁國家公園以來，目前設有9座國家公園、1座國家自然公園。其主管機關均為內政部國家公園署。\n",
@@ -27,13 +34,6 @@
       "extract": "厄兰盖姆 是法国上法蘭西大區加来海峡省的一个市镇，属于圣奥梅尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E5%85%B0%E7%9B%96%E5%A7%86",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Heuringhem_%28Pas-de-Calais%2C_Fr%29_mairie.JPG/330px-Heuringhem_%28Pas-de-Calais%2C_Fr%29_mairie.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "熱河翼龍屬",
-      "extract": "熱河翼龍屬 是種小型蛙嘴龍科翼龍類，生存於侏儸紀早期至中期，發現於中國內蒙古自治區髫髻山層的道虎溝化石層，另外於北韓地層年代屬於白堊紀早期的新義州層也有發現疑似熱河翼龍屬的化石，化石有毛與皮膚壓痕，以發現地點熱河為名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%86%B1%E6%B2%B3%E7%BF%BC%E9%BE%8D%E5%B1%AC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jeholopterus_ningchengensis.png/330px-Jeholopterus_ningchengensis.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
