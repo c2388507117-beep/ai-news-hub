@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T02:30:43.953Z",
+  "fetchedAt": "2026-08-11T04:42:50.846Z",
   "items": [
     {
       "id": "steam-460930",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.953Z"
+      "publishedAt": "2026-08-11T04:42:50.845Z"
     },
     {
       "id": "steam-1222140",
@@ -25,20 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
-      "id": "steam-1687950",
-      "title": "女神异闻录5皇家版",
-      "url": "https://store.steampowered.com/app/1687950?l=schinese",
-      "discount": 70,
-      "originalPrice": 268,
-      "finalPrice": 80.4,
+      "id": "steam-699130",
+      "title": "World War Z",
+      "url": "https://store.steampowered.com/app/699130?l=schinese",
+      "discount": 75,
+      "originalPrice": 129,
+      "finalPrice": 32.25,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-1426210",
@@ -51,7 +51,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
+    },
+    {
+      "id": "steam-1687950",
+      "title": "女神异闻录5皇家版",
+      "url": "https://store.steampowered.com/app/1687950?l=schinese",
+      "discount": 70,
+      "originalPrice": 268,
+      "finalPrice": 80.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-2161700",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-3527290",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-2001120",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-1478500",
@@ -103,20 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-2950790",
       "title": "铁巢重炮",
       "url": "https://store.steampowered.com/app/2950790?l=schinese",
       "discount": 25,
-      "originalPrice": 59,
-      "finalPrice": 44.25,
+      "originalPrice": 19.99,
+      "finalPrice": 14.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.845Z"
     },
     {
       "id": "steam-1067360",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-4108000",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.802Z"
+      "publishedAt": "2026-08-11T04:42:50.696Z"
     },
     {
       "id": "steam-3812600",
@@ -155,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-11T02:30:43.953Z"
+      "publishedAt": "2026-08-11T04:42:50.845Z"
+    },
+    {
+      "id": "steam-2142790",
+      "title": "Fields of Mistria",
+      "url": "https://store.steampowered.com/app/2142790?l=schinese",
+      "discount": 10,
+      "originalPrice": 13.99,
+      "finalPrice": 12.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-11T04:42:50.845Z"
     }
   ]
 }
