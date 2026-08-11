@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-11T10:15:31.526Z",
+  "fetchedAt": "2026-08-11T11:09:28.004Z",
   "items": [
+    {
+      "title": "塔季扬娜·库赛科",
+      "extract": "塔季扬娜·阿列克谢耶芙娜·库赛科 是俄罗斯政治人物。她于2016年至2021年间担任联邦委员会议员，并自2021年起担任第八届国家杜马议员。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%AD%A3%E6%89%AC%E5%A8%9C%C2%B7%E5%BA%93%E8%B5%9B%E7%A7%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%9A%D1%83%D1%81%D0%B0%D0%B9%D0%BA%D0%BE.jpg/330px-%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%9A%D1%83%D1%81%D0%B0%D0%B9%D0%BA%D0%BE.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "崔始源",
       "extract": "崔始源，韓國男歌手及演員，為韓國男子團體Super Junior及子團Super Junior-M、Super Junior-L.S.S.成员，在隊內擔任副唱及門面。\n",
@@ -27,13 +34,6 @@
       "extract": "《姥姥的外孙》，曾用名《中国家庭》，是一部由宽屏影业制作，GDH 559发行的泰国家庭剧情片。 此片由普提蓬·阿萨拉塔纳功、彤达婉·奔提维此弓、三亚·库纳空、邦沙敦·宗威拉克、莎琳拉·托马斯等人主演。电影改编自真人真事，主要讲述了出生泰籍華裔潮州人家庭的年轻人M，为了继承百万遗产辞去工作照顾罹患癌症的的姥姥，并在过程中明白了许多道理。此片原定于2023年年底上映，后因为电影档期冲突延迟至2024年4月4日上映。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A7%A5%E5%A7%A5%E7%9A%84%E5%A4%96%E5%AD%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/8/8d/%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B9%88%E0%B8%B2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "骨顶鸡属",
-      "extract": "骨顶鸡属，也称骨顶属，是秧鸡科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%AA%A8%E9%A1%B6%E9%B8%A1%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Fulica_atra_-_Eurasian_Coot_-_Bl%C3%A4sshuhn_-_Moenchbruch_-_M%C3%B6nchbruch_-_05.jpg/330px-Fulica_atra_-_Eurasian_Coot_-_Bl%C3%A4sshuhn_-_Moenchbruch_-_M%C3%B6nchbruch_-_05.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
