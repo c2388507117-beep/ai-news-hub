@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T12:01:58.777Z",
+  "fetchedAt": "2026-08-12T13:51:36.577Z",
   "items": [
+    {
+      "title": "圣罗曼 (维埃纳省)",
+      "extract": "圣罗曼 是法国新阿基坦大区维埃纳省的一个市镇，位于该省南部，属于蒙莫里永区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E7%BD%97%E6%9B%BC_(%E7%BB%B4%E5%9F%83%E7%BA%B3%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Saint-Romain_86_Village_2013.jpg/330px-Saint-Romain_86_Village_2013.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "土佐國分寺",
       "extract": "土佐國分寺（とさこくぶんじ）是位在日本高知縣南國市的真言宗智山派寺院。山號「摩尼山」（まにざん）。本尊千手觀世音菩薩、開基（創立者）為行基。四國八十八箇所靈場之第二十九番札所。\n",
@@ -27,13 +34,6 @@
       "extract": " 鯨魚座κ2  是位於天球赤道星座鯨魚座的一顆孤獨的黃巨星。它的視星等為5.66，雖然微弱但在足夠黑暗的場所仍可用裸眼看見。基於從地球上觀測的恆星視差為10.11mas的，它距離太陽約為320 光年。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%AF%A8%E9%AD%9A%E5%BA%A7%CE%BA2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cetus_constellation_map.svg/langzh-330px-Cetus_constellation_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Wake up!",
-      "extract": "《Wake up!》是日本音乐团体AAA的第41张单曲，於2014年7月2日由avex trax发售。\n",
-      "url": "https://zh.wikipedia.org/wiki/Wake_up!",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/4/4a/AAA_-_Wake_up%21_cd_AAA.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
