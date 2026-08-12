@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T08:41:31.920Z",
+  "fetchedAt": "2026-08-12T10:29:24.796Z",
   "items": [
+    {
+      "title": "尼古拉·勒代斯库",
+      "extract": "尼古拉·勒代斯库，罗马尼亚陆军军官、政治家。参加过第一次世界大战。20世纪20年代任驻英国陆军武官。1933年为抗议国王卡罗尔二世的独裁政策去职。第二次世界大战中被德国人关入集中营。1944年8月反法西斯政变成功后，他出任总理兼内政部长。1945年3月3日在苏联压力下被解除职务。他到塞浦路斯避难，1947年徙居美国纽约市。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E5%8B%92%E4%BB%A3%E6%96%AF%E5%BA%93",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Nicolae_Radescu.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "铽",
       "extract": "铽（tè），是一種化學元素，其化學符號为Tb，原子序數为65，原子量為158.925354 u，属于镧系元素，也是稀土元素之一。常溫下铽為銀白色金屬，具有延展性、韌性且質地較軟。就像其他重稀土元素一样，它在乾燥空气中相對穩定，但在潮濕環境下會迅速氧化。铽拥有兩種晶型的同素異形體，轉化溫度為1289°C。\n",
@@ -27,13 +34,6 @@
       "extract": "塞浦路斯岛位于西亚，是地中海的第三大岛（在意大利的西西里岛和撒丁岛之后），位于奇里乞亚以南，东西长240千米，南北宽100千米。塞浦路斯是地中海東部盆地的一個島。它是地中海第三大島嶼，僅次於義大利西西里島和撒丁島，也是世界面積第80大島嶼。它位於安納托利亞半島以南，但屬於塞浦路斯島弧。從地理上看，塞浦路斯位於西亞，但該國在政治地理上被認為是歐洲國家。塞浦路斯也長期受到希臘和間歇性的安納托利亞、黎凡特、拜占庭、土耳其和西歐的影響。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E6%B5%A6%E8%B7%AF%E6%96%AF%E5%B2%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cyprus_topo.png/330px-Cyprus_topo.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "掛川市役所前站",
-      "extract": "掛川市役所前站 是位於靜岡縣掛川市下俁30番3號，天龍濱名湖鐵道的天龍濱名湖線車站。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8E%9B%E5%B7%9D%E5%B8%82%E5%BD%B9%E6%89%80%E5%89%8D%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/THR_Kakegawa-shiyakusho-mae_sta.JPG/330px-THR_Kakegawa-shiyakusho-mae_sta.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
