@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T13:51:36.577Z",
+  "fetchedAt": "2026-08-12T15:17:08.170Z",
   "items": [
+    {
+      "title": "圣安德烈 (东比利牛斯省)",
+      "extract": "圣安德烈 是法国东比利牛斯省的一个市镇，位于该省东南部，属于塞雷区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%AE%89%E5%BE%B7%E7%83%88_(%E4%B8%9C%E6%AF%94%E5%88%A9%E7%89%9B%E6%96%AF%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Saint-Andr%C3%A9-de-Sor%C3%A8de_2.jpg/330px-Saint-Andr%C3%A9-de-Sor%C3%A8de_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "圣罗曼 (维埃纳省)",
       "extract": "圣罗曼 是法国新阿基坦大区维埃纳省的一个市镇，位于该省南部，属于蒙莫里永区。\n",
@@ -27,13 +34,6 @@
       "extract": "铽（tè），是一種化學元素，其化學符號为Tb，原子序數为65，原子量為158.925354 u，属于镧系元素，也是稀土元素之一。常溫下铽為銀白色金屬，具有延展性、韌性且質地較軟。就像其他重稀土元素一样，它在乾燥空气中相對穩定，但在潮濕環境下會迅速氧化。铽拥有兩種晶型的同素異形體，轉化溫度為1289°C。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%93%BD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Terbium-2.jpg/330px-Terbium-2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鯨魚座κ2",
-      "extract": " 鯨魚座κ2  是位於天球赤道星座鯨魚座的一顆孤獨的黃巨星。它的視星等為5.66，雖然微弱但在足夠黑暗的場所仍可用裸眼看見。基於從地球上觀測的恆星視差為10.11mas的，它距離太陽約為320 光年。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%AF%A8%E9%AD%9A%E5%BA%A7%CE%BA2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cetus_constellation_map.svg/langzh-330px-Cetus_constellation_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
