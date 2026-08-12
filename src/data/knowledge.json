@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T02:47:55.007Z",
+  "fetchedAt": "2026-08-12T05:08:40.534Z",
   "items": [
+    {
+      "title": "Wake up!",
+      "extract": "《Wake up!》是日本音乐团体AAA的第41张单曲，於2014年7月2日由avex trax发售。\n",
+      "url": "https://zh.wikipedia.org/wiki/Wake_up!",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/4/4a/AAA_-_Wake_up%21_cd_AAA.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "塞浦路斯岛",
       "extract": "塞浦路斯岛位于西亚，是地中海的第三大岛（在意大利的西西里岛和撒丁岛之后），位于奇里乞亚以南，东西长240千米，南北宽100千米。塞浦路斯是地中海東部盆地的一個島。它是地中海第三大島嶼，僅次於義大利西西里島和撒丁島，也是世界面積第80大島嶼。它位於安納托利亞半島以南，但屬於塞浦路斯島弧。從地理上看，塞浦路斯位於西亞，但該國在政治地理上被認為是歐洲國家。塞浦路斯也長期受到希臘和間歇性的安納托利亞、黎凡特、拜占庭、土耳其和西歐的影響。\n",
@@ -27,13 +34,6 @@
       "extract": "五帶鸚嘴魚，又名鸚嘴鸚哥魚、棕吻鸚嘴魚、帶尾鸚嘴魚，俗名鸚哥、青衫（雄）、蠔魚（雌），為輻鰭魚綱鱸形目隆頭魚亞目鸚哥魚科的其中一種。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E5%B8%B6%E9%B8%9A%E5%98%B4%E9%AD%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Scarus_psittacus_m%C3%A2le.jpg/330px-Scarus_psittacus_m%C3%A2le.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "不割席",
-      "extract": "《不割席》 是挪威导演安德斯·漢默 的一部纪录片，内容为2019年香港反送中运动。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E5%89%B2%E5%B8%AD",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/1f/Do_Not_Split_Poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
