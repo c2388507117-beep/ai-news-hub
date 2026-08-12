@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T05:08:40.534Z",
+  "fetchedAt": "2026-08-12T06:45:45.637Z",
   "items": [
+    {
+      "title": "鯨魚座κ2",
+      "extract": " 鯨魚座κ2  是位於天球赤道星座鯨魚座的一顆孤獨的黃巨星。它的視星等為5.66，雖然微弱但在足夠黑暗的場所仍可用裸眼看見。基於從地球上觀測的恆星視差為10.11mas的，它距離太陽約為320 光年。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AF%A8%E9%AD%9A%E5%BA%A7%CE%BA2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cetus_constellation_map.svg/langzh-330px-Cetus_constellation_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "Wake up!",
       "extract": "《Wake up!》是日本音乐团体AAA的第41张单曲，於2014年7月2日由avex trax发售。\n",
@@ -27,13 +34,6 @@
       "extract": "上岸站（早期规划称上岸村站）是一个位于中国北京市门头沟区永定地区新城大街与金安路交叉口南側，属于S1线的地铁车站。此车站于2017年12月30日开通。本站规划换乘R1线。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B2%B8%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Eastbound_platform_of_S1_Shang%27an_Station_%2820220103153627%29.jpg/330px-Eastbound_platform_of_S1_Shang%27an_Station_%2820220103153627%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "五帶鸚嘴魚",
-      "extract": "五帶鸚嘴魚，又名鸚嘴鸚哥魚、棕吻鸚嘴魚、帶尾鸚嘴魚，俗名鸚哥、青衫（雄）、蠔魚（雌），為輻鰭魚綱鱸形目隆頭魚亞目鸚哥魚科的其中一種。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E5%B8%B6%E9%B8%9A%E5%98%B4%E9%AD%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Scarus_psittacus_m%C3%A2le.jpg/330px-Scarus_psittacus_m%C3%A2le.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
