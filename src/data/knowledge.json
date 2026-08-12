@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T22:05:46.532Z",
+  "fetchedAt": "2026-08-12T23:04:50.185Z",
   "items": [
+    {
+      "title": "江川崎站",
+      "extract": "江川崎站 是位於日本高知縣四萬十市西土佐江川崎，隸屬於四國旅客鐵道（JR四國）的鐵路車站。車站編號為G34。2013年8月12日，此站因錄得攝氏41度的高溫而被稱為「JR四國島內最熱的車站」。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%B7%9D%E5%B4%8E%E7%AB%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ekawasaki_station_building.jpg/330px-Ekawasaki_station_building.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "河医广场立交桥",
       "extract": "河医广场立交桥，简称河医立交桥，位于中华人民共和国河南省郑州市二七区金水路、大学北路、建设东路与棉纺东路的路口环岛处，为郑州市“四桥一路”工程的组成部分。\n",
@@ -27,13 +34,6 @@
       "extract": "马耳他语，马耳他的官方语言之一（另一种是英语），属亚非语系闪语族。1975年时的使用人口逾37万（全世界马耳他人约有100万）。在澳大利亚和北美诸国的马耳他移民中也有数量不等的使用者。是欧洲联盟官方语言中唯一的亚非语系的语言。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E8%80%B3%E4%BB%96%E8%AF%AD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Idioma_malt%C3%A9s.PNG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓦夫勒尚苏福",
-      "extract": "瓦夫勒尚苏福 是法国上法蘭西大區北部省的一个市镇，属于瓦朗谢讷区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%A4%AB%E5%8B%92%E5%B0%9A%E8%8B%8F%E7%A6%8F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mairie_de_Wavrechain-sous-Faulx.JPG/330px-Mairie_de_Wavrechain-sous-Faulx.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
