@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T15:17:00.797Z",
+  "fetchedAt": "2026-08-12T16:14:01.122Z",
   "items": [
     {
       "id": "steam-699130",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-1426210",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
+    },
+    {
+      "id": "steam-648100",
+      "title": "Raging Loop",
+      "url": "https://store.steampowered.com/app/648100?l=schinese",
+      "discount": 70,
+      "originalPrice": 88,
+      "finalPrice": 26.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-3527290",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-2001120",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-2358720",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-1478500",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-553850",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-2950790",
@@ -103,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.797Z"
-    },
-    {
-      "id": "steam-1943950",
-      "title": "Escape the Backrooms",
-      "url": "https://store.steampowered.com/app/1943950?l=schinese",
-      "discount": 20,
-      "originalPrice": 37,
-      "finalPrice": 29.6,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:01.122Z"
     },
     {
       "id": "steam-1067360",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.797Z"
+      "publishedAt": "2026-08-12T16:14:01.122Z"
     },
     {
       "id": "steam-4108000",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-1733690",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1733690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.514Z"
+      "publishedAt": "2026-08-12T16:14:00.883Z"
     },
     {
       "id": "steam-3929470",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.797Z"
+      "publishedAt": "2026-08-12T16:14:01.122Z"
     },
     {
       "id": "steam-1574480",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.797Z"
+      "publishedAt": "2026-08-12T16:14:01.122Z"
     },
     {
       "id": "steam-2523770",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.797Z"
+      "publishedAt": "2026-08-12T16:14:01.122Z"
     },
     {
       "id": "steam-3812600",
@@ -207,7 +207,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T15:17:00.797Z"
+      "publishedAt": "2026-08-12T16:14:01.122Z"
+    },
+    {
+      "id": "steam-2142790",
+      "title": "Fields of Mistria",
+      "url": "https://store.steampowered.com/app/2142790?l=schinese",
+      "discount": 10,
+      "originalPrice": 13.99,
+      "finalPrice": 12.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2142790/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-12T16:14:01.122Z"
     }
   ]
 }

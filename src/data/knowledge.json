@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T15:17:08.170Z",
+  "fetchedAt": "2026-08-12T16:14:05.525Z",
   "items": [
+    {
+      "title": "格朗格",
+      "extract": "格朗格 是法国卡尔瓦多斯省的一个市镇，属于利雪区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%9C%97%E6%A0%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FranceNormandieGranguesEglise.jpg/330px-FranceNormandieGranguesEglise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "圣安德烈 (东比利牛斯省)",
       "extract": "圣安德烈 是法国东比利牛斯省的一个市镇，位于该省东南部，属于塞雷区。\n",
@@ -27,13 +34,6 @@
       "extract": "尼古拉·勒代斯库，罗马尼亚陆军军官、政治家。参加过第一次世界大战。20世纪20年代任驻英国陆军武官。1933年为抗议国王卡罗尔二世的独裁政策去职。第二次世界大战中被德国人关入集中营。1944年8月反法西斯政变成功后，他出任总理兼内政部长。1945年3月3日在苏联压力下被解除职务。他到塞浦路斯避难，1947年徙居美国纽约市。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E6%8B%89%C2%B7%E5%8B%92%E4%BB%A3%E6%96%AF%E5%BA%93",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Nicolae_Radescu.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "铽",
-      "extract": "铽（tè），是一種化學元素，其化學符號为Tb，原子序數为65，原子量為158.925354 u，属于镧系元素，也是稀土元素之一。常溫下铽為銀白色金屬，具有延展性、韌性且質地較軟。就像其他重稀土元素一样，它在乾燥空气中相對穩定，但在潮濕環境下會迅速氧化。铽拥有兩種晶型的同素異形體，轉化溫度為1289°C。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%93%BD",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Terbium-2.jpg/330px-Terbium-2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
