@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T21:06:05.156Z",
+  "fetchedAt": "2026-08-12T22:05:46.532Z",
   "items": [
+    {
+      "title": "河医广场立交桥",
+      "extract": "河医广场立交桥，简称河医立交桥，位于中华人民共和国河南省郑州市二七区金水路、大学北路、建设东路与棉纺东路的路口环岛处，为郑州市“四桥一路”工程的组成部分。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%8C%BB%E5%B9%BF%E5%9C%BA%E7%AB%8B%E4%BA%A4%E6%A1%A5",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Heyi_Interchange_20190307.jpg/330px-Heyi_Interchange_20190307.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "异丁酸乙酯",
       "extract": "异丁酸乙酯（英語：ethyl isobutyrate）是一种有机化合物，化学式C6H12O2，可见于兴安独活、蛇麻、鏈黴菌屬等物种。\n",
@@ -27,13 +34,6 @@
       "extract": "瓦夫勒尚苏福 是法国上法蘭西大區北部省的一个市镇，属于瓦朗谢讷区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%A4%AB%E5%8B%92%E5%B0%9A%E8%8B%8F%E7%A6%8F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mairie_de_Wavrechain-sous-Faulx.JPG/330px-Mairie_de_Wavrechain-sous-Faulx.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "格朗格",
-      "extract": "格朗格 是法国卡尔瓦多斯省的一个市镇，属于利雪区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%9C%97%E6%A0%BC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FranceNormandieGranguesEglise.jpg/330px-FranceNormandieGranguesEglise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
