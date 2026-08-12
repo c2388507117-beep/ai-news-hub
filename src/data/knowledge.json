@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T06:45:45.637Z",
+  "fetchedAt": "2026-08-12T08:41:31.920Z",
   "items": [
+    {
+      "title": "铽",
+      "extract": "铽（tè），是一種化學元素，其化學符號为Tb，原子序數为65，原子量為158.925354 u，属于镧系元素，也是稀土元素之一。常溫下铽為銀白色金屬，具有延展性、韌性且質地較軟。就像其他重稀土元素一样，它在乾燥空气中相對穩定，但在潮濕環境下會迅速氧化。铽拥有兩種晶型的同素異形體，轉化溫度為1289°C。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%93%BD",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Terbium-2.jpg/330px-Terbium-2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "鯨魚座κ2",
       "extract": " 鯨魚座κ2  是位於天球赤道星座鯨魚座的一顆孤獨的黃巨星。它的視星等為5.66，雖然微弱但在足夠黑暗的場所仍可用裸眼看見。基於從地球上觀測的恆星視差為10.11mas的，它距離太陽約為320 光年。\n",
@@ -27,13 +34,6 @@
       "extract": "掛川市役所前站 是位於靜岡縣掛川市下俁30番3號，天龍濱名湖鐵道的天龍濱名湖線車站。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8E%9B%E5%B7%9D%E5%B8%82%E5%BD%B9%E6%89%80%E5%89%8D%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/THR_Kakegawa-shiyakusho-mae_sta.JPG/330px-THR_Kakegawa-shiyakusho-mae_sta.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "上岸站",
-      "extract": "上岸站（早期规划称上岸村站）是一个位于中国北京市门头沟区永定地区新城大街与金安路交叉口南側，属于S1线的地铁车站。此车站于2017年12月30日开通。本站规划换乘R1线。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B2%B8%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Eastbound_platform_of_S1_Shang%27an_Station_%2820220103153627%29.jpg/330px-Eastbound_platform_of_S1_Shang%27an_Station_%2820220103153627%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
