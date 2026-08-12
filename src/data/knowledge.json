@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T10:29:24.796Z",
+  "fetchedAt": "2026-08-12T12:01:58.777Z",
   "items": [
+    {
+      "title": "土佐國分寺",
+      "extract": "土佐國分寺（とさこくぶんじ）是位在日本高知縣南國市的真言宗智山派寺院。山號「摩尼山」（まにざん）。本尊千手觀世音菩薩、開基（創立者）為行基。四國八十八箇所靈場之第二十九番札所。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E4%BD%90%E5%9C%8B%E5%88%86%E5%AF%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tosakokubunji_daisidou_01.jpg/330px-Tosakokubunji_daisidou_01.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "尼古拉·勒代斯库",
       "extract": "尼古拉·勒代斯库，罗马尼亚陆军军官、政治家。参加过第一次世界大战。20世纪20年代任驻英国陆军武官。1933年为抗议国王卡罗尔二世的独裁政策去职。第二次世界大战中被德国人关入集中营。1944年8月反法西斯政变成功后，他出任总理兼内政部长。1945年3月3日在苏联压力下被解除职务。他到塞浦路斯避难，1947年徙居美国纽约市。\n",
@@ -27,13 +34,6 @@
       "extract": "《Wake up!》是日本音乐团体AAA的第41张单曲，於2014年7月2日由avex trax发售。\n",
       "url": "https://zh.wikipedia.org/wiki/Wake_up!",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/4/4a/AAA_-_Wake_up%21_cd_AAA.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "塞浦路斯岛",
-      "extract": "塞浦路斯岛位于西亚，是地中海的第三大岛（在意大利的西西里岛和撒丁岛之后），位于奇里乞亚以南，东西长240千米，南北宽100千米。塞浦路斯是地中海東部盆地的一個島。它是地中海第三大島嶼，僅次於義大利西西里島和撒丁島，也是世界面積第80大島嶼。它位於安納托利亞半島以南，但屬於塞浦路斯島弧。從地理上看，塞浦路斯位於西亞，但該國在政治地理上被認為是歐洲國家。塞浦路斯也長期受到希臘和間歇性的安納托利亞、黎凡特、拜占庭、土耳其和西歐的影響。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E6%B5%A6%E8%B7%AF%E6%96%AF%E5%B2%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cyprus_topo.png/330px-Cyprus_topo.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
