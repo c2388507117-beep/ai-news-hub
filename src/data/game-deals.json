@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T00:02:17.395Z",
+  "fetchedAt": "2026-08-12T02:47:49.329Z",
   "items": [
     {
       "id": "steam-1222140",
@@ -12,20 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
-      "id": "steam-699130",
-      "title": "World War Z",
-      "url": "https://store.steampowered.com/app/699130?l=schinese",
-      "discount": 75,
-      "originalPrice": 129,
-      "finalPrice": 32.25,
+      "id": "steam-648100",
+      "title": "Raging Loop",
+      "url": "https://store.steampowered.com/app/648100?l=schinese",
+      "discount": 70,
+      "originalPrice": 88,
+      "finalPrice": 26.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-1426210",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-3527290",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-2001120",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-2358720",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-1478500",
@@ -90,33 +90,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
-    },
-    {
-      "id": "steam-2950790",
-      "title": "铁巢重炮",
-      "url": "https://store.steampowered.com/app/2950790?l=schinese",
-      "discount": 25,
-      "originalPrice": 59,
-      "finalPrice": 44.25,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-553850",
       "title": "HELLDIVERS™ 2",
       "url": "https://store.steampowered.com/app/553850?l=schinese",
       "discount": 25,
-      "originalPrice": 39.99,
-      "finalPrice": 29.99,
+      "originalPrice": 198,
+      "finalPrice": 148.5,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.395Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
+    },
+    {
+      "id": "steam-2950790",
+      "title": "铁巢重炮",
+      "url": "https://store.steampowered.com/app/2950790?l=schinese",
+      "discount": 25,
+      "originalPrice": 19.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-12T02:47:49.328Z"
     },
     {
       "id": "steam-1067360",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-4108000",
@@ -142,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.258Z"
-    },
-    {
-      "id": "steam-3929470",
-      "title": "Warhounds",
-      "url": "https://store.steampowered.com/app/3929470?l=schinese",
-      "discount": 15,
-      "originalPrice": 34.99,
-      "finalPrice": 29.74,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929470/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.395Z"
+      "publishedAt": "2026-08-12T02:47:49.082Z"
     },
     {
       "id": "steam-1574480",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574480/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.395Z"
+      "publishedAt": "2026-08-12T02:47:49.328Z"
     },
     {
       "id": "steam-2523770",
@@ -181,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.394Z"
+      "publishedAt": "2026-08-12T02:47:49.328Z"
     },
     {
       "id": "steam-3812600",
@@ -194,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-12T00:02:17.395Z"
+      "publishedAt": "2026-08-12T02:47:49.329Z"
     }
   ]
 }

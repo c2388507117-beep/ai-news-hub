@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T00:02:21.848Z",
+  "fetchedAt": "2026-08-12T02:47:55.007Z",
   "items": [
+    {
+      "title": "塞浦路斯岛",
+      "extract": "塞浦路斯岛位于西亚，是地中海的第三大岛（在意大利的西西里岛和撒丁岛之后），位于奇里乞亚以南，东西长240千米，南北宽100千米。塞浦路斯是地中海東部盆地的一個島。它是地中海第三大島嶼，僅次於義大利西西里島和撒丁島，也是世界面積第80大島嶼。它位於安納托利亞半島以南，但屬於塞浦路斯島弧。從地理上看，塞浦路斯位於西亞，但該國在政治地理上被認為是歐洲國家。塞浦路斯也長期受到希臘和間歇性的安納托利亞、黎凡特、拜占庭、土耳其和西歐的影響。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E6%B5%A6%E8%B7%AF%E6%96%AF%E5%B2%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cyprus_topo.png/330px-Cyprus_topo.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "掛川市役所前站",
       "extract": "掛川市役所前站 是位於靜岡縣掛川市下俁30番3號，天龍濱名湖鐵道的天龍濱名湖線車站。\n",
@@ -27,13 +34,6 @@
       "extract": "《不割席》 是挪威导演安德斯·漢默 的一部纪录片，内容为2019年香港反送中运动。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E5%89%B2%E5%B8%AD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/1f/Do_Not_Split_Poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "新西兰总理",
-      "extract": "新西兰总理，是新西兰政府首脑，由國會多數黨領袖出任，並由總督代紐西蘭君主任命之。現任總理為國家黨的克里斯托弗·盧克森。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E8%A5%BF%E5%85%B0%E6%80%BB%E7%90%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/langzh-330px-Flag_of_New_Zealand.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
