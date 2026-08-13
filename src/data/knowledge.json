@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T12:02:06.680Z",
+  "fetchedAt": "2026-08-13T13:51:41.944Z",
   "items": [
+    {
+      "title": "黄水枝属",
+      "extract": "黄水枝属 是虎耳草科下的一个属，为多年生草本植物。该属共有5种，分布于北美和亚洲。中国产1种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%B0%B4%E6%9E%9D%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Foamflower_Tiarella_%27Cygnet%27_Flower_Closeup_2000px.JPG/330px-Foamflower_Tiarella_%27Cygnet%27_Flower_Closeup_2000px.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "阿納斯塔西婭·塔拉卡諾娃",
       "extract": "阿納斯塔西婭·阿納托利耶芙娜·塔拉卡諾娃，俄羅斯花式滑冰運動員，2017-2018年度青年組大獎賽總決賽銅牌得主。\n",
@@ -27,13 +34,6 @@
       "extract": "李元鄭，另譯作李洹定、李元禎，韓國男演員。2019年通過《臨時制先生》出道。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%83%E9%84%AD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Lee_Won-jung_in_June_2024.png/330px-Lee_Won-jung_in_June_2024.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "淤积",
-      "extract": "淤积又稱淤塞，是指水體中的颗粒状碎屑物质（主要成分是淤泥、黏土）堆積後造成的水污染。此時悬浮的颗粒状碎屑物质浓度增加。淤积會導致食虫和食草鱼类丰度减少。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B7%A4%E7%A7%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Siltation_or_Sedimentation.jpg/330px-Siltation_or_Sedimentation.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
