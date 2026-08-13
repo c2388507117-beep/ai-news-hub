@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T03:02:07.948Z",
+  "fetchedAt": "2026-08-13T05:11:26.237Z",
   "items": [
+    {
+      "title": "淤积",
+      "extract": "淤积又稱淤塞，是指水體中的颗粒状碎屑物质（主要成分是淤泥、黏土）堆積後造成的水污染。此時悬浮的颗粒状碎屑物质浓度增加。淤积會導致食虫和食草鱼类丰度减少。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B7%A4%E7%A7%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Siltation_or_Sedimentation.jpg/330px-Siltation_or_Sedimentation.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "亚洲松田鼠属",
       "extract": "亚洲松田鼠属 是啮齿目仓鼠科的一属。\n",
@@ -27,13 +34,6 @@
       "extract": "河医广场立交桥，简称河医立交桥，位于中华人民共和国河南省郑州市二七区金水路、大学北路、建设东路与棉纺东路的路口环岛处，为郑州市“四桥一路”工程的组成部分。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%8C%BB%E5%B9%BF%E5%9C%BA%E7%AB%8B%E4%BA%A4%E6%A1%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Heyi_Interchange_20190307.jpg/330px-Heyi_Interchange_20190307.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "异丁酸乙酯",
-      "extract": "异丁酸乙酯（英語：ethyl isobutyrate）是一种有机化合物，化学式C6H12O2，可见于兴安独活、蛇麻、鏈黴菌屬等物种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E4%B8%81%E9%85%B8%E4%B9%99%E9%85%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Isobutters%C3%A4ureethylester.svg/langzh-330px-Isobutters%C3%A4ureethylester.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
