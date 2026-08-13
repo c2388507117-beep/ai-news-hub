@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T18:12:03.974Z",
+  "fetchedAt": "2026-08-13T19:29:04.319Z",
   "items": [
+    {
+      "title": "抖動 (數位訊號處理)",
+      "extract": "抖動，是在數位訊號處理領域的中一項用于降低量化误差的技术。透过在較低位元中加入雜訊，藉此破壞諧波的排序，使諧波的影響受到壓制，並減少量化誤差在低頻的影響。抖动常用于音视频处理，且是CD压制过程的最后一步。經過抖动處理過的音樂，將聽起來更柔順、背景更黑；而經過抖动處理過的影像，也會更加地柔順耐看。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8A%96%E5%8B%95_(%E6%95%B8%E4%BD%8D%E8%A8%8A%E8%99%9F%E8%99%95%E7%90%86)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Michelangelo%27s_David_-_Floyd-Steinberg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "赫龍河畔日亞爾",
       "extract": "赫龍河畔日亞爾 是斯洛伐克的城鎮，位於該國中部，由班斯卡-比斯特里察州負責管轄，面積39.06平方公里，海拔高度265米，2005年人口19,750，其中六成居民信奉羅馬天主教。\n",
@@ -27,13 +34,6 @@
       "extract": "黄水枝属 是虎耳草科下的一个属，为多年生草本植物。该属共有5种，分布于北美和亚洲。中国产1种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%B0%B4%E6%9E%9D%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Foamflower_Tiarella_%27Cygnet%27_Flower_Closeup_2000px.JPG/330px-Foamflower_Tiarella_%27Cygnet%27_Flower_Closeup_2000px.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿納斯塔西婭·塔拉卡諾娃",
-      "extract": "阿納斯塔西婭·阿納托利耶芙娜·塔拉卡諾娃，俄羅斯花式滑冰運動員，2017-2018年度青年組大獎賽總決賽銅牌得主。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%B4%8D%E6%96%AF%E5%A1%94%E8%A5%BF%E5%A9%AD%C2%B7%E5%A1%94%E6%8B%89%E5%8D%A1%E8%AB%BE%E5%A8%83",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2019_Russian_Figure_Skating_Championships_Anastasia_Tarakanova_2018-12-21_16-27-11_%282%29.jpg/330px-2019_Russian_Figure_Skating_Championships_Anastasia_Tarakanova_2018-12-21_16-27-11_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
