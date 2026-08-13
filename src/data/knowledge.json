@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T10:30:33.818Z",
+  "fetchedAt": "2026-08-13T12:02:06.680Z",
   "items": [
+    {
+      "title": "阿納斯塔西婭·塔拉卡諾娃",
+      "extract": "阿納斯塔西婭·阿納托利耶芙娜·塔拉卡諾娃，俄羅斯花式滑冰運動員，2017-2018年度青年組大獎賽總決賽銅牌得主。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%B4%8D%E6%96%AF%E5%A1%94%E8%A5%BF%E5%A9%AD%C2%B7%E5%A1%94%E6%8B%89%E5%8D%A1%E8%AB%BE%E5%A8%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2019_Russian_Figure_Skating_Championships_Anastasia_Tarakanova_2018-12-21_16-27-11_%282%29.jpg/330px-2019_Russian_Figure_Skating_Championships_Anastasia_Tarakanova_2018-12-21_16-27-11_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "莫桑比克人民共和国",
       "extract": "莫桑比克人民共和國，是莫桑比克於1975年6月25日脫離葡萄牙獨立後，至1990年12月1日間的國號，是一个一党制的社会主义國家。执政党是莫桑比克解放阵线党。\n",
@@ -27,13 +34,6 @@
       "extract": "淤积又稱淤塞，是指水體中的颗粒状碎屑物质（主要成分是淤泥、黏土）堆積後造成的水污染。此時悬浮的颗粒状碎屑物质浓度增加。淤积會導致食虫和食草鱼类丰度减少。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B7%A4%E7%A7%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Siltation_or_Sedimentation.jpg/330px-Siltation_or_Sedimentation.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "亚洲松田鼠属",
-      "extract": "亚洲松田鼠属 是啮齿目仓鼠科的一属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E6%B4%B2%E6%9D%BE%E7%94%B0%E9%BC%A0%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Lasiopodomys_fuscus.jpg/330px-Lasiopodomys_fuscus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
