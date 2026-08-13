@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T17:16:09.324Z",
+  "fetchedAt": "2026-08-13T18:12:03.974Z",
   "items": [
+    {
+      "title": "赫龍河畔日亞爾",
+      "extract": "赫龍河畔日亞爾 是斯洛伐克的城鎮，位於該國中部，由班斯卡-比斯特里察州負責管轄，面積39.06平方公里，海拔高度265米，2005年人口19,750，其中六成居民信奉羅馬天主教。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E9%BE%8D%E6%B2%B3%E7%95%94%E6%97%A5%E4%BA%9E%E7%88%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/%C5%BDiar_nad_Hronom2.JPG/330px-%C5%BDiar_nad_Hronom2.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "伊萊姆卡河",
       "extract": "伊萊姆卡河 是烏克蘭西部的河流，屬於切奇瓦河的左支流。該河流經伊萬諾-弗蘭科夫斯克州的卡盧什區，河道全長21公里，流域面積90.5平方公里。\n",
@@ -27,13 +34,6 @@
       "extract": "阿納斯塔西婭·阿納托利耶芙娜·塔拉卡諾娃，俄羅斯花式滑冰運動員，2017-2018年度青年組大獎賽總決賽銅牌得主。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%B4%8D%E6%96%AF%E5%A1%94%E8%A5%BF%E5%A9%AD%C2%B7%E5%A1%94%E6%8B%89%E5%8D%A1%E8%AB%BE%E5%A8%83",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2019_Russian_Figure_Skating_Championships_Anastasia_Tarakanova_2018-12-21_16-27-11_%282%29.jpg/330px-2019_Russian_Figure_Skating_Championships_Anastasia_Tarakanova_2018-12-21_16-27-11_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "莫桑比克人民共和国",
-      "extract": "莫桑比克人民共和國，是莫桑比克於1975年6月25日脫離葡萄牙獨立後，至1990年12月1日間的國號，是一个一党制的社会主义國家。执政党是莫桑比克解放阵线党。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%A1%91%E6%AF%94%E5%85%8B%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/langzh-330px-Flag_of_Mozambique.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
