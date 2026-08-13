@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T15:17:49.380Z",
+  "fetchedAt": "2026-08-13T17:16:09.324Z",
   "items": [
+    {
+      "title": "伊萊姆卡河",
+      "extract": "伊萊姆卡河 是烏克蘭西部的河流，屬於切奇瓦河的左支流。該河流經伊萬諾-弗蘭科夫斯克州的卡盧什區，河道全長21公里，流域面積90.5平方公里。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%90%8A%E5%A7%86%E5%8D%A1%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D0%A0%D1%96%D1%87%D0%BA%D0%B0_%D0%86%D0%BB%D0%B5%D0%BC%D0%BA%D0%B0.jpg/330px-%D0%A0%D1%96%D1%87%D0%BA%D0%B0_%D0%86%D0%BB%D0%B5%D0%BC%D0%BA%D0%B0.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "贝桑地区阿涅尔",
       "extract": "贝桑地区阿涅尔 是法国卡尔瓦多斯省的一个市镇，属于巴约区。\n",
@@ -27,13 +34,6 @@
       "extract": "莫桑比克人民共和國，是莫桑比克於1975年6月25日脫離葡萄牙獨立後，至1990年12月1日間的國號，是一个一党制的社会主义國家。执政党是莫桑比克解放阵线党。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%A1%91%E6%AF%94%E5%85%8B%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/langzh-330px-Flag_of_Mozambique.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "米赫麗瑪蘇丹",
-      "extract": "米赫麗瑪蘇丹，是奥斯曼帝国的政治人物，蘇萊曼一世與許蕾姆蘇丹之女，她的名字「Mihrimah」意思為「日與月」。1539年11月26日，米赫麗瑪與魯斯坦帕夏結婚，她生有一雙兒女蘇丹扎德·奧斯曼和艾榭·許瑪莎蘇丹。根據一些學著記載，米赫麗瑪蘇丹在其母親許蕾姆蘇丹和老公魯斯坦帕夏對其同父異母的兄弟穆斯塔法皇子策劃的陰謀中有一手，即她藉口拜訪在阿馬斯亞行省任總督的哥哥，偷偷複製了他的印章，魯斯坦帕夏隨後用此印章以穆斯塔法王子的口吻給波斯統治者塔和馬斯普寄去一封尋求一起推翻蘇萊曼一世的信，塔和馬斯普的回信被魯斯坦帕夏截獲並呈給蘇萊曼一世，蘇萊曼一世由此認定穆斯塔法王子叛變之心昭然若揭，使其被勒死。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E8%B5%AB%E9%BA%97%E7%91%AA%E8%98%87%E4%B8%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Titian_-_Cameria%2C_Daughter_of_Suleiman_the_Magnificent%2C_as_Saint_Catherine.jpg/330px-Titian_-_Cameria%2C_Daughter_of_Suleiman_the_Magnificent%2C_as_Saint_Catherine.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
