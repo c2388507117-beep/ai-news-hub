@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T13:51:41.944Z",
+  "fetchedAt": "2026-08-13T15:17:49.380Z",
   "items": [
+    {
+      "title": "贝桑地区阿涅尔",
+      "extract": "贝桑地区阿涅尔 是法国卡尔瓦多斯省的一个市镇，属于巴约区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B4%9D%E6%A1%91%E5%9C%B0%E5%8C%BA%E9%98%BF%E6%B6%85%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/%C3%89glise_Saint-Vigor_d%27Asni%C3%A8res-en-Bessin._Vue_sud-est.jpg/330px-%C3%89glise_Saint-Vigor_d%27Asni%C3%A8res-en-Bessin._Vue_sud-est.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "黄水枝属",
       "extract": "黄水枝属 是虎耳草科下的一个属，为多年生草本植物。该属共有5种，分布于北美和亚洲。中国产1种。\n",
@@ -27,13 +34,6 @@
       "extract": "米赫麗瑪蘇丹，是奥斯曼帝国的政治人物，蘇萊曼一世與許蕾姆蘇丹之女，她的名字「Mihrimah」意思為「日與月」。1539年11月26日，米赫麗瑪與魯斯坦帕夏結婚，她生有一雙兒女蘇丹扎德·奧斯曼和艾榭·許瑪莎蘇丹。根據一些學著記載，米赫麗瑪蘇丹在其母親許蕾姆蘇丹和老公魯斯坦帕夏對其同父異母的兄弟穆斯塔法皇子策劃的陰謀中有一手，即她藉口拜訪在阿馬斯亞行省任總督的哥哥，偷偷複製了他的印章，魯斯坦帕夏隨後用此印章以穆斯塔法王子的口吻給波斯統治者塔和馬斯普寄去一封尋求一起推翻蘇萊曼一世的信，塔和馬斯普的回信被魯斯坦帕夏截獲並呈給蘇萊曼一世，蘇萊曼一世由此認定穆斯塔法王子叛變之心昭然若揭，使其被勒死。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B1%B3%E8%B5%AB%E9%BA%97%E7%91%AA%E8%98%87%E4%B8%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Titian_-_Cameria%2C_Daughter_of_Suleiman_the_Magnificent%2C_as_Saint_Catherine.jpg/330px-Titian_-_Cameria%2C_Daughter_of_Suleiman_the_Magnificent%2C_as_Saint_Catherine.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "李元鄭",
-      "extract": "李元鄭，另譯作李洹定、李元禎，韓國男演員。2019年通過《臨時制先生》出道。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%83%E9%84%AD",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Lee_Won-jung_in_June_2024.png/330px-Lee_Won-jung_in_June_2024.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
