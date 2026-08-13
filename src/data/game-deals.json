@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-13T22:05:52.193Z",
+  "fetchedAt": "2026-08-13T23:05:32.234Z",
   "items": [
     {
       "id": "steam-1222140",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-2552430",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.193Z"
+      "publishedAt": "2026-08-13T23:05:32.234Z"
     },
     {
       "id": "steam-3527290",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-2764460",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.193Z"
+      "publishedAt": "2026-08-13T23:05:32.234Z"
     },
     {
       "id": "steam-2358720",
@@ -64,33 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
-    },
-    {
-      "id": "steam-1478500",
-      "title": "Big Walk",
-      "url": "https://store.steampowered.com/app/1478500?l=schinese",
-      "discount": 25,
-      "originalPrice": 78,
-      "finalPrice": 58.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
-    },
-    {
-      "id": "steam-3636770",
-      "title": "Servant of the Lake",
-      "url": "https://store.steampowered.com/app/3636770?l=schinese",
-      "discount": 25,
-      "originalPrice": 33,
-      "finalPrice": 24.75,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-553850",
@@ -103,7 +77,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
+    },
+    {
+      "id": "steam-1478500",
+      "title": "Big Walk",
+      "url": "https://store.steampowered.com/app/1478500?l=schinese",
+      "discount": 25,
+      "originalPrice": 78,
+      "finalPrice": 58.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-13T23:05:31.963Z"
+    },
+    {
+      "id": "steam-3636770",
+      "title": "Servant of the Lake",
+      "url": "https://store.steampowered.com/app/3636770?l=schinese",
+      "discount": 25,
+      "originalPrice": 33,
+      "finalPrice": 24.75,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-2950790",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-2542020",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.193Z"
+      "publishedAt": "2026-08-13T23:05:32.234Z"
     },
     {
       "id": "steam-1067360",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-1733690",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1733690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-4243990",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4243990/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.010Z"
+      "publishedAt": "2026-08-13T23:05:31.963Z"
     },
     {
       "id": "steam-2523770",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.193Z"
+      "publishedAt": "2026-08-13T23:05:32.234Z"
     },
     {
       "id": "steam-3315060",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3315060/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-13T22:05:52.193Z"
+      "publishedAt": "2026-08-13T23:05:32.234Z"
     }
   ]
 }

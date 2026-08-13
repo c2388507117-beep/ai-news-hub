@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T22:05:56.948Z",
+  "fetchedAt": "2026-08-13T23:05:37.589Z",
   "items": [
+    {
+      "title": "XL唱片",
+      "extract": "XL唱片 是一个英国独立唱片公司，从属于乞丐唱片集团，于1989年成立。它每年发行的唱片数量平均为六张。\n",
+      "url": "https://zh.wikipedia.org/wiki/XL%E5%94%B1%E7%89%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/XL_Recordings_Logo.svg/langzh-330px-XL_Recordings_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "斯蒂芬·森纳那亚克",
       "extract": "唐·斯蒂芬·森纳那亚克，錫蘭自治領首任總理（1947年－1952年），民族独立运动领导人。\n",
@@ -27,13 +34,6 @@
       "extract": "赫龍河畔日亞爾 是斯洛伐克的城鎮，位於該國中部，由班斯卡-比斯特里察州負責管轄，面積39.06平方公里，海拔高度265米，2005年人口19,750，其中六成居民信奉羅馬天主教。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E9%BE%8D%E6%B2%B3%E7%95%94%E6%97%A5%E4%BA%9E%E7%88%BE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/%C5%BDiar_nad_Hronom2.JPG/330px-%C5%BDiar_nad_Hronom2.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "伊萊姆卡河",
-      "extract": "伊萊姆卡河 是烏克蘭西部的河流，屬於切奇瓦河的左支流。該河流經伊萬諾-弗蘭科夫斯克州的卡盧什區，河道全長21公里，流域面積90.5平方公里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%90%8A%E5%A7%86%E5%8D%A1%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D0%A0%D1%96%D1%87%D0%BA%D0%B0_%D0%86%D0%BB%D0%B5%D0%BC%D0%BA%D0%B0.jpg/330px-%D0%A0%D1%96%D1%87%D0%BA%D0%B0_%D0%86%D0%BB%D0%B5%D0%BC%D0%BA%D0%B0.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
