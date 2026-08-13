@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T19:29:04.319Z",
+  "fetchedAt": "2026-08-13T21:06:30.437Z",
   "items": [
+    {
+      "title": "棉苞飞蓬",
+      "extract": "棉苞飞蓬 为菊科飞蓬属的植物。分布在欧洲、俄罗斯以及中国大陆的新疆、内蒙古等地，生长于海拔2,400米至2,600米的地区，一般生长在高山以及亚高山草地，目前尚未由人工引种栽培。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A3%89%E8%8B%9E%E9%A3%9E%E8%93%AC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Erigeron_eriocalyx_imported_from_iNaturalist_photo_338767457_on_30_October_2024.jpg/330px-Erigeron_eriocalyx_imported_from_iNaturalist_photo_338767457_on_30_October_2024.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "抖動 (數位訊號處理)",
       "extract": "抖動，是在數位訊號處理領域的中一項用于降低量化误差的技术。透过在較低位元中加入雜訊，藉此破壞諧波的排序，使諧波的影響受到壓制，並減少量化誤差在低頻的影響。抖动常用于音视频处理，且是CD压制过程的最后一步。經過抖动處理過的音樂，將聽起來更柔順、背景更黑；而經過抖动處理過的影像，也會更加地柔順耐看。\n",
@@ -27,13 +34,6 @@
       "extract": "贝桑地区阿涅尔 是法国卡尔瓦多斯省的一个市镇，属于巴约区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B4%9D%E6%A1%91%E5%9C%B0%E5%8C%BA%E9%98%BF%E6%B6%85%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/%C3%89glise_Saint-Vigor_d%27Asni%C3%A8res-en-Bessin._Vue_sud-est.jpg/330px-%C3%89glise_Saint-Vigor_d%27Asni%C3%A8res-en-Bessin._Vue_sud-est.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黄水枝属",
-      "extract": "黄水枝属 是虎耳草科下的一个属，为多年生草本植物。该属共有5种，分布于北美和亚洲。中国产1种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%B0%B4%E6%9E%9D%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Foamflower_Tiarella_%27Cygnet%27_Flower_Closeup_2000px.JPG/330px-Foamflower_Tiarella_%27Cygnet%27_Flower_Closeup_2000px.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
