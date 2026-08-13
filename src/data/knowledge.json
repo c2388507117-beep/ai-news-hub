@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-13T08:46:09.154Z",
+  "fetchedAt": "2026-08-13T10:30:33.818Z",
   "items": [
+    {
+      "title": "莫桑比克人民共和国",
+      "extract": "莫桑比克人民共和國，是莫桑比克於1975年6月25日脫離葡萄牙獨立後，至1990年12月1日間的國號，是一个一党制的社会主义國家。执政党是莫桑比克解放阵线党。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%A1%91%E6%AF%94%E5%85%8B%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/langzh-330px-Flag_of_Mozambique.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "米赫麗瑪蘇丹",
       "extract": "米赫麗瑪蘇丹，是奥斯曼帝国的政治人物，蘇萊曼一世與許蕾姆蘇丹之女，她的名字「Mihrimah」意思為「日與月」。1539年11月26日，米赫麗瑪與魯斯坦帕夏結婚，她生有一雙兒女蘇丹扎德·奧斯曼和艾榭·許瑪莎蘇丹。根據一些學著記載，米赫麗瑪蘇丹在其母親許蕾姆蘇丹和老公魯斯坦帕夏對其同父異母的兄弟穆斯塔法皇子策劃的陰謀中有一手，即她藉口拜訪在阿馬斯亞行省任總督的哥哥，偷偷複製了他的印章，魯斯坦帕夏隨後用此印章以穆斯塔法王子的口吻給波斯統治者塔和馬斯普寄去一封尋求一起推翻蘇萊曼一世的信，塔和馬斯普的回信被魯斯坦帕夏截獲並呈給蘇萊曼一世，蘇萊曼一世由此認定穆斯塔法王子叛變之心昭然若揭，使其被勒死。\n",
@@ -27,13 +34,6 @@
       "extract": "亚洲松田鼠属 是啮齿目仓鼠科的一属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E6%B4%B2%E6%9D%BE%E7%94%B0%E9%BC%A0%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Lasiopodomys_fuscus.jpg/330px-Lasiopodomys_fuscus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "東海道",
-      "extract": "東海道 是一個日本地理術語。 它既指國家的一個古老分區，又指貫穿其中的主要道路。它是五畿七道系統的一部分。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Tokaido.svg/langzh-330px-Tokaido.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
