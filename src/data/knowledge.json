@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T23:04:50.185Z",
+  "fetchedAt": "2026-08-13T00:00:47.841Z",
   "items": [
+    {
+      "title": "東海道",
+      "extract": "東海道 是一個日本地理術語。 它既指國家的一個古老分區，又指貫穿其中的主要道路。它是五畿七道系統的一部分。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Tokaido.svg/langzh-330px-Tokaido.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "江川崎站",
       "extract": "江川崎站 是位於日本高知縣四萬十市西土佐江川崎，隸屬於四國旅客鐵道（JR四國）的鐵路車站。車站編號為G34。2013年8月12日，此站因錄得攝氏41度的高溫而被稱為「JR四國島內最熱的車站」。\n",
@@ -27,13 +34,6 @@
       "extract": "津湾广场，位于天津市和平区的一处海河河湾南岸，其一期和二期工程为紧邻海河、面向天津站的欧式建筑群。作为天津金融城的标志性区域，津湾广场东北侧海河环绕，西临解放北路，所在地块曾属天津法租界。津湾广场于2008年启动建设，二期工程于2018年完工。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B4%A5%E6%B9%BE%E5%B9%BF%E5%9C%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%E6%B4%A5%E6%B9%BE%E5%B9%BF%E5%9C%BA_20190906_184335_Richtone%28HDR%29.jpg/330px-%E6%B4%A5%E6%B9%BE%E5%B9%BF%E5%9C%BA_20190906_184335_Richtone%28HDR%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马耳他语",
-      "extract": "马耳他语，马耳他的官方语言之一（另一种是英语），属亚非语系闪语族。1975年时的使用人口逾37万（全世界马耳他人约有100万）。在澳大利亚和北美诸国的马耳他移民中也有数量不等的使用者。是欧洲联盟官方语言中唯一的亚非语系的语言。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E8%80%B3%E4%BB%96%E8%AF%AD",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Idioma_malt%C3%A9s.PNG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
