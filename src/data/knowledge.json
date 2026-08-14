@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T12:00:10.518Z",
+  "fetchedAt": "2026-08-14T13:47:35.153Z",
   "items": [
+    {
+      "title": "遊戲人生ZERO",
+      "extract": "《NO GAME NO LIFE 遊戲人生 ZERO》是一部日本動畫電影，改編自榎宮祐的輕小說《NO GAME NO LIFE 遊戲人生》第6卷內容，電影由MADHOUSE製作和石塚敦子導演。2017年7月15日起在日本全國首映。 馬來西亞在2017年9月16日上映。汶萊則是在2017年10月19日上映。印尼於2017年10月25日上映。香港於2017年10月26日上映。新加坡於2017年11月2日上映，台灣於2017年12月8日－12月13日限期上映4DX版，並從12月13日起開始上映數位版。BD/DVD於2018年2月23日發售。中国大陆于2019年7月19日上映。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E4%BA%BA%E7%94%9FZERO",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/72/NGNL0_film_poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "奔子栏镇",
       "extract": "奔子栏镇 是中华人民共和国云南省迪庆藏族自治州德钦县下辖的一个乡镇级行政单位。，位于金沙江西岸，东与四川省得荣县瓦卡镇和香格里拉市尼西乡隔江相望；西靠白马雪山，地势西高东低，平均海拔2464.3米。河流有东水河、书松河等汇入金沙江。全镇呈“一”字型南北走向，有滇藏公路（214国道）穿镇而过。镇中心距离德钦县城104公里，离州府80公里。\n",
@@ -27,13 +34,6 @@
       "extract": "马修·内尔松·斯特拉泽尔，法国男子篮球运动员，2021年U19青年世界盃籃球賽银牌得主、2024年夏季奥林匹克运动会男子银牌得主。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E4%BF%AE%C2%B7%E6%96%AF%E7%89%B9%E6%8B%89%E6%B3%BD%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Matthew_Strazel_%28cropped%29.jpg/330px-Matthew_Strazel_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "婆罗洲象",
-      "extract": "婆罗洲象，又称加里曼丹象、婆羅洲矮象、婆罗洲侏儒象等，原來被当作外来亞洲象的野化种群。2003年被认为应属于亞洲象的一个独立亚种，但其原生地目前尚无定论。其亚种加词“borneensis”意为“婆罗洲的”。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A9%86%E7%BD%97%E6%B4%B2%E8%B1%A1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pygmy_Elephants_%28Elephas_maximus_borneensis%29_mother_and_baby_%288074160345%29.jpg/330px-Pygmy_Elephants_%28Elephas_maximus_borneensis%29_mother_and_baby_%288074160345%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
