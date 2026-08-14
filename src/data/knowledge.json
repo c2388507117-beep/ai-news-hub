@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T05:08:24.194Z",
+  "fetchedAt": "2026-08-14T06:45:59.220Z",
   "items": [
+    {
+      "title": "马修·斯特拉泽尔",
+      "extract": "马修·内尔松·斯特拉泽尔，法国男子篮球运动员，2021年U19青年世界盃籃球賽银牌得主、2024年夏季奥林匹克运动会男子银牌得主。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E4%BF%AE%C2%B7%E6%96%AF%E7%89%B9%E6%8B%89%E6%B3%BD%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Matthew_Strazel_%28cropped%29.jpg/330px-Matthew_Strazel_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "婆罗洲象",
       "extract": "婆罗洲象，又称加里曼丹象、婆羅洲矮象、婆罗洲侏儒象等，原來被当作外来亞洲象的野化种群。2003年被认为应属于亞洲象的一个独立亚种，但其原生地目前尚无定论。其亚种加词“borneensis”意为“婆罗洲的”。\n",
@@ -27,13 +34,6 @@
       "extract": "XL唱片 是一个英国独立唱片公司，从属于乞丐唱片集团，于1989年成立。它每年发行的唱片数量平均为六张。\n",
       "url": "https://zh.wikipedia.org/wiki/XL%E5%94%B1%E7%89%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/XL_Recordings_Logo.svg/langzh-330px-XL_Recordings_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯蒂芬·森纳那亚克",
-      "extract": "唐·斯蒂芬·森纳那亚克，錫蘭自治領首任總理（1947年－1952年），民族独立运动领导人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E6%A3%AE%E7%BA%B3%E9%82%A3%E4%BA%9A%E5%85%8B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Official_Photographic_Portrait_of_Don_Stephen_Senanayaka_%281884-1952%29.jpg/330px-Official_Photographic_Portrait_of_Don_Stephen_Senanayaka_%281884-1952%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
