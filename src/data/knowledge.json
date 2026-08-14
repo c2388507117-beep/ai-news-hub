@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T03:01:08.639Z",
+  "fetchedAt": "2026-08-14T05:08:24.194Z",
   "items": [
+    {
+      "title": "婆罗洲象",
+      "extract": "婆罗洲象，又称加里曼丹象、婆羅洲矮象、婆罗洲侏儒象等，原來被当作外来亞洲象的野化种群。2003年被认为应属于亞洲象的一个独立亚种，但其原生地目前尚无定论。其亚种加词“borneensis”意为“婆罗洲的”。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A9%86%E7%BD%97%E6%B4%B2%E8%B1%A1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pygmy_Elephants_%28Elephas_maximus_borneensis%29_mother_and_baby_%288074160345%29.jpg/330px-Pygmy_Elephants_%28Elephas_maximus_borneensis%29_mother_and_baby_%288074160345%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "阿森斯 (俄亥俄州)",
       "extract": "阿森斯（Athens）位于美国俄亥俄州东南部，是一座历史悠久大学城，也是雅典縣的县治。根据美国2000年人口普查，共有人口21,342人，其中白人占89.16%、亚裔美国人占4.47%、非裔美国人占3.82%。\n",
@@ -27,13 +34,6 @@
       "extract": "唐·斯蒂芬·森纳那亚克，錫蘭自治領首任總理（1947年－1952年），民族独立运动领导人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E6%A3%AE%E7%BA%B3%E9%82%A3%E4%BA%9A%E5%85%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Official_Photographic_Portrait_of_Don_Stephen_Senanayaka_%281884-1952%29.jpg/330px-Official_Photographic_Portrait_of_Don_Stephen_Senanayaka_%281884-1952%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "棉苞飞蓬",
-      "extract": "棉苞飞蓬 为菊科飞蓬属的植物。分布在欧洲、俄罗斯以及中国大陆的新疆、内蒙古等地，生长于海拔2,400米至2,600米的地区，一般生长在高山以及亚高山草地，目前尚未由人工引种栽培。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A3%89%E8%8B%9E%E9%A3%9E%E8%93%AC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Erigeron_eriocalyx_imported_from_iNaturalist_photo_338767457_on_30_October_2024.jpg/330px-Erigeron_eriocalyx_imported_from_iNaturalist_photo_338767457_on_30_October_2024.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
