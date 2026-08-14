@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T21:43:39.495Z",
+  "fetchedAt": "2026-08-14T22:43:31.857Z",
   "items": [
+    {
+      "title": "套餐",
+      "extract": "在餐馆，套餐 是指由限定、有限的單個菜品組成的菜品組合，而且一個套餐价格固定。与套餐相對的則是單點。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%97%E9%A4%90",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/TABLE_D%27HOTE_%28held_by%29_AMERICAN_HOTEL_%28at%29_%22%28BUFFALO%2C_NY%22_%28HOTEL%29_%28NYPL_Hades-269323-476903%29.jpg/330px-TABLE_D%27HOTE_%28held_by%29_AMERICAN_HOTEL_%28at%29_%22%28BUFFALO%2C_NY%22_%28HOTEL%29_%28NYPL_Hades-269323-476903%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "炭盘属",
       "extract": "炭盘属 是茶渍衣科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "瓦朗蒂尼 是法国奥布省的一个市镇，属于奥布河畔巴尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E6%9C%97%E8%92%82%E5%B0%BC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Vallentigny_%283%29.jpg/330px-Vallentigny_%283%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉佩吕斯",
-      "extract": "拉佩吕斯 是法国夏朗德省的一个旧市镇，属于孔福朗区。该旧市镇总面积8.52平方公里，2009年时的人口为511人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E4%BD%A9%E5%90%95%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Peruse_mairie.JPG/330px-Peruse_mairie.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
