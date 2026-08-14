@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T17:14:25.340Z",
+  "fetchedAt": "2026-08-14T18:09:49.290Z",
   "items": [
+    {
+      "title": "拉佩吕斯",
+      "extract": "拉佩吕斯 是法国夏朗德省的一个旧市镇，属于孔福朗区。该旧市镇总面积8.52平方公里，2009年时的人口为511人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E4%BD%A9%E5%90%95%E6%96%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Peruse_mairie.JPG/330px-Peruse_mairie.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "尊·披 (演員)",
       "extract": "约翰·霍华德·佩恩 是一名藝人和企業家。\n",
@@ -27,13 +34,6 @@
       "extract": "《NO GAME NO LIFE 遊戲人生 ZERO》是一部日本動畫電影，改編自榎宮祐的輕小說《NO GAME NO LIFE 遊戲人生》第6卷內容，電影由MADHOUSE製作和石塚敦子導演。2017年7月15日起在日本全國首映。 馬來西亞在2017年9月16日上映。汶萊則是在2017年10月19日上映。印尼於2017年10月25日上映。香港於2017年10月26日上映。新加坡於2017年11月2日上映，台灣於2017年12月8日－12月13日限期上映4DX版，並從12月13日起開始上映數位版。BD/DVD於2018年2月23日發售。中国大陆于2019年7月19日上映。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E4%BA%BA%E7%94%9FZERO",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/72/NGNL0_film_poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "奔子栏镇",
-      "extract": "奔子栏镇 是中华人民共和国云南省迪庆藏族自治州德钦县下辖的一个乡镇级行政单位。，位于金沙江西岸，东与四川省得荣县瓦卡镇和香格里拉市尼西乡隔江相望；西靠白马雪山，地势西高东低，平均海拔2464.3米。河流有东水河、书松河等汇入金沙江。全镇呈“一”字型南北走向，有滇藏公路（214国道）穿镇而过。镇中心距离德钦县城104公里，离州府80公里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A5%94%E5%AD%90%E6%A0%8F%E9%95%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/%E5%A5%94%E5%AD%90%E6%A0%8F%E9%95%87%E5%A4%A9%E9%99%85%E7%BA%BF_-_%E8%88%AA%E6%8B%8D_-_2025-05-09_01.jpg/330px-%E5%A5%94%E5%AD%90%E6%A0%8F%E9%95%87%E5%A4%A9%E9%99%85%E7%BA%BF_-_%E8%88%AA%E6%8B%8D_-_2025-05-09_01.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
