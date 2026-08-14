@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T13:47:35.153Z",
+  "fetchedAt": "2026-08-14T15:09:23.581Z",
   "items": [
+    {
+      "title": "欧阳明高",
+      "extract": "欧阳明高（1958年10月27日—），汉族，湖北天门人，中华人民共和国汽车工程学家，清华大学教授，汽车安全与节能国家重点实验室主任。其工作专注于新能源汽车动力系统的节能研究：包括内燃动力、混合动力、电池动力的系统与控制。担任国家863“节能与新能源汽车”重大项目专家组组长等职。2017年选为中国科学院院士。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E9%98%B3%E6%98%8E%E9%AB%98",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E6%AC%A7%E9%98%B3%E6%98%8E%E9%AB%98_20240420.jpg/330px-%E6%AC%A7%E9%98%B3%E6%98%8E%E9%AB%98_20240420.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "遊戲人生ZERO",
       "extract": "《NO GAME NO LIFE 遊戲人生 ZERO》是一部日本動畫電影，改編自榎宮祐的輕小說《NO GAME NO LIFE 遊戲人生》第6卷內容，電影由MADHOUSE製作和石塚敦子導演。2017年7月15日起在日本全國首映。 馬來西亞在2017年9月16日上映。汶萊則是在2017年10月19日上映。印尼於2017年10月25日上映。香港於2017年10月26日上映。新加坡於2017年11月2日上映，台灣於2017年12月8日－12月13日限期上映4DX版，並從12月13日起開始上映數位版。BD/DVD於2018年2月23日發售。中国大陆于2019年7月19日上映。\n",
@@ -27,13 +34,6 @@
       "extract": "《Sammi VS Sammi》 是香港歌手鄭秀文的第三十張個人專輯和第二十三張粵語專輯，亦是她首張全翻唱專輯，於2004年8月23日發行。由於與香港華納唱片將近約滿，故此，公司在宣傳方面亦不算得上十分積極，但甫出仍登上香港唱片銷量榜第二名，不久亦登上冠軍寶座，成績不俗。此外，此專輯在新加坡的銷量亦不錯，作為粵語唱片，亦能多個星期在新加坡rias十大銷量排行榜上。\n",
       "url": "https://zh.wikipedia.org/wiki/Sammi_vs_Sammi",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/b/b6/%E9%84%AD%E7%A7%80%E6%96%87_Sammi_VS_Sammi.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马修·斯特拉泽尔",
-      "extract": "马修·内尔松·斯特拉泽尔，法国男子篮球运动员，2021年U19青年世界盃籃球賽银牌得主、2024年夏季奥林匹克运动会男子银牌得主。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E4%BF%AE%C2%B7%E6%96%AF%E7%89%B9%E6%8B%89%E6%B3%BD%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Matthew_Strazel_%28cropped%29.jpg/330px-Matthew_Strazel_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
