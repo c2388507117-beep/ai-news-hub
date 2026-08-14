@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T22:43:31.857Z",
+  "fetchedAt": "2026-08-14T23:40:59.308Z",
   "items": [
+    {
+      "title": "小濱鷸",
+      "extract": "小濱鷸 为鷸科濱鷸屬下的一种鳥類。是一種非常小的涉禽。它在北極的歐洲和亞洲繁殖，並且是遠距離遷徙的鳥類，冬季會遷徙到非洲和南亞。偶爾它會作為迷鳥出現在北美洲和澳洲。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%BF%B1%E9%B7%B8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Little_Stint_%28Calidris_minuta%29_%281%29.jpg/330px-Little_Stint_%28Calidris_minuta%29_%281%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "套餐",
       "extract": "在餐馆，套餐 是指由限定、有限的單個菜品組成的菜品組合，而且一個套餐价格固定。与套餐相對的則是單點。\n",
@@ -27,13 +34,6 @@
       "extract": "干将路是中国江苏省苏州市东西向横贯市中心区的一条干道，以乐桥以界分为干将西路和干将东路。东起东环路，西至西环路，中间与凤凰街、临顿路、人民路、阊胥路等多条道路交汇，全长7.5公里。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B9%B2%E5%B0%86%E8%B7%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%E8%8B%8F%E5%B7%9E%E5%A4%B9%E5%9C%A8%E5%B9%B2%E5%B0%86%E8%B7%AF%E4%B8%AD%E7%9A%84%E5%B9%B2%E5%B0%86%E6%B2%B3.jpg/330px-%E8%8B%8F%E5%B7%9E%E5%A4%B9%E5%9C%A8%E5%B9%B2%E5%B0%86%E8%B7%AF%E4%B8%AD%E7%9A%84%E5%B9%B2%E5%B0%86%E6%B2%B3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓦朗蒂尼",
-      "extract": "瓦朗蒂尼 是法国奥布省的一个市镇，属于奥布河畔巴尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E6%9C%97%E8%92%82%E5%B0%BC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Vallentigny_%283%29.jpg/330px-Vallentigny_%283%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
