@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T15:09:23.581Z",
+  "fetchedAt": "2026-08-14T16:08:00.072Z",
   "items": [
+    {
+      "title": "比耶讷河",
+      "extract": "比耶讷河 是法国汝拉省与安省的河流，是安河的左支流，长68.8千米，发源自普雷马农，于尚西亚流入安河。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E8%80%B6%E8%AE%B7%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Di_Lena2.JPG/330px-Di_Lena2.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "欧阳明高",
       "extract": "欧阳明高（1958年10月27日—），汉族，湖北天门人，中华人民共和国汽车工程学家，清华大学教授，汽车安全与节能国家重点实验室主任。其工作专注于新能源汽车动力系统的节能研究：包括内燃动力、混合动力、电池动力的系统与控制。担任国家863“节能与新能源汽车”重大项目专家组组长等职。2017年选为中国科学院院士。\n",
@@ -27,13 +34,6 @@
       "extract": "节节草 为鸭跖草科鸭跖草属下的植物，别名竹节菜、竹节花。其分布于亚热带、热带地区；台湾以及中国大陆的广西、广东、海南、西藏、云南、贵州等地。其生长于海拔200米至2100米的溪边、林中、灌丛中和潮湿的旷野。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8A%82%E8%8A%82%E8%8D%89_(%E9%B8%AD%E8%B7%96%E8%8D%89%E7%A7%91)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Commelina_diffusa_pollinator_Layton_171_XTBG.JPG/330px-Commelina_diffusa_pollinator_Layton_171_XTBG.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Sammi vs Sammi",
-      "extract": "《Sammi VS Sammi》 是香港歌手鄭秀文的第三十張個人專輯和第二十三張粵語專輯，亦是她首張全翻唱專輯，於2004年8月23日發行。由於與香港華納唱片將近約滿，故此，公司在宣傳方面亦不算得上十分積極，但甫出仍登上香港唱片銷量榜第二名，不久亦登上冠軍寶座，成績不俗。此外，此專輯在新加坡的銷量亦不錯，作為粵語唱片，亦能多個星期在新加坡rias十大銷量排行榜上。\n",
-      "url": "https://zh.wikipedia.org/wiki/Sammi_vs_Sammi",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/b/b6/%E9%84%AD%E7%A7%80%E6%96%87_Sammi_VS_Sammi.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
