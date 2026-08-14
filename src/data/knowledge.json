@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T18:09:49.290Z",
+  "fetchedAt": "2026-08-14T19:17:07.367Z",
   "items": [
+    {
+      "title": "瓦朗蒂尼",
+      "extract": "瓦朗蒂尼 是法国奥布省的一个市镇，属于奥布河畔巴尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E6%9C%97%E8%92%82%E5%B0%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Vallentigny_%283%29.jpg/330px-Vallentigny_%283%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "拉佩吕斯",
       "extract": "拉佩吕斯 是法国夏朗德省的一个旧市镇，属于孔福朗区。该旧市镇总面积8.52平方公里，2009年时的人口为511人。\n",
@@ -27,13 +34,6 @@
       "extract": "欧阳明高（1958年10月27日—），汉族，湖北天门人，中华人民共和国汽车工程学家，清华大学教授，汽车安全与节能国家重点实验室主任。其工作专注于新能源汽车动力系统的节能研究：包括内燃动力、混合动力、电池动力的系统与控制。担任国家863“节能与新能源汽车”重大项目专家组组长等职。2017年选为中国科学院院士。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E9%98%B3%E6%98%8E%E9%AB%98",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E6%AC%A7%E9%98%B3%E6%98%8E%E9%AB%98_20240420.jpg/330px-%E6%AC%A7%E9%98%B3%E6%98%8E%E9%AB%98_20240420.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "遊戲人生ZERO",
-      "extract": "《NO GAME NO LIFE 遊戲人生 ZERO》是一部日本動畫電影，改編自榎宮祐的輕小說《NO GAME NO LIFE 遊戲人生》第6卷內容，電影由MADHOUSE製作和石塚敦子導演。2017年7月15日起在日本全國首映。 馬來西亞在2017年9月16日上映。汶萊則是在2017年10月19日上映。印尼於2017年10月25日上映。香港於2017年10月26日上映。新加坡於2017年11月2日上映，台灣於2017年12月8日－12月13日限期上映4DX版，並從12月13日起開始上映數位版。BD/DVD於2018年2月23日發售。中国大陆于2019年7月19日上映。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E4%BA%BA%E7%94%9FZERO",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/72/NGNL0_film_poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
