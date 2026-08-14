@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T00:01:17.400Z",
+  "fetchedAt": "2026-08-14T03:01:08.639Z",
   "items": [
+    {
+      "title": "阿森斯 (俄亥俄州)",
+      "extract": "阿森斯（Athens）位于美国俄亥俄州东南部，是一座历史悠久大学城，也是雅典縣的县治。根据美国2000年人口普查，共有人口21,342人，其中白人占89.16%、亚裔美国人占4.47%、非裔美国人占3.82%。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%A3%AE%E6%96%AF_(%E4%BF%84%E4%BA%A5%E4%BF%84%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/OHMap-doton-Athens.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "胡比尼哈",
       "extract": "胡比尼哈 是烏克蘭東部第聶伯羅彼得羅夫斯克州萨马尔区胡比尼哈市镇内的市級鎮及其行政中心。始建於1704年，面積10.71平方公里，2010年人口5,768，人口密度每平方公里550.4人。\n",
@@ -27,13 +34,6 @@
       "extract": "棉苞飞蓬 为菊科飞蓬属的植物。分布在欧洲、俄罗斯以及中国大陆的新疆、内蒙古等地，生长于海拔2,400米至2,600米的地区，一般生长在高山以及亚高山草地，目前尚未由人工引种栽培。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A3%89%E8%8B%9E%E9%A3%9E%E8%93%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Erigeron_eriocalyx_imported_from_iNaturalist_photo_338767457_on_30_October_2024.jpg/330px-Erigeron_eriocalyx_imported_from_iNaturalist_photo_338767457_on_30_October_2024.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "抖動 (數位訊號處理)",
-      "extract": "抖動，是在數位訊號處理領域的中一項用于降低量化误差的技术。透过在較低位元中加入雜訊，藉此破壞諧波的排序，使諧波的影響受到壓制，並減少量化誤差在低頻的影響。抖动常用于音视频处理，且是CD压制过程的最后一步。經過抖动處理過的音樂，將聽起來更柔順、背景更黑；而經過抖动處理過的影像，也會更加地柔順耐看。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8A%96%E5%8B%95_(%E6%95%B8%E4%BD%8D%E8%A8%8A%E8%99%9F%E8%99%95%E7%90%86)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Michelangelo%27s_David_-_Floyd-Steinberg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
