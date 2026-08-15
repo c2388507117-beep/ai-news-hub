@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T08:48:18.292Z",
+  "fetchedAt": "2026-08-15T09:43:52.836Z",
   "items": [
+    {
+      "title": "古池蛙跃溅水声",
+      "extract": "「古池蛙跃溅水声」，是日本著名俳句诗人松尾芭蕉的名句。俳句全文可译为“寂寂幽古池/蛙飞跃入其间中/微微水自音”。这首俳句是芭蕉确立了其特有风格（在日本被称为蕉风）的标志性作品，不仅在芭蕉的作品中最为有名，而且从江戸时代起就一直作为俳句的代名词被广为传诵。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E8%9B%99%E8%B7%83%E6%BA%85%E6%B0%B4%E5%A3%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Frog_Haiku_Memorial_Jun09.jpg/330px-Frog_Haiku_Memorial_Jun09.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "西澳洲州立图书馆",
       "extract": "西澳洲州立图书馆 是一个集研究、参考于一体的公共图书馆。图书馆位于珀斯市中心. 该图书馆是由西澳大利亚图书馆管理局管理的。\n",
@@ -27,13 +34,6 @@
       "extract": "李文潔，香港女模特兒，2021年參與ViuTV選真人騷《最後一屆口罩小姐選舉》而開始為人認識。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%96%87%E6%BD%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Liz_Li_Man-Kit_1.jpg/330px-Liz_Li_Man-Kit_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "實地調研",
-      "extract": "實地調研，又稱實地研究，為對於描述原始資料蒐集的概括術語，其所應用的領域包括民俗学、考古學、生物學、生態學、環境科學、地理學、地質學、地形學、地球物理學、古生物學、人類學、語言學、哲學、建築學以及社會學等自然或社會科學領域。與其他在實驗室准控制狀態下環境的研究相比，實地調查主要於野外實地進行。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E5%9C%B0%E8%AA%BF%E7%A0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Zoobentos_sampling_Krippenbach.jpg/330px-Zoobentos_sampling_Krippenbach.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
