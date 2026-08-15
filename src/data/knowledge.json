@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T11:37:35.070Z",
+  "fetchedAt": "2026-08-15T13:01:45.961Z",
   "items": [
+    {
+      "title": "珍·泰勒",
+      "extract": "珍妮佛·李·泰勒 或簡稱珍·泰勒，是一名美國女配音演員。她較知名的是在電子遊戲「最後一戰系列」（2001年至2015年）中為可塔娜一角配音。其他配音作品如電子遊戲《求生之路》（2008年）、網路動畫《RWBY》（2013年至今）和電子遊戲《Dota 2》（2013年）。1999年至2009年，她也在電子遊戲「瑪利歐系列」中為碧姬公主配音。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8F%8D%C2%B7%E6%B3%B0%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jen_Taylor_%2852263395059%29_%28cropped%29.jpg/330px-Jen_Taylor_%2852263395059%29_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "宾格尔省",
       "extract": "宾格尔省 是位于土耳其东部的一个省，于1946年从埃拉泽省脱离而成立的，面積8,125平方公里，首府宾格尔。\n",
@@ -27,13 +34,6 @@
       "extract": "西澳洲州立图书馆 是一个集研究、参考于一体的公共图书馆。图书馆位于珀斯市中心. 该图书馆是由西澳大利亚图书馆管理局管理的。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%BE%B3%E6%B4%B2%E5%B7%9E%E7%AB%8B%E5%9B%BE%E4%B9%A6%E9%A6%86",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/State_Library_of_Western_Australia.jpg/330px-State_Library_of_Western_Australia.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "小东庄站",
-      "extract": "小东庄站是天津地铁9号线的车站，位于中国天津市东丽区新立街道津塘公路。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E4%B8%9C%E5%BA%84%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/N._Platform%2C_Xiaodongzhuang_Station%2C_Tianjin_Metro_20231003.jpg/330px-N._Platform%2C_Xiaodongzhuang_Station%2C_Tianjin_Metro_20231003.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
