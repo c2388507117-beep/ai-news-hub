@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T21:38:40.832Z",
+  "fetchedAt": "2026-08-15T22:41:42.892Z",
   "items": [
+    {
+      "title": "乔治·麦戈文",
+      "extract": "乔治·斯坦利·麦戈文，美国历史学家、作家、曾任美国众议员、参议员。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%BA%A6%E6%88%88%E6%96%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/George_McGovern_%28D-SD%29.jpg/330px-George_McGovern_%28D-SD%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "2025年英國下議院朗科恩及赫爾斯比選區補選",
       "extract": "2025年朗科恩及赫爾斯比選區補選 將於2025年5月1日舉行，以填補於同年3月17日起辭去英國國會議員的前工黨黨員迈克·埃姆斯伯里在朗科恩及赫爾斯比選區的議席空缺。\n",
@@ -27,13 +34,6 @@
       "extract": "圣马塞兰德克赖 是法国索恩-卢瓦尔省的一个市镇，属于马孔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%A9%AC%E5%A1%9E%E5%85%B0%E5%BE%B7%E5%85%8B%E8%B5%96",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/St_Marcelin_Cray_Church.jpg/330px-St_Marcelin_Cray_Church.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "不文騷",
-      "extract": "《不文騷》，為香港III級片類的粵語喜劇，由黃霑、黃光亮、葉子楣、尹光、羅冠蘭、朱咪咪主演，陳奧圖導演，張肇麟和谷德昭編劇。故事主要講述兩家電視台圍繞深夜成人節目時段的收視爭奪戰，賣點是色情、髒話和無厘頭的笑點。於1992年3月21日上映，票房達778萬港元。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E6%96%87%E9%A8%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/50/Poster_of_Stooges_in_Hong_Kong.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
