@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T03:57:25.923Z",
+  "fetchedAt": "2026-08-15T04:50:11.751Z",
   "items": [
+    {
+      "title": "實地調研",
+      "extract": "實地調研，又稱實地研究，為對於描述原始資料蒐集的概括術語，其所應用的領域包括民俗学、考古學、生物學、生態學、環境科學、地理學、地質學、地形學、地球物理學、古生物學、人類學、語言學、哲學、建築學以及社會學等自然或社會科學領域。與其他在實驗室准控制狀態下環境的研究相比，實地調查主要於野外實地進行。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E5%9C%B0%E8%AA%BF%E7%A0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Zoobentos_sampling_Krippenbach.jpg/330px-Zoobentos_sampling_Krippenbach.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "间苯二甲胺",
       "extract": "间苯二甲胺，又称1,3-间苯二甲胺；1,3-二(氨甲基)苯；α,α'-二氨基间二甲苯。\n",
@@ -27,13 +34,6 @@
       "extract": "小濱鷸 为鷸科濱鷸屬下的一种鳥類。是一種非常小的涉禽。它在北極的歐洲和亞洲繁殖，並且是遠距離遷徙的鳥類，冬季會遷徙到非洲和南亞。偶爾它會作為迷鳥出現在北美洲和澳洲。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%BF%B1%E9%B7%B8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Little_Stint_%28Calidris_minuta%29_%281%29.jpg/330px-Little_Stint_%28Calidris_minuta%29_%281%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "套餐",
-      "extract": "在餐馆，套餐 是指由限定、有限的單個菜品組成的菜品組合，而且一個套餐价格固定。与套餐相對的則是單點。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A5%97%E9%A4%90",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/TABLE_D%27HOTE_%28held_by%29_AMERICAN_HOTEL_%28at%29_%22%28BUFFALO%2C_NY%22_%28HOTEL%29_%28NYPL_Hades-269323-476903%29.jpg/330px-TABLE_D%27HOTE_%28held_by%29_AMERICAN_HOTEL_%28at%29_%22%28BUFFALO%2C_NY%22_%28HOTEL%29_%28NYPL_Hades-269323-476903%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
