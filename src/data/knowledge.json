@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T22:41:42.892Z",
+  "fetchedAt": "2026-08-15T23:37:43.080Z",
   "items": [
+    {
+      "title": "皱纹蛤属",
+      "extract": "皱纹蛤属 為簾蛤科之下的一個雙殼綱軟體動物的屬。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9A%B1%E7%BA%B9%E8%9B%A4%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Antigona_listeri_%28J._E._Gray%2C_1838%29_2013_001.JPG/330px-Antigona_listeri_%28J._E._Gray%2C_1838%29_2013_001.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "乔治·麦戈文",
       "extract": "乔治·斯坦利·麦戈文，美国历史学家、作家、曾任美国众议员、参议员。\n",
@@ -27,13 +34,6 @@
       "extract": "布纳肯国家公园 是印度尼西亚苏拉威西岛北部的一个海洋公园，位于珊瑚大三角的中心，是390余种珊瑚的栖息地，也有许多鱼类、软体动物、爬行动物和海洋哺乳动物在此生活。布纳肯国家公园是印尼热带水域生态系统的代表，有海草床、珊瑚礁和海岸三种生态系统。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E7%BA%B3%E8%82%AF%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bunaken01.JPG/330px-Bunaken01.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "圣马塞兰德克赖",
-      "extract": "圣马塞兰德克赖 是法国索恩-卢瓦尔省的一个市镇，属于马孔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%A9%AC%E5%A1%9E%E5%85%B0%E5%BE%B7%E5%85%8B%E8%B5%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/St_Marcelin_Cray_Church.jpg/330px-St_Marcelin_Cray_Church.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
