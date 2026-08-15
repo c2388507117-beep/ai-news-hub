@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T01:52:34.559Z",
+  "fetchedAt": "2026-08-15T03:07:25.052Z",
   "items": [
+    {
+      "title": "比尔·拉塞尔",
+      "extract": "威廉·費爾頓·羅素，通稱比爾·羅素，是前美國NBA職業籃球運動員，主要位置為中鋒。他在1956至1969年為波士頓塞爾特人效力13個賽季，帶領塞爾特人創下NBA史上空前的八連霸（1959-1966）、共得到11次總冠軍，是開創波士頓綠色王朝的主要領導者。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%B0%94%C2%B7%E6%8B%89%E5%A1%9E%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bill_Russell_in_the_Green_Room.jpg/330px-Bill_Russell_in_the_Green_Room.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "盧卡·佐里奇",
       "extract": "盧卡·佐里奇，克羅地亞籃球運動員。他現在效力於土耳其球隊費內巴切俱樂部，他也是克羅地亞國家男子籃球隊的一員。\n",
@@ -27,13 +34,6 @@
       "extract": "炭盘属 是茶渍衣科下的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%82%AD%E7%9B%98%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Carbonea_vitellinaria_199026.jpg/330px-Carbonea_vitellinaria_199026.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "利塔尼河",
-      "extract": "利塔尼河，黎巴嫩主要河流之一。该河发源于贝卡谷地，向南流至戈兰高地附近，距以色列边境约20余公里处时，因受高地阻挡，转而向西切穿黎巴嫩山脉，在提尔以北流入地中海，全长140公里，是黎巴嫩境内第一大河。河上有水库，是黎巴嫩南部和贝卡谷地主要的灌溉水源来源。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E5%A1%94%E5%B0%BC%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Litani_river_2.jpg/330px-Litani_river_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
