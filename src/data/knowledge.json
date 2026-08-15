@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T15:38:29.898Z",
+  "fetchedAt": "2026-08-15T16:43:52.456Z",
   "items": [
+    {
+      "title": "科斯塔尼察要塞",
+      "extract": "科斯塔尼察要塞 是克羅埃西亞的一座城堡，位於克羅埃西亞中部科斯塔伊尼察，靠近波赫國界。這座要塞可能修建於14世紀時期。近年城堡得到了克羅埃西亞文化部門的修復。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E6%96%AF%E5%A1%94%E5%B0%BC%E5%AF%9F%E8%A6%81%E5%A1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hrvatska_Kostajnica_%E2%80%93_stari_grad.jpg/330px-Hrvatska_Kostajnica_%E2%80%93_stari_grad.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "俄罗斯苏维埃联邦社会主义共和国共产党",
       "extract": "俄罗斯苏维埃联邦社会主义共和国共产党，简称俄共，是苏联共产党在俄罗斯苏维埃联邦社会主义共和国的分支。俄罗斯苏维埃联邦社会主义共和国共产党成立于1990年6月19日。此时，俄罗斯苏维埃联邦社会主义共和国共产党的党员数占苏联共产党总党员数的58%。该党成立后，成为反对戈尔巴乔夫统治的苏共左翼反对派的一个中心。八一九政变失败后的1991年8月25日，时任俄罗斯总统叶利钦签署了禁止俄羅斯蘇維埃聯邦社會主義共和國共產黨活动并没收其全部财产的命令。\n",
@@ -27,13 +34,6 @@
       "extract": "珍妮佛·李·泰勒 或簡稱珍·泰勒，是一名美國女配音演員。她較知名的是在電子遊戲「最後一戰系列」（2001年至2015年）中為可塔娜一角配音。其他配音作品如電子遊戲《求生之路》（2008年）、網路動畫《RWBY》（2013年至今）和電子遊戲《Dota 2》（2013年）。1999年至2009年，她也在電子遊戲「瑪利歐系列」中為碧姬公主配音。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%8F%8D%C2%B7%E6%B3%B0%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jen_Taylor_%2852263395059%29_%28cropped%29.jpg/330px-Jen_Taylor_%2852263395059%29_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "宾格尔省",
-      "extract": "宾格尔省 是位于土耳其东部的一个省，于1946年从埃拉泽省脱离而成立的，面積8,125平方公里，首府宾格尔。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%AE%BE%E6%A0%BC%E5%B0%94%E7%9C%81",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bing%C3%B6l_in_Turkey.svg/langzh-330px-Bing%C3%B6l_in_Turkey.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
