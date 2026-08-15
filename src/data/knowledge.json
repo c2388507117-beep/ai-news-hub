@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T14:42:29.245Z",
+  "fetchedAt": "2026-08-15T15:38:29.898Z",
   "items": [
+    {
+      "title": "俄罗斯苏维埃联邦社会主义共和国共产党",
+      "extract": "俄罗斯苏维埃联邦社会主义共和国共产党，简称俄共，是苏联共产党在俄罗斯苏维埃联邦社会主义共和国的分支。俄罗斯苏维埃联邦社会主义共和国共产党成立于1990年6月19日。此时，俄罗斯苏维埃联邦社会主义共和国共产党的党员数占苏联共产党总党员数的58%。该党成立后，成为反对戈尔巴乔夫统治的苏共左翼反对派的一个中心。八一九政变失败后的1991年8月25日，时任俄罗斯总统叶利钦签署了禁止俄羅斯蘇維埃聯邦社會主義共和國共產黨活动并没收其全部财产的命令。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%8B%8F%E7%BB%B4%E5%9F%83%E8%81%94%E9%82%A6%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Emblem_of_the_Russian_Soviet_Federative_Socialist_Republic_%281978%E2%80%931991%29%2C_Emblem_of_the_Russian_Federation_%281991%E2%80%931992%29.svg/langzh-330px-Emblem_of_the_Russian_Soviet_Federative_Socialist_Republic_%281978%E2%80%931991%29%2C_Emblem_of_the_Russian_Federation_%281991%E2%80%931992%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "馬公第一漁港",
       "extract": "馬公第一漁港，俗稱築港，位於台灣澎湖縣馬公市啟明里、重慶里（媽宮東甲、馬公街築地町），主管單位為澎湖縣政府，位處澎湖本島馬公半島南側，西鄰馬公商港、東倚馬公第二漁港。2017年已轉型為遊艇碼頭使用。\n",
@@ -27,13 +34,6 @@
       "extract": "宾格尔省 是位于土耳其东部的一个省，于1946年从埃拉泽省脱离而成立的，面積8,125平方公里，首府宾格尔。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%AE%BE%E6%A0%BC%E5%B0%94%E7%9C%81",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bing%C3%B6l_in_Turkey.svg/langzh-330px-Bing%C3%B6l_in_Turkey.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "罗兹 (波兰)",
-      "extract": "罗兹 是位於波兰中部的城市，也是罗兹省首府，人口約65萬，為波蘭第三大城市。羅茲在波兰语中原意為「小船」，體現在市旗和市徽上。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%85%B9_(%E6%B3%A2%E5%85%B0)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg/330px-%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
