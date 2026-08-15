@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T13:46:14.832Z",
+  "fetchedAt": "2026-08-15T14:42:29.245Z",
   "items": [
+    {
+      "title": "馬公第一漁港",
+      "extract": "馬公第一漁港，俗稱築港，位於台灣澎湖縣馬公市啟明里、重慶里（媽宮東甲、馬公街築地町），主管單位為澎湖縣政府，位處澎湖本島馬公半島南側，西鄰馬公商港、東倚馬公第二漁港。2017年已轉型為遊艇碼頭使用。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%85%AC%E7%AC%AC%E4%B8%80%E6%BC%81%E6%B8%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%E9%A6%AC%E5%85%AC%E6%B8%AF_%2819%29.jpg/330px-%E9%A6%AC%E5%85%AC%E6%B8%AF_%2819%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "淡紅沸石",
       "extract": "淡紅沸石 是一種稀有礦物，由德國探險家和動物學家格奥尔格·威廉·斯特勒發現並以自己的姓氏來命名。與大多數稀有礦物一樣，淡紅沸石的商業用途很少。對於礦物收藏家來說能夠找到完整晶體是非常幸運的。沸石族礦物（包括淡紅沸石）都有被拿來研究透過脫水過程，來評估其相作為分子篩、吸附劑和催化劑的潛在用途。\n",
@@ -27,13 +34,6 @@
       "extract": "罗兹 是位於波兰中部的城市，也是罗兹省首府，人口約65萬，為波蘭第三大城市。羅茲在波兰语中原意為「小船」，體現在市旗和市徽上。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E5%85%B9_(%E6%B3%A2%E5%85%B0)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg/330px-%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "古池蛙跃溅水声",
-      "extract": "「古池蛙跃溅水声」，是日本著名俳句诗人松尾芭蕉的名句。俳句全文可译为“寂寂幽古池/蛙飞跃入其间中/微微水自音”。这首俳句是芭蕉确立了其特有风格（在日本被称为蕉风）的标志性作品，不仅在芭蕉的作品中最为有名，而且从江戸时代起就一直作为俳句的代名词被广为传诵。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E8%9B%99%E8%B7%83%E6%BA%85%E6%B0%B4%E5%A3%B0",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Frog_Haiku_Memorial_Jun09.jpg/330px-Frog_Haiku_Memorial_Jun09.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
