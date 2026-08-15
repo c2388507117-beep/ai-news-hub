@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-14T23:40:59.308Z",
+  "fetchedAt": "2026-08-15T01:52:34.559Z",
   "items": [
+    {
+      "title": "盧卡·佐里奇",
+      "extract": "盧卡·佐里奇，克羅地亞籃球運動員。他現在效力於土耳其球隊費內巴切俱樂部，他也是克羅地亞國家男子籃球隊的一員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E5%8D%A1%C2%B7%E4%BD%90%E9%87%8C%E5%A5%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Luka_%C5%BDori%C4%87%2713.JPG/330px-Luka_%C5%BDori%C4%87%2713.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "小濱鷸",
       "extract": "小濱鷸 为鷸科濱鷸屬下的一种鳥類。是一種非常小的涉禽。它在北極的歐洲和亞洲繁殖，並且是遠距離遷徙的鳥類，冬季會遷徙到非洲和南亞。偶爾它會作為迷鳥出現在北美洲和澳洲。\n",
@@ -27,13 +34,6 @@
       "extract": "利塔尼河，黎巴嫩主要河流之一。该河发源于贝卡谷地，向南流至戈兰高地附近，距以色列边境约20余公里处时，因受高地阻挡，转而向西切穿黎巴嫩山脉，在提尔以北流入地中海，全长140公里，是黎巴嫩境内第一大河。河上有水库，是黎巴嫩南部和贝卡谷地主要的灌溉水源来源。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E5%A1%94%E5%B0%BC%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Litani_river_2.jpg/330px-Litani_river_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "干将路",
-      "extract": "干将路是中国江苏省苏州市东西向横贯市中心区的一条干道，以乐桥以界分为干将西路和干将东路。东起东环路，西至西环路，中间与凤凰街、临顿路、人民路、阊胥路等多条道路交汇，全长7.5公里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B9%B2%E5%B0%86%E8%B7%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%E8%8B%8F%E5%B7%9E%E5%A4%B9%E5%9C%A8%E5%B9%B2%E5%B0%86%E8%B7%AF%E4%B8%AD%E7%9A%84%E5%B9%B2%E5%B0%86%E6%B2%B3.jpg/330px-%E8%8B%8F%E5%B7%9E%E5%A4%B9%E5%9C%A8%E5%B9%B2%E5%B0%86%E8%B7%AF%E4%B8%AD%E7%9A%84%E5%B9%B2%E5%B0%86%E6%B2%B3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
