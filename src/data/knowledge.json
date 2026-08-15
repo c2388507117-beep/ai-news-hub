@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T19:38:28.138Z",
+  "fetchedAt": "2026-08-15T20:42:15.223Z",
   "items": [
+    {
+      "title": "二氯二溴甲烷",
+      "extract": "二氯二溴甲烷是一种有机化合物，化学式为CBr2Cl2。它可由四氯化碳和三溴化铝的反应制得。它与烯烃以溴和二氯溴甲基发生加成反应。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8C%E6%B0%AF%E4%BA%8C%E6%BA%B4%E7%94%B2%E7%83%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dibromodichloromethane.svg/langzh-330px-Dibromodichloromethane.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "布纳肯国家公园",
       "extract": "布纳肯国家公园 是印度尼西亚苏拉威西岛北部的一个海洋公园，位于珊瑚大三角的中心，是390余种珊瑚的栖息地，也有许多鱼类、软体动物、爬行动物和海洋哺乳动物在此生活。布纳肯国家公园是印尼热带水域生态系统的代表，有海草床、珊瑚礁和海岸三种生态系统。\n",
@@ -27,13 +34,6 @@
       "extract": "科斯塔尼察要塞 是克羅埃西亞的一座城堡，位於克羅埃西亞中部科斯塔伊尼察，靠近波赫國界。這座要塞可能修建於14世紀時期。近年城堡得到了克羅埃西亞文化部門的修復。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E6%96%AF%E5%A1%94%E5%B0%BC%E5%AF%9F%E8%A6%81%E5%A1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hrvatska_Kostajnica_%E2%80%93_stari_grad.jpg/330px-Hrvatska_Kostajnica_%E2%80%93_stari_grad.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "俄罗斯苏维埃联邦社会主义共和国共产党",
-      "extract": "俄罗斯苏维埃联邦社会主义共和国共产党，简称俄共，是苏联共产党在俄罗斯苏维埃联邦社会主义共和国的分支。俄罗斯苏维埃联邦社会主义共和国共产党成立于1990年6月19日。此时，俄罗斯苏维埃联邦社会主义共和国共产党的党员数占苏联共产党总党员数的58%。该党成立后，成为反对戈尔巴乔夫统治的苏共左翼反对派的一个中心。八一九政变失败后的1991年8月25日，时任俄罗斯总统叶利钦签署了禁止俄羅斯蘇維埃聯邦社會主義共和國共產黨活动并没收其全部财产的命令。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E8%8B%8F%E7%BB%B4%E5%9F%83%E8%81%94%E9%82%A6%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Emblem_of_the_Russian_Soviet_Federative_Socialist_Republic_%281978%E2%80%931991%29%2C_Emblem_of_the_Russian_Federation_%281991%E2%80%931992%29.svg/langzh-330px-Emblem_of_the_Russian_Soviet_Federative_Socialist_Republic_%281978%E2%80%931991%29%2C_Emblem_of_the_Russian_Federation_%281991%E2%80%931992%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
