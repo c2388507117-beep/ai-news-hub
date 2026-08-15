@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T05:44:17.566Z",
+  "fetchedAt": "2026-08-15T07:00:46.257Z",
   "items": [
+    {
+      "title": "德魯·魯辛斯基",
+      "extract": "德魯·魯辛斯基，為美國棒球選手，在2014年的美國職棒選秀會由克里夫蘭印地安人以自由球員契約簽下。2023年球季效力於美國職棒奧克蘭運動家隊，守備位置為投手。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E9%AD%AF%C2%B7%E9%AD%AF%E8%BE%9B%E6%96%AF%E5%9F%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Drew_Rucinski_%2836736103552%29_%28cropped%29.jpg/330px-Drew_Rucinski_%2836736103552%29_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "李文潔",
       "extract": "李文潔，香港女模特兒，2021年參與ViuTV選真人騷《最後一屆口罩小姐選舉》而開始為人認識。\n",
@@ -27,13 +34,6 @@
       "extract": "威廉·費爾頓·羅素，通稱比爾·羅素，是前美國NBA職業籃球運動員，主要位置為中鋒。他在1956至1969年為波士頓塞爾特人效力13個賽季，帶領塞爾特人創下NBA史上空前的八連霸（1959-1966）、共得到11次總冠軍，是開創波士頓綠色王朝的主要領導者。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%B0%94%C2%B7%E6%8B%89%E5%A1%9E%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bill_Russell_in_the_Green_Room.jpg/330px-Bill_Russell_in_the_Green_Room.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "盧卡·佐里奇",
-      "extract": "盧卡·佐里奇，克羅地亞籃球運動員。他現在效力於土耳其球隊費內巴切俱樂部，他也是克羅地亞國家男子籃球隊的一員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E5%8D%A1%C2%B7%E4%BD%90%E9%87%8C%E5%A5%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Luka_%C5%BDori%C4%87%2713.JPG/330px-Luka_%C5%BDori%C4%87%2713.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
