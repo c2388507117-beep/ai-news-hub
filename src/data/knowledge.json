@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T13:01:45.961Z",
+  "fetchedAt": "2026-08-15T13:46:14.832Z",
   "items": [
+    {
+      "title": "淡紅沸石",
+      "extract": "淡紅沸石 是一種稀有礦物，由德國探險家和動物學家格奥尔格·威廉·斯特勒發現並以自己的姓氏來命名。與大多數稀有礦物一樣，淡紅沸石的商業用途很少。對於礦物收藏家來說能夠找到完整晶體是非常幸運的。沸石族礦物（包括淡紅沸石）都有被拿來研究透過脫水過程，來評估其相作為分子篩、吸附劑和催化劑的潛在用途。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B7%A1%E7%B4%85%E6%B2%B8%E7%9F%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Stellerite_-_Takat%2C_Imilchil%2C_Midelt_Province%2C_Dr%C3%A2a-Tafilalet_Region%2C_Morocco.jpg/330px-Stellerite_-_Takat%2C_Imilchil%2C_Midelt_Province%2C_Dr%C3%A2a-Tafilalet_Region%2C_Morocco.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "珍·泰勒",
       "extract": "珍妮佛·李·泰勒 或簡稱珍·泰勒，是一名美國女配音演員。她較知名的是在電子遊戲「最後一戰系列」（2001年至2015年）中為可塔娜一角配音。其他配音作品如電子遊戲《求生之路》（2008年）、網路動畫《RWBY》（2013年至今）和電子遊戲《Dota 2》（2013年）。1999年至2009年，她也在電子遊戲「瑪利歐系列」中為碧姬公主配音。\n",
@@ -27,13 +34,6 @@
       "extract": "「古池蛙跃溅水声」，是日本著名俳句诗人松尾芭蕉的名句。俳句全文可译为“寂寂幽古池/蛙飞跃入其间中/微微水自音”。这首俳句是芭蕉确立了其特有风格（在日本被称为蕉风）的标志性作品，不仅在芭蕉的作品中最为有名，而且从江戸时代起就一直作为俳句的代名词被广为传诵。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E8%9B%99%E8%B7%83%E6%BA%85%E6%B0%B4%E5%A3%B0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Frog_Haiku_Memorial_Jun09.jpg/330px-Frog_Haiku_Memorial_Jun09.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "西澳洲州立图书馆",
-      "extract": "西澳洲州立图书馆 是一个集研究、参考于一体的公共图书馆。图书馆位于珀斯市中心. 该图书馆是由西澳大利亚图书馆管理局管理的。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%BE%B3%E6%B4%B2%E5%B7%9E%E7%AB%8B%E5%9B%BE%E4%B9%A6%E9%A6%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/State_Library_of_Western_Australia.jpg/330px-State_Library_of_Western_Australia.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
