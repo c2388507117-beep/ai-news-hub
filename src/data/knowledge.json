@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-15T04:50:11.751Z",
+  "fetchedAt": "2026-08-15T05:44:17.566Z",
   "items": [
+    {
+      "title": "李文潔",
+      "extract": "李文潔，香港女模特兒，2021年參與ViuTV選真人騷《最後一屆口罩小姐選舉》而開始為人認識。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%96%87%E6%BD%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Liz_Li_Man-Kit_1.jpg/330px-Liz_Li_Man-Kit_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "實地調研",
       "extract": "實地調研，又稱實地研究，為對於描述原始資料蒐集的概括術語，其所應用的領域包括民俗学、考古學、生物學、生態學、環境科學、地理學、地質學、地形學、地球物理學、古生物學、人類學、語言學、哲學、建築學以及社會學等自然或社會科學領域。與其他在實驗室准控制狀態下環境的研究相比，實地調查主要於野外實地進行。\n",
@@ -27,13 +34,6 @@
       "extract": "盧卡·佐里奇，克羅地亞籃球運動員。他現在效力於土耳其球隊費內巴切俱樂部，他也是克羅地亞國家男子籃球隊的一員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E5%8D%A1%C2%B7%E4%BD%90%E9%87%8C%E5%A5%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Luka_%C5%BDori%C4%87%2713.JPG/330px-Luka_%C5%BDori%C4%87%2713.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "小濱鷸",
-      "extract": "小濱鷸 为鷸科濱鷸屬下的一种鳥類。是一種非常小的涉禽。它在北極的歐洲和亞洲繁殖，並且是遠距離遷徙的鳥類，冬季會遷徙到非洲和南亞。偶爾它會作為迷鳥出現在北美洲和澳洲。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%BF%B1%E9%B7%B8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Little_Stint_%28Calidris_minuta%29_%281%29.jpg/330px-Little_Stint_%28Calidris_minuta%29_%281%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
