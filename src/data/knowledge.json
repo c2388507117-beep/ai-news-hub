@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T08:49:40.053Z",
+  "fetchedAt": "2026-08-16T09:45:51.173Z",
   "items": [
+    {
+      "title": "接合菌门",
+      "extract": "接合菌门 是一类真菌。其孢子分為有性及無性兩種，有性生殖為接合孢子，無性生殖為孢囊孢子；此門真菌的菌絲屬於「無隔多核」。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%90%88%E8%8F%8C%E9%97%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Phycomyces.JPG/330px-Phycomyces.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "陳其美",
       "extract": "陳其美（1878年1月17日—1916年5月18日），字英士，号无为，男，浙江吳興人，青幫代表人物，辛亥革命初期與黃興同為孫中山的左右股肱，铲除招端聲、陶骏保、陶成章、夏瑞芳、郑汝成等异己。1916年5月18日，在上海法租界遇刺身亡。\n",
@@ -27,13 +34,6 @@
       "extract": "萨帕斯山 是一座位于金星雅特拉区 的大火山。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%B8%95%E6%96%AF%E5%B1%B1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sapas_Mons.jpg/330px-Sapas_Mons.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "圣雅勒 (科雷兹省)",
-      "extract": "圣雅勒 是法国科雷兹省的一个市镇，位于该省中部偏西北，属于蒂勒区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%9B%85%E5%8B%92_(%E7%A7%91%E9%9B%B7%E5%85%B9%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Saint-Jal.JPG/330px-Saint-Jal.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

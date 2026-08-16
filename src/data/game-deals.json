@@ -1,19 +1,6 @@
 {
-  "fetchedAt": "2026-08-16T08:49:35.008Z",
+  "fetchedAt": "2026-08-16T09:45:46.419Z",
   "items": [
-    {
-      "id": "steam-1142710",
-      "title": "全面战争：战锤3",
-      "url": "https://store.steampowered.com/app/1142710?l=schinese",
-      "discount": 85,
-      "originalPrice": 298,
-      "finalPrice": 44.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
-    },
     {
       "id": "steam-728880",
       "title": "Overcooked! 2",
@@ -25,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
+    },
+    {
+      "id": "steam-2552430",
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "url": "https://store.steampowered.com/app/2552430?l=schinese",
+      "discount": 70,
+      "originalPrice": 49.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-16T09:45:46.419Z"
     },
     {
       "id": "steam-1313140",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
     },
     {
       "id": "steam-3527290",
@@ -51,7 +51,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
+    },
+    {
+      "id": "steam-2764460",
+      "title": "沙金工业 Sandustry",
+      "url": "https://store.steampowered.com/app/2764460?l=schinese",
+      "discount": 35,
+      "originalPrice": 14.99,
+      "finalPrice": 9.74,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-16T09:45:46.419Z"
     },
     {
       "id": "steam-2358720",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.972Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
     },
     {
       "id": "steam-1478500",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
     },
     {
       "id": "steam-553850",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
     },
     {
       "id": "steam-3636770",
@@ -103,7 +116,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
+    },
+    {
+      "id": "steam-2950790",
+      "title": "铁巢重炮",
+      "url": "https://store.steampowered.com/app/2950790?l=schinese",
+      "discount": 25,
+      "originalPrice": 59,
+      "finalPrice": 44.25,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-16T09:45:46.226Z"
+    },
+    {
+      "id": "steam-1067360",
+      "title": "暗星铁律",
+      "url": "https://store.steampowered.com/app/1067360?l=schinese",
+      "discount": 17,
+      "originalPrice": 29.99,
+      "finalPrice": 24.89,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-16T09:45:46.419Z"
     },
     {
       "id": "steam-4164790",
@@ -116,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
     },
     {
       "id": "steam-1733690",
@@ -129,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1733690/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T08:49:34.973Z"
+      "publishedAt": "2026-08-16T09:45:46.226Z"
+    },
+    {
+      "id": "steam-2523770",
+      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "url": "https://store.steampowered.com/app/2523770?l=schinese",
+      "discount": 10,
+      "originalPrice": 19.99,
+      "finalPrice": 17.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-16T09:45:46.418Z"
     }
   ]
 }
