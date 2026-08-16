@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T07:48:11.968Z",
+  "fetchedAt": "2026-08-16T08:49:40.053Z",
   "items": [
+    {
+      "title": "陳其美",
+      "extract": "陳其美（1878年1月17日—1916年5月18日），字英士，号无为，男，浙江吳興人，青幫代表人物，辛亥革命初期與黃興同為孫中山的左右股肱，铲除招端聲、陶骏保、陶成章、夏瑞芳、郑汝成等异己。1916年5月18日，在上海法租界遇刺身亡。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E7%BE%8E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Chen_Qi-mei.png/330px-Chen_Qi-mei.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "三方协商促进实施国际劳工标准公约",
       "extract": "三方协商促进实施国际劳工标准公约 是1976年6月21日第六十四国际劳工大会通过的一项公约，又称1976年三方协商（国际劳工标准）公约，是国际劳工组织第144号公约(C144)。公约于1978年5月16日生效。\n",
@@ -27,13 +34,6 @@
       "extract": "圣雅勒 是法国科雷兹省的一个市镇，位于该省中部偏西北，属于蒂勒区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%9B%85%E5%8B%92_(%E7%A7%91%E9%9B%B7%E5%85%B9%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Saint-Jal.JPG/330px-Saint-Jal.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "興登堡號飛船",
-      "extract": "興登堡號飛船，航空器註冊編號為D-LZ 129，是一艘德國的大型载客硬式飛船和兴登堡级飞艇的主导舰船。興登堡號飛船是史上最长的飞行器，也是体积最大的飞艇型号。它由齐柏林公司在腓特烈港的博登湖设计并建造。建成后，由德意志齐柏林飞艇运输公司于1936年3月開始營運。它在第二个飞行季中的第一次跨大西洋飞行，于1937年5月6日在紐澤西州曼彻斯特镇区莱克赫斯特海军航空总站上空尝试降落时爆炸烧毁。 这次事故是当时最惨重的航空事故之一，也正式宣告飞艇时代的结束。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%88%88%E7%99%BB%E5%A0%A1%E8%99%9F%E9%A3%9B%E8%88%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Hindenburg_at_lakehurst.jpg/330px-Hindenburg_at_lakehurst.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
