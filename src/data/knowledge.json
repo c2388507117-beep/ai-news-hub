@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T21:37:16.790Z",
+  "fetchedAt": "2026-08-16T22:40:23.396Z",
   "items": [
+    {
+      "title": "視雪症",
+      "extract": "視雪症 是一種會造成患者視野中出現短暫或持久的電視機雪花般（持續閃爍的白色、黑色、透明或彩色圓點）的幻視 症狀，這些雪花可能只佔據視野的一部分，但也可能出現在整個視野中。而其時間也不一定。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A6%96%E9%9B%AA%E7%97%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Red-blue-noise.gif?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "三溴化锆",
       "extract": "三溴化锆是一种无机化合物，化学式为ZrBr3，它是锆的溴化物之一。\n",
@@ -27,13 +34,6 @@
       "extract": "微暗喀蛛 为皿蛛科喀蛛属的动物。分布于欧洲以及中国大陆的内蒙古等地。该物种的模式产地在欧洲。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9A%97%E5%96%80%E8%9B%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kaestneria_pullata_%2848008262026%29.jpg/330px-Kaestneria_pullata_%2848008262026%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "彰化基督教醫院",
-      "extract": "彰化基督教醫療財團法人彰化基督教醫院（簡稱彰化基督教醫院、彰基）是位於中華民國的基督教綜合醫院，屬台灣基督長老教會。1896年由英格蘭長老教會創立，2013年4月3日成立彰化基督教醫療財團法人，彰基是彰化縣唯一的醫學中心。彰化基督教醫療財團法人體系下有7家所屬醫院（另有2院區與1兒童醫院）、1家所屬產後護理之家、3家所屬護理之家。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E5%9F%BA%E7%9D%A3%E6%95%99%E9%86%AB%E9%99%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/9a/Changhua_Christian_Hospital_logo.svg/langzh-330px-Changhua_Christian_Hospital_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
