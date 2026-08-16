@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T03:15:02.558Z",
+  "fetchedAt": "2026-08-16T04:03:48.288Z",
   "items": [
+    {
+      "title": "興登堡號飛船",
+      "extract": "興登堡號飛船，航空器註冊編號為D-LZ 129，是一艘德國的大型载客硬式飛船和兴登堡级飞艇的主导舰船。興登堡號飛船是史上最长的飞行器，也是体积最大的飞艇型号。它由齐柏林公司在腓特烈港的博登湖设计并建造。建成后，由德意志齐柏林飞艇运输公司于1936年3月開始營運。它在第二个飞行季中的第一次跨大西洋飞行，于1937年5月6日在紐澤西州曼彻斯特镇区莱克赫斯特海军航空总站上空尝试降落时爆炸烧毁。 这次事故是当时最惨重的航空事故之一，也正式宣告飞艇时代的结束。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%88%88%E7%99%BB%E5%A0%A1%E8%99%9F%E9%A3%9B%E8%88%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Hindenburg_at_lakehurst.jpg/330px-Hindenburg_at_lakehurst.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "德茂站",
       "extract": "德茂站是一个位于中国北京市大兴区旧宫地区德茂庄村（德茂社区），104国道凉风灌渠桥北側，属于北京地铁8号线的地铁车站，于2018年12月30日随8号线三期、四期通车而投入使用。\n",
@@ -27,13 +34,6 @@
       "extract": "乔治·斯坦利·麦戈文，美国历史学家、作家、曾任美国众议员、参议员。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%BA%A6%E6%88%88%E6%96%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/George_McGovern_%28D-SD%29.jpg/330px-George_McGovern_%28D-SD%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "2025年英國下議院朗科恩及赫爾斯比選區補選",
-      "extract": "2025年朗科恩及赫爾斯比選區補選 將於2025年5月1日舉行，以填補於同年3月17日起辭去英國國會議員的前工黨黨員迈克·埃姆斯伯里在朗科恩及赫爾斯比選區的議席空缺。\n",
-      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E8%8B%B1%E5%9C%8B%E4%B8%8B%E8%AD%B0%E9%99%A2%E6%9C%97%E7%A7%91%E6%81%A9%E5%8F%8A%E8%B5%AB%E7%88%BE%E6%96%AF%E6%AF%94%E9%81%B8%E5%8D%80%E8%A3%9C%E9%81%B8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Official_portrait_of_Sarah_Pochin_MP_crop_2%2C_2025.jpg/330px-Official_portrait_of_Sarah_Pochin_MP_crop_2%2C_2025.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
