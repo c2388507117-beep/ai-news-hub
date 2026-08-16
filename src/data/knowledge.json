@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T14:42:26.485Z",
+  "fetchedAt": "2026-08-16T15:40:07.951Z",
   "items": [
+    {
+      "title": "伊萊基姆·H·穆爾",
+      "extract": "伊萊基姆·黑斯廷斯·穆爾 是俄亥俄州眾議院議員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%90%8A%E5%9F%BA%E5%A7%86%C2%B7H%C2%B7%E7%A9%86%E7%88%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Eliakim_H._Moore-cwpbh.00324.jpg/330px-Eliakim_H._Moore-cwpbh.00324.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "文屏街道",
       "extract": "文屏街道，是中华人民共和国云南省昭通市鲁甸县下辖的一个街道办事处。是鲁甸县人民政府驻地。\n",
@@ -27,13 +34,6 @@
       "extract": "英千里（1900年11月11日—1969年10月8日），满族老姓赫舍里氏，名驥良，字千里，以字行，圣名依納爵，北平人，中华民国教育家。妻子蔡葆真。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%8D%83%E9%87%8C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%E8%8B%B1%E5%8D%83%E9%87%8C.jpg/330px-%E8%8B%B1%E5%8D%83%E9%87%8C.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "普雷欧 (安德尔省)",
-      "extract": "普雷欧 是法国安德尔省的一个市镇，位于该省西北部，和安德尔-卢瓦尔省接壤，属于沙托鲁区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E9%9B%B7%E6%AC%A7_(%E5%AE%89%E5%BE%B7%E5%B0%94%E7%9C%81)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Marie%2C_Pr%C3%A9aux%2C_Indre%2C_France.JPG/330px-Marie%2C_Pr%C3%A9aux%2C_Indre%2C_France.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
