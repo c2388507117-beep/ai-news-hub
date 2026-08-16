@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-16T13:47:01.318Z",
+  "fetchedAt": "2026-08-16T14:42:21.409Z",
   "items": [
     {
       "id": "steam-460930",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
+    },
+    {
+      "id": "steam-1142710",
+      "title": "全面战争：战锤3",
+      "url": "https://store.steampowered.com/app/1142710?l=schinese",
+      "discount": 85,
+      "originalPrice": 298,
+      "finalPrice": 44.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-728880",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-2552430",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.318Z"
+      "publishedAt": "2026-08-16T14:42:21.409Z"
     },
     {
       "id": "steam-1313140",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-3527290",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-2764460",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.318Z"
+      "publishedAt": "2026-08-16T14:42:21.409Z"
     },
     {
       "id": "steam-2358720",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-1478500",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-553850",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-3636770",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-2950790",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.318Z"
+      "publishedAt": "2026-08-16T14:42:21.409Z"
     },
     {
       "id": "steam-1067360",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.318Z"
+      "publishedAt": "2026-08-16T14:42:21.409Z"
     },
     {
       "id": "steam-4164790",
@@ -168,20 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
-    },
-    {
-      "id": "steam-4855450",
-      "title": "不心动才有鬼",
-      "url": "https://store.steampowered.com/app/4855450?l=schinese",
-      "discount": 10,
-      "originalPrice": 39,
-      "finalPrice": 35.1,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4855450/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.104Z"
+      "publishedAt": "2026-08-16T14:42:21.179Z"
     },
     {
       "id": "steam-2523770",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-16T13:47:01.318Z"
+      "publishedAt": "2026-08-16T14:42:21.409Z"
     }
   ]
 }
