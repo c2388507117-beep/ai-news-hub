@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T13:03:46.828Z",
+  "fetchedAt": "2026-08-16T13:47:06.344Z",
   "items": [
+    {
+      "title": "罗素·优克福公司",
+      "extract": "罗素·优克福公司 是一家法國制药公司，赛诺菲制药企业的幾家前身公司之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E7%B4%A0%C2%B7%E4%BC%98%E5%85%8B%E7%A6%8F%E5%85%AC%E5%8F%B8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Roussel-UCLAF-AncienSi%C3%A8ge.jpg/330px-Roussel-UCLAF-AncienSi%C3%A8ge.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "维维耶莱拉沃尔",
       "extract": "维维耶莱拉沃尔 是法国奧克西塔尼大區塔恩省的一个市镇，属于卡斯特尔区。\n",
@@ -27,13 +34,6 @@
       "extract": "接合菌门 是一类真菌。其孢子分為有性及無性兩種，有性生殖為接合孢子，無性生殖為孢囊孢子；此門真菌的菌絲屬於「無隔多核」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%90%88%E8%8F%8C%E9%97%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Phycomyces.JPG/330px-Phycomyces.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "陳其美",
-      "extract": "陳其美（1878年1月17日—1916年5月18日），字英士，号无为，男，浙江吳興人，青幫代表人物，辛亥革命初期與黃興同為孫中山的左右股肱，铲除招端聲、陶骏保、陶成章、夏瑞芳、郑汝成等异己。1916年5月18日，在上海法租界遇刺身亡。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E7%BE%8E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Chen_Qi-mei.png/330px-Chen_Qi-mei.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
