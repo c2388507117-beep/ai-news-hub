@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T22:40:23.396Z",
+  "fetchedAt": "2026-08-16T23:37:06.826Z",
   "items": [
+    {
+      "title": "斯泰西·金",
+      "extract": "罗纳德·斯泰西·金，美国前职业篮球运动员。他在1989年的NBA选秀中第1轮第6顺位被芝加哥公牛选中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B3%B0%E8%A5%BF%C2%B7%E9%87%91",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Stacey_King_Navy_Marine_Corps_Classic_2012.jpg/330px-Stacey_King_Navy_Marine_Corps_Classic_2012.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "視雪症",
       "extract": "視雪症 是一種會造成患者視野中出現短暫或持久的電視機雪花般（持續閃爍的白色、黑色、透明或彩色圓點）的幻視 症狀，這些雪花可能只佔據視野的一部分，但也可能出現在整個視野中。而其時間也不一定。\n",
@@ -27,13 +34,6 @@
       "extract": "坂本龍一 是日本作曲家、鋼琴家、歌手、唱片製作人和演员，出生於東京都中野區，為前衛音樂樂隊黃色魔術交響樂團成員，他與樂隊成員細野晴臣、高橋幸宏對迷幻浩室和合成器運動有著開創式的世界影響，並以追求多元化的風格影響著電子音樂流派。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9D%82%E6%9C%AC%E9%BE%8D%E4%B8%80",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ryuichi_Sakamoto_side.jpg/330px-Ryuichi_Sakamoto_side.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "微暗喀蛛",
-      "extract": "微暗喀蛛 为皿蛛科喀蛛属的动物。分布于欧洲以及中国大陆的内蒙古等地。该物种的模式产地在欧洲。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9A%97%E5%96%80%E8%9B%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kaestneria_pullata_%2848008262026%29.jpg/330px-Kaestneria_pullata_%2848008262026%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
