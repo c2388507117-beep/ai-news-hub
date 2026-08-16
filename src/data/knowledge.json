@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T11:38:43.307Z",
+  "fetchedAt": "2026-08-16T13:03:46.828Z",
   "items": [
+    {
+      "title": "维维耶莱拉沃尔",
+      "extract": "维维耶莱拉沃尔 是法国奧克西塔尼大區塔恩省的一个市镇，属于卡斯特尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%BB%B4%E8%80%B6%E8%8E%B1%E6%8B%89%E6%B2%83%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Town_hall_of_Viviers-les-Lavaur_%282%29.jpg/330px-Town_hall_of_Viviers-les-Lavaur_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "英千里",
       "extract": "英千里（1900年11月11日—1969年10月8日），满族老姓赫舍里氏，名驥良，字千里，以字行，圣名依納爵，北平人，中华民国教育家。妻子蔡葆真。\n",
@@ -27,13 +34,6 @@
       "extract": "陳其美（1878年1月17日—1916年5月18日），字英士，号无为，男，浙江吳興人，青幫代表人物，辛亥革命初期與黃興同為孫中山的左右股肱，铲除招端聲、陶骏保、陶成章、夏瑞芳、郑汝成等异己。1916年5月18日，在上海法租界遇刺身亡。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E7%BE%8E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Chen_Qi-mei.png/330px-Chen_Qi-mei.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "三方协商促进实施国际劳工标准公约",
-      "extract": "三方协商促进实施国际劳工标准公约 是1976年6月21日第六十四国际劳工大会通过的一项公约，又称1976年三方协商（国际劳工标准）公约，是国际劳工组织第144号公约(C144)。公约于1978年5月16日生效。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E6%96%B9%E5%8D%8F%E5%95%86%E4%BF%83%E8%BF%9B%E5%AE%9E%E6%96%BD%E5%9B%BD%E9%99%85%E5%8A%B3%E5%B7%A5%E6%A0%87%E5%87%86%E5%85%AC%E7%BA%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tripartite.png/330px-Tripartite.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
