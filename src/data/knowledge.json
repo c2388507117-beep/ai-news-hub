@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T17:37:21.209Z",
+  "fetchedAt": "2026-08-16T18:49:13.196Z",
   "items": [
+    {
+      "title": "微暗喀蛛",
+      "extract": "微暗喀蛛 为皿蛛科喀蛛属的动物。分布于欧洲以及中国大陆的内蒙古等地。该物种的模式产地在欧洲。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9A%97%E5%96%80%E8%9B%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kaestneria_pullata_%2848008262026%29.jpg/330px-Kaestneria_pullata_%2848008262026%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "彰化基督教醫院",
       "extract": "彰化基督教醫療財團法人彰化基督教醫院（簡稱彰化基督教醫院、彰基）是位於中華民國的基督教綜合醫院，屬台灣基督長老教會。1896年由英格蘭長老教會創立，2013年4月3日成立彰化基督教醫療財團法人，彰基是彰化縣唯一的醫學中心。彰化基督教醫療財團法人體系下有7家所屬醫院（另有2院區與1兒童醫院）、1家所屬產後護理之家、3家所屬護理之家。\n",
@@ -27,13 +34,6 @@
       "extract": "文屏街道，是中华人民共和国云南省昭通市鲁甸县下辖的一个街道办事处。是鲁甸县人民政府驻地。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%B1%8F%E8%A1%97%E9%81%93",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/%E5%B9%BF%E5%9C%BA_-_panoramio_-_hilloo_%283%29.jpg/330px-%E5%B9%BF%E5%9C%BA_-_panoramio_-_hilloo_%283%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "罗素·优克福公司",
-      "extract": "罗素·优克福公司 是一家法國制药公司，赛诺菲制药企业的幾家前身公司之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E7%B4%A0%C2%B7%E4%BC%98%E5%85%8B%E7%A6%8F%E5%85%AC%E5%8F%B8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Roussel-UCLAF-AncienSi%C3%A8ge.jpg/330px-Roussel-UCLAF-AncienSi%C3%A8ge.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
