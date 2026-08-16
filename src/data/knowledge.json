@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T16:44:44.731Z",
+  "fetchedAt": "2026-08-16T17:37:21.209Z",
   "items": [
+    {
+      "title": "彰化基督教醫院",
+      "extract": "彰化基督教醫療財團法人彰化基督教醫院（簡稱彰化基督教醫院、彰基）是位於中華民國的基督教綜合醫院，屬台灣基督長老教會。1896年由英格蘭長老教會創立，2013年4月3日成立彰化基督教醫療財團法人，彰基是彰化縣唯一的醫學中心。彰化基督教醫療財團法人體系下有7家所屬醫院（另有2院區與1兒童醫院）、1家所屬產後護理之家、3家所屬護理之家。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E5%9F%BA%E7%9D%A3%E6%95%99%E9%86%AB%E9%99%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/9a/Changhua_Christian_Hospital_logo.svg/langzh-330px-Changhua_Christian_Hospital_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "炙热沙城II",
       "extract": "炙热沙城II，又名沙漠遺跡II、沙漠II、炙热沙城2、沙漠遺跡2、沙漠2，是第一人称射击游戏《反恐精英》系列中的一张經典游戏地图。炙热沙城2是另一张《反恐精英》地图——炙热沙城（Dust）的续作，由大卫·约翰斯顿 在游戏发布前制作开发完毕。此地图注重简洁与平衡，玩家所在的反恐小組（CT阵营）及恐怖分子（T阵营）阵营需争夺在地图上相对称的两个炸弹安放区。\n",
@@ -27,13 +34,6 @@
       "extract": "罗素·优克福公司 是一家法國制药公司，赛诺菲制药企业的幾家前身公司之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E7%B4%A0%C2%B7%E4%BC%98%E5%85%8B%E7%A6%8F%E5%85%AC%E5%8F%B8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Roussel-UCLAF-AncienSi%C3%A8ge.jpg/330px-Roussel-UCLAF-AncienSi%C3%A8ge.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "维维耶莱拉沃尔",
-      "extract": "维维耶莱拉沃尔 是法国奧克西塔尼大區塔恩省的一个市镇，属于卡斯特尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%BB%B4%E8%80%B6%E8%8E%B1%E6%8B%89%E6%B2%83%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Town_hall_of_Viviers-les-Lavaur_%282%29.jpg/330px-Town_hall_of_Viviers-les-Lavaur_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
