@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T19:37:53.807Z",
+  "fetchedAt": "2026-08-16T20:41:20.990Z",
   "items": [
+    {
+      "title": "克劳森 (西南普法尔茨县)",
+      "extract": "克劳森 是德国莱茵兰-普法尔茨州西南普法尔茨县的市镇，面积12.46平方千米，2023年12月31日人口为1,417人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E5%8A%B3%E6%A3%AE_(%E8%A5%BF%E5%8D%97%E6%99%AE%E6%B3%95%E5%B0%94%E8%8C%A8%E5%8E%BF)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Clausen-Rathaus-01-gje.jpg/330px-Clausen-Rathaus-01-gje.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "坂本龍一",
       "extract": "坂本龍一 是日本作曲家、鋼琴家、歌手、唱片製作人和演员，出生於東京都中野區，為前衛音樂樂隊黃色魔術交響樂團成員，他與樂隊成員細野晴臣、高橋幸宏對迷幻浩室和合成器運動有著開創式的世界影響，並以追求多元化的風格影響著電子音樂流派。\n",
@@ -27,13 +34,6 @@
       "extract": "炙热沙城II，又名沙漠遺跡II、沙漠II、炙热沙城2、沙漠遺跡2、沙漠2，是第一人称射击游戏《反恐精英》系列中的一张經典游戏地图。炙热沙城2是另一张《反恐精英》地图——炙热沙城（Dust）的续作，由大卫·约翰斯顿 在游戏发布前制作开发完毕。此地图注重简洁与平衡，玩家所在的反恐小組（CT阵营）及恐怖分子（T阵营）阵营需争夺在地图上相对称的两个炸弹安放区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%82%99%E7%83%AD%E6%B2%99%E5%9F%8EII",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/3/3e/Csgo_dust2.jpg/330px-Csgo_dust2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "伊萊基姆·H·穆爾",
-      "extract": "伊萊基姆·黑斯廷斯·穆爾 是俄亥俄州眾議院議員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%90%8A%E5%9F%BA%E5%A7%86%C2%B7H%C2%B7%E7%A9%86%E7%88%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Eliakim_H._Moore-cwpbh.00324.jpg/330px-Eliakim_H._Moore-cwpbh.00324.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
