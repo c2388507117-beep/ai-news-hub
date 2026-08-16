@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T15:40:07.951Z",
+  "fetchedAt": "2026-08-16T16:44:44.731Z",
   "items": [
+    {
+      "title": "炙热沙城II",
+      "extract": "炙热沙城II，又名沙漠遺跡II、沙漠II、炙热沙城2、沙漠遺跡2、沙漠2，是第一人称射击游戏《反恐精英》系列中的一张經典游戏地图。炙热沙城2是另一张《反恐精英》地图——炙热沙城（Dust）的续作，由大卫·约翰斯顿 在游戏发布前制作开发完毕。此地图注重简洁与平衡，玩家所在的反恐小組（CT阵营）及恐怖分子（T阵营）阵营需争夺在地图上相对称的两个炸弹安放区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%82%99%E7%83%AD%E6%B2%99%E5%9F%8EII",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/3/3e/Csgo_dust2.jpg/330px-Csgo_dust2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "伊萊基姆·H·穆爾",
       "extract": "伊萊基姆·黑斯廷斯·穆爾 是俄亥俄州眾議院議員。\n",
@@ -27,13 +34,6 @@
       "extract": "维维耶莱拉沃尔 是法国奧克西塔尼大區塔恩省的一个市镇，属于卡斯特尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%BB%B4%E8%80%B6%E8%8E%B1%E6%8B%89%E6%B2%83%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Town_hall_of_Viviers-les-Lavaur_%282%29.jpg/330px-Town_hall_of_Viviers-les-Lavaur_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "英千里",
-      "extract": "英千里（1900年11月11日—1969年10月8日），满族老姓赫舍里氏，名驥良，字千里，以字行，圣名依納爵，北平人，中华民国教育家。妻子蔡葆真。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%8D%83%E9%87%8C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%E8%8B%B1%E5%8D%83%E9%87%8C.jpg/330px-%E8%8B%B1%E5%8D%83%E9%87%8C.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
