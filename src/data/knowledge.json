@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-16T04:03:48.288Z",
+  "fetchedAt": "2026-08-16T04:52:51.944Z",
   "items": [
+    {
+      "title": "圣雅勒 (科雷兹省)",
+      "extract": "圣雅勒 是法国科雷兹省的一个市镇，位于该省中部偏西北，属于蒂勒区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%9B%85%E5%8B%92_(%E7%A7%91%E9%9B%B7%E5%85%B9%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Saint-Jal.JPG/330px-Saint-Jal.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "興登堡號飛船",
       "extract": "興登堡號飛船，航空器註冊編號為D-LZ 129，是一艘德國的大型载客硬式飛船和兴登堡级飞艇的主导舰船。興登堡號飛船是史上最长的飞行器，也是体积最大的飞艇型号。它由齐柏林公司在腓特烈港的博登湖设计并建造。建成后，由德意志齐柏林飞艇运输公司于1936年3月開始營運。它在第二个飞行季中的第一次跨大西洋飞行，于1937年5月6日在紐澤西州曼彻斯特镇区莱克赫斯特海军航空总站上空尝试降落时爆炸烧毁。 这次事故是当时最惨重的航空事故之一，也正式宣告飞艇时代的结束。\n",
@@ -27,13 +34,6 @@
       "extract": "皱纹蛤属 為簾蛤科之下的一個雙殼綱軟體動物的屬。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9A%B1%E7%BA%B9%E8%9B%A4%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Antigona_listeri_%28J._E._Gray%2C_1838%29_2013_001.JPG/330px-Antigona_listeri_%28J._E._Gray%2C_1838%29_2013_001.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "乔治·麦戈文",
-      "extract": "乔治·斯坦利·麦戈文，美国历史学家、作家、曾任美国众议员、参议员。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%BA%A6%E6%88%88%E6%96%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/George_McGovern_%28D-SD%29.jpg/330px-George_McGovern_%28D-SD%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
