@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T05:01:04.240Z",
+  "fetchedAt": "2026-08-17T05:53:10.389Z",
   "items": [
+    {
+      "title": "N-(4-三氟甲基苯基)哌嗪",
+      "extract": "N-(4-三氟甲基苯基)哌嗪（pTFMPP）是一种血清素释放剂，分子式为C11H13F3N2，它比间位的异构体N-(3-三氟甲基苯基)哌嗪少见。\n",
+      "url": "https://zh.wikipedia.org/wiki/N-(4-%E4%B8%89%E6%B0%9F%E7%94%B2%E5%9F%BA%E8%8B%AF%E5%9F%BA)%E5%93%8C%E5%97%AA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/1-%284-trifluoromethyl-phenyl%29-piperazine.svg/langzh-330px-1-%284-trifluoromethyl-phenyl%29-piperazine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "秦连翘",
       "extract": "秦连翘 为木犀科连翘属下的一个种。\n",
@@ -27,13 +34,6 @@
       "extract": "山根恵里奈，日本足球運動員，日本國家女子足球隊成員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E6%A0%B9%E6%83%A0%E9%87%8C%E5%A5%88",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Erina_Yamane_%2818759870415%29.jpg/330px-Erina_Yamane_%2818759870415%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯泰西·金",
-      "extract": "罗纳德·斯泰西·金，美国前职业篮球运动员。他在1989年的NBA选秀中第1轮第6顺位被芝加哥公牛选中。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B3%B0%E8%A5%BF%C2%B7%E9%87%91",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Stacey_King_Navy_Marine_Corps_Classic_2012.jpg/330px-Stacey_King_Navy_Marine_Corps_Classic_2012.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
