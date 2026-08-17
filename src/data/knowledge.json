@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T09:03:02.501Z",
+  "fetchedAt": "2026-08-17T10:00:28.744Z",
   "items": [
+    {
+      "title": "羽叶蓼",
+      "extract": "羽叶蓼，又名玉山蓼、散血丹、赤脛散、血當歸、花蝴蝶，为蓼科蓼属下的一个植物变种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%BD%E5%8F%B6%E8%93%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%E7%8E%89%E5%B1%B1%E8%93%BC_Polygonum_runcinatum_-%E5%8F%B0%E5%8C%97%E8%8A%B1%E5%8D%9A_Taipei_Flora_Expo-_%289227114151%29.jpg/330px-%E7%8E%89%E5%B1%B1%E8%93%BC_Polygonum_runcinatum_-%E5%8F%B0%E5%8C%97%E8%8A%B1%E5%8D%9A_Taipei_Flora_Expo-_%289227114151%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "三齿豆象属",
       "extract": "三齿豆象属 是豆象科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "秦连翘 为木犀科连翘属下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E8%BF%9E%E7%BF%98",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Forsythia-giraldiana-habitus.jpg/330px-Forsythia-giraldiana-habitus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "邦尚莱拉瓦勒",
-      "extract": "邦尚莱拉瓦勒，法国西北部城市，卢瓦尔河地区大区马耶讷省的一个市镇，隶属于拉瓦勒区，其市镇面积为27.51平方公里，2023年1月1日时人口数量为6,302人，是该省人口数量第七多的市镇，在法国市镇中排名第1,750位（2022年）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%82%A6%E5%B0%9A%E8%8E%B1%E6%8B%89%E7%93%A6%E5%8B%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bonchamp-l%C3%A8s-Laval_-_rue_des_Acacias.jpg/330px-Bonchamp-l%C3%A8s-Laval_-_rue_des_Acacias.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
