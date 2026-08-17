@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T10:00:28.744Z",
+  "fetchedAt": "2026-08-17T10:50:37.324Z",
   "items": [
+    {
+      "title": "巴黎围城战 (1429年)",
+      "extract": "巴黎圍城戰，發生在1429年9月，由剛完成加冕的法王查理七世與他的知名協助者貞德發動，目的是由英格兰王国與其勃艮地派同盟的控制中奪回首都巴黎。英軍以巴黎總督讓·德·維利耶和典禮官西蒙·莫里尔領導英軍以及巴黎市民防衛。最終抵擋以查理七世為首的阿馬尼亞克派軍隊進入巴黎。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E5%9B%B4%E5%9F%8E%E6%88%98_(1429%E5%B9%B4)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Le_si%C3%A8ge_de_Paris_en_1429_par_Jeanne_d%27Arc_-_Martial.jpg/330px-Le_si%C3%A8ge_de_Paris_en_1429_par_Jeanne_d%27Arc_-_Martial.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "羽叶蓼",
       "extract": "羽叶蓼，又名玉山蓼、散血丹、赤脛散、血當歸、花蝴蝶，为蓼科蓼属下的一个植物变种。\n",
@@ -27,13 +34,6 @@
       "extract": "N-(4-三氟甲基苯基)哌嗪（pTFMPP）是一种血清素释放剂，分子式为C11H13F3N2，它比间位的异构体N-(3-三氟甲基苯基)哌嗪少见。\n",
       "url": "https://zh.wikipedia.org/wiki/N-(4-%E4%B8%89%E6%B0%9F%E7%94%B2%E5%9F%BA%E8%8B%AF%E5%9F%BA)%E5%93%8C%E5%97%AA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/1-%284-trifluoromethyl-phenyl%29-piperazine.svg/langzh-330px-1-%284-trifluoromethyl-phenyl%29-piperazine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "秦连翘",
-      "extract": "秦连翘 为木犀科连翘属下的一个种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E8%BF%9E%E7%BF%98",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Forsythia-giraldiana-habitus.jpg/330px-Forsythia-giraldiana-habitus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
