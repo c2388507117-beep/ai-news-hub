@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T04:07:06.942Z",
+  "fetchedAt": "2026-08-17T05:01:04.240Z",
   "items": [
+    {
+      "title": "秦连翘",
+      "extract": "秦连翘 为木犀科连翘属下的一个种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E8%BF%9E%E7%BF%98",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Forsythia-giraldiana-habitus.jpg/330px-Forsythia-giraldiana-habitus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "邦尚莱拉瓦勒",
       "extract": "邦尚莱拉瓦勒，法国西北部城市，卢瓦尔河地区大区马耶讷省的一个市镇，隶属于拉瓦勒区，其市镇面积为27.51平方公里，2023年1月1日时人口数量为6,302人，是该省人口数量第七多的市镇，在法国市镇中排名第1,750位（2022年）。\n",
@@ -27,13 +34,6 @@
       "extract": "罗纳德·斯泰西·金，美国前职业篮球运动员。他在1989年的NBA选秀中第1轮第6顺位被芝加哥公牛选中。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B3%B0%E8%A5%BF%C2%B7%E9%87%91",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Stacey_King_Navy_Marine_Corps_Classic_2012.jpg/330px-Stacey_King_Navy_Marine_Corps_Classic_2012.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "視雪症",
-      "extract": "視雪症 是一種會造成患者視野中出現短暫或持久的電視機雪花般（持續閃爍的白色、黑色、透明或彩色圓點）的幻視 症狀，這些雪花可能只佔據視野的一部分，但也可能出現在整個視野中。而其時間也不一定。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%A6%96%E9%9B%AA%E7%97%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Red-blue-noise.gif?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
