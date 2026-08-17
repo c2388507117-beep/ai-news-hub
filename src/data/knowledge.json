@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T22:44:18.205Z",
+  "fetchedAt": "2026-08-17T23:41:00.340Z",
   "items": [
+    {
+      "title": "斑馬玉米捲管螺",
+      "extract": "斑馬玉米捲管螺 为捲管螺科玉米捲管螺屬下的一个种。其种加词“zebra”意为“有斑马状纹样的”。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%91%E9%A6%AC%E7%8E%89%E7%B1%B3%E6%8D%B2%E7%AE%A1%E8%9E%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Naturalis_Biodiversity_Center_-_RMNH.MOL.226024_1_-_Inquisitor_zebra_%28Lamarck%2C_1822%29_-_Pseudomelatomidae_-_Mollusc_shell.jpeg/330px-Naturalis_Biodiversity_Center_-_RMNH.MOL.226024_1_-_Inquisitor_zebra_%28Lamarck%2C_1822%29_-_Pseudomelatomidae_-_Mollusc_shell.jpeg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "彼得拉希夫卡 (切爾諾夫策州)",
       "extract": "彼得拉希夫卡 是位於烏克蘭西南部的村莊，由切爾諾夫策州切爾諾夫策區的赫爾察市鎮負責管轄。該村海拔高度346米，人口2,000，99%居民使用羅馬尼亞語。\n",
@@ -27,13 +34,6 @@
       "extract": "酸模蚜 为常蚜科蚜屬下的一个种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%85%B8%E6%A8%A1%E8%9A%9C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Aphis_rumicis_%28Dock_aphid%29_-_Flickr_-_S._Rae.jpg/330px-Aphis_rumicis_%28Dock_aphid%29_-_Flickr_-_S._Rae.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "茂伸奇談",
-      "extract": "《茂伸奇談》（ものべの）是由Lose在2012年4月27日發售視覺小說類型成人遊戲，2018年1月26日發售中文版。2013年10月25日發售《茂伸奇談 -happy end-》，為劇情經過改寫版本。後來發售PlayStation Vita版《茂伸奇談 -pure smile-》。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8C%82%E4%BC%B8%E5%A5%87%E8%AB%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/19/Monobeno_game_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
