@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T03:14:53.054Z",
+  "fetchedAt": "2026-08-17T04:07:06.942Z",
   "items": [
+    {
+      "title": "邦尚莱拉瓦勒",
+      "extract": "邦尚莱拉瓦勒，法国西北部城市，卢瓦尔河地区大区马耶讷省的一个市镇，隶属于拉瓦勒区，其市镇面积为27.51平方公里，2023年1月1日时人口数量为6,302人，是该省人口数量第七多的市镇，在法国市镇中排名第1,750位（2022年）。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%A6%E5%B0%9A%E8%8E%B1%E6%8B%89%E7%93%A6%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bonchamp-l%C3%A8s-Laval_-_rue_des_Acacias.jpg/330px-Bonchamp-l%C3%A8s-Laval_-_rue_des_Acacias.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "美国陆军第101空降师",
       "extract": "第101空降师（101st Airborne Division (Air Assault)），是美国陆军的一支空中突击部队，於创建時是一支空降部隊，参加了第二次世界大战中的诺曼底登陆、市场花园行动以及突出部战役，在越南战争中被整编为空中机动师（air mobile），随后则确立为空中突击师（air assault），利用直升机进行空中突擊及快速推進，并参加了阿富汗战争及伊拉克战争。由于历史的原因，该师一直保留了“空降师”（Airborne）的名称。第101师的总部位于肯塔基州的坎贝尔堡。至目前，第101师共有约350架UH-60黑鹰和CH-47运输直升机，以及约120余架AH-64阿帕奇攻擊直升机。\n",
@@ -27,13 +34,6 @@
       "extract": "視雪症 是一種會造成患者視野中出現短暫或持久的電視機雪花般（持續閃爍的白色、黑色、透明或彩色圓點）的幻視 症狀，這些雪花可能只佔據視野的一部分，但也可能出現在整個視野中。而其時間也不一定。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%A6%96%E9%9B%AA%E7%97%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Red-blue-noise.gif?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "三溴化锆",
-      "extract": "三溴化锆是一种无机化合物，化学式为ZrBr3，它是锆的溴化物之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E6%BA%B4%E5%8C%96%E9%94%86",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Zirconium%28III%29-bromide-xtal-packing-c-3x3x3-3D-bs-17.png/330px-Zirconium%28III%29-bromide-xtal-packing-c-3x3x3-3D-bs-17.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
