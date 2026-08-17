@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T05:53:10.389Z",
+  "fetchedAt": "2026-08-17T07:25:47.751Z",
   "items": [
+    {
+      "title": "衣康酸",
+      "extract": "衣康酸 是一种五个碳的二羧酸。它是柠檬酸蒸馏时的三种产物之一，其他两个产物为柠康酸和中康酸。衣康(Itaconic)一词是乌头(aconitic)一词的易位构词。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A1%A3%E5%BA%B7%E9%85%B8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Itaconic_acid.svg/langzh-330px-Itaconic_acid.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "N-(4-三氟甲基苯基)哌嗪",
       "extract": "N-(4-三氟甲基苯基)哌嗪（pTFMPP）是一种血清素释放剂，分子式为C11H13F3N2，它比间位的异构体N-(3-三氟甲基苯基)哌嗪少见。\n",
@@ -27,13 +34,6 @@
       "extract": "第101空降师（101st Airborne Division (Air Assault)），是美国陆军的一支空中突击部队，於创建時是一支空降部隊，参加了第二次世界大战中的诺曼底登陆、市场花园行动以及突出部战役，在越南战争中被整编为空中机动师（air mobile），随后则确立为空中突击师（air assault），利用直升机进行空中突擊及快速推進，并参加了阿富汗战争及伊拉克战争。由于历史的原因，该师一直保留了“空降师”（Airborne）的名称。第101师的总部位于肯塔基州的坎贝尔堡。至目前，第101师共有约350架UH-60黑鹰和CH-47运输直升机，以及约120余架AH-64阿帕奇攻擊直升机。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E9%99%86%E5%86%9B%E7%AC%AC101%E7%A9%BA%E9%99%8D%E5%B8%88",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/US_101st_Airborne_Division_patch.svg/langzh-330px-US_101st_Airborne_Division_patch.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "山根惠里奈",
-      "extract": "山根恵里奈，日本足球運動員，日本國家女子足球隊成員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E6%A0%B9%E6%83%A0%E9%87%8C%E5%A5%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Erina_Yamane_%2818759870415%29.jpg/330px-Erina_Yamane_%2818759870415%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

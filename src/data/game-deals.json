@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-08-17T05:53:05.767Z",
+  "fetchedAt": "2026-08-17T07:25:43.240Z",
   "items": [
     {
       "id": "steam-1142710",
       "title": "全面战争：战锤3",
       "url": "https://store.steampowered.com/app/1142710?l=schinese",
       "discount": 85,
-      "originalPrice": 59.99,
-      "finalPrice": 8.99,
+      "originalPrice": 298,
+      "finalPrice": 44.7,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.767Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-1222140",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-728880",
@@ -38,20 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
-    },
-    {
-      "id": "steam-1687950",
-      "title": "女神异闻录5皇家版",
-      "url": "https://store.steampowered.com/app/1687950?l=schinese",
-      "discount": 70,
-      "originalPrice": 268,
-      "finalPrice": 80.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-2552430",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.767Z"
+      "publishedAt": "2026-08-17T07:25:43.240Z"
     },
     {
       "id": "steam-1313140",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-3527290",
@@ -90,7 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
+    },
+    {
+      "id": "steam-2764460",
+      "title": "沙金工业 Sandustry",
+      "url": "https://store.steampowered.com/app/2764460?l=schinese",
+      "discount": 35,
+      "originalPrice": 14.99,
+      "finalPrice": 9.74,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-17T07:25:43.240Z"
     },
     {
       "id": "steam-2358720",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-1478500",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-553850",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-3636770",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-2950790",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.767Z"
+      "publishedAt": "2026-08-17T07:25:43.240Z"
     },
     {
       "id": "steam-4164790",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.571Z"
+      "publishedAt": "2026-08-17T07:25:43.064Z"
     },
     {
       "id": "steam-2523770",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.767Z"
+      "publishedAt": "2026-08-17T07:25:43.240Z"
     },
     {
       "id": "steam-3812600",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T05:53:05.767Z"
+      "publishedAt": "2026-08-17T07:25:43.240Z"
     }
   ]
 }
