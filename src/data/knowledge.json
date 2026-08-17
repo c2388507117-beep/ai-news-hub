@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T13:55:41.846Z",
+  "fetchedAt": "2026-08-17T14:47:52.203Z",
   "items": [
+    {
+      "title": "艾伯塔省人口普查区列表",
+      "extract": "加拿大艾伯塔省被加拿大统计局分为19个人口普查区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E4%BC%AF%E5%A1%94%E7%9C%81%E4%BA%BA%E5%8F%A3%E6%99%AE%E6%9F%A5%E5%8C%BA%E5%88%97%E8%A1%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Altacd.PNG/330px-Altacd.PNG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "白岡市",
       "extract": "白岡市 是日本埼玉縣東部中央的城市。當地盛產沙梨，產量為埼玉縣第一。白岡市於2012年10月1日由白岡町改制而成。\n",
@@ -27,13 +34,6 @@
       "extract": "巴黎圍城戰，發生在1429年9月，由剛完成加冕的法王查理七世與他的知名協助者貞德發動，目的是由英格兰王国與其勃艮地派同盟的控制中奪回首都巴黎。英軍以巴黎總督讓·德·維利耶和典禮官西蒙·莫里尔領導英軍以及巴黎市民防衛。最終抵擋以查理七世為首的阿馬尼亞克派軍隊進入巴黎。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E5%9B%B4%E5%9F%8E%E6%88%98_(1429%E5%B9%B4)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Le_si%C3%A8ge_de_Paris_en_1429_par_Jeanne_d%27Arc_-_Martial.jpg/330px-Le_si%C3%A8ge_de_Paris_en_1429_par_Jeanne_d%27Arc_-_Martial.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "羽叶蓼",
-      "extract": "羽叶蓼，又名玉山蓼、散血丹、赤脛散、血當歸、花蝴蝶，为蓼科蓼属下的一个植物变种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%BD%E5%8F%B6%E8%93%BC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%E7%8E%89%E5%B1%B1%E8%93%BC_Polygonum_runcinatum_-%E5%8F%B0%E5%8C%97%E8%8A%B1%E5%8D%9A_Taipei_Flora_Expo-_%289227114151%29.jpg/330px-%E7%8E%89%E5%B1%B1%E8%93%BC_Polygonum_runcinatum_-%E5%8F%B0%E5%8C%97%E8%8A%B1%E5%8D%9A_Taipei_Flora_Expo-_%289227114151%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
