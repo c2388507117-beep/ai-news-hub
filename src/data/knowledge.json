@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T19:45:14.595Z",
+  "fetchedAt": "2026-08-17T20:46:58.373Z",
   "items": [
+    {
+      "title": "CJ·培瑞茲",
+      "extract": "傑馬爾·培瑞茲 是一名菲律賓職業籃球運動員，目前效力於菲律賓籃球協會的生力啤酒人。他於2018年PBA選秀中被泰拉菲馬以狀元籤選中，也曾是菲律賓國家男子籃球隊的成員。\n",
+      "url": "https://zh.wikipedia.org/wiki/CJ%C2%B7%E5%9F%B9%E7%91%9E%E8%8C%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/CJ_Perez_Philippines_vs_Cambodia._2023_SEA_Games.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "酸模蚜",
       "extract": "酸模蚜 为常蚜科蚜屬下的一个种。\n",
@@ -27,13 +34,6 @@
       "extract": "斯隆·斯蒂芬斯 是美國職業網球女運動員，2010年轉職業。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E9%9A%86%C2%B7%E6%96%AF%E8%92%82%E8%8A%AC%E6%96%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Stephens_WM17_%287%29_%2835347283294%29.jpg/330px-Stephens_WM17_%287%29_%2835347283294%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "圣若梅广场",
-      "extract": "圣若梅广场 是巴塞罗那的城市行政中心。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%8B%A5%E6%A2%85%E5%B9%BF%E5%9C%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Spain.Barcelona.Pessebre.2006.00.jpeg/330px-Spain.Barcelona.Pessebre.2006.00.jpeg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
