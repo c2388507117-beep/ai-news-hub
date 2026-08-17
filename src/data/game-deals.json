@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-17T19:01:08.578Z",
+  "fetchedAt": "2026-08-17T19:45:09.561Z",
   "items": [
     {
       "id": "steam-1142710",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-1687950",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-2552430",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.577Z"
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     },
     {
       "id": "steam-567990",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567990/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-1313140",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-3527290",
@@ -77,7 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
+    },
+    {
+      "id": "steam-4796830",
+      "title": "WE ARE SO DEAD",
+      "url": "https://store.steampowered.com/app/4796830?l=schinese",
+      "discount": 38,
+      "originalPrice": 7.99,
+      "finalPrice": 4.95,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4796830/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     },
     {
       "id": "steam-2764460",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.577Z"
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     },
     {
       "id": "steam-2358720",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-1478500",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-3636770",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-2950790",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-1067360",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.578Z"
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     },
     {
       "id": "steam-4164790",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.329Z"
+      "publishedAt": "2026-08-17T19:45:09.315Z"
     },
     {
       "id": "steam-3849000",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.577Z"
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     },
     {
       "id": "steam-2523770",
@@ -194,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.577Z"
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     },
     {
       "id": "steam-3812600",
@@ -207,7 +220,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-17T19:01:08.578Z"
+      "publishedAt": "2026-08-17T19:45:09.561Z"
     }
   ]
 }

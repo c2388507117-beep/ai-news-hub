@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T19:01:13.648Z",
+  "fetchedAt": "2026-08-17T19:45:14.595Z",
   "items": [
+    {
+      "title": "酸模蚜",
+      "extract": "酸模蚜 为常蚜科蚜屬下的一个种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%85%B8%E6%A8%A1%E8%9A%9C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Aphis_rumicis_%28Dock_aphid%29_-_Flickr_-_S._Rae.jpg/330px-Aphis_rumicis_%28Dock_aphid%29_-_Flickr_-_S._Rae.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "茂伸奇談",
       "extract": "《茂伸奇談》（ものべの）是由Lose在2012年4月27日發售視覺小說類型成人遊戲，2018年1月26日發售中文版。2013年10月25日發售《茂伸奇談 -happy end-》，為劇情經過改寫版本。後來發售PlayStation Vita版《茂伸奇談 -pure smile-》。\n",
@@ -27,13 +34,6 @@
       "extract": "圣若梅广场 是巴塞罗那的城市行政中心。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%8B%A5%E6%A2%85%E5%B9%BF%E5%9C%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Spain.Barcelona.Pessebre.2006.00.jpeg/330px-Spain.Barcelona.Pessebre.2006.00.jpeg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "艾伯塔省人口普查区列表",
-      "extract": "加拿大艾伯塔省被加拿大统计局分为19个人口普查区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E4%BC%AF%E5%A1%94%E7%9C%81%E4%BA%BA%E5%8F%A3%E6%99%AE%E6%9F%A5%E5%8C%BA%E5%88%97%E8%A1%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Altacd.PNG/330px-Altacd.PNG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
