@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T13:09:50.129Z",
+  "fetchedAt": "2026-08-17T13:55:41.846Z",
   "items": [
+    {
+      "title": "白岡市",
+      "extract": "白岡市 是日本埼玉縣東部中央的城市。當地盛產沙梨，產量為埼玉縣第一。白岡市於2012年10月1日由白岡町改制而成。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E5%B2%A1%E5%B8%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shiraoka-hachimangu.jpg/330px-Shiraoka-hachimangu.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "鼎",
       "extract": "鼎，是中国古代的一种煮食器，材质以青铜或陶为主。早在新石器时代，中国先民就开始使用陶鼎，到金石并用时代，青铜鼎开始出现，经过夏商两代的发展，青铜鼎的使用在周代达到鼎盛。青铜鼎是中国青铜器最重要的器形之一，贯穿了整个青铜时代的始终。除了作为食器，也有鼎是被用作承放食物或佐料的盛器，祭祀神明和祖先的礼器，陪葬的冥器，甚至还有的被用作刑具。周代之后，随着铁器和灶台的普及，鼎逐渐被其他器形所取代。宋朝以后，随着金石学的兴起，又有一些鼎作为装饰品出现，除仿古的铜鼎，还有一些是金银器、玉器或者瓷器。\n",
@@ -27,13 +34,6 @@
       "extract": "羽叶蓼，又名玉山蓼、散血丹、赤脛散、血當歸、花蝴蝶，为蓼科蓼属下的一个植物变种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%BD%E5%8F%B6%E8%93%BC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%E7%8E%89%E5%B1%B1%E8%93%BC_Polygonum_runcinatum_-%E5%8F%B0%E5%8C%97%E8%8A%B1%E5%8D%9A_Taipei_Flora_Expo-_%289227114151%29.jpg/330px-%E7%8E%89%E5%B1%B1%E8%93%BC_Polygonum_runcinatum_-%E5%8F%B0%E5%8C%97%E8%8A%B1%E5%8D%9A_Taipei_Flora_Expo-_%289227114151%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "三齿豆象属",
-      "extract": "三齿豆象属 是豆象科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E9%BD%BF%E8%B1%86%E8%B1%A1%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Acanthoscelides_obtectus.jpg/330px-Acanthoscelides_obtectus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
