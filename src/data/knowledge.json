@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T20:46:58.373Z",
+  "fetchedAt": "2026-08-17T21:43:54.937Z",
   "items": [
+    {
+      "title": "超级马力欧银河",
+      "extract": "《超級瑪利歐銀河》 是一款由任天堂開發的Wii平臺3D遊戲。該作是瑪利歐系列繼《超级瑪利歐64》、《超級瑪利歐陽光》之後的的第三款3D遊戲。本作的主要劇情圍繞拯救碧姬公主以及從库巴魔王手中拯救宇宙展開。遊戲最初公布於2006年的E3，後宣布延期；最後於2007年11月開始於大部分地區發售；游戏在发售后获业界高度评价。2020年；为纪念超級瑪利歐系列35周年，任天堂宣佈該作與《超級瑪利歐64》和《超級瑪利歐陽光》一同捆綁在《超級瑪利歐 3D收藏輯》中并於2020年9月18日登錄任天堂Switch；为纪念超級瑪利歐系列40周年，任天堂宣佈該作與《超級瑪利歐銀河2》一同於2025年10月2日登錄任天堂Switch，並同時支援繁體和簡體中文，任天堂Switch 2支援4K畫質。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%BA%A7%E9%A9%AC%E5%8A%9B%E6%AC%A7%E9%93%B6%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/76/SuperMarioGalaxy.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "CJ·培瑞茲",
       "extract": "傑馬爾·培瑞茲 是一名菲律賓職業籃球運動員，目前效力於菲律賓籃球協會的生力啤酒人。他於2018年PBA選秀中被泰拉菲馬以狀元籤選中，也曾是菲律賓國家男子籃球隊的成員。\n",
@@ -27,13 +34,6 @@
       "extract": "泰甸尼球場 是意大利甲組足球聯賽球隊帕爾馬足球會的主場，建於1923年，可容納27,906人，以前帕爾馬主席恩尼奧·塔尔迪尼命名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E7%94%B8%E5%B0%BC%E7%90%83%E5%A0%B4",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Stadio_Ennio_Tardini.jpg/330px-Stadio_Ennio_Tardini.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯隆·斯蒂芬斯",
-      "extract": "斯隆·斯蒂芬斯 是美國職業網球女運動員，2010年轉職業。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E9%9A%86%C2%B7%E6%96%AF%E8%92%82%E8%8A%AC%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Stephens_WM17_%287%29_%2835347283294%29.jpg/330px-Stephens_WM17_%287%29_%2835347283294%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
