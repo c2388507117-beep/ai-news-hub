@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T07:56:36.996Z",
+  "fetchedAt": "2026-08-18T08:56:39.164Z",
   "items": [
+    {
+      "title": "馬克斯·斯特魯斯",
+      "extract": "馬克斯·斯特魯斯，出生於伊利諾州希科里希爾斯，美國職業籃球運動員，現效力於NBA克里夫蘭騎士，場上位置為得分後衛或小前鋒。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%85%8B%E6%96%AF%C2%B7%E6%96%AF%E7%89%B9%E9%AD%AF%E6%96%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Max_Strus_-_53368732580_%28cropped%29.jpg/330px-Max_Strus_-_53368732580_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "横琴大桥",
       "extract": "横琴大桥，全長1,425米，六線雙程行車，1999年9月26日落成，是中华人民共和国广东省珠海市的第一道独塔双索面混凝土斜拉橋，连接横琴岛与珠海市区。疑受到區內迅速發展影響，2012年曾發現大橋存在混凝土开裂剥落的情況。\n",
@@ -27,13 +34,6 @@
       "extract": "新店渡，是位於臺灣新北市新店區碧潭地區，連結新店溪東岸新店老街、西岸灣潭的航運路線，其歷史可追溯光绪七年（1881年），至今依然以人力擺渡，列一般文化景觀、新北市文化資產。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%BA%97%E6%B8%A1",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%96%B0%E5%BA%97%E6%B8%A1%E7%A2%A7%E6%BD%AD%E6%B8%A1%E8%88%B9%E9%A0%AD%E8%88%87%E6%96%B0%E5%BA%973%E8%99%9F.jpg/330px-%E6%96%B0%E5%BA%97%E6%B8%A1%E7%A2%A7%E6%BD%AD%E6%B8%A1%E8%88%B9%E9%A0%AD%E8%88%87%E6%96%B0%E5%BA%973%E8%99%9F.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "尖嘴树猎雀",
-      "extract": "尖嘴树猎雀，是雀形目灶鸟科的一种鸟类，属于单型的尖嘴树猎雀属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%96%E5%98%B4%E6%A0%91%E7%8C%8E%E9%9B%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sharp-billed_treehunter.jpg/330px-Sharp-billed_treehunter.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
