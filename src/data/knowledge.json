@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T15:49:19.513Z",
+  "fetchedAt": "2026-08-18T16:51:51.734Z",
   "items": [
+    {
+      "title": "亚历克萨·德米",
+      "extract": "亚历克萨·德米 是一位美国女演员和歌手。因在《高校十八禁》中扮演玛迪·佩蕾丝 而为人熟知。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%85%8B%E8%90%A8%C2%B7%E5%BE%B7%E7%B1%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Alexa_Demie_Honk_2019.png/330px-Alexa_Demie_Honk_2019.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "琉球鳖甲蜗牛",
       "extract": "琉球鳖甲蜗牛， 又名豔鱉甲蝸牛、蘭嶼鱉甲蝸牛，是一种會呼吸空氣的蝸牛，屬於柄眼目鳖甲蜗牛科的一個陸生肺螺類腹足纲软体动物物種。本物種在英國貝類學家Gerard Pierre Laurent Kalshoven Gude於1900年發現及描述之時原作Macrochlamys fulgens，之後被重新分類。\n",
@@ -27,13 +34,6 @@
       "extract": "内德·阿尔奈·门西亚，艺名卡洛斯·门西亚 是洪都拉斯裔美国喜劇演員、作家与演员。他喜剧的风格经常很政治化，并探讨人種、文化、刑事司法和社会阶级问题。他最为人耳熟能详的成就是喜劇中心表演《Mind of Mencia》的主持人，在2008年取消前曾制作播出过四季。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%B4%9B%E6%96%AF%C2%B7%E9%97%A8%E8%A5%BF%E4%BA%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Comedian_Carlos_Mencia_in_2009.JPG/330px-Comedian_Carlos_Mencia_in_2009.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿瓦拉-亚利马波",
-      "extract": "阿瓦拉-亚利马波 是法国海外省法属圭亚那的一个市镇，属于马罗尼河畔圣洛朗区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%93%A6%E6%8B%89-%E4%BA%9A%E5%88%A9%E9%A9%AC%E6%B3%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Awala-Yalimapo.jpg/330px-Awala-Yalimapo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
