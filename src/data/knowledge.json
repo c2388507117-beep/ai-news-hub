@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T04:54:50.477Z",
+  "fetchedAt": "2026-08-18T05:48:05.818Z",
   "items": [
+    {
+      "title": "以赛亚·王",
+      "extract": "以赛亚·罗伯特-约翰·王，美国职业篮球运动员，司职控球后卫或得分后卫，于2023年NBA选秀中被印第安纳步行者以第二轮总第55顺位选中。以赛亚·王的曾祖父是中国人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%B5%9B%E4%BA%9A%C2%B7%E7%8E%8B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Isaiah_Wong.jpg/330px-Isaiah_Wong.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "新店渡",
       "extract": "新店渡，是位於臺灣新北市新店區碧潭地區，連結新店溪東岸新店老街、西岸灣潭的航運路線，其歷史可追溯光绪七年（1881年），至今依然以人力擺渡，列一般文化景觀、新北市文化資產。\n",
@@ -27,13 +34,6 @@
       "extract": "拉特纳西里·维克勒马纳亚克，斯里兰卡政治家，2000年及2005年两度获委任为斯里兰卡总理。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%89%B9%E7%BA%B3%E8%A5%BF%E9%87%8C%C2%B7%E7%BB%B4%E5%85%8B%E5%8B%92%E9%A9%AC%E7%BA%B3%E4%BA%9A%E5%85%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ratnasiri_Wickremanayake1.jpg/330px-Ratnasiri_Wickremanayake1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斑馬玉米捲管螺",
-      "extract": "斑馬玉米捲管螺 为捲管螺科玉米捲管螺屬下的一个种。其种加词“zebra”意为“有斑马状纹样的”。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%91%E9%A6%AC%E7%8E%89%E7%B1%B3%E6%8D%B2%E7%AE%A1%E8%9E%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Naturalis_Biodiversity_Center_-_RMNH.MOL.226024_1_-_Inquisitor_zebra_%28Lamarck%2C_1822%29_-_Pseudomelatomidae_-_Mollusc_shell.jpeg/330px-Naturalis_Biodiversity_Center_-_RMNH.MOL.226024_1_-_Inquisitor_zebra_%28Lamarck%2C_1822%29_-_Pseudomelatomidae_-_Mollusc_shell.jpeg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
