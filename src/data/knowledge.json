@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T22:44:18.955Z",
+  "fetchedAt": "2026-08-18T23:40:31.453Z",
   "items": [
+    {
+      "title": "埃科勒",
+      "extract": "埃科勒 是法国萨瓦省的一个市镇，属于尚贝里区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E7%A7%91%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%C3%89cole_-_Entr%C3%A9e_%28Savoie%29.JPG/330px-%C3%89cole_-_Entr%C3%A9e_%28Savoie%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "龐培亞·普羅蒂娜",
       "extract": "龐培亞·普羅蒂娜。罗马帝国君主图拉真之妻。凭借关心下层群众的利益和美德而受到爱戴。曾多次阻止包税人的横征暴敛以及致力于希腊之相关活动。尽管终生未有生育，但在死后被哈德良皇帝在罗马和高卢的尼姆等地建庙祭祀。\n",
@@ -28,13 +35,6 @@
       "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%87%91%E7%B5%90",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%E6%9E%97%E9%87%91%E7%B5%90%E8%AD%B0%E5%93%A1.jpg/330px-%E6%9E%97%E9%87%91%E7%B5%90%E8%AD%B0%E5%93%A1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
-    },
-    {
-      "title": "青霉素的发现",
-      "extract": "1928年，英国细菌学家亚历山大·弗莱明在伦敦圣玛丽医院的实验室中发现，青霉素霉菌能抑制葡萄球菌的生长。这一发现开启了抗生素时代，但直到二战期间才实现大规模量产。弗莱明与霍华德·弗洛里和恩斯特·钱恩共同获得了1945年的诺贝尔奖。",
-      "url": "",
-      "imageUrl": null,
-      "source": "curated"
     }
   ]
 }
