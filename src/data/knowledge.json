@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T01:53:21.845Z",
+  "fetchedAt": "2026-08-18T03:11:33.330Z",
   "items": [
+    {
+      "title": "奥韦里亚塔",
+      "extract": "奥韦里亚塔 是俄罗斯彼尔姆边疆区的市级镇，属边疆区辖市克拉斯诺卡姆斯克市，地处彼尔姆边疆区中南部，位于伏尔加河流域卡马河沿岸地区，在克拉斯诺卡姆斯克东侧、边疆区首府彼尔姆西北侧。镇内设有同名铁路车站。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E9%9F%A6%E9%87%8C%E4%BA%9A%E5%A1%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Krasnokamskiy_r-n%2C_Permskiy_kray%2C_Russia_-_panoramio_%282%29.jpg/330px-Krasnokamskiy_r-n%2C_Permskiy_kray%2C_Russia_-_panoramio_%282%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "拉特纳西里·维克勒马纳亚克",
       "extract": "拉特纳西里·维克勒马纳亚克，斯里兰卡政治家，2000年及2005年两度获委任为斯里兰卡总理。\n",
@@ -27,13 +34,6 @@
       "extract": "《超級瑪利歐銀河》 是一款由任天堂開發的Wii平臺3D遊戲。該作是瑪利歐系列繼《超级瑪利歐64》、《超級瑪利歐陽光》之後的的第三款3D遊戲。本作的主要劇情圍繞拯救碧姬公主以及從库巴魔王手中拯救宇宙展開。遊戲最初公布於2006年的E3，後宣布延期；最後於2007年11月開始於大部分地區發售；游戏在发售后获业界高度评价。2020年；为纪念超級瑪利歐系列35周年，任天堂宣佈該作與《超級瑪利歐64》和《超級瑪利歐陽光》一同捆綁在《超級瑪利歐 3D收藏輯》中并於2020年9月18日登錄任天堂Switch；为纪念超級瑪利歐系列40周年，任天堂宣佈該作與《超級瑪利歐銀河2》一同於2025年10月2日登錄任天堂Switch，並同時支援繁體和簡體中文，任天堂Switch 2支援4K畫質。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%BA%A7%E9%A9%AC%E5%8A%9B%E6%AC%A7%E9%93%B6%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/76/SuperMarioGalaxy.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "CJ·培瑞茲",
-      "extract": "傑馬爾·培瑞茲 是一名菲律賓職業籃球運動員，目前效力於菲律賓籃球協會的生力啤酒人。他於2018年PBA選秀中被泰拉菲馬以狀元籤選中，也曾是菲律賓國家男子籃球隊的成員。\n",
-      "url": "https://zh.wikipedia.org/wiki/CJ%C2%B7%E5%9F%B9%E7%91%9E%E8%8C%B2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/CJ_Perez_Philippines_vs_Cambodia._2023_SEA_Games.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
