@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T09:51:31.646Z",
+  "fetchedAt": "2026-08-18T10:49:34.125Z",
   "items": [
+    {
+      "title": "阿爾達托夫區 (下諾夫哥羅德州)",
+      "extract": "阿爾達托夫區，是俄羅斯的一個區，位於該國西部，由下諾夫哥羅德州負責管轄，始建於1929年，面積1,887.6平方公里，2010年人口26,428，人口密度每平方公里14人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%88%BE%E9%81%94%E6%89%98%E5%A4%AB%E5%8D%80_(%E4%B8%8B%E8%AB%BE%E5%A4%AB%E5%93%A5%E7%BE%85%E5%BE%B7%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ardatov_town_-_panoramio.jpg/330px-Ardatov_town_-_panoramio.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "环己基丙酸烯丙酯",
       "extract": "菠蘿酯 是由苯氧乙酸與烯丙醇經酯化反應製得的，因強烈的菠蘿清香而得名。它可用於保養品、香精、肥皂及傢俱等產品。IFRA建議商用的菠蘿酯中烯丙醇含量不得超過0.1%。\n",
@@ -27,13 +34,6 @@
       "extract": "叙利亚是世界最古老文明发源地之一，7世纪以前，叙利亚是基督教的发祥地和传播中心。伊斯兰教在中东地区的扩张，7世纪到16世纪初叶一直是伊斯兰教传播中心之一；由于土耳其和十字军的东征，到1516年成为奥斯曼帝国的一部分。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%99%E5%88%A9%E4%BA%9A%E5%8E%86%E5%8F%B2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bosra_pano_Syria.jpg/330px-Bosra_pano_Syria.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "以赛亚·王",
-      "extract": "以赛亚·罗伯特-约翰·王，美国职业篮球运动员，司职控球后卫或得分后卫，于2023年NBA选秀中被印第安纳步行者以第二轮总第55顺位选中。以赛亚·王的曾祖父是中国人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%B5%9B%E4%BA%9A%C2%B7%E7%8E%8B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Isaiah_Wong.jpg/330px-Isaiah_Wong.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
