@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T17:46:59.245Z",
+  "fetchedAt": "2026-08-18T19:00:06.448Z",
   "items": [
+    {
+      "title": "青霉素的发现",
+      "extract": "1928年，英国细菌学家亚历山大·弗莱明在伦敦圣玛丽医院的实验室中发现，青霉素霉菌能抑制葡萄球菌的生长。这一发现开启了抗生素时代，但直到二战期间才实现大规模量产。弗莱明与霍华德·弗洛里和恩斯特·钱恩共同获得了1945年的诺贝尔奖。",
+      "url": "",
+      "imageUrl": null,
+      "source": "curated"
+    },
     {
       "title": "人参果 (电影)",
       "extract": "《人参果》，是中国上海美术电影制片厂于1981年出品的动画电影，根据《西游记》片段“偷吃人参果”改编，全长44分钟左右。片中画风及设定延续了《大闹天宫》的原始风格。《大闹天宫》以及该电影被收录于1994年海豚出版社出版的《孙悟空系列丛书》中，丛书其余的32篇作品也一样继承了这两部电影的画风。\n",
@@ -27,13 +34,6 @@
       "extract": "泰姆尼茨河，是德國的河流，位於該國東北部，由勃蘭登堡州負責管轄，屬於普拉訥河的支流，河道全長25.1公里，河口處在哈弗爾河畔勃蘭登堡。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%A7%86%E5%B0%BC%E8%8C%A8%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sandfurthgraben_M%C3%BCndung_Plane.jpg/330px-Sandfurthgraben_M%C3%BCndung_Plane.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "彼得·杰米契夫",
-      "extract": "彼得·尼洛维奇·杰米契夫，苏联党和国家领导人。曾任联共（布）莫斯科市委宣传鼓动部副部长、联共（布）莫斯科州委第一书记助理、苏联部长会议秘书、苏共莫斯科州委第一书记、苏共莫斯科市委第一书记、苏共中央主管文化与意识形态工作的中央书记处书记、苏联文化部长、苏联最高苏维埃主席团第一副主席等职务。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%C2%B7%E6%9D%B0%E7%B1%B3%E5%A5%91%E5%A4%AB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/f/f7/Pyotr_Demichev.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
