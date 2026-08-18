@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T20:43:00.557Z",
+  "fetchedAt": "2026-08-18T21:41:37.624Z",
   "items": [
+    {
+      "title": "素樸派",
+      "extract": "素樸派，是日本現役純種競賽馬匹。目前主要勝利有東京體育盃兩歲錦標。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B4%A0%E6%A8%B8%E6%B4%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Peintre_Naif_93rd_Tokyo_Yushun.jpg/330px-Peintre_Naif_93rd_Tokyo_Yushun.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "克拉马",
       "extract": "克拉马，法国中北部城市，法兰西岛大区上塞纳省的一个市镇，隶属于安东尼区，其市镇面积为8.77平方公里，2023年1月1日时人口数量为58,576人，在法国城市中排名第111位。\n",
@@ -27,13 +34,6 @@
       "extract": "《人参果》，是中国上海美术电影制片厂于1981年出品的动画电影，根据《西游记》片段“偷吃人参果”改编，全长44分钟左右。片中画风及设定延续了《大闹天宫》的原始风格。《大闹天宫》以及该电影被收录于1994年海豚出版社出版的《孙悟空系列丛书》中，丛书其余的32篇作品也一样继承了这两部电影的画风。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%8F%82%E6%9E%9C_(%E7%94%B5%E5%BD%B1)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/c/cc/%E4%BA%BA%E5%8F%82%E6%9E%9C_%28%E7%94%B5%E5%BD%B1%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "亚历克萨·德米",
-      "extract": "亚历克萨·德米 是一位美国女演员和歌手。因在《高校十八禁》中扮演玛迪·佩蕾丝 而为人熟知。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%85%8B%E8%90%A8%C2%B7%E5%BE%B7%E7%B1%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Alexa_Demie_Honk_2019.png/330px-Alexa_Demie_Honk_2019.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
