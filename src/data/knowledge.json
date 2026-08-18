@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-17T23:41:00.340Z",
+  "fetchedAt": "2026-08-18T01:53:21.845Z",
   "items": [
+    {
+      "title": "拉特纳西里·维克勒马纳亚克",
+      "extract": "拉特纳西里·维克勒马纳亚克，斯里兰卡政治家，2000年及2005年两度获委任为斯里兰卡总理。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%89%B9%E7%BA%B3%E8%A5%BF%E9%87%8C%C2%B7%E7%BB%B4%E5%85%8B%E5%8B%92%E9%A9%AC%E7%BA%B3%E4%BA%9A%E5%85%8B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ratnasiri_Wickremanayake1.jpg/330px-Ratnasiri_Wickremanayake1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "斑馬玉米捲管螺",
       "extract": "斑馬玉米捲管螺 为捲管螺科玉米捲管螺屬下的一个种。其种加词“zebra”意为“有斑马状纹样的”。\n",
@@ -27,13 +34,6 @@
       "extract": "傑馬爾·培瑞茲 是一名菲律賓職業籃球運動員，目前效力於菲律賓籃球協會的生力啤酒人。他於2018年PBA選秀中被泰拉菲馬以狀元籤選中，也曾是菲律賓國家男子籃球隊的成員。\n",
       "url": "https://zh.wikipedia.org/wiki/CJ%C2%B7%E5%9F%B9%E7%91%9E%E8%8C%B2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/CJ_Perez_Philippines_vs_Cambodia._2023_SEA_Games.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "酸模蚜",
-      "extract": "酸模蚜 为常蚜科蚜屬下的一个种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%85%B8%E6%A8%A1%E8%9A%9C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Aphis_rumicis_%28Dock_aphid%29_-_Flickr_-_S._Rae.jpg/330px-Aphis_rumicis_%28Dock_aphid%29_-_Flickr_-_S._Rae.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
