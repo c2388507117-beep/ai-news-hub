@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T13:11:38.891Z",
+  "fetchedAt": "2026-08-18T13:59:47.947Z",
   "items": [
+    {
+      "title": "彼得·杰米契夫",
+      "extract": "彼得·尼洛维奇·杰米契夫，苏联党和国家领导人。曾任联共（布）莫斯科市委宣传鼓动部副部长、联共（布）莫斯科州委第一书记助理、苏联部长会议秘书、苏共莫斯科州委第一书记、苏共莫斯科市委第一书记、苏共中央主管文化与意识形态工作的中央书记处书记、苏联文化部长、苏联最高苏维埃主席团第一副主席等职务。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%C2%B7%E6%9D%B0%E7%B1%B3%E5%A5%91%E5%A4%AB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/f/f7/Pyotr_Demichev.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "卡洛斯·门西亚",
       "extract": "内德·阿尔奈·门西亚，艺名卡洛斯·门西亚 是洪都拉斯裔美国喜劇演員、作家与演员。他喜剧的风格经常很政治化，并探讨人種、文化、刑事司法和社会阶级问题。他最为人耳熟能详的成就是喜劇中心表演《Mind of Mencia》的主持人，在2008年取消前曾制作播出过四季。\n",
@@ -27,13 +34,6 @@
       "extract": "菠蘿酯 是由苯氧乙酸與烯丙醇經酯化反應製得的，因強烈的菠蘿清香而得名。它可用於保養品、香精、肥皂及傢俱等產品。IFRA建議商用的菠蘿酯中烯丙醇含量不得超過0.1%。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%8E%AF%E5%B7%B1%E5%9F%BA%E4%B8%99%E9%85%B8%E7%83%AF%E4%B8%99%E9%85%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Allyl_cyclohexanepropionate.svg/langzh-330px-Allyl_cyclohexanepropionate.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "馬克斯·斯特魯斯",
-      "extract": "馬克斯·斯特魯斯，出生於伊利諾州希科里希爾斯，美國職業籃球運動員，現效力於NBA克里夫蘭騎士，場上位置為得分後衛或小前鋒。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%85%8B%E6%96%AF%C2%B7%E6%96%AF%E7%89%B9%E9%AD%AF%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Max_Strus_-_53368732580_%28cropped%29.jpg/330px-Max_Strus_-_53368732580_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
