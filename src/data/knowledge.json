@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T19:00:06.448Z",
+  "fetchedAt": "2026-08-18T19:43:42.440Z",
   "items": [
+    {
+      "title": "林金結",
+      "extract": "林金結（1968年7月21日—），中華民國政治人物，中國國民黨籍，生於宜蘭縣，現任新北市議會議員、中國國民黨中央常務委員。2020年及2024年曾參選新北市第十選舉區立法委員，均敗於時任立委吳琪銘。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%87%91%E7%B5%90",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%E6%9E%97%E9%87%91%E7%B5%90%E8%AD%B0%E5%93%A1.jpg/330px-%E6%9E%97%E9%87%91%E7%B5%90%E8%AD%B0%E5%93%A1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "青霉素的发现",
       "extract": "1928年，英国细菌学家亚历山大·弗莱明在伦敦圣玛丽医院的实验室中发现，青霉素霉菌能抑制葡萄球菌的生长。这一发现开启了抗生素时代，但直到二战期间才实现大规模量产。弗莱明与霍华德·弗洛里和恩斯特·钱恩共同获得了1945年的诺贝尔奖。",
@@ -27,13 +34,6 @@
       "extract": "琉球鳖甲蜗牛， 又名豔鱉甲蝸牛、蘭嶼鱉甲蝸牛，是一种會呼吸空氣的蝸牛，屬於柄眼目鳖甲蜗牛科的一個陸生肺螺類腹足纲软体动物物種。本物種在英國貝類學家Gerard Pierre Laurent Kalshoven Gude於1900年發現及描述之時原作Macrochlamys fulgens，之後被重新分類。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%B3%96%E7%94%B2%E8%9C%97%E7%89%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ovachlamys_fulgens_3.jpg/330px-Ovachlamys_fulgens_3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "泰姆尼茨河",
-      "extract": "泰姆尼茨河，是德國的河流，位於該國東北部，由勃蘭登堡州負責管轄，屬於普拉訥河的支流，河道全長25.1公里，河口處在哈弗爾河畔勃蘭登堡。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%A7%86%E5%B0%BC%E8%8C%A8%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sandfurthgraben_M%C3%BCndung_Plane.jpg/330px-Sandfurthgraben_M%C3%BCndung_Plane.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
