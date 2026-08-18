@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T21:41:33.035Z",
+  "fetchedAt": "2026-08-18T22:44:14.392Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-1687950",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-2552430",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.392Z"
     },
     {
       "id": "steam-1771300",
@@ -51,20 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
-    },
-    {
-      "id": "steam-1313140",
-      "title": "咩咩启示录",
-      "url": "https://store.steampowered.com/app/1313140?l=schinese",
-      "discount": 60,
-      "originalPrice": 118,
-      "finalPrice": 47.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-993090",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/993090/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-2764460",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.392Z"
     },
     {
       "id": "steam-2358720",
@@ -103,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
-    },
-    {
-      "id": "steam-1643320",
-      "title": "潜行者2：切尔诺贝利之心",
-      "url": "https://store.steampowered.com/app/1643320?l=schinese",
-      "discount": 30,
-      "originalPrice": 59.99,
-      "finalPrice": 41.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.215Z"
     },
     {
       "id": "steam-2950790",
@@ -129,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
+    },
+    {
+      "id": "steam-2754380",
+      "title": "鲁特里一家死了（The Roottrees are Dead）",
+      "url": "https://store.steampowered.com/app/2754380?l=schinese",
+      "discount": 25,
+      "originalPrice": 76,
+      "finalPrice": 57,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754380/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-3636770",
@@ -142,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-1067360",
@@ -155,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.392Z"
     },
     {
       "id": "steam-3729550",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729550/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-4164790",
@@ -181,20 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:32.766Z"
-    },
-    {
-      "id": "steam-1575990",
-      "title": "Twisted Tower",
-      "url": "https://store.steampowered.com/app/1575990?l=schinese",
-      "discount": 10,
-      "originalPrice": 14.99,
-      "finalPrice": 13.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.216Z"
     },
     {
       "id": "steam-3849000",
@@ -207,7 +181,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.392Z"
+    },
+    {
+      "id": "steam-1575990",
+      "title": "Twisted Tower",
+      "url": "https://store.steampowered.com/app/1575990?l=schinese",
+      "discount": 10,
+      "originalPrice": 14.99,
+      "finalPrice": 13.49,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-18T22:44:14.392Z"
     },
     {
       "id": "steam-3812600",
@@ -220,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.392Z"
     },
     {
       "id": "steam-2523770",
@@ -233,7 +220,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-18T21:41:33.035Z"
+      "publishedAt": "2026-08-18T22:44:14.392Z"
     }
   ]
 }
