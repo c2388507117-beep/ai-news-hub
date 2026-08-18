@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T19:43:42.440Z",
+  "fetchedAt": "2026-08-18T20:43:00.557Z",
   "items": [
+    {
+      "title": "克拉马",
+      "extract": "克拉马，法国中北部城市，法兰西岛大区上塞纳省的一个市镇，隶属于安东尼区，其市镇面积为8.77平方公里，2023年1月1日时人口数量为58,576人，在法国城市中排名第111位。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E6%8B%89%E9%A9%AC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Rue_Pierre_Marie_Curie_-_Clamart_%28FR92%29_-_2023-08-20_-_4.jpg/330px-Rue_Pierre_Marie_Curie_-_Clamart_%28FR92%29_-_2023-08-20_-_4.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "林金結",
       "extract": "林金結（1968年7月21日—），中華民國政治人物，中國國民黨籍，生於宜蘭縣，現任新北市議會議員、中國國民黨中央常務委員。2020年及2024年曾參選新北市第十選舉區立法委員，均敗於時任立委吳琪銘。\n",
@@ -27,13 +34,6 @@
       "extract": "亚历克萨·德米 是一位美国女演员和歌手。因在《高校十八禁》中扮演玛迪·佩蕾丝 而为人熟知。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%85%8B%E8%90%A8%C2%B7%E5%BE%B7%E7%B1%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Alexa_Demie_Honk_2019.png/330px-Alexa_Demie_Honk_2019.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "琉球鳖甲蜗牛",
-      "extract": "琉球鳖甲蜗牛， 又名豔鱉甲蝸牛、蘭嶼鱉甲蝸牛，是一种會呼吸空氣的蝸牛，屬於柄眼目鳖甲蜗牛科的一個陸生肺螺類腹足纲软体动物物種。本物種在英國貝類學家Gerard Pierre Laurent Kalshoven Gude於1900年發現及描述之時原作Macrochlamys fulgens，之後被重新分類。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%B3%96%E7%94%B2%E8%9C%97%E7%89%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ovachlamys_fulgens_3.jpg/330px-Ovachlamys_fulgens_3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
