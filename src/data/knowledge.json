@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T16:51:51.734Z",
+  "fetchedAt": "2026-08-18T17:46:59.245Z",
   "items": [
+    {
+      "title": "人参果 (电影)",
+      "extract": "《人参果》，是中国上海美术电影制片厂于1981年出品的动画电影，根据《西游记》片段“偷吃人参果”改编，全长44分钟左右。片中画风及设定延续了《大闹天宫》的原始风格。《大闹天宫》以及该电影被收录于1994年海豚出版社出版的《孙悟空系列丛书》中，丛书其余的32篇作品也一样继承了这两部电影的画风。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%8F%82%E6%9E%9C_(%E7%94%B5%E5%BD%B1)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/c/cc/%E4%BA%BA%E5%8F%82%E6%9E%9C_%28%E7%94%B5%E5%BD%B1%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "亚历克萨·德米",
       "extract": "亚历克萨·德米 是一位美国女演员和歌手。因在《高校十八禁》中扮演玛迪·佩蕾丝 而为人熟知。\n",
@@ -27,13 +34,6 @@
       "extract": "彼得·尼洛维奇·杰米契夫，苏联党和国家领导人。曾任联共（布）莫斯科市委宣传鼓动部副部长、联共（布）莫斯科州委第一书记助理、苏联部长会议秘书、苏共莫斯科州委第一书记、苏共莫斯科市委第一书记、苏共中央主管文化与意识形态工作的中央书记处书记、苏联文化部长、苏联最高苏维埃主席团第一副主席等职务。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%C2%B7%E6%9D%B0%E7%B1%B3%E5%A5%91%E5%A4%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/f/f7/Pyotr_Demichev.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "卡洛斯·门西亚",
-      "extract": "内德·阿尔奈·门西亚，艺名卡洛斯·门西亚 是洪都拉斯裔美国喜劇演員、作家与演员。他喜剧的风格经常很政治化，并探讨人種、文化、刑事司法和社会阶级问题。他最为人耳熟能详的成就是喜劇中心表演《Mind of Mencia》的主持人，在2008年取消前曾制作播出过四季。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%B4%9B%E6%96%AF%C2%B7%E9%97%A8%E8%A5%BF%E4%BA%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Comedian_Carlos_Mencia_in_2009.JPG/330px-Comedian_Carlos_Mencia_in_2009.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
