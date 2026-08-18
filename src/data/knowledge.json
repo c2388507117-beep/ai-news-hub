@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T08:56:39.164Z",
+  "fetchedAt": "2026-08-18T09:51:31.646Z",
   "items": [
+    {
+      "title": "环己基丙酸烯丙酯",
+      "extract": "菠蘿酯 是由苯氧乙酸與烯丙醇經酯化反應製得的，因強烈的菠蘿清香而得名。它可用於保養品、香精、肥皂及傢俱等產品。IFRA建議商用的菠蘿酯中烯丙醇含量不得超過0.1%。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%AF%E5%B7%B1%E5%9F%BA%E4%B8%99%E9%85%B8%E7%83%AF%E4%B8%99%E9%85%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Allyl_cyclohexanepropionate.svg/langzh-330px-Allyl_cyclohexanepropionate.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "馬克斯·斯特魯斯",
       "extract": "馬克斯·斯特魯斯，出生於伊利諾州希科里希爾斯，美國職業籃球運動員，現效力於NBA克里夫蘭騎士，場上位置為得分後衛或小前鋒。\n",
@@ -27,13 +34,6 @@
       "extract": "以赛亚·罗伯特-约翰·王，美国职业篮球运动员，司职控球后卫或得分后卫，于2023年NBA选秀中被印第安纳步行者以第二轮总第55顺位选中。以赛亚·王的曾祖父是中国人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%B5%9B%E4%BA%9A%C2%B7%E7%8E%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Isaiah_Wong.jpg/330px-Isaiah_Wong.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "新店渡",
-      "extract": "新店渡，是位於臺灣新北市新店區碧潭地區，連結新店溪東岸新店老街、西岸灣潭的航運路線，其歷史可追溯光绪七年（1881年），至今依然以人力擺渡，列一般文化景觀、新北市文化資產。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%BA%97%E6%B8%A1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E6%96%B0%E5%BA%97%E6%B8%A1%E7%A2%A7%E6%BD%AD%E6%B8%A1%E8%88%B9%E9%A0%AD%E8%88%87%E6%96%B0%E5%BA%973%E8%99%9F.jpg/330px-%E6%96%B0%E5%BA%97%E6%B8%A1%E7%A2%A7%E6%BD%AD%E6%B8%A1%E8%88%B9%E9%A0%AD%E8%88%87%E6%96%B0%E5%BA%973%E8%99%9F.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
