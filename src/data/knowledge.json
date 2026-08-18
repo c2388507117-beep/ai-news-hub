@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T13:59:47.947Z",
+  "fetchedAt": "2026-08-18T14:55:27.141Z",
   "items": [
+    {
+      "title": "泰姆尼茨河",
+      "extract": "泰姆尼茨河，是德國的河流，位於該國東北部，由勃蘭登堡州負責管轄，屬於普拉訥河的支流，河道全長25.1公里，河口處在哈弗爾河畔勃蘭登堡。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%A7%86%E5%B0%BC%E8%8C%A8%E6%B2%B3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sandfurthgraben_M%C3%BCndung_Plane.jpg/330px-Sandfurthgraben_M%C3%BCndung_Plane.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "彼得·杰米契夫",
       "extract": "彼得·尼洛维奇·杰米契夫，苏联党和国家领导人。曾任联共（布）莫斯科市委宣传鼓动部副部长、联共（布）莫斯科州委第一书记助理、苏联部长会议秘书、苏共莫斯科州委第一书记、苏共莫斯科市委第一书记、苏共中央主管文化与意识形态工作的中央书记处书记、苏联文化部长、苏联最高苏维埃主席团第一副主席等职务。\n",
@@ -27,13 +34,6 @@
       "extract": "阿爾達托夫區，是俄羅斯的一個區，位於該國西部，由下諾夫哥羅德州負責管轄，始建於1929年，面積1,887.6平方公里，2010年人口26,428，人口密度每平方公里14人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%88%BE%E9%81%94%E6%89%98%E5%A4%AB%E5%8D%80_(%E4%B8%8B%E8%AB%BE%E5%A4%AB%E5%93%A5%E7%BE%85%E5%BE%B7%E5%B7%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ardatov_town_-_panoramio.jpg/330px-Ardatov_town_-_panoramio.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "环己基丙酸烯丙酯",
-      "extract": "菠蘿酯 是由苯氧乙酸與烯丙醇經酯化反應製得的，因強烈的菠蘿清香而得名。它可用於保養品、香精、肥皂及傢俱等產品。IFRA建議商用的菠蘿酯中烯丙醇含量不得超過0.1%。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%8E%AF%E5%B7%B1%E5%9F%BA%E4%B8%99%E9%85%B8%E7%83%AF%E4%B8%99%E9%85%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Allyl_cyclohexanepropionate.svg/langzh-330px-Allyl_cyclohexanepropionate.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
