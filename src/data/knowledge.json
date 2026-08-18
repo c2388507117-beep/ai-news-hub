@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T10:49:34.125Z",
+  "fetchedAt": "2026-08-18T11:44:22.564Z",
   "items": [
+    {
+      "title": "阿瓦拉-亚利马波",
+      "extract": "阿瓦拉-亚利马波 是法国海外省法属圭亚那的一个市镇，属于马罗尼河畔圣洛朗区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%93%A6%E6%8B%89-%E4%BA%9A%E5%88%A9%E9%A9%AC%E6%B3%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Awala-Yalimapo.jpg/330px-Awala-Yalimapo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "阿爾達托夫區 (下諾夫哥羅德州)",
       "extract": "阿爾達托夫區，是俄羅斯的一個區，位於該國西部，由下諾夫哥羅德州負責管轄，始建於1929年，面積1,887.6平方公里，2010年人口26,428，人口密度每平方公里14人。\n",
@@ -27,13 +34,6 @@
       "extract": "横琴大桥，全長1,425米，六線雙程行車，1999年9月26日落成，是中华人民共和国广东省珠海市的第一道独塔双索面混凝土斜拉橋，连接横琴岛与珠海市区。疑受到區內迅速發展影響，2012年曾發現大橋存在混凝土开裂剥落的情況。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A8%AA%E7%90%B4%E5%A4%A7%E6%A1%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/20251211_Hengqin_Daqiao.jpg/330px-20251211_Hengqin_Daqiao.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "叙利亚历史",
-      "extract": "叙利亚是世界最古老文明发源地之一，7世纪以前，叙利亚是基督教的发祥地和传播中心。伊斯兰教在中东地区的扩张，7世纪到16世纪初叶一直是伊斯兰教传播中心之一；由于土耳其和十字军的东征，到1516年成为奥斯曼帝国的一部分。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8F%99%E5%88%A9%E4%BA%9A%E5%8E%86%E5%8F%B2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bosra_pano_Syria.jpg/330px-Bosra_pano_Syria.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
