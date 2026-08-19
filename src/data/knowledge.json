@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T14:55:25.892Z",
+  "fetchedAt": "2026-08-19T15:49:18.413Z",
   "items": [
+    {
+      "title": "泡泡属",
+      "extract": "泡泡属 又名巴婆果属，是少數在溫帶生長的的木兰目蕃荔枝科落葉木，北美原產。其树被称为泡泡树，果實可以食用，通常被叫作泡泡果或寶爪果，雖說其是溫帶果樹但非常耐寒。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A1%E6%B3%A1%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Asimina_triloba3.jpg/330px-Asimina_triloba3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "真脇遺跡",
       "extract": "真脇遺跡（まわきいせき）是位於日本石川縣鳳珠郡能登町的一處繩文時代早期至晚期聚落遺址，被指定為國家歷史遺跡。\n",
@@ -27,13 +34,6 @@
       "extract": "思茅松 是松科松属的一种植物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E8%8C%85%E6%9D%BE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pinus_kesiya_Blanco2.453.jpg/330px-Pinus_kesiya_Blanco2.453.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "4-甲氧基雌二醇",
-      "extract": "4-甲氧基雌二醇 是一种天然内源性的甲氧基化的儿茶酚雌激素和雌二醇的代謝產物，在体内通过儿茶酚-O-甲基转移酶（COMT）催化中间体4-羟基雌二醇生成，其雌激素活性近似雌酮和4-羟基雌酮。\n",
-      "url": "https://zh.wikipedia.org/wiki/4-%E7%94%B2%E6%B0%A7%E5%9F%BA%E9%9B%8C%E4%BA%8C%E9%86%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/4-Methoxyestradiol.svg/langzh-330px-4-Methoxyestradiol.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
