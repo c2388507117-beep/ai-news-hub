@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T21:43:58.204Z",
+  "fetchedAt": "2026-08-19T22:45:04.343Z",
   "items": [
+    {
+      "title": "博文山區",
+      "extract": "博文山 是布里斯本市內距離市區比較近的一個市轄區，以昆士蘭總督寶雲命名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E6%96%87%E5%B1%B1%E5%8D%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Old-Queensland-Museum.jpg/330px-Old-Queensland-Museum.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "比略",
       "extract": "比略 是法国伊泽尔省的一个市镇，位于该省中北部偏西，属于拉图尔迪潘区。\n",
@@ -27,13 +34,6 @@
       "extract": "硝酸肼镍（NHN）是一种无机化合物，化学式为[Ni(N2H4)3](NO3)2，是一种含能材料。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A1%9D%E9%85%B8%E8%82%BC%E9%95%8D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Nickel_Hydrazine_Nitrate.jpg/330px-Nickel_Hydrazine_Nitrate.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "天神山站",
-      "extract": "天神山站 是位於大分縣由布市庄內町西長寶，九州旅客鐵道（JR九州）的久大本線車站。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E7%A5%9E%E5%B1%B1%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tenjinyama_Station.JPG/330px-Tenjinyama_Station.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
