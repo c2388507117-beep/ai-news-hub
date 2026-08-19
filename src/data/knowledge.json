@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T15:49:18.413Z",
+  "fetchedAt": "2026-08-19T16:50:12.053Z",
   "items": [
+    {
+      "title": "塔爾吉斯特",
+      "extract": "\n塔爾吉斯特 是摩洛哥的城鎮，位於該國北部丹吉爾-得土安-胡塞馬大區，由胡塞馬省負責管轄，距離胡塞馬72公里，海拔高度994米，2004年人口11,560。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E7%88%BE%E5%90%89%E6%96%AF%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ciudad_de_targuist.jpg/330px-Ciudad_de_targuist.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "泡泡属",
       "extract": "泡泡属 又名巴婆果属，是少數在溫帶生長的的木兰目蕃荔枝科落葉木，北美原產。其树被称为泡泡树，果實可以食用，通常被叫作泡泡果或寶爪果，雖說其是溫帶果樹但非常耐寒。\n",
@@ -27,13 +34,6 @@
       "extract": "麥克·柏比葛利亞 是美國的一位喜劇演員、作家、演員和導演。他是一位義大利後裔，是家中四個孩子中最年幼的一個，就讀於喬治城大學\n。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E5%85%8B%C2%B7%E6%9F%8F%E6%AF%94%E8%91%9B%E5%88%A9%E4%BA%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mike_Birbiglia.jpg/330px-Mike_Birbiglia.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "思茅松",
-      "extract": "思茅松 是松科松属的一种植物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E8%8C%85%E6%9D%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pinus_kesiya_Blanco2.453.jpg/330px-Pinus_kesiya_Blanco2.453.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
