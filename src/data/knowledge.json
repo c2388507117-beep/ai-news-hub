@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T04:02:52.382Z",
+  "fetchedAt": "2026-08-19T04:54:34.830Z",
   "items": [
+    {
+      "title": "洛阳县",
+      "extract": "洛阳县，中国古旧县名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E9%98%B3%E5%8E%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Republic_of_China_edcp_location_map_%28disputed_territories%29_Honan.svg/langzh-330px-Republic_of_China_edcp_location_map_%28disputed_territories%29_Honan.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "和平县",
       "extract": "和平县位于中华人民共和国广东省东北部，处在东江上游，属于河源市管辖。东边与广东省龙川县相邻，南边与广东省东源县相邻，西边与广东省连平县相邻，北边与江西省龙南县、定南县相连。和平县总面积为2310平方公里，县政府驻地在阳明镇。\n",
@@ -27,13 +34,6 @@
       "extract": "埃科勒 是法国萨瓦省的一个市镇，属于尚贝里区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E7%A7%91%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%C3%89cole_-_Entr%C3%A9e_%28Savoie%29.JPG/330px-%C3%89cole_-_Entr%C3%A9e_%28Savoie%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "龐培亞·普羅蒂娜",
-      "extract": "龐培亞·普羅蒂娜。罗马帝国君主图拉真之妻。凭借关心下层群众的利益和美德而受到爱戴。曾多次阻止包税人的横征暴敛以及致力于希腊之相关活动。尽管终生未有生育，但在死后被哈德良皇帝在罗马和高卢的尼姆等地建庙祭祀。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BE%90%E5%9F%B9%E4%BA%9E%C2%B7%E6%99%AE%E7%BE%85%E8%92%82%E5%A8%9C",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Plotina_-_sestertius_-_RIC_0740.jpg/330px-Plotina_-_sestertius_-_RIC_0740.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
