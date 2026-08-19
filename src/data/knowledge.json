@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T11:43:47.801Z",
+  "fetchedAt": "2026-08-19T13:12:45.968Z",
   "items": [
+    {
+      "title": "麥克·柏比葛利亞",
+      "extract": "麥克·柏比葛利亞 是美國的一位喜劇演員、作家、演員和導演。他是一位義大利後裔，是家中四個孩子中最年幼的一個，就讀於喬治城大學\n。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E5%85%8B%C2%B7%E6%9F%8F%E6%AF%94%E8%91%9B%E5%88%A9%E4%BA%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mike_Birbiglia.jpg/330px-Mike_Birbiglia.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "思茅松",
       "extract": "思茅松 是松科松属的一种植物。\n",
@@ -27,13 +34,6 @@
       "extract": "聖拉斐爾潟湖是智利的湖泊，位於該國南部，北面與莫拉萊達海峽相連，西面是泰陶半島，由伊瓦涅斯將軍艾森大區負責管轄，面積123平方公里，是熱門的旅遊地點。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%81%96%E6%8B%89%E6%96%90%E7%88%BE%E6%BD%9F%E6%B9%96",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Laguna_San_Rafael.jpg/330px-Laguna_San_Rafael.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "GINZA SIX",
-      "extract": "GINZA SIX（ギンザシックス）是位於東京都中央區銀座的複合商業設施。由商业設施、業務設施、文化公共設施及停車場等構成。\n",
-      "url": "https://zh.wikipedia.org/wiki/GINZA_SIX",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ginza_Six_02.jpg/330px-Ginza_Six_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
