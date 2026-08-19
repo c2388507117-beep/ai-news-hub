@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T20:48:30.395Z",
+  "fetchedAt": "2026-08-19T21:43:58.204Z",
   "items": [
+    {
+      "title": "比略",
+      "extract": "比略 是法国伊泽尔省的一个市镇，位于该省中北部偏西，属于拉图尔迪潘区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E7%95%A5",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bilieu_vue_g%C3%A9n%C3%A9rale.jpg/330px-Bilieu_vue_g%C3%A9n%C3%A9rale.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "达夫妮·杜穆里埃",
       "extract": "布朗宁爵士夫人达夫妮·杜穆里埃女爵士，DBE，一译达夫妮·杜莫里哀，英国小说家、剧作家。\n",
@@ -27,13 +34,6 @@
       "extract": "天神山站 是位於大分縣由布市庄內町西長寶，九州旅客鐵道（JR九州）的久大本線車站。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E7%A5%9E%E5%B1%B1%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tenjinyama_Station.JPG/330px-Tenjinyama_Station.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "塔爾吉斯特",
-      "extract": "\n塔爾吉斯特 是摩洛哥的城鎮，位於該國北部丹吉爾-得土安-胡塞馬大區，由胡塞馬省負責管轄，距離胡塞馬72公里，海拔高度994米，2004年人口11,560。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E7%88%BE%E5%90%89%E6%96%AF%E7%89%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ciudad_de_targuist.jpg/330px-Ciudad_de_targuist.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
