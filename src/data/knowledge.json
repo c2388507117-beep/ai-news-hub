@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T07:56:20.732Z",
+  "fetchedAt": "2026-08-19T08:57:30.812Z",
   "items": [
+    {
+      "title": "聖拉斐爾潟湖",
+      "extract": "聖拉斐爾潟湖是智利的湖泊，位於該國南部，北面與莫拉萊達海峽相連，西面是泰陶半島，由伊瓦涅斯將軍艾森大區負責管轄，面積123平方公里，是熱門的旅遊地點。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%81%96%E6%8B%89%E6%96%90%E7%88%BE%E6%BD%9F%E6%B9%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Laguna_San_Rafael.jpg/330px-Laguna_San_Rafael.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "GINZA SIX",
       "extract": "GINZA SIX（ギンザシックス）是位於東京都中央區銀座的複合商業設施。由商业設施、業務設施、文化公共設施及停車場等構成。\n",
@@ -27,13 +34,6 @@
       "extract": "洛阳县，中国古旧县名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E9%98%B3%E5%8E%BF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Republic_of_China_edcp_location_map_%28disputed_territories%29_Honan.svg/langzh-330px-Republic_of_China_edcp_location_map_%28disputed_territories%29_Honan.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "和平县",
-      "extract": "和平县位于中华人民共和国广东省东北部，处在东江上游，属于河源市管辖。东边与广东省龙川县相邻，南边与广东省东源县相邻，西边与广东省连平县相邻，北边与江西省龙南县、定南县相连。和平县总面积为2310平方公里，县政府驻地在阳明镇。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%92%8C%E5%B9%B3%E5%8E%BF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Heping%2C_Heyuan%2C_Guangdong%2C_China_-_panoramio.jpg/330px-Heping%2C_Heyuan%2C_Guangdong%2C_China_-_panoramio.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
