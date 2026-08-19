@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T09:51:50.686Z",
+  "fetchedAt": "2026-08-19T10:49:06.174Z",
   "items": [
+    {
+      "title": "4-甲氧基雌二醇",
+      "extract": "4-甲氧基雌二醇 是一种天然内源性的甲氧基化的儿茶酚雌激素和雌二醇的代謝產物，在体内通过儿茶酚-O-甲基转移酶（COMT）催化中间体4-羟基雌二醇生成，其雌激素活性近似雌酮和4-羟基雌酮。\n",
+      "url": "https://zh.wikipedia.org/wiki/4-%E7%94%B2%E6%B0%A7%E5%9F%BA%E9%9B%8C%E4%BA%8C%E9%86%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/4-Methoxyestradiol.svg/langzh-330px-4-Methoxyestradiol.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "大百部",
       "extract": "大百部 是百部科百部属的植物。分布在菲律宾、印度北部、中南半岛以及中国大陆的长江流域以南各省区等地，生长于海拔370米至2,240米的地区，多生在山坡丛林下、路旁、溪边、山谷及阴湿岩石中，目前尚未由人工引种栽培。\n",
@@ -27,13 +34,6 @@
       "extract": "厄尔河畔诺让 是法国厄尔-卢瓦省的一个市镇，属于沙特尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E5%B0%94%E6%B2%B3%E7%95%94%E8%AF%BA%E8%AE%A9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nogent-sur-Eure_mairie_Eure-et-Loir_France.jpg/330px-Nogent-sur-Eure_mairie_Eure-et-Loir_France.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "喀左站",
-      "extract": "喀左站 位于中华人民共和国辽宁省朝阳市喀喇沁左翼蒙古族自治县兴隆庄镇半拉烧锅村金杖子屯，距喀喇沁左翼县城14公里，是京沈客运专线和赤喀高速铁路上的一座车站，中心里程为DK348+410，由中国铁路沈阳局集团有限公司阜新车务段管辖，2018年12月29日随京哈高速线承沈段一同启用。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%96%80%E5%B7%A6%E7%AB%99",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%E5%96%80%E5%B7%A6%E7%AB%99_01.jpg/330px-%E5%96%80%E5%B7%A6%E7%AB%99_01.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
