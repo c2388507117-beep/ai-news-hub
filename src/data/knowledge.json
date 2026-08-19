@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T03:13:10.652Z",
+  "fetchedAt": "2026-08-19T04:02:52.382Z",
   "items": [
+    {
+      "title": "和平县",
+      "extract": "和平县位于中华人民共和国广东省东北部，处在东江上游，属于河源市管辖。东边与广东省龙川县相邻，南边与广东省东源县相邻，西边与广东省连平县相邻，北边与江西省龙南县、定南县相连。和平县总面积为2310平方公里，县政府驻地在阳明镇。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%92%8C%E5%B9%B3%E5%8E%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Heping%2C_Heyuan%2C_Guangdong%2C_China_-_panoramio.jpg/330px-Heping%2C_Heyuan%2C_Guangdong%2C_China_-_panoramio.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "异足姬蜂属",
       "extract": "异足姬蜂属 是姬蜂科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "龐培亞·普羅蒂娜。罗马帝国君主图拉真之妻。凭借关心下层群众的利益和美德而受到爱戴。曾多次阻止包税人的横征暴敛以及致力于希腊之相关活动。尽管终生未有生育，但在死后被哈德良皇帝在罗马和高卢的尼姆等地建庙祭祀。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BE%90%E5%9F%B9%E4%BA%9E%C2%B7%E6%99%AE%E7%BE%85%E8%92%82%E5%A8%9C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Plotina_-_sestertius_-_RIC_0740.jpg/330px-Plotina_-_sestertius_-_RIC_0740.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "素樸派",
-      "extract": "素樸派，是日本現役純種競賽馬匹。目前主要勝利有東京體育盃兩歲錦標。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B4%A0%E6%A8%B8%E6%B4%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Peintre_Naif_93rd_Tokyo_Yushun.jpg/330px-Peintre_Naif_93rd_Tokyo_Yushun.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
