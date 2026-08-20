@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T07:10:22.081Z",
+  "fetchedAt": "2026-08-20T07:59:32.070Z",
   "items": [
+    {
+      "title": "水上警察",
+      "extract": "水上警察简稱水警，又称海上警察等，是指执法机构中负责维护水域（海洋、港口、河流、湖泊、运河等）治安的专门单位，部分水警单位也执行海岸巡防勤务。水警通常使用船隻巡逻，打擊水域的走私、偷渡、抢劫、非法捕撈等违法犯罪行为，在紧急情况下参与对落水者的搜索与救援等。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%B8%8A%E8%AD%A6%E5%AF%9F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/NYPD_boat99pct.jpg/330px-NYPD_boat99pct.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "當橘子掉落時",
       "extract": "《當橘子掉落時》 是一部由GMMTV製作，改編自作家Littleskyofme的同名小說作品。由彭蘇萬·蘇萬那沙提（Almond）與帕薩威·塔馬桑吉提（Progress）領銜主演的泰國同性校園愛情劇。\n",
@@ -27,13 +34,6 @@
       "extract": "陳敏之，本名陳敏芝，香港女演員及主持，現為無綫電視經理人合約藝員，曾拍攝多套電視劇集，亦有主持時事、綜藝旅遊節目及音樂節目。她於1990年代初期以模特兒身分入行，及至2001年加入TVB後才開始嶄露頭角。她以擁有43吋長腿聞名，獲譽為「索腿天后」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%95%8F%E4%B9%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%E9%99%B3%E6%95%8F%E4%B9%8B.jpg/330px-%E9%99%B3%E6%95%8F%E4%B9%8B.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "三台山德昂族乡",
-      "extract": "三台山德昂族乡常简称为三台山乡，是云南省德宏傣族景颇族自治州芒市下辖的一个民族乡，位于芒市中部。三台山乡是中国德昂族人口最集中的乡镇，中国21%的德昂族生活于此，乡内建有中国德昂族博物馆。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%B0%E5%B1%B1%E5%BE%B7%E6%98%82%E6%97%8F%E4%B9%A1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%E4%B8%89%E5%8F%B0%E5%B1%B1%E4%B9%A1%E4%BD%8D%E7%BD%AE%E5%9B%BE.svg/langzh-330px-%E4%B8%89%E5%8F%B0%E5%B1%B1%E4%B9%A1%E4%BD%8D%E7%BD%AE%E5%9B%BE.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
