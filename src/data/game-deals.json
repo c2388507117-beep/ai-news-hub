@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-19T23:40:55.435Z",
+  "fetchedAt": "2026-08-20T01:54:09.092Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,20 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
-    },
-    {
-      "id": "steam-1687950",
-      "title": "女神异闻录5皇家版",
-      "url": "https://store.steampowered.com/app/1687950?l=schinese",
-      "discount": 70,
-      "originalPrice": 268,
-      "finalPrice": 80.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-2552430",
@@ -38,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.435Z"
+      "publishedAt": "2026-08-20T01:54:09.092Z"
     },
     {
       "id": "steam-1771300",
@@ -51,7 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
+    },
+    {
+      "id": "steam-993090",
+      "title": "Lossless Scaling",
+      "url": "https://store.steampowered.com/app/993090?l=schinese",
+      "discount": 50,
+      "originalPrice": 29,
+      "finalPrice": 14.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/993090/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-2358720",
@@ -64,33 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
-    },
-    {
-      "id": "steam-2754380",
-      "title": "鲁特里一家死了（The Roottrees are Dead）",
-      "url": "https://store.steampowered.com/app/2754380?l=schinese",
-      "discount": 25,
-      "originalPrice": 76,
-      "finalPrice": 57,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754380/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
-    },
-    {
-      "id": "steam-2950790",
-      "title": "铁巢重炮",
-      "url": "https://store.steampowered.com/app/2950790?l=schinese",
-      "discount": 25,
-      "originalPrice": 59,
-      "finalPrice": 44.25,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-4132330",
@@ -103,7 +77,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
+    },
+    {
+      "id": "steam-2754380",
+      "title": "鲁特里一家死了（The Roottrees are Dead）",
+      "url": "https://store.steampowered.com/app/2754380?l=schinese",
+      "discount": 25,
+      "originalPrice": 76,
+      "finalPrice": 57,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754380/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-20T01:54:08.892Z"
+    },
+    {
+      "id": "steam-2950790",
+      "title": "铁巢重炮",
+      "url": "https://store.steampowered.com/app/2950790?l=schinese",
+      "discount": 25,
+      "originalPrice": 59,
+      "finalPrice": 44.25,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-1067360",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.435Z"
+      "publishedAt": "2026-08-20T01:54:09.092Z"
     },
     {
       "id": "steam-4164790",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-4026250",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.435Z"
+      "publishedAt": "2026-08-20T01:54:09.092Z"
     },
     {
       "id": "steam-4315040",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-1408027",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1408027/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.247Z"
+      "publishedAt": "2026-08-20T01:54:08.892Z"
     },
     {
       "id": "steam-3849000",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.435Z"
+      "publishedAt": "2026-08-20T01:54:09.092Z"
     },
     {
       "id": "steam-3812600",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.435Z"
+      "publishedAt": "2026-08-20T01:54:09.092Z"
     },
     {
       "id": "steam-1575990",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-19T23:40:55.435Z"
+      "publishedAt": "2026-08-20T01:54:09.092Z"
     }
   ]
 }

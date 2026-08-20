@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T23:40:59.828Z",
+  "fetchedAt": "2026-08-20T01:54:14.753Z",
   "items": [
+    {
+      "title": "逍遙法外集數列表",
+      "extract": "《逍遙法外》 是一部於2014年9月25日在ABC開播，由彼得·諾沃克開創的美國電視影集。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%8D%E9%81%99%E6%B3%95%E5%A4%96%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/How_to_Get_Away_with_Murder_logo_2.svg/langzh-330px-How_to_Get_Away_with_Murder_logo_2.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "陳元光",
       "extract": "陳元光（657年4月4日—711年12月18日），字廷炬，號龍湖，唐朝將領，根据唐代的记载，他的官职可能是右鹰扬将军，被认为是“岭南首领”。后世碑刻和族谱则记载：他官至漳州刺史兼任漳浦縣令；淮南道光州固始县（今河南省信阳市固始县）人，祖籍河东郡（今山西省夏县一带）；父親陳政，母親吐萬氏。墓呈圓丘形，墓前碑文為：「唐開漳陳將軍墓」。\n",
@@ -27,13 +34,6 @@
       "extract": "布朗宁爵士夫人达夫妮·杜穆里埃女爵士，DBE，一译达夫妮·杜莫里哀，英国小说家、剧作家。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A4%AB%E5%A6%AE%C2%B7%E6%9D%9C%E7%A9%86%E9%87%8C%E5%9F%83",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Young_Daphne_du_Maurier.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "蕭道成",
-      "extract": "齐高帝萧道成（427年—482年4月11日），字绍伯，小字鬬將，南蘭陵蘭陵（今江蘇武進）人。南北朝時代軍事家、政治家，南朝第二個皇朝南齊开国皇帝。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%95%AD%E9%81%93%E6%88%90",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Xiao_Daocheng_%28Qi_Gaodi%29.jpg/330px-Xiao_Daocheng_%28Qi_Gaodi%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
