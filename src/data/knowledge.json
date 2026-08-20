@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T04:56:23.277Z",
+  "fetchedAt": "2026-08-20T05:49:22.419Z",
   "items": [
+    {
+      "title": "燕鳳蝶族",
+      "extract": "青鳳蝶族 是鳳蝶科鳳蝶亞科裡的一個族。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%87%95%E9%B3%B3%E8%9D%B6%E6%97%8F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Turquoise-spotted_swallowtail_%28Graphium_policenes%29_underside.jpg/330px-Turquoise-spotted_swallowtail_%28Graphium_policenes%29_underside.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "勒克斯",
       "extract": "勒克斯（lux）或勒克司，简称勒（lx），是光照度的SI单位，当1平方米被照面上光通量为1流明，此时照度就是1勒克斯。\n",
@@ -27,13 +34,6 @@
       "extract": "《逍遙法外》 是一部於2014年9月25日在ABC開播，由彼得·諾沃克開創的美國電視影集。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%80%8D%E9%81%99%E6%B3%95%E5%A4%96%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/How_to_Get_Away_with_Murder_logo_2.svg/langzh-330px-How_to_Get_Away_with_Murder_logo_2.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "陳元光",
-      "extract": "陳元光（657年4月4日—711年12月18日），字廷炬，號龍湖，唐朝將領，根据唐代的记载，他的官职可能是右鹰扬将军，被认为是“岭南首领”。后世碑刻和族谱则记载：他官至漳州刺史兼任漳浦縣令；淮南道光州固始县（今河南省信阳市固始县）人，祖籍河东郡（今山西省夏县一带）；父親陳政，母親吐萬氏。墓呈圓丘形，墓前碑文為：「唐開漳陳將軍墓」。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%83%E5%85%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/JiuLong_Park_Chen_Yuanguang.JPG/330px-JiuLong_Park_Chen_Yuanguang.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
