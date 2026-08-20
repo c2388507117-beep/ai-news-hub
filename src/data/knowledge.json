@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T08:58:51.368Z",
+  "fetchedAt": "2026-08-20T09:52:34.369Z",
   "items": [
+    {
+      "title": "瓦奇拉維·派桑固翁",
+      "extract": "瓦奇拉維·派桑固翁，小名August，為泰國男演員、歌手及模特兒。代表作有《為愛所困》系列、《王子學院之單身律師》、《搞怪女廚2021》、《死神与鬼怪少女》等。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%A5%87%E6%8B%89%E7%B6%AD%C2%B7%E6%B4%BE%E6%A1%91%E5%9B%BA%E7%BF%81",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/August_Vachiravit_Paisarnkulwong_%40_The_Moment_Cook_with_Love_3Plus.png/330px-August_Vachiravit_Paisarnkulwong_%40_The_Moment_Cook_with_Love_3Plus.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "水东哥",
       "extract": "水东哥，又稱水冬瓜，为猕猴桃科水东哥属下的一个种。果實可以食用。\n",
@@ -27,13 +34,6 @@
       "extract": "青鳳蝶族 是鳳蝶科鳳蝶亞科裡的一個族。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%87%95%E9%B3%B3%E8%9D%B6%E6%97%8F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Turquoise-spotted_swallowtail_%28Graphium_policenes%29_underside.jpg/330px-Turquoise-spotted_swallowtail_%28Graphium_policenes%29_underside.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "勒克斯",
-      "extract": "勒克斯（lux）或勒克司，简称勒（lx），是光照度的SI单位，当1平方米被照面上光通量为1流明，此时照度就是1勒克斯。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E5%85%8B%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lux_meter.jpg/330px-Lux_meter.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
