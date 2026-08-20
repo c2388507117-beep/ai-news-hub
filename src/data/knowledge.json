@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T07:59:32.070Z",
+  "fetchedAt": "2026-08-20T08:58:51.368Z",
   "items": [
+    {
+      "title": "水东哥",
+      "extract": "水东哥，又稱水冬瓜，为猕猴桃科水东哥属下的一个种。果實可以食用。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%B8%9C%E5%93%A5",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Saurauia_tristyla_-_Hong_Kong_Botanical_Garden_-_IMG_9592.JPG/330px-Saurauia_tristyla_-_Hong_Kong_Botanical_Garden_-_IMG_9592.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "水上警察",
       "extract": "水上警察简稱水警，又称海上警察等，是指执法机构中负责维护水域（海洋、港口、河流、湖泊、运河等）治安的专门单位，部分水警单位也执行海岸巡防勤务。水警通常使用船隻巡逻，打擊水域的走私、偷渡、抢劫、非法捕撈等违法犯罪行为，在紧急情况下参与对落水者的搜索与救援等。\n",
@@ -27,13 +34,6 @@
       "extract": "勒克斯（lux）或勒克司，简称勒（lx），是光照度的SI单位，当1平方米被照面上光通量为1流明，此时照度就是1勒克斯。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E5%85%8B%E6%96%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lux_meter.jpg/330px-Lux_meter.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "陳敏之",
-      "extract": "陳敏之，本名陳敏芝，香港女演員及主持，現為無綫電視經理人合約藝員，曾拍攝多套電視劇集，亦有主持時事、綜藝旅遊節目及音樂節目。她於1990年代初期以模特兒身分入行，及至2001年加入TVB後才開始嶄露頭角。她以擁有43吋長腿聞名，獲譽為「索腿天后」。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%95%8F%E4%B9%8B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%E9%99%B3%E6%95%8F%E4%B9%8B.jpg/330px-%E9%99%B3%E6%95%8F%E4%B9%8B.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
