@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T09:52:34.369Z",
+  "fetchedAt": "2026-08-20T10:50:41.338Z",
   "items": [
+    {
+      "title": "罗恩·波隆斯基",
+      "extract": "罗恩·波隆斯基 是一名以色列奥运游泳选手。他曾夺得2019年欧洲青年锦标赛200米个人混合泳银牌，在2023年欧洲U-23锦标赛和2024年欧洲游泳锦标赛上分别赢得该项目金牌和银牌，并在2024年欧锦赛上与队友赢得混合4×100米混合泳接力金牌。他出战了2020年东京奥运会，并在2024年NCAA第一级别锦标赛100码蛙泳中获得银牌。波隆斯基代表以色列参加了2024年巴黎奥运会的200米个人混合泳、100米蛙泳和男女混合4×100米混合泳接力项目。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%81%A9%C2%B7%E6%B3%A2%E9%9A%86%E6%96%AF%E5%9F%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ron_photo.jpg/330px-Ron_photo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "瓦奇拉維·派桑固翁",
       "extract": "瓦奇拉維·派桑固翁，小名August，為泰國男演員、歌手及模特兒。代表作有《為愛所困》系列、《王子學院之單身律師》、《搞怪女廚2021》、《死神与鬼怪少女》等。\n",
@@ -27,13 +34,6 @@
       "extract": "《當橘子掉落時》 是一部由GMMTV製作，改編自作家Littleskyofme的同名小說作品。由彭蘇萬·蘇萬那沙提（Almond）與帕薩威·塔馬桑吉提（Progress）領銜主演的泰國同性校園愛情劇。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%95%B6%E6%A9%98%E5%AD%90%E6%8E%89%E8%90%BD%E6%99%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/0e/GMMTV-When_Oranges_Fall.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "燕鳳蝶族",
-      "extract": "青鳳蝶族 是鳳蝶科鳳蝶亞科裡的一個族。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%87%95%E9%B3%B3%E8%9D%B6%E6%97%8F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Turquoise-spotted_swallowtail_%28Graphium_policenes%29_underside.jpg/330px-Turquoise-spotted_swallowtail_%28Graphium_policenes%29_underside.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
