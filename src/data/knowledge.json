@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T22:47:57.322Z",
+  "fetchedAt": "2026-08-20T23:43:27.082Z",
   "items": [
+    {
+      "title": "长安汽车",
+      "extract": "重庆长安汽车股份有限公司，简称长安汽车、重庆长安，其历史可以追溯至1862年成立的上海洋炮局，经过多次改制后改为现名，1983年进入汽车领域，为中国汽车行业第一阵营、第一自主品牌、第一研发实力企业，现有资产1033亿元人民币，员工8万余人。长安汽车现生产微客、乘用车等产品。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AE%89%E6%B1%BD%E8%BD%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Changan_icon.svg/langzh-330px-Changan_icon.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "費德里科·阿格利亞迪",
       "extract": "費德里科·阿格利亞迪 是一位意大利足球運動員。在場上的位置是守門員。他現在效力於意大利足球乙級聯賽球隊切塞納足球俱樂部。他也曾經效力於博洛尼亞。\n",
@@ -27,13 +34,6 @@
       "extract": "小巧硬毛鼠属 是啮齿目硬毛鼠科中的一属，包含5种：\n加氏小巧硬毛鼠 \n冈氏小巧硬毛鼠 \n黑小巧硬毛鼠 \n南方小巧硬毛鼠 \n巧尾硬毛鼠 ",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E5%B7%A7%E7%A1%AC%E6%AF%9B%E9%BC%A0%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Capromys_prehensilis_%28Harvard_University%29.JPG/330px-Capromys_prehensilis_%28Harvard_University%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "新时代党",
-      "extract": "新时代党，拉脱维亚中间偏右政党。2002年2月2日由政客和中央银行家埃纳尔斯·雷普舍创建，2011年与公民联盟 和另类政治联盟 合并为团结党。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%97%B6%E4%BB%A3%E5%85%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/8/89/New_Era_Party_logo.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
