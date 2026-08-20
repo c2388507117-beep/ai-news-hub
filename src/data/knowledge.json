@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T04:02:38.733Z",
+  "fetchedAt": "2026-08-20T04:56:23.277Z",
   "items": [
+    {
+      "title": "勒克斯",
+      "extract": "勒克斯（lux）或勒克司，简称勒（lx），是光照度的SI单位，当1平方米被照面上光通量为1流明，此时照度就是1勒克斯。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E5%85%8B%E6%96%AF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lux_meter.jpg/330px-Lux_meter.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "陳敏之",
       "extract": "陳敏之，本名陳敏芝，香港女演員及主持，現為無綫電視經理人合約藝員，曾拍攝多套電視劇集，亦有主持時事、綜藝旅遊節目及音樂節目。她於1990年代初期以模特兒身分入行，及至2001年加入TVB後才開始嶄露頭角。她以擁有43吋長腿聞名，獲譽為「索腿天后」。\n",
@@ -27,13 +34,6 @@
       "extract": "陳元光（657年4月4日—711年12月18日），字廷炬，號龍湖，唐朝將領，根据唐代的记载，他的官职可能是右鹰扬将军，被认为是“岭南首领”。后世碑刻和族谱则记载：他官至漳州刺史兼任漳浦縣令；淮南道光州固始县（今河南省信阳市固始县）人，祖籍河东郡（今山西省夏县一带）；父親陳政，母親吐萬氏。墓呈圓丘形，墓前碑文為：「唐開漳陳將軍墓」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%83%E5%85%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/JiuLong_Park_Chen_Yuanguang.JPG/330px-JiuLong_Park_Chen_Yuanguang.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "博文山區",
-      "extract": "博文山 是布里斯本市內距離市區比較近的一個市轄區，以昆士蘭總督寶雲命名。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E6%96%87%E5%B1%B1%E5%8D%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Old-Queensland-Museum.jpg/330px-Old-Queensland-Museum.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
