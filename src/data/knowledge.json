@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T17:48:59.040Z",
+  "fetchedAt": "2026-08-20T19:04:01.498Z",
   "items": [
+    {
+      "title": "新时代党",
+      "extract": "新时代党，拉脱维亚中间偏右政党。2002年2月2日由政客和中央银行家埃纳尔斯·雷普舍创建，2011年与公民联盟 和另类政治联盟 合并为团结党。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%97%B6%E4%BB%A3%E5%85%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/8/89/New_Era_Party_logo.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "希斯霍尔梅讷群岛",
       "extract": "希斯霍尔梅讷群岛 是丹麦的一个群岛，位于卡特加特海峡中，在腓特烈港东北约7km处，由十个小岛屿组成。主要岛屿有希斯霍尔梅讷岛, Græsholm, Lilleholm, Tyvholm, Kølpen 和 Deget。由于在此地栖息的鸟类数量庞大，自1938年起希斯霍尔梅讷群岛成为丹麦的一个自然保护区。[1] \n",
@@ -27,13 +34,6 @@
       "extract": "大家保险集团有限责任公司是中国的一家综合保险集团公司，总部设在北京，创立于2019年7月，创立目的是接管安邦保险集团的主要优质资产。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AE%B6%E4%BF%9D%E9%99%A9%E9%9B%86%E5%9B%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%A4%A7%E5%AE%B6%E4%BF%9D%E9%99%A9.jpg/330px-%E5%A4%A7%E5%AE%B6%E4%BF%9D%E9%99%A9.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "那年花開月正圓",
-      "extract": "那年花開月正圓 是於2017年播映的中國大陸古裝電視劇，拍攝于2016年10月至2017年5月，由孙俪及陈晓領銜主演，並由何潤東及任重聯合演出。該劇以陕西省泾阳县安吳堡吳氏家族的真人史實為背景，講述清末出身民間的陝西女首富吴周氏跌宕起伏的人生故事。於2017年8月30日在东方卫视、江苏卫视播出。在台灣則由愛奇藝網路平台獨家播出。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%82%A3%E5%B9%B4%E8%8A%B1%E9%96%8B%E6%9C%88%E6%AD%A3%E5%9C%93",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/1/1c/%E7%94%B5%E8%A7%86%E5%89%A7%E9%82%A3%E5%B9%B4%E8%8A%B1%E5%BC%80%E6%9C%88%E6%AD%A3%E5%9C%86%E6%B5%B7%E6%8A%A5.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
