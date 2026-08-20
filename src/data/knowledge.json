@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T03:12:37.600Z",
+  "fetchedAt": "2026-08-20T04:02:38.733Z",
   "items": [
+    {
+      "title": "陳敏之",
+      "extract": "陳敏之，本名陳敏芝，香港女演員及主持，現為無綫電視經理人合約藝員，曾拍攝多套電視劇集，亦有主持時事、綜藝旅遊節目及音樂節目。她於1990年代初期以模特兒身分入行，及至2001年加入TVB後才開始嶄露頭角。她以擁有43吋長腿聞名，獲譽為「索腿天后」。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%95%8F%E4%B9%8B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%E9%99%B3%E6%95%8F%E4%B9%8B.jpg/330px-%E9%99%B3%E6%95%8F%E4%B9%8B.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "三台山德昂族乡",
       "extract": "三台山德昂族乡常简称为三台山乡，是云南省德宏傣族景颇族自治州芒市下辖的一个民族乡，位于芒市中部。三台山乡是中国德昂族人口最集中的乡镇，中国21%的德昂族生活于此，乡内建有中国德昂族博物馆。\n",
@@ -27,13 +34,6 @@
       "extract": "博文山 是布里斯本市內距離市區比較近的一個市轄區，以昆士蘭總督寶雲命名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E6%96%87%E5%B1%B1%E5%8D%80",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Old-Queensland-Museum.jpg/330px-Old-Queensland-Museum.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "比略",
-      "extract": "比略 是法国伊泽尔省的一个市镇，位于该省中北部偏西，属于拉图尔迪潘区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E7%95%A5",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bilieu_vue_g%C3%A9n%C3%A9rale.jpg/330px-Bilieu_vue_g%C3%A9n%C3%A9rale.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
