@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T11:46:20.237Z",
+  "fetchedAt": "2026-08-20T13:14:41.124Z",
   "items": [
+    {
+      "title": "马绍",
+      "extract": "马绍 是法国塞纳-马恩省的一个市镇，属于默伦区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E7%BB%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Rue_Principale_de_Machault_%2877%29.jpg/330px-Rue_Principale_de_Machault_%2877%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "氣墊快駒",
       "extract": "氣墊快駒，是日本純種競賽馬匹。生涯主要出戰中距離賽事，曾勝出2008年美國賽馬會盃。\n",
@@ -27,13 +34,6 @@
       "extract": "水东哥，又稱水冬瓜，为猕猴桃科水东哥属下的一个种。果實可以食用。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%B8%9C%E5%93%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Saurauia_tristyla_-_Hong_Kong_Botanical_Garden_-_IMG_9592.JPG/330px-Saurauia_tristyla_-_Hong_Kong_Botanical_Garden_-_IMG_9592.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "水上警察",
-      "extract": "水上警察简稱水警，又称海上警察等，是指执法机构中负责维护水域（海洋、港口、河流、湖泊、运河等）治安的专门单位，部分水警单位也执行海岸巡防勤务。水警通常使用船隻巡逻，打擊水域的走私、偷渡、抢劫、非法捕撈等违法犯罪行为，在紧急情况下参与对落水者的搜索与救援等。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%B8%8A%E8%AD%A6%E5%AF%9F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/NYPD_boat99pct.jpg/330px-NYPD_boat99pct.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
