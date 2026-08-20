@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T10:50:41.338Z",
+  "fetchedAt": "2026-08-20T11:46:20.237Z",
   "items": [
+    {
+      "title": "氣墊快駒",
+      "extract": "氣墊快駒，是日本純種競賽馬匹。生涯主要出戰中距離賽事，曾勝出2008年美國賽馬會盃。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%A3%E5%A2%8A%E5%BF%AB%E9%A7%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Air_Shady_20080629P1.jpg/330px-Air_Shady_20080629P1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "罗恩·波隆斯基",
       "extract": "罗恩·波隆斯基 是一名以色列奥运游泳选手。他曾夺得2019年欧洲青年锦标赛200米个人混合泳银牌，在2023年欧洲U-23锦标赛和2024年欧洲游泳锦标赛上分别赢得该项目金牌和银牌，并在2024年欧锦赛上与队友赢得混合4×100米混合泳接力金牌。他出战了2020年东京奥运会，并在2024年NCAA第一级别锦标赛100码蛙泳中获得银牌。波隆斯基代表以色列参加了2024年巴黎奥运会的200米个人混合泳、100米蛙泳和男女混合4×100米混合泳接力项目。\n",
@@ -27,13 +34,6 @@
       "extract": "水上警察简稱水警，又称海上警察等，是指执法机构中负责维护水域（海洋、港口、河流、湖泊、运河等）治安的专门单位，部分水警单位也执行海岸巡防勤务。水警通常使用船隻巡逻，打擊水域的走私、偷渡、抢劫、非法捕撈等违法犯罪行为，在紧急情况下参与对落水者的搜索与救援等。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%B8%8A%E8%AD%A6%E5%AF%9F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/NYPD_boat99pct.jpg/330px-NYPD_boat99pct.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "當橘子掉落時",
-      "extract": "《當橘子掉落時》 是一部由GMMTV製作，改編自作家Littleskyofme的同名小說作品。由彭蘇萬·蘇萬那沙提（Almond）與帕薩威·塔馬桑吉提（Progress）領銜主演的泰國同性校園愛情劇。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%95%B6%E6%A9%98%E5%AD%90%E6%8E%89%E8%90%BD%E6%99%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/0e/GMMTV-When_Oranges_Fall.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
