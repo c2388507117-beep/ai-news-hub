@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T14:04:17.451Z",
+  "fetchedAt": "2026-08-20T14:57:40.680Z",
   "items": [
+    {
+      "title": "大家保险集团",
+      "extract": "大家保险集团有限责任公司是中国的一家综合保险集团公司，总部设在北京，创立于2019年7月，创立目的是接管安邦保险集团的主要优质资产。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AE%B6%E4%BF%9D%E9%99%A9%E9%9B%86%E5%9B%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%A4%A7%E5%AE%B6%E4%BF%9D%E9%99%A9.jpg/330px-%E5%A4%A7%E5%AE%B6%E4%BF%9D%E9%99%A9.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "那年花開月正圓",
       "extract": "那年花開月正圓 是於2017年播映的中國大陸古裝電視劇，拍攝于2016年10月至2017年5月，由孙俪及陈晓領銜主演，並由何潤東及任重聯合演出。該劇以陕西省泾阳县安吳堡吳氏家族的真人史實為背景，講述清末出身民間的陝西女首富吴周氏跌宕起伏的人生故事。於2017年8月30日在东方卫视、江苏卫视播出。在台灣則由愛奇藝網路平台獨家播出。\n",
@@ -27,13 +34,6 @@
       "extract": "罗恩·波隆斯基 是一名以色列奥运游泳选手。他曾夺得2019年欧洲青年锦标赛200米个人混合泳银牌，在2023年欧洲U-23锦标赛和2024年欧洲游泳锦标赛上分别赢得该项目金牌和银牌，并在2024年欧锦赛上与队友赢得混合4×100米混合泳接力金牌。他出战了2020年东京奥运会，并在2024年NCAA第一级别锦标赛100码蛙泳中获得银牌。波隆斯基代表以色列参加了2024年巴黎奥运会的200米个人混合泳、100米蛙泳和男女混合4×100米混合泳接力项目。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%81%A9%C2%B7%E6%B3%A2%E9%9A%86%E6%96%AF%E5%9F%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ron_photo.jpg/330px-Ron_photo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "瓦奇拉維·派桑固翁",
-      "extract": "瓦奇拉維·派桑固翁，小名August，為泰國男演員、歌手及模特兒。代表作有《為愛所困》系列、《王子學院之單身律師》、《搞怪女廚2021》、《死神与鬼怪少女》等。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%93%A6%E5%A5%87%E6%8B%89%E7%B6%AD%C2%B7%E6%B4%BE%E6%A1%91%E5%9B%BA%E7%BF%81",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/August_Vachiravit_Paisarnkulwong_%40_The_Moment_Cook_with_Love_3Plus.png/330px-August_Vachiravit_Paisarnkulwong_%40_The_Moment_Cook_with_Love_3Plus.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
