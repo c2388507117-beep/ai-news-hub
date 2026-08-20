@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-20T14:57:35.632Z",
+  "fetchedAt": "2026-08-20T15:50:51.513Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-2552430",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
+      "publishedAt": "2026-08-20T15:50:51.513Z"
     },
     {
       "id": "steam-1771300",
@@ -38,7 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
+    },
+    {
+      "id": "steam-4001890",
+      "title": "渔力全开",
+      "url": "https://store.steampowered.com/app/4001890?l=schinese",
+      "discount": 38,
+      "originalPrice": 7.99,
+      "finalPrice": 4.95,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-20T15:50:51.513Z"
     },
     {
       "id": "steam-2163330",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-2358720",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.364Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-1643320",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
+      "publishedAt": "2026-08-20T15:50:51.513Z"
     },
     {
       "id": "steam-4132330",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-3636770",
@@ -103,20 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-2950790",
       "title": "铁巢重炮",
       "url": "https://store.steampowered.com/app/2950790?l=schinese",
       "discount": 25,
-      "originalPrice": 19.99,
-      "finalPrice": 14.99,
+      "originalPrice": 59,
+      "finalPrice": 44.25,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-4292950",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-1067360",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
+      "publishedAt": "2026-08-20T15:50:51.513Z"
     },
     {
       "id": "steam-4164790",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-4026250",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
+      "publishedAt": "2026-08-20T15:50:51.513Z"
     },
     {
       "id": "steam-4315040",
@@ -181,20 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
-    },
-    {
-      "id": "steam-1408027",
-      "title": "STEINS;GATE REBOOT",
-      "url": "https://store.steampowered.com/app/1408027?l=schinese",
-      "discount": 10,
-      "originalPrice": 198,
-      "finalPrice": 178.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1408027/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.365Z"
+      "publishedAt": "2026-08-20T15:50:51.312Z"
     },
     {
       "id": "steam-3812600",
@@ -207,20 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
-    },
-    {
-      "id": "steam-3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "url": "https://store.steampowered.com/app/3849000?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-20T14:57:35.632Z"
+      "publishedAt": "2026-08-20T15:50:51.513Z"
     }
   ]
 }
