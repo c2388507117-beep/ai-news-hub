@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T21:42:32.619Z",
+  "fetchedAt": "2026-08-21T22:44:50.809Z",
   "items": [
+    {
+      "title": "北艾于達爾",
+      "extract": "北艾于達爾 是挪威的一個市镇，位於内陆郡，行政中心为法格爾斯村。市镇面积为907平方公里，人口数量为6,539人（2004年），人口密度为每平方公里8人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E8%89%BE%E4%BA%8E%E9%81%94%E7%88%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Fagernes%2C_Nord-Aurdal.JPG/330px-Fagernes%2C_Nord-Aurdal.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "棉冠獠狨",
       "extract": "棉冠獠狨，又名斑柽柳猴、斑狨或戈氏狨，是一種黑白色的檉柳猴屬，頭頂上有紅毛。牠們分佈在巴拿馬及哥倫比亞。一些學者看牠們為絨頂檉柳猴的亞種，但牠們應該是獨立的物種。\n",
@@ -27,13 +34,6 @@
       "extract": "西铁营站是一个位于中国北京市丰台区右安门街道凉水河南侧，玉林南路与京开东路交叉口东侧，属于北京地铁14号线的地铁车站。因丽泽商务区站进场滞后，14号线分东、西两段运营，本站暂不开通，直至2021年12月31日才开通运营。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E9%93%81%E8%90%A5%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Platform_of_Xitieying_Station_%2820220102182648%29.jpg/330px-Platform_of_Xitieying_Station_%2820220102182648%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "威廉·肯尼迪·迪克森",
-      "extract": "威廉·肯尼迪·劳里·迪克森，法国-苏格兰人，发明家，在托马斯·爱迪生的公司研制出电影摄像机和活动电影放映机。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%82%AF%E5%B0%BC%E8%BF%AA%C2%B7%E8%BF%AA%E5%85%8B%E6%A3%AE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Dickson_greeting.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
