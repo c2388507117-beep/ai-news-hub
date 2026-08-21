@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T08:00:29.936Z",
+  "fetchedAt": "2026-08-21T09:01:08.180Z",
   "items": [
+    {
+      "title": "使命召唤：黑色行动III",
+      "extract": "《使命召唤：黑色行动III》 是一款由Treyarch开发，动视发行的第一人称射击游戏。游戏是2012年《使命召唤：黑色行动II》的续作，于2015年11月6日登陆Microsoft Windows、PlayStation 3、PlayStation 4、Xbox 360和Xbox One平台。不过PlayStation 3和Xbox 360版本中将不会包含单人剧情模式，只保留多人对战内容。此外本作也将是继系列第一、二部之后时隔多年的有中文化的主系列作品，游戏将包含简体中文和繁体中文版本。发售后，游戏获得了积极评价并在商业上取得成功。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%BF%E5%91%BD%E5%8F%AC%E5%94%A4%EF%BC%9A%E9%BB%91%E8%89%B2%E8%A1%8C%E5%8A%A8III",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/d9/COD12_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "桑尼·薩卡基尼",
       "extract": "桑尼·喬治·薩利姆·薩卡基尼 為巴勒斯坦國男子籃球運動員，場上位置為大前鋒，最後效力於台灣職業籃球大聯盟新北國王。\n",
@@ -27,13 +34,6 @@
       "extract": "阿尔贝克 是德国梅克伦堡-前波莫瑞州的一个市镇，隶属于前波美拉尼亚-格赖夫斯瓦尔德县。总面积为18.66平方千米，截至2020年总人口为597人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E8%B4%9D%E5%85%8B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ahlbeck_%28bei_Ueckerm%C3%BCnde%29_in_VG.svg/langzh-330px-Ahlbeck_%28bei_Ueckerm%C3%BCnde%29_in_VG.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "伍斯特理工学院",
-      "extract": "伍斯特理工学院，旧译：吴士脱大学，是一所位于美国马萨诸塞州伍斯特市的私立大学，于1865年建校，是一所小型的私立大学有14个院系，提供超过50种学位项目，包括理科、工程类学科、商科、社科及人文学科，学生可获学士，硕士，及哲学博士学位。2018年《美國新聞與世界報道》將其列在全美大學排名中的第59位。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8D%E6%96%AF%E7%89%B9%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/WPI_Alden_Memorial.JPG/330px-WPI_Alden_Memorial.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
