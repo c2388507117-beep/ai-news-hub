@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T20:43:33.652Z",
+  "fetchedAt": "2026-08-21T21:42:32.619Z",
   "items": [
+    {
+      "title": "棉冠獠狨",
+      "extract": "棉冠獠狨，又名斑柽柳猴、斑狨或戈氏狨，是一種黑白色的檉柳猴屬，頭頂上有紅毛。牠們分佈在巴拿馬及哥倫比亞。一些學者看牠們為絨頂檉柳猴的亞種，但牠們應該是獨立的物種。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A3%89%E5%86%A0%E7%8D%A0%E7%8B%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Geoffroy%27s_tamarin_%28Saguinus_geoffroyi%29_2.jpg/330px-Geoffroy%27s_tamarin_%28Saguinus_geoffroyi%29_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "儋州市",
       "extract": "儋（dān）州市，简称儋，是中华人民共和国海南省下辖的地级市，位於海南省西北部。市境东接临高县、澄迈县，南邻琼中黎族苗族自治县、白沙黎族自治县，西界昌江县，北临北部灣。地处海南岛西北部低山丘陵区，地势自东南向西北递降。主要河流有北门江、春江、珠碧江等。全市总面积3,394平方公里，总人口約108万人，儋州是海南省西部的經濟、交通、通信和文化中心。市人民政府驻那大镇中兴大街中1号。\n",
@@ -27,13 +34,6 @@
       "extract": "威廉·肯尼迪·劳里·迪克森，法国-苏格兰人，发明家，在托马斯·爱迪生的公司研制出电影摄像机和活动电影放映机。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%82%AF%E5%B0%BC%E8%BF%AA%C2%B7%E8%BF%AA%E5%85%8B%E6%A3%AE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Dickson_greeting.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "秦霍人",
-      "extract": "秦霍人，今日慣稱泰國雲南人，是指历史上从中国云南经缅甸或老挝迁移到泰国的汉族和回族移民及其後裔。由于云南回族马帮商人前往泰北的时间最早，商贸活动最频繁，移居时间最早，所占人数最多，因此西方文献和今天泰语中惯称的所谓“秦和人”，主要专指云南籍回族穆斯林。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E9%9C%8D%E4%BA%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Baan_Haw_Mosque_4-6-09.jpg/330px-Baan_Haw_Mosque_4-6-09.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

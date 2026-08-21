@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-21T20:43:28.915Z",
+  "fetchedAt": "2026-08-21T21:42:27.989Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-1142710",
@@ -25,20 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
-    },
-    {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
-      "url": "https://store.steampowered.com/app/227300?l=schinese",
-      "discount": 75,
-      "originalPrice": 88,
-      "finalPrice": 22,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-1687950",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-2161700",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-1771300",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-1868140",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-4001890",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.781Z"
     },
     {
       "id": "steam-2358720",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-1643320",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
+      "publishedAt": "2026-08-21T21:42:27.989Z"
     },
     {
       "id": "steam-3065940",
@@ -142,20 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
-    },
-    {
-      "id": "steam-2432860",
-      "title": "威赫战线 MENACE",
-      "url": "https://store.steampowered.com/app/2432860?l=schinese",
-      "discount": 25,
-      "originalPrice": 39.99,
-      "finalPrice": 29.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
+      "publishedAt": "2026-08-21T21:42:27.989Z"
     },
     {
       "id": "steam-4294490",
@@ -168,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
+      "publishedAt": "2026-08-21T21:42:27.989Z"
     },
     {
       "id": "steam-4164790",
@@ -181,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.709Z"
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-4026250",
@@ -194,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
+      "publishedAt": "2026-08-21T21:42:27.989Z"
+    },
+    {
+      "id": "steam-3196440",
+      "title": "度假咖啡厅模拟器",
+      "url": "https://store.steampowered.com/app/3196440?l=schinese",
+      "discount": 10,
+      "originalPrice": 77,
+      "finalPrice": 69.3,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-21T21:42:27.782Z"
     },
     {
       "id": "steam-4131730",
@@ -207,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
+      "publishedAt": "2026-08-21T21:42:27.989Z"
     },
     {
       "id": "steam-3817250",
@@ -220,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3817250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T20:43:28.914Z"
+      "publishedAt": "2026-08-21T21:42:27.989Z"
     }
   ]
 }
