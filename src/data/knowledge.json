@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T16:54:52.706Z",
+  "fetchedAt": "2026-08-21T17:48:51.851Z",
   "items": [
+    {
+      "title": "威廉·肯尼迪·迪克森",
+      "extract": "威廉·肯尼迪·劳里·迪克森，法国-苏格兰人，发明家，在托马斯·爱迪生的公司研制出电影摄像机和活动电影放映机。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%82%AF%E5%B0%BC%E8%BF%AA%C2%B7%E8%BF%AA%E5%85%8B%E6%A3%AE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Dickson_greeting.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "秦霍人",
       "extract": "秦霍人，今日慣稱泰國雲南人，是指历史上从中国云南经缅甸或老挝迁移到泰国的汉族和回族移民及其後裔。由于云南回族马帮商人前往泰北的时间最早，商贸活动最频繁，移居时间最早，所占人数最多，因此西方文献和今天泰语中惯称的所谓“秦和人”，主要专指云南籍回族穆斯林。\n",
@@ -27,13 +34,6 @@
       "extract": "沙蒂永 是瑞士汝拉州的市镇，位於該國西北部，面積5.31平方公里，海拔高度523米，2011年人口441，八成人口信奉羅馬天主教，人口密度每平方公里83人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E8%92%82%E6%B0%B8_(%E6%B1%9D%E6%8B%89%E5%B7%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2016-Chatillon-JU-Kapelle.jpg/330px-2016-Chatillon-JU-Kapelle.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "AMX-30E主力戰車",
-      "extract": "AMX-30E 是法國AMX-30主力戰車的西班牙衍生型。西班牙本土的國防承包商聖塔芭芭拉系統公司於1974年至1983年間為西班牙陸軍生產了280輛AMX-30E。\n",
-      "url": "https://zh.wikipedia.org/wiki/AMX-30E%E4%B8%BB%E5%8A%9B%E6%88%B0%E8%BB%8A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/AMX30_afar.jpg/330px-AMX30_afar.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
