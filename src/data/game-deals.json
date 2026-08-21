@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-21T07:10:47.919Z",
+  "fetchedAt": "2026-08-21T08:00:24.844Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-1687950",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-1771300",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-4001890",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-2163330",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-2358720",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.746Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-1643320",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.919Z"
+      "publishedAt": "2026-08-21T08:00:24.844Z"
     },
     {
       "id": "steam-3636770",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-3065940",
@@ -116,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.919Z"
+      "publishedAt": "2026-08-21T08:00:24.844Z"
+    },
+    {
+      "id": "steam-2432860",
+      "title": "威赫战线 MENACE",
+      "url": "https://store.steampowered.com/app/2432860?l=schinese",
+      "discount": 25,
+      "originalPrice": 39.99,
+      "finalPrice": 29.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-21T08:00:24.844Z"
     },
     {
       "id": "steam-4292950",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-4294490",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.919Z"
+      "publishedAt": "2026-08-21T08:00:24.844Z"
     },
     {
       "id": "steam-4164790",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-4026250",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.919Z"
+      "publishedAt": "2026-08-21T08:00:24.844Z"
     },
     {
       "id": "steam-4315040",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.747Z"
+      "publishedAt": "2026-08-21T08:00:24.621Z"
     },
     {
       "id": "steam-903930",
@@ -194,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.919Z"
+      "publishedAt": "2026-08-21T08:00:24.844Z"
     },
     {
       "id": "steam-3849000",
@@ -207,7 +220,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T07:10:47.919Z"
+      "publishedAt": "2026-08-21T08:00:24.844Z"
     }
   ]
 }
