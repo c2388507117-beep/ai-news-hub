@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T09:01:08.180Z",
+  "fetchedAt": "2026-08-21T09:54:14.461Z",
   "items": [
+    {
+      "title": "阿邦库尔 (瓦兹省)",
+      "extract": "阿邦库尔 是法国瓦兹省的一个市镇，位于该省西北部，属于博韦区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%82%A6%E5%BA%93%E5%B0%94_(%E7%93%A6%E5%85%B9%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gare_d%27Abancourt_-_Ext%C3%A9rieur.JPG/330px-Gare_d%27Abancourt_-_Ext%C3%A9rieur.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "使命召唤：黑色行动III",
       "extract": "《使命召唤：黑色行动III》 是一款由Treyarch开发，动视发行的第一人称射击游戏。游戏是2012年《使命召唤：黑色行动II》的续作，于2015年11月6日登陆Microsoft Windows、PlayStation 3、PlayStation 4、Xbox 360和Xbox One平台。不过PlayStation 3和Xbox 360版本中将不会包含单人剧情模式，只保留多人对战内容。此外本作也将是继系列第一、二部之后时隔多年的有中文化的主系列作品，游戏将包含简体中文和繁体中文版本。发售后，游戏获得了积极评价并在商业上取得成功。\n",
@@ -27,13 +34,6 @@
       "extract": "白帶簾蛺蝶 是屬於蛺蝶亞科維蛺蝶族的一種蝴蝶，是簾蛺蝶屬的一種。共有2個亞種。相對稀有地分佈於中美洲之墨西哥至哥斯達黎加一帶森林，模式產地為危地馬拉。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E5%B8%B6%E7%B0%BE%E8%9B%BA%E8%9D%B6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Siproeta_superba_MHNT_dos.jpg/330px-Siproeta_superba_MHNT_dos.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿尔贝克",
-      "extract": "阿尔贝克 是德国梅克伦堡-前波莫瑞州的一个市镇，隶属于前波美拉尼亚-格赖夫斯瓦尔德县。总面积为18.66平方千米，截至2020年总人口为597人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%94%E8%B4%9D%E5%85%8B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ahlbeck_%28bei_Ueckerm%C3%BCnde%29_in_VG.svg/langzh-330px-Ahlbeck_%28bei_Ueckerm%C3%BCnde%29_in_VG.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
