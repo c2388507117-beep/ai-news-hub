@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-21T04:56:40.576Z",
+  "fetchedAt": "2026-08-21T05:50:41.382Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-1687950",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-1771300",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-4001890",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-2163330",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-2358720",
@@ -77,46 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
-    },
-    {
-      "id": "steam-1643320",
-      "title": "潜行者2：切尔诺贝利之心",
-      "url": "https://store.steampowered.com/app/1643320?l=schinese",
-      "discount": 30,
-      "originalPrice": 59.99,
-      "finalPrice": 41.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-3065940",
       "title": "加里波利",
       "url": "https://store.steampowered.com/app/3065940?l=schinese",
       "discount": 25,
-      "originalPrice": 29.99,
-      "finalPrice": 22.49,
+      "originalPrice": 172,
+      "finalPrice": 129,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
-    },
-    {
-      "id": "steam-2432860",
-      "title": "威赫战线 MENACE",
-      "url": "https://store.steampowered.com/app/2432860?l=schinese",
-      "discount": 25,
-      "originalPrice": 39.99,
-      "finalPrice": 29.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
+      "publishedAt": "2026-08-21T05:50:41.382Z"
     },
     {
       "id": "steam-4292950",
@@ -129,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
-    },
-    {
-      "id": "steam-4294490",
-      "title": "KOTAMON：妹妹麦片盒开出超稀有卡牌，我干脆当垃圾清运工集齐整套藏品怒赚百万美元",
-      "url": "https://store.steampowered.com/app/4294490?l=schinese",
-      "discount": 20,
-      "originalPrice": 6.99,
-      "finalPrice": 5.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-4164790",
@@ -155,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
-    },
-    {
-      "id": "steam-4026250",
-      "title": "Project P.I.T.T.",
-      "url": "https://store.steampowered.com/app/4026250?l=schinese",
-      "discount": 15,
-      "originalPrice": 9.99,
-      "finalPrice": 8.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-3196440",
@@ -181,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
       "id": "steam-4315040",
@@ -194,33 +142,46 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4315040/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.431Z"
+      "publishedAt": "2026-08-21T05:50:41.300Z"
     },
     {
-      "id": "steam-903930",
-      "title": "Brigador Killers",
-      "url": "https://store.steampowered.com/app/903930?l=schinese",
+      "id": "steam-4321510",
+      "title": "与魔性的她…",
+      "url": "https://store.steampowered.com/app/4321510?l=schinese",
       "discount": 10,
-      "originalPrice": 24.99,
-      "finalPrice": 22.49,
+      "originalPrice": 79,
+      "finalPrice": 71.1,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903930/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4321510/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
+      "publishedAt": "2026-08-21T05:50:41.382Z"
     },
     {
-      "id": "steam-3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "url": "https://store.steampowered.com/app/3849000?l=schinese",
+      "id": "steam-4706950",
+      "title": "Yakuza Rogue EX: Officer Ayukawa Hikaru",
+      "url": "https://store.steampowered.com/app/4706950?l=schinese",
       "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
+      "originalPrice": 68,
+      "finalPrice": 61.2,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4706950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T04:56:40.576Z"
+      "publishedAt": "2026-08-21T05:50:41.382Z"
+    },
+    {
+      "id": "steam-3236900",
+      "title": "重生酒馆",
+      "url": "https://store.steampowered.com/app/3236900?l=schinese",
+      "discount": 10,
+      "originalPrice": 87,
+      "finalPrice": 78.3,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3236900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-21T05:50:41.382Z"
     }
   ]
 }

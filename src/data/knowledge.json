@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T04:56:45.434Z",
+  "fetchedAt": "2026-08-21T05:50:46.042Z",
   "items": [
+    {
+      "title": "白帶簾蛺蝶",
+      "extract": "白帶簾蛺蝶 是屬於蛺蝶亞科維蛺蝶族的一種蝴蝶，是簾蛺蝶屬的一種。共有2個亞種。相對稀有地分佈於中美洲之墨西哥至哥斯達黎加一帶森林，模式產地為危地馬拉。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E5%B8%B6%E7%B0%BE%E8%9B%BA%E8%9D%B6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Siproeta_superba_MHNT_dos.jpg/330px-Siproeta_superba_MHNT_dos.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "阿尔贝克",
       "extract": "阿尔贝克 是德国梅克伦堡-前波莫瑞州的一个市镇，隶属于前波美拉尼亚-格赖夫斯瓦尔德县。总面积为18.66平方千米，截至2020年总人口为597人。\n",
@@ -27,13 +34,6 @@
       "extract": "重庆长安汽车股份有限公司，简称长安汽车、重庆长安，其历史可以追溯至1862年成立的上海洋炮局，经过多次改制后改为现名，1983年进入汽车领域，为中国汽车行业第一阵营、第一自主品牌、第一研发实力企业，现有资产1033亿元人民币，员工8万余人。长安汽车现生产微客、乘用车等产品。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AE%89%E6%B1%BD%E8%BD%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Changan_icon.svg/langzh-330px-Changan_icon.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "費德里科·阿格利亞迪",
-      "extract": "費德里科·阿格利亞迪 是一位意大利足球運動員。在場上的位置是守門員。他現在效力於意大利足球乙級聯賽球隊切塞納足球俱樂部。他也曾經效力於博洛尼亞。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E5%BE%B7%E9%87%8C%E7%A7%91%C2%B7%E9%98%BF%E6%A0%BC%E5%88%A9%E4%BA%9E%E8%BF%AA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Agliardi_ritaglio.jpg/330px-Agliardi_ritaglio.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
