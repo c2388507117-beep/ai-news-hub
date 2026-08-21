@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-20T23:43:27.082Z",
+  "fetchedAt": "2026-08-21T02:00:35.847Z",
   "items": [
+    {
+      "title": "达尔文蛙",
+      "extract": "达尔文蛙 是尖吻蛙屬下的一個物種。它是查尔斯·达尔文乘坐小獵犬號航行到智利时发现的。1841年，法国动物学家安德烈·马里·康斯坦·迪梅里和他的助手描述并命名了达尔文蛙。达尔文蛙的食物主要为食草无脊椎动物。目前國際自然保護聯盟将达尔文蛙列为濒危物种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%BE%BE%E5%B0%94%E6%96%87%E8%9B%99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ranita_de_Darwin_%28Rhinoderma_darwinii%29.png/330px-Ranita_de_Darwin_%28Rhinoderma_darwinii%29.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "长安汽车",
       "extract": "重庆长安汽车股份有限公司，简称长安汽车、重庆长安，其历史可以追溯至1862年成立的上海洋炮局，经过多次改制后改为现名，1983年进入汽车领域，为中国汽车行业第一阵营、第一自主品牌、第一研发实力企业，现有资产1033亿元人民币，员工8万余人。长安汽车现生产微客、乘用车等产品。\n",
@@ -27,13 +34,6 @@
       "extract": "亚历山大·费奥多罗维奇·克伦斯基，俄國政治人物、革命家，在1917年俄国革命中扮演重要角色。他领导的二月革命推翻了沙皇的统治，在新政府中他任政府总理，1917年11月，他的政府被布尔什维克发起的十月革命推翻。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E5%85%8B%E4%BC%A6%E6%96%AF%E5%9F%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Karenskiy_AF_1917.jpg/330px-Karenskiy_AF_1917.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "小巧硬毛鼠属",
-      "extract": "小巧硬毛鼠属 是啮齿目硬毛鼠科中的一属，包含5种：\n加氏小巧硬毛鼠 \n冈氏小巧硬毛鼠 \n黑小巧硬毛鼠 \n南方小巧硬毛鼠 \n巧尾硬毛鼠 ",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E5%B7%A7%E7%A1%AC%E6%AF%9B%E9%BC%A0%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Capromys_prehensilis_%28Harvard_University%29.JPG/330px-Capromys_prehensilis_%28Harvard_University%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
