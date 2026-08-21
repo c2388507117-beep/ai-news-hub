@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T10:51:29.678Z",
+  "fetchedAt": "2026-08-21T11:45:36.434Z",
   "items": [
+    {
+      "title": "水鹿",
+      "extract": "水鹿，古稱山馬，属哺乳纲偶蹄目的一种鹿。为IUCN易危物种，中国国家II级重点保护野生动物。其种加词unicolor意为“单色的”。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E9%B9%BF",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sambar_%28Cervus_unicolor_unicolor%29_male.jpg/330px-Sambar_%28Cervus_unicolor_unicolor%29_male.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "亞倫·路普",
       "extract": "亞倫·克里斯多福·路普，為美國職棒大聯盟的投手，目前為自由球員。他於2009年美國職棒大聯盟選秀第9輪被藍鳥隊選走，並於2014年登上大聯盟。他先前曾效力過藍鳥、費城人、教士、光芒、大都會與天使等隊。\n",
@@ -27,13 +34,6 @@
       "extract": "桑尼·喬治·薩利姆·薩卡基尼 為巴勒斯坦國男子籃球運動員，場上位置為大前鋒，最後效力於台灣職業籃球大聯盟新北國王。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A1%91%E5%B0%BC%C2%B7%E8%96%A9%E5%8D%A1%E5%9F%BA%E5%B0%BC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2021%E5%B9%B412%E6%9C%8825%E6%97%A5_Sani_Sakakini_%E8%87%BA%E4%B8%AD%E5%B8%82%E6%94%BF%E5%BA%9C.jpg/330px-2021%E5%B9%B412%E6%9C%8825%E6%97%A5_Sani_Sakakini_%E8%87%BA%E4%B8%AD%E5%B8%82%E6%94%BF%E5%BA%9C.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "金陵饭店",
-      "extract": "金陵饭店，位于中国江苏省南京新街口，距离南京禄口机场35公里，南京火车站5公里，是江苏省第一家豪华五星级饭店，名列“中国旅游业标志性饭店”。曾是中国第一高楼，中国第一家由中国人自己管理的大型现代化酒店，国际媒体视之为“中国改革开放的窗口”、“中国四个现代化在旅游业的试金石”。有中国第一个高层旋转餐厅，中国第一部高速电梯，中国第一个高楼直升机停机坪。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E9%A5%AD%E5%BA%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Jinling_Hotel.jpg/330px-Jinling_Hotel.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
