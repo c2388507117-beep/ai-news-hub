@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T05:50:46.042Z",
+  "fetchedAt": "2026-08-21T07:10:52.913Z",
   "items": [
+    {
+      "title": "金陵饭店",
+      "extract": "金陵饭店，位于中国江苏省南京新街口，距离南京禄口机场35公里，南京火车站5公里，是江苏省第一家豪华五星级饭店，名列“中国旅游业标志性饭店”。曾是中国第一高楼，中国第一家由中国人自己管理的大型现代化酒店，国际媒体视之为“中国改革开放的窗口”、“中国四个现代化在旅游业的试金石”。有中国第一个高层旋转餐厅，中国第一部高速电梯，中国第一个高楼直升机停机坪。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E9%A5%AD%E5%BA%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Jinling_Hotel.jpg/330px-Jinling_Hotel.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "白帶簾蛺蝶",
       "extract": "白帶簾蛺蝶 是屬於蛺蝶亞科維蛺蝶族的一種蝴蝶，是簾蛺蝶屬的一種。共有2個亞種。相對稀有地分佈於中美洲之墨西哥至哥斯達黎加一帶森林，模式產地為危地馬拉。\n",
@@ -27,13 +34,6 @@
       "extract": "达尔文蛙 是尖吻蛙屬下的一個物種。它是查尔斯·达尔文乘坐小獵犬號航行到智利时发现的。1841年，法国动物学家安德烈·马里·康斯坦·迪梅里和他的助手描述并命名了达尔文蛙。达尔文蛙的食物主要为食草无脊椎动物。目前國際自然保護聯盟将达尔文蛙列为濒危物种。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%BE%BE%E5%B0%94%E6%96%87%E8%9B%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ranita_de_Darwin_%28Rhinoderma_darwinii%29.png/330px-Ranita_de_Darwin_%28Rhinoderma_darwinii%29.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "长安汽车",
-      "extract": "重庆长安汽车股份有限公司，简称长安汽车、重庆长安，其历史可以追溯至1862年成立的上海洋炮局，经过多次改制后改为现名，1983年进入汽车领域，为中国汽车行业第一阵营、第一自主品牌、第一研发实力企业，现有资产1033亿元人民币，员工8万余人。长安汽车现生产微客、乘用车等产品。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AE%89%E6%B1%BD%E8%BD%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Changan_icon.svg/langzh-330px-Changan_icon.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
