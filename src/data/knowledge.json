@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T19:41:06.647Z",
+  "fetchedAt": "2026-08-21T20:43:33.652Z",
   "items": [
+    {
+      "title": "儋州市",
+      "extract": "儋（dān）州市，简称儋，是中华人民共和国海南省下辖的地级市，位於海南省西北部。市境东接临高县、澄迈县，南邻琼中黎族苗族自治县、白沙黎族自治县，西界昌江县，北临北部灣。地处海南岛西北部低山丘陵区，地势自东南向西北递降。主要河流有北门江、春江、珠碧江等。全市总面积3,394平方公里，总人口約108万人，儋州是海南省西部的經濟、交通、通信和文化中心。市人民政府驻那大镇中兴大街中1号。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%84%8B%E5%B7%9E%E5%B8%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Location_of_Danzhou_within_Hainan_%28China%29.png/330px-Location_of_Danzhou_within_Hainan_%28China%29.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "火威青",
       "extract": "火威青，是hololive所属的一位日語虚拟主播，於2023年9月9日出道。\n\n",
@@ -27,13 +34,6 @@
       "extract": "秦霍人，今日慣稱泰國雲南人，是指历史上从中国云南经缅甸或老挝迁移到泰国的汉族和回族移民及其後裔。由于云南回族马帮商人前往泰北的时间最早，商贸活动最频繁，移居时间最早，所占人数最多，因此西方文献和今天泰语中惯称的所谓“秦和人”，主要专指云南籍回族穆斯林。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E9%9C%8D%E4%BA%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Baan_Haw_Mosque_4-6-09.jpg/330px-Baan_Haw_Mosque_4-6-09.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "费利克斯·格林",
-      "extract": "费利克斯·格林，是一位英国记者，撰写了共产主义国家越南、古巴、中国、西藏相关文章。曾被《华尔街日报》指责刻意隐瞒中国发生饥荒的严重程度，因此被称为“同路人”。与作家格雷厄姆·格林为堂兄弟。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B4%B9%E5%88%A9%E5%85%8B%E6%96%AF%C2%B7%E6%A0%BC%E6%9E%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Felix_Greene_%281968%29.jpg/330px-Felix_Greene_%281968%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

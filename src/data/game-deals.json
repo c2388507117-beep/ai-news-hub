@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-21T19:41:00.591Z",
+  "fetchedAt": "2026-08-21T20:43:28.915Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
+    },
+    {
+      "id": "steam-1142710",
+      "title": "全面战争：战锤3",
+      "url": "https://store.steampowered.com/app/1142710?l=schinese",
+      "discount": 85,
+      "originalPrice": 298,
+      "finalPrice": 44.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-227300",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-1687950",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-2161700",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-1771300",
@@ -64,7 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
+    },
+    {
+      "id": "steam-1868140",
+      "title": "潜水员戴夫 DAVE THE DIVER",
+      "url": "https://store.steampowered.com/app/1868140?l=schinese",
+      "discount": 50,
+      "originalPrice": 80,
+      "finalPrice": 40,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-4001890",
@@ -77,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
-    },
-    {
-      "id": "steam-2163330",
-      "title": "Yet Another Zombie Survivors - 又一个僵尸幸存者",
-      "url": "https://store.steampowered.com/app/2163330?l=schinese",
-      "discount": 35,
-      "originalPrice": 58,
-      "finalPrice": 37.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-2358720",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-1643320",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     },
     {
       "id": "steam-3065940",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     },
     {
       "id": "steam-2432860",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     },
     {
       "id": "steam-4294490",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     },
     {
       "id": "steam-4164790",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.709Z"
     },
     {
       "id": "steam-4026250",
@@ -181,20 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
-    },
-    {
-      "id": "steam-3196440",
-      "title": "度假咖啡厅模拟器",
-      "url": "https://store.steampowered.com/app/3196440?l=schinese",
-      "discount": 10,
-      "originalPrice": 77,
-      "finalPrice": 69.3,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.367Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     },
     {
       "id": "steam-4131730",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     },
     {
       "id": "steam-3817250",
@@ -220,20 +220,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3817250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
-    },
-    {
-      "id": "steam-3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "url": "https://store.steampowered.com/app/3849000?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-21T19:41:00.591Z"
+      "publishedAt": "2026-08-21T20:43:28.914Z"
     }
   ]
 }
