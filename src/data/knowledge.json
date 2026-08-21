@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T13:14:34.558Z",
+  "fetchedAt": "2026-08-21T14:01:42.639Z",
   "items": [
+    {
+      "title": "沙蒂永 (汝拉州)",
+      "extract": "沙蒂永 是瑞士汝拉州的市镇，位於該國西北部，面積5.31平方公里，海拔高度523米，2011年人口441，八成人口信奉羅馬天主教，人口密度每平方公里83人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E8%92%82%E6%B0%B8_(%E6%B1%9D%E6%8B%89%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2016-Chatillon-JU-Kapelle.jpg/330px-2016-Chatillon-JU-Kapelle.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "AMX-30E主力戰車",
       "extract": "AMX-30E 是法國AMX-30主力戰車的西班牙衍生型。西班牙本土的國防承包商聖塔芭芭拉系統公司於1974年至1983年間為西班牙陸軍生產了280輛AMX-30E。\n",
@@ -27,13 +34,6 @@
       "extract": "阿邦库尔 是法国瓦兹省的一个市镇，位于该省西北部，属于博韦区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%82%A6%E5%BA%93%E5%B0%94_(%E7%93%A6%E5%85%B9%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gare_d%27Abancourt_-_Ext%C3%A9rieur.JPG/330px-Gare_d%27Abancourt_-_Ext%C3%A9rieur.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "使命召唤：黑色行动III",
-      "extract": "《使命召唤：黑色行动III》 是一款由Treyarch开发，动视发行的第一人称射击游戏。游戏是2012年《使命召唤：黑色行动II》的续作，于2015年11月6日登陆Microsoft Windows、PlayStation 3、PlayStation 4、Xbox 360和Xbox One平台。不过PlayStation 3和Xbox 360版本中将不会包含单人剧情模式，只保留多人对战内容。此外本作也将是继系列第一、二部之后时隔多年的有中文化的主系列作品，游戏将包含简体中文和繁体中文版本。发售后，游戏获得了积极评价并在商业上取得成功。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BD%BF%E5%91%BD%E5%8F%AC%E5%94%A4%EF%BC%9A%E9%BB%91%E8%89%B2%E8%A1%8C%E5%8A%A8III",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/d/d9/COD12_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
