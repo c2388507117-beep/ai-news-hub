@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-21T15:50:56.960Z",
+  "fetchedAt": "2026-08-21T16:54:52.706Z",
   "items": [
+    {
+      "title": "秦霍人",
+      "extract": "秦霍人，今日慣稱泰國雲南人，是指历史上从中国云南经缅甸或老挝迁移到泰国的汉族和回族移民及其後裔。由于云南回族马帮商人前往泰北的时间最早，商贸活动最频繁，移居时间最早，所占人数最多，因此西方文献和今天泰语中惯称的所谓“秦和人”，主要专指云南籍回族穆斯林。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E9%9C%8D%E4%BA%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Baan_Haw_Mosque_4-6-09.jpg/330px-Baan_Haw_Mosque_4-6-09.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "费利克斯·格林",
       "extract": "费利克斯·格林，是一位英国记者，撰写了共产主义国家越南、古巴、中国、西藏相关文章。曾被《华尔街日报》指责刻意隐瞒中国发生饥荒的严重程度，因此被称为“同路人”。与作家格雷厄姆·格林为堂兄弟。\n",
@@ -27,13 +34,6 @@
       "extract": "AMX-30E 是法國AMX-30主力戰車的西班牙衍生型。西班牙本土的國防承包商聖塔芭芭拉系統公司於1974年至1983年間為西班牙陸軍生產了280輛AMX-30E。\n",
       "url": "https://zh.wikipedia.org/wiki/AMX-30E%E4%B8%BB%E5%8A%9B%E6%88%B0%E8%BB%8A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/AMX30_afar.jpg/330px-AMX30_afar.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "水鹿",
-      "extract": "水鹿，古稱山馬，属哺乳纲偶蹄目的一种鹿。为IUCN易危物种，中国国家II级重点保护野生动物。其种加词unicolor意为“单色的”。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E9%B9%BF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sambar_%28Cervus_unicolor_unicolor%29_male.jpg/330px-Sambar_%28Cervus_unicolor_unicolor%29_male.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
