@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T03:10:15.137Z",
+  "fetchedAt": "2026-08-22T03:59:28.617Z",
   "items": [
+    {
+      "title": "木榄属",
+      "extract": "木榄属 是金虎尾目红树科下的一个属，为乔木植物。该属共有5个种及3个杂交种，分布于印度-西太平洋地区，均为典型的红树林植物。该属的物种普遍具有红树科树叶与树干特征，树干上常见皮孔，具有特殊的膝状根系。属内物种依据其花序中花芽的数量与大小、花萼数量与形状以及花瓣上是否存在刺毛可以进行区分。属内常有杂交事件，但已发现的三个杂交个体均以木榄Bruguiera gymnorhiza为父本。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%A8%E6%A6%84%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bruguiera_gymnorrhiza00.jpg/330px-Bruguiera_gymnorrhiza00.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "唐·卡洛",
       "extract": "《唐·卡洛》 是一部五幕法文歌劇，改編自席勒的劇作《西班牙王子唐·卡洛斯》，由威尔第作曲，Camille du Locle及Joseph Méry編寫劇本。1867年3月11日於巴黎歌劇院首演。\n",
@@ -27,13 +34,6 @@
       "extract": "北艾于達爾 是挪威的一個市镇，位於内陆郡，行政中心为法格爾斯村。市镇面积为907平方公里，人口数量为6,539人（2004年），人口密度为每平方公里8人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E8%89%BE%E4%BA%8E%E9%81%94%E7%88%BE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Fagernes%2C_Nord-Aurdal.JPG/330px-Fagernes%2C_Nord-Aurdal.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "棉冠獠狨",
-      "extract": "棉冠獠狨，又名斑柽柳猴、斑狨或戈氏狨，是一種黑白色的檉柳猴屬，頭頂上有紅毛。牠們分佈在巴拿馬及哥倫比亞。一些學者看牠們為絨頂檉柳猴的亞種，但牠們應該是獨立的物種。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A3%89%E5%86%A0%E7%8D%A0%E7%8B%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Geoffroy%27s_tamarin_%28Saguinus_geoffroyi%29_2.jpg/330px-Geoffroy%27s_tamarin_%28Saguinus_geoffroyi%29_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
