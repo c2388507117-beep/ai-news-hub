@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T14:41:40.596Z",
+  "fetchedAt": "2026-08-22T15:39:20.805Z",
   "items": [
+    {
+      "title": "朗库尔",
+      "extract": "朗库尔 是法国上法蘭西大區索姆省的一个市镇，属于佩罗讷区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%97%E5%BA%93%E5%B0%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cemetryrancourt.jpg/330px-Cemetryrancourt.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "安吉 (1907年)",
       "extract": "安吉，又名安尚吉、安相吉，朝鲜民主主义人民共和国政治人物、军人，原东北抗日联军将领，曾任东北抗联第一路军第三方面军参谋长、朝鲜保安干部训练大队（朝鲜人民军）参谋长等职。\n",
@@ -27,13 +34,6 @@
       "extract": "黑山雀屬 是雀形目山雀科下的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E5%B1%B1%E9%9B%80%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Parus_afer_-Namaqua_National_Park%2C_Northern_Cape%2C_South_Africa_-adult-6.jpg/330px-Parus_afer_-Namaqua_National_Park%2C_Northern_Cape%2C_South_Africa_-adult-6.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "公民权利和政治权利国际公约第二任择议定书",
-      "extract": "《旨在废除死刑的〈公民权利和政治权利国际公约〉第二任择议定书》 是《公民权利和政治权利国际公约》的一则附属协定。该议定书于1989年12月15日创设，1991年7月11日生效。截至2022年4月，第二议定书共有90个缔约方。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E6%B0%91%E6%9D%83%E5%88%A9%E5%92%8C%E6%94%BF%E6%B2%BB%E6%9D%83%E5%88%A9%E5%9B%BD%E9%99%85%E5%85%AC%E7%BA%A6%E7%AC%AC%E4%BA%8C%E4%BB%BB%E6%8B%A9%E8%AE%AE%E5%AE%9A%E4%B9%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ICCPR-OP2_members.svg/langzh-330px-ICCPR-OP2_members.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
