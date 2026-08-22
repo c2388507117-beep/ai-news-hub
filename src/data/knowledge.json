@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T19:39:54.038Z",
+  "fetchedAt": "2026-08-22T20:42:53.912Z",
   "items": [
+    {
+      "title": "半月苔素",
+      "extract": "半月苔素（英語：Lunularin）是一种分子式为C14H14O2的二氢芪类有机化合物，发现于旱芹绣球等植物中。植物半月苔酸脱羧酶可将半月苔酸脱羧为半月苔素。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E6%9C%88%E8%8B%94%E7%B4%A0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lunularin.svg/langzh-330px-Lunularin.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "牙線",
       "extract": "牙線是一种清洁牙齿的細線，主要針對牙齒之間的牙縫。由於刷牙只能清洁牙冠的上方及前後兩面，無法深入牙縫清除牙冠左右兩側的牙垢及牙菌斑，牙縫因而成為刷牙的盲點，在牙縫堆積的食物殘渣及牙菌膜會造成蛀牙、口臭及牙周病，而牙線可深入牙縫，清除牙齒之間的食物殘渣及牙菌膜，每天睡覺前使用牙線清潔牙縫能夠有效預防蛀牙及牙周病。牙線可分為涂蜡和不涂蜡两种。\n",
@@ -27,13 +34,6 @@
       "extract": "湘潭大学，或简称湘大，是一所位于中华人民共和国湖南省湘潭市的全日制公办综合性大学。学校由湖南省人民政府举办，并由中华人民共和国教育部、中华人民共和国国家国防科技工业局与湖南省人民政府共同建设。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/09/Xiangtan_University_logo.svg/langzh-330px-Xiangtan_University_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "朗库尔",
-      "extract": "朗库尔 是法国上法蘭西大區索姆省的一个市镇，属于佩罗讷区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9C%97%E5%BA%93%E5%B0%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cemetryrancourt.jpg/330px-Cemetryrancourt.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
