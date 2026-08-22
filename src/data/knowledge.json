@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T09:45:55.198Z",
+  "fetchedAt": "2026-08-22T10:43:54.969Z",
   "items": [
+    {
+      "title": "公民权利和政治权利国际公约第二任择议定书",
+      "extract": "《旨在废除死刑的〈公民权利和政治权利国际公约〉第二任择议定书》 是《公民权利和政治权利国际公约》的一则附属协定。该议定书于1989年12月15日创设，1991年7月11日生效。截至2022年4月，第二议定书共有90个缔约方。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E6%B0%91%E6%9D%83%E5%88%A9%E5%92%8C%E6%94%BF%E6%B2%BB%E6%9D%83%E5%88%A9%E5%9B%BD%E9%99%85%E5%85%AC%E7%BA%A6%E7%AC%AC%E4%BA%8C%E4%BB%BB%E6%8B%A9%E8%AE%AE%E5%AE%9A%E4%B9%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ICCPR-OP2_members.svg/langzh-330px-ICCPR-OP2_members.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "吳東昇",
       "extract": "吳東昇（1953年7月14日—），台灣企業家、前政治人物。新光集團家族成員，現任新光合成纖維、新光三越百貨董事長。1990至2000年代在政治上追隨李登輝，因此曾分別代表中國國民黨與台灣團結聯盟任職立法委員。\n",
@@ -27,13 +34,6 @@
       "extract": "崔維恩·多米尼克·葛拉漢 為美國男子籃球運動員，成長於马里兰州坦普爾希爾斯，青少年時期居住在马里兰州鲍伊，每天費時一個小時半至兩個小時前往圣玛丽瑞肯高中，2010年8月承諾就讀維吉尼亞聯邦大學。葛拉漢代表維吉尼亞聯邦大學出賽四年，累計得分為1,882，位居隊史總得分榜第二名，其21號球衣於2022年1月22日被校隊掛在球場。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B4%94%E7%B6%AD%E6%81%A9%C2%B7%E8%91%9B%E6%8B%89%E6%BC%A2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Brooklyn_Nets_vs_NY_Knicks_2018-10-03_td_171a_-_1st_Quarter.jpg/330px-Brooklyn_Nets_vs_NY_Knicks_2018-10-03_td_171a_-_1st_Quarter.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "四乙基铵盐",
-      "extract": "四乙基铵阳离子，化学式N(C2H5)+4或NEt+4，是一种季铵阳离子，由四个乙基和氮阳离子组成。四乙基铵盐则是四乙基铵阳离子形成的盐。它是研究实验室中用来制备无机离子脂质盐的一种平衡离子。它的用处类似四丁基铵盐，不过四乙基铵盐的亲脂性更低，更易结晶。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E4%B9%99%E5%9F%BA%E9%93%B5%E7%9B%90",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tetraethylammonium.svg/langzh-330px-Tetraethylammonium.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
