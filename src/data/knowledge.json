@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T13:03:42.714Z",
+  "fetchedAt": "2026-08-22T13:46:35.004Z",
   "items": [
+    {
+      "title": "莱塞萨尔 (滨海夏朗德省)",
+      "extract": "莱塞萨尔 是法国滨海夏朗德省的一个市镇，位于该省中部，属于桑特区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E5%A1%9E%E8%90%A8%E5%B0%94_(%E6%BB%A8%E6%B5%B7%E5%A4%8F%E6%9C%97%E5%BE%B7%E7%9C%81)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/France_-_17_-_Les_Essards_-_Vue_%C3%A9loign%C3%A9e.JPG/330px-France_-_17_-_Les_Essards_-_Vue_%C3%A9loign%C3%A9e.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "斯洪霍芬",
       "extract": "斯洪霍芬 是荷兰南荷兰省的一座城市和旧市镇。该旧市镇2007年人口12,195，面积6.96 km²，其中0.67 km² 为水域。在罗曾堡（Rozenburg）被并入鹿特丹之后，它曾成为荷兰陆地面积最小的市镇。2015年1月1日，斯洪霍芬与市镇下莱克、奥德凯尔克、弗利斯特和贝赫安巴赫特合并为新市镇克林珀讷瓦尔德（Krimpenerwaard）。\n",
@@ -27,13 +34,6 @@
       "extract": "吳東昇（1953年7月14日—），台灣企業家、前政治人物。新光集團家族成員，現任新光合成纖維、新光三越百貨董事長。1990至2000年代在政治上追隨李登輝，因此曾分別代表中國國民黨與台灣團結聯盟任職立法委員。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%9D%B1%E6%98%87",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/%E5%90%B3%E6%9D%B1%E6%98%87%E7%AB%8B%E5%A7%94.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "韩国—蒙古关系",
-      "extract": "韩蒙关系或蒙韩关系指韩国与蒙古国之间的双边关系。韩蒙两国于1990年3月26日正式建立外交关系。目前两国为“战略伙伴关系”。韩国在蒙古乌兰巴托设有大使馆；蒙古国驻韩国大使馆设于首尔。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E5%9B%BD%E2%80%94%E8%92%99%E5%8F%A4%E5%85%B3%E7%B3%BB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/South_Korea_Mongolia_Locator.png/330px-South_Korea_Mongolia_Locator.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
