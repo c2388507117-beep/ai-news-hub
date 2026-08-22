@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T08:50:38.093Z",
+  "fetchedAt": "2026-08-22T09:45:55.198Z",
   "items": [
+    {
+      "title": "吳東昇",
+      "extract": "吳東昇（1953年7月14日—），台灣企業家、前政治人物。新光集團家族成員，現任新光合成纖維、新光三越百貨董事長。1990至2000年代在政治上追隨李登輝，因此曾分別代表中國國民黨與台灣團結聯盟任職立法委員。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%9D%B1%E6%98%87",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/%E5%90%B3%E6%9D%B1%E6%98%87%E7%AB%8B%E5%A7%94.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "韩国—蒙古关系",
       "extract": "韩蒙关系或蒙韩关系指韩国与蒙古国之间的双边关系。韩蒙两国于1990年3月26日正式建立外交关系。目前两国为“战略伙伴关系”。韩国在蒙古乌兰巴托设有大使馆；蒙古国驻韩国大使馆设于首尔。\n",
@@ -27,13 +34,6 @@
       "extract": "四乙基铵阳离子，化学式N(C2H5)+4或NEt+4，是一种季铵阳离子，由四个乙基和氮阳离子组成。四乙基铵盐则是四乙基铵阳离子形成的盐。它是研究实验室中用来制备无机离子脂质盐的一种平衡离子。它的用处类似四丁基铵盐，不过四乙基铵盐的亲脂性更低，更易结晶。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E4%B9%99%E5%9F%BA%E9%93%B5%E7%9B%90",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tetraethylammonium.svg/langzh-330px-Tetraethylammonium.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "重症肌無力",
-      "extract": "重症肌無力 是慢性神经肌肉传递障碍的自身免疫性疾病，會造成不同程度的肌肉無力。最常影響眼部、臉部及吞嚥相關的肌肉。會造成复视、眼睑下垂、說話困難及行走困難等症狀。重症肌無力可能會突然發生。患者多半有胸腺過大或是胸腺瘤的情形。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E7%97%87%E8%82%8C%E7%84%A1%E5%8A%9B",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Synapse_diag4.png/330px-Synapse_diag4.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
