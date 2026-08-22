@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T05:45:57.020Z",
+  "fetchedAt": "2026-08-22T07:03:00.143Z",
   "items": [
+    {
+      "title": "崔維恩·葛拉漢",
+      "extract": "崔維恩·多米尼克·葛拉漢 為美國男子籃球運動員，成長於马里兰州坦普爾希爾斯，青少年時期居住在马里兰州鲍伊，每天費時一個小時半至兩個小時前往圣玛丽瑞肯高中，2010年8月承諾就讀維吉尼亞聯邦大學。葛拉漢代表維吉尼亞聯邦大學出賽四年，累計得分為1,882，位居隊史總得分榜第二名，其21號球衣於2022年1月22日被校隊掛在球場。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B4%94%E7%B6%AD%E6%81%A9%C2%B7%E8%91%9B%E6%8B%89%E6%BC%A2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Brooklyn_Nets_vs_NY_Knicks_2018-10-03_td_171a_-_1st_Quarter.jpg/330px-Brooklyn_Nets_vs_NY_Knicks_2018-10-03_td_171a_-_1st_Quarter.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "四乙基铵盐",
       "extract": "四乙基铵阳离子，化学式N(C2H5)+4或NEt+4，是一种季铵阳离子，由四个乙基和氮阳离子组成。四乙基铵盐则是四乙基铵阳离子形成的盐。它是研究实验室中用来制备无机离子脂质盐的一种平衡离子。它的用处类似四丁基铵盐，不过四乙基铵盐的亲脂性更低，更易结晶。\n",
@@ -27,13 +34,6 @@
       "extract": "《唐·卡洛》 是一部五幕法文歌劇，改編自席勒的劇作《西班牙王子唐·卡洛斯》，由威尔第作曲，Camille du Locle及Joseph Méry編寫劇本。1867年3月11日於巴黎歌劇院首演。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%94%90%C2%B7%E5%8D%A1%E6%B4%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Don_Carlo_poster.jpg/330px-Don_Carlo_poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "小组 (自治组织)",
-      "extract": "村民小组为中国大陆地区在人民公社解体以后，农村基层自治组织——村划分的行政编组；同时期城市街道、镇的区划社区的编组称为“居民小组”；牧区之小组的汉语命名比较多样，有“独贵龙”、“牧民小组”和“牧业小组”，详见嘎查#下级组织。“村民小组”为大陆乡村的农业区最基层的行政编组，直接管辖的对象为农户。“村民小组”在中华人民共和国成立以后各个时期对应的农村农业区最基层的行政编组或作业单位有：\n土地改革至大跃进以前为“农业合作社”（即初级农业社）；\n人民公社时期为“生产队”；\n家庭联产承包责任制以后为“村民小组”；\n国民政府时期及其以前：地域和人口相当于一个农村基层组织“甲”。现今台湾地区类似村里以下的行政编组称为“邻”。",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%BB%84_(%E8%87%AA%E6%B2%BB%E7%BB%84%E7%BB%87)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg/langzh-330px-%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
