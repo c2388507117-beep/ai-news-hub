@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T21:40:11.977Z",
+  "fetchedAt": "2026-08-22T22:41:48.137Z",
   "items": [
+    {
+      "title": "Play世界巡迴演唱會 (專輯)",
+      "extract": "《Play世界巡迴演唱會》 是臺灣歌手蔡依林的一張現場影音專輯，由華納音樂和凌時差音樂於2018年1月30日發行。專輯收錄2015年5月22日至25日蔡依林在臺北小巨蛋的「Play世界巡迴演唱會」現場表演內容，並附有四部《不一樣又怎樣》紀錄短片及一部幕後花絮影片。該專輯僅在臺灣發行實體版本，並獲得2018年臺灣年度影音專輯銷量第一名。\n",
+      "url": "https://zh.wikipedia.org/wiki/Play%E4%B8%96%E7%95%8C%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%83_(%E5%B0%88%E8%BC%AF)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/a/a6/Jolin_Tsai_-_Play_World_Tour_%28album%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "蟾蜍屬",
       "extract": "蟾蜍屬 是蟾蜍科的一個屬，它曾經是一個廢紙簍分類，有200多種蟾蜍劃入該屬，但2006年重新劃分，很多蟾蜍屬的生物劃入其他的屬，現在該屬僅含十幾個種。\n",
@@ -27,13 +34,6 @@
       "extract": "《武经总要》是一部中国北宋官修的军事著作。宋初將領多出自行伍，拔卒為將，以殿前比試武藝，作為人事升遷的途徑，稱為轉員制度，開國六十年後將領多不知兵法，景祐元年（1034年）富弼上《論武舉武學奏》，建議設立武學，由天章閣待制曾公亮和尚書工部侍郎、參知政事丁度等奉命於1040年至1044年編輯而成，完成於1044年（北宋慶歷4年）。主題廣泛，從各種類的海軍船艦到投石機都有。武經總要是歷史上最早含有硝石、硫磺、木炭等成分火藥配方的記錄。在1126年金国占領開封時，失去了武經總要的原本。1231年，南宋藉由一些副本重製了新版本的武經總要。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E7%BB%8F%E6%80%BB%E8%A6%81",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%E6%A8%93%E8%88%B9.jpg/330px-%E6%A8%93%E8%88%B9.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "阿斯拉夫·瓦兹迪·杜素基",
-      "extract": "拿督阿斯拉夫，马来西亚政治人物，现任巫统总秘书。曾经担任马来西亚首相署（宗教事务）副部长，以及马来西亚国会上议院上议员。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%96%AF%E6%8B%89%E5%A4%AB%C2%B7%E7%93%A6%E5%85%B9%E8%BF%AA%C2%B7%E6%9D%9C%E7%B4%A0%E5%9F%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Asyraf_Wajdi_in_2019.jpg/330px-Asyraf_Wajdi_in_2019.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
