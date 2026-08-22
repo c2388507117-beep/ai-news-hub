@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T15:39:20.805Z",
+  "fetchedAt": "2026-08-22T16:43:40.676Z",
   "items": [
+    {
+      "title": "湘潭大学",
+      "extract": "湘潭大学，或简称湘大，是一所位于中华人民共和国湖南省湘潭市的全日制公办综合性大学。学校由湖南省人民政府举办，并由中华人民共和国教育部、中华人民共和国国家国防科技工业局与湖南省人民政府共同建设。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/09/Xiangtan_University_logo.svg/langzh-330px-Xiangtan_University_logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "朗库尔",
       "extract": "朗库尔 是法国上法蘭西大區索姆省的一个市镇，属于佩罗讷区。\n",
@@ -27,13 +34,6 @@
       "extract": "斯洪霍芬 是荷兰南荷兰省的一座城市和旧市镇。该旧市镇2007年人口12,195，面积6.96 km²，其中0.67 km² 为水域。在罗曾堡（Rozenburg）被并入鹿特丹之后，它曾成为荷兰陆地面积最小的市镇。2015年1月1日，斯洪霍芬与市镇下莱克、奥德凯尔克、弗利斯特和贝赫安巴赫特合并为新市镇克林珀讷瓦尔德（Krimpenerwaard）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B4%AA%E9%9C%8D%E8%8A%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Photo303-Holland-Schoonhoven.JPG/330px-Photo303-Holland-Schoonhoven.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黑山雀属",
-      "extract": "黑山雀屬 是雀形目山雀科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E5%B1%B1%E9%9B%80%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Parus_afer_-Namaqua_National_Park%2C_Northern_Cape%2C_South_Africa_-adult-6.jpg/330px-Parus_afer_-Namaqua_National_Park%2C_Northern_Cape%2C_South_Africa_-adult-6.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
