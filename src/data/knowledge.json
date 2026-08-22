@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T18:51:39.196Z",
+  "fetchedAt": "2026-08-22T19:39:54.038Z",
   "items": [
+    {
+      "title": "牙線",
+      "extract": "牙線是一种清洁牙齿的細線，主要針對牙齒之間的牙縫。由於刷牙只能清洁牙冠的上方及前後兩面，無法深入牙縫清除牙冠左右兩側的牙垢及牙菌斑，牙縫因而成為刷牙的盲點，在牙縫堆積的食物殘渣及牙菌膜會造成蛀牙、口臭及牙周病，而牙線可深入牙縫，清除牙齒之間的食物殘渣及牙菌膜，每天睡覺前使用牙線清潔牙縫能夠有效預防蛀牙及牙周病。牙線可分為涂蜡和不涂蜡两种。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%89%99%E7%B7%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Dental_floss_%28whole%29.jpg/330px-Dental_floss_%28whole%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "武经总要",
       "extract": "《武经总要》是一部中国北宋官修的军事著作。宋初將領多出自行伍，拔卒為將，以殿前比試武藝，作為人事升遷的途徑，稱為轉員制度，開國六十年後將領多不知兵法，景祐元年（1034年）富弼上《論武舉武學奏》，建議設立武學，由天章閣待制曾公亮和尚書工部侍郎、參知政事丁度等奉命於1040年至1044年編輯而成，完成於1044年（北宋慶歷4年）。主題廣泛，從各種類的海軍船艦到投石機都有。武經總要是歷史上最早含有硝石、硫磺、木炭等成分火藥配方的記錄。在1126年金国占領開封時，失去了武經總要的原本。1231年，南宋藉由一些副本重製了新版本的武經總要。\n",
@@ -27,13 +34,6 @@
       "extract": "朗库尔 是法国上法蘭西大區索姆省的一个市镇，属于佩罗讷区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9C%97%E5%BA%93%E5%B0%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cemetryrancourt.jpg/330px-Cemetryrancourt.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "安吉 (1907年)",
-      "extract": "安吉，又名安尚吉、安相吉，朝鲜民主主义人民共和国政治人物、军人，原东北抗日联军将领，曾任东北抗联第一路军第三方面军参谋长、朝鲜保安干部训练大队（朝鲜人民军）参谋长等职。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%90%89_(1907%E5%B9%B4)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%AE%89%E5%90%89-%E6%8A%97%E8%81%94%E7%AC%AC%E4%B8%89%E6%96%B9%E9%9D%A2%E5%86%9B%E5%8F%82%E8%B0%8B%E9%95%BF.jpg/330px-%E5%AE%89%E5%90%89-%E6%8A%97%E8%81%94%E7%AC%AC%E4%B8%89%E6%96%B9%E9%9D%A2%E5%86%9B%E5%8F%82%E8%B0%8B%E9%95%BF.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
