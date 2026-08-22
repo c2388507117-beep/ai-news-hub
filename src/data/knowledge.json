@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T01:53:16.106Z",
+  "fetchedAt": "2026-08-22T03:10:15.137Z",
   "items": [
+    {
+      "title": "唐·卡洛",
+      "extract": "《唐·卡洛》 是一部五幕法文歌劇，改編自席勒的劇作《西班牙王子唐·卡洛斯》，由威尔第作曲，Camille du Locle及Joseph Méry編寫劇本。1867年3月11日於巴黎歌劇院首演。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%94%90%C2%B7%E5%8D%A1%E6%B4%9B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Don_Carlo_poster.jpg/330px-Don_Carlo_poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "小组 (自治组织)",
       "extract": "村民小组为中国大陆地区在人民公社解体以后，农村基层自治组织——村划分的行政编组；同时期城市街道、镇的区划社区的编组称为“居民小组”；牧区之小组的汉语命名比较多样，有“独贵龙”、“牧民小组”和“牧业小组”，详见嘎查#下级组织。“村民小组”为大陆乡村的农业区最基层的行政编组，直接管辖的对象为农户。“村民小组”在中华人民共和国成立以后各个时期对应的农村农业区最基层的行政编组或作业单位有：\n土地改革至大跃进以前为“农业合作社”（即初级农业社）；\n人民公社时期为“生产队”；\n家庭联产承包责任制以后为“村民小组”；\n国民政府时期及其以前：地域和人口相当于一个农村基层组织“甲”。现今台湾地区类似村里以下的行政编组称为“邻”。",
@@ -27,13 +34,6 @@
       "extract": "棉冠獠狨，又名斑柽柳猴、斑狨或戈氏狨，是一種黑白色的檉柳猴屬，頭頂上有紅毛。牠們分佈在巴拿馬及哥倫比亞。一些學者看牠們為絨頂檉柳猴的亞種，但牠們應該是獨立的物種。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A3%89%E5%86%A0%E7%8D%A0%E7%8B%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Geoffroy%27s_tamarin_%28Saguinus_geoffroyi%29_2.jpg/330px-Geoffroy%27s_tamarin_%28Saguinus_geoffroyi%29_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "儋州市",
-      "extract": "儋（dān）州市，简称儋，是中华人民共和国海南省下辖的地级市，位於海南省西北部。市境东接临高县、澄迈县，南邻琼中黎族苗族自治县、白沙黎族自治县，西界昌江县，北临北部灣。地处海南岛西北部低山丘陵区，地势自东南向西北递降。主要河流有北门江、春江、珠碧江等。全市总面积3,394平方公里，总人口約108万人，儋州是海南省西部的經濟、交通、通信和文化中心。市人民政府驻那大镇中兴大街中1号。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%84%8B%E5%B7%9E%E5%B8%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Location_of_Danzhou_within_Hainan_%28China%29.png/330px-Location_of_Danzhou_within_Hainan_%28China%29.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
