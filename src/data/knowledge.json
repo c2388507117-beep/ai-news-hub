@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T07:48:44.529Z",
+  "fetchedAt": "2026-08-22T08:50:38.093Z",
   "items": [
+    {
+      "title": "韩国—蒙古关系",
+      "extract": "韩蒙关系或蒙韩关系指韩国与蒙古国之间的双边关系。韩蒙两国于1990年3月26日正式建立外交关系。目前两国为“战略伙伴关系”。韩国在蒙古乌兰巴托设有大使馆；蒙古国驻韩国大使馆设于首尔。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E5%9B%BD%E2%80%94%E8%92%99%E5%8F%A4%E5%85%B3%E7%B3%BB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/South_Korea_Mongolia_Locator.png/330px-South_Korea_Mongolia_Locator.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "伊勒达尔",
       "extract": "伊勒达尔 是法国莫尔比昂省的一个市镇，领土涵盖同名海岛，属于瓦讷区。\n",
@@ -27,13 +34,6 @@
       "extract": "重症肌無力 是慢性神经肌肉传递障碍的自身免疫性疾病，會造成不同程度的肌肉無力。最常影響眼部、臉部及吞嚥相關的肌肉。會造成复视、眼睑下垂、說話困難及行走困難等症狀。重症肌無力可能會突然發生。患者多半有胸腺過大或是胸腺瘤的情形。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E7%97%87%E8%82%8C%E7%84%A1%E5%8A%9B",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Synapse_diag4.png/330px-Synapse_diag4.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "木榄属",
-      "extract": "木榄属 是金虎尾目红树科下的一个属，为乔木植物。该属共有5个种及3个杂交种，分布于印度-西太平洋地区，均为典型的红树林植物。该属的物种普遍具有红树科树叶与树干特征，树干上常见皮孔，具有特殊的膝状根系。属内物种依据其花序中花芽的数量与大小、花萼数量与形状以及花瓣上是否存在刺毛可以进行区分。属内常有杂交事件，但已发现的三个杂交个体均以木榄Bruguiera gymnorhiza为父本。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9C%A8%E6%A6%84%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bruguiera_gymnorrhiza00.jpg/330px-Bruguiera_gymnorrhiza00.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
