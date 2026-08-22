@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T16:43:40.676Z",
+  "fetchedAt": "2026-08-22T17:39:50.932Z",
   "items": [
+    {
+      "title": "阿斯拉夫·瓦兹迪·杜素基",
+      "extract": "拿督阿斯拉夫，马来西亚政治人物，现任巫统总秘书。曾经担任马来西亚首相署（宗教事务）副部长，以及马来西亚国会上议院上议员。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%96%AF%E6%8B%89%E5%A4%AB%C2%B7%E7%93%A6%E5%85%B9%E8%BF%AA%C2%B7%E6%9D%9C%E7%B4%A0%E5%9F%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Asyraf_Wajdi_in_2019.jpg/330px-Asyraf_Wajdi_in_2019.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "湘潭大学",
       "extract": "湘潭大学，或简称湘大，是一所位于中华人民共和国湖南省湘潭市的全日制公办综合性大学。学校由湖南省人民政府举办，并由中华人民共和国教育部、中华人民共和国国家国防科技工业局与湖南省人民政府共同建设。\n",
@@ -27,13 +34,6 @@
       "extract": "莱塞萨尔 是法国滨海夏朗德省的一个市镇，位于该省中部，属于桑特区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%B1%E5%A1%9E%E8%90%A8%E5%B0%94_(%E6%BB%A8%E6%B5%B7%E5%A4%8F%E6%9C%97%E5%BE%B7%E7%9C%81)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/France_-_17_-_Les_Essards_-_Vue_%C3%A9loign%C3%A9e.JPG/330px-France_-_17_-_Les_Essards_-_Vue_%C3%A9loign%C3%A9e.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯洪霍芬",
-      "extract": "斯洪霍芬 是荷兰南荷兰省的一座城市和旧市镇。该旧市镇2007年人口12,195，面积6.96 km²，其中0.67 km² 为水域。在罗曾堡（Rozenburg）被并入鹿特丹之后，它曾成为荷兰陆地面积最小的市镇。2015年1月1日，斯洪霍芬与市镇下莱克、奥德凯尔克、弗利斯特和贝赫安巴赫特合并为新市镇克林珀讷瓦尔德（Krimpenerwaard）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B4%AA%E9%9C%8D%E8%8A%AC",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Photo303-Holland-Schoonhoven.JPG/330px-Photo303-Holland-Schoonhoven.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
