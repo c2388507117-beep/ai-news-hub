@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T13:46:35.004Z",
+  "fetchedAt": "2026-08-22T14:41:40.596Z",
   "items": [
+    {
+      "title": "安吉 (1907年)",
+      "extract": "安吉，又名安尚吉、安相吉，朝鲜民主主义人民共和国政治人物、军人，原东北抗日联军将领，曾任东北抗联第一路军第三方面军参谋长、朝鲜保安干部训练大队（朝鲜人民军）参谋长等职。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%90%89_(1907%E5%B9%B4)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%AE%89%E5%90%89-%E6%8A%97%E8%81%94%E7%AC%AC%E4%B8%89%E6%96%B9%E9%9D%A2%E5%86%9B%E5%8F%82%E8%B0%8B%E9%95%BF.jpg/330px-%E5%AE%89%E5%90%89-%E6%8A%97%E8%81%94%E7%AC%AC%E4%B8%89%E6%96%B9%E9%9D%A2%E5%86%9B%E5%8F%82%E8%B0%8B%E9%95%BF.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "莱塞萨尔 (滨海夏朗德省)",
       "extract": "莱塞萨尔 是法国滨海夏朗德省的一个市镇，位于该省中部，属于桑特区。\n",
@@ -27,13 +34,6 @@
       "extract": "《旨在废除死刑的〈公民权利和政治权利国际公约〉第二任择议定书》 是《公民权利和政治权利国际公约》的一则附属协定。该议定书于1989年12月15日创设，1991年7月11日生效。截至2022年4月，第二议定书共有90个缔约方。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E6%B0%91%E6%9D%83%E5%88%A9%E5%92%8C%E6%94%BF%E6%B2%BB%E6%9D%83%E5%88%A9%E5%9B%BD%E9%99%85%E5%85%AC%E7%BA%A6%E7%AC%AC%E4%BA%8C%E4%BB%BB%E6%8B%A9%E8%AE%AE%E5%AE%9A%E4%B9%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ICCPR-OP2_members.svg/langzh-330px-ICCPR-OP2_members.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "吳東昇",
-      "extract": "吳東昇（1953年7月14日—），台灣企業家、前政治人物。新光集團家族成員，現任新光合成纖維、新光三越百貨董事長。1990至2000年代在政治上追隨李登輝，因此曾分別代表中國國民黨與台灣團結聯盟任職立法委員。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%9D%B1%E6%98%87",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/%E5%90%B3%E6%9D%B1%E6%98%87%E7%AB%8B%E5%A7%94.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
