@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T21:39:35.214Z",
+  "fetchedAt": "2026-08-23T22:41:37.353Z",
   "items": [
+    {
+      "title": "拉斯·卡纳汉",
+      "extract": "拉斯·卡納漢 是美國的一位政治人物。在2005年至2013年，他是密蘇里州第3選舉區選出的美國眾議院議員。他的黨籍是民主黨。卡納翰出生在密蘇里州哥倫布。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E6%96%AF%C2%B7%E5%8D%A1%E7%BA%B3%E6%B1%89",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Russ_Carnahan%2C_official_109th_Congress_photo.jpg/330px-Russ_Carnahan%2C_official_109th_Congress_photo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "2021年地震列表",
       "extract": "2021年地震列表列举于2021年全年内被各国地震研究机构所纪录下的显著地震。\n",
@@ -27,13 +34,6 @@
       "extract": "灰胸丛鸦，是鸦科丛鸦属的一种，分布于墨西哥和美国。全球活动范围约为572,000平方千米。该物种的保护状况被评为无危。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%81%B0%E8%83%B8%E4%B8%9B%E9%B8%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Aphelocoma_wollweberi_NBII.jpg/330px-Aphelocoma_wollweberi_NBII.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "鹿花菌属",
-      "extract": "鹿花菌属 是平盘菌科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%B9%BF%E8%8A%B1%E8%8F%8C%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Fr%C3%BChjahrslorchel.JPG/330px-Fr%C3%BChjahrslorchel.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
