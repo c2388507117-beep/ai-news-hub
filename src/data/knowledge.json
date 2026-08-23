@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T14:43:25.426Z",
+  "fetchedAt": "2026-08-23T15:40:54.080Z",
   "items": [
+    {
+      "title": "立法院修憲委員會",
+      "extract": "修憲委員會為中華民國立法院特種委員會之一，掌理《中華民國憲法》修正案之審議及相關事項。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E4%BF%AE%E6%86%B2%E5%A7%94%E5%93%A1%E6%9C%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/ROC_Legislative_Yuan_Seal.svg/langzh-330px-ROC_Legislative_Yuan_Seal.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "臺中市道路列表",
       "extract": "臺中市主要道路列表列出臺中市街道的命名方式。\n",
@@ -27,13 +34,6 @@
       "extract": "TMC-310911（也称ASC-09）是一种最初被研究用于治疗HIV/AIDS的抗病毒药物。它是一种蛋白酶抑制剂，与达芦那韦结构上相似。尽管TMC-310911在开发后，其最终用途不是用于治疗艾滋病，但对于其它病毒性疾病的治疗研究仍在进行。它在2020年3月进入了COVID-19治疗的临床试验阶段。\n",
       "url": "https://zh.wikipedia.org/wiki/TMC-310911",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TMC-310911_structure.png/330px-TMC-310911_structure.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "富蘭克林 (密歇根州)",
-      "extract": "富蘭克林 是位於美國密歇根州奧克蘭縣紹斯菲爾德鎮區的一個村。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%98%AD%E5%85%8B%E6%9E%97_(%E5%AF%86%E6%AD%87%E6%A0%B9%E5%B7%9E)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Downtown_Franklin_MI.jpg/330px-Downtown_Franklin_MI.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
