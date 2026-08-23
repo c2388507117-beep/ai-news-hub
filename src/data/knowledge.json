@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T10:44:13.352Z",
+  "fetchedAt": "2026-08-23T11:39:17.831Z",
   "items": [
+    {
+      "title": "TMC-310911",
+      "extract": "TMC-310911（也称ASC-09）是一种最初被研究用于治疗HIV/AIDS的抗病毒药物。它是一种蛋白酶抑制剂，与达芦那韦结构上相似。尽管TMC-310911在开发后，其最终用途不是用于治疗艾滋病，但对于其它病毒性疾病的治疗研究仍在进行。它在2020年3月进入了COVID-19治疗的临床试验阶段。\n",
+      "url": "https://zh.wikipedia.org/wiki/TMC-310911",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TMC-310911_structure.png/330px-TMC-310911_structure.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "富蘭克林 (密歇根州)",
       "extract": "富蘭克林 是位於美國密歇根州奧克蘭縣紹斯菲爾德鎮區的一個村。\n",
@@ -27,13 +34,6 @@
       "extract": "DCW234 是一种人工合成的非甾体雌激素和ERβ的选择性激动剂。\n",
       "url": "https://zh.wikipedia.org/wiki/DCW234",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/DCW234.svg/langzh-330px-DCW234.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "科隆博特",
-      "extract": "科隆博特 是法国上索恩省的一个市镇，属于沃苏勒区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E9%9A%86%E5%8D%9A%E7%89%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Colombotte.JPG/330px-Colombotte.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
