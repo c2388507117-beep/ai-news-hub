@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T11:39:17.831Z",
+  "fetchedAt": "2026-08-23T13:05:08.769Z",
   "items": [
+    {
+      "title": "尿苷二磷酸半乳糖",
+      "extract": "尿苷二磷酸半乳糖 是一种生成多糖过程的中间产物，也是核苷酸糖代谢中的重要物质，是转移酶B4GALT5的底物。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BF%E8%8B%B7%E4%BA%8C%E7%A3%B7%E9%85%B8%E5%8D%8A%E4%B9%B3%E7%B3%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/UDP-Galactose.svg/langzh-330px-UDP-Galactose.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "TMC-310911",
       "extract": "TMC-310911（也称ASC-09）是一种最初被研究用于治疗HIV/AIDS的抗病毒药物。它是一种蛋白酶抑制剂，与达芦那韦结构上相似。尽管TMC-310911在开发后，其最终用途不是用于治疗艾滋病，但对于其它病毒性疾病的治疗研究仍在进行。它在2020年3月进入了COVID-19治疗的临床试验阶段。\n",
@@ -27,13 +34,6 @@
       "extract": "虾钳兰属，也音译为哥温兰属，为兰科的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%99%BE%E9%92%B3%E5%85%B0%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Govenia.jpg/330px-Govenia.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "DCW234",
-      "extract": "DCW234 是一种人工合成的非甾体雌激素和ERβ的选择性激动剂。\n",
-      "url": "https://zh.wikipedia.org/wiki/DCW234",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/DCW234.svg/langzh-330px-DCW234.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
