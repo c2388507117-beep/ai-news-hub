@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T05:48:32.059Z",
+  "fetchedAt": "2026-08-23T07:05:33.388Z",
   "items": [
+    {
+      "title": "科隆博特",
+      "extract": "科隆博特 是法国上索恩省的一个市镇，属于沃苏勒区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E9%9A%86%E5%8D%9A%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Colombotte.JPG/330px-Colombotte.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "預視力量",
       "extract": "《預視力量》 是英國女作家艾琳·杭特的系列小說《貓戰士》的三部曲《三力量》中六集的第一集，於2007年4月24日由Happer Collins出版。中文版於2009年10月1日由晨星出版社出版。\n",
@@ -27,13 +34,6 @@
       "extract": "布尔南维尔-法韦罗勒 是法国厄尔省的一个市镇，位于该省西部，属于贝尔奈区。该市镇于1964年由原市镇布尔南维尔（Bournainville）和法沃罗勒莱马尔（Faverolles-les-Mares）合并而成。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%B0%94%E5%8D%97%E7%BB%B4%E5%B0%94-%E6%B3%95%E6%B2%83%E7%BD%97%E5%8B%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bournainville-Faverolles_%28Eure%2C_Fr%29_%C3%A9glise_de_Bournainville.JPG/330px-Bournainville-Faverolles_%28Eure%2C_Fr%29_%C3%A9glise_de_Bournainville.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "彭布羅克 (麻薩諸塞州)",
-      "extract": "彭布羅克 是一個位於美國麻薩諸塞州普利茅斯縣的鎮。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E5%B8%83%E7%BE%85%E5%85%8B_(%E9%BA%BB%E8%96%A9%E8%AB%B8%E5%A1%9E%E5%B7%9E)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Pembroke_MA_Town_Hall.jpg/330px-Pembroke_MA_Town_Hall.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
