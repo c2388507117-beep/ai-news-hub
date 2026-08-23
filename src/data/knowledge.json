@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-22T23:39:00.589Z",
+  "fetchedAt": "2026-08-23T02:02:06.137Z",
   "items": [
+    {
+      "title": "布尔南维尔-法沃罗勒",
+      "extract": "布尔南维尔-法韦罗勒 是法国厄尔省的一个市镇，位于该省西部，属于贝尔奈区。该市镇于1964年由原市镇布尔南维尔（Bournainville）和法沃罗勒莱马尔（Faverolles-les-Mares）合并而成。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%B0%94%E5%8D%97%E7%BB%B4%E5%B0%94-%E6%B3%95%E6%B2%83%E7%BD%97%E5%8B%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bournainville-Faverolles_%28Eure%2C_Fr%29_%C3%A9glise_de_Bournainville.JPG/330px-Bournainville-Faverolles_%28Eure%2C_Fr%29_%C3%A9glise_de_Bournainville.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "彭布羅克 (麻薩諸塞州)",
       "extract": "彭布羅克 是一個位於美國麻薩諸塞州普利茅斯縣的鎮。\n",
@@ -27,13 +34,6 @@
       "extract": "半月苔素（英語：Lunularin）是一种分子式为C14H14O2的二氢芪类有机化合物，发现于旱芹绣球等植物中。植物半月苔酸脱羧酶可将半月苔酸脱羧为半月苔素。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E6%9C%88%E8%8B%94%E7%B4%A0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lunularin.svg/langzh-330px-Lunularin.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "牙線",
-      "extract": "牙線是一种清洁牙齿的細線，主要針對牙齒之間的牙縫。由於刷牙只能清洁牙冠的上方及前後兩面，無法深入牙縫清除牙冠左右兩側的牙垢及牙菌斑，牙縫因而成為刷牙的盲點，在牙縫堆積的食物殘渣及牙菌膜會造成蛀牙、口臭及牙周病，而牙線可深入牙縫，清除牙齒之間的食物殘渣及牙菌膜，每天睡覺前使用牙線清潔牙縫能夠有效預防蛀牙及牙周病。牙線可分為涂蜡和不涂蜡两种。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%89%99%E7%B7%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Dental_floss_%28whole%29.jpg/330px-Dental_floss_%28whole%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-22T23:38:56.274Z",
+  "fetchedAt": "2026-08-23T02:02:01.312Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-1142710",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-1687950",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-2161700",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-1771300",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-1868140",
@@ -77,7 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
+    },
+    {
+      "id": "steam-1332010",
+      "title": "Stray",
+      "url": "https://store.steampowered.com/app/1332010?l=schinese",
+      "discount": 50,
+      "originalPrice": 29.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-23T02:02:01.312Z"
     },
     {
       "id": "steam-4001890",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.106Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-2358720",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-1643320",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.274Z"
+      "publishedAt": "2026-08-23T02:02:01.312Z"
     },
     {
       "id": "steam-3065940",
@@ -129,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.274Z"
+      "publishedAt": "2026-08-23T02:02:01.312Z"
+    },
+    {
+      "id": "steam-4292950",
+      "title": "绍宋: 还我河山",
+      "url": "https://store.steampowered.com/app/4292950?l=schinese",
+      "discount": 20,
+      "originalPrice": 59,
+      "finalPrice": 47.2,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4292950/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-4164790",
@@ -142,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.151Z"
     },
     {
       "id": "steam-4026250",
@@ -155,20 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4026250/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.274Z"
-    },
-    {
-      "id": "steam-3196440",
-      "title": "度假咖啡厅模拟器",
-      "url": "https://store.steampowered.com/app/3196440?l=schinese",
-      "discount": 10,
-      "originalPrice": 77,
-      "finalPrice": 69.3,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196440/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.107Z"
+      "publishedAt": "2026-08-23T02:02:01.312Z"
     },
     {
       "id": "steam-3849000",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.274Z"
+      "publishedAt": "2026-08-23T02:02:01.312Z"
     },
     {
       "id": "steam-4131730",
@@ -194,20 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.274Z"
-    },
-    {
-      "id": "steam-2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "url": "https://store.steampowered.com/app/2523770?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-22T23:38:56.274Z"
+      "publishedAt": "2026-08-23T02:02:01.312Z"
     }
   ]
 }
