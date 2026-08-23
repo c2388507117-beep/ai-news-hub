@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T18:51:01.833Z",
+  "fetchedAt": "2026-08-23T19:39:41.121Z",
   "items": [
+    {
+      "title": "布拉德·帕斯利",
+      "extract": "布萊德·道格拉斯·派斯里 出生於美國西維吉尼亞州的格蘭代爾（Glendale），是一名美國乡村音乐男歌手，也是葛萊美獎得主。布萊德·派斯里在1999年發行第一張個人專輯《Who Needs Pictures》，他的音樂風格糅合了鄉村音樂和南方搖滾，曾連續十首單曲獲得美國告示牌鄉村榜冠軍，招牌歌曲有《Mud On The Tires》、《We Danced》 、《He Didn't Have To Be》和《Water》等，布萊德·派斯里目前仍活躍於美國樂壇。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E6%8B%89%E5%BE%B7%C2%B7%E5%B8%95%E6%96%AF%E5%88%A9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Paisley%2C_Brad_%282007%29_2.jpg/330px-Paisley%2C_Brad_%282007%29_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "灰胸丛鸦",
       "extract": "灰胸丛鸦，是鸦科丛鸦属的一种，分布于墨西哥和美国。全球活动范围约为572,000平方千米。该物种的保护状况被评为无危。\n",
@@ -27,13 +34,6 @@
       "extract": "修憲委員會為中華民國立法院特種委員會之一，掌理《中華民國憲法》修正案之審議及相關事項。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E4%BF%AE%E6%86%B2%E5%A7%94%E5%93%A1%E6%9C%83",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/ROC_Legislative_Yuan_Seal.svg/langzh-330px-ROC_Legislative_Yuan_Seal.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "臺中市道路列表",
-      "extract": "臺中市主要道路列表列出臺中市街道的命名方式。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E4%B8%AD%E5%B8%82%E9%81%93%E8%B7%AF%E5%88%97%E8%A1%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Taichungang_Road.JPG/330px-Taichungang_Road.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
