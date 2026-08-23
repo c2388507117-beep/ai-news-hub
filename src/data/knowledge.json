@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T19:39:41.121Z",
+  "fetchedAt": "2026-08-23T20:42:20.731Z",
   "items": [
+    {
+      "title": "注意點兒！寶貝",
+      "extract": "《注意點兒！寶貝》 是愛爾蘭搖滾團體U2的第七張專輯，1991年11月19日發行。在經歷了1980年代結束後，U2受到了前一張專輯《神采飛揚》批評的影響，從原先的愛爾蘭移師到德國Hansa錄音室埋首進行為時10個月的創作，其中最大的轉變是U2開始將音樂風格轉向另類搖滾、電子音樂和跳舞音樂，而以傳統搖滾風格為輔。《注意點兒！寶貝》被視為U2生涯的轉捩點之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A8%E6%84%8F%E9%BB%9E%E5%85%92%EF%BC%81%E5%AF%B6%E8%B2%9D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/97/U2_Achtung_Baby.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "布拉德·帕斯利",
       "extract": "布萊德·道格拉斯·派斯里 出生於美國西維吉尼亞州的格蘭代爾（Glendale），是一名美國乡村音乐男歌手，也是葛萊美獎得主。布萊德·派斯里在1999年發行第一張個人專輯《Who Needs Pictures》，他的音樂風格糅合了鄉村音樂和南方搖滾，曾連續十首單曲獲得美國告示牌鄉村榜冠軍，招牌歌曲有《Mud On The Tires》、《We Danced》 、《He Didn't Have To Be》和《Water》等，布萊德·派斯里目前仍活躍於美國樂壇。\n",
@@ -27,13 +34,6 @@
       "extract": "拿斯·奧臣 是一名前丹麥防守球員，現任職法羅群島國家足球隊領隊。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8B%BF%E6%96%AF%C2%B7%E5%A5%A7%E8%87%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/FIFA_WC-qualification_2014_-_Austria_vs_Faroe_Islands_2013-03-22_%2830%29.jpg/330px-FIFA_WC-qualification_2014_-_Austria_vs_Faroe_Islands_2013-03-22_%2830%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "立法院修憲委員會",
-      "extract": "修憲委員會為中華民國立法院特種委員會之一，掌理《中華民國憲法》修正案之審議及相關事項。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E4%BF%AE%E6%86%B2%E5%A7%94%E5%93%A1%E6%9C%83",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/ROC_Legislative_Yuan_Seal.svg/langzh-330px-ROC_Legislative_Yuan_Seal.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
