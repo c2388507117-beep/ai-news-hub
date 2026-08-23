@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T15:40:54.080Z",
+  "fetchedAt": "2026-08-23T16:45:24.998Z",
   "items": [
+    {
+      "title": "拿斯·奧臣",
+      "extract": "拿斯·奧臣 是一名前丹麥防守球員，現任職法羅群島國家足球隊領隊。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%BF%E6%96%AF%C2%B7%E5%A5%A7%E8%87%A3",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/FIFA_WC-qualification_2014_-_Austria_vs_Faroe_Islands_2013-03-22_%2830%29.jpg/330px-FIFA_WC-qualification_2014_-_Austria_vs_Faroe_Islands_2013-03-22_%2830%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "立法院修憲委員會",
       "extract": "修憲委員會為中華民國立法院特種委員會之一，掌理《中華民國憲法》修正案之審議及相關事項。\n",
@@ -27,13 +34,6 @@
       "extract": "尿苷二磷酸半乳糖 是一种生成多糖过程的中间产物，也是核苷酸糖代谢中的重要物质，是转移酶B4GALT5的底物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%BF%E8%8B%B7%E4%BA%8C%E7%A3%B7%E9%85%B8%E5%8D%8A%E4%B9%B3%E7%B3%96",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/UDP-Galactose.svg/langzh-330px-UDP-Galactose.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "TMC-310911",
-      "extract": "TMC-310911（也称ASC-09）是一种最初被研究用于治疗HIV/AIDS的抗病毒药物。它是一种蛋白酶抑制剂，与达芦那韦结构上相似。尽管TMC-310911在开发后，其最终用途不是用于治疗艾滋病，但对于其它病毒性疾病的治疗研究仍在进行。它在2020年3月进入了COVID-19治疗的临床试验阶段。\n",
-      "url": "https://zh.wikipedia.org/wiki/TMC-310911",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TMC-310911_structure.png/330px-TMC-310911_structure.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
