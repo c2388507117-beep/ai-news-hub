@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-23T20:42:15.310Z",
+  "fetchedAt": "2026-08-23T21:39:30.154Z",
   "items": [
     {
       "id": "steam-694280",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-1142710",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-1687950",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-2161700",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-1771300",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-1868140",
@@ -77,20 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
-    },
-    {
-      "id": "steam-753640",
-      "title": "Outer Wilds",
-      "url": "https://store.steampowered.com/app/753640?l=schinese",
-      "discount": 40,
-      "originalPrice": 95,
-      "finalPrice": 57,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-1569580",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.310Z"
+      "publishedAt": "2026-08-23T21:39:30.154Z"
     },
     {
       "id": "steam-4001890",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-2358720",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-1643320",
@@ -142,7 +129,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.310Z"
+      "publishedAt": "2026-08-23T21:39:30.154Z"
+    },
+    {
+      "id": "steam-2754380",
+      "title": "鲁特里一家死了（The Roottrees are Dead）",
+      "url": "https://store.steampowered.com/app/2754380?l=schinese",
+      "discount": 25,
+      "originalPrice": 76,
+      "finalPrice": 57,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2754380/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-23T21:39:29.944Z"
+    },
+    {
+      "id": "steam-3065940",
+      "title": "加里波利",
+      "url": "https://store.steampowered.com/app/3065940?l=schinese",
+      "discount": 25,
+      "originalPrice": 29.99,
+      "finalPrice": 22.49,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-23T21:39:30.154Z"
     },
     {
       "id": "steam-4164790",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.090Z"
+      "publishedAt": "2026-08-23T21:39:29.944Z"
     },
     {
       "id": "steam-4131730",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.310Z"
+      "publishedAt": "2026-08-23T21:39:30.154Z"
     },
     {
       "id": "steam-3849000",
@@ -181,20 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.310Z"
-    },
-    {
-      "id": "steam-2523770",
-      "title": "The Lord of the Rings: War in the North™ - Legacy Edition",
-      "url": "https://store.steampowered.com/app/2523770?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-23T20:42:15.310Z"
+      "publishedAt": "2026-08-23T21:39:30.154Z"
     }
   ]
 }
