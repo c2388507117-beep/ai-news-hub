@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T04:54:28.716Z",
+  "fetchedAt": "2026-08-23T05:48:32.059Z",
   "items": [
+    {
+      "title": "預視力量",
+      "extract": "《預視力量》 是英國女作家艾琳·杭特的系列小說《貓戰士》的三部曲《三力量》中六集的第一集，於2007年4月24日由Happer Collins出版。中文版於2009年10月1日由晨星出版社出版。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A0%90%E8%A6%96%E5%8A%9B%E9%87%8F",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/2b/Warriors_The_Sight_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "世纪广场 (浦东新区)",
       "extract": "世纪广场是上海市的著名地标之一，位于上海浦东新区世纪大道南道上世纪公园前端。\n",
@@ -27,13 +34,6 @@
       "extract": "彭布羅克 是一個位於美國麻薩諸塞州普利茅斯縣的鎮。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E5%B8%83%E7%BE%85%E5%85%8B_(%E9%BA%BB%E8%96%A9%E8%AB%B8%E5%A1%9E%E5%B7%9E)",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Pembroke_MA_Town_Hall.jpg/330px-Pembroke_MA_Town_Hall.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "Play世界巡迴演唱會 (專輯)",
-      "extract": "《Play世界巡迴演唱會》 是臺灣歌手蔡依林的一張現場影音專輯，由華納音樂和凌時差音樂於2018年1月30日發行。專輯收錄2015年5月22日至25日蔡依林在臺北小巨蛋的「Play世界巡迴演唱會」現場表演內容，並附有四部《不一樣又怎樣》紀錄短片及一部幕後花絮影片。該專輯僅在臺灣發行實體版本，並獲得2018年臺灣年度影音專輯銷量第一名。\n",
-      "url": "https://zh.wikipedia.org/wiki/Play%E4%B8%96%E7%95%8C%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%83_(%E5%B0%88%E8%BC%AF)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/a/a6/Jolin_Tsai_-_Play_World_Tour_%28album%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
