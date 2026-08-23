@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T09:46:35.464Z",
+  "fetchedAt": "2026-08-23T10:44:13.352Z",
   "items": [
+    {
+      "title": "富蘭克林 (密歇根州)",
+      "extract": "富蘭克林 是位於美國密歇根州奧克蘭縣紹斯菲爾德鎮區的一個村。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%98%AD%E5%85%8B%E6%9E%97_(%E5%AF%86%E6%AD%87%E6%A0%B9%E5%B7%9E)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Downtown_Franklin_MI.jpg/330px-Downtown_Franklin_MI.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "住之江區",
       "extract": "住之江區 是日本大阪市24區的其中之一，位於大阪市的西南部，為大阪市24區中面積最大的。\n",
@@ -27,13 +34,6 @@
       "extract": "科隆博特 是法国上索恩省的一个市镇，属于沃苏勒区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E9%9A%86%E5%8D%9A%E7%89%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Colombotte.JPG/330px-Colombotte.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "預視力量",
-      "extract": "《預視力量》 是英國女作家艾琳·杭特的系列小說《貓戰士》的三部曲《三力量》中六集的第一集，於2007年4月24日由Happer Collins出版。中文版於2009年10月1日由晨星出版社出版。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A0%90%E8%A6%96%E5%8A%9B%E9%87%8F",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/2b/Warriors_The_Sight_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
