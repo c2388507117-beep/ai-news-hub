@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T13:05:08.769Z",
+  "fetchedAt": "2026-08-23T13:47:49.629Z",
   "items": [
+    {
+      "title": "罗塞塔石碑",
+      "extract": "罗塞塔石碑于1799年在埃及罗塞塔镇被发现，上面刻有古希腊文、埃及象形文和通俗体文字三种文字书写的同一段诏书。法国学者商博良利用这块石碑成功破译了古埃及象形文字，打开了理解古埃及文明的大门。现藏于大英博物馆。",
+      "url": "",
+      "imageUrl": null,
+      "source": "curated"
+    },
     {
       "title": "尿苷二磷酸半乳糖",
       "extract": "尿苷二磷酸半乳糖 是一种生成多糖过程的中间产物，也是核苷酸糖代谢中的重要物质，是转移酶B4GALT5的底物。\n",
@@ -27,13 +34,6 @@
       "extract": "住之江區 是日本大阪市24區的其中之一，位於大阪市的西南部，為大阪市24區中面積最大的。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BD%8F%E4%B9%8B%E6%B1%9F%E5%8D%80",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sakishima_Cosmo_Tower.jpg/330px-Sakishima_Cosmo_Tower.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "虾钳兰属",
-      "extract": "虾钳兰属，也音译为哥温兰属，为兰科的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%99%BE%E9%92%B3%E5%85%B0%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Govenia.jpg/330px-Govenia.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
