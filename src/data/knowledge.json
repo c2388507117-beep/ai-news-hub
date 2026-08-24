@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-23T23:39:02.216Z",
+  "fetchedAt": "2026-08-24T02:00:17.686Z",
   "items": [
+    {
+      "title": "電波少女與錢仙大人",
+      "extract": "《電波少女與錢仙大人》 ，是遠藤綠所作的日本漫畫，於《月刊GANGAN JOKER》2011年8月號至2016年12月號連載。電視動畫於2014年10月至12月在東京電視台等電視台的深夜播出。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%BB%E6%B3%A2%E5%B0%91%E5%A5%B3%E8%88%87%E9%8C%A2%E4%BB%99%E5%A4%A7%E4%BA%BA",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/2b/Gugure%21_Kokkuri-san_manga_volume_1_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "羅技",
       "extract": "羅技 是一家电脑周邊裝置和软件制造商，总部位于瑞士洛桑，在欧洲、亚洲、大洋洲和美洲等一百多個國家或地區设有办事处，是全球頂尖的个人计算机和其他3C产品输入與接口设备制造商之一。该公司开发與销售用于个人计算机之視訊协作、音乐與智能家居等數位周邊設備。其中包括键盘、鼠标、平板电脑配件、网络摄像头、蓝牙扬声器與通用遥控器等产品。它的名字来自于logiciel，法语意为软件。Logitech品牌在日本市場變更成Logicool，主要目的是為了避免與日本Logitec 既有的已註冊商標混淆。\n",
@@ -27,13 +34,6 @@
       "extract": "《注意點兒！寶貝》 是愛爾蘭搖滾團體U2的第七張專輯，1991年11月19日發行。在經歷了1980年代結束後，U2受到了前一張專輯《神采飛揚》批評的影響，從原先的愛爾蘭移師到德國Hansa錄音室埋首進行為時10個月的創作，其中最大的轉變是U2開始將音樂風格轉向另類搖滾、電子音樂和跳舞音樂，而以傳統搖滾風格為輔。《注意點兒！寶貝》被視為U2生涯的轉捩點之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%A8%E6%84%8F%E9%BB%9E%E5%85%92%EF%BC%81%E5%AF%B6%E8%B2%9D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/97/U2_Achtung_Baby.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "布拉德·帕斯利",
-      "extract": "布萊德·道格拉斯·派斯里 出生於美國西維吉尼亞州的格蘭代爾（Glendale），是一名美國乡村音乐男歌手，也是葛萊美獎得主。布萊德·派斯里在1999年發行第一張個人專輯《Who Needs Pictures》，他的音樂風格糅合了鄉村音樂和南方搖滾，曾連續十首單曲獲得美國告示牌鄉村榜冠軍，招牌歌曲有《Mud On The Tires》、《We Danced》 、《He Didn't Have To Be》和《Water》等，布萊德·派斯里目前仍活躍於美國樂壇。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E6%8B%89%E5%BE%B7%C2%B7%E5%B8%95%E6%96%AF%E5%88%A9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Paisley%2C_Brad_%282007%29_2.jpg/330px-Paisley%2C_Brad_%282007%29_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
