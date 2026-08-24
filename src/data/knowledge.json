@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T05:56:28.782Z",
+  "fetchedAt": "2026-08-24T07:31:39.128Z",
   "items": [
+    {
+      "title": "雙螺旋星雲",
+      "extract": "雙螺旋星雲是接近我們的銀河系中心的一個氣體星雲。他被認為是受到扭曲而產生了兩個螺旋的形狀，成為一般所認知的雙螺旋，如同脱氧核醣核酸（DNA）的形狀。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%99%E8%9E%BA%E6%97%8B%E6%98%9F%E9%9B%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/False-Color_Image_of_Double_Helix_Nebula.jpg/330px-False-Color_Image_of_Double_Helix_Nebula.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "肯尼亞國徽",
       "extract": "肯尼亞國徽為一盾徽，顏色及其意義與國旗同。中間抓著斧頭的雄雞，象徵新生和繁榮。兩旁有獅子護盾並持矛。下為肯尼亞山，長滿了玉米、鳳梨、劍麻、茶樹、咖啡、除蟲菊等農作物。綬帶上以斯瓦希里語書「共處」。\n",
@@ -27,13 +34,6 @@
       "extract": "《電波少女與錢仙大人》 ，是遠藤綠所作的日本漫畫，於《月刊GANGAN JOKER》2011年8月號至2016年12月號連載。電視動畫於2014年10月至12月在東京電視台等電視台的深夜播出。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%BB%E6%B3%A2%E5%B0%91%E5%A5%B3%E8%88%87%E9%8C%A2%E4%BB%99%E5%A4%A7%E4%BA%BA",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/2b/Gugure%21_Kokkuri-san_manga_volume_1_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "羅技",
-      "extract": "羅技 是一家电脑周邊裝置和软件制造商，总部位于瑞士洛桑，在欧洲、亚洲、大洋洲和美洲等一百多個國家或地區设有办事处，是全球頂尖的个人计算机和其他3C产品输入與接口设备制造商之一。该公司开发與销售用于个人计算机之視訊协作、音乐與智能家居等數位周邊設備。其中包括键盘、鼠标、平板电脑配件、网络摄像头、蓝牙扬声器與通用遥控器等产品。它的名字来自于logiciel，法语意为软件。Logitech品牌在日本市場變更成Logicool，主要目的是為了避免與日本Logitec 既有的已註冊商標混淆。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%8A%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logitech_building_in_Lausanne_-_20200721_144917.jpg/330px-Logitech_building_in_Lausanne_-_20200721_144917.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
