@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T15:03:38.501Z",
+  "fetchedAt": "2026-08-24T15:58:07.334Z",
   "items": [
+    {
+      "title": "單挫林",
+      "extract": "單挫林（INN:dantrolene）又称单挫林，是一種突觸後肌肉鬆弛劑，可減輕骨骼肌的收缩。它与雷诺丁受体 RyR1结合，抑制肌质网钙离子释放而减弱肌肉收缩。單挫林是治療和預防因全身麻醉而引發的罕見且致命的恶性高热之主要藥物。早年恶性高热的死亡率高達70%，使用單挫林其死亡率已低於5%。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%96%AE%E6%8C%AB%E6%9E%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Dantrolene_3D_spacefill.png/330px-Dantrolene_3D_spacefill.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "帕亚克",
       "extract": "帕亚克 是法国上比利牛斯省的一个市镇，属于巴涅尔德比戈尔区。\n",
@@ -27,13 +34,6 @@
       "extract": "策馬特，又译策马特，是位于瑞士瓦莱州馬特洪峰北麓以德语和天主教为主的一個市镇，距离意大利边境约10公里。策馬特為世界著名滑雪勝地，同時也是瑞士著名冰河快车的終點站。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%87%87%E5%B0%94%E9%A9%AC%E7%89%B9",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Zermat%2C_Switzerland%2C_2007-07-21.jpg/330px-Zermat%2C_Switzerland%2C_2007-07-21.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "佐野市",
-      "extract": "佐野市 是栃木縣西南部（安足）的一市。旧安蘇郡。2005年2月28日設立，由旧佐野市、安蘇郡田沼町、同郡葛生町新設合併成立。人口約12萬，次于足利市位居縣內第5位。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BD%90%E9%87%8E%E5%B8%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Izuruhara_Benten_Pond_3.jpg/330px-Izuruhara_Benten_Pond_3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
