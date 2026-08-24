@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T14:07:37.773Z",
+  "fetchedAt": "2026-08-24T15:03:38.501Z",
   "items": [
+    {
+      "title": "帕亚克",
+      "extract": "帕亚克 是法国上比利牛斯省的一个市镇，属于巴涅尔德比戈尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%95%E4%BA%9A%E5%85%8B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%C3%89glise_Saint-Etienne_de_Pailhac_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg/330px-%C3%89glise_Saint-Etienne_de_Pailhac_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "冲浪行动",
       "extract": "冲浪行动 是發生於1949年3月25-28日蘇聯大規模驅逐被佔領波羅的海國家人口的行動。大約90000個立陶宛人，愛沙尼亞人和拉脫維亞人被打成阶级敌人被驅逐到蘇聯不適宜居住的地區。這是由蘇聯在冷戰時期所設計最複雜的驅逐行動之一。\n",
@@ -27,13 +34,6 @@
       "extract": "佐野市 是栃木縣西南部（安足）的一市。旧安蘇郡。2005年2月28日設立，由旧佐野市、安蘇郡田沼町、同郡葛生町新設合併成立。人口約12萬，次于足利市位居縣內第5位。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BD%90%E9%87%8E%E5%B8%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Izuruhara_Benten_Pond_3.jpg/330px-Izuruhara_Benten_Pond_3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "稳压器",
-      "extract": "稳压器或电压调节器，是指电子工程中自动维持恒定电压的装置。一个稳压器可能是简单的“前馈”设计或者可能包含负反馈控制回路。稳压器还可能使用了机电机制或电子模块。根据不同的设计，稳压器可以分为直流稳压和交流稳压。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%A8%B3%E5%8E%8B%E5%99%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/7812_voltage_regulator.jpg/330px-7812_voltage_regulator.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
