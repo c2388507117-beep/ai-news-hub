@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-24T21:47:01.778Z",
+  "fetchedAt": "2026-08-24T22:46:54.826Z",
   "items": [
     {
       "id": "steam-227300",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-302510",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     },
     {
       "id": "steam-648100",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-1313140",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-801800",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-1868140",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-2680010",
@@ -103,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
-    },
-    {
-      "id": "steam-1569580",
-      "title": "蓝途王子",
-      "url": "https://store.steampowered.com/app/1569580?l=schinese",
-      "discount": 40,
-      "originalPrice": 29.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     },
     {
       "id": "steam-4001890",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.661Z"
     },
     {
       "id": "steam-2764460",
@@ -142,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-2358720",
@@ -155,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
+    },
+    {
+      "id": "steam-1643320",
+      "title": "潜行者2：切尔诺贝利之心",
+      "url": "https://store.steampowered.com/app/1643320?l=schinese",
+      "discount": 30,
+      "originalPrice": 59.99,
+      "finalPrice": 41.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     },
     {
       "id": "steam-3636770",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
     },
     {
       "id": "steam-4195110",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     },
     {
       "id": "steam-4075620",
@@ -194,20 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
-    },
-    {
-      "id": "steam-1286220",
-      "title": "Sea Power : Naval Combat in the Missile Age",
-      "url": "https://store.steampowered.com/app/1286220?l=schinese",
-      "discount": 20,
-      "originalPrice": 49.99,
-      "finalPrice": 39.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286220/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.778Z"
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     },
     {
       "id": "steam-4164790",
@@ -220,7 +207,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T21:47:01.583Z"
+      "publishedAt": "2026-08-24T22:46:54.662Z"
+    },
+    {
+      "id": "steam-4131730",
+      "title": "VHOLUME",
+      "url": "https://store.steampowered.com/app/4131730?l=schinese",
+      "discount": 10,
+      "originalPrice": 8,
+      "finalPrice": 7.2,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T22:46:54.826Z"
     }
   ]
 }

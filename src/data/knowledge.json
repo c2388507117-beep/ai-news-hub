@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T21:47:06.410Z",
+  "fetchedAt": "2026-08-24T22:46:59.684Z",
   "items": [
+    {
+      "title": "1994年國際足協世界盃",
+      "extract": "1994年國際足協世界盃，于1994年6月18日到7月17日在美国举行。决赛中，此前分別三奪冠軍的兩支球隊相遇，巴西在十二碼中以 3–2 战胜了意大利，第四次捧起了世界杯奖杯；也是繼1970年後第2次在中北美洲舉辦的世界盃裡奪冠。\n",
+      "url": "https://zh.wikipedia.org/wiki/1994%E5%B9%B4%E5%9C%8B%E9%9A%9B%E8%B6%B3%E5%8D%94%E4%B8%96%E7%95%8C%E7%9B%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/langzh-330px-1994_FIFA_World_Cup.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "石串站",
       "extract": "石串站 是首尔地铁6号线沿線的一座地下車站，位於韓國首爾特別市城北區石串洞。站名以所在地「石串洞」（석관동）的韩語固有词写法命名，中文不采音译，直接使用原名。\n",
@@ -27,13 +34,6 @@
       "extract": "滾打包收是圍棋用語。是指連續採用撲、打吃、封等手法來使對手棋子成為無效率的凝形再加以攻擊的方式。其中滾打是指把對手棋子攻成凝形，包收是指進一步圍攻。滾打包收是圍棋攻擊常用的手法，通常首先以撲和連續打吃來破對方可能的眼位並減少氣，其次再以迦（門吃）的手法加以圍攻追擊。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%BB%BE%E6%89%93%E5%8C%85%E6%94%B6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Go_board_part.jpg/330px-Go_board_part.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "林山前诺因堡",
-      "extract": "林山前诺因堡 是德国巴伐利亚州上普法尔茨行政区施万多夫县的城市，面积110.14平方千米，2023年12月31日人口为8,431人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B1%B1%E5%89%8D%E8%AF%BA%E5%9B%A0%E5%A0%A1",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Neunburg_vorm_Wald_Rathaus.jpg/330px-Neunburg_vorm_Wald_Rathaus.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
