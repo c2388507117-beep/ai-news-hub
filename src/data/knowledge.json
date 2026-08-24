@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T10:06:26.259Z",
+  "fetchedAt": "2026-08-24T10:56:18.208Z",
   "items": [
+    {
+      "title": "佐野市",
+      "extract": "佐野市 是栃木縣西南部（安足）的一市。旧安蘇郡。2005年2月28日設立，由旧佐野市、安蘇郡田沼町、同郡葛生町新設合併成立。人口約12萬，次于足利市位居縣內第5位。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%90%E9%87%8E%E5%B8%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Izuruhara_Benten_Pond_3.jpg/330px-Izuruhara_Benten_Pond_3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "稳压器",
       "extract": "稳压器或电压调节器，是指电子工程中自动维持恒定电压的装置。一个稳压器可能是简单的“前馈”设计或者可能包含负反馈控制回路。稳压器还可能使用了机电机制或电子模块。根据不同的设计，稳压器可以分为直流稳压和交流稳压。\n",
@@ -27,13 +34,6 @@
       "extract": "肯尼亞國徽為一盾徽，顏色及其意義與國旗同。中間抓著斧頭的雄雞，象徵新生和繁榮。兩旁有獅子護盾並持矛。下為肯尼亞山，長滿了玉米、鳳梨、劍麻、茶樹、咖啡、除蟲菊等農作物。綬帶上以斯瓦希里語書「共處」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%82%AF%E5%B0%BC%E4%BA%9E%E5%9C%8B%E5%BE%BD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coat_of_arms_of_Kenya_%28Official%29.svg/langzh-330px-Coat_of_arms_of_Kenya_%28Official%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "2025年東南歐抵制連鎖零售商運動",
-      "extract": "自2025年1月下旬至3月，東南歐國家的零售商店接連遭到消費者抵制。這場運動最早於1月24日在克羅地亞爆發，起因是全國零售價格飆升。隨後，塞爾維亞、黑山、波斯尼亞和黑塞哥維那、北馬其頓、斯洛文尼亞、阿爾巴尼亞、羅馬尼亞、保加利亞、科索沃與匈牙利相繼響應，而斯洛伐克、希臘與捷克也陸續出現抵制呼聲或計畫。這些抵制發生之際，整個地區的食品價格與生活成本均大幅上升，成因涉及多種經濟因素。此波抵制運動獲得廣泛的公眾支持。\n",
-      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%9D%B1%E5%8D%97%E6%AD%90%E6%8A%B5%E5%88%B6%E9%80%A3%E9%8E%96%E9%9B%B6%E5%94%AE%E5%95%86%E9%81%8B%E5%8B%95",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2025_Southeastern_European_Boycotts_map.svg/langzh-330px-2025_Southeastern_European_Boycotts_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
