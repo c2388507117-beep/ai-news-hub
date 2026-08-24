@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T13:17:01.153Z",
+  "fetchedAt": "2026-08-24T14:07:37.773Z",
   "items": [
+    {
+      "title": "冲浪行动",
+      "extract": "冲浪行动 是發生於1949年3月25-28日蘇聯大規模驅逐被佔領波羅的海國家人口的行動。大約90000個立陶宛人，愛沙尼亞人和拉脫維亞人被打成阶级敌人被驅逐到蘇聯不適宜居住的地區。這是由蘇聯在冷戰時期所設計最複雜的驅逐行動之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%86%B2%E6%B5%AA%E8%A1%8C%E5%8A%A8",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Kolyma_road00.jpg/330px-Kolyma_road00.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "灰羽連盟",
       "extract": "《灰羽連盟》 是基於安倍吉俊的同人誌「オールドホームの灰羽達」為原作構成的電視動畫作品。於2002年10月至同年12月在富士電視台播放。全13話。\n",
@@ -27,13 +34,6 @@
       "extract": "稳压器或电压调节器，是指电子工程中自动维持恒定电压的装置。一个稳压器可能是简单的“前馈”设计或者可能包含负反馈控制回路。稳压器还可能使用了机电机制或电子模块。根据不同的设计，稳压器可以分为直流稳压和交流稳压。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%A8%B3%E5%8E%8B%E5%99%A8",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/7812_voltage_regulator.jpg/330px-7812_voltage_regulator.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "文井镇 (景东县)",
-      "extract": "文井镇，是中华人民共和国云南省普洱市景东彝族自治县下辖的一个乡镇级行政单位。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%95%E9%95%87_(%E6%99%AF%E4%B8%9C%E5%8E%BF)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%E6%99%AF%E4%B8%9C%E5%8E%BF%E6%96%87%E4%BA%95%E9%95%87G215_2025-01-26.jpg/330px-%E6%99%AF%E4%B8%9C%E5%8E%BF%E6%96%87%E4%BA%95%E9%95%87G215_2025-01-26.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
