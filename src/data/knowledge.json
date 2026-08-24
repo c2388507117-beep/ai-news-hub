@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T07:31:39.128Z",
+  "fetchedAt": "2026-08-24T09:07:24.567Z",
   "items": [
+    {
+      "title": "文井镇 (景东县)",
+      "extract": "文井镇，是中华人民共和国云南省普洱市景东彝族自治县下辖的一个乡镇级行政单位。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%95%E9%95%87_(%E6%99%AF%E4%B8%9C%E5%8E%BF)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%E6%99%AF%E4%B8%9C%E5%8E%BF%E6%96%87%E4%BA%95%E9%95%87G215_2025-01-26.jpg/330px-%E6%99%AF%E4%B8%9C%E5%8E%BF%E6%96%87%E4%BA%95%E9%95%87G215_2025-01-26.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "雙螺旋星雲",
       "extract": "雙螺旋星雲是接近我們的銀河系中心的一個氣體星雲。他被認為是受到扭曲而產生了兩個螺旋的形狀，成為一般所認知的雙螺旋，如同脱氧核醣核酸（DNA）的形狀。\n",
@@ -27,13 +34,6 @@
       "extract": "彭文正（1961年5月29日—），台灣新聞學者、媒體人、在逃通緝犯，生於新竹縣新埔鎮。曾任國立臺灣大學新聞研究所所長、教授、客家電視台執行長、台灣電視公司記者、陸軍《東湧日報》記者、中華民國法務部檢察官評鑒委員會委員兼發言人。畢業於美國威斯康星大学麦迪逊分校大眾傳播博士、美國威斯康辛大學公共行政碩士、台大農推系，曾主持《政經看民視》、創設網路媒體《讀報》，被民视辞退后創辦政經傳媒與網路媒體《呷新聞》，與其妻李晶玉主持新聞節目《政經關不了》，同時在國立臺灣大學兼任教授。2021年11月19日，因滯留美國未歸遭到臺灣臺北地方法院發布通緝令，現居於美國加利福尼亞州舊金山。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E6%96%87%E6%AD%A3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%E7%9F%A5%E5%90%8D%E5%AA%92%E9%AB%94%E4%BA%BA%E5%BD%AD%E6%96%87%E6%AD%A3.JPG/330px-%E7%9F%A5%E5%90%8D%E5%AA%92%E9%AB%94%E4%BA%BA%E5%BD%AD%E6%96%87%E6%AD%A3.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "電波少女與錢仙大人",
-      "extract": "《電波少女與錢仙大人》 ，是遠藤綠所作的日本漫畫，於《月刊GANGAN JOKER》2011年8月號至2016年12月號連載。電視動畫於2014年10月至12月在東京電視台等電視台的深夜播出。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9B%BB%E6%B3%A2%E5%B0%91%E5%A5%B3%E8%88%87%E9%8C%A2%E4%BB%99%E5%A4%A7%E4%BA%BA",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/2b/Gugure%21_Kokkuri-san_manga_volume_1_cover.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
