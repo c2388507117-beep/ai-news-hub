@@ -1,31 +1,18 @@
 {
-  "fetchedAt": "2026-08-24T16:58:28.259Z",
+  "fetchedAt": "2026-08-24T17:49:48.379Z",
   "items": [
     {
-      "id": "steam-694280",
-      "title": "Zombie Army 4: Dead War",
-      "url": "https://store.steampowered.com/app/694280?l=schinese",
-      "discount": 95,
-      "originalPrice": 168,
-      "finalPrice": 8.4,
+      "id": "steam-227300",
+      "title": "Euro Truck Simulator 2",
+      "url": "https://store.steampowered.com/app/227300?l=schinese",
+      "discount": 75,
+      "originalPrice": 88,
+      "finalPrice": 22,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/694280/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
-    },
-    {
-      "id": "steam-1687950",
-      "title": "女神异闻录5皇家版",
-      "url": "https://store.steampowered.com/app/1687950?l=schinese",
-      "discount": 70,
-      "originalPrice": 268,
-      "finalPrice": 80.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-648100",
@@ -38,46 +25,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
-      "id": "steam-2161700",
-      "title": "女神异闻录３ Reload",
-      "url": "https://store.steampowered.com/app/2161700?l=schinese",
-      "discount": 65,
-      "originalPrice": 268,
-      "finalPrice": 93.8,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
-    },
-    {
-      "id": "steam-1771300",
-      "title": "天国：拯救2",
-      "url": "https://store.steampowered.com/app/1771300?l=schinese",
+      "id": "steam-1313140",
+      "title": "咩咩启示录",
+      "url": "https://store.steampowered.com/app/1313140?l=schinese",
       "discount": 60,
-      "originalPrice": 228,
-      "finalPrice": 91.2,
+      "originalPrice": 118,
+      "finalPrice": 47.2,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
-      "id": "steam-2679460",
-      "title": "暗喻幻想：ReFantazio",
-      "url": "https://store.steampowered.com/app/2679460?l=schinese",
-      "discount": 60,
-      "originalPrice": 69.99,
-      "finalPrice": 27.99,
+      "id": "steam-3240220",
+      "title": "Grand Theft Auto V 增强版",
+      "url": "https://store.steampowered.com/app/3240220?l=schinese",
+      "discount": 56,
+      "originalPrice": 224,
+      "finalPrice": 98.56,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.259Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-1868140",
@@ -90,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-1569580",
@@ -103,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.259Z"
+      "publishedAt": "2026-08-24T17:49:48.379Z"
     },
     {
       "id": "steam-4001890",
@@ -116,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-2764460",
@@ -129,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-2358720",
@@ -142,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-1643320",
@@ -155,7 +129,59 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.259Z"
+      "publishedAt": "2026-08-24T17:49:48.379Z"
+    },
+    {
+      "id": "steam-3636770",
+      "title": "Servant of the Lake",
+      "url": "https://store.steampowered.com/app/3636770?l=schinese",
+      "discount": 25,
+      "originalPrice": 33,
+      "finalPrice": 24.75,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T17:49:48.161Z"
+    },
+    {
+      "id": "steam-4075620",
+      "title": "连锁城邦: 类Rogue城市营造游戏",
+      "url": "https://store.steampowered.com/app/4075620?l=schinese",
+      "discount": 20,
+      "originalPrice": 9.99,
+      "finalPrice": 7.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T17:49:48.379Z"
+    },
+    {
+      "id": "steam-4195110",
+      "title": "胡闹台球 Ultrapool",
+      "url": "https://store.steampowered.com/app/4195110?l=schinese",
+      "discount": 20,
+      "originalPrice": 11.99,
+      "finalPrice": 9.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T17:49:48.379Z"
+    },
+    {
+      "id": "steam-4294490",
+      "title": "KOTAMON：妹妹麦片盒开出超稀有卡牌，我干脆当垃圾清运工集齐整套藏品怒赚百万美元",
+      "url": "https://store.steampowered.com/app/4294490?l=schinese",
+      "discount": 20,
+      "originalPrice": 6.99,
+      "finalPrice": 5.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4294490/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T17:49:48.379Z"
     },
     {
       "id": "steam-4164790",
@@ -168,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.046Z"
+      "publishedAt": "2026-08-24T17:49:48.161Z"
     },
     {
       "id": "steam-4131730",
@@ -181,20 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.259Z"
-    },
-    {
-      "id": "steam-3849000",
-      "title": "The Lantern of the Laughless Saint",
-      "url": "https://store.steampowered.com/app/3849000?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3849000/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T16:58:28.259Z"
+      "publishedAt": "2026-08-24T17:49:48.379Z"
     }
   ]
 }
