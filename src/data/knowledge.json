@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T10:56:18.208Z",
+  "fetchedAt": "2026-08-24T11:46:44.217Z",
   "items": [
+    {
+      "title": "采尔马特",
+      "extract": "策馬特，又译策马特，是位于瑞士瓦莱州馬特洪峰北麓以德语和天主教为主的一個市镇，距离意大利边境约10公里。策馬特為世界著名滑雪勝地，同時也是瑞士著名冰河快车的終點站。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%87%E5%B0%94%E9%A9%AC%E7%89%B9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Zermat%2C_Switzerland%2C_2007-07-21.jpg/330px-Zermat%2C_Switzerland%2C_2007-07-21.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "佐野市",
       "extract": "佐野市 是栃木縣西南部（安足）的一市。旧安蘇郡。2005年2月28日設立，由旧佐野市、安蘇郡田沼町、同郡葛生町新設合併成立。人口約12萬，次于足利市位居縣內第5位。\n",
@@ -27,13 +34,6 @@
       "extract": "雙螺旋星雲是接近我們的銀河系中心的一個氣體星雲。他被認為是受到扭曲而產生了兩個螺旋的形狀，成為一般所認知的雙螺旋，如同脱氧核醣核酸（DNA）的形狀。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%99%E8%9E%BA%E6%97%8B%E6%98%9F%E9%9B%B2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/False-Color_Image_of_Double_Helix_Nebula.jpg/330px-False-Color_Image_of_Double_Helix_Nebula.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "肯尼亞國徽",
-      "extract": "肯尼亞國徽為一盾徽，顏色及其意義與國旗同。中間抓著斧頭的雄雞，象徵新生和繁榮。兩旁有獅子護盾並持矛。下為肯尼亞山，長滿了玉米、鳳梨、劍麻、茶樹、咖啡、除蟲菊等農作物。綬帶上以斯瓦希里語書「共處」。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%82%AF%E5%B0%BC%E4%BA%9E%E5%9C%8B%E5%BE%BD",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coat_of_arms_of_Kenya_%28Official%29.svg/langzh-330px-Coat_of_arms_of_Kenya_%28Official%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
