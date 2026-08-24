@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T03:26:20.477Z",
+  "fetchedAt": "2026-08-24T05:05:02.098Z",
   "items": [
+    {
+      "title": "2025年東南歐抵制連鎖零售商運動",
+      "extract": "自2025年1月下旬至3月，東南歐國家的零售商店接連遭到消費者抵制。這場運動最早於1月24日在克羅地亞爆發，起因是全國零售價格飆升。隨後，塞爾維亞、黑山、波斯尼亞和黑塞哥維那、北馬其頓、斯洛文尼亞、阿爾巴尼亞、羅馬尼亞、保加利亞、科索沃與匈牙利相繼響應，而斯洛伐克、希臘與捷克也陸續出現抵制呼聲或計畫。這些抵制發生之際，整個地區的食品價格與生活成本均大幅上升，成因涉及多種經濟因素。此波抵制運動獲得廣泛的公眾支持。\n",
+      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%9D%B1%E5%8D%97%E6%AD%90%E6%8A%B5%E5%88%B6%E9%80%A3%E9%8E%96%E9%9B%B6%E5%94%AE%E5%95%86%E9%81%8B%E5%8B%95",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2025_Southeastern_European_Boycotts_map.svg/langzh-330px-2025_Southeastern_European_Boycotts_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "彭文正",
       "extract": "彭文正（1961年5月29日—），台灣新聞學者、媒體人、在逃通緝犯，生於新竹縣新埔鎮。曾任國立臺灣大學新聞研究所所長、教授、客家電視台執行長、台灣電視公司記者、陸軍《東湧日報》記者、中華民國法務部檢察官評鑒委員會委員兼發言人。畢業於美國威斯康星大学麦迪逊分校大眾傳播博士、美國威斯康辛大學公共行政碩士、台大農推系，曾主持《政經看民視》、創設網路媒體《讀報》，被民视辞退后創辦政經傳媒與網路媒體《呷新聞》，與其妻李晶玉主持新聞節目《政經關不了》，同時在國立臺灣大學兼任教授。2021年11月19日，因滯留美國未歸遭到臺灣臺北地方法院發布通緝令，現居於美國加利福尼亞州舊金山。\n",
@@ -27,13 +34,6 @@
       "extract": "拉斯·卡納漢 是美國的一位政治人物。在2005年至2013年，他是密蘇里州第3選舉區選出的美國眾議院議員。他的黨籍是民主黨。卡納翰出生在密蘇里州哥倫布。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E6%96%AF%C2%B7%E5%8D%A1%E7%BA%B3%E6%B1%89",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Russ_Carnahan%2C_official_109th_Congress_photo.jpg/330px-Russ_Carnahan%2C_official_109th_Congress_photo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "2021年地震列表",
-      "extract": "2021年地震列表列举于2021年全年内被各国地震研究机构所纪录下的显著地震。\n",
-      "url": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E5%9C%B0%E9%9C%87%E5%88%97%E8%A1%A8",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Destroyed_Governor_office_of_West_Sulawesi.jpg/330px-Destroyed_Governor_office_of_West_Sulawesi.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
