@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-24T19:47:40.130Z",
+  "fetchedAt": "2026-08-24T20:51:39.724Z",
   "items": [
     {
       "id": "steam-227300",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-648100",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-1313140",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-1868140",
@@ -64,7 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
+    },
+    {
+      "id": "steam-2680010",
+      "title": "The First Berserker: Khazan",
+      "url": "https://store.steampowered.com/app/2680010?l=schinese",
+      "discount": 40,
+      "originalPrice": 59.99,
+      "finalPrice": 35.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T20:51:39.724Z"
     },
     {
       "id": "steam-1569580",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:40.129Z"
+      "publishedAt": "2026-08-24T20:51:39.724Z"
     },
     {
       "id": "steam-4001890",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.936Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-2764460",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-2358720",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-1643320",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:40.129Z"
+      "publishedAt": "2026-08-24T20:51:39.724Z"
     },
     {
       "id": "steam-3636770",
@@ -142,20 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
-    },
-    {
-      "id": "steam-4075620",
-      "title": "连锁城邦: 类Rogue城市营造游戏",
-      "url": "https://store.steampowered.com/app/4075620?l=schinese",
-      "discount": 20,
-      "originalPrice": 9.99,
-      "finalPrice": 7.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:40.129Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-4195110",
@@ -168,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:40.129Z"
+      "publishedAt": "2026-08-24T20:51:39.724Z"
+    },
+    {
+      "id": "steam-4075620",
+      "title": "连锁城邦: 类Rogue城市营造游戏",
+      "url": "https://store.steampowered.com/app/4075620?l=schinese",
+      "discount": 20,
+      "originalPrice": 9.99,
+      "finalPrice": 7.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T20:51:39.724Z"
     },
     {
       "id": "steam-4164790",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:39.937Z"
+      "publishedAt": "2026-08-24T20:51:39.517Z"
     },
     {
       "id": "steam-4560660",
@@ -194,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:40.129Z"
+      "publishedAt": "2026-08-24T20:51:39.724Z"
     },
     {
       "id": "steam-4131730",
@@ -207,7 +220,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T19:47:40.129Z"
+      "publishedAt": "2026-08-24T20:51:39.724Z"
     }
   ]
 }
