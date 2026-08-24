@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T05:05:02.098Z",
+  "fetchedAt": "2026-08-24T05:56:28.782Z",
   "items": [
+    {
+      "title": "肯尼亞國徽",
+      "extract": "肯尼亞國徽為一盾徽，顏色及其意義與國旗同。中間抓著斧頭的雄雞，象徵新生和繁榮。兩旁有獅子護盾並持矛。下為肯尼亞山，長滿了玉米、鳳梨、劍麻、茶樹、咖啡、除蟲菊等農作物。綬帶上以斯瓦希里語書「共處」。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%82%AF%E5%B0%BC%E4%BA%9E%E5%9C%8B%E5%BE%BD",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coat_of_arms_of_Kenya_%28Official%29.svg/langzh-330px-Coat_of_arms_of_Kenya_%28Official%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "2025年東南歐抵制連鎖零售商運動",
       "extract": "自2025年1月下旬至3月，東南歐國家的零售商店接連遭到消費者抵制。這場運動最早於1月24日在克羅地亞爆發，起因是全國零售價格飆升。隨後，塞爾維亞、黑山、波斯尼亞和黑塞哥維那、北馬其頓、斯洛文尼亞、阿爾巴尼亞、羅馬尼亞、保加利亞、科索沃與匈牙利相繼響應，而斯洛伐克、希臘與捷克也陸續出現抵制呼聲或計畫。這些抵制發生之際，整個地區的食品價格與生活成本均大幅上升，成因涉及多種經濟因素。此波抵制運動獲得廣泛的公眾支持。\n",
@@ -27,13 +34,6 @@
       "extract": "羅技 是一家电脑周邊裝置和软件制造商，总部位于瑞士洛桑，在欧洲、亚洲、大洋洲和美洲等一百多個國家或地區设有办事处，是全球頂尖的个人计算机和其他3C产品输入與接口设备制造商之一。该公司开发與销售用于个人计算机之視訊协作、音乐與智能家居等數位周邊設備。其中包括键盘、鼠标、平板电脑配件、网络摄像头、蓝牙扬声器與通用遥控器等产品。它的名字来自于logiciel，法语意为软件。Logitech品牌在日本市場變更成Logicool，主要目的是為了避免與日本Logitec 既有的已註冊商標混淆。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%8A%80",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Logitech_building_in_Lausanne_-_20200721_144917.jpg/330px-Logitech_building_in_Lausanne_-_20200721_144917.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "拉斯·卡纳汉",
-      "extract": "拉斯·卡納漢 是美國的一位政治人物。在2005年至2013年，他是密蘇里州第3選舉區選出的美國眾議院議員。他的黨籍是民主黨。卡納翰出生在密蘇里州哥倫布。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E6%96%AF%C2%B7%E5%8D%A1%E7%BA%B3%E6%B1%89",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Russ_Carnahan%2C_official_109th_Congress_photo.jpg/330px-Russ_Carnahan%2C_official_109th_Congress_photo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
