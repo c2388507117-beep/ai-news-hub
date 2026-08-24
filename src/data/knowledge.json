@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T15:58:07.334Z",
+  "fetchedAt": "2026-08-24T16:58:33.872Z",
   "items": [
+    {
+      "title": "圣克洛德德迪赖",
+      "extract": "圣克洛德德迪赖 是法国卢瓦-谢尔省的一个市镇，属于布卢瓦区。 \n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%85%8B%E6%B4%9B%E5%BE%B7%E5%BE%B7%E8%BF%AA%E8%B5%96",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/F_%E2%80%93_Saint-Claude-de-Diray_001.jpg/330px-F_%E2%80%93_Saint-Claude-de-Diray_001.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "單挫林",
       "extract": "單挫林（INN:dantrolene）又称单挫林，是一種突觸後肌肉鬆弛劑，可減輕骨骼肌的收缩。它与雷诺丁受体 RyR1结合，抑制肌质网钙离子释放而减弱肌肉收缩。單挫林是治療和預防因全身麻醉而引發的罕見且致命的恶性高热之主要藥物。早年恶性高热的死亡率高達70%，使用單挫林其死亡率已低於5%。\n",
@@ -27,13 +34,6 @@
       "extract": "《灰羽連盟》 是基於安倍吉俊的同人誌「オールドホームの灰羽達」為原作構成的電視動畫作品。於2002年10月至同年12月在富士電視台播放。全13話。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%81%B0%E7%BE%BD%E9%80%A3%E7%9B%9F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/c/c5/Haibane_Renmei_DVD.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "采尔马特",
-      "extract": "策馬特，又译策马特，是位于瑞士瓦莱州馬特洪峰北麓以德语和天主教为主的一個市镇，距离意大利边境约10公里。策馬特為世界著名滑雪勝地，同時也是瑞士著名冰河快车的終點站。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%87%87%E5%B0%94%E9%A9%AC%E7%89%B9",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Zermat%2C_Switzerland%2C_2007-07-21.jpg/330px-Zermat%2C_Switzerland%2C_2007-07-21.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
