@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T22:46:59.684Z",
+  "fetchedAt": "2026-08-24T23:40:09.878Z",
   "items": [
+    {
+      "title": "艾古力圣弥额尔礼拜堂",
+      "extract": "艾古力圣弥额尔礼拜堂 是法国勒皮的一座天主教小礼拜堂，公元962年建于一座85米高的火山岩顶部，需要攀登268级台阶才能到达。它是为庆祝从圣地亚哥-德孔波斯特拉朝圣归来而建。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%8F%A4%E5%8A%9B%E5%9C%A3%E5%BC%A5%E9%A2%9D%E5%B0%94%E7%A4%BC%E6%8B%9C%E5%A0%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Aiguilhe_-_Chapelle_St-Michel_-_JPG1.jpg/330px-Aiguilhe_-_Chapelle_St-Michel_-_JPG1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "1994年國際足協世界盃",
       "extract": "1994年國際足協世界盃，于1994年6月18日到7月17日在美国举行。决赛中，此前分別三奪冠軍的兩支球隊相遇，巴西在十二碼中以 3–2 战胜了意大利，第四次捧起了世界杯奖杯；也是繼1970年後第2次在中北美洲舉辦的世界盃裡奪冠。\n",
@@ -27,13 +34,6 @@
       "extract": "盧賓 是波蘭的城市，位於該國西南部下西里西亞省，始建於十二世紀，人口約6.7萬。盧賓坐落於濟姆尼察河河畔，距離弗罗茨瓦夫約71公里。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E8%B3%93",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Lubin_Rynek_Ratusz.jpg/330px-Lubin_Rynek_Ratusz.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "滾打包收",
-      "extract": "滾打包收是圍棋用語。是指連續採用撲、打吃、封等手法來使對手棋子成為無效率的凝形再加以攻擊的方式。其中滾打是指把對手棋子攻成凝形，包收是指進一步圍攻。滾打包收是圍棋攻擊常用的手法，通常首先以撲和連續打吃來破對方可能的眼位並減少氣，其次再以迦（門吃）的手法加以圍攻追擊。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%BB%BE%E6%89%93%E5%8C%85%E6%94%B6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Go_board_part.jpg/330px-Go_board_part.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

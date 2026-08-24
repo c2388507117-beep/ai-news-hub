@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-24T22:46:54.826Z",
+  "fetchedAt": "2026-08-24T23:40:05.348Z",
   "items": [
+    {
+      "id": "steam-1142710",
+      "title": "全面战争：战锤3",
+      "url": "https://store.steampowered.com/app/1142710?l=schinese",
+      "discount": 85,
+      "originalPrice": 298,
+      "finalPrice": 44.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-24T23:40:05.130Z"
+    },
     {
       "id": "steam-227300",
       "title": "Euro Truck Simulator 2",
@@ -12,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-302510",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     },
     {
       "id": "steam-648100",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-1313140",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-801800",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-1868140",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-2680010",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     },
     {
       "id": "steam-4001890",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.661Z"
+      "publishedAt": "2026-08-24T23:40:05.129Z"
     },
     {
       "id": "steam-2764460",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-2358720",
@@ -142,33 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
-      "id": "steam-1643320",
-      "title": "潜行者2：切尔诺贝利之心",
-      "url": "https://store.steampowered.com/app/1643320?l=schinese",
-      "discount": 30,
-      "originalPrice": 59.99,
-      "finalPrice": 41.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
-    },
-    {
-      "id": "steam-3636770",
-      "title": "Servant of the Lake",
-      "url": "https://store.steampowered.com/app/3636770?l=schinese",
+      "id": "steam-3065940",
+      "title": "加里波利",
+      "url": "https://store.steampowered.com/app/3065940?l=schinese",
       "discount": 25,
-      "originalPrice": 33,
-      "finalPrice": 24.75,
+      "originalPrice": 29.99,
+      "finalPrice": 22.49,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     },
     {
       "id": "steam-4195110",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     },
     {
       "id": "steam-4075620",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     },
     {
       "id": "steam-4164790",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.662Z"
+      "publishedAt": "2026-08-24T23:40:05.130Z"
     },
     {
       "id": "steam-4131730",
@@ -220,7 +220,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T22:46:54.826Z"
+      "publishedAt": "2026-08-24T23:40:05.347Z"
     }
   ]
 }
