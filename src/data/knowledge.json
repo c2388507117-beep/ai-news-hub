@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T07:11:47.377Z",
+  "fetchedAt": "2026-08-25T08:01:41.270Z",
   "items": [
+    {
+      "title": "桑尼·葛雷",
+      "extract": "桑尼·道格拉斯·葛雷，為美國職棒大聯盟的投手，目前效力於波士頓紅襪。他先前曾效力於運動家、洋基、紅人、雙城與紅雀等隊。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A1%91%E5%B0%BC%C2%B7%E8%91%9B%E9%9B%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Sonny_Gray_ST_2017.jpg/330px-Sonny_Gray_ST_2017.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "劉玄詠",
       "extract": "劉玄詠，為臺灣长号演奏家、指揮家、音樂教育家、音樂推廣與藝文產業推動者，現任駐奧地利代表。\n",
@@ -27,13 +34,6 @@
       "extract": "雷姆兰莱皮特朗日 是法国摩泽尔省的一个市镇，位于该省中东部，属于萨尔格米讷区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E5%A7%86%E5%85%B0%E8%8E%B1%E7%9A%AE%E7%89%B9%E6%9C%97%E6%97%A5",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Remering_Puttelange_eglise.JPG/330px-Remering_Puttelange_eglise.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "吉布地法郎",
-      "extract": "吉布地法郎 是吉布地的流通貨幣。貨幣編號DJF。輔幣單位為分。1法郎=100分。雖然是法郎，如今卻與美元掛鉤，1美元=177.721吉布地法郎。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E5%B8%83%E5%9C%B0%E6%B3%95%E9%83%8E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/5_djiboutian_francs.jpg/330px-5_djiboutian_francs.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
