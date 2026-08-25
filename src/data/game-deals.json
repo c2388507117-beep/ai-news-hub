@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-25T15:08:18.837Z",
+  "fetchedAt": "2026-08-25T16:02:51.960Z",
   "items": [
+    {
+      "id": "steam-391220",
+      "title": "Rise of the Tomb Raider™",
+      "url": "https://store.steampowered.com/app/391220?l=schinese",
+      "discount": 85,
+      "originalPrice": 147,
+      "finalPrice": 22.05,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T16:02:51.766Z"
+    },
     {
       "id": "steam-302510",
       "title": "Ryse: Son of Rome",
@@ -12,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.837Z"
+      "publishedAt": "2026-08-25T16:02:51.959Z"
     },
     {
       "id": "steam-648100",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-1313140",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.837Z"
+      "publishedAt": "2026-08-25T16:02:51.959Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-1868140",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-1144400",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144400/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-2680010",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.837Z"
+      "publishedAt": "2026-08-25T16:02:51.959Z"
     },
     {
       "id": "steam-4001890",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-2764460",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.837Z"
+      "publishedAt": "2026-08-25T16:02:51.959Z"
     },
     {
       "id": "steam-346110",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-2358720",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-1643320",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.837Z"
+      "publishedAt": "2026-08-25T16:02:51.959Z"
     },
     {
       "id": "steam-3321460",
@@ -168,20 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
-    },
-    {
-      "id": "steam-2567870",
-      "title": "Chained Together",
-      "url": "https://store.steampowered.com/app/2567870?l=schinese",
-      "discount": 20,
-      "originalPrice": 22,
-      "finalPrice": 17.6,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567870/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     },
     {
       "id": "steam-4075620",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.837Z"
+      "publishedAt": "2026-08-25T16:02:51.959Z"
     },
     {
       "id": "steam-4164790",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T15:08:18.648Z"
+      "publishedAt": "2026-08-25T16:02:51.766Z"
     }
   ]
 }
