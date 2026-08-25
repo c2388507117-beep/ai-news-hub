@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T16:58:46.067Z",
+  "fetchedAt": "2026-08-25T17:47:50.936Z",
   "items": [
+    {
+      "title": "巴米扬",
+      "extract": "巴米扬，舊稱「梵衍那、范陽國、望衍國、帆延國」，位于阿富汗中部，是巴米扬省的首府。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%B1%B3%E6%89%AC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/View_of_the_Bamiyan_Valley_with_the_destroyed_Buddha_statue%2C_Afghanistan%2C_July_2005.jpg/330px-View_of_the_Bamiyan_Valley_with_the_destroyed_Buddha_statue%2C_Afghanistan%2C_July_2005.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "黄菖蒲",
       "extract": "黄菖蒲 是鸢尾科鸢尾属的植物。分布在欧洲以及中国等地，目前已由人工引种栽培。\n",
@@ -27,13 +34,6 @@
       "extract": "赤龍，可以指南方火德之龍神，例如漢代官方傳說即記載劉邦為「赤龍子」，即火德興旺之寓意。也可以指南海龍王，別名昭明，又稱南海廣利王，是中國神話中四海龍王之一，代表南方。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%BE%8D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Dragon_from_Chinese_Dragon_Banner_Red_Version.svg/langzh-330px-Dragon_from_Chinese_Dragon_Banner_Red_Version.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "皮德霍羅德齊",
-      "extract": "皮德霍羅德齊，是烏克蘭的村庄，位於該國西部利沃夫州，由斯特雷區斯科萊市鎮負責管轄，始建於1397年，面積2.72平方公里，海拔高度472米，2001年人口2,132，人口密度每平方公里783.82人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%BE%B7%E9%9C%8D%E7%BE%85%E5%BE%B7%E9%BD%8A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/46-245-0066_Pidhorodci_DSC_3456.jpg/330px-46-245-0066_Pidhorodci_DSC_3456.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
