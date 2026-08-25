@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T20:49:27.253Z",
+  "fetchedAt": "2026-08-25T21:46:53.311Z",
   "items": [
+    {
+      "title": "傑爾若紐夫",
+      "extract": "傑爾若紐夫 是波蘭下西里西亞省的城鎮，距離瓦烏布日赫25公里，始建於十二世紀，2025年人口約3萬。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%91%E7%88%BE%E8%8B%A5%E7%B4%90%E5%A4%AB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2019_Ratusz_w_Dzier%C5%BConiowie_1.jpg/330px-2019_Ratusz_w_Dzier%C5%BConiowie_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "哈德遜河",
       "extract": "哈德遜河 是美國紐約州的河川，長507公里，发源于紐約上州阿第倫達克山脈，上游分出莫霍克河，西接伊利運河（可達五大湖），流经哈德遜河谷后匯入紐約港，是紐約州的經濟命脈。自北向南，流经纽约州东部、奧爾巴尼市、紐約市。下游为纽约州和紐泽西州的边界。\n",
@@ -27,13 +34,6 @@
       "extract": "巴米扬，舊稱「梵衍那、范陽國、望衍國、帆延國」，位于阿富汗中部，是巴米扬省的首府。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%B1%B3%E6%89%AC",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/View_of_the_Bamiyan_Valley_with_the_destroyed_Buddha_statue%2C_Afghanistan%2C_July_2005.jpg/330px-View_of_the_Bamiyan_Valley_with_the_destroyed_Buddha_statue%2C_Afghanistan%2C_July_2005.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黄菖蒲",
-      "extract": "黄菖蒲 是鸢尾科鸢尾属的植物。分布在欧洲以及中国等地，目前已由人工引种栽培。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%8F%96%E8%92%B2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Iris_pseudacorus_001.jpg/330px-Iris_pseudacorus_001.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
