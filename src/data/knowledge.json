@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T01:55:14.696Z",
+  "fetchedAt": "2026-08-25T03:14:33.376Z",
   "items": [
+    {
+      "title": "吉布地法郎",
+      "extract": "吉布地法郎 是吉布地的流通貨幣。貨幣編號DJF。輔幣單位為分。1法郎=100分。雖然是法郎，如今卻與美元掛鉤，1美元=177.721吉布地法郎。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E5%B8%83%E5%9C%B0%E6%B3%95%E9%83%8E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/5_djiboutian_francs.jpg/330px-5_djiboutian_francs.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "利尼昂德波尔多",
       "extract": "利尼昂德波尔多 是法国吉伦特省的一个市镇，属于波尔多区。\n",
@@ -27,13 +34,6 @@
       "extract": "石串站 是首尔地铁6号线沿線的一座地下車站，位於韓國首爾特別市城北區石串洞。站名以所在地「石串洞」（석관동）的韩語固有词写法命名，中文不采音译，直接使用原名。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E4%B8%B2%E7%AB%99",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Seoul-metro-643-Dolgoji-station-platform-20181125-143710.jpg/330px-Seoul-metro-643-Dolgoji-station-platform-20181125-143710.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "傑克遜鎮區 (印地安納州韋恩縣)",
-      "extract": "傑克遜鎮區 是位於美國印地安納州韋恩縣的一個行政鎮區。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%82%91%E5%85%8B%E9%81%9C%E9%8E%AE%E5%8D%80_(%E5%8D%B0%E5%9C%B0%E5%AE%89%E7%B4%8D%E5%B7%9E%E9%9F%8B%E6%81%A9%E7%B8%A3)",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Foggy_Farm_in_Jackson_Township.jpg/330px-Foggy_Farm_in_Jackson_Township.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
