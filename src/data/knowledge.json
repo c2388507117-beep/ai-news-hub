@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T08:01:41.270Z",
+  "fetchedAt": "2026-08-25T09:02:41.171Z",
   "items": [
+    {
+      "title": "赞格祖尔走廊",
+      "extract": "赞格祖尔走廊 又稱納希切萬走廊 、梅格里走廊 或休尼克走廊 ；阿塞拜疆語：Sünik dəhlizi），是一個構想中的地緣政治走廊，連通亞塞拜然本土與其飛地納希切萬自治共和國，穿過亞美尼亞南部的休尼克州（不經亞美尼亞的邊境管制）。此走廊可將土耳其與其他突厥語國家連通，使整個突厥語世界連成一體。赞格祖尔走廊並非2020年納戈爾諾-卡拉巴赫停火協議的一部份，為事後由亞塞拜然總統伊利哈姆·阿利耶夫提出。亞塞拜然與土耳其均大力主張建立此走廊，亞美尼亞對此則堅決反對，主張其偏離停火協定，為宣傳戰的一部份。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%9E%E6%A0%BC%E7%A5%96%E5%B0%94%E8%B5%B0%E5%BB%8A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2020_Nagorno-Karabakh_ceasefire_map.svg/langzh-330px-2020_Nagorno-Karabakh_ceasefire_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "桑尼·葛雷",
       "extract": "桑尼·道格拉斯·葛雷，為美國職棒大聯盟的投手，目前效力於波士頓紅襪。他先前曾效力於運動家、洋基、紅人、雙城與紅雀等隊。\n",
@@ -27,13 +34,6 @@
       "extract": "松针苷（英語：Pungenin）是一种有机化合物，化学式C14H18O8，为3,4-二羟基苯乙酮的葡萄糖苷，存在于藍葉雲杉（Picea pungens）等植物的针叶中。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E9%92%88%E8%8B%B7",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pungenin.svg/langzh-330px-Pungenin.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "雷姆兰莱皮特朗日",
-      "extract": "雷姆兰莱皮特朗日 是法国摩泽尔省的一个市镇，位于该省中东部，属于萨尔格米讷区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E5%A7%86%E5%85%B0%E8%8E%B1%E7%9A%AE%E7%89%B9%E6%9C%97%E6%97%A5",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Remering_Puttelange_eglise.JPG/330px-Remering_Puttelange_eglise.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
