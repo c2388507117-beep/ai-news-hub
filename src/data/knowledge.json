@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T09:02:41.171Z",
+  "fetchedAt": "2026-08-25T09:54:22.117Z",
   "items": [
+    {
+      "title": "湊阿庫婭",
+      "extract": "湊阿库娅，是hololive所属的一位日本虚拟主播、偶像，角色外型设定为女仆，由繪師Gaou進行人物設計。其于2018年8月8日开始在YouTube上进行活动，内容主要为翻唱及游戏直播，在2024年8月28日畢業。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%8A%E9%98%BF%E5%BA%AB%E5%A9%AD",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/3e/%E6%B9%8A%E9%98%BF%E5%BA%AB%E5%A9%AD.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "赞格祖尔走廊",
       "extract": "赞格祖尔走廊 又稱納希切萬走廊 、梅格里走廊 或休尼克走廊 ；阿塞拜疆語：Sünik dəhlizi），是一個構想中的地緣政治走廊，連通亞塞拜然本土與其飛地納希切萬自治共和國，穿過亞美尼亞南部的休尼克州（不經亞美尼亞的邊境管制）。此走廊可將土耳其與其他突厥語國家連通，使整個突厥語世界連成一體。赞格祖尔走廊並非2020年納戈爾諾-卡拉巴赫停火協議的一部份，為事後由亞塞拜然總統伊利哈姆·阿利耶夫提出。亞塞拜然與土耳其均大力主張建立此走廊，亞美尼亞對此則堅決反對，主張其偏離停火協定，為宣傳戰的一部份。\n",
@@ -27,13 +34,6 @@
       "extract": "多足蕨属 为水龙骨科的一属植物。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%B6%B3%E8%95%A8%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Polypodium_vulgare_%28aka%29.jpg/330px-Polypodium_vulgare_%28aka%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "松针苷",
-      "extract": "松针苷（英語：Pungenin）是一种有机化合物，化学式C14H18O8，为3,4-二羟基苯乙酮的葡萄糖苷，存在于藍葉雲杉（Picea pungens）等植物的针叶中。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E9%92%88%E8%8B%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pungenin.svg/langzh-330px-Pungenin.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
