@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T13:14:38.132Z",
+  "fetchedAt": "2026-08-25T14:09:02.562Z",
   "items": [
+    {
+      "title": "赤龍",
+      "extract": "赤龍，可以指南方火德之龍神，例如漢代官方傳說即記載劉邦為「赤龍子」，即火德興旺之寓意。也可以指南海龍王，別名昭明，又稱南海廣利王，是中國神話中四海龍王之一，代表南方。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%BE%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Dragon_from_Chinese_Dragon_Banner_Red_Version.svg/langzh-330px-Dragon_from_Chinese_Dragon_Banner_Red_Version.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "皮德霍羅德齊",
       "extract": "皮德霍羅德齊，是烏克蘭的村庄，位於該國西部利沃夫州，由斯特雷區斯科萊市鎮負責管轄，始建於1397年，面積2.72平方公里，海拔高度472米，2001年人口2,132，人口密度每平方公里783.82人。\n",
@@ -27,13 +34,6 @@
       "extract": "湊阿库娅，是hololive所属的一位日本虚拟主播、偶像，角色外型设定为女仆，由繪師Gaou進行人物設計。其于2018年8月8日开始在YouTube上进行活动，内容主要为翻唱及游戏直播，在2024年8月28日畢業。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B9%8A%E9%98%BF%E5%BA%AB%E5%A9%AD",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/3/3e/%E6%B9%8A%E9%98%BF%E5%BA%AB%E5%A9%AD.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "赞格祖尔走廊",
-      "extract": "赞格祖尔走廊 又稱納希切萬走廊 、梅格里走廊 或休尼克走廊 ；阿塞拜疆語：Sünik dəhlizi），是一個構想中的地緣政治走廊，連通亞塞拜然本土與其飛地納希切萬自治共和國，穿過亞美尼亞南部的休尼克州（不經亞美尼亞的邊境管制）。此走廊可將土耳其與其他突厥語國家連通，使整個突厥語世界連成一體。赞格祖尔走廊並非2020年納戈爾諾-卡拉巴赫停火協議的一部份，為事後由亞塞拜然總統伊利哈姆·阿利耶夫提出。亞塞拜然與土耳其均大力主張建立此走廊，亞美尼亞對此則堅決反對，主張其偏離停火協定，為宣傳戰的一部份。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B5%9E%E6%A0%BC%E7%A5%96%E5%B0%94%E8%B5%B0%E5%BB%8A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2020_Nagorno-Karabakh_ceasefire_map.svg/langzh-330px-2020_Nagorno-Karabakh_ceasefire_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
