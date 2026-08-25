@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T19:01:45.478Z",
+  "fetchedAt": "2026-08-25T19:48:32.835Z",
   "items": [
+    {
+      "title": "俄国党",
+      "extract": "俄党，是希腊早期政党之一，在希腊第一共和国（1828—1831）时期形成的希腊政治团体，一直持续到奥托一世时期。当时三大希腊政党用1832年君士坦丁堡条约中，共同解决希腊独立战争的三大列强国名命名，分别是俄罗斯帝国、英国和法国。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E5%9B%BD%E5%85%9A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg/langzh-330px-State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "合垫盲蝽属",
       "extract": "合垫盲蝽属 为盲蝽科的一个属。\n",
@@ -28,13 +35,6 @@
       "url": "",
       "imageUrl": null,
       "source": "curated"
-    },
-    {
-      "title": "伊利梅納克湖",
-      "extract": "伊利梅納克湖 是白俄羅斯的湖泊，位於布拉斯拉夫東北約10公里，長0.64公里、寬0.47公里，面積0.2平方公里，集水區面積2.5平方公里，湖岸線長度1.9公里，最大水深6.2米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%88%A9%E6%A2%85%E7%B4%8D%E5%85%8B%E6%B9%96",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ilmienak_-_2.jpg/330px-Ilmienak_-_2.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
     }
   ]
 }
