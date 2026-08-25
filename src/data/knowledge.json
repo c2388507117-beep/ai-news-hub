@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T11:47:36.747Z",
+  "fetchedAt": "2026-08-25T13:14:38.132Z",
   "items": [
+    {
+      "title": "皮德霍羅德齊",
+      "extract": "皮德霍羅德齊，是烏克蘭的村庄，位於該國西部利沃夫州，由斯特雷區斯科萊市鎮負責管轄，始建於1397年，面積2.72平方公里，海拔高度472米，2001年人口2,132，人口密度每平方公里783.82人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%BE%B7%E9%9C%8D%E7%BE%85%E5%BE%B7%E9%BD%8A",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/46-245-0066_Pidhorodci_DSC_3456.jpg/330px-46-245-0066_Pidhorodci_DSC_3456.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "日本稠李",
       "extract": "日本稠李 是蔷薇科李属稠李亚属的一个种，分布于日本中北部、千岛群岛和库页岛。种加词来自日本稠李的阿伊努语俗名シウリ。\n",
@@ -27,13 +34,6 @@
       "extract": "赞格祖尔走廊 又稱納希切萬走廊 、梅格里走廊 或休尼克走廊 ；阿塞拜疆語：Sünik dəhlizi），是一個構想中的地緣政治走廊，連通亞塞拜然本土與其飛地納希切萬自治共和國，穿過亞美尼亞南部的休尼克州（不經亞美尼亞的邊境管制）。此走廊可將土耳其與其他突厥語國家連通，使整個突厥語世界連成一體。赞格祖尔走廊並非2020年納戈爾諾-卡拉巴赫停火協議的一部份，為事後由亞塞拜然總統伊利哈姆·阿利耶夫提出。亞塞拜然與土耳其均大力主張建立此走廊，亞美尼亞對此則堅決反對，主張其偏離停火協定，為宣傳戰的一部份。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B5%9E%E6%A0%BC%E7%A5%96%E5%B0%94%E8%B5%B0%E5%BB%8A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2020_Nagorno-Karabakh_ceasefire_map.svg/langzh-330px-2020_Nagorno-Karabakh_ceasefire_map.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "桑尼·葛雷",
-      "extract": "桑尼·道格拉斯·葛雷，為美國職棒大聯盟的投手，目前效力於波士頓紅襪。他先前曾效力於運動家、洋基、紅人、雙城與紅雀等隊。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%A1%91%E5%B0%BC%C2%B7%E8%91%9B%E9%9B%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Sonny_Gray_ST_2017.jpg/330px-Sonny_Gray_ST_2017.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
