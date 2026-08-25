@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T09:54:22.117Z",
+  "fetchedAt": "2026-08-25T10:53:01.407Z",
   "items": [
+    {
+      "title": "厦门大学图书馆",
+      "extract": "厦门大学图书馆為中华人民共和国福建省厦门市的一座大学图书馆，為厦门大学所属的图书馆系统。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%E5%9B%BE%E4%B9%A6%E9%A6%86",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Xiamen_University_Main_library.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "湊阿庫婭",
       "extract": "湊阿库娅，是hololive所属的一位日本虚拟主播、偶像，角色外型设定为女仆，由繪師Gaou進行人物設計。其于2018年8月8日开始在YouTube上进行活动，内容主要为翻唱及游戏直播，在2024年8月28日畢業。\n",
@@ -27,13 +34,6 @@
       "extract": "劉玄詠，為臺灣长号演奏家、指揮家、音樂教育家、音樂推廣與藝文產業推動者，現任駐奧地利代表。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E7%8E%84%E8%A9%A0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/%E5%8A%89%E7%8E%84%E8%A9%A0%E5%A4%A7%E4%BD%BF.jpg/330px-%E5%8A%89%E7%8E%84%E8%A9%A0%E5%A4%A7%E4%BD%BF.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "多足蕨属",
-      "extract": "多足蕨属 为水龙骨科的一属植物。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%B6%B3%E8%95%A8%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Polypodium_vulgare_%28aka%29.jpg/330px-Polypodium_vulgare_%28aka%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
