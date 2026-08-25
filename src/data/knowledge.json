@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T04:04:12.215Z",
+  "fetchedAt": "2026-08-25T04:56:52.364Z",
   "items": [
+    {
+      "title": "松针苷",
+      "extract": "松针苷（英語：Pungenin）是一种有机化合物，化学式C14H18O8，为3,4-二羟基苯乙酮的葡萄糖苷，存在于藍葉雲杉（Picea pungens）等植物的针叶中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E9%92%88%E8%8B%B7",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pungenin.svg/langzh-330px-Pungenin.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "雷姆兰莱皮特朗日",
       "extract": "雷姆兰莱皮特朗日 是法国摩泽尔省的一个市镇，位于该省中东部，属于萨尔格米讷区。\n",
@@ -27,13 +34,6 @@
       "extract": "艾古力圣弥额尔礼拜堂 是法国勒皮的一座天主教小礼拜堂，公元962年建于一座85米高的火山岩顶部，需要攀登268级台阶才能到达。它是为庆祝从圣地亚哥-德孔波斯特拉朝圣归来而建。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%8F%A4%E5%8A%9B%E5%9C%A3%E5%BC%A5%E9%A2%9D%E5%B0%94%E7%A4%BC%E6%8B%9C%E5%A0%82",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Aiguilhe_-_Chapelle_St-Michel_-_JPG1.jpg/330px-Aiguilhe_-_Chapelle_St-Michel_-_JPG1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "1994年國際足協世界盃",
-      "extract": "1994年國際足協世界盃，于1994年6月18日到7月17日在美国举行。决赛中，此前分別三奪冠軍的兩支球隊相遇，巴西在十二碼中以 3–2 战胜了意大利，第四次捧起了世界杯奖杯；也是繼1970年後第2次在中北美洲舉辦的世界盃裡奪冠。\n",
-      "url": "https://zh.wikipedia.org/wiki/1994%E5%B9%B4%E5%9C%8B%E9%9A%9B%E8%B6%B3%E5%8D%94%E4%B8%96%E7%95%8C%E7%9B%83",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/langzh-330px-1994_FIFA_World_Cup.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
