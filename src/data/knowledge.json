@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T16:02:57.335Z",
+  "fetchedAt": "2026-08-25T16:58:46.067Z",
   "items": [
+    {
+      "title": "黄菖蒲",
+      "extract": "黄菖蒲 是鸢尾科鸢尾属的植物。分布在欧洲以及中国等地，目前已由人工引种栽培。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%8F%96%E8%92%B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Iris_pseudacorus_001.jpg/330px-Iris_pseudacorus_001.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "咖啡的传播",
       "extract": "咖啡原产于埃塞俄比亚，传说公元9世纪一位牧羊人发现羊吃了咖啡果实后变得异常活跃。咖啡从15世纪开始在也门苏菲派修道院中作为提神饮品使用，随后传入麦加、开罗等地。17世纪欧洲第一家咖啡馆在威尼斯开业，咖啡从此风靡全球。",
@@ -27,13 +34,6 @@
       "extract": "皮德霍羅德齊，是烏克蘭的村庄，位於該國西部利沃夫州，由斯特雷區斯科萊市鎮負責管轄，始建於1397年，面積2.72平方公里，海拔高度472米，2001年人口2,132，人口密度每平方公里783.82人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%BE%B7%E9%9C%8D%E7%BE%85%E5%BE%B7%E9%BD%8A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/46-245-0066_Pidhorodci_DSC_3456.jpg/330px-46-245-0066_Pidhorodci_DSC_3456.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "日本稠李",
-      "extract": "日本稠李 是蔷薇科李属稠李亚属的一个种，分布于日本中北部、千岛群岛和库页岛。种加词来自日本稠李的阿伊努语俗名シウリ。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E7%A8%A0%E6%9D%8E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Prunus_ssiori_1.JPG/330px-Prunus_ssiori_1.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
