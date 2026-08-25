@@ -1,31 +1,31 @@
 {
-  "fetchedAt": "2026-08-25T17:47:45.771Z",
+  "fetchedAt": "2026-08-25T19:01:40.274Z",
   "items": [
     {
-      "id": "steam-391220",
-      "title": "Rise of the Tomb Raider™",
-      "url": "https://store.steampowered.com/app/391220?l=schinese",
-      "discount": 85,
-      "originalPrice": 147,
-      "finalPrice": 22.05,
+      "id": "steam-1174180",
+      "title": "Red Dead Redemption 2",
+      "url": "https://store.steampowered.com/app/1174180?l=schinese",
+      "discount": 75,
+      "originalPrice": 279,
+      "finalPrice": 69.75,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.562Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
-      "id": "steam-302510",
-      "title": "Ryse: Son of Rome",
-      "url": "https://store.steampowered.com/app/302510?l=schinese",
-      "discount": 71,
-      "originalPrice": 9.99,
-      "finalPrice": 2.89,
+      "id": "steam-1551360",
+      "title": "极限竞速：地平线 5",
+      "url": "https://store.steampowered.com/app/1551360?l=schinese",
+      "discount": 60,
+      "originalPrice": 198,
+      "finalPrice": 79.2,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.771Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-3240220",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.561Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-1868140",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.562Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-1144400",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144400/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.561Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-2680010",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.771Z"
+      "publishedAt": "2026-08-25T19:01:40.274Z"
     },
     {
       "id": "steam-4001890",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.561Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-2764460",
@@ -103,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.771Z"
-    },
-    {
-      "id": "steam-346110",
-      "title": "ARK: Survival Evolved",
-      "url": "https://store.steampowered.com/app/346110?l=schinese",
-      "discount": 34,
-      "originalPrice": 58,
-      "finalPrice": 38.28,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.562Z"
+      "publishedAt": "2026-08-25T19:01:40.274Z"
     },
     {
       "id": "steam-1623730",
@@ -129,11 +116,24 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.562Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
+    },
+    {
+      "id": "steam-1643320",
+      "title": "潜行者2：切尔诺贝利之心",
+      "url": "https://store.steampowered.com/app/1643320?l=schinese",
+      "discount": 30,
+      "originalPrice": 59.99,
+      "finalPrice": 41.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T19:01:40.274Z"
     },
     {
       "id": "steam-3321460",
-      "title": "红色沙漠",
+      "title": "红色沙漠：增强版",
       "url": "https://store.steampowered.com/app/3321460?l=schinese",
       "discount": 20,
       "originalPrice": 268,
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.561Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-4075620",
@@ -155,20 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.771Z"
-    },
-    {
-      "id": "steam-4195110",
-      "title": "胡闹台球 Ultrapool",
-      "url": "https://store.steampowered.com/app/4195110?l=schinese",
-      "discount": 20,
-      "originalPrice": 11.99,
-      "finalPrice": 9.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.771Z"
+      "publishedAt": "2026-08-25T19:01:40.274Z"
     },
     {
       "id": "steam-2483190",
@@ -181,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.561Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     },
     {
       "id": "steam-4164790",
@@ -194,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T17:47:45.561Z"
+      "publishedAt": "2026-08-25T19:01:40.085Z"
     }
   ]
 }
