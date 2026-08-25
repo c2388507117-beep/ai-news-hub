@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-25T22:48:11.557Z",
+  "fetchedAt": "2026-08-25T23:41:58.959Z",
   "items": [
+    {
+      "id": "steam-607080",
+      "title": "Psychonauts 2",
+      "url": "https://store.steampowered.com/app/607080?l=schinese",
+      "discount": 85,
+      "originalPrice": 59.99,
+      "finalPrice": 8.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/607080/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T23:41:58.959Z"
+    },
     {
       "id": "steam-1174180",
       "title": "Red Dead Redemption 2",
@@ -12,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-1551360",
@@ -25,20 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-381210",
       "title": "黎明杀机",
       "url": "https://store.steampowered.com/app/381210?l=schinese",
       "discount": 60,
-      "originalPrice": 329.99,
-      "finalPrice": 131.99,
+      "originalPrice": 19.99,
+      "finalPrice": 7.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.557Z"
+      "publishedAt": "2026-08-25T23:41:58.959Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-1868140",
@@ -64,33 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
-    },
-    {
-      "id": "steam-1144400",
-      "title": "千恋＊万花",
-      "url": "https://store.steampowered.com/app/1144400?l=schinese",
-      "discount": 48,
-      "originalPrice": 88,
-      "finalPrice": 45.76,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144400/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-2680010",
       "title": "The First Berserker: Khazan",
       "url": "https://store.steampowered.com/app/2680010?l=schinese",
       "discount": 40,
-      "originalPrice": 819,
-      "finalPrice": 491.4,
+      "originalPrice": 59.99,
+      "finalPrice": 35.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.557Z"
+      "publishedAt": "2026-08-25T23:41:58.959Z"
     },
     {
       "id": "steam-4001890",
@@ -103,20 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.306Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
-      "id": "steam-2764460",
-      "title": "沙金工业 Sandustry",
-      "url": "https://store.steampowered.com/app/2764460?l=schinese",
-      "discount": 35,
-      "originalPrice": 149.99,
-      "finalPrice": 97.49,
+      "id": "steam-346110",
+      "title": "ARK: Survival Evolved",
+      "url": "https://store.steampowered.com/app/346110?l=schinese",
+      "discount": 34,
+      "originalPrice": 58,
+      "finalPrice": 38.28,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.557Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-1623730",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-3321460",
@@ -142,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
+    },
+    {
+      "id": "steam-4075620",
+      "title": "连锁城邦: 类Rogue城市营造游戏",
+      "url": "https://store.steampowered.com/app/4075620?l=schinese",
+      "discount": 20,
+      "originalPrice": 9.99,
+      "finalPrice": 7.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T23:41:58.959Z"
     },
     {
       "id": "steam-2483190",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     },
     {
       "id": "steam-4164790",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T22:48:11.307Z"
+      "publishedAt": "2026-08-25T23:41:58.689Z"
     }
   ]
 }
