@@ -1,32 +1,6 @@
 {
-  "fetchedAt": "2026-08-24T23:40:05.348Z",
+  "fetchedAt": "2026-08-25T01:55:09.610Z",
   "items": [
-    {
-      "id": "steam-1142710",
-      "title": "全面战争：战锤3",
-      "url": "https://store.steampowered.com/app/1142710?l=schinese",
-      "discount": 85,
-      "originalPrice": 298,
-      "finalPrice": 44.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
-    },
-    {
-      "id": "steam-227300",
-      "title": "Euro Truck Simulator 2",
-      "url": "https://store.steampowered.com/app/227300?l=schinese",
-      "discount": 75,
-      "originalPrice": 88,
-      "finalPrice": 22,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
-    },
     {
       "id": "steam-302510",
       "title": "Ryse: Son of Rome",
@@ -38,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
+      "publishedAt": "2026-08-25T01:55:09.610Z"
     },
     {
       "id": "steam-648100",
@@ -51,20 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
-    },
-    {
-      "id": "steam-1313140",
-      "title": "咩咩启示录",
-      "url": "https://store.steampowered.com/app/1313140?l=schinese",
-      "discount": 60,
-      "originalPrice": 118,
-      "finalPrice": 47.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-801800",
@@ -77,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
+      "publishedAt": "2026-08-25T01:55:09.610Z"
     },
     {
       "id": "steam-3240220",
@@ -90,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-1868140",
@@ -103,7 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
+    },
+    {
+      "id": "steam-1144400",
+      "title": "千恋＊万花",
+      "url": "https://store.steampowered.com/app/1144400?l=schinese",
+      "discount": 48,
+      "originalPrice": 88,
+      "finalPrice": 45.76,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144400/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-2680010",
@@ -116,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
+      "publishedAt": "2026-08-25T01:55:09.610Z"
     },
     {
       "id": "steam-4001890",
@@ -129,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.129Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-2764460",
@@ -142,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
+    },
+    {
+      "id": "steam-346110",
+      "title": "ARK: Survival Evolved",
+      "url": "https://store.steampowered.com/app/346110?l=schinese",
+      "discount": 34,
+      "originalPrice": 58,
+      "finalPrice": 38.28,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-2358720",
@@ -155,33 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
-      "id": "steam-3065940",
-      "title": "加里波利",
-      "url": "https://store.steampowered.com/app/3065940?l=schinese",
-      "discount": 25,
-      "originalPrice": 29.99,
-      "finalPrice": 22.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
-    },
-    {
-      "id": "steam-4195110",
-      "title": "胡闹台球 Ultrapool",
-      "url": "https://store.steampowered.com/app/4195110?l=schinese",
+      "id": "steam-3321460",
+      "title": "红色沙漠",
+      "url": "https://store.steampowered.com/app/3321460?l=schinese",
       "discount": 20,
-      "originalPrice": 11.99,
-      "finalPrice": 9.59,
+      "originalPrice": 268,
+      "finalPrice": 214.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-4075620",
@@ -194,7 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
+      "publishedAt": "2026-08-25T01:55:09.610Z"
+    },
+    {
+      "id": "steam-4195110",
+      "title": "胡闹台球 Ultrapool",
+      "url": "https://store.steampowered.com/app/4195110?l=schinese",
+      "discount": 20,
+      "originalPrice": 11.99,
+      "finalPrice": 9.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T01:55:09.610Z"
     },
     {
       "id": "steam-4164790",
@@ -207,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.130Z"
+      "publishedAt": "2026-08-25T01:55:09.339Z"
     },
     {
       "id": "steam-4131730",
@@ -220,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-24T23:40:05.347Z"
+      "publishedAt": "2026-08-25T01:55:09.610Z"
     }
   ]
 }
