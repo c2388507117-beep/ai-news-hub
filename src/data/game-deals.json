@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T14:08:58.079Z",
+  "fetchedAt": "2026-08-25T15:08:18.837Z",
   "items": [
     {
       "id": "steam-302510",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302510/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:58.079Z"
+      "publishedAt": "2026-08-25T15:08:18.837Z"
+    },
+    {
+      "id": "steam-648100",
+      "title": "Raging Loop",
+      "url": "https://store.steampowered.com/app/648100?l=schinese",
+      "discount": 70,
+      "originalPrice": 88,
+      "finalPrice": 26.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648100/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-1313140",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:58.079Z"
+      "publishedAt": "2026-08-25T15:08:18.837Z"
     },
     {
       "id": "steam-3240220",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-1868140",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-1144400",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144400/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-2680010",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:58.079Z"
+      "publishedAt": "2026-08-25T15:08:18.837Z"
     },
     {
       "id": "steam-4001890",
@@ -90,20 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-2764460",
       "title": "沙金工业 Sandustry",
       "url": "https://store.steampowered.com/app/2764460?l=schinese",
       "discount": 35,
-      "originalPrice": 49,
-      "finalPrice": 31.85,
+      "originalPrice": 14.99,
+      "finalPrice": 9.74,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.837Z"
     },
     {
       "id": "steam-346110",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-2358720",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-1643320",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:58.079Z"
+      "publishedAt": "2026-08-25T15:08:18.837Z"
     },
     {
       "id": "steam-3321460",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-2567870",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567870/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     },
     {
       "id": "steam-4075620",
@@ -181,20 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:58.079Z"
-    },
-    {
-      "id": "steam-4195110",
-      "title": "胡闹台球 Ultrapool",
-      "url": "https://store.steampowered.com/app/4195110?l=schinese",
-      "discount": 20,
-      "originalPrice": 11.99,
-      "finalPrice": 9.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195110/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:58.079Z"
+      "publishedAt": "2026-08-25T15:08:18.837Z"
     },
     {
       "id": "steam-4164790",
@@ -207,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T14:08:57.822Z"
+      "publishedAt": "2026-08-25T15:08:18.648Z"
     }
   ]
 }
