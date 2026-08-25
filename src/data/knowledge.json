@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T04:56:52.364Z",
+  "fetchedAt": "2026-08-25T05:50:42.386Z",
   "items": [
+    {
+      "title": "多足蕨属",
+      "extract": "多足蕨属 为水龙骨科的一属植物。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%B6%B3%E8%95%A8%E5%B1%9E",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Polypodium_vulgare_%28aka%29.jpg/330px-Polypodium_vulgare_%28aka%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "松针苷",
       "extract": "松针苷（英語：Pungenin）是一种有机化合物，化学式C14H18O8，为3,4-二羟基苯乙酮的葡萄糖苷，存在于藍葉雲杉（Picea pungens）等植物的针叶中。\n",
@@ -27,13 +34,6 @@
       "extract": "利尼昂德波尔多 是法国吉伦特省的一个市镇，属于波尔多区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E5%B0%BC%E6%98%82%E5%BE%B7%E6%B3%A2%E5%B0%94%E5%A4%9A",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Lignan-de-Bordeaux%2C_l%27%C3%A9glise.jpg/330px-Lignan-de-Bordeaux%2C_l%27%C3%A9glise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "艾古力圣弥额尔礼拜堂",
-      "extract": "艾古力圣弥额尔礼拜堂 是法国勒皮的一座天主教小礼拜堂，公元962年建于一座85米高的火山岩顶部，需要攀登268级台阶才能到达。它是为庆祝从圣地亚哥-德孔波斯特拉朝圣归来而建。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E5%8F%A4%E5%8A%9B%E5%9C%A3%E5%BC%A5%E9%A2%9D%E5%B0%94%E7%A4%BC%E6%8B%9C%E5%A0%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Aiguilhe_-_Chapelle_St-Michel_-_JPG1.jpg/330px-Aiguilhe_-_Chapelle_St-Michel_-_JPG1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
