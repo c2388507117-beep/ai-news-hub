@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T04:58:30.736Z",
+  "fetchedAt": "2026-08-26T05:53:06.296Z",
   "items": [
+    {
+      "title": "法国军衔",
+      "extract": "法国军队（包括空军及太空部队、陆军、国家海军、国家宪兵队、支援服务队和多兵种联合部队）及其附属单位所采用的军衔等级体系，均遵照《法国士兵基本条例》 制定，从法律层面来看是完全相同的体系。只有各等级的称谓和徽章，会根据军队、军种，或是所使用的武器的区别而有所不同。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9B%BD%E5%86%9B%E8%A1%94",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/5_%C3%A9toile_g%C3%A9neral_d%27arm%C3%A9e.jpg/330px-5_%C3%A9toile_g%C3%A9neral_d%27arm%C3%A9e.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "冶天科技",
       "extract": "冶天科技，于1985年創立於加拿大安大略省萬錦，是一家专门设计与销售适用于个人电脑、机顶盒、數位電視、電子遊戲機及手提式設備等的顯示晶片、芯片组的無廠半導體公司。2006年7月24日被美國的超威半导体全資收購。ATI被收購前在北美、歐洲和亞洲等地曾擁有超過3,700名員工，2006年時營業額仍有22億美元之巨，後來AMD方面整合後，最終成為其顯示卡部門，並保留Radeon品牌進行銷售。\n",
@@ -27,13 +34,6 @@
       "extract": "阿毘達磨藏 又稱論藏，是佛教三藏經典之一，諸阿毘達磨論書的集成。佛陀在世時已有阿毘達磨這種用來解釋、分別 經藏的分析方法，後來發展為各部派的論藏。精通論藏的法師，為論師。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%AB%96%E8%97%8F",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Dharma_Wheel.svg/langzh-330px-Dharma_Wheel.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "特拉塔利亚斯",
-      "extract": "特拉塔利亚斯，是意大利撒丁大区苏尔奇斯-伊格莱西恩泰省的一个市镇。总面积30.96平方公里，人口1107人，人口密度35.8人/平方公里（2009年）。ISTAT代码为107021。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E6%8B%89%E5%A1%94%E5%88%A9%E4%BA%9A%E6%96%AF",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tratalias%2C_santa_maria_di_monserrato%2C_esterno_02.jpg/330px-Tratalias%2C_santa_maria_di_monserrato%2C_esterno_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
