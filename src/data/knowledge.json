@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T13:25:42.344Z",
+  "fetchedAt": "2026-08-26T15:55:02.637Z",
   "items": [
+    {
+      "title": "MG3通用機槍",
+      "extract": "MG3是德國萊茵金屬所生產的彈鏈供彈通用機槍，以二戰時期納粹德國的7.92×57毫米MG42通用機槍改膛為北約7.62×51毫米口徑而成。\n",
+      "url": "https://zh.wikipedia.org/wiki/MG3%E9%80%9A%E7%94%A8%E6%A9%9F%E6%A7%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/BundeswehrMG3.jpg/330px-BundeswehrMG3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "埃莉萨·德阿尔梅达",
       "extract": "埃莉萨·弗洛尔·德阿尔梅达，法国女子职业足球运动员，司职后卫，目前效力于巴黎圣日耳曼足球俱乐部和法国国家女子足球队。她曾代表法国参加2024年夏季奥林匹克运动会女子足球比赛。\n",
@@ -27,13 +34,6 @@
       "extract": "印度中央邦共辖有51个县，分为10个专区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E9%82%A6%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Madhya_Pradesh_districts_location_map_big.svg/langzh-330px-Madhya_Pradesh_districts_location_map_big.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "波音747",
-      "extract": "波音747，又稱為「珍寶客機/巨無霸客機」，是全世界首款生产出的廣體民航飛機，由美國波音民用飞机集团製造。波音747雛型的大小是1960年代被廣泛使用的波音707的兩倍。由1970年投入服務至2007年空中客车A380起役爲止，波音747一直保持全世界載客量最高飛機的纪录長達37年。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E9%9F%B3747",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/KLM_Boeing_747-200_PH-BUF_%287491686916%29.jpg/330px-KLM_Boeing_747-200_PH-BUF_%287491686916%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
