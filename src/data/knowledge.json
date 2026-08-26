@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T23:42:03.627Z",
+  "fetchedAt": "2026-08-26T02:01:23.149Z",
   "items": [
+    {
+      "title": "靜默之川",
+      "extract": "《靜默之川》 為日本男子音樂組合化學超男子的第22張單曲，於2007年10月24日發行。歌曲為由秋元康創作的小說《象的背影》改編的同名電影主題曲，由井上能徵作曲，並由秋元本人填詞與製作。《靜默之川》是一首使用鋼琴、弦樂等樂器伴奏的抒情歌曲，歌詞內容反映了小說《象的背影》主人公臨終前的心聲。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9D%9C%E9%BB%98%E4%B9%8B%E5%B7%9D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/0/08/Saigo-no-kawa.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "論藏",
       "extract": "阿毘達磨藏 又稱論藏，是佛教三藏經典之一，諸阿毘達磨論書的集成。佛陀在世時已有阿毘達磨這種用來解釋、分別 經藏的分析方法，後來發展為各部派的論藏。精通論藏的法師，為論師。\n",
@@ -27,13 +34,6 @@
       "extract": "哈德遜河 是美國紐約州的河川，長507公里，发源于紐約上州阿第倫達克山脈，上游分出莫霍克河，西接伊利運河（可達五大湖），流经哈德遜河谷后匯入紐約港，是紐約州的經濟命脈。自北向南，流经纽约州东部、奧爾巴尼市、紐約市。下游为纽约州和紐泽西州的边界。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E5%BE%B7%E9%81%9C%E6%B2%B3",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Hudson_river_from_bear_mountain_bridge.jpg/330px-Hudson_river_from_bear_mountain_bridge.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "俄国党",
-      "extract": "俄党，是希腊早期政党之一，在希腊第一共和国（1828—1831）时期形成的希腊政治团体，一直持续到奥托一世时期。当时三大希腊政党用1832年君士坦丁堡条约中，共同解决希腊独立战争的三大列强国名命名，分别是俄罗斯帝国、英国和法国。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E5%9B%BD%E5%85%9A",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg/langzh-330px-State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

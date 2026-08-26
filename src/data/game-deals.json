@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T23:41:58.959Z",
+  "fetchedAt": "2026-08-26T02:01:18.011Z",
   "items": [
     {
       "id": "steam-607080",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/607080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.959Z"
+      "publishedAt": "2026-08-26T02:01:18.010Z"
     },
     {
       "id": "steam-1174180",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-1551360",
@@ -38,20 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-381210",
       "title": "黎明杀机",
       "url": "https://store.steampowered.com/app/381210?l=schinese",
       "discount": 60,
-      "originalPrice": 19.99,
-      "finalPrice": 7.99,
+      "originalPrice": 93.75,
+      "finalPrice": 37.5,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.959Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-3240220",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-1868140",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-2680010",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.959Z"
+      "publishedAt": "2026-08-26T02:01:18.010Z"
     },
     {
       "id": "steam-4001890",
@@ -103,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
-    },
-    {
-      "id": "steam-346110",
-      "title": "ARK: Survival Evolved",
-      "url": "https://store.steampowered.com/app/346110?l=schinese",
-      "discount": 34,
-      "originalPrice": 58,
-      "finalPrice": 38.28,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-1623730",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-3321460",
@@ -142,20 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
-    },
-    {
-      "id": "steam-4075620",
-      "title": "连锁城邦: 类Rogue城市营造游戏",
-      "url": "https://store.steampowered.com/app/4075620?l=schinese",
-      "discount": 20,
-      "originalPrice": 9.99,
-      "finalPrice": 7.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.959Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-2483190",
@@ -168,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
     },
     {
       "id": "steam-4164790",
@@ -181,7 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-25T23:41:58.689Z"
+      "publishedAt": "2026-08-26T02:01:17.811Z"
+    },
+    {
+      "id": "steam-2431080",
+      "title": "地牢大出血",
+      "url": "https://store.steampowered.com/app/2431080?l=schinese",
+      "discount": 15,
+      "originalPrice": 9.99,
+      "finalPrice": 8.49,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-26T02:01:18.010Z"
     }
   ]
 }
