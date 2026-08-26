@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T03:27:44.584Z",
+  "fetchedAt": "2026-08-26T04:58:30.736Z",
   "items": [
+    {
+      "title": "冶天科技",
+      "extract": "冶天科技，于1985年創立於加拿大安大略省萬錦，是一家专门设计与销售适用于个人电脑、机顶盒、數位電視、電子遊戲機及手提式設備等的顯示晶片、芯片组的無廠半導體公司。2006年7月24日被美國的超威半导体全資收購。ATI被收購前在北美、歐洲和亞洲等地曾擁有超過3,700名員工，2006年時營業額仍有22億美元之巨，後來AMD方面整合後，最終成為其顯示卡部門，並保留Radeon品牌進行銷售。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%86%B6%E5%A4%A9%E7%A7%91%E6%8A%80",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/ATI_Technologies_%28logo%29.svg/langzh-330px-ATI_Technologies_%28logo%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "嘉義縣政府",
       "extract": "嘉義縣政府，簡稱嘉縣府，是中華民國臺灣省嘉義縣最高層級的地方行政機關，在中華民國政府架構中，為縣自治的行政機關，同時負責執行中央機關委辦事項。嘉義縣的自治監督機關本為臺灣省政府，臺灣省虛級化後業務與功能被大幅縮減，嘉義縣的自治監督機關改為行政院內政部。嘉義縣政府也是轄下各鄉、鎮、市的地方自治監督機關。\n",
@@ -27,13 +34,6 @@
       "extract": "特拉塔利亚斯，是意大利撒丁大区苏尔奇斯-伊格莱西恩泰省的一个市镇。总面积30.96平方公里，人口1107人，人口密度35.8人/平方公里（2009年）。ISTAT代码为107021。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E6%8B%89%E5%A1%94%E5%88%A9%E4%BA%9A%E6%96%AF",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tratalias%2C_santa_maria_di_monserrato%2C_esterno_02.jpg/330px-Tratalias%2C_santa_maria_di_monserrato%2C_esterno_02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "傑爾若紐夫",
-      "extract": "傑爾若紐夫 是波蘭下西里西亞省的城鎮，距離瓦烏布日赫25公里，始建於十二世紀，2025年人口約3萬。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%82%91%E7%88%BE%E8%8B%A5%E7%B4%90%E5%A4%AB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2019_Ratusz_w_Dzier%C5%BConiowie_1.jpg/330px-2019_Ratusz_w_Dzier%C5%BConiowie_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
