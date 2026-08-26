@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T09:05:27.177Z",
+  "fetchedAt": "2026-08-26T10:00:05.201Z",
   "items": [
+    {
+      "title": "中央邦行政区划",
+      "extract": "印度中央邦共辖有51个县，分为10个专区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E9%82%A6%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Madhya_Pradesh_districts_location_map_big.svg/langzh-330px-Madhya_Pradesh_districts_location_map_big.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "波音747",
       "extract": "波音747，又稱為「珍寶客機/巨無霸客機」，是全世界首款生产出的廣體民航飛機，由美國波音民用飞机集团製造。波音747雛型的大小是1960年代被廣泛使用的波音707的兩倍。由1970年投入服務至2007年空中客车A380起役爲止，波音747一直保持全世界載客量最高飛機的纪录長達37年。\n",
@@ -27,13 +34,6 @@
       "extract": "法国军队（包括空军及太空部队、陆军、国家海军、国家宪兵队、支援服务队和多兵种联合部队）及其附属单位所采用的军衔等级体系，均遵照《法国士兵基本条例》 制定，从法律层面来看是完全相同的体系。只有各等级的称谓和徽章，会根据军队、军种，或是所使用的武器的区别而有所不同。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9B%BD%E5%86%9B%E8%A1%94",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/5_%C3%A9toile_g%C3%A9neral_d%27arm%C3%A9e.jpg/330px-5_%C3%A9toile_g%C3%A9neral_d%27arm%C3%A9e.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "冶天科技",
-      "extract": "冶天科技，于1985年創立於加拿大安大略省萬錦，是一家专门设计与销售适用于个人电脑、机顶盒、數位電視、電子遊戲機及手提式設備等的顯示晶片、芯片组的無廠半導體公司。2006年7月24日被美國的超威半导体全資收購。ATI被收購前在北美、歐洲和亞洲等地曾擁有超過3,700名員工，2006年時營業額仍有22億美元之巨，後來AMD方面整合後，最終成為其顯示卡部門，並保留Radeon品牌進行銷售。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%86%B6%E5%A4%A9%E7%A7%91%E6%8A%80",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/ATI_Technologies_%28logo%29.svg/langzh-330px-ATI_Technologies_%28logo%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
