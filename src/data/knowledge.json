@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T11:49:06.493Z",
+  "fetchedAt": "2026-08-26T13:25:42.344Z",
   "items": [
+    {
+      "title": "埃莉萨·德阿尔梅达",
+      "extract": "埃莉萨·弗洛尔·德阿尔梅达，法国女子职业足球运动员，司职后卫，目前效力于巴黎圣日耳曼足球俱乐部和法国国家女子足球队。她曾代表法国参加2024年夏季奥林匹克运动会女子足球比赛。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E8%8E%89%E8%90%A8%C2%B7%E5%BE%B7%E9%98%BF%E5%B0%94%E6%A2%85%E8%BE%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Elisa_De_Almeida_PSG-ManU.png/330px-Elisa_De_Almeida_PSG-ManU.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "费泰尔讷",
       "extract": "费泰尔讷 是法国上萨瓦省的一个市镇，属于托农莱班区。\n",
@@ -27,13 +34,6 @@
       "extract": "波音747，又稱為「珍寶客機/巨無霸客機」，是全世界首款生产出的廣體民航飛機，由美國波音民用飞机集团製造。波音747雛型的大小是1960年代被廣泛使用的波音707的兩倍。由1970年投入服務至2007年空中客车A380起役爲止，波音747一直保持全世界載客量最高飛機的纪录長達37年。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E9%9F%B3747",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/KLM_Boeing_747-200_PH-BUF_%287491686916%29.jpg/330px-KLM_Boeing_747-200_PH-BUF_%287491686916%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "乌塞",
-      "extract": "乌塞 是法国上法蘭西大區埃纳省的一个市镇，属于韦尔万区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%A1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Housset_%28Aisne%29_mairie-%C3%A9cole.JPG/330px-Housset_%28Aisne%29_mairie-%C3%A9cole.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
