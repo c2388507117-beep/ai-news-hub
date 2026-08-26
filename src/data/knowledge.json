@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T02:01:23.149Z",
+  "fetchedAt": "2026-08-26T03:27:44.584Z",
   "items": [
+    {
+      "title": "嘉義縣政府",
+      "extract": "嘉義縣政府，簡稱嘉縣府，是中華民國臺灣省嘉義縣最高層級的地方行政機關，在中華民國政府架構中，為縣自治的行政機關，同時負責執行中央機關委辦事項。嘉義縣的自治監督機關本為臺灣省政府，臺灣省虛級化後業務與功能被大幅縮減，嘉義縣的自治監督機關改為行政院內政部。嘉義縣政府也是轄下各鄉、鎮、市的地方自治監督機關。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E7%B8%A3%E6%94%BF%E5%BA%9C",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Emblem_of_Chiayi_County.svg/langzh-330px-Emblem_of_Chiayi_County.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "靜默之川",
       "extract": "《靜默之川》 為日本男子音樂組合化學超男子的第22張單曲，於2007年10月24日發行。歌曲為由秋元康創作的小說《象的背影》改編的同名電影主題曲，由井上能徵作曲，並由秋元本人填詞與製作。《靜默之川》是一首使用鋼琴、弦樂等樂器伴奏的抒情歌曲，歌詞內容反映了小說《象的背影》主人公臨終前的心聲。\n",
@@ -27,13 +34,6 @@
       "extract": "傑爾若紐夫 是波蘭下西里西亞省的城鎮，距離瓦烏布日赫25公里，始建於十二世紀，2025年人口約3萬。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%82%91%E7%88%BE%E8%8B%A5%E7%B4%90%E5%A4%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2019_Ratusz_w_Dzier%C5%BConiowie_1.jpg/330px-2019_Ratusz_w_Dzier%C5%BConiowie_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "哈德遜河",
-      "extract": "哈德遜河 是美國紐約州的河川，長507公里，发源于紐約上州阿第倫達克山脈，上游分出莫霍克河，西接伊利運河（可達五大湖），流经哈德遜河谷后匯入紐約港，是紐約州的經濟命脈。自北向南，流经纽约州东部、奧爾巴尼市、紐約市。下游为纽约州和紐泽西州的边界。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E5%BE%B7%E9%81%9C%E6%B2%B3",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Hudson_river_from_bear_mountain_bridge.jpg/330px-Hudson_river_from_bear_mountain_bridge.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
