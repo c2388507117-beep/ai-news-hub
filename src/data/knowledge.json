@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T15:55:02.637Z",
+  "fetchedAt": "2026-08-26T18:05:24.151Z",
   "items": [
+    {
+      "title": "快板书",
+      "extract": "快板书（臺灣又稱「竹板快書」）中国传统曲艺的一种，是由数来宝演变而来。因为它主要是用“拍板”（或稱快板儿）作为乐器而命名为快板书。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BF%AB%E6%9D%BF%E4%B9%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%BF%AB%E6%9D%BF.jpg/330px-%E5%BF%AB%E6%9D%BF.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "MG3通用機槍",
       "extract": "MG3是德國萊茵金屬所生產的彈鏈供彈通用機槍，以二戰時期納粹德國的7.92×57毫米MG42通用機槍改膛為北約7.62×51毫米口徑而成。\n",
@@ -27,13 +34,6 @@
       "extract": "gretl 是一种可以编纂和解析计量经济学数据的开放源代码软件。它可以和X-12-ARMA、TRAMO／SEATS和R语言一起使用。gretl用C语言写成，使用gnuplot制图。\n",
       "url": "https://zh.wikipedia.org/wiki/Gretl",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gretl_screenshot.png/330px-Gretl_screenshot.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "中央邦行政区划",
-      "extract": "印度中央邦共辖有51个县，分为10个专区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E9%82%A6%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Madhya_Pradesh_districts_location_map_big.svg/langzh-330px-Madhya_Pradesh_districts_location_map_big.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
