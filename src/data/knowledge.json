@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T10:00:05.201Z",
+  "fetchedAt": "2026-08-26T10:53:49.382Z",
   "items": [
+    {
+      "title": "Gretl",
+      "extract": "gretl 是一种可以编纂和解析计量经济学数据的开放源代码软件。它可以和X-12-ARMA、TRAMO／SEATS和R语言一起使用。gretl用C语言写成，使用gnuplot制图。\n",
+      "url": "https://zh.wikipedia.org/wiki/Gretl",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gretl_screenshot.png/330px-Gretl_screenshot.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "中央邦行政区划",
       "extract": "印度中央邦共辖有51个县，分为10个专区。\n",
@@ -27,13 +34,6 @@
       "extract": "黑尔多夫 是德国莱茵兰-普法尔茨州韦斯特林山区阿尔滕基兴县的城市，面积17.99平方千米，2023年12月31日人口为6,661人。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E5%B0%94%E5%A4%9A%E5%A4%AB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Herdorf-Dermbach.jpg/330px-Herdorf-Dermbach.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "法国军衔",
-      "extract": "法国军队（包括空军及太空部队、陆军、国家海军、国家宪兵队、支援服务队和多兵种联合部队）及其附属单位所采用的军衔等级体系，均遵照《法国士兵基本条例》 制定，从法律层面来看是完全相同的体系。只有各等级的称谓和徽章，会根据军队、军种，或是所使用的武器的区别而有所不同。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9B%BD%E5%86%9B%E8%A1%94",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/5_%C3%A9toile_g%C3%A9neral_d%27arm%C3%A9e.jpg/330px-5_%C3%A9toile_g%C3%A9neral_d%27arm%C3%A9e.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
