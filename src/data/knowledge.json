@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T20:09:21.299Z",
+  "fetchedAt": "2026-08-26T23:42:20.925Z",
   "items": [
+    {
+      "title": "北平和平解放",
+      "extract": "北平和平解放（台湾作北平淪陷），是中国第二次国共内战平津战役的尾声。1949年1月15日，天津的中华民国国军守军被中国人民解放军全歼，北平（今北京市）的国军守军陷于绝境。16日，华北剿匪总司令部副总司令邓宝珊代表总司令傅作义与林彪、罗荣桓、聂荣臻会面商谈和平，双方于21日达成《关于和平解决北平问题的协议》，22日傅作义在协议上签字，北平傅作义所部8个军、25万守军按协议陆续撤出市区，准备接受解放军改编。31日，解放军和平入城，平津战役结束。中国人民解放军北平市军事管制委员会接管北平市政府和河北省政府。至此，共产党政权已控制华北主要城市及多數地区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%B9%B3%E5%92%8C%E5%B9%B3%E8%A7%A3%E6%94%BE",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1965-02_1949%E5%B9%B4_%E8%A7%A3%E6%94%BE%E5%86%9B%E8%BF%9B%E5%85%A5%E5%8C%97%E4%BA%AC%E8%A5%BF%E9%97%A8.jpg/330px-1965-02_1949%E5%B9%B4_%E8%A7%A3%E6%94%BE%E5%86%9B%E8%BF%9B%E5%85%A5%E5%8C%97%E4%BA%AC%E8%A5%BF%E9%97%A8.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "网柄牛肝菌属",
       "extract": "网柄牛肝菌属，是牛肝菌科下的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "埃莉萨·弗洛尔·德阿尔梅达，法国女子职业足球运动员，司职后卫，目前效力于巴黎圣日耳曼足球俱乐部和法国国家女子足球队。她曾代表法国参加2024年夏季奥林匹克运动会女子足球比赛。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E8%8E%89%E8%90%A8%C2%B7%E5%BE%B7%E9%98%BF%E5%B0%94%E6%A2%85%E8%BE%BE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Elisa_De_Almeida_PSG-ManU.png/330px-Elisa_De_Almeida_PSG-ManU.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "费泰尔讷",
-      "extract": "费泰尔讷 是法国上萨瓦省的一个市镇，属于托农莱班区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%B4%B9%E6%B3%B0%E5%B0%94%E8%AE%B7",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mairie_F%C3%A9ternes.JPG/330px-Mairie_F%C3%A9ternes.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
