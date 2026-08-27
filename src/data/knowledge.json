@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-26T23:42:20.925Z",
+  "fetchedAt": "2026-08-27T09:57:29.948Z",
   "items": [
+    {
+      "title": "布瓦",
+      "extract": "布瓦 是法国滨海夏朗德省的一个市镇，位于该省南部，属于容扎克区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E7%93%A6",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/L%27%C3%A9glise_de_Bois.jpg/330px-L%27%C3%A9glise_de_Bois.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "北平和平解放",
       "extract": "北平和平解放（台湾作北平淪陷），是中国第二次国共内战平津战役的尾声。1949年1月15日，天津的中华民国国军守军被中国人民解放军全歼，北平（今北京市）的国军守军陷于绝境。16日，华北剿匪总司令部副总司令邓宝珊代表总司令傅作义与林彪、罗荣桓、聂荣臻会面商谈和平，双方于21日达成《关于和平解决北平问题的协议》，22日傅作义在协议上签字，北平傅作义所部8个军、25万守军按协议陆续撤出市区，准备接受解放军改编。31日，解放军和平入城，平津战役结束。中国人民解放军北平市军事管制委员会接管北平市政府和河北省政府。至此，共产党政权已控制华北主要城市及多數地区。\n",
@@ -27,13 +34,6 @@
       "extract": "MG3是德國萊茵金屬所生產的彈鏈供彈通用機槍，以二戰時期納粹德國的7.92×57毫米MG42通用機槍改膛為北約7.62×51毫米口徑而成。\n",
       "url": "https://zh.wikipedia.org/wiki/MG3%E9%80%9A%E7%94%A8%E6%A9%9F%E6%A7%8D",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/BundeswehrMG3.jpg/330px-BundeswehrMG3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "埃莉萨·德阿尔梅达",
-      "extract": "埃莉萨·弗洛尔·德阿尔梅达，法国女子职业足球运动员，司职后卫，目前效力于巴黎圣日耳曼足球俱乐部和法国国家女子足球队。她曾代表法国参加2024年夏季奥林匹克运动会女子足球比赛。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E8%8E%89%E8%90%A8%C2%B7%E5%BE%B7%E9%98%BF%E5%B0%94%E6%A2%85%E8%BE%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Elisa_De_Almeida_PSG-ManU.png/330px-Elisa_De_Almeida_PSG-ManU.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
