@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-27T09:57:29.948Z",
+  "fetchedAt": "2026-08-27T20:35:05.651Z",
   "items": [
+    {
+      "title": "卡斯柏·杜貝治",
+      "extract": "卡斯柏·杜貝治·拉斯穆森，是一名丹麥職業足球員，現效力於荷甲球會阿贾克斯。丹麥國家足球隊成員。司職前鋒。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%96%AF%E6%9F%8F%C2%B7%E6%9D%9C%E8%B2%9D%E6%B2%BB",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kasper_Dolberg%2C_Lens_-_Nice_%2823-01-2021%29_45.jpg/330px-Kasper_Dolberg%2C_Lens_-_Nice_%2823-01-2021%29_45.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "布瓦",
       "extract": "布瓦 是法国滨海夏朗德省的一个市镇，位于该省南部，属于容扎克区。\n",
@@ -27,13 +34,6 @@
       "extract": "快板书（臺灣又稱「竹板快書」）中国传统曲艺的一种，是由数来宝演变而来。因为它主要是用“拍板”（或稱快板儿）作为乐器而命名为快板书。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BF%AB%E6%9D%BF%E4%B9%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%BF%AB%E6%9D%BF.jpg/330px-%E5%BF%AB%E6%9D%BF.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "MG3通用機槍",
-      "extract": "MG3是德國萊茵金屬所生產的彈鏈供彈通用機槍，以二戰時期納粹德國的7.92×57毫米MG42通用機槍改膛為北約7.62×51毫米口徑而成。\n",
-      "url": "https://zh.wikipedia.org/wiki/MG3%E9%80%9A%E7%94%A8%E6%A9%9F%E6%A7%8D",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/BundeswehrMG3.jpg/330px-BundeswehrMG3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

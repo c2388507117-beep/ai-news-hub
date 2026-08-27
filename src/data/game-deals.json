@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T09:57:24.377Z",
+  "fetchedAt": "2026-08-27T20:34:59.432Z",
   "items": [
     {
       "id": "steam-815370",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-1174180",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-1551360",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-381210",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-3240220",
@@ -64,20 +64,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
-      "id": "steam-4001890",
-      "title": "渔力全开",
-      "url": "https://store.steampowered.com/app/4001890?l=schinese",
-      "discount": 38,
-      "originalPrice": 33,
-      "finalPrice": 20.46,
+      "id": "steam-1868140",
+      "title": "潜水员戴夫 DAVE THE DIVER",
+      "url": "https://store.steampowered.com/app/1868140?l=schinese",
+      "discount": 50,
+      "originalPrice": 80,
+      "finalPrice": 40,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.133Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
+    },
+    {
+      "id": "steam-1363080",
+      "title": "庄园领主 Manor Lords",
+      "url": "https://store.steampowered.com/app/1363080?l=schinese",
+      "discount": 35,
+      "originalPrice": 39.99,
+      "finalPrice": 25.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-27T20:34:59.432Z"
     },
     {
       "id": "steam-1623730",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-1874880",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.377Z"
+      "publishedAt": "2026-08-27T20:34:59.432Z"
     },
     {
       "id": "steam-3321460",
@@ -116,20 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
-      "id": "steam-3718190",
-      "title": "脱衣麻将 - 超真实麻将 Venus Returns",
-      "url": "https://store.steampowered.com/app/3718190?l=schinese",
+      "id": "steam-3124540",
+      "title": "遥遥西土 Far Far West",
+      "url": "https://store.steampowered.com/app/3124540?l=schinese",
       "discount": 20,
-      "originalPrice": 29.99,
-      "finalPrice": 23.99,
+      "originalPrice": 19.99,
+      "finalPrice": 15.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3718190/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.377Z"
+      "publishedAt": "2026-08-27T20:34:59.432Z"
     },
     {
       "id": "steam-2483190",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-4423580",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4423580/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.134Z"
+      "publishedAt": "2026-08-27T20:34:59.203Z"
     },
     {
       "id": "steam-4627110",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4627110/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-27T09:57:24.377Z"
+      "publishedAt": "2026-08-27T20:34:59.432Z"
     }
   ]
 }
