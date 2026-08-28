@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-28T05:28:07.527Z",
+  "fetchedAt": "2026-08-28T18:48:41.085Z",
   "items": [
+    {
+      "title": "塞舌尔",
+      "extract": "塞舌爾共和國，通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌尔为大英國協成员国。首都維多利亞。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E8%88%8C%E5%B0%94",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/langzh-330px-Flag_of_Seychelles.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "皮卡丘",
       "extract": "皮卡丘 是寶可夢系列中的一種寶可夢，屬於任天堂與Game Freak旗下的《寶可夢》媒體品牌，同時也是該系列的吉祥物。牠首次登場於電子遊戲《寶可夢 紅／綠》，由西田敦子在首席設計師杉森建的請求下創作，並由杉森建完成最終設計。自皮卡丘登場以來，牠出現在多款遊戲中，包括《Pokémon GO》和《寶可夢集換式卡牌遊戲》，以及各種周邊商品。雖然皮卡丘在媒體作品中的主要配音員為大谷育江，但其他演員也曾為該角色配音，包括凱特·布里斯托 、萊恩·雷諾斯、唐凯吉、西島秀俊、大川透和山寺宏一。\n",
@@ -27,13 +34,6 @@
       "extract": "北平和平解放（台湾作北平淪陷），是中国第二次国共内战平津战役的尾声。1949年1月15日，天津的中华民国国军守军被中国人民解放军全歼，北平（今北京市）的国军守军陷于绝境。16日，华北剿匪总司令部副总司令邓宝珊代表总司令傅作义与林彪、罗荣桓、聂荣臻会面商谈和平，双方于21日达成《关于和平解决北平问题的协议》，22日傅作义在协议上签字，北平傅作义所部8个军、25万守军按协议陆续撤出市区，准备接受解放军改编。31日，解放军和平入城，平津战役结束。中国人民解放军北平市军事管制委员会接管北平市政府和河北省政府。至此，共产党政权已控制华北主要城市及多數地区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%B9%B3%E5%92%8C%E5%B9%B3%E8%A7%A3%E6%94%BE",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1965-02_1949%E5%B9%B4_%E8%A7%A3%E6%94%BE%E5%86%9B%E8%BF%9B%E5%85%A5%E5%8C%97%E4%BA%AC%E8%A5%BF%E9%97%A8.jpg/330px-1965-02_1949%E5%B9%B4_%E8%A7%A3%E6%94%BE%E5%86%9B%E8%BF%9B%E5%85%A5%E5%8C%97%E4%BA%AC%E8%A5%BF%E9%97%A8.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "网柄牛肝菌属",
-      "extract": "网柄牛肝菌属，是牛肝菌科下的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%BD%91%E6%9F%84%E7%89%9B%E8%82%9D%E8%8F%8C%E5%B1%9E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Retiboletus_ornatipes_54635.jpg/330px-Retiboletus_ornatipes_54635.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

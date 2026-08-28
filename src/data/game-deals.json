@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T05:28:02.458Z",
+  "fetchedAt": "2026-08-28T18:48:36.203Z",
   "items": [
     {
       "id": "steam-990080",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
       "id": "steam-815370",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
       "id": "steam-1174180",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.975Z"
     },
     {
       "id": "steam-1551360",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
       "id": "steam-381210",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
       "id": "steam-1363080",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.458Z"
+      "publishedAt": "2026-08-28T18:48:36.203Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
+    },
+    {
+      "id": "steam-1147860",
+      "title": "UFO 50",
+      "url": "https://store.steampowered.com/app/1147860?l=schinese",
+      "discount": 30,
+      "originalPrice": 24.99,
+      "finalPrice": 17.49,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147860/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-28T18:48:36.203Z"
     },
     {
       "id": "steam-3321460",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
       "id": "steam-3124540",
@@ -129,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.458Z"
+      "publishedAt": "2026-08-28T18:48:36.203Z"
+    },
+    {
+      "id": "steam-1331550",
+      "title": "Big Ambitions",
+      "url": "https://store.steampowered.com/app/1331550?l=schinese",
+      "discount": 20,
+      "originalPrice": 25.99,
+      "finalPrice": 20.79,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-28T18:48:36.203Z"
     },
     {
       "id": "steam-2483190",
@@ -142,33 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     },
     {
-      "id": "steam-4423580",
-      "title": "暗影地牢",
-      "url": "https://store.steampowered.com/app/4423580?l=schinese",
+      "id": "steam-3722330",
+      "title": "午夜轮班",
+      "url": "https://store.steampowered.com/app/3722330?l=schinese",
       "discount": 10,
-      "originalPrice": 40,
-      "finalPrice": 36,
+      "originalPrice": 38,
+      "finalPrice": 34.2,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4423580/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.228Z"
-    },
-    {
-      "id": "steam-4341260",
-      "title": "WebCam: Behind The Screen",
-      "url": "https://store.steampowered.com/app/4341260?l=schinese",
-      "discount": 10,
-      "originalPrice": 14.99,
-      "finalPrice": 13.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4341260/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-28T05:28:02.458Z"
+      "publishedAt": "2026-08-28T18:48:35.976Z"
     }
   ]
 }
