@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-27T20:35:05.651Z",
+  "fetchedAt": "2026-08-28T05:28:07.527Z",
   "items": [
+    {
+      "title": "皮卡丘",
+      "extract": "皮卡丘 是寶可夢系列中的一種寶可夢，屬於任天堂與Game Freak旗下的《寶可夢》媒體品牌，同時也是該系列的吉祥物。牠首次登場於電子遊戲《寶可夢 紅／綠》，由西田敦子在首席設計師杉森建的請求下創作，並由杉森建完成最終設計。自皮卡丘登場以來，牠出現在多款遊戲中，包括《Pokémon GO》和《寶可夢集換式卡牌遊戲》，以及各種周邊商品。雖然皮卡丘在媒體作品中的主要配音員為大谷育江，但其他演員也曾為該角色配音，包括凱特·布里斯托 、萊恩·雷諾斯、唐凯吉、西島秀俊、大川透和山寺宏一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%8D%A1%E4%B8%98",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/77/Pikachu.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "卡斯柏·杜貝治",
       "extract": "卡斯柏·杜貝治·拉斯穆森，是一名丹麥職業足球員，現效力於荷甲球會阿贾克斯。丹麥國家足球隊成員。司職前鋒。\n",
@@ -27,13 +34,6 @@
       "extract": "网柄牛肝菌属，是牛肝菌科下的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%BD%91%E6%9F%84%E7%89%9B%E8%82%9D%E8%8F%8C%E5%B1%9E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Retiboletus_ornatipes_54635.jpg/330px-Retiboletus_ornatipes_54635.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "快板书",
-      "extract": "快板书（臺灣又稱「竹板快書」）中国传统曲艺的一种，是由数来宝演变而来。因为它主要是用“拍板”（或稱快板儿）作为乐器而命名为快板书。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BF%AB%E6%9D%BF%E4%B9%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%BF%AB%E6%9D%BF.jpg/330px-%E5%BF%AB%E6%9D%BF.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
