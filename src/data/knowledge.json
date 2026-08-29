@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-29T18:36:23.582Z",
+  "fetchedAt": "2026-08-29T21:47:42.480Z",
   "items": [
+    {
+      "title": "卡斯帕·温伯格",
+      "extract": "卡斯珀·威拉德·温伯格 是一位美國政治家和商人。作為傑出的共和黨人，他在州和聯邦政府的各種職位上工作了三十年。他在1981年至1987年擔任美国总统罗纳德·里根时期的国防部长，1987年因为卷入伊朗门事件而辞职。他之后是一位頗有成就的商人，後來成為成為《福布斯》雜誌的董事長。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%96%AF%E5%B8%95%C2%B7%E6%B8%A9%E4%BC%AF%E6%A0%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Caspar_Weinberger_official_photo.jpg/330px-Caspar_Weinberger_official_photo.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "泰拉莫省",
       "extract": "泰拉莫省 是意大利阿布鲁佐大区的一個省。面積1,948平方公里，2001年人口296,063人。首府泰拉莫。下分47市鎮。\n",
@@ -27,13 +34,6 @@
       "extract": "《來去美國2》 是一部2021年美國喜劇電影，1988年電影《來去美國》續集。電影由克雷格·布魯爾執導，肯亞·巴里斯、貝瑞·W·布勞斯坦和大衛·謝菲爾德編寫劇本，艾迪·墨菲、阿塞尼奧·霍爾、傑曼·福勒、萊絲莉·瓊斯、崔西·摩根、琪琪·蘭恩、莎莉·海德利、堤亞娜·泰勒、衛斯里·史奈普及詹姆斯·厄爾·瓊斯主演。劇情講述虛構非洲國家薩慕達（Zamunda）國王阿基姆·喬福 得知他在美國有一個失散已久的兒子，必須返回美國與這個意想不到的繼承人見面並與其建立關係。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BE%86%E5%8E%BB%E7%BE%8E%E5%9C%8B2",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5e/Coming_2_America_Poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "塞舌尔",
-      "extract": "塞舌爾共和國，通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌尔为大英國協成员国。首都維多利亞。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E8%88%8C%E5%B0%94",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/langzh-330px-Flag_of_Seychelles.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
