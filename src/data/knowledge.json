@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-29T09:11:00.680Z",
+  "fetchedAt": "2026-08-29T14:32:42.498Z",
   "items": [
+    {
+      "title": "浙江理工大学",
+      "extract": "浙江理工大学 是位于中国浙江杭州的一所以工科为主、其余学科设置较全面的浙江省属综合性高等院校。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B5%99%E6%B1%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/fc/Zhejiang_Sci-Tech_University_Emblem.svg/langzh-330px-Zhejiang_Sci-Tech_University_Emblem.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "集合啦！動物森友會",
       "extract": "《集合啦！動物森友會》 是一款由任天堂企劃製作本部開發並由任天堂發行在任天堂Switch上的生活模擬遊戲。本作是动物森友会系列的第7款作品，也是系列首次繁體中文化和第二次簡體中文化。遊戲首次公布于2018年任天堂直面会，當時預計2019年發售，後來延期至2020年3月20日。\n",
@@ -27,13 +34,6 @@
       "extract": "皮卡丘 是寶可夢系列中的一種寶可夢，屬於任天堂與Game Freak旗下的《寶可夢》媒體品牌，同時也是該系列的吉祥物。牠首次登場於電子遊戲《寶可夢 紅／綠》，由西田敦子在首席設計師杉森建的請求下創作，並由杉森建完成最終設計。自皮卡丘登場以來，牠出現在多款遊戲中，包括《Pokémon GO》和《寶可夢集換式卡牌遊戲》，以及各種周邊商品。雖然皮卡丘在媒體作品中的主要配音員為大谷育江，但其他演員也曾為該角色配音，包括凱特·布里斯托 、萊恩·雷諾斯、唐凯吉、西島秀俊、大川透和山寺宏一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%8D%A1%E4%B8%98",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/77/Pikachu.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "卡斯柏·杜貝治",
-      "extract": "卡斯柏·杜貝治·拉斯穆森，是一名丹麥職業足球員，現效力於荷甲球會阿贾克斯。丹麥國家足球隊成員。司職前鋒。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%96%AF%E6%9F%8F%C2%B7%E6%9D%9C%E8%B2%9D%E6%B2%BB",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kasper_Dolberg%2C_Lens_-_Nice_%2823-01-2021%29_45.jpg/330px-Kasper_Dolberg%2C_Lens_-_Nice_%2823-01-2021%29_45.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
