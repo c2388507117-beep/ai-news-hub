@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-29T14:32:42.498Z",
+  "fetchedAt": "2026-08-29T18:36:23.582Z",
   "items": [
+    {
+      "title": "泰拉莫省",
+      "extract": "泰拉莫省 是意大利阿布鲁佐大区的一個省。面積1,948平方公里，2001年人口296,063人。首府泰拉莫。下分47市鎮。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E6%8B%89%E8%8E%AB%E7%9C%81",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Teramo_in_Italy.svg/langzh-330px-Teramo_in_Italy.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "浙江理工大学",
       "extract": "浙江理工大学 是位于中国浙江杭州的一所以工科为主、其余学科设置较全面的浙江省属综合性高等院校。\n",
@@ -27,13 +34,6 @@
       "extract": "塞舌爾共和國，通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌尔为大英國協成员国。首都維多利亞。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E8%88%8C%E5%B0%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/langzh-330px-Flag_of_Seychelles.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "皮卡丘",
-      "extract": "皮卡丘 是寶可夢系列中的一種寶可夢，屬於任天堂與Game Freak旗下的《寶可夢》媒體品牌，同時也是該系列的吉祥物。牠首次登場於電子遊戲《寶可夢 紅／綠》，由西田敦子在首席設計師杉森建的請求下創作，並由杉森建完成最終設計。自皮卡丘登場以來，牠出現在多款遊戲中，包括《Pokémon GO》和《寶可夢集換式卡牌遊戲》，以及各種周邊商品。雖然皮卡丘在媒體作品中的主要配音員為大谷育江，但其他演員也曾為該角色配音，包括凱特·布里斯托 、萊恩·雷諾斯、唐凯吉、西島秀俊、大川透和山寺宏一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%8D%A1%E4%B8%98",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/7/77/Pikachu.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
