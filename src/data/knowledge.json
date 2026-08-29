@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-29T02:16:32.140Z",
+  "fetchedAt": "2026-08-29T09:11:00.680Z",
   "items": [
+    {
+      "title": "集合啦！動物森友會",
+      "extract": "《集合啦！動物森友會》 是一款由任天堂企劃製作本部開發並由任天堂發行在任天堂Switch上的生活模擬遊戲。本作是动物森友会系列的第7款作品，也是系列首次繁體中文化和第二次簡體中文化。遊戲首次公布于2018年任天堂直面会，當時預計2019年發售，後來延期至2020年3月20日。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88%E5%95%A6%EF%BC%81%E5%8B%95%E7%89%A9%E6%A3%AE%E5%8F%8B%E6%9C%83",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/9b/Animal_Crossing_New_Horizons.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "來去美國2",
       "extract": "《來去美國2》 是一部2021年美國喜劇電影，1988年電影《來去美國》續集。電影由克雷格·布魯爾執導，肯亞·巴里斯、貝瑞·W·布勞斯坦和大衛·謝菲爾德編寫劇本，艾迪·墨菲、阿塞尼奧·霍爾、傑曼·福勒、萊絲莉·瓊斯、崔西·摩根、琪琪·蘭恩、莎莉·海德利、堤亞娜·泰勒、衛斯里·史奈普及詹姆斯·厄爾·瓊斯主演。劇情講述虛構非洲國家薩慕達（Zamunda）國王阿基姆·喬福 得知他在美國有一個失散已久的兒子，必須返回美國與這個意想不到的繼承人見面並與其建立關係。\n",
@@ -27,13 +34,6 @@
       "extract": "卡斯柏·杜貝治·拉斯穆森，是一名丹麥職業足球員，現效力於荷甲球會阿贾克斯。丹麥國家足球隊成員。司職前鋒。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%96%AF%E6%9F%8F%C2%B7%E6%9D%9C%E8%B2%9D%E6%B2%BB",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kasper_Dolberg%2C_Lens_-_Nice_%2823-01-2021%29_45.jpg/330px-Kasper_Dolberg%2C_Lens_-_Nice_%2823-01-2021%29_45.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "布瓦",
-      "extract": "布瓦 是法国滨海夏朗德省的一个市镇，位于该省南部，属于容扎克区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E7%93%A6",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/L%27%C3%A9glise_de_Bois.jpg/330px-L%27%C3%A9glise_de_Bois.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
