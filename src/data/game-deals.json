@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T18:48:36.203Z",
+  "fetchedAt": "2026-08-29T02:16:26.495Z",
   "items": [
     {
       "id": "steam-990080",
@@ -12,20 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
-    },
-    {
-      "id": "steam-815370",
-      "title": "绿色地狱",
-      "url": "https://store.steampowered.com/app/815370?l=schinese",
-      "discount": 90,
-      "originalPrice": 87,
-      "finalPrice": 8.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-1174180",
@@ -38,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.975Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-1551360",
@@ -51,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-381210",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-1363080",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:36.203Z"
+      "publishedAt": "2026-08-29T02:16:26.495Z"
     },
     {
       "id": "steam-1623730",
@@ -103,20 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
-      "id": "steam-1147860",
-      "title": "UFO 50",
-      "url": "https://store.steampowered.com/app/1147860?l=schinese",
+      "id": "steam-1874880",
+      "title": "武装突袭 重铸者",
+      "url": "https://store.steampowered.com/app/1874880?l=schinese",
       "discount": 30,
-      "originalPrice": 24.99,
-      "finalPrice": 17.49,
+      "originalPrice": 39.99,
+      "finalPrice": 27.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147860/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:36.203Z"
+      "publishedAt": "2026-08-29T02:16:26.495Z"
     },
     {
       "id": "steam-3321460",
@@ -129,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
+    },
+    {
+      "id": "steam-1331550",
+      "title": "Big Ambitions",
+      "url": "https://store.steampowered.com/app/1331550?l=schinese",
+      "discount": 20,
+      "originalPrice": 94.47,
+      "finalPrice": 75.57,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-3124540",
@@ -142,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:36.203Z"
-    },
-    {
-      "id": "steam-1331550",
-      "title": "Big Ambitions",
-      "url": "https://store.steampowered.com/app/1331550?l=schinese",
-      "discount": 20,
-      "originalPrice": 25.99,
-      "finalPrice": 20.79,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:36.203Z"
+      "publishedAt": "2026-08-29T02:16:26.495Z"
     },
     {
       "id": "steam-2483190",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     },
     {
       "id": "steam-3722330",
@@ -181,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-28T18:48:35.976Z"
+      "publishedAt": "2026-08-29T02:16:26.096Z"
     }
   ]
 }

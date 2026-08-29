@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-28T18:48:41.085Z",
+  "fetchedAt": "2026-08-29T02:16:32.140Z",
   "items": [
+    {
+      "title": "來去美國2",
+      "extract": "《來去美國2》 是一部2021年美國喜劇電影，1988年電影《來去美國》續集。電影由克雷格·布魯爾執導，肯亞·巴里斯、貝瑞·W·布勞斯坦和大衛·謝菲爾德編寫劇本，艾迪·墨菲、阿塞尼奧·霍爾、傑曼·福勒、萊絲莉·瓊斯、崔西·摩根、琪琪·蘭恩、莎莉·海德利、堤亞娜·泰勒、衛斯里·史奈普及詹姆斯·厄爾·瓊斯主演。劇情講述虛構非洲國家薩慕達（Zamunda）國王阿基姆·喬福 得知他在美國有一個失散已久的兒子，必須返回美國與這個意想不到的繼承人見面並與其建立關係。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BE%86%E5%8E%BB%E7%BE%8E%E5%9C%8B2",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5e/Coming_2_America_Poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "塞舌尔",
       "extract": "塞舌爾共和國，通稱塞席爾，是位於坦桑尼亞以東、印度洋中西部的一個群岛国家。塞舌尔为大英國協成员国。首都維多利亞。\n",
@@ -27,13 +34,6 @@
       "extract": "布瓦 是法国滨海夏朗德省的一个市镇，位于该省南部，属于容扎克区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E7%93%A6",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/L%27%C3%A9glise_de_Bois.jpg/330px-L%27%C3%A9glise_de_Bois.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "北平和平解放",
-      "extract": "北平和平解放（台湾作北平淪陷），是中国第二次国共内战平津战役的尾声。1949年1月15日，天津的中华民国国军守军被中国人民解放军全歼，北平（今北京市）的国军守军陷于绝境。16日，华北剿匪总司令部副总司令邓宝珊代表总司令傅作义与林彪、罗荣桓、聂荣臻会面商谈和平，双方于21日达成《关于和平解决北平问题的协议》，22日傅作义在协议上签字，北平傅作义所部8个军、25万守军按协议陆续撤出市区，准备接受解放军改编。31日，解放军和平入城，平津战役结束。中国人民解放军北平市军事管制委员会接管北平市政府和河北省政府。至此，共产党政权已控制华北主要城市及多數地区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%B9%B3%E5%92%8C%E5%B9%B3%E8%A7%A3%E6%94%BE",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1965-02_1949%E5%B9%B4_%E8%A7%A3%E6%94%BE%E5%86%9B%E8%BF%9B%E5%85%A5%E5%8C%97%E4%BA%AC%E8%A5%BF%E9%97%A8.jpg/330px-1965-02_1949%E5%B9%B4_%E8%A7%A3%E6%94%BE%E5%86%9B%E8%BF%9B%E5%85%A5%E5%8C%97%E4%BA%AC%E8%A5%BF%E9%97%A8.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
