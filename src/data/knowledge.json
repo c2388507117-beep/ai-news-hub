@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-30T00:25:04.145Z",
+  "fetchedAt": "2026-08-30T06:46:16.177Z",
   "items": [
+    {
+      "title": "白桦脂醇",
+      "extract": "白桦脂醇 是一种天然的羽扇豆烷型五环三萜化合物，大量存在于桦树的树皮中，比如占到垂枝桦 树皮干重的30%，白樺茸 和红桤木 也有白桦脂醇。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E6%A1%A6%E8%84%82%E9%86%87",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Betulin.svg/langzh-330px-Betulin.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "格里西-叙讷",
       "extract": "格里西-叙讷 是法国塞纳-马恩省的一个市镇，属于默伦区。\n",
@@ -27,13 +34,6 @@
       "extract": "浙江理工大学 是位于中国浙江杭州的一所以工科为主、其余学科设置较全面的浙江省属综合性高等院校。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B5%99%E6%B1%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/fc/Zhejiang_Sci-Tech_University_Emblem.svg/langzh-330px-Zhejiang_Sci-Tech_University_Emblem.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "集合啦！動物森友會",
-      "extract": "《集合啦！動物森友會》 是一款由任天堂企劃製作本部開發並由任天堂發行在任天堂Switch上的生活模擬遊戲。本作是动物森友会系列的第7款作品，也是系列首次繁體中文化和第二次簡體中文化。遊戲首次公布于2018年任天堂直面会，當時預計2019年發售，後來延期至2020年3月20日。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88%E5%95%A6%EF%BC%81%E5%8B%95%E7%89%A9%E6%A3%AE%E5%8F%8B%E6%9C%83",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/9b/Animal_Crossing_New_Horizons.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
