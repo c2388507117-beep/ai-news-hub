@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-29T21:47:42.480Z",
+  "fetchedAt": "2026-08-30T00:25:04.145Z",
   "items": [
+    {
+      "title": "格里西-叙讷",
+      "extract": "格里西-叙讷 是法国塞纳-马恩省的一个市镇，属于默伦区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%87%8C%E8%A5%BF-%E5%8F%99%E8%AE%B7",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Grisy-Suisnes-FR-77-mairie-01.jpg/330px-Grisy-Suisnes-FR-77-mairie-01.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "卡斯帕·温伯格",
       "extract": "卡斯珀·威拉德·温伯格 是一位美國政治家和商人。作為傑出的共和黨人，他在州和聯邦政府的各種職位上工作了三十年。他在1981年至1987年擔任美国总统罗纳德·里根时期的国防部长，1987年因为卷入伊朗门事件而辞职。他之后是一位頗有成就的商人，後來成為成為《福布斯》雜誌的董事長。\n",
@@ -27,13 +34,6 @@
       "extract": "《集合啦！動物森友會》 是一款由任天堂企劃製作本部開發並由任天堂發行在任天堂Switch上的生活模擬遊戲。本作是动物森友会系列的第7款作品，也是系列首次繁體中文化和第二次簡體中文化。遊戲首次公布于2018年任天堂直面会，當時預計2019年發售，後來延期至2020年3月20日。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88%E5%95%A6%EF%BC%81%E5%8B%95%E7%89%A9%E6%A3%AE%E5%8F%8B%E6%9C%83",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/9/9b/Animal_Crossing_New_Horizons.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "來去美國2",
-      "extract": "《來去美國2》 是一部2021年美國喜劇電影，1988年電影《來去美國》續集。電影由克雷格·布魯爾執導，肯亞·巴里斯、貝瑞·W·布勞斯坦和大衛·謝菲爾德編寫劇本，艾迪·墨菲、阿塞尼奧·霍爾、傑曼·福勒、萊絲莉·瓊斯、崔西·摩根、琪琪·蘭恩、莎莉·海德利、堤亞娜·泰勒、衛斯里·史奈普及詹姆斯·厄爾·瓊斯主演。劇情講述虛構非洲國家薩慕達（Zamunda）國王阿基姆·喬福 得知他在美國有一個失散已久的兒子，必須返回美國與這個意想不到的繼承人見面並與其建立關係。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BE%86%E5%8E%BB%E7%BE%8E%E5%9C%8B2",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/5/5e/Coming_2_America_Poster.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
