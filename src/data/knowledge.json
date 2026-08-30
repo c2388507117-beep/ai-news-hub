@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-30T06:46:16.177Z",
+  "fetchedAt": "2026-08-30T12:58:18.953Z",
   "items": [
+    {
+      "title": "蒙德维尔",
+      "extract": "蒙德维尔 是法国卡尔瓦多斯省的一个市镇，属于卡昂区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%92%99%E5%BE%B7%E7%BB%B4%E5%B0%94",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mondeville_eglise_mariemadeleinepostel_chevet.jpg/330px-Mondeville_eglise_mariemadeleinepostel_chevet.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "白桦脂醇",
       "extract": "白桦脂醇 是一种天然的羽扇豆烷型五环三萜化合物，大量存在于桦树的树皮中，比如占到垂枝桦 树皮干重的30%，白樺茸 和红桤木 也有白桦脂醇。\n",
@@ -27,13 +34,6 @@
       "extract": "泰拉莫省 是意大利阿布鲁佐大区的一個省。面積1,948平方公里，2001年人口296,063人。首府泰拉莫。下分47市鎮。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E6%8B%89%E8%8E%AB%E7%9C%81",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Teramo_in_Italy.svg/langzh-330px-Teramo_in_Italy.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "浙江理工大学",
-      "extract": "浙江理工大学 是位于中国浙江杭州的一所以工科为主、其余学科设置较全面的浙江省属综合性高等院校。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B5%99%E6%B1%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/fc/Zhejiang_Sci-Tech_University_Emblem.svg/langzh-330px-Zhejiang_Sci-Tech_University_Emblem.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
