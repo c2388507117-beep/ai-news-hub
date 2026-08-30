@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-30T21:12:47.241Z",
+  "fetchedAt": "2026-08-30T23:34:42.778Z",
   "items": [
     {
       "id": "steam-990080",
@@ -12,20 +12,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
+    },
+    {
+      "id": "steam-815370",
+      "title": "绿色地狱",
+      "url": "https://store.steampowered.com/app/815370?l=schinese",
+      "discount": 90,
+      "originalPrice": 87,
+      "finalPrice": 8.7,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     },
     {
       "id": "steam-870780",
       "title": "控制 - 终极合辑 / Control Ultimate Edition",
       "url": "https://store.steampowered.com/app/870780?l=schinese",
       "discount": 90,
-      "originalPrice": 138,
-      "finalPrice": 13.8,
+      "originalPrice": 39.99,
+      "finalPrice": 3.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.778Z"
     },
     {
       "id": "steam-1174180",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     },
     {
       "id": "steam-1149460",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.241Z"
+      "publishedAt": "2026-08-30T23:34:42.778Z"
     },
     {
       "id": "steam-1551360",
@@ -64,20 +77,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
       "discount": 56,
-      "originalPrice": 224,
-      "finalPrice": 98.56,
+      "originalPrice": 44.99,
+      "finalPrice": 19.79,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.778Z"
     },
     {
       "id": "steam-1363080",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.241Z"
+      "publishedAt": "2026-08-30T23:34:42.778Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     },
     {
       "id": "steam-3321460",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     },
     {
       "id": "steam-1331550",
@@ -129,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
+    },
+    {
+      "id": "steam-2567870",
+      "title": "Chained Together",
+      "url": "https://store.steampowered.com/app/2567870?l=schinese",
+      "discount": 20,
+      "originalPrice": 22,
+      "finalPrice": 17.6,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567870/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-30T23:34:42.575Z"
     },
     {
       "id": "steam-3124540",
@@ -142,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.241Z"
+      "publishedAt": "2026-08-30T23:34:42.778Z"
     },
     {
       "id": "steam-2483190",
@@ -155,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     },
     {
       "id": "steam-3722330",
@@ -168,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-30T21:12:47.048Z"
+      "publishedAt": "2026-08-30T23:34:42.574Z"
     }
   ]
 }
