@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-31T20:10:36.688Z",
+  "fetchedAt": "2026-08-31T23:54:25.659Z",
   "items": [
     {
       "id": "steam-990080",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     },
     {
       "id": "steam-1174180",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.486Z"
     },
     {
       "id": "steam-1326470",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     },
     {
       "id": "steam-1551360",
@@ -51,33 +51,59 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
       "discount": 56,
-      "originalPrice": 224,
-      "finalPrice": 98.56,
+      "originalPrice": 44.99,
+      "finalPrice": 19.79,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.658Z"
     },
     {
-      "id": "steam-648800",
-      "title": "Raft",
-      "url": "https://store.steampowered.com/app/648800?l=schinese",
-      "discount": 33,
-      "originalPrice": 77,
-      "finalPrice": 51.59,
+      "id": "steam-105600",
+      "title": "Terraria",
+      "url": "https://store.steampowered.com/app/105600?l=schinese",
+      "discount": 50,
+      "originalPrice": 42,
+      "finalPrice": 21,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
+    },
+    {
+      "id": "steam-962130",
+      "title": "Grounded",
+      "url": "https://store.steampowered.com/app/962130?l=schinese",
+      "discount": 50,
+      "originalPrice": 39.99,
+      "finalPrice": 19.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T23:54:25.658Z"
+    },
+    {
+      "id": "steam-251570",
+      "title": "7 Days to Die",
+      "url": "https://store.steampowered.com/app/251570?l=schinese",
+      "discount": 45,
+      "originalPrice": 44.99,
+      "finalPrice": 24.74,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T23:54:25.658Z"
     },
     {
       "id": "steam-108600",
@@ -90,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
+    },
+    {
+      "id": "steam-648800",
+      "title": "Raft",
+      "url": "https://store.steampowered.com/app/648800?l=schinese",
+      "discount": 33,
+      "originalPrice": 77,
+      "finalPrice": 51.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     },
     {
       "id": "steam-1203620",
@@ -116,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.688Z"
+      "publishedAt": "2026-08-31T23:54:25.658Z"
     },
     {
       "id": "steam-3321460",
@@ -129,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     },
     {
       "id": "steam-2412960",
@@ -142,20 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.688Z"
-    },
-    {
-      "id": "steam-1331550",
-      "title": "Big Ambitions",
-      "url": "https://store.steampowered.com/app/1331550?l=schinese",
-      "discount": 20,
-      "originalPrice": 25.99,
-      "finalPrice": 20.79,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.688Z"
+      "publishedAt": "2026-08-31T23:54:25.658Z"
     },
     {
       "id": "steam-2483190",
@@ -168,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T20:10:36.408Z"
+      "publishedAt": "2026-08-31T23:54:25.487Z"
     }
   ]
 }
