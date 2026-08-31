@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-31T14:02:20.725Z",
+  "fetchedAt": "2026-08-31T20:10:36.688Z",
   "items": [
     {
       "id": "steam-990080",
@@ -12,33 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
-    },
-    {
-      "id": "steam-815370",
-      "title": "绿色地狱",
-      "url": "https://store.steampowered.com/app/815370?l=schinese",
-      "discount": 90,
-      "originalPrice": 87,
-      "finalPrice": 8.7,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
-    },
-    {
-      "id": "steam-870780",
-      "title": "控制 - 终极合辑 / Control Ultimate Edition",
-      "url": "https://store.steampowered.com/app/870780?l=schinese",
-      "discount": 90,
-      "originalPrice": 39.99,
-      "finalPrice": 3.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.725Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
     },
     {
       "id": "steam-1174180",
@@ -51,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
+    },
+    {
+      "id": "steam-1326470",
+      "title": "Sons Of The Forest",
+      "url": "https://store.steampowered.com/app/1326470?l=schinese",
+      "discount": 70,
+      "originalPrice": 108,
+      "finalPrice": 32.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T20:10:36.408Z"
     },
     {
       "id": "steam-1551360",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
     },
     {
       "id": "steam-3240220",
@@ -77,20 +64,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
     },
     {
-      "id": "steam-1363080",
-      "title": "庄园领主 Manor Lords",
-      "url": "https://store.steampowered.com/app/1363080?l=schinese",
-      "discount": 35,
-      "originalPrice": 39.99,
-      "finalPrice": 25.99,
+      "id": "steam-648800",
+      "title": "Raft",
+      "url": "https://store.steampowered.com/app/648800?l=schinese",
+      "discount": 33,
+      "originalPrice": 77,
+      "finalPrice": 51.59,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.725Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
+    },
+    {
+      "id": "steam-108600",
+      "title": "Project Zomboid",
+      "url": "https://store.steampowered.com/app/108600?l=schinese",
+      "discount": 33,
+      "originalPrice": 93,
+      "finalPrice": 62.31,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T20:10:36.408Z"
     },
     {
       "id": "steam-1623730",
@@ -103,7 +103,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
+    },
+    {
+      "id": "steam-1203620",
+      "title": "雾锁王国 (Enshrouded)",
+      "url": "https://store.steampowered.com/app/1203620?l=schinese",
+      "discount": 25,
+      "originalPrice": 29.99,
+      "finalPrice": 22.49,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T20:10:36.688Z"
     },
     {
       "id": "steam-3321460",
@@ -116,33 +129,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
+    },
+    {
+      "id": "steam-2412960",
+      "title": "呼吸边缘2",
+      "url": "https://store.steampowered.com/app/2412960?l=schinese",
+      "discount": 20,
+      "originalPrice": 19.99,
+      "finalPrice": 15.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-08-31T20:10:36.688Z"
     },
     {
       "id": "steam-1331550",
       "title": "Big Ambitions",
       "url": "https://store.steampowered.com/app/1331550?l=schinese",
       "discount": 20,
-      "originalPrice": 94.47,
-      "finalPrice": 75.57,
+      "originalPrice": 25.99,
+      "finalPrice": 20.79,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1331550/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
-    },
-    {
-      "id": "steam-3124540",
-      "title": "遥遥西土 Far Far West",
-      "url": "https://store.steampowered.com/app/3124540?l=schinese",
-      "discount": 20,
-      "originalPrice": 19.99,
-      "finalPrice": 15.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.725Z"
+      "publishedAt": "2026-08-31T20:10:36.688Z"
     },
     {
       "id": "steam-2483190",
@@ -155,33 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
-    },
-    {
-      "id": "steam-3722330",
-      "title": "午夜轮班",
-      "url": "https://store.steampowered.com/app/3722330?l=schinese",
-      "discount": 10,
-      "originalPrice": 38,
-      "finalPrice": 34.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.528Z"
-    },
-    {
-      "id": "steam-4538960",
-      "title": " 泽诺尼亚 1",
-      "url": "https://store.steampowered.com/app/4538960?l=schinese",
-      "discount": 10,
-      "originalPrice": 9.99,
-      "finalPrice": 8.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4538960/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T14:02:20.725Z"
+      "publishedAt": "2026-08-31T20:10:36.408Z"
     }
   ]
 }
