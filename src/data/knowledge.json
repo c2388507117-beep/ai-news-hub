@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-01T19:57:40.186Z",
+  "fetchedAt": "2026-09-01T22:38:31.145Z",
   "items": [
+    {
+      "title": "吉罗拉莫·卡尔达诺",
+      "extract": "吉罗拉莫·卡尔达诺，意大利文艺复兴时期百科全书式的学者，主要成就在数学、物理、医学方面。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%BD%97%E6%8B%89%E8%8E%AB%C2%B7%E5%8D%A1%E5%B0%94%E8%BE%BE%E8%AF%BA",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Girolamo_Cardano._Line_engraving_by_C._Ammon_the_younger%2C_16_Wellcome_V0001002.jpg/330px-Girolamo_Cardano._Line_engraving_by_C._Ammon_the_younger%2C_16_Wellcome_V0001002.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "1-甲氧基-1,3,5-环庚三烯",
       "extract": "1-甲氧基-1,3,5-环庚三烯是一种有机化合物，分子式为C8H10O。\n",
@@ -27,13 +34,6 @@
       "extract": "",
       "url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%A7%E7%B5%90%E5%90%88%E9%97%9C%E4%BF%82%E6%AD%B7%E5%8F%B2%E5%B9%B4%E8%A1%A8",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/World_laws_pertaining_to_homosexual_relationships_and_expression.svg/langzh-330px-World_laws_pertaining_to_homosexual_relationships_and_expression.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "银河国际货运航空",
-      "extract": "银河国际货运航空公司 简称银河航空，是中国一家货运航空公司，总部设于中国天津滨海国际机场，主要从事国内和国际航空货邮运输，2008年6月投入运营，拥有的一架波音747全货机。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%93%B6%E6%B2%B3%E5%9B%BD%E9%99%85%E8%B4%A7%E8%BF%90%E8%88%AA%E7%A9%BA",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Grandstar_Cargo_Boeing_747-400_KvW.jpg/330px-Grandstar_Cargo_Boeing_747-400_KvW.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
