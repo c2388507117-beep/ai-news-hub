@@ -1,19 +1,6 @@
 {
-  "fetchedAt": "2026-08-31T23:54:25.659Z",
+  "fetchedAt": "2026-09-01T05:18:01.492Z",
   "items": [
-    {
-      "id": "steam-990080",
-      "title": "霍格沃茨之遗",
-      "url": "https://store.steampowered.com/app/990080?l=schinese",
-      "discount": 90,
-      "originalPrice": 384,
-      "finalPrice": 38.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
-    },
     {
       "id": "steam-1174180",
       "title": "Red Dead Redemption 2",
@@ -25,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.486Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
+    },
+    {
+      "id": "steam-264710",
+      "title": "Subnautica - 深海迷航",
+      "url": "https://store.steampowered.com/app/264710?l=schinese",
+      "discount": 75,
+      "originalPrice": 149,
+      "finalPrice": 37.25,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-1326470",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-1551360",
@@ -51,20 +51,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
       "discount": 56,
-      "originalPrice": 44.99,
-      "finalPrice": 19.79,
+      "originalPrice": 224,
+      "finalPrice": 98.56,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.658Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-105600",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-962130",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.658Z"
+      "publishedAt": "2026-09-01T05:18:01.492Z"
     },
     {
       "id": "steam-251570",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.658Z"
+      "publishedAt": "2026-09-01T05:18:01.492Z"
     },
     {
       "id": "steam-108600",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-648800",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-1623730",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-1203620",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.658Z"
+      "publishedAt": "2026-09-01T05:18:01.492Z"
     },
     {
       "id": "steam-3321460",
@@ -168,33 +168,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
-    },
-    {
-      "id": "steam-2412960",
-      "title": "呼吸边缘2",
-      "url": "https://store.steampowered.com/app/2412960?l=schinese",
-      "discount": 20,
-      "originalPrice": 19.99,
-      "finalPrice": 15.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2412960/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.658Z"
+      "publishedAt": "2026-09-01T05:18:01.217Z"
     },
     {
       "id": "steam-2483190",
       "title": "极限竞速：地平线 6",
       "url": "https://store.steampowered.com/app/2483190?l=schinese",
       "discount": 15,
-      "originalPrice": 298,
-      "finalPrice": 253.3,
+      "originalPrice": 69.99,
+      "finalPrice": 59.49,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-08-31T23:54:25.487Z"
+      "publishedAt": "2026-09-01T05:18:01.492Z"
     }
   ]
 }
