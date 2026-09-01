@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-01T11:45:50.459Z",
+  "fetchedAt": "2026-09-01T16:44:04.265Z",
   "items": [
+    {
+      "title": "塔勒 (萨克森-安哈尔特州)",
+      "extract": "塔勒 是德国萨克森-安哈尔特州哈茨县的城市，面积137.6平方千米，2023年12月31日人口为16,721人。現在塔勒的主要產業是旅遊業，這裡的觀光產業十分發達。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%8B%92_(%E8%90%A8%E5%85%8B%E6%A3%AE-%E5%AE%89%E5%93%88%E5%B0%94%E7%89%B9%E5%B7%9E)",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Thale_asv2018-10_img10_view_from_Witches_Point.jpg/330px-Thale_asv2018-10_img10_view_from_Witches_Point.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "勒普瓦雷叙韦吕尔",
       "extract": "勒普瓦雷叙韦吕尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，属于丰特奈勒孔特区。2019年，勒普瓦雷叙韦吕尔与市镇韦吕尔合并为新市镇旺代河畔莱韦吕尔，勒普瓦雷叙韦吕尔为新市镇行政中心。\n",
@@ -27,13 +34,6 @@
       "extract": "西伯利亞航空1812號班機空難是西伯利亞航空一班的來回以色列特拉維夫至俄羅斯新西伯利亞定期航班，2001年10月4日，一架圖-154客機於黑海上空爆炸，乌克兰一度否认坠机事故与其有关，但后承认这架飞机是被乌克兰军队导弹击落。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9E%E8%88%AA%E7%A9%BA1812%E8%99%9F%E7%8F%AD%E6%A9%9F%E7%A9%BA%E9%9B%A3",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/RA-85693_-_Hannover_Langenhagen_%28HAJ%29_01.06.2000.jpg/330px-RA-85693_-_Hannover_Langenhagen_%28HAJ%29_01.06.2000.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "康拉德·萊默",
-      "extract": "康拉德·萊默 是奧地利男子職業足球運動員。司职邊鋒。他現在效力於德甲球隊拜仁慕尼黑。他也代表奧地利國家足球隊參賽。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E6%8B%89%E5%BE%B7%C2%B7%E8%90%8A%E9%BB%98",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg/330px-2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
