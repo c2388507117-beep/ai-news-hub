@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-02T01:04:18.913Z",
+  "fetchedAt": "2026-09-02T05:53:57.201Z",
   "items": [
+    {
+      "title": "伊莎貝爾·韋德曼",
+      "extract": "伊莎貝爾·韋德曼，加拿大速度滑冰運動員，她代表加拿大隊參加了中國舉行的2022年冬季奧林匹克運動會，並且在速度滑冰女子3000米比賽上獲得銅牌，女子5000米比赛上获得银牌，女子团体追逐比赛上获得金牌。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%8E%8E%E8%B2%9D%E7%88%BE%C2%B7%E9%9F%8B%E5%BE%B7%E6%9B%BC",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Canada_lagtempo_2022_%28Isabelle_Weidemann_-_cropped%29.jpg/330px-Canada_lagtempo_2022_%28Isabelle_Weidemann_-_cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "蘋屬",
       "extract": "蘋屬 为蘋科的一个属。\n",
@@ -27,13 +34,6 @@
       "extract": "塔勒 是德国萨克森-安哈尔特州哈茨县的城市，面积137.6平方千米，2023年12月31日人口为16,721人。現在塔勒的主要產業是旅遊業，這裡的觀光產業十分發達。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%8B%92_(%E8%90%A8%E5%85%8B%E6%A3%AE-%E5%AE%89%E5%93%88%E5%B0%94%E7%89%B9%E5%B7%9E)",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Thale_asv2018-10_img10_view_from_Witches_Point.jpg/330px-Thale_asv2018-10_img10_view_from_Witches_Point.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "勒普瓦雷叙韦吕尔",
-      "extract": "勒普瓦雷叙韦吕尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，属于丰特奈勒孔特区。2019年，勒普瓦雷叙韦吕尔与市镇韦吕尔合并为新市镇旺代河畔莱韦吕尔，勒普瓦雷叙韦吕尔为新市镇行政中心。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E6%99%AE%E7%93%A6%E9%9B%B7%E5%8F%99%E9%9F%A6%E5%90%95%E5%B0%94",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Le_Poir%C3%A9_sur_Velluire_castle_FR-85.JPG/330px-Le_Poir%C3%A9_sur_Velluire_castle_FR-85.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
