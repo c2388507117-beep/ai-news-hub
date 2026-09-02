@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-02T11:27:07.805Z",
+  "fetchedAt": "2026-09-02T16:40:07.511Z",
   "items": [
+    {
+      "title": "明德學院",
+      "extract": "明德學院，是香港大學校務委員會核准，香港大學專業進修學院出資籌建的獨立學院。學院自負盈虧，自我授予學位，2015年設立商業個案研究業務，2016年舉辦國際學術會議。香港大學專業進修學院負責學院的人事管理、招生和財務事宜。由於收生長期不足，導致學院陷入財困，由2019年9月起將停止收生，校方原定擬於2021/22學年停辦，後來決定與香港大學附屬學院合併。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%BE%B7%E5%AD%B8%E9%99%A2",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/f3/Centennial_College_Logo.svg/langzh-330px-Centennial_College_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "新托尔亚尔",
       "extract": "新托尔亚尔 是俄罗斯马里埃尔共和国的市级镇、新托尔亚尔区行政中心，地处马里埃尔共和国东北部，在共和国首府约什卡尔奥拉东北方。伏尔加河流域内涅姆达河及其支流舒克尚河（Шукшан）交汇于该地。\n",
@@ -27,13 +34,6 @@
       "extract": "吉罗拉莫·卡尔达诺，意大利文艺复兴时期百科全书式的学者，主要成就在数学、物理、医学方面。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%BD%97%E6%8B%89%E8%8E%AB%C2%B7%E5%8D%A1%E5%B0%94%E8%BE%BE%E8%AF%BA",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Girolamo_Cardano._Line_engraving_by_C._Ammon_the_younger%2C_16_Wellcome_V0001002.jpg/330px-Girolamo_Cardano._Line_engraving_by_C._Ammon_the_younger%2C_16_Wellcome_V0001002.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "1-甲氧基-1,3,5-环庚三烯",
-      "extract": "1-甲氧基-1,3,5-环庚三烯是一种有机化合物，分子式为C8H10O。\n",
-      "url": "https://zh.wikipedia.org/wiki/1-%E7%94%B2%E6%B0%A7%E5%9F%BA-1%2C3%2C5-%E7%8E%AF%E5%BA%9A%E4%B8%89%E7%83%AF",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/1-methoxycyclohepta-1%2C3%2C5-triene.png/330px-1-methoxycyclohepta-1%2C3%2C5-triene.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
