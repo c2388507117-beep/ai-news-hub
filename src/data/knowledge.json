@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-02T16:40:07.511Z",
+  "fetchedAt": "2026-09-02T19:50:56.289Z",
   "items": [
+    {
+      "title": "喀尔巴阡乌克兰",
+      "extract": "喀尔巴阡乌克兰 原为捷克斯洛伐克第一共和国的一个省，1938年末至1939年初成为当地居住的卢森尼亚人自治区。1938年《慕尼黑协定》签订后，捷克斯洛伐克的斯洛伐克省和喀尔巴阡鲁塞尼亚省宣布自治。当年11月，喀尔巴阡鲁塞尼亚更名为“喀尔巴阡乌克兰”。1939年3月14日，斯洛伐克在纳粹德国的扶植下宣布脱离捷克斯洛伐克独立，成立了斯洛伐克第一共和国。次日喀尔巴阡乌克兰也宣布了独立，成立共和国。但隔天即被匈牙利吞并。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%96%80%E5%B0%94%E5%B7%B4%E9%98%A1%E4%B9%8C%E5%85%8B%E5%85%B0",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/langzh-330px-Flag_of_Ukraine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "明德學院",
       "extract": "明德學院，是香港大學校務委員會核准，香港大學專業進修學院出資籌建的獨立學院。學院自負盈虧，自我授予學位，2015年設立商業個案研究業務，2016年舉辦國際學術會議。香港大學專業進修學院負責學院的人事管理、招生和財務事宜。由於收生長期不足，導致學院陷入財困，由2019年9月起將停止收生，校方原定擬於2021/22學年停辦，後來決定與香港大學附屬學院合併。\n",
@@ -27,13 +34,6 @@
       "extract": "蘋屬 为蘋科的一个属。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%98%8B%E5%B1%AC",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Starr_061108-9797_Marsilea_villosa.jpg/330px-Starr_061108-9797_Marsilea_villosa.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "吉罗拉莫·卡尔达诺",
-      "extract": "吉罗拉莫·卡尔达诺，意大利文艺复兴时期百科全书式的学者，主要成就在数学、物理、医学方面。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%BD%97%E6%8B%89%E8%8E%AB%C2%B7%E5%8D%A1%E5%B0%94%E8%BE%BE%E8%AF%BA",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Girolamo_Cardano._Line_engraving_by_C._Ammon_the_younger%2C_16_Wellcome_V0001002.jpg/330px-Girolamo_Cardano._Line_engraving_by_C._Ammon_the_younger%2C_16_Wellcome_V0001002.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
