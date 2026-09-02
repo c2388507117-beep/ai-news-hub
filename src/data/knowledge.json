@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-02T19:50:56.289Z",
+  "fetchedAt": "2026-09-02T22:42:07.274Z",
   "items": [
+    {
+      "title": "拉甘 (拉甘區)",
+      "extract": "拉甘，是阿爾及利亞的城鎮，位於該國西南部，由阿德拉爾省負責管轄，為拉甘區的首府，面積124,298平方公里，2008年人口20,402，人口密度每平方公里0.2人。1960年，法国在此地进行代號為「蓝色跳鼠」 的首次核试验。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%94%98_(%E6%8B%89%E7%94%98%E5%8D%80)",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tanezrouft-Reggane%281990%29.jpg/330px-Tanezrouft-Reggane%281990%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "喀尔巴阡乌克兰",
       "extract": "喀尔巴阡乌克兰 原为捷克斯洛伐克第一共和国的一个省，1938年末至1939年初成为当地居住的卢森尼亚人自治区。1938年《慕尼黑协定》签订后，捷克斯洛伐克的斯洛伐克省和喀尔巴阡鲁塞尼亚省宣布自治。当年11月，喀尔巴阡鲁塞尼亚更名为“喀尔巴阡乌克兰”。1939年3月14日，斯洛伐克在纳粹德国的扶植下宣布脱离捷克斯洛伐克独立，成立了斯洛伐克第一共和国。次日喀尔巴阡乌克兰也宣布了独立，成立共和国。但隔天即被匈牙利吞并。\n",
@@ -27,13 +34,6 @@
       "extract": "伊莎貝爾·韋德曼，加拿大速度滑冰運動員，她代表加拿大隊參加了中國舉行的2022年冬季奧林匹克運動會，並且在速度滑冰女子3000米比賽上獲得銅牌，女子5000米比赛上获得银牌，女子团体追逐比赛上获得金牌。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%8E%8E%E8%B2%9D%E7%88%BE%C2%B7%E9%9F%8B%E5%BE%B7%E6%9B%BC",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Canada_lagtempo_2022_%28Isabelle_Weidemann_-_cropped%29.jpg/330px-Canada_lagtempo_2022_%28Isabelle_Weidemann_-_cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "蘋屬",
-      "extract": "蘋屬 为蘋科的一个属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%98%8B%E5%B1%AC",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Starr_061108-9797_Marsilea_villosa.jpg/330px-Starr_061108-9797_Marsilea_villosa.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
