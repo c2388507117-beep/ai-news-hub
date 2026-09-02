@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-01T22:38:26.836Z",
+  "fetchedAt": "2026-09-02T01:04:13.271Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-264710",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-1326470",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-1551360",
@@ -51,20 +51,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
       "discount": 56,
-      "originalPrice": 44.99,
-      "finalPrice": 19.79,
+      "originalPrice": 6480,
+      "finalPrice": 2851,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.836Z"
+      "publishedAt": "2026-09-02T01:04:13.271Z"
     },
     {
       "id": "steam-105600",
@@ -77,20 +77,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
+    },
+    {
+      "id": "steam-2947440",
+      "title": "SILENT HILL f",
+      "url": "https://store.steampowered.com/app/2947440?l=schinese",
+      "discount": 50,
+      "originalPrice": 8580,
+      "finalPrice": 4290,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-02T01:04:13.271Z"
     },
     {
       "id": "steam-251570",
       "title": "7 Days to Die",
       "url": "https://store.steampowered.com/app/251570?l=schinese",
       "discount": 45,
-      "originalPrice": 44.99,
-      "finalPrice": 24.74,
+      "originalPrice": 4900,
+      "finalPrice": 2695,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.836Z"
+      "publishedAt": "2026-09-02T01:04:13.271Z"
     },
     {
       "id": "steam-108600",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-648800",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-1623730",
@@ -129,20 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
-      "id": "steam-1203620",
-      "title": "雾锁王国 (Enshrouded)",
-      "url": "https://store.steampowered.com/app/1203620?l=schinese",
-      "discount": 25,
-      "originalPrice": 29.99,
-      "finalPrice": 22.49,
+      "id": "steam-1488462",
+      "title": "007 初露锋芒",
+      "url": "https://store.steampowered.com/app/1488462?l=schinese",
+      "discount": 20,
+      "originalPrice": 298,
+      "finalPrice": 238.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.836Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
       "id": "steam-3321460",
@@ -155,46 +168,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
+      "publishedAt": "2026-09-02T01:04:13.197Z"
     },
     {
-      "id": "steam-1488462",
-      "title": "007 初露锋芒",
-      "url": "https://store.steampowered.com/app/1488462?l=schinese",
+      "id": "steam-3718190",
+      "title": "脱衣麻将 - 超真实麻将 Venus Returns",
+      "url": "https://store.steampowered.com/app/3718190?l=schinese",
       "discount": 20,
-      "originalPrice": 69.99,
-      "finalPrice": 55.99,
+      "originalPrice": 4980,
+      "finalPrice": 3984,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3718190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.836Z"
+      "publishedAt": "2026-09-02T01:04:13.271Z"
     },
     {
       "id": "steam-2483190",
       "title": "极限竞速：地平线 6",
       "url": "https://store.steampowered.com/app/2483190?l=schinese",
       "discount": 15,
-      "originalPrice": 298,
-      "finalPrice": 253.3,
+      "originalPrice": 9800,
+      "finalPrice": 8330,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.676Z"
-    },
-    {
-      "id": "steam-1807120",
-      "title": "Being a DIK - Season 3",
-      "url": "https://store.steampowered.com/app/1807120?l=schinese",
-      "discount": 10,
-      "originalPrice": 19.99,
-      "finalPrice": 17.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1807120/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-01T22:38:26.836Z"
+      "publishedAt": "2026-09-02T01:04:13.271Z"
     }
   ]
 }

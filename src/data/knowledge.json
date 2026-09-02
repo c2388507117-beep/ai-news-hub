@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-01T22:38:31.145Z",
+  "fetchedAt": "2026-09-02T01:04:18.913Z",
   "items": [
+    {
+      "title": "蘋屬",
+      "extract": "蘋屬 为蘋科的一个属。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%8B%E5%B1%AC",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Starr_061108-9797_Marsilea_villosa.jpg/330px-Starr_061108-9797_Marsilea_villosa.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "吉罗拉莫·卡尔达诺",
       "extract": "吉罗拉莫·卡尔达诺，意大利文艺复兴时期百科全书式的学者，主要成就在数学、物理、医学方面。\n",
@@ -27,13 +34,6 @@
       "extract": "勒普瓦雷叙韦吕尔 是法国卢瓦尔河地区大区旺代省的一个旧市镇，属于丰特奈勒孔特区。2019年，勒普瓦雷叙韦吕尔与市镇韦吕尔合并为新市镇旺代河畔莱韦吕尔，勒普瓦雷叙韦吕尔为新市镇行政中心。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8B%92%E6%99%AE%E7%93%A6%E9%9B%B7%E5%8F%99%E9%9F%A6%E5%90%95%E5%B0%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Le_Poir%C3%A9_sur_Velluire_castle_FR-85.JPG/330px-Le_Poir%C3%A9_sur_Velluire_castle_FR-85.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "同性結合關係歷史年表",
-      "extract": "",
-      "url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%A7%E7%B5%90%E5%90%88%E9%97%9C%E4%BF%82%E6%AD%B7%E5%8F%B2%E5%B9%B4%E8%A1%A8",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/World_laws_pertaining_to_homosexual_relationships_and_expression.svg/langzh-330px-World_laws_pertaining_to_homosexual_relationships_and_expression.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
