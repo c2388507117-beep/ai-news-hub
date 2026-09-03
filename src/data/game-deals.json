@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T11:23:47.027Z",
+  "fetchedAt": "2026-09-03T16:31:02.181Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-1326470",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-1551360",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-105600",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-4656000",
@@ -77,20 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
-    },
-    {
-      "id": "steam-108600",
-      "title": "Project Zomboid",
-      "url": "https://store.steampowered.com/app/108600?l=schinese",
-      "discount": 33,
-      "originalPrice": 93,
-      "finalPrice": 62.31,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.943Z"
     },
     {
       "id": "steam-648800",
@@ -103,20 +90,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
+    },
+    {
+      "id": "steam-108600",
+      "title": "Project Zomboid",
+      "url": "https://store.steampowered.com/app/108600?l=schinese",
+      "discount": 33,
+      "originalPrice": 93,
+      "finalPrice": 62.31,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-1623730",
       "title": "Palworld / 幻兽帕鲁",
       "url": "https://store.steampowered.com/app/1623730?l=schinese",
       "discount": 30,
-      "originalPrice": 108,
-      "finalPrice": 75.6,
+      "originalPrice": 29.99,
+      "finalPrice": 20.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:02.181Z"
     },
     {
       "id": "steam-2350790",
@@ -129,7 +129,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:47.027Z"
+      "publishedAt": "2026-09-03T16:31:02.181Z"
+    },
+    {
+      "id": "steam-3321460",
+      "title": "红色沙漠：增强版",
+      "url": "https://store.steampowered.com/app/3321460?l=schinese",
+      "discount": 20,
+      "originalPrice": 268,
+      "finalPrice": 214.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     },
     {
       "id": "steam-1488462",
@@ -142,20 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:47.027Z"
+      "publishedAt": "2026-09-03T16:31:02.181Z"
     },
     {
-      "id": "steam-3321460",
-      "title": "红色沙漠：增强版",
-      "url": "https://store.steampowered.com/app/3321460?l=schinese",
+      "id": "steam-3195300",
+      "title": "Sins of a Solar Empire II: Harbinger",
+      "url": "https://store.steampowered.com/app/3195300?l=schinese",
       "discount": 20,
-      "originalPrice": 69.99,
-      "finalPrice": 55.99,
+      "originalPrice": 29.99,
+      "finalPrice": 23.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195300/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:47.027Z"
+      "publishedAt": "2026-09-03T16:31:02.181Z"
     },
     {
       "id": "steam-2483190",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T11:23:46.794Z"
+      "publishedAt": "2026-09-03T16:31:01.944Z"
     }
   ]
 }
