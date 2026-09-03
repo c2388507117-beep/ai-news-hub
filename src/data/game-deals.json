@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T16:31:02.181Z",
+  "fetchedAt": "2026-09-03T19:54:48.335Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: 星际战士2",
+      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "discount": 75,
+      "originalPrice": 59.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T19:54:48.335Z"
+    },
+    {
+      "id": "steam-311210",
+      "title": "Call of Duty®: Black Ops III",
+      "url": "https://store.steampowered.com/app/311210?l=schinese",
+      "discount": 75,
+      "originalPrice": 59.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T19:54:48.335Z"
     },
     {
       "id": "steam-1326470",
@@ -25,20 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
-    },
-    {
-      "id": "steam-1551360",
-      "title": "极限竞速：地平线 5",
-      "url": "https://store.steampowered.com/app/1551360?l=schinese",
-      "discount": 60,
-      "originalPrice": 198,
-      "finalPrice": 79.2,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
     },
     {
       "id": "steam-105600",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
     },
     {
       "id": "steam-4656000",
@@ -77,20 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.943Z"
-    },
-    {
-      "id": "steam-648800",
-      "title": "Raft",
-      "url": "https://store.steampowered.com/app/648800?l=schinese",
-      "discount": 33,
-      "originalPrice": 77,
-      "finalPrice": 51.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
     },
     {
       "id": "steam-108600",
@@ -103,33 +103,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.128Z"
+    },
+    {
+      "id": "steam-648800",
+      "title": "Raft",
+      "url": "https://store.steampowered.com/app/648800?l=schinese",
+      "discount": 33,
+      "originalPrice": 77,
+      "finalPrice": 51.59,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T19:54:48.128Z"
     },
     {
       "id": "steam-1623730",
       "title": "Palworld / 幻兽帕鲁",
       "url": "https://store.steampowered.com/app/1623730?l=schinese",
       "discount": 30,
-      "originalPrice": 29.99,
-      "finalPrice": 20.99,
+      "originalPrice": 108,
+      "finalPrice": 75.6,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:02.181Z"
-    },
-    {
-      "id": "steam-2350790",
-      "title": "夜勤人2：无尽宝库",
-      "url": "https://store.steampowered.com/app/2350790?l=schinese",
-      "discount": 30,
-      "originalPrice": 29.99,
-      "finalPrice": 20.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:02.181Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
     },
     {
       "id": "steam-3321460",
@@ -142,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.127Z"
+    },
+    {
+      "id": "steam-2406770",
+      "title": "Bodycam",
+      "url": "https://store.steampowered.com/app/2406770?l=schinese",
+      "discount": 20,
+      "originalPrice": 128,
+      "finalPrice": 102.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T19:54:48.127Z"
     },
     {
       "id": "steam-1488462",
@@ -155,33 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:02.181Z"
-    },
-    {
-      "id": "steam-3195300",
-      "title": "Sins of a Solar Empire II: Harbinger",
-      "url": "https://store.steampowered.com/app/3195300?l=schinese",
-      "discount": 20,
-      "originalPrice": 29.99,
-      "finalPrice": 23.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195300/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:02.181Z"
-    },
-    {
-      "id": "steam-2483190",
-      "title": "极限竞速：地平线 6",
-      "url": "https://store.steampowered.com/app/2483190?l=schinese",
-      "discount": 15,
-      "originalPrice": 298,
-      "finalPrice": 253.3,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T16:31:01.944Z"
+      "publishedAt": "2026-09-03T19:54:48.335Z"
     }
   ]
 }
