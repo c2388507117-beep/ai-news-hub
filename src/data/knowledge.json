@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-03T01:10:14.961Z",
+  "fetchedAt": "2026-09-03T05:53:36.724Z",
   "items": [
+    {
+      "title": "伊勢八知站",
+      "extract": "伊勢八知站 是位於三重縣津市美杉町八知，東海旅客鐵道（JR東海）的名松線車站。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%8B%A2%E5%85%AB%E7%9F%A5%E7%AB%99",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Ise-Yachi_stn.jpg/330px-Ise-Yachi_stn.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "科灰蝶屬",
       "extract": "科灰蝶屬 是灰蝶科噩灰蝶亞科中的一個屬。共有3個物種，分佈於非洲南部。幼蟲以金合歡作寄主。\n",
@@ -27,13 +34,6 @@
       "extract": "明德學院，是香港大學校務委員會核准，香港大學專業進修學院出資籌建的獨立學院。學院自負盈虧，自我授予學位，2015年設立商業個案研究業務，2016年舉辦國際學術會議。香港大學專業進修學院負責學院的人事管理、招生和財務事宜。由於收生長期不足，導致學院陷入財困，由2019年9月起將停止收生，校方原定擬於2021/22學年停辦，後來決定與香港大學附屬學院合併。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%BE%B7%E5%AD%B8%E9%99%A2",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/f3/Centennial_College_Logo.svg/langzh-330px-Centennial_College_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "新托尔亚尔",
-      "extract": "新托尔亚尔 是俄罗斯马里埃尔共和国的市级镇、新托尔亚尔区行政中心，地处马里埃尔共和国东北部，在共和国首府约什卡尔奥拉东北方。伏尔加河流域内涅姆达河及其支流舒克尚河（Шукшан）交汇于该地。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%89%98%E5%B0%94%E4%BA%9A%E5%B0%94",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shukshan_pond.JPG/330px-Shukshan_pond.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
