@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-02T22:42:07.274Z",
+  "fetchedAt": "2026-09-03T01:10:14.961Z",
   "items": [
+    {
+      "title": "科灰蝶屬",
+      "extract": "科灰蝶屬 是灰蝶科噩灰蝶亞科中的一個屬。共有3個物種，分佈於非洲南部。幼蟲以金合歡作寄主。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E7%81%B0%E8%9D%B6%E5%B1%AC",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Silver-spotted_grey_%28Crudaria_leroma%29_male_underside.jpg/330px-Silver-spotted_grey_%28Crudaria_leroma%29_male_underside.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "拉甘 (拉甘區)",
       "extract": "拉甘，是阿爾及利亞的城鎮，位於該國西南部，由阿德拉爾省負責管轄，為拉甘區的首府，面積124,298平方公里，2008年人口20,402，人口密度每平方公里0.2人。1960年，法国在此地进行代號為「蓝色跳鼠」 的首次核试验。\n",
@@ -27,13 +34,6 @@
       "extract": "新托尔亚尔 是俄罗斯马里埃尔共和国的市级镇、新托尔亚尔区行政中心，地处马里埃尔共和国东北部，在共和国首府约什卡尔奥拉东北方。伏尔加河流域内涅姆达河及其支流舒克尚河（Шукшан）交汇于该地。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%89%98%E5%B0%94%E4%BA%9A%E5%B0%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Shukshan_pond.JPG/330px-Shukshan_pond.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "伊莎貝爾·韋德曼",
-      "extract": "伊莎貝爾·韋德曼，加拿大速度滑冰運動員，她代表加拿大隊參加了中國舉行的2022年冬季奧林匹克運動會，並且在速度滑冰女子3000米比賽上獲得銅牌，女子5000米比赛上获得银牌，女子团体追逐比赛上获得金牌。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E8%8E%8E%E8%B2%9D%E7%88%BE%C2%B7%E9%9F%8B%E5%BE%B7%E6%9B%BC",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Canada_lagtempo_2022_%28Isabelle_Weidemann_-_cropped%29.jpg/330px-Canada_lagtempo_2022_%28Isabelle_Weidemann_-_cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
