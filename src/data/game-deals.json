@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T19:54:48.335Z",
+  "fetchedAt": "2026-09-03T22:42:05.070Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,20 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: 星际战士2",
-      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "id": "steam-1985810",
+      "title": "Call of Duty®: Black Ops Cold War",
+      "url": "https://store.steampowered.com/app/1985810?l=schinese",
       "discount": 75,
-      "originalPrice": 59.99,
-      "finalPrice": 14.99,
+      "originalPrice": 298,
+      "finalPrice": 74.5,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.335Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-311210",
@@ -38,7 +38,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.335Z"
+      "publishedAt": "2026-09-03T22:42:05.070Z"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: 星际战士2",
+      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "discount": 75,
+      "originalPrice": 59.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-03T22:42:05.070Z"
     },
     {
       "id": "steam-1326470",
@@ -51,20 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
       "discount": 56,
-      "originalPrice": 224,
-      "finalPrice": 98.56,
+      "originalPrice": 44.99,
+      "finalPrice": 19.79,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:05.070Z"
     },
     {
       "id": "steam-105600",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-4656000",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-108600",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.128Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-648800",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.128Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-1623730",
@@ -129,20 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "红色沙漠：增强版",
-      "url": "https://store.steampowered.com/app/3321460?l=schinese",
-      "discount": 20,
-      "originalPrice": 268,
-      "finalPrice": 214.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
       "id": "steam-2406770",
@@ -155,20 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.127Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     },
     {
-      "id": "steam-1488462",
-      "title": "007 初露锋芒",
-      "url": "https://store.steampowered.com/app/1488462?l=schinese",
+      "id": "steam-3321460",
+      "title": "红色沙漠：增强版",
+      "url": "https://store.steampowered.com/app/3321460?l=schinese",
       "discount": 20,
-      "originalPrice": 69.99,
-      "finalPrice": 55.99,
+      "originalPrice": 268,
+      "finalPrice": 214.4,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T19:54:48.335Z"
+      "publishedAt": "2026-09-03T22:42:04.839Z"
     }
   ]
 }
