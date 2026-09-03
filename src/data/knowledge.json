@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-03T05:53:36.724Z",
+  "fetchedAt": "2026-09-03T11:23:52.153Z",
   "items": [
+    {
+      "title": "我們的主題曲 (電視節目)",
+      "extract": "《我們的主題曲》，是由香港電視廣播有限公司製作的音樂節目，亦是慶祝無綫電視55周年台慶而製作的綜藝節目之一，並以「傳承·狂歡55」名義播出。節目於2022年10月9日首播，共7集，內容以歌手及無綫電視藝員翻唱或演奏該台歷年來所製作之原創劇集的歌曲為主，並由馬百良藥廠贊助播出。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9A%84%E4%B8%BB%E9%A1%8C%E6%9B%B2_(%E9%9B%BB%E8%A6%96%E7%AF%80%E7%9B%AE)",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/e/e5/%E6%88%91%E5%80%91%E7%9A%84%E4%B8%BB%E9%A1%8C%E6%9B%B2_TVB_2022.jpg/330px-%E6%88%91%E5%80%91%E7%9A%84%E4%B8%BB%E9%A1%8C%E6%9B%B2_TVB_2022.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "伊勢八知站",
       "extract": "伊勢八知站 是位於三重縣津市美杉町八知，東海旅客鐵道（JR東海）的名松線車站。\n",
@@ -27,13 +34,6 @@
       "extract": "喀尔巴阡乌克兰 原为捷克斯洛伐克第一共和国的一个省，1938年末至1939年初成为当地居住的卢森尼亚人自治区。1938年《慕尼黑协定》签订后，捷克斯洛伐克的斯洛伐克省和喀尔巴阡鲁塞尼亚省宣布自治。当年11月，喀尔巴阡鲁塞尼亚更名为“喀尔巴阡乌克兰”。1939年3月14日，斯洛伐克在纳粹德国的扶植下宣布脱离捷克斯洛伐克独立，成立了斯洛伐克第一共和国。次日喀尔巴阡乌克兰也宣布了独立，成立共和国。但隔天即被匈牙利吞并。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%96%80%E5%B0%94%E5%B7%B4%E9%98%A1%E4%B9%8C%E5%85%8B%E5%85%B0",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/langzh-330px-Flag_of_Ukraine.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "明德學院",
-      "extract": "明德學院，是香港大學校務委員會核准，香港大學專業進修學院出資籌建的獨立學院。學院自負盈虧，自我授予學位，2015年設立商業個案研究業務，2016年舉辦國際學術會議。香港大學專業進修學院負責學院的人事管理、招生和財務事宜。由於收生長期不足，導致學院陷入財困，由2019年9月起將停止收生，校方原定擬於2021/22學年停辦，後來決定與香港大學附屬學院合併。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%BE%B7%E5%AD%B8%E9%99%A2",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/f3/Centennial_College_Logo.svg/langzh-330px-Centennial_College_Logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
