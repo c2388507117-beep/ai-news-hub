@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T22:42:05.070Z",
+  "fetchedAt": "2026-09-04T01:08:12.101Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.838Z"
     },
     {
       "id": "steam-1985810",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.838Z"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: 星际战士2",
+      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "discount": 75,
+      "originalPrice": 249,
+      "finalPrice": 62.25,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-04T01:08:11.839Z"
     },
     {
       "id": "steam-311210",
@@ -38,20 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:05.070Z"
-    },
-    {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: 星际战士2",
-      "url": "https://store.steampowered.com/app/2183900?l=schinese",
-      "discount": 75,
-      "originalPrice": 59.99,
-      "finalPrice": 14.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:05.070Z"
+      "publishedAt": "2026-09-04T01:08:12.101Z"
     },
     {
       "id": "steam-1326470",
@@ -64,20 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.839Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
       "discount": 56,
-      "originalPrice": 44.99,
-      "finalPrice": 19.79,
+      "originalPrice": 224,
+      "finalPrice": 98.56,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:05.070Z"
+      "publishedAt": "2026-09-04T01:08:11.839Z"
     },
     {
       "id": "steam-105600",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.839Z"
     },
     {
       "id": "steam-4656000",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.838Z"
     },
     {
       "id": "steam-108600",
@@ -116,33 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
-    },
-    {
-      "id": "steam-648800",
-      "title": "Raft",
-      "url": "https://store.steampowered.com/app/648800?l=schinese",
-      "discount": 33,
-      "originalPrice": 77,
-      "finalPrice": 51.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.839Z"
     },
     {
       "id": "steam-1623730",
       "title": "Palworld / 幻兽帕鲁",
       "url": "https://store.steampowered.com/app/1623730?l=schinese",
       "discount": 30,
-      "originalPrice": 108,
-      "finalPrice": 75.6,
+      "originalPrice": 29.99,
+      "finalPrice": 20.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:12.101Z"
     },
     {
       "id": "steam-2406770",
@@ -155,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.838Z"
     },
     {
       "id": "steam-3321460",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-03T22:42:04.839Z"
+      "publishedAt": "2026-09-04T01:08:11.838Z"
     }
   ]
 }
