@@ -1,19 +1,6 @@
 {
-  "fetchedAt": "2026-09-04T06:02:22.631Z",
+  "fetchedAt": "2026-09-04T11:28:54.266Z",
   "items": [
-    {
-      "id": "steam-1985810",
-      "title": "Call of Duty®: Black Ops Cold War",
-      "url": "https://store.steampowered.com/app/1985810?l=schinese",
-      "discount": 75,
-      "originalPrice": 298,
-      "finalPrice": 74.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
-    },
     {
       "id": "steam-1174180",
       "title": "Red Dead Redemption 2",
@@ -25,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
+    },
+    {
+      "id": "steam-1985810",
+      "title": "Call of Duty®: Black Ops Cold War",
+      "url": "https://store.steampowered.com/app/1985810?l=schinese",
+      "discount": 75,
+      "originalPrice": 298,
+      "finalPrice": 74.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-2183900",
@@ -38,20 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
-    },
-    {
-      "id": "steam-2000950",
-      "title": "Call of Duty®: Modern Warfare®",
-      "url": "https://store.steampowered.com/app/2000950?l=schinese",
-      "discount": 75,
-      "originalPrice": 298,
-      "finalPrice": 74.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-311210",
@@ -64,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.631Z"
+      "publishedAt": "2026-09-04T11:28:54.266Z"
     },
     {
       "id": "steam-1326470",
@@ -77,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-3240220",
@@ -90,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-105600",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-4656000",
@@ -116,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-108600",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.631Z"
+      "publishedAt": "2026-09-04T11:28:54.266Z"
     },
     {
       "id": "steam-1623730",
@@ -142,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.631Z"
+      "publishedAt": "2026-09-04T11:28:54.266Z"
     },
     {
       "id": "steam-2406770",
@@ -155,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     },
     {
       "id": "steam-3321460",
@@ -168,7 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T06:02:22.225Z"
+      "publishedAt": "2026-09-04T11:28:54.086Z"
+    },
+    {
+      "id": "steam-2798330",
+      "title": "地城拓荒 Dungeon Settlers",
+      "url": "https://store.steampowered.com/app/2798330?l=schinese",
+      "discount": 15,
+      "originalPrice": 68,
+      "finalPrice": 57.8,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-04T11:28:54.086Z"
     }
   ]
 }

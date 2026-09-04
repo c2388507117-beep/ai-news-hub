@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-04T06:02:28.275Z",
+  "fetchedAt": "2026-09-04T11:28:59.292Z",
   "items": [
+    {
+      "title": "箭纹鸫鹛",
+      "extract": "箭纹鸫鹛，是画眉科鸫鹛属的一种，分布于乌干达、纳米比亚、加蓬、安哥拉、赞比亚、南非、斯威士兰、马拉维、肯尼亚、坦桑尼亚、津巴布韦、卢旺达、布隆迪、刚果民主共和国、博茨瓦纳、刚果和莫桑比克。全球活动范围约为3,880,000平方千米。该物种的保护状况被评为无危。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%AD%E7%BA%B9%E9%B8%AB%E9%B9%9B",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Arrow-marked_Babbler_%28Turdoides_jardineii%29.jpg/330px-Arrow-marked_Babbler_%28Turdoides_jardineii%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "方紹漢",
       "extract": "方紹漢（1909年—2007年9月15日），中華民國陸軍少將，别號文卿，1930年7月於中央陸軍軍官學校第七期步兵科畢業，籍貫湖北省禮山縣二郎店。\n",
@@ -27,13 +34,6 @@
       "extract": "锡内，又称锡奈，是比利时瓦隆大区那慕爾省迪南区的一个城市，东南端与盧森堡省接壤，通行法语，是比利时法语社群的一部分，人口16,439人（2018年1月1日）。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%94%A1%E5%86%85",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ciney_JPG02.jpg/330px-Ciney_JPG02.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "蕭中正醫院",
-      "extract": "蕭中正醫院，原為蕭婦產科醫院，位於新北市板橋區的婦產科專科醫院，現已發展為多元性的地區醫院，進行地區醫療及照護的作業。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%95%AD%E4%B8%AD%E6%AD%A3%E9%86%AB%E9%99%A2",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/%E8%95%AD%E4%B8%AD%E6%AD%A3%E9%86%AB%E9%99%A2.JPG/330px-%E8%95%AD%E4%B8%AD%E6%AD%A3%E9%86%AB%E9%99%A2.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
