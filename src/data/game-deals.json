@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T16:27:07.748Z",
+  "fetchedAt": "2026-09-04T19:40:07.829Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-2183900",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-1985810",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-311210",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.748Z"
+      "publishedAt": "2026-09-04T19:40:07.829Z"
     },
     {
       "id": "steam-1326470",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-3240220",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-105600",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-4656000",
@@ -103,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.488Z"
-    },
-    {
-      "id": "steam-648800",
-      "title": "Raft",
-      "url": "https://store.steampowered.com/app/648800?l=schinese",
-      "discount": 33,
-      "originalPrice": 77,
-      "finalPrice": 51.59,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-108600",
@@ -129,33 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.748Z"
+      "publishedAt": "2026-09-04T19:40:07.829Z"
     },
     {
       "id": "steam-1623730",
       "title": "Palworld / 幻兽帕鲁",
       "url": "https://store.steampowered.com/app/1623730?l=schinese",
       "discount": 30,
-      "originalPrice": 29.99,
-      "finalPrice": 20.99,
+      "originalPrice": 108,
+      "finalPrice": 75.6,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.748Z"
-    },
-    {
-      "id": "steam-2406770",
-      "title": "Bodycam",
-      "url": "https://store.steampowered.com/app/2406770?l=schinese",
-      "discount": 20,
-      "originalPrice": 128,
-      "finalPrice": 102.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-3321460",
@@ -168,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.489Z"
+      "publishedAt": "2026-09-04T19:40:07.442Z"
+    },
+    {
+      "id": "steam-2406770",
+      "title": "Bodycam",
+      "url": "https://store.steampowered.com/app/2406770?l=schinese",
+      "discount": 20,
+      "originalPrice": 128,
+      "finalPrice": 102.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-04T19:40:07.442Z"
     },
     {
       "id": "steam-2798330",
@@ -181,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T16:27:07.748Z"
+      "publishedAt": "2026-09-04T19:40:07.829Z"
     }
   ]
 }
