@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T19:40:07.829Z",
+  "fetchedAt": "2026-09-04T22:23:54.447Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,20 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
-    },
-    {
-      "id": "steam-2183900",
-      "title": "Warhammer 40,000: 星际战士2",
-      "url": "https://store.steampowered.com/app/2183900?l=schinese",
-      "discount": 75,
-      "originalPrice": 249,
-      "finalPrice": 62.25,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-1985810",
@@ -38,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
+    },
+    {
+      "id": "steam-2183900",
+      "title": "Warhammer 40,000: 星际战士2",
+      "url": "https://store.steampowered.com/app/2183900?l=schinese",
+      "discount": 75,
+      "originalPrice": 249,
+      "finalPrice": 62.25,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-311210",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.829Z"
+      "publishedAt": "2026-09-04T22:23:54.447Z"
     },
     {
       "id": "steam-1326470",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-3240220",
@@ -77,20 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
-    },
-    {
-      "id": "steam-105600",
-      "title": "Terraria",
-      "url": "https://store.steampowered.com/app/105600?l=schinese",
-      "discount": 50,
-      "originalPrice": 42,
-      "finalPrice": 21,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-4656000",
@@ -103,20 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-108600",
       "title": "Project Zomboid",
       "url": "https://store.steampowered.com/app/108600?l=schinese",
       "discount": 33,
-      "originalPrice": 24.99,
-      "finalPrice": 16.74,
+      "originalPrice": 93,
+      "finalPrice": 62.31,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.829Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-1623730",
@@ -129,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-3321460",
@@ -142,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
     },
     {
       "id": "steam-2406770",
@@ -155,7 +142,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.442Z"
+      "publishedAt": "2026-09-04T22:23:54.069Z"
+    },
+    {
+      "id": "steam-1488462",
+      "title": "007 初露锋芒",
+      "url": "https://store.steampowered.com/app/1488462?l=schinese",
+      "discount": 20,
+      "originalPrice": 69.99,
+      "finalPrice": 55.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-04T22:23:54.447Z"
     },
     {
       "id": "steam-2798330",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T19:40:07.829Z"
+      "publishedAt": "2026-09-04T22:23:54.447Z"
     }
   ]
 }

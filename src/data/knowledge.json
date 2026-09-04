@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-04T19:40:13.248Z",
+  "fetchedAt": "2026-09-04T22:23:59.540Z",
   "items": [
+    {
+      "title": "悬铃叶苎麻",
+      "extract": "悬铃叶苎麻 为荨麻科苎麻属的植物。分布于日本、朝鲜以及中国大陆的广东、山东、陕西、河南、河北、广西、四川、湖北、山西、福建、江苏、江西、甘肃、湖南、浙江、贵州、安徽等地，生长于海拔500米至1,400米的地区，一般生于低山山谷疏林下、沟边及田边，目前尚未由人工引种栽培。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%82%AC%E9%93%83%E5%8F%B6%E8%8B%8E%E9%BA%BB",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Boehmeria_tricuspis_-_Flickr_-_peganum.jpg/330px-Boehmeria_tricuspis_-_Flickr_-_peganum.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "埃梅克祖里姆國家公園",
       "extract": "埃梅克祖里姆國家公園是以色列的國家公園，位於該國東部耶路撒冷區，處於橄欖山和斯科普斯山西坡，佔地面積0.17平方公里。\n",
@@ -27,13 +34,6 @@
       "extract": "方紹漢（1909年—2007年9月15日），中華民國陸軍少將，别號文卿，1930年7月於中央陸軍軍官學校第七期步兵科畢業，籍貫湖北省禮山縣二郎店。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E7%B4%B9%E6%BC%A2",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Father.tif/lossy-page1-330px-Father.tif.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "奥伊斯基兴县",
-      "extract": "奥伊斯基兴县 是德国北莱茵-威斯特法伦州西南部的一个县，隶属于科隆行政区，首府奥伊斯基兴。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E4%BC%8A%E6%96%AF%E5%9F%BA%E5%85%B4%E5%8E%BF",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/North_rhine_w_EU.svg/langzh-330px-North_rhine_w_EU.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
