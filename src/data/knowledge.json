@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-05T21:19:47.378Z",
+  "fetchedAt": "2026-09-05T23:58:14.009Z",
   "items": [
+    {
+      "title": "帶廣廣尾自動車道",
+      "extract": "帶廣廣尾自動車道 是從北海道帶廣市至廣尾町，總長約80公里的國土交通大臣指定高規格幹線道路（一般國道快速道路）（国道236号）。從北海道橫斷自動車道（道東自動車道）分歧的帶廣系統交流道實際位於芽室町，而北海道橫斷自動車道的經過地為「帶廣市附近」，但實際上的經過地則是「北海道河東郡音更町」。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%B6%E5%BB%A3%E5%BB%A3%E5%B0%BE%E8%87%AA%E5%8B%95%E8%BB%8A%E9%81%93",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Obihiro-Hiroo_Expwy_Route_Sign.svg/langzh-330px-Obihiro-Hiroo_Expwy_Route_Sign.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "解放烈士纪念塔",
       "extract": "解放烈士纪念塔，位于中国吉林省四平市铁西区英雄大街，为一个省级文物保护单位，类型为近现代史迹及代表性建筑，公布时间为1961年4月13日。该文物保护单位由四平市民政局管理。\n",
@@ -27,13 +34,6 @@
       "extract": "反抗滅絕 是一場全球性的環保運動，旨在透過非暴力的公民不服從來迫使政府採取行動，以避免氣候系統越過臨界點、喪失生物多樣性及社會和生態崩潰的風險。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%8A%97%E6%BB%85%E7%B5%95",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Extinction_Rebellion%2C_green_placard_%28cropped%29.jpg/330px-Extinction_Rebellion%2C_green_placard_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "图穆-奥其尔·图勒嘎",
-      "extract": "图穆-奥其尔·图勒嘎，蒙古男子摔跤运动员，2021年世界摔跤锦标赛男子自由式65公斤级铜牌得主、2023年亚洲摔跤锦标赛男子自由式65公斤级银牌得主、2022年亚洲运动会男子自由式65公斤级金牌得主。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E7%A9%86-%E5%A5%A5%E5%85%B6%E5%B0%94%C2%B7%E5%9B%BE%E5%8B%92%E5%98%8E",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tulga2024_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
