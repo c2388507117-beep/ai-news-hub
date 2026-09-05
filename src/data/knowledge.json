@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-05T16:51:48.292Z",
+  "fetchedAt": "2026-09-05T19:05:35.945Z",
   "items": [
+    {
+      "title": "康山",
+      "extract": "康山 為香港已平整山丘，並以當時太古集團一位德國人高層「費迪南·康」 而命名，譯成康山，位於東區鰂魚涌南面。由於太古站的工程牽涉物業發展，當局於1982年至1985年間進行大規模平整工程，承建商需動用烈性炸藥，將除了西灣臺一帶外的絕大部分康山山體炸毀，並利用平整得來的山體砂石運往愛秩序灣指定的位置（亦即現時鯉景灣、東區法院、嘉亨灣一帶）進行填海工程，後建成康山道、康怡花園及康山花園。現時「康山」一詞泛指這一帶的新住宅，包括在康山開發前已存在的西灣臺，以及英皇道入口的太古城中心第一期。康山曾為太古洋行職員宿舍的所在地。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%B1%B1",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/HK_Quarry_Bay_Mount_Parker_Road_Woodside_Story_of_Swire_Taikoo_Sugar_Refinery_1890s.JPG/330px-HK_Quarry_Bay_Mount_Parker_Road_Woodside_Story_of_Swire_Taikoo_Sugar_Refinery_1890s.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "中华人民共和国电视广播",
       "extract": "中华人民共和国电视广播从1949年北平新华广播电台定名为中央人民广播电台，1958年北京电视台（1978年更名为中国中央电视台）建立至今已經發展70多年。由于中国大陆各一级行政区（省、自治区、市、县）皆设有电视台和广播电台，中国大陆是世界上电视台最多的地区。截至2022年底，中国大陆开展广播电视和网络视听业务的机构有6万多家，其中，广播电台、电视台、广播电视台等播出机构2527家，广播电视节目制作经营机构约5.7万家，持证及备案的网络视听机构2974家。广播电视从业人员104.75万人，广播节目综合人口覆盖率99.65%，电视节目综合人口覆盖率99.75%。中国大陆電子媒體的设立和运作均接受中国共产党的领导和国家广播电视总局管理备案，非官方单位和个人不得组办电视台与广播电台，政府也禁止设立任何中外合资的媒体。\n",
@@ -27,13 +34,6 @@
       "extract": "韦罗妮卡·特恩罗斯 是芬兰奥兰自治区的从政人物。她自2019年11月25日起担任奥兰总理一职。她也是奥兰中间党的主席。从政之前她的职业是保健师。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%9F%A6%E7%BD%97%E5%A6%AE%E5%8D%A1%C2%B7%E7%89%B9%E6%81%A9%E7%BD%97%E6%96%AF",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Veronica_Th%C3%B6rnroos_in_2022_%28cropped%29.jpg/330px-Veronica_Th%C3%B6rnroos_in_2022_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "颱風馬勒卡 (2022年)",
-      "extract": "超強颱風馬勒卡 是2022年太平洋颱風季第1個被命名的風暴。「馬勒卡」一名由菲律賓提供，指強而有力。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A2%B1%E9%A2%A8%E9%A6%AC%E5%8B%92%E5%8D%A1_(2022%E5%B9%B4)",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Malakas_2022-04-13_0600Z.jpg/330px-Malakas_2022-04-13_0600Z.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
