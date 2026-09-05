@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-05T10:42:47.731Z",
+  "fetchedAt": "2026-09-05T13:53:52.617Z",
   "items": [
+    {
+      "title": "反抗滅絕",
+      "extract": "反抗滅絕 是一場全球性的環保運動，旨在透過非暴力的公民不服從來迫使政府採取行動，以避免氣候系統越過臨界點、喪失生物多樣性及社會和生態崩潰的風險。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%8A%97%E6%BB%85%E7%B5%95",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Extinction_Rebellion%2C_green_placard_%28cropped%29.jpg/330px-Extinction_Rebellion%2C_green_placard_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "图穆-奥其尔·图勒嘎",
       "extract": "图穆-奥其尔·图勒嘎，蒙古男子摔跤运动员，2021年世界摔跤锦标赛男子自由式65公斤级铜牌得主、2023年亚洲摔跤锦标赛男子自由式65公斤级银牌得主、2022年亚洲运动会男子自由式65公斤级金牌得主。\n",
@@ -27,13 +34,6 @@
       "extract": "悬铃叶苎麻 为荨麻科苎麻属的植物。分布于日本、朝鲜以及中国大陆的广东、山东、陕西、河南、河北、广西、四川、湖北、山西、福建、江苏、江西、甘肃、湖南、浙江、贵州、安徽等地，生长于海拔500米至1,400米的地区，一般生于低山山谷疏林下、沟边及田边，目前尚未由人工引种栽培。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%82%AC%E9%93%83%E5%8F%B6%E8%8B%8E%E9%BA%BB",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Boehmeria_tricuspis_-_Flickr_-_peganum.jpg/330px-Boehmeria_tricuspis_-_Flickr_-_peganum.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "埃梅克祖里姆國家公園",
-      "extract": "埃梅克祖里姆國家公園是以色列的國家公園，位於該國東部耶路撒冷區，處於橄欖山和斯科普斯山西坡，佔地面積0.17平方公里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E6%A2%85%E5%85%8B%E7%A5%96%E9%87%8C%E5%A7%86%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%D7%A2%D7%9E%D7%A7_%D7%A6%D7%95%D7%A8%D7%99%D7%9D_-1.jpg/330px-%D7%A2%D7%9E%D7%A7_%D7%A6%D7%95%D7%A8%D7%99%D7%9D_-1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
