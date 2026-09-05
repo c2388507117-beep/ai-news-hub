@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-09-04T22:23:54.447Z",
+  "fetchedAt": "2026-09-05T01:02:56.433Z",
   "items": [
+    {
+      "id": "steam-1042550",
+      "title": "Digimon Story Cyber Sleuth: Complete Edition",
+      "url": "https://store.steampowered.com/app/1042550?l=schinese",
+      "discount": 90,
+      "originalPrice": 7480,
+      "finalPrice": 748,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1042550/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-05T01:02:56.433Z"
+    },
     {
       "id": "steam-1174180",
       "title": "Red Dead Redemption 2",
@@ -12,20 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
-    },
-    {
-      "id": "steam-1985810",
-      "title": "Call of Duty®: Black Ops Cold War",
-      "url": "https://store.steampowered.com/app/1985810?l=schinese",
-      "discount": 75,
-      "originalPrice": 298,
-      "finalPrice": 74.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
       "id": "steam-2183900",
@@ -38,20 +38,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
-      "id": "steam-311210",
-      "title": "Call of Duty®: Black Ops III",
-      "url": "https://store.steampowered.com/app/311210?l=schinese",
+      "id": "steam-1985810",
+      "title": "Call of Duty®: Black Ops Cold War",
+      "url": "https://store.steampowered.com/app/1985810?l=schinese",
       "discount": 75,
-      "originalPrice": 59.99,
-      "finalPrice": 14.99,
+      "originalPrice": 298,
+      "finalPrice": 74.5,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.447Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
+    },
+    {
+      "id": "steam-2000950",
+      "title": "Call of Duty®: Modern Warfare®",
+      "url": "https://store.steampowered.com/app/2000950?l=schinese",
+      "discount": 75,
+      "originalPrice": 298,
+      "finalPrice": 74.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
       "id": "steam-1326470",
@@ -64,20 +77,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
-      "id": "steam-3240220",
-      "title": "Grand Theft Auto V 增强版",
-      "url": "https://store.steampowered.com/app/3240220?l=schinese",
-      "discount": 56,
-      "originalPrice": 224,
-      "finalPrice": 98.56,
+      "id": "steam-2489330",
+      "title": "鼠宝小镇 Whiskerwood",
+      "url": "https://store.steampowered.com/app/2489330?l=schinese",
+      "discount": 50,
+      "originalPrice": 2980,
+      "finalPrice": 1490,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2489330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.433Z"
+    },
+    {
+      "id": "steam-251570",
+      "title": "7 Days to Die",
+      "url": "https://store.steampowered.com/app/251570?l=schinese",
+      "discount": 45,
+      "originalPrice": 4900,
+      "finalPrice": 2695,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-05T01:02:56.433Z"
     },
     {
       "id": "steam-4656000",
@@ -90,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
       "id": "steam-108600",
@@ -103,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
       "id": "steam-1623730",
@@ -116,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
       "id": "steam-3321460",
@@ -129,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.316Z"
     },
     {
       "id": "steam-2406770",
@@ -142,33 +168,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.069Z"
+      "publishedAt": "2026-09-05T01:02:56.317Z"
     },
     {
-      "id": "steam-1488462",
-      "title": "007 初露锋芒",
-      "url": "https://store.steampowered.com/app/1488462?l=schinese",
+      "id": "steam-3718190",
+      "title": "脱衣麻将 - 超真实麻将 Venus Returns",
+      "url": "https://store.steampowered.com/app/3718190?l=schinese",
       "discount": 20,
-      "originalPrice": 69.99,
-      "finalPrice": 55.99,
+      "originalPrice": 4980,
+      "finalPrice": 3984,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3718190/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.447Z"
+      "publishedAt": "2026-09-05T01:02:56.433Z"
     },
     {
       "id": "steam-2798330",
       "title": "地城拓荒 Dungeon Settlers",
       "url": "https://store.steampowered.com/app/2798330?l=schinese",
       "discount": 15,
-      "originalPrice": 24.99,
-      "finalPrice": 21.24,
+      "originalPrice": 2480,
+      "finalPrice": 2108,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-04T22:23:54.447Z"
+      "publishedAt": "2026-09-05T01:02:56.433Z"
     }
   ]
 }

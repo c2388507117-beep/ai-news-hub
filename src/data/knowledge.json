@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-04T22:23:59.540Z",
+  "fetchedAt": "2026-09-05T01:03:01.465Z",
   "items": [
+    {
+      "title": "颱風馬勒卡 (2022年)",
+      "extract": "超強颱風馬勒卡 是2022年太平洋颱風季第1個被命名的風暴。「馬勒卡」一名由菲律賓提供，指強而有力。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A2%B1%E9%A2%A8%E9%A6%AC%E5%8B%92%E5%8D%A1_(2022%E5%B9%B4)",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Malakas_2022-04-13_0600Z.jpg/330px-Malakas_2022-04-13_0600Z.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "悬铃叶苎麻",
       "extract": "悬铃叶苎麻 为荨麻科苎麻属的植物。分布于日本、朝鲜以及中国大陆的广东、山东、陕西、河南、河北、广西、四川、湖北、山西、福建、江苏、江西、甘肃、湖南、浙江、贵州、安徽等地，生长于海拔500米至1,400米的地区，一般生于低山山谷疏林下、沟边及田边，目前尚未由人工引种栽培。\n",
@@ -27,13 +34,6 @@
       "extract": "箭纹鸫鹛，是画眉科鸫鹛属的一种，分布于乌干达、纳米比亚、加蓬、安哥拉、赞比亚、南非、斯威士兰、马拉维、肯尼亚、坦桑尼亚、津巴布韦、卢旺达、布隆迪、刚果民主共和国、博茨瓦纳、刚果和莫桑比克。全球活动范围约为3,880,000平方千米。该物种的保护状况被评为无危。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%AE%AD%E7%BA%B9%E9%B8%AB%E9%B9%9B",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Arrow-marked_Babbler_%28Turdoides_jardineii%29.jpg/330px-Arrow-marked_Babbler_%28Turdoides_jardineii%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "方紹漢",
-      "extract": "方紹漢（1909年—2007年9月15日），中華民國陸軍少將，别號文卿，1930年7月於中央陸軍軍官學校第七期步兵科畢業，籍貫湖北省禮山縣二郎店。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E7%B4%B9%E6%BC%A2",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Father.tif/lossy-page1-330px-Father.tif.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
