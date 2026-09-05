@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-05T19:05:35.945Z",
+  "fetchedAt": "2026-09-05T21:19:47.378Z",
   "items": [
+    {
+      "title": "解放烈士纪念塔",
+      "extract": "解放烈士纪念塔，位于中国吉林省四平市铁西区英雄大街，为一个省级文物保护单位，类型为近现代史迹及代表性建筑，公布时间为1961年4月13日。该文物保护单位由四平市民政局管理。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%94%BE%E7%83%88%E5%A3%AB%E7%BA%AA%E5%BF%B5%E5%A1%94",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E7%83%88%E5%A3%AB%E7%BA%AA%E5%BF%B5%E5%A1%94%EF%BC%8C%E5%9B%9B%E5%B9%B3%EF%BC%8C2017.jpg/330px-%E7%83%88%E5%A3%AB%E7%BA%AA%E5%BF%B5%E5%A1%94%EF%BC%8C%E5%9B%9B%E5%B9%B3%EF%BC%8C2017.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "康山",
       "extract": "康山 為香港已平整山丘，並以當時太古集團一位德國人高層「費迪南·康」 而命名，譯成康山，位於東區鰂魚涌南面。由於太古站的工程牽涉物業發展，當局於1982年至1985年間進行大規模平整工程，承建商需動用烈性炸藥，將除了西灣臺一帶外的絕大部分康山山體炸毀，並利用平整得來的山體砂石運往愛秩序灣指定的位置（亦即現時鯉景灣、東區法院、嘉亨灣一帶）進行填海工程，後建成康山道、康怡花園及康山花園。現時「康山」一詞泛指這一帶的新住宅，包括在康山開發前已存在的西灣臺，以及英皇道入口的太古城中心第一期。康山曾為太古洋行職員宿舍的所在地。\n",
@@ -27,13 +34,6 @@
       "extract": "图穆-奥其尔·图勒嘎，蒙古男子摔跤运动员，2021年世界摔跤锦标赛男子自由式65公斤级铜牌得主、2023年亚洲摔跤锦标赛男子自由式65公斤级银牌得主、2022年亚洲运动会男子自由式65公斤级金牌得主。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E7%A9%86-%E5%A5%A5%E5%85%B6%E5%B0%94%C2%B7%E5%9B%BE%E5%8B%92%E5%98%8E",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tulga2024_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "source": "wikipedia"
-    },
-    {
-      "title": "韦罗妮卡·特恩罗斯",
-      "extract": "韦罗妮卡·特恩罗斯 是芬兰奥兰自治区的从政人物。她自2019年11月25日起担任奥兰总理一职。她也是奥兰中间党的主席。从政之前她的职业是保健师。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%9F%A6%E7%BD%97%E5%A6%AE%E5%8D%A1%C2%B7%E7%89%B9%E6%81%A9%E7%BD%97%E6%96%AF",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Veronica_Th%C3%B6rnroos_in_2022_%28cropped%29.jpg/330px-Veronica_Th%C3%B6rnroos_in_2022_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
