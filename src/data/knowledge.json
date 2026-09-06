@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-06T19:16:03.748Z",
+  "fetchedAt": "2026-09-06T21:27:41.628Z",
   "items": [
+    {
+      "title": "狹鰓珊瑚鰕虎魚",
+      "extract": "狹鰓珊瑚鰕虎魚，为輻鰭魚綱鱸形目鰕虎亞目鰕虎科珊瑚鰕虎魚屬下的一个种，為熱帶海水魚，分布於印度太平洋區，從東非、南非至夏威夷群島，本起日本南部，南迄澳洲大堡礁海域，棲息深度1-30公尺，體長可達4.6公分，本魚棲息珊瑚礁區，與柳珊瑚共生，生活習性不明，可作為觀賞魚。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8B%B9%E9%B0%93%E7%8F%8A%E7%91%9A%E9%B0%95%E8%99%8E%E9%AD%9A",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Gorgonian_goby_%28Bryaninops_amplus%29%2C_Waikiki_Aquarium.JPG/330px-Gorgonian_goby_%28Bryaninops_amplus%29%2C_Waikiki_Aquarium.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "帖木兒沙·杜蘭尼",
       "extract": "帖木兒沙·杜蘭尼，杜蘭尼王朝第二位國王（1772年－1793年），普什圖族，是杜蘭尼王朝開國君主艾哈邁德沙·杜蘭尼的次子。\n",
@@ -27,13 +34,6 @@
       "extract": "基思·艾伦·拉尼尔 是一名美国邪教领袖，也是NXIVM的联合创始人。2018年，基思·拉尼尔被捕。 2019年6月19日，美国纽约东区联邦地区法院陪审团判定拉尼尔犯有敲诈勒索罪。此外他還涉嫌犯下人口贩卖、性虐待、性犯罪、心理操縱他人以及詐騙等罪行。 2020年10月27日，法官判处拉尼尔120年监禁以及必須繳納175万美元的罚款。 \n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E6%80%9D%C2%B7%E6%8B%89%E5%B0%BC%E5%B0%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/US_v._Raniere_GovtExhibit_GX46.JPG/330px-US_v._Raniere_GovtExhibit_GX46.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "波照間島",
-      "extract": "波照間島 位於琉球列島之八重山群島，北緯24度2分25秒，東經123度47分16秒。為日本最南端的有人島，位於台灣東北方向海域，距離台灣宜蘭蘇澳港僅約200公里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%85%A7%E9%96%93%E5%B3%B6",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Yaeyama_map.png/330px-Yaeyama_map.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
