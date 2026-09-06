@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-06T09:30:07.399Z",
+  "fetchedAt": "2026-09-06T13:43:16.686Z",
   "items": [
+    {
+      "title": "本居宣長",
+      "extract": "本居宣長（1730年6月21日—1801年11月5日），原姓小津，名榮貞，別名健藏，號華風、芝蘭、春庵、舜庵、鈴屋。日本江戶時代的思想家、語言學家。日本國學的集大成者，與荷田春滿、賀茂真淵及其後的平田篤胤齊名。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%AC%E5%B1%85%E5%AE%A3%E9%95%B7",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Motoori_Norinaga_self_portrait.jpg/330px-Motoori_Norinaga_self_portrait.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "基思·拉尼尔",
       "extract": "基思·艾伦·拉尼尔 是一名美国邪教领袖，也是NXIVM的联合创始人。2018年，基思·拉尼尔被捕。 2019年6月19日，美国纽约东区联邦地区法院陪审团判定拉尼尔犯有敲诈勒索罪。此外他還涉嫌犯下人口贩卖、性虐待、性犯罪、心理操縱他人以及詐騙等罪行。 2020年10月27日，法官判处拉尼尔120年监禁以及必須繳納175万美元的罚款。 \n",
@@ -27,13 +34,6 @@
       "extract": "解放烈士纪念塔，位于中国吉林省四平市铁西区英雄大街，为一个省级文物保护单位，类型为近现代史迹及代表性建筑，公布时间为1961年4月13日。该文物保护单位由四平市民政局管理。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%94%BE%E7%83%88%E5%A3%AB%E7%BA%AA%E5%BF%B5%E5%A1%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E7%83%88%E5%A3%AB%E7%BA%AA%E5%BF%B5%E5%A1%94%EF%BC%8C%E5%9B%9B%E5%B9%B3%EF%BC%8C2017.jpg/330px-%E7%83%88%E5%A3%AB%E7%BA%AA%E5%BF%B5%E5%A1%94%EF%BC%8C%E5%9B%9B%E5%B9%B3%EF%BC%8C2017.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "康山",
-      "extract": "康山 為香港已平整山丘，並以當時太古集團一位德國人高層「費迪南·康」 而命名，譯成康山，位於東區鰂魚涌南面。由於太古站的工程牽涉物業發展，當局於1982年至1985年間進行大規模平整工程，承建商需動用烈性炸藥，將除了西灣臺一帶外的絕大部分康山山體炸毀，並利用平整得來的山體砂石運往愛秩序灣指定的位置（亦即現時鯉景灣、東區法院、嘉亨灣一帶）進行填海工程，後建成康山道、康怡花園及康山花園。現時「康山」一詞泛指這一帶的新住宅，包括在康山開發前已存在的西灣臺，以及英皇道入口的太古城中心第一期。康山曾為太古洋行職員宿舍的所在地。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%B1%B1",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/HK_Quarry_Bay_Mount_Parker_Road_Woodside_Story_of_Swire_Taikoo_Sugar_Refinery_1890s.JPG/330px-HK_Quarry_Bay_Mount_Parker_Road_Woodside_Story_of_Swire_Taikoo_Sugar_Refinery_1890s.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

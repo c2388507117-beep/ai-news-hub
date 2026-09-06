@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T09:30:01.608Z",
+  "fetchedAt": "2026-09-06T13:43:11.712Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.536Z"
     },
     {
       "id": "steam-2183900",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.537Z"
     },
     {
       "id": "steam-311210",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.608Z"
+      "publishedAt": "2026-09-06T13:43:11.712Z"
     },
     {
       "id": "steam-1326470",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.536Z"
     },
     {
       "id": "steam-3240220",
@@ -64,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.536Z"
     },
     {
       "id": "steam-105600",
@@ -77,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.537Z"
     },
     {
       "id": "steam-4656000",
@@ -90,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.536Z"
     },
     {
       "id": "steam-648800",
@@ -103,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.537Z"
     },
     {
       "id": "steam-108600",
@@ -116,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.608Z"
+      "publishedAt": "2026-09-06T13:43:11.712Z"
     },
     {
       "id": "steam-1623730",
@@ -129,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.537Z"
     },
     {
       "id": "steam-2406770",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.536Z"
     },
     {
       "id": "steam-3321460",
@@ -155,7 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-06T09:30:01.386Z"
+      "publishedAt": "2026-09-06T13:43:11.537Z"
+    },
+    {
+      "id": "steam-1488462",
+      "title": "007 初露锋芒",
+      "url": "https://store.steampowered.com/app/1488462?l=schinese",
+      "discount": 20,
+      "originalPrice": 69.99,
+      "finalPrice": 55.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488462/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-06T13:43:11.712Z"
     }
   ]
 }
