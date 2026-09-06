@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-06T17:07:38.630Z",
+  "fetchedAt": "2026-09-06T19:16:03.748Z",
   "items": [
+    {
+      "title": "帖木兒沙·杜蘭尼",
+      "extract": "帖木兒沙·杜蘭尼，杜蘭尼王朝第二位國王（1772年－1793年），普什圖族，是杜蘭尼王朝開國君主艾哈邁德沙·杜蘭尼的次子。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%96%E6%9C%A8%E5%85%92%E6%B2%99%C2%B7%E6%9D%9C%E8%98%AD%E5%B0%BC",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Temur-Shah.jpg/330px-Temur-Shah.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "N-(4-三氟甲基苯基)哌嗪",
       "extract": "N-(4-三氟甲基苯基)哌嗪（pTFMPP）是一种血清素释放剂，分子式为C11H13F3N2，它比间位的异构体N-(3-三氟甲基苯基)哌嗪少见。\n",
@@ -27,13 +34,6 @@
       "extract": "波照間島 位於琉球列島之八重山群島，北緯24度2分25秒，東經123度47分16秒。為日本最南端的有人島，位於台灣東北方向海域，距離台灣宜蘭蘇澳港僅約200公里。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%85%A7%E9%96%93%E5%B3%B6",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Yaeyama_map.png/330px-Yaeyama_map.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "帶廣廣尾自動車道",
-      "extract": "帶廣廣尾自動車道 是從北海道帶廣市至廣尾町，總長約80公里的國土交通大臣指定高規格幹線道路（一般國道快速道路）（国道236号）。從北海道橫斷自動車道（道東自動車道）分歧的帶廣系統交流道實際位於芽室町，而北海道橫斷自動車道的經過地為「帶廣市附近」，但實際上的經過地則是「北海道河東郡音更町」。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%B6%E5%BB%A3%E5%BB%A3%E5%B0%BE%E8%87%AA%E5%8B%95%E8%BB%8A%E9%81%93",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Obihiro-Hiroo_Expwy_Route_Sign.svg/langzh-330px-Obihiro-Hiroo_Expwy_Route_Sign.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
