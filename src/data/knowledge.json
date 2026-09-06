@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-06T04:47:35.650Z",
+  "fetchedAt": "2026-09-06T09:30:07.399Z",
   "items": [
+    {
+      "title": "基思·拉尼尔",
+      "extract": "基思·艾伦·拉尼尔 是一名美国邪教领袖，也是NXIVM的联合创始人。2018年，基思·拉尼尔被捕。 2019年6月19日，美国纽约东区联邦地区法院陪审团判定拉尼尔犯有敲诈勒索罪。此外他還涉嫌犯下人口贩卖、性虐待、性犯罪、心理操縱他人以及詐騙等罪行。 2020年10月27日，法官判处拉尼尔120年监禁以及必須繳納175万美元的罚款。 \n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E6%80%9D%C2%B7%E6%8B%89%E5%B0%BC%E5%B0%94",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/US_v._Raniere_GovtExhibit_GX46.JPG/330px-US_v._Raniere_GovtExhibit_GX46.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "波照間島",
       "extract": "波照間島 位於琉球列島之八重山群島，北緯24度2分25秒，東經123度47分16秒。為日本最南端的有人島，位於台灣東北方向海域，距離台灣宜蘭蘇澳港僅約200公里。\n",
@@ -27,13 +34,6 @@
       "extract": "康山 為香港已平整山丘，並以當時太古集團一位德國人高層「費迪南·康」 而命名，譯成康山，位於東區鰂魚涌南面。由於太古站的工程牽涉物業發展，當局於1982年至1985年間進行大規模平整工程，承建商需動用烈性炸藥，將除了西灣臺一帶外的絕大部分康山山體炸毀，並利用平整得來的山體砂石運往愛秩序灣指定的位置（亦即現時鯉景灣、東區法院、嘉亨灣一帶）進行填海工程，後建成康山道、康怡花園及康山花園。現時「康山」一詞泛指這一帶的新住宅，包括在康山開發前已存在的西灣臺，以及英皇道入口的太古城中心第一期。康山曾為太古洋行職員宿舍的所在地。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%B1%B1",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/HK_Quarry_Bay_Mount_Parker_Road_Woodside_Story_of_Swire_Taikoo_Sugar_Refinery_1890s.JPG/330px-HK_Quarry_Bay_Mount_Parker_Road_Woodside_Story_of_Swire_Taikoo_Sugar_Refinery_1890s.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "中华人民共和国电视广播",
-      "extract": "中华人民共和国电视广播从1949年北平新华广播电台定名为中央人民广播电台，1958年北京电视台（1978年更名为中国中央电视台）建立至今已經發展70多年。由于中国大陆各一级行政区（省、自治区、市、县）皆设有电视台和广播电台，中国大陆是世界上电视台最多的地区。截至2022年底，中国大陆开展广播电视和网络视听业务的机构有6万多家，其中，广播电台、电视台、广播电视台等播出机构2527家，广播电视节目制作经营机构约5.7万家，持证及备案的网络视听机构2974家。广播电视从业人员104.75万人，广播节目综合人口覆盖率99.65%，电视节目综合人口覆盖率99.75%。中国大陆電子媒體的设立和运作均接受中国共产党的领导和国家广播电视总局管理备案，非官方单位和个人不得组办电视台与广播电台，政府也禁止设立任何中外合资的媒体。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%94%B5%E8%A7%86%E5%B9%BF%E6%92%AD",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Flat_Screen.svg/langzh-330px-Flat_Screen.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
