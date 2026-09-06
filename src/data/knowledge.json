@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-05T23:58:14.009Z",
+  "fetchedAt": "2026-09-06T04:47:35.650Z",
   "items": [
+    {
+      "title": "波照間島",
+      "extract": "波照間島 位於琉球列島之八重山群島，北緯24度2分25秒，東經123度47分16秒。為日本最南端的有人島，位於台灣東北方向海域，距離台灣宜蘭蘇澳港僅約200公里。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E7%85%A7%E9%96%93%E5%B3%B6",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Yaeyama_map.png/330px-Yaeyama_map.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "帶廣廣尾自動車道",
       "extract": "帶廣廣尾自動車道 是從北海道帶廣市至廣尾町，總長約80公里的國土交通大臣指定高規格幹線道路（一般國道快速道路）（国道236号）。從北海道橫斷自動車道（道東自動車道）分歧的帶廣系統交流道實際位於芽室町，而北海道橫斷自動車道的經過地為「帶廣市附近」，但實際上的經過地則是「北海道河東郡音更町」。\n",
@@ -27,13 +34,6 @@
       "extract": "中华人民共和国电视广播从1949年北平新华广播电台定名为中央人民广播电台，1958年北京电视台（1978年更名为中国中央电视台）建立至今已經發展70多年。由于中国大陆各一级行政区（省、自治区、市、县）皆设有电视台和广播电台，中国大陆是世界上电视台最多的地区。截至2022年底，中国大陆开展广播电视和网络视听业务的机构有6万多家，其中，广播电台、电视台、广播电视台等播出机构2527家，广播电视节目制作经营机构约5.7万家，持证及备案的网络视听机构2974家。广播电视从业人员104.75万人，广播节目综合人口覆盖率99.65%，电视节目综合人口覆盖率99.75%。中国大陆電子媒體的设立和运作均接受中国共产党的领导和国家广播电视总局管理备案，非官方单位和个人不得组办电视台与广播电台，政府也禁止设立任何中外合资的媒体。\n",
       "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%94%B5%E8%A7%86%E5%B9%BF%E6%92%AD",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Flat_Screen.svg/langzh-330px-Flat_Screen.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "反抗滅絕",
-      "extract": "反抗滅絕 是一場全球性的環保運動，旨在透過非暴力的公民不服從來迫使政府採取行動，以避免氣候系統越過臨界點、喪失生物多樣性及社會和生態崩潰的風險。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%8A%97%E6%BB%85%E7%B5%95",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Extinction_Rebellion%2C_green_placard_%28cropped%29.jpg/330px-Extinction_Rebellion%2C_green_placard_%28cropped%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
