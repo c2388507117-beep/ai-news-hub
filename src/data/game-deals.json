@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T16:31:12.643Z",
+  "fetchedAt": "2026-09-07T20:37:59.098Z",
   "items": [
     {
       "id": "steam-1174180",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
       "id": "steam-2183900",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
+    },
+    {
+      "id": "steam-1985810",
+      "title": "Call of Duty®: Black Ops Cold War",
+      "url": "https://store.steampowered.com/app/1985810?l=schinese",
+      "discount": 75,
+      "originalPrice": 298,
+      "finalPrice": 74.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
       "id": "steam-311210",
@@ -38,46 +51,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.643Z"
+      "publishedAt": "2026-09-07T20:37:59.098Z"
     },
     {
-      "id": "steam-1326470",
-      "title": "Sons Of The Forest",
-      "url": "https://store.steampowered.com/app/1326470?l=schinese",
-      "discount": 70,
-      "originalPrice": 108,
-      "finalPrice": 32.4,
+      "id": "steam-275850",
+      "title": "No Man's Sky 无人深空",
+      "url": "https://store.steampowered.com/app/275850?l=schinese",
+      "discount": 60,
+      "originalPrice": 59.99,
+      "finalPrice": 23.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:59.098Z"
     },
     {
       "id": "steam-3240220",
       "title": "Grand Theft Auto V 增强版",
       "url": "https://store.steampowered.com/app/3240220?l=schinese",
-      "discount": 56,
-      "originalPrice": 224,
-      "finalPrice": 98.56,
+      "discount": 50,
+      "originalPrice": 149,
+      "finalPrice": 74.5,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
-    },
-    {
-      "id": "steam-105600",
-      "title": "Terraria",
-      "url": "https://store.steampowered.com/app/105600?l=schinese",
-      "discount": 50,
-      "originalPrice": 42,
-      "finalPrice": 21,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
       "id": "steam-4656000",
@@ -90,33 +90,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
-      "id": "steam-648800",
-      "title": "Raft",
-      "url": "https://store.steampowered.com/app/648800?l=schinese",
-      "discount": 33,
-      "originalPrice": 77,
-      "finalPrice": 51.59,
+      "id": "steam-3892270",
+      "title": "朋友，梭哈吧",
+      "url": "https://store.steampowered.com/app/3892270?l=schinese",
+      "discount": 38,
+      "originalPrice": 33,
+      "finalPrice": 20.46,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
-    },
-    {
-      "id": "steam-108600",
-      "title": "Project Zomboid",
-      "url": "https://store.steampowered.com/app/108600?l=schinese",
-      "discount": 33,
-      "originalPrice": 93,
-      "finalPrice": 62.31,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
       "id": "steam-1623730",
@@ -129,20 +116,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
-      "id": "steam-1203620",
-      "title": "雾锁王国 (Enshrouded)",
-      "url": "https://store.steampowered.com/app/1203620?l=schinese",
-      "discount": 25,
-      "originalPrice": 29.99,
-      "finalPrice": 22.49,
+      "id": "steam-3764200",
+      "title": "Resident Evil Requiem",
+      "url": "https://store.steampowered.com/app/3764200?l=schinese",
+      "discount": 30,
+      "originalPrice": 348,
+      "finalPrice": 243.6,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.643Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
+    },
+    {
+      "id": "steam-3321460",
+      "title": "红色沙漠：增强版",
+      "url": "https://store.steampowered.com/app/3321460?l=schinese",
+      "discount": 20,
+      "originalPrice": 268,
+      "finalPrice": 214.4,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
       "id": "steam-2406770",
@@ -155,20 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.381Z"
+      "publishedAt": "2026-09-07T20:37:58.844Z"
     },
     {
-      "id": "steam-3321460",
-      "title": "红色沙漠：增强版",
-      "url": "https://store.steampowered.com/app/3321460?l=schinese",
+      "id": "steam-3357650",
+      "title": "PRAGMATA",
+      "url": "https://store.steampowered.com/app/3357650?l=schinese",
       "discount": 20,
-      "originalPrice": 69.99,
-      "finalPrice": 55.99,
+      "originalPrice": 59.99,
+      "finalPrice": 47.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-07T16:31:12.643Z"
+      "publishedAt": "2026-09-07T20:37:59.098Z"
     }
   ]
 }
