@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-07T20:38:04.438Z",
+  "fetchedAt": "2026-09-07T23:33:56.178Z",
   "items": [
+    {
+      "title": "马来假吸血蝠",
+      "extract": "马来假吸血蝠，一种分布于南亚、东南亚及中国云南省等地区的蝙蝠，隶属于假吸血蝠科假吸血蝠属。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E6%9D%A5%E5%81%87%E5%90%B8%E8%A1%80%E8%9D%A0",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Megaderma_spasma.jpg/330px-Megaderma_spasma.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "普雷茨 (梅克伦堡-前波美拉尼亚州)",
       "extract": "普雷茨 是德国梅克伦堡-前波美拉尼亚州的市镇，隶属于前波美拉尼亚-吕根县，总面积为14.15平方千米，截至2020年总人口为1038人。\n",
@@ -27,13 +34,6 @@
       "extract": "特古西加尔巴 是宏都拉斯的首都及第一大城，人口1,259,646（2019年），位於宏都拉斯中部，名為特古西加尔巴的山谷中，海拔975米。該名的意思是「銀色的山」。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E5%8F%A4%E8%A5%BF%E5%8A%A0%E5%B0%94%E5%B7%B4",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tegucigalpa_downtown_panoramic_2026.jpg/330px-Tegucigalpa_downtown_panoramic_2026.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "英皇愛德華酒店",
-      "extract": "英皇愛德華奧姆尼酒店 是加拿大安大略省多倫多市中心一家歷史悠久的豪華酒店，地址為皇帝東街37號，佔據整個街區，北接皇帝東街，東接維多利亞街，南接高邦街，西接統領里。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E7%9A%87%E6%84%9B%E5%BE%B7%E8%8F%AF%E9%85%92%E5%BA%97",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/KINGEDDIETORONTO.JPG/330px-KINGEDDIETORONTO.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
