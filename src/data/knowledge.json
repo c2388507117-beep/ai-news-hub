@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-07T10:27:07.772Z",
+  "fetchedAt": "2026-09-07T16:31:17.879Z",
   "items": [
+    {
+      "title": "北京地铁DK3型电动客车",
+      "extract": "DK3型电动客车是北京地铁和天津轨道交通的电动客车车款之一，现在已经退出运营。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%9C%B0%E9%93%81DK3%E5%9E%8B%E7%94%B5%E5%8A%A8%E5%AE%A2%E8%BD%A6",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/DK3_3252_at_Gucheng_Depot_%2820251214111527%29.jpg/330px-DK3_3252_at_Gucheng_Depot_%2820251214111527%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "圣菲尔曼 (默尔特-摩泽尔省)",
       "extract": "圣菲尔曼 是法国默尔特-摩泽尔省的一个市镇，位于该省南部，属于南锡区。\n",
@@ -27,13 +34,6 @@
       "extract": "狹鰓珊瑚鰕虎魚，为輻鰭魚綱鱸形目鰕虎亞目鰕虎科珊瑚鰕虎魚屬下的一个种，為熱帶海水魚，分布於印度太平洋區，從東非、南非至夏威夷群島，本起日本南部，南迄澳洲大堡礁海域，棲息深度1-30公尺，體長可達4.6公分，本魚棲息珊瑚礁區，與柳珊瑚共生，生活習性不明，可作為觀賞魚。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%8B%B9%E9%B0%93%E7%8F%8A%E7%91%9A%E9%B0%95%E8%99%8E%E9%AD%9A",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Gorgonian_goby_%28Bryaninops_amplus%29%2C_Waikiki_Aquarium.JPG/330px-Gorgonian_goby_%28Bryaninops_amplus%29%2C_Waikiki_Aquarium.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "帖木兒沙·杜蘭尼",
-      "extract": "帖木兒沙·杜蘭尼，杜蘭尼王朝第二位國王（1772年－1793年），普什圖族，是杜蘭尼王朝開國君主艾哈邁德沙·杜蘭尼的次子。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%96%E6%9C%A8%E5%85%92%E6%B2%99%C2%B7%E6%9D%9C%E8%98%AD%E5%B0%BC",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Temur-Shah.jpg/330px-Temur-Shah.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
