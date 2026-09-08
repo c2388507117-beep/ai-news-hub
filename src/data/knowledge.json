@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-07T23:33:56.178Z",
+  "fetchedAt": "2026-09-08T04:47:23.365Z",
   "items": [
+    {
+      "title": "NHK廣播電視技術研究所",
+      "extract": "NHK广播电视技術研究所 是日本广播協會（NHK）在1930年設立的開發廣播技術的研究所，位於東京都世田谷區砧。通稱「NHK技研」。每年5月下旬，NHK广播电视技術研究所會對一般民眾公開展示其研究成果。\n",
+      "url": "https://zh.wikipedia.org/wiki/NHK%E5%BB%A3%E6%92%AD%E9%9B%BB%E8%A6%96%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E6%89%80",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/NHK_Science_%26_Technical_Research_Laboratories.JPG/330px-NHK_Science_%26_Technical_Research_Laboratories.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "马来假吸血蝠",
       "extract": "马来假吸血蝠，一种分布于南亚、东南亚及中国云南省等地区的蝙蝠，隶属于假吸血蝠科假吸血蝠属。\n",
@@ -27,13 +34,6 @@
       "extract": "圣菲尔曼 是法国默尔特-摩泽尔省的一个市镇，位于该省南部，属于南锡区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%8F%B2%E5%B0%94%E6%9B%BC_(%E9%BB%98%E5%B0%94%E7%89%B9-%E6%91%A9%E6%B3%BD%E5%B0%94%E7%9C%81)",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Saint-Firmin_54%2C_%C3%89glise_Saint-Firmin.jpg/330px-Saint-Firmin_54%2C_%C3%89glise_Saint-Firmin.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "特古西加尔巴",
-      "extract": "特古西加尔巴 是宏都拉斯的首都及第一大城，人口1,259,646（2019年），位於宏都拉斯中部，名為特古西加尔巴的山谷中，海拔975米。該名的意思是「銀色的山」。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E5%8F%A4%E8%A5%BF%E5%8A%A0%E5%B0%94%E5%B7%B4",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tegucigalpa_downtown_panoramic_2026.jpg/330px-Tegucigalpa_downtown_panoramic_2026.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
