@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-08T18:45:59.389Z",
+  "fetchedAt": "2026-09-08T21:54:52.901Z",
   "items": [
+    {
+      "title": "异辛基缩水甘油醚",
+      "extract": "异辛基缩水甘油醚是一种有机化合物，化学式为C11H22O2。它可由2-氯甲基环氧乙烷和2-乙基-1-己醇在氢氧化钾存在下反应制得。在催化下，它和二氧化碳反应，可以生成相应的环碳酸酯。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E8%BE%9B%E5%9F%BA%E7%BC%A9%E6%B0%B4%E7%94%98%E6%B2%B9%E9%86%9A",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Structural_formula_2-Ethylhexyl_Glycidyl_Ether.svg/langzh-330px-Structural_formula_2-Ethylhexyl_Glycidyl_Ether.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "光之傳說",
       "extract": "《光之傳說》 是日本漫畫家麻生泉創作的日本漫畫作品。於集英社的《瑪格麗特》上，自1985年到1988年期間進行連載。全16卷。於1986年5月改編為電視動畫。於朝日電視台每週星期六放映，自1986年5月3日播至同年9月20日，全19話。\n",
@@ -27,13 +34,6 @@
       "extract": "NHK广播电视技術研究所 是日本广播協會（NHK）在1930年設立的開發廣播技術的研究所，位於東京都世田谷區砧。通稱「NHK技研」。每年5月下旬，NHK广播电视技術研究所會對一般民眾公開展示其研究成果。\n",
       "url": "https://zh.wikipedia.org/wiki/NHK%E5%BB%A3%E6%92%AD%E9%9B%BB%E8%A6%96%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E6%89%80",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/NHK_Science_%26_Technical_Research_Laboratories.JPG/330px-NHK_Science_%26_Technical_Research_Laboratories.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "马来假吸血蝠",
-      "extract": "马来假吸血蝠，一种分布于南亚、东南亚及中国云南省等地区的蝙蝠，隶属于假吸血蝠科假吸血蝠属。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E6%9D%A5%E5%81%87%E5%90%B8%E8%A1%80%E8%9D%A0",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Megaderma_spasma.jpg/330px-Megaderma_spasma.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
