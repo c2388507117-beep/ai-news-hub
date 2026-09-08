@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-08T04:47:23.365Z",
+  "fetchedAt": "2026-09-08T09:47:52.135Z",
   "items": [
+    {
+      "title": "贝斯和圣阿纳斯泰斯",
+      "extract": "贝斯和圣阿纳斯泰斯 是法国多姆山省的一个市镇，位于该省南部偏西，属于伊苏瓦尔区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B4%9D%E6%96%AF%E5%92%8C%E5%9C%A3%E9%98%BF%E7%BA%B3%E6%96%AF%E6%B3%B0%E6%96%AF",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Eglise_Saint-Andr%C3%A9_de_Besse-et-Saint-Anastaise_1.jpg/330px-Eglise_Saint-Andr%C3%A9_de_Besse-et-Saint-Anastaise_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "NHK廣播電視技術研究所",
       "extract": "NHK广播电视技術研究所 是日本广播協會（NHK）在1930年設立的開發廣播技術的研究所，位於東京都世田谷區砧。通稱「NHK技研」。每年5月下旬，NHK广播电视技術研究所會對一般民眾公開展示其研究成果。\n",
@@ -27,13 +34,6 @@
       "extract": "DK3型电动客车是北京地铁和天津轨道交通的电动客车车款之一，现在已经退出运营。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%9C%B0%E9%93%81DK3%E5%9E%8B%E7%94%B5%E5%8A%A8%E5%AE%A2%E8%BD%A6",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/DK3_3252_at_Gucheng_Depot_%2820251214111527%29.jpg/330px-DK3_3252_at_Gucheng_Depot_%2820251214111527%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "圣菲尔曼 (默尔特-摩泽尔省)",
-      "extract": "圣菲尔曼 是法国默尔特-摩泽尔省的一个市镇，位于该省南部，属于南锡区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%8F%B2%E5%B0%94%E6%9B%BC_(%E9%BB%98%E5%B0%94%E7%89%B9-%E6%91%A9%E6%B3%BD%E5%B0%94%E7%9C%81)",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Saint-Firmin_54%2C_%C3%89glise_Saint-Firmin.jpg/330px-Saint-Firmin_54%2C_%C3%89glise_Saint-Firmin.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
