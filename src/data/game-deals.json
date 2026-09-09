@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T11:32:01.883Z",
+  "fetchedAt": "2026-09-09T16:44:13.262Z",
   "items": [
     {
       "id": "steam-2183900",
@@ -12,7 +12,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.038Z"
+    },
+    {
+      "id": "steam-2050650",
+      "title": "Resident Evil 4",
+      "url": "https://store.steampowered.com/app/2050650?l=schinese",
+      "discount": 75,
+      "originalPrice": 198,
+      "finalPrice": 49.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-09T16:44:13.038Z"
+    },
+    {
+      "id": "steam-311210",
+      "title": "Call of Duty®: Black Ops III",
+      "url": "https://store.steampowered.com/app/311210?l=schinese",
+      "discount": 75,
+      "originalPrice": 59.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-09T16:44:13.262Z"
     },
     {
       "id": "steam-275850",
@@ -25,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.883Z"
+      "publishedAt": "2026-09-09T16:44:13.262Z"
     },
     {
       "id": "steam-3240220",
@@ -38,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.037Z"
     },
     {
       "id": "steam-1144200",
@@ -51,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.038Z"
     },
     {
       "id": "steam-4656000",
@@ -64,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.037Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.037Z"
     },
     {
       "id": "steam-3624140",
@@ -90,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.038Z"
     },
     {
       "id": "steam-3764200",
@@ -103,20 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
-    },
-    {
-      "id": "steam-3321460",
-      "title": "红色沙漠：增强版",
-      "url": "https://store.steampowered.com/app/3321460?l=schinese",
-      "discount": 20,
-      "originalPrice": 268,
-      "finalPrice": 214.4,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.038Z"
     },
     {
       "id": "steam-2406770",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.038Z"
     },
     {
       "id": "steam-3357650",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.883Z"
+      "publishedAt": "2026-09-09T16:44:13.262Z"
     },
     {
       "id": "steam-3971950",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-09T11:32:01.695Z"
+      "publishedAt": "2026-09-09T16:44:13.038Z"
     }
   ]
 }
