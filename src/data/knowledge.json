@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-09T06:03:42.072Z",
+  "fetchedAt": "2026-09-09T11:32:06.915Z",
   "items": [
+    {
+      "title": "华游蛇",
+      "extract": "华游蛇 为游蛇科环游蛇属的爬行动物，俗名草赤链、乌游蛇。分布于缅甸、泰国、越南、台湾岛以及中国大陆的上海、江苏、浙江、安徽、福建、江西、河南、湖南、湖北、广东、香港、海南、广西、四川、贵州、云南、陕西、甘肃等地，常栖息于山区溪流或水田内。其生存的海拔范围为100至1646米。该物种的模式产地在福建挂墩。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E6%B8%B8%E8%9B%87",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sinonatrix_percarinata.jpg/330px-Sinonatrix_percarinata.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "水羚属",
       "extract": "水羚属 是偶蹄目偶蹄目苇羚亚科的一属，分布于非洲，包括以下5种：\n水羚(K. ellipsiprymnus)\n赤羚(K. kob)\n驴羚(K. leche)\n瓦氏赤羚(K. vardoni)\n大角驴羚(K. megaceros)",
@@ -27,13 +34,6 @@
       "extract": "《光之傳說》 是日本漫畫家麻生泉創作的日本漫畫作品。於集英社的《瑪格麗特》上，自1985年到1988年期間進行連載。全16卷。於1986年5月改編為電視動畫。於朝日電視台每週星期六放映，自1986年5月3日播至同年9月20日，全19話。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%85%89%E4%B9%8B%E5%82%B3%E8%AA%AA",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/zh/thumb/f/f7/Hikari_No_Densetsu.JPG/330px-Hikari_No_Densetsu.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "花開時想月",
-      "extract": "《花開時想月》，為韓國KBS2於2021年12月20日起播出的月火連續劇，由《月桂樹西裝店的紳士們》、《監獄醫生》的黃仁赫導演與金珠熙編劇合作打造。此劇講述朝鮮禁酒令時期，四個「越線」的年輕人的友情和愛情以及成長故事。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%8A%B1%E9%96%8B%E6%99%82%E6%83%B3%E6%9C%88",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/2/2a/When_Flowers_Bloom%2C_I_Think_of_the_Moon.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
