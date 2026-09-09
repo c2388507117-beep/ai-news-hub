@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-08T21:54:52.901Z",
+  "fetchedAt": "2026-09-09T00:20:06.437Z",
   "items": [
+    {
+      "title": "薩馬爾島花園市",
+      "extract": "薩馬爾島花園市 是菲律賓南部的一個市級行政區，屬於北達沃省管轄，2024年有人口119,701人。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%96%A9%E9%A6%AC%E7%88%BE%E5%B3%B6%E8%8A%B1%E5%9C%92%E5%B8%82",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ph_locator_davao_del_norte_samal.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "异辛基缩水甘油醚",
       "extract": "异辛基缩水甘油醚是一种有机化合物，化学式为C11H22O2。它可由2-氯甲基环氧乙烷和2-乙基-1-己醇在氢氧化钾存在下反应制得。在催化下，它和二氧化碳反应，可以生成相应的环碳酸酯。\n",
@@ -27,13 +34,6 @@
       "extract": "贝斯和圣阿纳斯泰斯 是法国多姆山省的一个市镇，位于该省南部偏西，属于伊苏瓦尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%B4%9D%E6%96%AF%E5%92%8C%E5%9C%A3%E9%98%BF%E7%BA%B3%E6%96%AF%E6%B3%B0%E6%96%AF",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Eglise_Saint-Andr%C3%A9_de_Besse-et-Saint-Anastaise_1.jpg/330px-Eglise_Saint-Andr%C3%A9_de_Besse-et-Saint-Anastaise_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "NHK廣播電視技術研究所",
-      "extract": "NHK广播电视技術研究所 是日本广播協會（NHK）在1930年設立的開發廣播技術的研究所，位於東京都世田谷區砧。通稱「NHK技研」。每年5月下旬，NHK广播电视技術研究所會對一般民眾公開展示其研究成果。\n",
-      "url": "https://zh.wikipedia.org/wiki/NHK%E5%BB%A3%E6%92%AD%E9%9B%BB%E8%A6%96%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E6%89%80",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/NHK_Science_%26_Technical_Research_Laboratories.JPG/330px-NHK_Science_%26_Technical_Research_Laboratories.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
