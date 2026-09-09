@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-09T19:49:53.196Z",
+  "fetchedAt": "2026-09-09T22:36:38.331Z",
   "items": [
+    {
+      "title": "阿米哈伊·埃利亚胡",
+      "extract": "阿米哈伊·本-埃利亚胡，通称阿米哈伊·埃利亚胡，是一位以色列极右翼 政治人物，他是約旦河西岸地區以色列定居点的居民，及極右翼政黨猶太力量的党员。 2022年時出任以色列遗产部部长。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%B1%B3%E5%93%88%E4%BC%8A%C2%B7%E5%9F%83%E5%88%A9%E4%BA%9A%E8%83%A1",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Amichai_Eliyahu.jpg/330px-Amichai_Eliyahu.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "长尾夜鹰",
       "extract": "长尾夜鹰 为夜鹰科夜鹰属的鸟类。该物种的模式产地在爪哇。\n",
@@ -27,13 +34,6 @@
       "extract": "水羚属 是偶蹄目偶蹄目苇羚亚科的一属，分布于非洲，包括以下5种：\n水羚(K. ellipsiprymnus)\n赤羚(K. kob)\n驴羚(K. leche)\n瓦氏赤羚(K. vardoni)\n大角驴羚(K. megaceros)",
       "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E7%BE%9A%E5%B1%9E",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Puku_male.jpg/330px-Puku_male.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "薩馬爾島花園市",
-      "extract": "薩馬爾島花園市 是菲律賓南部的一個市級行政區，屬於北達沃省管轄，2024年有人口119,701人。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E8%96%A9%E9%A6%AC%E7%88%BE%E5%B3%B6%E8%8A%B1%E5%9C%92%E5%B8%82",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ph_locator_davao_del_norte_samal.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
