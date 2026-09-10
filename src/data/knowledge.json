@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-10T19:46:32.381Z",
+  "fetchedAt": "2026-09-10T22:39:22.330Z",
   "items": [
+    {
+      "title": "莫里斯·富尔",
+      "extract": "莫里斯·富尔，是一名法国抵抗运动的成员，并在数届法国政府担任部长职位。他出生于多尔多涅省的阿兹拉。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E9%87%8C%E6%96%AF%C2%B7%E5%AF%8C%E5%B0%94",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Maurice_Faure_-_11-11-2007.jpg/330px-Maurice_Faure_-_11-11-2007.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "錫那羅亞販毒集團",
       "extract": "锡那罗亚贩毒集团 是一个总部位于墨西哥锡那罗亚州库利亚坎的犯罪集团，从事贩毒和洗钱等犯罪活动，活动范围包括下加利福尼亚州、杜兰戈州、索诺拉州和奇瓦瓦州。这一集团还被称作古斯曼-洛埃拉集团、太平洋贩毒集团（因为该集团来自墨西哥太平洋海岸）、联盟或血联盟。当贝尔特兰-莱瓦兄弟分离出去时，“联盟”在一定程度上被拆分了。\n",
@@ -27,13 +34,6 @@
       "extract": "維茨科湖是波蘭的湖泊，位於該國西北部，處於西波美拉尼亞省，長5.1公里、寬3.7公里，面積18.9平方公里，海拔高度0.1米，平均水深6米，最大水深15.2米，蓄水量2.2億立方米。\n",
       "url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E8%8C%A8%E7%A7%91%E6%B9%96",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Vietzker_See.jpg/330px-Vietzker_See.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "斯坦尼斯拉夫市镇",
-      "extract": "斯坦尼斯拉夫乡级市镇，是乌克兰赫尔松州赫尔松区的一个市镇，行政中心为斯坦尼斯拉夫。市镇面积为226.58平方公里，人口数量为7,740 人（2017年）。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%9D%A6%E5%B0%BC%E6%96%AF%E6%8B%89%E5%A4%AB%E5%B8%82%E9%95%87",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Stanislav_Brothery_and_Single_Graves_and_Monument_of_WW2_Warriors_01_%28YDS_4928%29.jpg/330px-Stanislav_Brothery_and_Single_Graves_and_Monument_of_WW2_Warriors_01_%28YDS_4928%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]

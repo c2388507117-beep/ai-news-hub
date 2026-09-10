@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T19:46:27.047Z",
+  "fetchedAt": "2026-09-10T22:39:17.445Z",
   "items": [
     {
       "id": "steam-2183900",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
+    },
+    {
+      "id": "steam-1850570",
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "url": "https://store.steampowered.com/app/1850570?l=schinese",
+      "discount": 75,
+      "originalPrice": 39.99,
+      "finalPrice": 9.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-10T22:39:17.445Z"
     },
     {
       "id": "steam-311210",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:27.047Z"
+      "publishedAt": "2026-09-10T22:39:17.445Z"
     },
     {
       "id": "steam-275850",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-3240220",
@@ -51,20 +64,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-1144200",
       "title": "Ready or Not",
       "url": "https://store.steampowered.com/app/1144200?l=schinese",
       "discount": 50,
-      "originalPrice": 49.99,
-      "finalPrice": 24.99,
+      "originalPrice": 159,
+      "finalPrice": 79.5,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:27.047Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
+    },
+    {
+      "id": "steam-2668510",
+      "title": "Red Dead Redemption",
+      "url": "https://store.steampowered.com/app/2668510?l=schinese",
+      "discount": 50,
+      "originalPrice": 49.99,
+      "finalPrice": 24.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-10T22:39:17.445Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-3624140",
@@ -90,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
-    },
-    {
-      "id": "steam-1465470",
-      "title": "The Crust",
-      "url": "https://store.steampowered.com/app/1465470?l=schinese",
-      "discount": 35,
-      "originalPrice": 31.99,
-      "finalPrice": 20.79,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465470/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:27.047Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-3764200",
@@ -116,33 +129,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
-      "id": "steam-3768760",
-      "title": "007 初露锋芒",
-      "url": "https://store.steampowered.com/app/3768760?l=schinese",
-      "discount": 20,
-      "originalPrice": 298,
-      "finalPrice": 238.4,
+      "id": "steam-2536520",
+      "title": "《暗黑破坏神2》重制版 - 终极包",
+      "url": "https://store.steampowered.com/app/2536520?l=schinese",
+      "discount": 30,
+      "originalPrice": 39.99,
+      "finalPrice": 27.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.445Z"
     },
     {
-      "id": "steam-3357650",
-      "title": "PRAGMATA",
-      "url": "https://store.steampowered.com/app/3357650?l=schinese",
-      "discount": 20,
-      "originalPrice": 59.99,
-      "finalPrice": 47.99,
+      "id": "steam-1390270",
+      "title": "《暗黑破坏神® IV》：“憎恨之王” - 标准版",
+      "url": "https://store.steampowered.com/app/1390270?l=schinese",
+      "discount": 25,
+      "originalPrice": 39.99,
+      "finalPrice": 29.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1390270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:27.047Z"
+      "publishedAt": "2026-09-10T22:39:17.445Z"
     },
     {
       "id": "steam-4030150",
@@ -155,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-3195440",
@@ -168,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-3971950",
@@ -181,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:26.811Z"
+      "publishedAt": "2026-09-10T22:39:17.270Z"
     },
     {
       "id": "steam-4739660",
@@ -194,7 +207,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T19:46:27.047Z"
+      "publishedAt": "2026-09-10T22:39:17.445Z"
     }
   ]
 }
