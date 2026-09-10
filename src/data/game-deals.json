@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T01:09:08.294Z",
+  "fetchedAt": "2026-09-10T06:03:23.705Z",
   "items": [
     {
       "id": "steam-2183900",
@@ -12,7 +12,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
+    },
+    {
+      "id": "steam-2050650",
+      "title": "Resident Evil 4",
+      "url": "https://store.steampowered.com/app/2050650?l=schinese",
+      "discount": 75,
+      "originalPrice": 198,
+      "finalPrice": 49.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-311210",
@@ -25,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.294Z"
+      "publishedAt": "2026-09-10T06:03:23.705Z"
     },
     {
       "id": "steam-275850",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-3240220",
@@ -51,20 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-1144200",
       "title": "Ready or Not",
       "url": "https://store.steampowered.com/app/1144200?l=schinese",
       "discount": 50,
-      "originalPrice": 159,
-      "finalPrice": 79.5,
+      "originalPrice": 49.99,
+      "finalPrice": 24.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.705Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-3624140",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-3764200",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-2406770",
@@ -116,7 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-3357650",
@@ -129,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.294Z"
+      "publishedAt": "2026-09-10T06:03:23.705Z"
     },
     {
       "id": "steam-4030150",
@@ -142,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     },
     {
       "id": "steam-3971950",
@@ -155,20 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.053Z"
-    },
-    {
-      "id": "steam-3123060",
-      "title": "Warlord: Awaji",
-      "url": "https://store.steampowered.com/app/3123060?l=schinese",
-      "discount": 10,
-      "originalPrice": 24.99,
-      "finalPrice": 22.49,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123060/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-10T01:09:08.294Z"
+      "publishedAt": "2026-09-10T06:03:23.524Z"
     }
   ]
 }
