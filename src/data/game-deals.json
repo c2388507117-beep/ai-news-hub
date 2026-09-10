@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T11:28:56.754Z",
+  "fetchedAt": "2026-09-10T16:30:13.133Z",
   "items": [
     {
       "id": "steam-2183900",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
       "id": "steam-311210",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.754Z"
+      "publishedAt": "2026-09-10T16:30:13.133Z"
     },
     {
       "id": "steam-275850",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.938Z"
     },
     {
       "id": "steam-1144200",
@@ -64,7 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
+    },
+    {
+      "id": "steam-3949040",
+      "title": "我们到了吗？",
+      "url": "https://store.steampowered.com/app/3949040?l=schinese",
+      "discount": 40,
+      "originalPrice": 7.99,
+      "finalPrice": 4.79,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-10T16:30:13.133Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
       "id": "steam-3624140",
@@ -90,20 +103,33 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
+    },
+    {
+      "id": "steam-3241660",
+      "title": "R.E.P.O.",
+      "url": "https://store.steampowered.com/app/3241660?l=schinese",
+      "discount": 35,
+      "originalPrice": 35,
+      "finalPrice": 22.75,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
       "id": "steam-3764200",
       "title": "Resident Evil Requiem",
       "url": "https://store.steampowered.com/app/3764200?l=schinese",
       "discount": 30,
-      "originalPrice": 348,
-      "finalPrice": 243.6,
+      "originalPrice": 69.99,
+      "finalPrice": 48.99,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:13.133Z"
     },
     {
       "id": "steam-2406770",
@@ -116,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
       "id": "steam-3357650",
@@ -129,7 +155,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.754Z"
+      "publishedAt": "2026-09-10T16:30:13.133Z"
+    },
+    {
+      "id": "steam-3768760",
+      "title": "007 初露锋芒",
+      "url": "https://store.steampowered.com/app/3768760?l=schinese",
+      "discount": 20,
+      "originalPrice": 69.99,
+      "finalPrice": 55.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-10T16:30:13.133Z"
     },
     {
       "id": "steam-4030150",
@@ -142,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
       "id": "steam-3971950",
@@ -155,20 +194,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.557Z"
+      "publishedAt": "2026-09-10T16:30:12.939Z"
     },
     {
-      "id": "steam-3123060",
-      "title": "Warlord: Awaji",
-      "url": "https://store.steampowered.com/app/3123060?l=schinese",
+      "id": "steam-3195440",
+      "title": "欢迎来到古原镇",
+      "url": "https://store.steampowered.com/app/3195440?l=schinese",
       "discount": 10,
-      "originalPrice": 24.99,
-      "finalPrice": 22.49,
+      "originalPrice": 17.99,
+      "finalPrice": 16.19,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123060/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-10T11:28:56.754Z"
+      "publishedAt": "2026-09-10T16:30:13.133Z"
     }
   ]
 }
