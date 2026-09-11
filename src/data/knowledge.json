@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-10T22:39:22.330Z",
+  "fetchedAt": "2026-09-11T01:10:33.352Z",
   "items": [
+    {
+      "title": "棋斑水游蛇",
+      "extract": "棋斑水游蛇 是蛇亞目新蛇科下的一個無毒蛇種，主要分布於歐亞地區。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A3%8B%E6%96%91%E6%B0%B4%E6%B8%B8%E8%9B%87",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Natrix_tessellata_capturing_a_Gobius_fish_-_20060710.jpg/330px-Natrix_tessellata_capturing_a_Gobius_fish_-_20060710.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "莫里斯·富尔",
       "extract": "莫里斯·富尔，是一名法国抵抗运动的成员，并在数届法国政府担任部长职位。他出生于多尔多涅省的阿兹拉。\n",
@@ -27,13 +34,6 @@
       "extract": "壘壁陣五 是在天球赤道星座寶瓶座的一個聯星系統。寶瓶座ι是拜耳命名法賦予它的名稱，英語：Iota Aquarii 拉丁化的縮寫為「Iota Aqr」或「ι Aqr」。這顆恆星的視星等為+4.279，以肉眼可見。 根據視差測量，這顆恆星的距離約為 175光年（54秒差距）。系統正以 −10公里/秒的徑向速度逐漸接近太陽。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%A3%98%E5%A3%81%E9%99%A3%E4%BA%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aquarius_IAU.svg/langzh-330px-Aquarius_IAU.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "維茨科湖",
-      "extract": "維茨科湖是波蘭的湖泊，位於該國西北部，處於西波美拉尼亞省，長5.1公里、寬3.7公里，面積18.9平方公里，海拔高度0.1米，平均水深6米，最大水深15.2米，蓄水量2.2億立方米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E8%8C%A8%E7%A7%91%E6%B9%96",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Vietzker_See.jpg/330px-Vietzker_See.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
