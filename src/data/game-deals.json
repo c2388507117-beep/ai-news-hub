@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T19:48:00.312Z",
+  "fetchedAt": "2026-09-11T22:39:00.135Z",
   "items": [
     {
       "id": "steam-1850570",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-2183900",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
+    },
+    {
+      "id": "steam-311210",
+      "title": "Call of Duty®: Black Ops III",
+      "url": "https://store.steampowered.com/app/311210?l=schinese",
+      "discount": 75,
+      "originalPrice": 59.99,
+      "finalPrice": 14.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-11T22:39:00.134Z"
     },
     {
       "id": "steam-275850",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.906Z"
     },
     {
       "id": "steam-3240220",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-1144200",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-3892270",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-3624140",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-3764200",
@@ -103,20 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
-    },
-    {
-      "id": "steam-2536520",
-      "title": "《暗黑破坏神2》重制版 - 终极包",
-      "url": "https://store.steampowered.com/app/2536520?l=schinese",
-      "discount": 30,
-      "originalPrice": 39.99,
-      "finalPrice": 27.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.312Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-1390270",
@@ -129,33 +129,46 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1390270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
-      "id": "steam-3768760",
-      "title": "007 初露锋芒",
-      "url": "https://store.steampowered.com/app/3768760?l=schinese",
+      "id": "steam-2456740",
+      "title": "inZOI (云族裔)",
+      "url": "https://store.steampowered.com/app/2456740?l=schinese",
       "discount": 20,
-      "originalPrice": 298,
-      "finalPrice": 238.4,
+      "originalPrice": 39.99,
+      "finalPrice": 31.99,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.110Z"
+      "publishedAt": "2026-09-11T22:39:00.134Z"
     },
     {
-      "id": "steam-3357650",
-      "title": "PRAGMATA",
-      "url": "https://store.steampowered.com/app/3357650?l=schinese",
-      "discount": 20,
-      "originalPrice": 59.99,
-      "finalPrice": 47.99,
+      "id": "steam-3393280",
+      "title": "动漫商店模拟器",
+      "url": "https://store.steampowered.com/app/3393280?l=schinese",
+      "discount": 15,
+      "originalPrice": 14.99,
+      "finalPrice": 12.74,
       "currency": "¥",
       "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.312Z"
+      "publishedAt": "2026-09-11T22:39:00.134Z"
+    },
+    {
+      "id": "steam-3195440",
+      "title": "欢迎来到古原镇",
+      "url": "https://store.steampowered.com/app/3195440?l=schinese",
+      "discount": 10,
+      "originalPrice": 59,
+      "finalPrice": 53.1,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-11T22:38:59.907Z"
     },
     {
       "id": "steam-4739660",
@@ -168,20 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.312Z"
-    },
-    {
-      "id": "steam-3195440",
-      "title": "欢迎来到古原镇",
-      "url": "https://store.steampowered.com/app/3195440?l=schinese",
-      "discount": 10,
-      "originalPrice": 17.99,
-      "finalPrice": 16.19,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.312Z"
+      "publishedAt": "2026-09-11T22:39:00.134Z"
     },
     {
       "id": "steam-4150860",
@@ -194,7 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4150860/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T19:48:00.312Z"
+      "publishedAt": "2026-09-11T22:39:00.134Z"
     }
   ]
 }
