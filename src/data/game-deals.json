@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-11T01:10:28.504Z",
+  "fetchedAt": "2026-09-11T06:05:15.193Z",
   "items": [
     {
       "id": "steam-1850570",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-2183900",
@@ -25,7 +25,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-311210",
@@ -38,7 +38,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.504Z"
+      "publishedAt": "2026-09-11T06:05:15.193Z"
     },
     {
       "id": "steam-275850",
@@ -51,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-3240220",
@@ -64,33 +64,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-1144200",
       "title": "Ready or Not",
       "url": "https://store.steampowered.com/app/1144200?l=schinese",
       "discount": 50,
-      "originalPrice": 49.99,
-      "finalPrice": 24.99,
+      "originalPrice": 159,
+      "finalPrice": 79.5,
       "currency": "¥",
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.504Z"
-    },
-    {
-      "id": "steam-2668510",
-      "title": "Red Dead Redemption",
-      "url": "https://store.steampowered.com/app/2668510?l=schinese",
-      "discount": 50,
-      "originalPrice": 49.99,
-      "finalPrice": 24.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.504Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-3892270",
@@ -103,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-3624140",
@@ -116,20 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
-    },
-    {
-      "id": "steam-3764200",
-      "title": "Resident Evil Requiem",
-      "url": "https://store.steampowered.com/app/3764200?l=schinese",
-      "discount": 30,
-      "originalPrice": 348,
-      "finalPrice": 243.6,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-2536520",
@@ -142,7 +116,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.504Z"
+      "publishedAt": "2026-09-11T06:05:15.193Z"
+    },
+    {
+      "id": "steam-3764200",
+      "title": "Resident Evil Requiem",
+      "url": "https://store.steampowered.com/app/3764200?l=schinese",
+      "discount": 30,
+      "originalPrice": 69.99,
+      "finalPrice": 48.99,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-11T06:05:15.193Z"
     },
     {
       "id": "steam-1390270",
@@ -155,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1390270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-4030150",
@@ -168,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-3195440",
@@ -181,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.356Z"
+      "publishedAt": "2026-09-11T06:05:15.026Z"
     },
     {
       "id": "steam-4739660",
@@ -194,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-11T01:10:28.504Z"
+      "publishedAt": "2026-09-11T06:05:15.193Z"
     }
   ]
 }

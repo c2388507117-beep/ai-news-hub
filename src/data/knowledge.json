@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-11T01:10:33.352Z",
+  "fetchedAt": "2026-09-11T06:05:20.858Z",
   "items": [
+    {
+      "title": "布蘭肯湖",
+      "extract": "布蘭肯湖，是德國的湖泊，位於該國東北部，由勃蘭登堡州負責管轄，處於特雷賓，面積2.8平方公里，海拔高度34米，最大水深57米，水體容量1,900萬立方米。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E8%98%AD%E8%82%AF%E6%B9%96",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Blankensee4.JPG/330px-Blankensee4.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "棋斑水游蛇",
       "extract": "棋斑水游蛇 是蛇亞目新蛇科下的一個無毒蛇種，主要分布於歐亞地區。\n",
@@ -27,13 +34,6 @@
       "extract": "格利泽581e 是迄今发现的第四颗围绕M3V型红矮星格利泽581运转的行星，属于太阳系外行星，位于天秤座，距离地球大约20.5光年。该行星的质量至少为地球的1.9倍，是迄今发现的围绕太阳系外恒星运转的最小的、同时也是质量最接近地球的太阳系外行星。不过它的轨道距离其母星只有0.03个天文单位，远离适居带；同时由于高温、过小的体积和来自恒星的强烈辐射，它也不大可能拥有大气层。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%88%A9%E6%B3%BD581e",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Gliese_581_Artist%27s_impression.jpg/330px-Gliese_581_Artist%27s_impression.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "壘壁陣五",
-      "extract": "壘壁陣五 是在天球赤道星座寶瓶座的一個聯星系統。寶瓶座ι是拜耳命名法賦予它的名稱，英語：Iota Aquarii 拉丁化的縮寫為「Iota Aqr」或「ι Aqr」。這顆恆星的視星等為+4.279，以肉眼可見。 根據視差測量，這顆恆星的距離約為 175光年（54秒差距）。系統正以 −10公里/秒的徑向速度逐漸接近太陽。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%A3%98%E5%A3%81%E9%99%A3%E4%BA%94",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aquarius_IAU.svg/langzh-330px-Aquarius_IAU.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
