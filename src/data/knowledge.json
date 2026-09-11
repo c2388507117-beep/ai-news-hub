@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-11T11:30:38.236Z",
+  "fetchedAt": "2026-09-11T16:34:52.329Z",
   "items": [
+    {
+      "title": "屈西",
+      "extract": "屈西 是法国上萨瓦省的一个市镇，位于该省西南部，和萨瓦省接壤，属于阿讷西区。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B1%88%E8%A5%BF",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Cusy_au_pied_des_Bauges_%28septembre_2021%29.JPG/330px-Cusy_au_pied_des_Bauges_%28septembre_2021%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "卡菲耶",
       "extract": "卡菲耶 是法国上法蘭西大區加来海峡省的一个市镇，属于加来区。\n",
@@ -27,13 +34,6 @@
       "extract": "莫里斯·富尔，是一名法国抵抗运动的成员，并在数届法国政府担任部长职位。他出生于多尔多涅省的阿兹拉。\n",
       "url": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E9%87%8C%E6%96%AF%C2%B7%E5%AF%8C%E5%B0%94",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Maurice_Faure_-_11-11-2007.jpg/330px-Maurice_Faure_-_11-11-2007.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "錫那羅亞販毒集團",
-      "extract": "锡那罗亚贩毒集团 是一个总部位于墨西哥锡那罗亚州库利亚坎的犯罪集团，从事贩毒和洗钱等犯罪活动，活动范围包括下加利福尼亚州、杜兰戈州、索诺拉州和奇瓦瓦州。这一集团还被称作古斯曼-洛埃拉集团、太平洋贩毒集团（因为该集团来自墨西哥太平洋海岸）、联盟或血联盟。当贝尔特兰-莱瓦兄弟分离出去时，“联盟”在一定程度上被拆分了。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%8C%AB%E9%82%A3%E7%BE%85%E4%BA%9E%E8%B2%A9%E6%AF%92%E9%9B%86%E5%9C%98",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cartel_De_Sinaloa.svg/langzh-330px-Cartel_De_Sinaloa.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
