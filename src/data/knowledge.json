@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-12T05:54:14.112Z",
+  "fetchedAt": "2026-09-12T10:55:01.478Z",
   "items": [
+    {
+      "title": "卢卡·莫德里奇",
+      "extract": "卢卡·莫德里奇 是克羅埃西亞男子職業足球員，司職中場，效力克羅埃西亞國家足球隊。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A2%E5%8D%A1%C2%B7%E8%8E%AB%E5%BE%B7%E9%87%8C%E5%A5%87",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Luka_Modric_Croatia_v_Portugal_2_July_2026-025.jpg/330px-Luka_Modric_Croatia_v_Portugal_2_July_2026-025.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "李怡志",
       "extract": "李怡志，臺北萬華人，臺灣網路媒體工作者、教育工作者、部落客，現為政治大學傳播學院專任教師、財團法人中央通訊社董事，曾在中時報系擔任記者、主編，後任職於Yahoo!奇摩近二十年。其專長領域為數位內容產品開發、網路數據分析、資訊視覺化與新聞圖表等，自2003年起時常在企業、大學進行資訊圖表相關知識傳授、教育訓練。\n",
@@ -27,13 +34,6 @@
       "extract": "郎平（1960年12月10日—），原籍天津，中国女子排球运动员及教练，凭藉强劲而精确的扣杀而赢得“铁榔头”的绰号，而在教练时代，郎平也被称为“郎指导”或“郎导”。曾為中国女排总教练。現時為中國排球協會副主席。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%83%8E%E5%B9%B3",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%E9%83%8E_%E5%B9%B3.jpg/330px-%E9%83%8E_%E5%B9%B3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "屈西",
-      "extract": "屈西 是法国上萨瓦省的一个市镇，位于该省西南部，和萨瓦省接壤，属于阿讷西区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B1%88%E8%A5%BF",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Cusy_au_pied_des_Bauges_%28septembre_2021%29.JPG/330px-Cusy_au_pied_des_Bauges_%28septembre_2021%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
