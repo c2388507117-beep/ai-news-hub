@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-12T19:28:08.138Z",
+  "fetchedAt": "2026-09-12T22:22:33.086Z",
   "items": [
+    {
+      "title": "马尔科姆·李",
+      "extract": "马尔科姆·T·李，美国NBA联盟职业篮球运动员。他在2011年的NBA选秀中第2轮第13顺位被芝加哥公牛选中。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A7%86%C2%B7%E6%9D%8E",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Malcolm_Lee_UCLA.jpg/330px-Malcolm_Lee_UCLA.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "掌叶橐吾",
       "extract": "掌叶橐吾 是菊科橐吾属的植物。分布于中国大陆的陕西、内蒙古、江苏、青海、山西、四川、宁夏、甘肃等地，生长于海拔1,100米至3,700米的地区，一般生于林下、林缘、山麓、河滩和灌丛，目前尚未由人工引种栽培。\n",
@@ -27,13 +34,6 @@
       "extract": "卢卡·莫德里奇 是克羅埃西亞男子職業足球員，司職中場，效力克羅埃西亞國家足球隊。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%A2%E5%8D%A1%C2%B7%E8%8E%AB%E5%BE%B7%E9%87%8C%E5%A5%87",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Luka_Modric_Croatia_v_Portugal_2_July_2026-025.jpg/330px-Luka_Modric_Croatia_v_Portugal_2_July_2026-025.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "李怡志",
-      "extract": "李怡志，臺北萬華人，臺灣網路媒體工作者、教育工作者、部落客，現為政治大學傳播學院專任教師、財團法人中央通訊社董事，曾在中時報系擔任記者、主編，後任職於Yahoo!奇摩近二十年。其專長領域為數位內容產品開發、網路數據分析、資訊視覺化與新聞圖表等，自2003年起時常在企業、大學進行資訊圖表相關知識傳授、教育訓練。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%80%A1%E5%BF%97",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/%E6%9D%8E%E6%80%A1%E5%BF%97.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": "wikipedia"
     }
   ]
