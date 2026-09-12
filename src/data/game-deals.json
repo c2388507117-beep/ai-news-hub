@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-12T01:12:01.424Z",
+  "fetchedAt": "2026-09-12T05:54:08.846Z",
   "items": [
     {
       "id": "steam-1850570",
@@ -12,7 +12,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-2183900",
@@ -25,7 +25,20 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
+    },
+    {
+      "id": "steam-2050650",
+      "title": "Resident Evil 4",
+      "url": "https://store.steampowered.com/app/2050650?l=schinese",
+      "discount": 75,
+      "originalPrice": 198,
+      "finalPrice": 49.5,
+      "currency": "¥",
+      "region": "国区",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+      "platform": "Steam",
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-311210",
@@ -38,7 +51,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.424Z"
+      "publishedAt": "2026-09-12T05:54:08.846Z"
     },
     {
       "id": "steam-275850",
@@ -51,7 +64,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.245Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-3240220",
@@ -64,7 +77,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-1144200",
@@ -77,7 +90,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-3892270",
@@ -90,7 +103,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-3624140",
@@ -103,7 +116,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-3764200",
@@ -116,20 +129,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
-    },
-    {
-      "id": "steam-1390270",
-      "title": "《暗黑破坏神® IV》：“憎恨之王” - 标准版",
-      "url": "https://store.steampowered.com/app/1390270?l=schinese",
-      "discount": 25,
-      "originalPrice": 278,
-      "finalPrice": 208.5,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1390270/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-2456740",
@@ -142,7 +142,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.424Z"
+      "publishedAt": "2026-09-12T05:54:08.846Z"
     },
     {
       "id": "steam-3393280",
@@ -155,7 +155,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393280/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.424Z"
+      "publishedAt": "2026-09-12T05:54:08.846Z"
     },
     {
       "id": "steam-4030150",
@@ -168,7 +168,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.246Z"
+      "publishedAt": "2026-09-12T05:54:08.677Z"
     },
     {
       "id": "steam-4739660",
@@ -181,7 +181,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739660/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.424Z"
+      "publishedAt": "2026-09-12T05:54:08.846Z"
     },
     {
       "id": "steam-3195440",
@@ -194,20 +194,7 @@
       "region": "国区",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/header.jpg",
       "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.424Z"
-    },
-    {
-      "id": "steam-4150860",
-      "title": "The Loopler",
-      "url": "https://store.steampowered.com/app/4150860?l=schinese",
-      "discount": 10,
-      "originalPrice": 9.99,
-      "finalPrice": 8.99,
-      "currency": "¥",
-      "region": "国区",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4150860/header.jpg",
-      "platform": "Steam",
-      "publishedAt": "2026-09-12T01:12:01.424Z"
+      "publishedAt": "2026-09-12T05:54:08.846Z"
     }
   ]
 }

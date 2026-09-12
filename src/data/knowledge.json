@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-12T01:12:06.445Z",
+  "fetchedAt": "2026-09-12T05:54:14.112Z",
   "items": [
+    {
+      "title": "李怡志",
+      "extract": "李怡志，臺北萬華人，臺灣網路媒體工作者、教育工作者、部落客，現為政治大學傳播學院專任教師、財團法人中央通訊社董事，曾在中時報系擔任記者、主編，後任職於Yahoo!奇摩近二十年。其專長領域為數位內容產品開發、網路數據分析、資訊視覺化與新聞圖表等，自2003年起時常在企業、大學進行資訊圖表相關知識傳授、教育訓練。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%80%A1%E5%BF%97",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/%E6%9D%8E%E6%80%A1%E5%BF%97.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "source": "wikipedia"
+    },
     {
       "title": "麥稈酒",
       "extract": "風乾葡萄酒，常被稱為麥稈(葡萄)酒、麥杆(葡萄)酒、麥稈甜(葡萄)酒、或風乾葡萄酒，是一種將葡萄斷梗置於葡萄藤架上或平鋪於層架上利用陽光與自然風吹(依釀造酒款不同 5天到90天左右)以使葡萄中的汁液因水分流失(5%~45%水分因葡萄種類而別)而汁液的糖度因此增加, 進而去榨汁、釀造而得的葡萄酒。\n",
@@ -27,13 +34,6 @@
       "extract": "屈西 是法国上萨瓦省的一个市镇，位于该省西南部，和萨瓦省接壤，属于阿讷西区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%B1%88%E8%A5%BF",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Cusy_au_pied_des_Bauges_%28septembre_2021%29.JPG/330px-Cusy_au_pied_des_Bauges_%28septembre_2021%29.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "卡菲耶",
-      "extract": "卡菲耶 是法国上法蘭西大區加来海峡省的一个市镇，属于加来区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E8%8F%B2%E8%80%B6",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Caffiers_-_Mairie.JPG/330px-Caffiers_-_Mairie.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
