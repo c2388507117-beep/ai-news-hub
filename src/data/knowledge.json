@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-11T22:39:06.267Z",
+  "fetchedAt": "2026-09-12T01:12:06.445Z",
   "items": [
+    {
+      "title": "麥稈酒",
+      "extract": "風乾葡萄酒，常被稱為麥稈(葡萄)酒、麥杆(葡萄)酒、麥稈甜(葡萄)酒、或風乾葡萄酒，是一種將葡萄斷梗置於葡萄藤架上或平鋪於層架上利用陽光與自然風吹(依釀造酒款不同 5天到90天左右)以使葡萄中的汁液因水分流失(5%~45%水分因葡萄種類而別)而汁液的糖度因此增加, 進而去榨汁、釀造而得的葡萄酒。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E7%A8%88%E9%85%92",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Vin_paille.jpg/330px-Vin_paille.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "ん",
       "extract": "平假名ん和片假名ン是日语的假名之一，由一个音节组成。通常在日语五十音图中排第48个的位置。\n",
@@ -27,13 +34,6 @@
       "extract": "卡菲耶 是法国上法蘭西大區加来海峡省的一个市镇，属于加来区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E8%8F%B2%E8%80%B6",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Caffiers_-_Mairie.JPG/330px-Caffiers_-_Mairie.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "布蘭肯湖",
-      "extract": "布蘭肯湖，是德國的湖泊，位於該國東北部，由勃蘭登堡州負責管轄，處於特雷賓，面積2.8平方公里，海拔高度34米，最大水深57米，水體容量1,900萬立方米。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E8%98%AD%E8%82%AF%E6%B9%96",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Blankensee4.JPG/330px-Blankensee4.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
