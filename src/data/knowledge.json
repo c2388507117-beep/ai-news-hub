@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-12T10:55:01.478Z",
+  "fetchedAt": "2026-09-12T14:12:34.819Z",
   "items": [
+    {
+      "title": "黃詠霖",
+      "extract": "黃詠霖，藝名「阿蛋」，香港女歌手及演員。現為本地女子組合Lolly Talk成員之一。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E8%A9%A0%E9%9C%96",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Violet_Wong_20260815.jpg/330px-Violet_Wong_20260815.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "卢卡·莫德里奇",
       "extract": "卢卡·莫德里奇 是克羅埃西亞男子職業足球員，司職中場，效力克羅埃西亞國家足球隊。\n",
@@ -27,13 +34,6 @@
       "extract": "平假名ん和片假名ン是日语的假名之一，由一个音节组成。通常在日语五十音图中排第48个的位置。\n",
       "url": "https://zh.wikipedia.org/wiki/%E3%82%93",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Japanese_Hiragana_kyokashotai_N.png/330px-Japanese_Hiragana_kyokashotai_N.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "郎平",
-      "extract": "郎平（1960年12月10日—），原籍天津，中国女子排球运动员及教练，凭藉强劲而精确的扣杀而赢得“铁榔头”的绰号，而在教练时代，郎平也被称为“郎指导”或“郎导”。曾為中国女排总教练。現時為中國排球協會副主席。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%83%8E%E5%B9%B3",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%E9%83%8E_%E5%B9%B3.jpg/330px-%E9%83%8E_%E5%B9%B3.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
