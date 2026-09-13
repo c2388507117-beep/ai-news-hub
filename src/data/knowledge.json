@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-13T06:17:00.447Z",
+  "fetchedAt": "2026-09-13T12:06:34.101Z",
   "items": [
+    {
+      "title": "瘤果槲寄生",
+      "extract": "瘤果槲寄生 为桑寄生科槲寄生属的植物。分布于老挝、印度尼西亚、泰国、缅甸、马来西亚、菲律宾、越南、柬埔寨、印度以及中国大陆的云南、广西、广东等地，生长于海拔10米至1,100米的地区，常生于山坡、海岸红树林中、常绿阔叶林中、疏林中、盆地、芸香科树上、平原及亚热带雨林中，目前尚未由人工引种栽培。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E7%98%A4%E6%9E%9C%E6%A7%B2%E5%AF%84%E7%94%9F",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Viscum_ovalifolium_%28Fusanus_parasiticus_V_philippense_Llan_%288101233638%29.jpg/330px-Viscum_ovalifolium_%28Fusanus_parasiticus_V_philippense_Llan_%288101233638%29.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "文化中心 (赫尔辛基)",
       "extract": "文化中心 是位于芬兰赫尔辛基市的一幢大楼，现今主要用于音乐表演及其他活动的场所。该大楼由阿尔瓦尔·阿尔托设计，由芬兰人民民主联盟组织的志愿人员在1950年代建成。现今该大楼由一家私人公司拥有。\n",
@@ -27,13 +34,6 @@
       "extract": "掌叶橐吾 是菊科橐吾属的植物。分布于中国大陆的陕西、内蒙古、江苏、青海、山西、四川、宁夏、甘肃等地，生长于海拔1,100米至3,700米的地区，一般生于林下、林缘、山麓、河滩和灌丛，目前尚未由人工引种栽培。\n",
       "url": "https://zh.wikipedia.org/wiki/%E6%8E%8C%E5%8F%B6%E6%A9%90%E5%90%BE",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Ligularia_przewalskii.jpg/330px-Ligularia_przewalskii.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "图埃河畔阿尔塔讷",
-      "extract": "圖埃河畔阿尔塔讷 是法国曼恩-卢瓦尔省的一个市镇，属于索米尔区。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E5%9F%83%E6%B2%B3%E7%95%94%E9%98%BF%E5%B0%94%E5%A1%94%E8%AE%B7",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/49_Artannes-sur-Thouet_%C3%A9glise.jpg/330px-49_Artannes-sur-Thouet_%C3%A9glise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
