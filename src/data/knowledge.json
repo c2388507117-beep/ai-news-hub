@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-13T01:06:12.857Z",
+  "fetchedAt": "2026-09-13T06:17:00.447Z",
   "items": [
+    {
+      "title": "文化中心 (赫尔辛基)",
+      "extract": "文化中心 是位于芬兰赫尔辛基市的一幢大楼，现今主要用于音乐表演及其他活动的场所。该大楼由阿尔瓦尔·阿尔托设计，由芬兰人民民主联盟组织的志愿人员在1950年代建成。现今该大楼由一家私人公司拥有。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83_(%E8%B5%AB%E5%B0%94%E8%BE%9B%E5%9F%BA)",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kulttuuritalo_Helsinki_28_toukokuuta_2013.JPG/330px-Kulttuuritalo_Helsinki_28_toukokuuta_2013.JPG?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "沙姆沙伊赫国际机场",
       "extract": "沙姆沙伊赫国际机场 是埃及旅游胜地沙姆沙伊赫的国际机场，是该国仅次于开罗国际机场的第二繁忙的机场，跻身非洲十大最繁忙机场之列。\n",
@@ -27,13 +34,6 @@
       "extract": "圖埃河畔阿尔塔讷 是法国曼恩-卢瓦尔省的一个市镇，属于索米尔区。\n",
       "url": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E5%9F%83%E6%B2%B3%E7%95%94%E9%98%BF%E5%B0%94%E5%A1%94%E8%AE%B7",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/49_Artannes-sur-Thouet_%C3%A9glise.jpg/330px-49_Artannes-sur-Thouet_%C3%A9glise.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "黃詠霖",
-      "extract": "黃詠霖，藝名「阿蛋」，香港女歌手及演員。現為本地女子組合Lolly Talk成員之一。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E8%A9%A0%E9%9C%96",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Violet_Wong_20260815.jpg/330px-Violet_Wong_20260815.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
