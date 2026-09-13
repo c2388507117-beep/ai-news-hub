@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-12T22:22:33.086Z",
+  "fetchedAt": "2026-09-13T01:06:12.857Z",
   "items": [
+    {
+      "title": "沙姆沙伊赫国际机场",
+      "extract": "沙姆沙伊赫国际机场 是埃及旅游胜地沙姆沙伊赫的国际机场，是该国仅次于开罗国际机场的第二繁忙的机场，跻身非洲十大最繁忙机场之列。\n",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E5%A7%86%E6%B2%99%E4%BC%8A%E8%B5%AB%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Sharm_el-Sheikh_International_Airport.jpg/330px-Sharm_el-Sheikh_International_Airport.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "source": "wikipedia"
+    },
     {
       "title": "马尔科姆·李",
       "extract": "马尔科姆·T·李，美国NBA联盟职业篮球运动员。他在2011年的NBA选秀中第2轮第13顺位被芝加哥公牛选中。\n",
@@ -27,13 +34,6 @@
       "extract": "黃詠霖，藝名「阿蛋」，香港女歌手及演員。現為本地女子組合Lolly Talk成員之一。\n",
       "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E8%A9%A0%E9%9C%96",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Violet_Wong_20260815.jpg/330px-Violet_Wong_20260815.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "source": "wikipedia"
-    },
-    {
-      "title": "卢卡·莫德里奇",
-      "extract": "卢卡·莫德里奇 是克羅埃西亞男子職業足球員，司職中場，效力克羅埃西亞國家足球隊。\n",
-      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A2%E5%8D%A1%C2%B7%E8%8E%AB%E5%BE%B7%E9%87%8C%E5%A5%87",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Luka_Modric_Croatia_v_Portugal_2_July_2026-025.jpg/330px-Luka_Modric_Croatia_v_Portugal_2_July_2026-025.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "source": "wikipedia"
     }
   ]
